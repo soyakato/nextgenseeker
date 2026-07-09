@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T15:34:41.836205+00:00",
+  "updated": "2026-07-09T20:04:50.945723+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,17 +8,17 @@
       "streak": 2,
       "appearances": 2,
       "best_rank": 19,
-      "today_rank": 21,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Baker Hughes Company",
       "sector": "Energy",
       "persist": 60,
       "news": 58.5,
-      "confirm": 73.1,
-      "signal": 63.3,
+      "confirm": 75.3,
+      "signal": 64.0,
       "mom": {
-        "ret5": 0.0621,
-        "vol_surge": 1.3
+        "ret5": 0.0628,
+        "vol_surge": 1.43
       },
       "earn_days": 17,
       "headlines": [
@@ -90,12 +90,12 @@
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 60,
-      "news": 52.6,
-      "confirm": 70.7,
-      "signal": 60.2,
+      "news": 56.6,
+      "confirm": 72.2,
+      "signal": 62.3,
       "mom": {
-        "ret5": 0.0854,
-        "vol_surge": 0.67
+        "ret5": 0.086,
+        "vol_surge": 0.76
       },
       "earn_days": null,
       "headlines": [
@@ -112,48 +112,48 @@
           "is_edgar": true
         },
         {
-          "title": "Micron, Sandisk, Marvell stocks jump, leading chip sector gains",
-          "summary": "Micron and other chip-related stocks rose on Thursday as the AI trade reignited.",
-          "pub": "2026-07-09T13:54",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/micron-sandisk-marvell-stocks-jump-leading-chip-sector-gains-135433074.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Tech stocks live: Tech stocks buffeted by AI bubble concerns, dip-buying",
-          "summary": "Investors are assessing strong momentum for hardware companies in the first half of the year.",
-          "pub": "2026-07-06T13:10",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-tech-stocks-buffeted-by-ai-bubble-concerns-dip-buying-131003284.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "空売り・過大評価",
-          "why": "-空売り・過大評価"
-        },
-        {
-          "title": "Apple & Broadcom ramp up American manufacturing with $30B AI chip partnership",
-          "summary": "Apple (AAPL) and Broadcom (AVGO) are partnering on a $30 billion AI chip deal. Yahoo Finance Technology Editor Dan Howley explains more in the video above.",
-          "pub": "2026-07-08T15:56",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/apple--broadcom-ramp-up-american-manufacturing-with-30b-ai-chip-partnership-155611706.html",
+          "title": "$35 Billion AI Credit Deal Nears Trading as Broadcom Financing Advances",
+          "summary": "About $15 billion of the AI infrastructure financing could become tradable by early next year.",
+          "pub": "2026-07-09T18:40",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/35-billion-ai-credit-deal-184014429.html",
           "dir": 0.6,
           "conf": 0.6,
           "type": "契約・提携",
           "why": "+契約・提携"
         },
         {
-          "title": "Meta Reportedly Takes Big Step Toward AI Chip. But The Stock Is Falling.",
-          "summary": "Meta stock fell while shares of Broadcom climbed following a report that the social media company is making AI chip progress.",
-          "pub": "2026-07-09T14:57",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/meta-reportedly-takes-big-step-toward-ai-chip-but-the-stock-is-falling/?src=A00220&yptr=yahoo",
+          "title": "CPU Competition Gearing Up to Cool AMD’s Massive Run",
+          "summary": "Advanced Micro Devices  has soared over the past year amid excitement over its central-processing units.  AMD shares were up 6% at $548.58 in mid-afternoon trading Thursday, adding to a 280% gain over the past 12 months.",
+          "pub": "2026-07-09T17:58",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/amd-stock-price-analyst-sell-intel-cd026a13?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "A Gigawatt Jolt for Meta Stock",
+          "summary": "Meta also wants to double its overall computing capacity to 14 gigawatts in 2027, Reuters reports. It may signal a big new business line.",
+          "pub": "2026-07-09T17:50",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/meta-stock-price-muse-ai-model-broadcom-chips-cd81befb?siteid=yhoof2&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Broadcom’s (AVGO) AI Chip Momentum Keeps Wall Street Bullish",
+          "summary": "Broadcom Inc. (NASDAQ:AVGO) is one of the top stocks to buy according to Whale Rock Capital Management. On June 30, Jefferies analyst Blayne Curtis reiterated his Buy rating and $550 price target on Broadcom Inc. (NASDAQ:AVGO). The analyst cited an improving outlook for the company’s AI chip busines",
+          "pub": "2026-07-09T17:18",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-ai-chip-momentum-171843575.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "格上げ",
+          "why": "+格上げ"
         }
       ]
     },
@@ -169,14 +169,25 @@
       "sector": "Healthcare",
       "persist": 60,
       "news": 67.0,
-      "confirm": 48.1,
-      "signal": 59.2,
+      "confirm": 51.3,
+      "signal": 60.2,
       "mom": {
-        "ret5": 0.0037,
-        "vol_surge": 0.8
+        "ret5": 0.0089,
+        "vol_surge": 0.91
       },
       "earn_days": 28,
       "headlines": [
+        {
+          "title": "NVIDIA (NVDA): The Best NASDAQ 100 Stock to Buy Other Than SpaceX",
+          "summary": "NVIDIA Corporation (NASDAQ:NVDA) is one of the 15 Best NASDAQ 100 Stocks to Buy Other Than SpaceX. On July 7, 2026, Certara (CERT) said it is partnering with NVIDIA Corporation (NASDAQ:NVDA) to advance Certara’s open integrated AI platform. NVIDIA BioNeMo provides access to NVIDIA’s full life scienc",
+          "pub": "2026-07-09T16:44",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-best-nasdaq-100-164401962.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "AI Chips Today - Certara-NVIDIA Partnership Revolutionizes AI in Drug Development",
           "summary": "Certara has announced a partnership with NVIDIA to enhance its AI platform for drug discovery and development by incorporating the NVIDIA BioNeMo Agent Toolkit. This collaboration aims to unify Certara's biosimulation software, regulatory expertise, and datasets with AI-driven agents that provide sp",
@@ -198,94 +209,6 @@
           "conf": 1.0,
           "type": "契約・提携",
           "why": "+契約・提携 +拡大・新製品"
-        },
-        {
-          "title": "Is Certara (CERT) Quietly Recasting Its Small-Cap Identity Around Biosimulation Advisory Leadership?",
-          "summary": "In late June 2026, Certara, Inc. was moved from several Russell 1000 and Midcap indexes into the Russell 2000 and Russell 2000 Value benchmarks, while also launching Bio Venture Catalyst, an integrated advisory offering for emerging biotech companies from pre-seed through Series B+ development. This",
-          "pub": "2026-07-02T17:08",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/healthcare/articles/certara-cert-quietly-recasting-small-170847792.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "CRDO",
-      "tier": "確定",
-      "streak": 2,
-      "appearances": 2,
-      "best_rank": 4,
-      "today_rank": 7,
-      "first_seen": "2026-07-08",
-      "name": "Credo Technology Group Holding ",
-      "sector": "Technology",
-      "persist": 60,
-      "news": 49.6,
-      "confirm": 64.4,
-      "signal": 57.2,
-      "mom": {
-        "ret5": 0.0679,
-        "vol_surge": 0.6
-      },
-      "earn_days": null,
-      "headlines": [
-        {
-          "title": "Credo Climbs 165% in a Year: Is the Stock Still Worth Buying?",
-          "summary": "CRDO is riding AI infrastructure demand, with revenue, margins and connectivity products fueling strong growth despite key customer risks.",
-          "pub": "2026-07-09T14:21",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-climbs-165-stock-still-142100398.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Nvidia, Chip Stocks Rally Despite U.S.-Iran War Flare-Up",
-          "summary": "Nvidia stock and shares of other semiconductor companies rose on Wednesday even as the U.S.-Iran conflict dominated the headlines.",
-          "pub": "2026-07-08T20:45",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/nvidia-stock-chip-stocks-waver-sox/?src=A00220&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Chip Stocks Join in Broad Selloff",
-          "summary": "Chip stocks fell, reversing gains seen earlier in the session and extending recent losses. The PHLX Semiconductor Index is down 0.1%, falling alongside the broader market sell-off fueled by a reignited U.",
-          "pub": "2026-07-08T16:12",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-070826/card/chip-stocks-rise-despite-broad-sell-off-57FRlQc5rbq2KNPTEOnt?siteid=yhoof2&yptr=yahoo",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "3 Quiet AI Revenue Accelerators With Sales Growth Outpacing Peers",
-          "summary": "Fabrinet, MACOM, and Credo posted strong AI-driven revenue growth and earn solid analyst Buy ratings, positioning them as overlooked plays within the semiconductor supply chain.",
-          "pub": "2026-07-07T15:15",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/articles/3-quiet-ai-revenue-accelerators-with-sales-growth-outpacing-peers/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Best Growth Stocks to Buy for July 7th",
-          "summary": "BMA, CRDO and APPS made it to the Zacks Rank #1 (Strong Buy) growth stocks list on July 7, 2026.",
-          "pub": "2026-07-07T13:37",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/best-growth-stocks-buy-july-133700897.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -295,74 +218,230 @@
       "streak": 2,
       "appearances": 2,
       "best_rank": 4,
-      "today_rank": 4,
+      "today_rank": 5,
       "first_seen": "2026-07-08",
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 60,
-      "news": 56.3,
-      "confirm": 52.6,
-      "signal": 56.3,
+      "news": 61.3,
+      "confirm": 57.9,
+      "signal": 59.9,
       "mom": {
-        "ret5": 0.0127,
-        "vol_surge": 0.92
+        "ret5": 0.0263,
+        "vol_surge": 1.0
       },
       "earn_days": 25,
       "headlines": [
         {
-          "title": "Salesforce Downgrade Sparks Slide in Software Stocks",
-          "summary": "Shares in software companies are struggling after a downgrade of Software-as-a-Service giant Salesforce. KeyBanc analysts led by Jackson Ader downgraded their recommendation from Overweight to Sector Weight and wrote:  \"We attend more Salesforce partner and customer events than any other company in",
-          "pub": "2026-07-09T13:42",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-09-2026/card/software-stocks-set-for-rough-day-d2MWbUUSPsXMorFwuW8C?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.0,
-          "type": "格上げ",
-          "why": "+格上げ -格下げ"
-        },
-        {
-          "title": "Palantir partnership fails to save Rackspace stock after brutal guidance slash",
-          "summary": "Investing.com -- A major AI team-up wasn’t enough to cushion the blow for Rackspace Technology (NASDAQ:RXT). Shares plummeted over 10% Thursday after the cloud operator severely dialed back its fiscal 2026 revenue projections, completely overshadowing a high-profile strategic partnership with Palant",
-          "pub": "2026-07-09T12:39",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-partnership-fails-save-rackspace-123915829.html",
+          "title": "Rackspace Stock Offering Overshadows AI Deal",
+          "summary": "Stock offering overshadows ambitious enterprise AI expansion plans",
+          "pub": "2026-07-09T18:57",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rackspace-stock-offering-overshadows-ai-185704558.html",
           "dir": 0.6,
           "conf": 0.6,
           "type": "契約・提携",
           "why": "+契約・提携"
         },
         {
-          "title": "Rackspace Technology Sees Wider Q2 Adjusted Loss, Lower Revenue; Shares Down",
-          "summary": "Rackspace Technology (RXT) said Thursday that it expects a Q2 adjusted loss of between $0.11 and $0.",
-          "pub": "2026-07-09T12:35",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/articles/rackspace-technology-sees-wider-q2-123544312.html",
+          "title": "Here's How Much More Upside Is Left in Palantir Stock, According to Wall Street Analysts",
+          "summary": "Despite a good bounce from its recent lows, Palantir stock still has lots of upside left.",
+          "pub": "2026-07-09T18:37",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/09/how-much-more-upside-palantir-stock-analyst/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Market Chatter: Palantir Challenges London Mayor's Move to Block Contract Over Perceived Values",
-          "summary": "Palantir Technologies (PLTR) is challenging London mayor Sadiq Khan's decision to block a contract w",
-          "pub": "2026-07-09T12:24",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-palantir-challenges-london-122406122.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
+          "title": "Why Is Palantir Stock Falling Today",
+          "summary": "Palantir Slides Despite AI Momentum as Risk-Off Mood Grips Markets",
+          "pub": "2026-07-09T18:15",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-stock-falling-today-181529051.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Palantir says UK police contract wrongly blocked over perceived 'values'",
-          "summary": "tech firm Palantir is challenging a decision to block a contract with London police, arguing on Thursday that ‌London mayor Sadiq Khan's office wrongly took into account the company's \"values ‌and ethics\". Palantir had agreed a two-year, £50 million ($67.",
-          "pub": "2026-07-09T11:38",
-          "provider": "Reuters",
-          "url": "https://finance.yahoo.com/news/palantir-says-uk-police-contract-113826735.html",
+          "title": "Up Massive YTD: Here Are Nvidia, Palantir & AMD’s Price Predictions For 2028",
+          "summary": "NVIDIA (NASDAQ:NVDA), Palantir (NASDAQ:PLTR), and Advanced Micro Devices (NASDAQ:AMD) are the three names that defined this AI cycle. AMD is up 141.6% YTD. NVIDIA is up 9.58%. Palantir has actually fallen 25.61%. The setup is unusual, and I think it creates asymmetric upside into 2028. Below is the",
+          "pub": "2026-07-09T18:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/09/price-prediction-up-massive-ytd-nvidia-palantir-amd-still-have-asymmetric-upside-by-2028/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Stock Market Today, July 9: AI Chip, Technology Stocks Rally, Overcoming Ceasefire Worries",
+          "summary": "AI hardware and optical-communication gains helped steady major U.S. indexes after war-driven swings, today, July 9, 2026.",
+          "pub": "2026-07-09T17:12",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/07/09/stock-market-today-july-9-ai-chip-technology-stocks-rally-overcoming-ceasefire-worries/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        }
+      ]
+    },
+    {
+      "ticker": "AA",
+      "tier": "確定",
+      "streak": 2,
+      "appearances": 2,
+      "best_rank": 21,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
+      "persist": 60,
+      "news": 58.2,
+      "confirm": 60.0,
+      "signal": 59.3,
+      "mom": {
+        "ret5": 0.0263,
+        "vol_surge": 1.14
+      },
+      "earn_days": 7,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 重要契約の締結・その他の重要イベント",
+          "summary": "",
+          "pub": "2026-07-02",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326010155",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: Reg FD開示",
+          "summary": "",
+          "pub": "2026-07-01",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326009899",
+          "dir": 0.0,
+          "conf": 0.2,
+          "type": "8-K 7.01",
+          "why": "Reg FD開示（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "New Strong Sell Stocks for July 9th",
+          "summary": "NNI, AA and ASBFY have been added to the Zacks Rank #5 (Strong Sell) List on July 9, 2026.",
+          "pub": "2026-07-09T08:09",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-july-9th-080900047.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Morgan Stanley upgrades Ivanhoe Mines, cuts Alcoa and Vale on metals outlook",
+          "summary": "Investing.com -- Morgan Stanley upgraded Ivanhoe Mines to \"Overweight\" while downgrading Alcoa and Vale to \"Equal-weight\", saying a changing supply outlook favors copper and precious metals over aluminum and iron ore. The brokerage expects copper, gold and silver prices to outperform, while forecast",
+          "pub": "2026-07-08T15:19",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/morgan-stanley-upgrades-ivanhoe-mines-151953340.html",
           "dir": 0.6,
           "conf": 0.6,
+          "type": "格上げ",
+          "why": "+格上げ"
+        },
+        {
+          "title": "3 Absurdly Cheap Stocks to Buy With $1,000 in July",
+          "summary": "In July, the market is rewarding quality at almost any price, which makes the bargain bin worth a serious look. Three NYSE-listed names trade well under $1,000 a share, carry single-digit or low-double-digit forward multiples, and have catalysts the consensus has yet to fully price in. A theoretical",
+          "pub": "2026-07-08T13:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/08/3-absurdly-cheap-stocks-to-buy-with-1000-in-july/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 2,
+      "appearances": 2,
+      "best_rank": 2,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 60,
+      "news": 54.5,
+      "confirm": 58.9,
+      "signal": 57.5,
+      "mom": {
+        "ret5": 0.0307,
+        "vol_surge": 0.98
+      },
+      "earn_days": 20,
+      "headlines": [
+        {
+          "title": "Kinross Gold’s (KGC) Multibagger Potential In Tact Despite Downward Target Price Revision",
+          "summary": "Kinross Gold Corporation (NYSE:KGC) is one of the 8 Hidden Multibagger Stocks to Buy Now. On June 30, UBS analyst Daniel Major lowered the firm’s price target on Kinross Gold Corporation (NYSE:KGC) from $38 to $30 and maintained a Buy rating. The firm’s downward-adjusted price target suggests an add",
+          "pub": "2026-07-03T13:41",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-kgc-multibagger-potential-134101377.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "格上げ",
+          "why": "+格上げ"
+        }
+      ]
+    },
+    {
+      "ticker": "AI",
+      "tier": "確定",
+      "streak": 2,
+      "appearances": 2,
+      "best_rank": 18,
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "C3.ai, Inc.",
+      "sector": "Technology",
+      "persist": 60,
+      "news": 75.0,
+      "confirm": 29.6,
+      "signal": 56.9,
+      "mom": {
+        "ret5": -0.0456,
+        "vol_surge": 0.55
+      },
+      "earn_days": null,
+      "headlines": [
+        {
+          "title": "C3.ai (AI) and Shell Expand Global Predictive Maintenance Partnership",
+          "summary": "C3.ai Inc. (NYSE:AI) is one of the top 10 hidden AI stocks to buy. On June 4, C3.ai and Shell extended their multi-year collaboration to scale their enterprise predictive maintenance program globally. This expansion builds on a partnership dating back to 2018, which currently monitors over 13,000 pi",
+          "pub": "2026-07-06T18:25",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/c3-ai-ai-shell-expand-182541429.html",
+          "dir": 1.0,
+          "conf": 1.0,
           "type": "契約・提携",
-          "why": "+契約・提携"
+          "why": "+契約・提携 +拡大・新製品"
+        },
+        {
+          "title": "SOUN's Q1 Auto & IoT AI Business Jumps 88% YoY: Can Momentum Hold?",
+          "summary": "SoundHound's auto and IoT AI business surges 88% organically in Q1, powered by OEM deals, connected-device wins and GenAI upgrade opportunities.",
+          "pub": "2026-07-06T13:53",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/souns-q1-auto-iot-ai-135300726.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "格上げ",
+          "why": "+格上げ +受注 +急騰報道"
         }
       ]
     },
@@ -372,17 +451,17 @@
       "streak": 2,
       "appearances": 2,
       "best_rank": 10,
-      "today_rank": 15,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 60,
       "news": 58.0,
-      "confirm": 50.1,
+      "confirm": 49.9,
       "signal": 56.2,
       "mom": {
-        "ret5": 0.0168,
-        "vol_surge": 0.67
+        "ret5": 0.012,
+        "vol_surge": 0.75
       },
       "earn_days": 41,
       "headlines": [
@@ -445,83 +524,6 @@
       ]
     },
     {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 2,
-      "appearances": 2,
-      "best_rank": 2,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 60,
-      "news": 54.5,
-      "confirm": 53.4,
-      "signal": 55.8,
-      "mom": {
-        "ret5": 0.0183,
-        "vol_surge": 0.86
-      },
-      "earn_days": 20,
-      "headlines": [
-        {
-          "title": "Kinross Gold’s (KGC) Multibagger Potential In Tact Despite Downward Target Price Revision",
-          "summary": "Kinross Gold Corporation (NYSE:KGC) is one of the 8 Hidden Multibagger Stocks to Buy Now. On June 30, UBS analyst Daniel Major lowered the firm’s price target on Kinross Gold Corporation (NYSE:KGC) from $38 to $30 and maintained a Buy rating. The firm’s downward-adjusted price target suggests an add",
-          "pub": "2026-07-03T13:41",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-kgc-multibagger-potential-134101377.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
-        }
-      ]
-    },
-    {
-      "ticker": "AI",
-      "tier": "確定",
-      "streak": 2,
-      "appearances": 2,
-      "best_rank": 18,
-      "today_rank": 22,
-      "first_seen": "2026-07-08",
-      "name": "C3.ai, Inc.",
-      "sector": "Technology",
-      "persist": 60,
-      "news": 75.0,
-      "confirm": 24.5,
-      "signal": 55.4,
-      "mom": {
-        "ret5": -0.0604,
-        "vol_surge": 0.51
-      },
-      "earn_days": null,
-      "headlines": [
-        {
-          "title": "C3.ai (AI) and Shell Expand Global Predictive Maintenance Partnership",
-          "summary": "C3.ai Inc. (NYSE:AI) is one of the top 10 hidden AI stocks to buy. On June 4, C3.ai and Shell extended their multi-year collaboration to scale their enterprise predictive maintenance program globally. This expansion builds on a partnership dating back to 2018, which currently monitors over 13,000 pi",
-          "pub": "2026-07-06T18:25",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/c3-ai-ai-shell-expand-182541429.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +拡大・新製品"
-        },
-        {
-          "title": "SOUN's Q1 Auto & IoT AI Business Jumps 88% YoY: Can Momentum Hold?",
-          "summary": "SoundHound's auto and IoT AI business surges 88% organically in Q1, powered by OEM deals, connected-device wins and GenAI upgrade opportunities.",
-          "pub": "2026-07-06T13:53",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/souns-q1-auto-iot-ai-135300726.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "格上げ",
-          "why": "+格上げ +受注 +急騰報道"
-        }
-      ]
-    },
-    {
       "ticker": "AMD",
       "tier": "確定",
       "streak": 2,
@@ -532,12 +534,12 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 60,
-      "news": 49.0,
-      "confirm": 54.0,
-      "signal": 53.8,
+      "news": 56.4,
+      "confirm": 51.4,
+      "signal": 56.0,
       "mom": {
-        "ret5": 0.0238,
-        "vol_surge": 0.79
+        "ret5": 0.0108,
+        "vol_surge": 0.88
       },
       "earn_days": 26,
       "headlines": [
@@ -554,48 +556,48 @@
           "is_edgar": true
         },
         {
-          "title": "Micron, Sandisk, Marvell stocks jump, leading chip sector gains",
-          "summary": "Micron and other chip-related stocks rose on Thursday as the AI trade reignited.",
-          "pub": "2026-07-09T13:54",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/micron-sandisk-marvell-stocks-jump-leading-chip-sector-gains-135433074.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "title": "Six Months In, AZA Law Firm’s Dallas Office Tracks Toward Its Year-One Plan",
+          "summary": "By Exec Edge Editorial Staff AZA Law Firm opened its Dallas office at the Trammell Crow Center on January 1, 2026. The launch ended 32 years of Houston-only practice. Six months in, the office is tracking the public timeline managing partner John Zavitsanos set when the lease was signed: from five l",
+          "pub": "2026-07-09T19:06",
+          "provider": "Exec Edge",
+          "url": "https://finance.yahoo.com/small-business/articles/six-months-aza-law-firm-190607304.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
         },
         {
-          "title": "Why AMD’s Stock Rise Is Worrying This Analyst",
-          "summary": "Advanced Micro Devices  has soared over the past year amid excitement over its central-processing units.  AMD shares were up 7.4% at $555.62 in early trading Thursday, adding to a 259% gain over the past 12 months through to Wednesday’s close.",
-          "pub": "2026-07-09T14:22",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/amd-stock-price-analyst-sell-intel-cd026a13?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "title": "AMD's AI Infrastructure Push Gets Bigger",
+          "summary": "5C partnership targets next-generation AI infrastructure campuses",
+          "pub": "2026-07-09T18:37",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amds-ai-infrastructure-push-gets-183702131.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
         },
         {
-          "title": "Meta Shares Slip as Heavy AI Infrastructure Spending Weighs on Investor Sentiment (META)",
-          "summary": "Massive AI Investment Overshadows In-House Chip ProgressMeta Platforms (NASDAQ:META) shares fell 2. 6% on Thursday morning as investors focused on the enormous cost of the company’s artificial intelligence expansion, despite progress toward developing its own AI chips.",
-          "pub": "2026-07-09T14:11",
-          "provider": "InvestorsHub",
-          "url": "https://investorshub.advfn.com/market-news/article/31612/meta-shares-slip-as-heavy-ai-infrastructure-spending-weighs-on-investor-sentiment-meta",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "AMD Shares Soar After Landing Major AI Infrastructure Alliance",
+          "summary": "AMD Powers Higher After Unveiling Gigascale AI Campus Collaboration",
+          "pub": "2026-07-09T18:34",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amd-shares-soar-landing-major-183453710.html",
+          "dir": 0.9,
+          "conf": 0.8999999999999999,
+          "type": "契約・提携",
+          "why": "+契約・提携 +急騰報道"
         },
         {
-          "title": "William Blair starts AMD at Market Perform, sees balanced risk-reward",
-          "summary": "Investing.com -- William Blair started coverage of Advanced Micro Devices with a Market Perform rating in a note from analyst Sebastien Naji on Thursday.",
-          "pub": "2026-07-09T14:06",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/william-blair-starts-amd-market-140610229.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Nvidia's Vera CPU Could Expand Beyond x86, Wedbush Says",
+          "summary": "Wedbush sees Vera strengthening Nvidia's push into networking and general-purpose compute markets.",
+          "pub": "2026-07-09T18:07",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/articles/nvidias-vera-cpu-could-expand-180721411.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
         }
       ]
     },
@@ -605,17 +607,17 @@
       "streak": 2,
       "appearances": 2,
       "best_rank": 16,
-      "today_rank": 19,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 60,
-      "news": 48.8,
-      "confirm": 51.3,
-      "signal": 52.9,
+      "news": 48.7,
+      "confirm": 54.6,
+      "signal": 53.9,
       "mom": {
-        "ret5": 0.0192,
-        "vol_surge": 0.7
+        "ret5": 0.0263,
+        "vol_surge": 0.78
       },
       "earn_days": null,
       "headlines": [
@@ -644,33 +646,33 @@
           "is_edgar": true
         },
         {
-          "title": "Nvidia's nearly $1 trillion wipeout could prompt this bullish action",
-          "summary": "It might be time for Nvidia to unleash the stock buybacks.",
-          "pub": "2026-07-09T12:27",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/nvidias-nearly-1-trillion-wipeout-could-prompt-this-bullish-action-122707475.html",
+          "title": "Nvidia's stock valuation fell to pre–AI boom lows, but this strategist still isn't bullish",
+          "summary": "Hennion & Walsh chief investment officer Kevin Mahn explains to Yahoo Finance Executive Editor Brian Sozzi why he's not crazy about Nvidia (NVDA), even though the stock is at its lowest valuation since 2019.",
+          "pub": "2026-07-09T15:59",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/nvidias-stock-valuation-fell-pre-155958092.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Nvidia's $1 trillion rout: Do you buy or sell the stock here?",
-          "summary": "What's the play on Nvidia?",
-          "pub": "2026-07-08T19:00",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/nvidias-1-trillion-rout-do-you-buy-or-sell-the-stock-here-190000970.html",
+          "title": "China warned that Anthropic's Claude Code puts your data at risk. Is that true?",
+          "summary": "Yahoo Finance Technology Editor Dan Howley discusses China's warning that Anthropic's (ANTH.PVT) Claude Code could expose sensitive user data.",
+          "pub": "2026-07-08T20:39",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/china-warned-that-anthropics-claude-code-puts-your-data-at-risk-is-that-true-203951387.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Nvidia's valuation just hit a multiyear low — even as revenue sets records",
-          "summary": "Nvidia's forward P/E ratio is at its lowest since 2019.",
-          "pub": "2026-07-08T15:59",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/article/nvidias-valuation-just-hit-a-multiyear-low--even-as-revenue-sets-records-155948933.html",
+          "title": "Veteran Energy Analyst: “Crude Oil Is Not the Problem.” Here’s What’s Keeping Gas Prices High.",
+          "summary": "Veteran energy analyst Paul Sankey, president of Sankey Research, said in a July 9, 2026, CNBC interview that he believes crude oil is no longer the biggest constraint on the energy system. Instead, the real bottleneck sits in U.S. refining capacity, where limited supply continues to keep gasoline p",
+          "pub": "2026-07-09T19:46",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/09/veteran-energy-analyst-crude-oil-is-not-the-problem-heres-whats-keeping-gas-prices-high/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -679,81 +681,102 @@
       ]
     },
     {
-      "ticker": "MU",
+      "ticker": "CRDO",
       "tier": "確定",
       "streak": 2,
       "appearances": 2,
-      "best_rank": 7,
-      "today_rank": 9,
+      "best_rank": 4,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
+      "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 60,
-      "news": 51.6,
-      "confirm": 41.7,
-      "signal": 51.2,
+      "news": 49.6,
+      "confirm": 52.8,
+      "signal": 53.7,
       "mom": {
-        "ret5": -0.0146,
-        "vol_surge": 0.74
+        "ret5": 0.0253,
+        "vol_surge": 0.68
       },
       "earn_days": null,
       "headlines": [
         {
-          "title": "Micron, Sandisk, Marvell stocks jump, leading chip sector gains",
-          "summary": "Micron and other chip-related stocks rose on Thursday as the AI trade reignited.",
-          "pub": "2026-07-09T13:54",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/micron-sandisk-marvell-stocks-jump-leading-chip-sector-gains-135433074.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "AI memory stocks trim losses as investors buy the dip",
-          "summary": "Chip stocks trimmed losses on Wednesday despite a decline in the overall market.",
-          "pub": "2026-07-08T12:28",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/ai-memory-stocks-trim-losses-as-investors-buy-the-dip-122848703.html",
+          "title": "ALAB Rides on Strong Demand for PCIe Solution: A Sign for More Upside?",
+          "summary": "Astera Labs PCIe Gen 6 momentum, strong Q1 revenue growth and AI data center demand put focus on its outlook, valuation and competitive pressures.",
+          "pub": "2026-07-09T17:17",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/articles/alab-rides-strong-demand-pcie-171700817.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Key things to know ahead of SK Hynix’s blockbuster US listing",
-          "summary": "Investing.com - SK Hynix, the world’s leading producer of DRAM memory chips and one of key \"AI companies,\" is set to price its blockbuster U.S. offering on Thursday. The ADRs of the Seoul-listed firm are expected to begin trading on Nasdaq Friday, under the ticker \"SKHY.\"",
-          "pub": "2026-07-09T15:17",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/key-things-know-ahead-sk-151708234.html",
+          "title": "Price Prediction: Will Credo Hit $500 by 2030?",
+          "summary": "Credo Technology Group (NASDAQ:CRDO) is the quiet AI infrastructure story that suddenly is not quiet anymore. Its Active Electrical Cables and 1.6T interconnects sit inside training clusters at five of the six major hyperscalers, and fiscal 2026 revenue more than tripled to $1.335 billion. Shares ar",
+          "pub": "2026-07-09T16:20",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/09/price-prediction-will-credo-hit-500-by-2030/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Stock Market Today: Dow Builds Gains Amid U.S.-Iran News; Arm, Dell Lead Upside (Live Coverage)",
-          "summary": "Stock Market Today: The Dow Jones index fell Thursday amid the latest U.S.-Iran news. Micron stock and Sandisk rallied.",
-          "pub": "2026-07-09T14:54",
+          "title": "Credo Climbs 165% in a Year: Is the Stock Still Worth Buying?",
+          "summary": "CRDO is riding AI infrastructure demand, with revenue, margins and connectivity products fueling strong growth despite key customer risks.",
+          "pub": "2026-07-09T14:21",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-climbs-165-stock-still-142100398.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Nvidia, Chip Stocks Rally Despite U.S.-Iran War Flare-Up",
+          "summary": "Nvidia stock and shares of other semiconductor companies rose on Wednesday even as the U.S.-Iran conflict dominated the headlines.",
+          "pub": "2026-07-08T20:45",
           "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-micron-sandisk/?src=A00220&yptr=yahoo",
+          "url": "https://www.investors.com/news/technology/nvidia-stock-chip-stocks-waver-sox/?src=A00220&yptr=yahoo",
           "dir": 0.3,
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
         },
         {
-          "title": "MU Stock Surges After Micron Boosts US Investment Pledge To $250B – Retail Calls It A ‘Bullish Long-Term Signal’",
-          "summary": "The company laid the foundation for its newest site in New York and separately said it will invest $3 billion in Texas.",
-          "pub": "2026-07-09T14:46",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/mu-stock-surges-after-micron-boosts-us-investment-pledge-to-250-b-retail-calls-it-a-bullish-long-term-signal/cZmYGd4R7nW",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "title": "Chip Stocks Join in Broad Selloff",
+          "summary": "Chip stocks fell, reversing gains seen earlier in the session and extending recent losses. The PHLX Semiconductor Index is down 0.1%, falling alongside the broader market sell-off fueled by a reignited U.",
+          "pub": "2026-07-08T16:12",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-070826/card/chip-stocks-rise-despite-broad-sell-off-57FRlQc5rbq2KNPTEOnt?siteid=yhoof2&yptr=yahoo",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
         }
       ]
+    },
+    {
+      "ticker": "AGI",
+      "tier": "確定",
+      "streak": 2,
+      "appearances": 2,
+      "best_rank": 6,
+      "today_rank": 8,
+      "first_seen": "2026-07-08",
+      "name": "Alamos Gold Inc.",
+      "sector": "Basic Materials",
+      "persist": 60,
+      "news": 50.0,
+      "confirm": 42.9,
+      "signal": 50.9,
+      "mom": {
+        "ret5": -0.0145,
+        "vol_surge": 0.82
+      },
+      "earn_days": 20,
+      "headlines": []
     },
     {
       "ticker": "ALAB",
@@ -766,15 +789,37 @@
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 60,
-      "news": 49.6,
-      "confirm": 41.3,
-      "signal": 50.2,
+      "news": 48.0,
+      "confirm": 37.8,
+      "signal": 48.5,
       "mom": {
-        "ret5": -0.0159,
-        "vol_surge": 0.74
+        "ret5": -0.0311,
+        "vol_surge": 0.81
       },
       "earn_days": 26,
       "headlines": [
+        {
+          "title": "Stock Market Today: S&P 500 Gains Traction As AI Firms Bolt Higher; SpaceX Halts 3-Day Drop (Live Coverage)",
+          "summary": "Stock Market Today: The Dow Jones index turns higher and the S&P 500 gains as Micron and Sandisk rally.",
+          "pub": "2026-07-09T19:00",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-micron-sandisk/?src=A00220&yptr=yahoo",
+          "dir": -0.4,
+          "conf": 0.39999999999999997,
+          "type": "急騰報道",
+          "why": "+急騰報道 -リコール・停止"
+        },
+        {
+          "title": "ALAB Rides on Strong Demand for PCIe Solution: A Sign for More Upside?",
+          "summary": "Astera Labs PCIe Gen 6 momentum, strong Q1 revenue growth and AI data center demand put focus on its outlook, valuation and competitive pressures.",
+          "pub": "2026-07-09T17:17",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/articles/alab-rides-strong-demand-pcie-171700817.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Credo Climbs 165% in a Year: Is the Stock Still Worth Buying?",
           "summary": "CRDO is riding AI infrastructure demand, with revenue, margins and connectivity products fueling strong growth despite key customer risks.",
@@ -807,51 +852,85 @@
           "conf": 0.4,
           "type": "急落報道",
           "why": "-急落報道"
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 2,
+      "appearances": 2,
+      "best_rank": 7,
+      "today_rank": 9,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 60,
+      "news": 49.6,
+      "confirm": 35.4,
+      "signal": 48.5,
+      "mom": {
+        "ret5": -0.0392,
+        "vol_surge": 0.81
+      },
+      "earn_days": null,
+      "headlines": [
         {
-          "title": "US Stock Market Today: S&P 500 Futures Dip As Oil And Rate Jitters Build",
-          "summary": "The Morning Bull - US Market Morning Update Wednesday, Jul, 8 2026 US stock futures are mixed this morning, with S&P 500 contracts slightly in the red and Dow futures modestly higher as investors weigh three big forces. First, oil prices have climbed on tensions in the Strait of Hormuz, which is pus",
-          "pub": "2026-07-08T08:14",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081413844.html",
+          "title": "Nvidia's stock valuation fell to pre–AI boom lows, but this strategist still isn't bullish",
+          "summary": "Hennion & Walsh chief investment officer Kevin Mahn explains to Yahoo Finance Executive Editor Brian Sozzi why he's not crazy about Nvidia (NVDA), even though the stock is at its lowest valuation since 2019.",
+          "pub": "2026-07-09T15:59",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/nvidias-stock-valuation-fell-pre-155958092.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "SpaceX Drags on First Day in Nasdaq 100",
-          "summary": "SpaceX is officially part of the Nasdaq 100, but it's off to a rocky start. SpaceX was down 5.3% while the Nasdaq 100 was 1.4% in the red. SpaceX wasn’t the index’s worst performer, with chip-related stocks leading the fall.",
-          "pub": "2026-07-07T18:57",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-070726/card/spacex-drags-on-first-day-in-nasdaq-100-75gssZ2WSdGBHKv5UcNl?siteid=yhoof2&yptr=yahoo",
+          "title": "Wall Street's next AI trade is smaller than a grain of rice: One Big Idea",
+          "summary": "The next leg of the AI trade could come from a component smaller than a grain of rice known as a multilayer ceramic capacitor.",
+          "pub": "2026-07-09T10:02",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/wall-streets-next-ai-trade-is-smaller-than-a-grain-of-rice-one-big-idea-100100993.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Gain Late Afternoon",
+          "summary": "Tech stocks were higher late Thursday afternoon, with the State Street Technology Select Sector SPDR",
+          "pub": "2026-07-09T19:39",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-gain-afternoon-193916705.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Micron's Share Price Dip Presents a Compelling Buying Opportunity",
+          "summary": "The memory maker has shed more than 20% of its value despite its strengthening fundamentals.",
+          "pub": "2026-07-09T19:29",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/09/microns-share-price-dip-presents-a-compelling-buyi/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Micron (MU) Commits More Than $250 Billion To US Chip Expansion",
+          "summary": "Micron Technology (NasdaqGS:MU) is accelerating its US investment plans, now targeting more than US$250b through 2035. The company reached a major construction milestone at its New York fabrication site, which is tracking ahead of schedule and is positioned to be the largest private investment in th",
+          "pub": "2026-07-09T19:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/articles/micron-mu-commits-more-250-191026560.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         }
       ]
-    },
-    {
-      "ticker": "AGI",
-      "tier": "確定",
-      "streak": 2,
-      "appearances": 2,
-      "best_rank": 6,
-      "today_rank": 8,
-      "first_seen": "2026-07-08",
-      "name": "Alamos Gold Inc.",
-      "sector": "Basic Materials",
-      "persist": 60,
-      "news": 50.0,
-      "confirm": 40.7,
-      "signal": 50.2,
-      "mom": {
-        "ret5": -0.0174,
-        "vol_surge": 0.73
-      },
-      "earn_days": 20,
-      "headlines": []
     },
     {
       "ticker": "CDE",
@@ -865,69 +944,14 @@
       "sector": "Basic Materials",
       "persist": 60,
       "news": 50.0,
-      "confirm": 33.5,
-      "signal": 48.0,
+      "confirm": 34.8,
+      "signal": 48.4,
       "mom": {
-        "ret5": -0.0326,
-        "vol_surge": 0.55
+        "ret5": -0.0302,
+        "vol_surge": 0.59
       },
       "earn_days": 27,
       "headlines": []
-    },
-    {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 2,
-      "appearances": 2,
-      "best_rank": 11,
-      "today_rank": 13,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 60,
-      "news": 50.0,
-      "confirm": 33.2,
-      "signal": 48.0,
-      "mom": {
-        "ret5": -0.0409,
-        "vol_surge": 0.7
-      },
-      "earn_days": 26,
-      "headlines": [
-        {
-          "title": "Paycom, Workday, and Flywire Shares Are Falling, What You Need To Know",
-          "summary": "A number of stocks fell in the afternoon session after President Trump declared the Iran ceasefire \"over\" and threatened renewed strikes, sending oil higher and bond yields up in a session that punished high-multiple tech.",
-          "pub": "2026-07-08T22:10",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/paycom-workday-flywire-shares-falling-221044831.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Payments Leader Flywire Breaks Into Buy Zone As It Swings To Profits",
-          "summary": "Payments leader Flywire stock broke out past its latest buy point amid a volatile market, as the firm swings into the profit zone.",
-          "pub": "2026-07-07T16:18",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/flywire-stock-flyw/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Flywire and Airbnb Could Be Quiet Winners of a Ceasefire",
-          "summary": "A post-ceasefire travel rebound could benefit Flywire (FLYW) and Airbnb (ABNB), two stocks analysts rate favorably amid solid recent revenue growth and improving earnings outlooks.",
-          "pub": "2026-07-04T12:55",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/articles/why-flywire-and-airbnb-could-be-quiet-winners-of-a-ceasefire/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
     }
   ],
   "alert_summary": {},
