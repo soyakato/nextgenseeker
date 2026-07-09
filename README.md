@@ -46,12 +46,20 @@ Yahooスクリーナー和集合 ──→ 客観ユニバース（毎回自動�
 **残る設計判断（UIにも開示）**: ファクター数式・初期重みは学術文献に依拠した設計値（ICで自動調整）。
 ユニバースは米国スクリーナー基盤。先行指標トラッカー・主観フレーム（NVIDIA-DNA）はキュレーション参考であり客観スコアに不使用。
 
-## 自動更新（launchd）
+## クラウド完全独立運転（GitHub Actions + Pages）
+
+- **サイト**: https://soyakato.github.io/nextgenseeker/ （スマホからいつでも閲覧可）
+- **自動更新**: `.github/workflows/refresh.yml` が6時間ごとにクラウドでパイプラインを実行し、
+  `live/*.json` をコミット（Macは不要）。cronは±15〜60分の遅延があり得る。
+- **スマホ通知**: ⚡アラート時に ntfy.sh へプッシュ。スマホのntfyアプリ（無料）で
+  トピック `ngs-alerts-ce34156e108d` を購読すると届く。
+- **状態の永続化**: 採点台帳（learning_ledger / watch_state）はリポジトリにコミットされ引き継がれる。
+- **Claude API**: リポジトリSecretsに `ANTHROPIC_API_KEY` を追加すると次回からLLM判定が有効化。
+
+### ローカル実行（任意・開発用）
 
 ```bash
-bash pipeline/install_scheduler.sh        # 6時間ごと＋ログイン時
-launchctl list | grep nextgenseeker       # 状態確認
-tail -f pipeline/logs/refresh.log         # ログ（4000行で自動ローテーション）
+bash pipeline/install_scheduler.sh        # macOS launchd（クラウドと併用は非推奨=二重実行）
 bash pipeline/install_scheduler.sh --uninstall
 ```
 
