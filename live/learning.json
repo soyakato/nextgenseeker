@@ -1,0 +1,56 @@
+{
+  "updated": "2026-07-09T10:44:31.229236+00:00",
+  "weights": {
+    "operating_leverage": 20.0,
+    "cost_stickiness": 12.0,
+    "survival_dd": 20.0,
+    "rnd_intensity": 18.0,
+    "contrarian_inflection": 15.0,
+    "capital_momentum": 15.0
+  },
+  "default_weights": {
+    "operating_leverage": 20,
+    "cost_stickiness": 12,
+    "survival_dd": 20,
+    "rnd_intensity": 18,
+    "contrarian_inflection": 15,
+    "capital_momentum": 15
+  },
+  "multipliers": {
+    "operating_leverage": 1.0,
+    "cost_stickiness": 1.0,
+    "survival_dd": 1.0,
+    "rnd_intensity": 1.0,
+    "contrarian_inflection": 1.0,
+    "capital_momentum": 1.0
+  },
+  "ic": {
+    "operating_leverage": null,
+    "cost_stickiness": null,
+    "survival_dd": null,
+    "rnd_intensity": null,
+    "contrarian_inflection": null,
+    "capital_momentum": null
+  },
+  "composite_ic": null,
+  "graded_samples": 0,
+  "active": false,
+  "min_samples": 12,
+  "horizons": [
+    20,
+    60
+  ],
+  "forget_days": 180,
+  "cohorts_tracked": 2,
+  "note": "結果待ち: 採点サンプル 0/12 — 貯まるまで重みは事前分布のまま動かさない",
+  "concentration": {
+    "warn": true,
+    "dominant_sector": "Technology",
+    "dominant_ratio": 0.62,
+    "hhi": 0.531,
+    "top_n": 8,
+    "note": "⚠ 上位8銘柄中5が「Technology」に集中（62%）— 過剰適応/テーマ偏りの兆候。一緒に上げ下げする点に注意。"
+  },
+  "recorded_today": false,
+  "graded_events": 0
+}

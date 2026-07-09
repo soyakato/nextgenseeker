@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NextGenSeeker — 客観ファクター・スクリーナー</title>
+<link rel="stylesheet" href="styles.css?v=22">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="brand">
+      <h1><span class="logo">NGS</span> <span class="grad">NextGenSeeker</span></h1>
+      <p><b>客観ファクター・レンズ</b>（既定）— 銘柄選定・採点とも人手を排し全自動。銘柄はYahooスクリーナー和集合から実行ごとに自動構築し、採点は財務諸表・株価から機械算出した6ファクター（営業レバレッジ・コスト硬直性・Merton距離デフォルト・R&D強度・逆張り変曲・資金勢い）の横断パーセンタイルのみ。固定リスト・手書きスコア・後知恵アーキタイプは全廃（残る設計判断はフッターに開示）。</p>
+    </div>
+    <div class="stamp">
+      NGS-ENGINE v3.1<br>
+      採点: <b>客観6ファクター</b><br>
+      銘柄選定: <b>スクリーナー自動</b><br>
+      客観ユニバース: <b id="universe-count">—</b> 銘柄
+    </div>
+  </header>
+
+  <div class="live-strip" id="live-status"><span class="live-dot off"></span> 読み込み中…</div>
+
+  <div class="lens-switch">
+    <span class="lens-label">評価レンズ</span>
+    <button class="lens-btn active" data-lens="discovery">🔭 客観ファクター <em>実データのみ・主観なし</em></button>
+    <button class="lens-btn" data-lens="quality">🏛 主観フレーム <em>NVIDIA-DNA・教育用の参考</em></button>
+    <button class="theme-btn" id="theme-toggle">🎨 緑×白テーマ</button>
+  </div>
+
+  <div class="framework" id="framework"></div>
+
+  <div class="controls">
+    <h3>スクリーニング条件 — ファクター重み付け（初期値は学術文献に依拠した設計値・採点ICで自己調整）</h3>
+    <div class="row">
+      <div class="weight-group" id="weight-group"></div>
+    </div>
+    <div class="row" style="margin-top:18px">
+      <div class="slider-block" id="risk-row" style="max-width:260px">
+        <label>コモディティ化リスクの減点強度 <span class="val" id="rs-val">60%</span></label>
+        <input type="range" min="0" max="100" id="risk-slider">
+      </div>
+      <div class="actions" id="presets"></div>
+      <div class="actions">
+        <button class="btn active" id="toggle-live">実データCAPITAL</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="panel">
+      <h2>ランキング <span class="hint">行をクリックで詳細</span></h2>
+      <table class="rank-table">
+        <thead>
+          <tr>
+            <th>#</th><th>銘柄</th><th id="rank-poscol">セクター</th><th>評価</th>
+            <th class="num" id="rank-scorecol">総合スコア</th><th class="num" id="rank-lastcol">リスク</th>
+          </tr>
+        </thead>
+        <tbody id="rank-body"></tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <h2>銘柄ディープダイブ <span class="hint">レーダー vs 基準（レンズで切替）</span></h2>
+      <div class="detail-body" id="detail-body"></div>
+    </div>
+  </div>
+
+  <div class="panel map-panel">
+    <h2>ウォッチ＆兆候レーダー <span class="hint">継続選出→触媒ニュース→価格確認 · 選定は機械的 · アラートは遅延採点で自己検証</span></h2>
+    <div class="watch-body" id="watch-body"></div>
+  </div>
+
+  <div class="panel map-panel">
+    <h2>ポジショニング・マップ <span class="hint">バブル色=リスク（赤ほど高） · サイズ=総合スコア</span></h2>
+    <div class="quadrant-wrap" id="quadrant"></div>
+  </div>
+
+  <div class="panel map-panel">
+    <h2>先行指標トラッカー（キュレーション・参考） <span class="hint">観測対象は手選りのプロキシ群 — 客観スコアには一切不使用</span></h2>
+    <div class="indicator-body" id="indicator-body"></div>
+  </div>
+
+  <div class="panel map-panel">
+    <h2>自己改善ステータス <span class="hint">遅延採点→原理別IC→重み調整 · ガラパゴス化ガード</span></h2>
+    <div class="learning-body" id="learning-body"></div>
+  </div>
+
+  <div class="panel map-panel">
+    <h2>アナリスト読み筋（参考） <span class="hint">キュレーション指標の要約 — 客観スコアには不使用（Claude API or ルールベース）</span></h2>
+    <div class="analyst-panel" id="analyst-body"></div>
+  </div>
+
+  <footer class="foot">
+    <b>客観性についての明示</b> — 私の主観の残渣を全て排除した：①手書きの後知恵アーキタイプ（旧NVDA/KIOXIA基準）②静的な手書きスコア・事前分布 ③<b>手で選んだ銘柄リスト（＝選定バイアス）</b> ④<b>手書きの技術キーワード</b>。銘柄はYahooスクリーナー和集合で自動選定し、採点は財務諸表・株価から機械算出した6ファクター（DOL＝Novy-Marx / コスト硬直性＝Weiss / 距離デフォルト＝Bharath-Shumway naive Merton / R&D強度＝Chan et al. / 逆張り変曲 / 資金勢い＝時変ベータ）の横断パーセンタイルのみ。重みは遅延採点(SPY超過リターン)のICで自己調整。<br>
+    <b>残る設計判断（完全な客観は不可能・正直な開示）</b>: ①ファクターの数式・クランプ値・初期重みは学術文献に依拠した<b>設計判断</b>（採点ICで自動調整される）②ユニバースは<b>米国スクリーナー基盤</b>（日本株・欧州株は現状対象外）③先行指標トラッカーと主観フレームは手選りのキュレーション参考であり、客観スコアには一切使われない。<br>
+    <b>未実装（無料データ範囲外）</b>: CDS乖離の暗黙補助金(Merton CCA)、特許全文LLM(Predictive Patentomics)、完全なPoint-in-Time遡及修正、TVTP-MS。生存者バイアス（上場廃止銘柄）とスクリーナー自体の選定基準は残る。<br>
+    ※ 教育目的であり投資助言ではありません。ファクターも代理指標を含む近似です。
+  </footer>
+
+</div>
+
+<script src="data.js?v=22"></script>
+<script src="engine.js?v=22"></script>
+<script src="foresight.js?v=22"></script>
+<script src="live.js?v=22"></script>
+<script>document.getElementById('universe-count').textContent = COMPANIES.length;</script>
+<script src="app.js?v=22"></script>
+</body>
+</html>
