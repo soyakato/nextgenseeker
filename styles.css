@@ -396,6 +396,39 @@ button.btn.active { background: var(--accent); color: #fff; border-color: var(--
   border: 1px solid var(--warn); border-radius: 10px; padding: 1px 7px;
 }
 
+/* ── Detail sheet (mobile master-detail) ── */
+.sheet-close {
+  display: none; margin-left: auto; background: var(--bg-panel-2);
+  border: 1.5px solid var(--border-bright); border-radius: 10px;
+  width: 36px; height: 36px; font-size: 15px; cursor: pointer; color: var(--text-dim);
+  align-items: center; justify-content: center; flex-shrink: 0;
+}
+#sheet-backdrop { display: none; }
+.detail-nav { display: flex; gap: 8px; align-items: center; margin-bottom: 12px; }
+.dnav-btn {
+  background: var(--bg-panel-2); border: 1.5px solid var(--border-bright); border-radius: 9px;
+  padding: 7px 13px; font-size: 12px; font-weight: 700; cursor: pointer;
+  color: var(--text-dim); font-family: var(--sans);
+}
+.dnav-btn:hover { border-color: var(--accent); color: var(--accent); }
+.dnav-btn:disabled { opacity: 0.35; cursor: default; }
+.dnav-pos { flex: 1; text-align: center; font-family: var(--mono); font-size: 11px; color: var(--text-faint); }
+
+@media (max-width: 1080px) {
+  /* モバイル: 詳細はページ内に置かず、タップ時のボトムシートとして全画面表示 */
+  .detail-panel { display: none; }
+  .detail-panel.open {
+    display: block; position: fixed; z-index: 120; left: 0; right: 0; bottom: 0; top: 5vh;
+    border-radius: 18px 18px 0 0; overflow-y: auto; -webkit-overflow-scrolling: touch;
+    box-shadow: 0 -10px 44px rgba(14, 42, 77, 0.28);
+  }
+  .detail-panel.open > h2 { position: sticky; top: 0; background: var(--bg-panel); z-index: 2; }
+  .detail-panel h2 .hint { display: none !important; }
+  .sheet-close { display: inline-flex; }
+  #sheet-backdrop.on { display: block; position: fixed; inset: 0; background: rgba(14, 42, 77, 0.45); z-index: 110; }
+  body.sheet-open { overflow: hidden; }
+}
+
 footer.foot {
   margin-top: 40px; padding-top: 18px; border-top: 1.5px solid var(--border);
   font-size: 11px; color: var(--text-faint); line-height: 1.75; font-family: var(--mono);

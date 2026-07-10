@@ -29,6 +29,7 @@ function compositeOf(c) {
   return p ? foresightCompositeFrom(p, foresightWeightsActive()) : 0;
 }
 let LIVE_UNIVERSE = [];   // 客観ユニバース（liveの全銘柄、固定リストなし）
+let LAST_RANKED = [];     // 現在のランキング順（詳細パネルの前後ナビ用）
 
 // 現在のレンズで採点対象にする母集団
 function activeUniverse() {
@@ -160,6 +161,7 @@ function renderPresets() {
 function renderRanking() {
   const disc = isDiscovery();
   const ranked = rankActive(activeUniverse());
+  LAST_RANKED = ranked.map((c) => c.ticker);
   const bench = activeBench();
 
   // 最終列: discovery=距離デフォルト(客観・生存力) / quality=リスク
@@ -263,18 +265,34 @@ function radarSVG(company, size = 240) {
   </svg>`;
 }
 
+// ── Detail sheet（モバイルのマスター・ディテール） ──
+function openDetailSheet() {
+  const p = document.querySelector('.detail-panel');
+  const b = document.getElementById('sheet-backdrop');
+  if (p) { p.classList.add('open'); p.scrollTop = 0; }
+  if (b) b.classList.add('on');
+  document.body.classList.add('sheet-open');
+}
+function closeDetailSheet() {
+  const p = document.querySelector('.detail-panel');
+  const b = document.getElementById('sheet-backdrop');
+  if (p) p.classList.remove('open');
+  if (b) b.classList.remove('on');
+  document.body.classList.remove('sheet-open');
+}
+
 // ── Detail panel ─────────────────────────
 function selectCompany(ticker, userAction) {
   state.selected = ticker;
   renderRanking();
   renderDetail();
   renderQuadrant();
-  // モバイル/タブレット（1カラム積み）では、タップ時に詳細パネルへ確実にジャンプ
-  // （smoothは環境依存で無効化される事例があるため、明示的にinstantを指定）
-  if (userAction && window.innerWidth <= 1080) {
-    const panel = document.getElementById('detail-body');
-    if (panel) panel.closest('.panel').scrollIntoView({ behavior: 'instant', block: 'start' });
-  }
+  // モバイル: ページをスクロールさせず、詳細をボトムシートとして重ねる
+  // （リストのスクロール位置は保たれ、✕で元の場所にそのまま戻れる）
+  if (userAction && window.innerWidth <= 1080) openDetailSheet();
+  // シート表示中の銘柄切替（前後ナビ）では先頭から読めるように巻き戻す
+  const p = document.querySelector('.detail-panel.open');
+  if (p) p.scrollTop = 0;
 }
 
 function renderDetail() {
@@ -321,7 +339,19 @@ function renderDetail() {
     <div class="thesis-block up"><h4>▲ 必然の論理（主観フレーム・参考）</h4><p>${c.thesis || ''}</p></div>
     <div class="thesis-block down"><h4>▼ ブラックスワン（主観フレーム・参考）</h4><p>${c.risk_note || ''}</p></div>`;
 
+  // 前後ナビ: リストへ戻らずランキング順に銘柄を切替できる（往復スクロールの根絶）
+  const navIdx = LAST_RANKED.indexOf(state.selected);
+  const prevT = navIdx > 0 ? LAST_RANKED[navIdx - 1] : null;
+  const nextT = (navIdx >= 0 && navIdx < LAST_RANKED.length - 1) ? LAST_RANKED[navIdx + 1] : null;
+  const navRow = LAST_RANKED.length ? `
+    <div class="detail-nav">
+      <button class="dnav-btn" id="dnav-prev" ${prevT ? '' : 'disabled'}>‹ ${prevT ? prevT.replace(/\..*/, '') : '前へ'}</button>
+      <span class="dnav-pos">${navIdx >= 0 ? `ランキング ${navIdx + 1} / ${LAST_RANKED.length}` : '基準（順位外）'}</span>
+      <button class="dnav-btn" id="dnav-next" ${nextT ? '' : 'disabled'}>${nextT ? nextT.replace(/\..*/, '') : '次へ'} ›</button>
+    </div>` : '';
+
   el.innerHTML = `
+    ${navRow}
     <div class="detail-head">
       <div>
         <div class="dt" style="color:${col}">${c.ticker.replace(/\..*/, '')}</div>
@@ -346,6 +376,11 @@ function renderDetail() {
     ${(!disc && c.chokepoint) ? `<div class="detail-choke"><b>CHOKEPOINT / 握っているボトルネック</b>${c.chokepoint}</div>` : ''}
     ${(Object.keys(c.metrics || {}).length) ? `<div class="metrics-grid">${Object.entries(c.metrics).map(([k, v]) => `<div class="metric-box"><div class="mk">${k}</div><div class="mv">${v}</div></div>`).join('')}</div>` : ''}
     ${thesisBlocks}`;
+
+  const pv = document.getElementById('dnav-prev');
+  const nx = document.getElementById('dnav-next');
+  if (pv && prevT) pv.addEventListener('click', () => selectCompany(prevT, false));
+  if (nx && nextT) nx.addEventListener('click', () => selectCompany(nextT, false));
 }
 
 // ── Live financial block ─────────────────
@@ -502,6 +537,13 @@ async function init() {
   document.querySelectorAll('.lens-btn').forEach((b) => {
     b.addEventListener('click', () => setLens(b.dataset.lens));
   });
+
+  // 詳細シートの閉じる操作（✕ / 背景タップ / Escキー）
+  const dc = document.getElementById('detail-close');
+  if (dc) dc.addEventListener('click', closeDetailSheet);
+  const bd = document.getElementById('sheet-backdrop');
+  if (bd) bd.addEventListener('click', closeDetailSheet);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDetailSheet(); });
 
   // カラーテーマ切替（コバルト×黄×白 / 緑×白）— localStorageで永続化
   const tb = document.getElementById('theme-toggle');

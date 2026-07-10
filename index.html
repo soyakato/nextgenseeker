@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NextGenSeeker — 客観ファクター・スクリーナー</title>
-<link rel="stylesheet" href="styles.css?v=25">
+<link rel="stylesheet" href="styles.css?v=26">
 </head>
 <body>
 <div class="wrap">
@@ -64,11 +64,12 @@
       </table>
     </div>
 
-    <div class="panel">
-      <h2>銘柄ディープダイブ <span class="hint">レーダー vs 基準（レンズで切替）</span></h2>
+    <div class="panel detail-panel">
+      <h2>銘柄ディープダイブ <span class="hint">レーダー vs 基準（レンズで切替）</span><button class="sheet-close" id="detail-close" aria-label="閉じる">✕</button></h2>
       <div class="detail-body" id="detail-body"></div>
     </div>
   </div>
+  <div id="sheet-backdrop"></div>
 
   <div class="panel map-panel">
     <h2>ウォッチ＆兆候レーダー <span class="hint">継続選出→触媒ニュース→価格確認 · 選定は機械的 · アラートは遅延採点で自己検証</span></h2>
@@ -104,11 +105,11 @@
 
 </div>
 
-<script src="data.js?v=25"></script>
-<script src="engine.js?v=25"></script>
-<script src="foresight.js?v=25"></script>
-<script src="live.js?v=25"></script>
+<script src="data.js?v=26"></script>
+<script src="engine.js?v=26"></script>
+<script src="foresight.js?v=26"></script>
+<script src="live.js?v=26"></script>
 <script>document.getElementById('universe-count').textContent = COMPANIES.length;</script>
-<script src="app.js?v=25"></script>
+<script src="app.js?v=26"></script>
 </body>
 </html>
