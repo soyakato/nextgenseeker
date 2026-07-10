@@ -33,57 +33,73 @@ def _row(df, *names):
     return None
 
 
-def _yoy_pairs(series):
-    """新しい順の系列から (今期, 前期) のYoYペア列を返す（古い→新しいの変化）."""
+def _annual_pairs(series):
+    """年次系列(新しい順)から連続ペア=(今期,前期)。年次の連続はYoYそのもの."""
+    return [(series[i], series[i + 1]) for i in range(len(series) - 1)]
+
+
+def _quarterly_yoy_pairs(series):
+    """四半期系列(新しい順)から前年同期比ペア=(q[i], q[i+4])。
+    前期比(QoQ)は季節性ノイズを注入するため使わない — YoYに統一する."""
+    return [(series[i], series[i + 4]) for i in range(len(series) - 4)]
+
+
+def _change_pairs(annual, quarterly):
+    """年次連続＋四半期YoYの合算エピソード（全てYoYで頻度整合）."""
     pairs = []
-    for i in range(len(series) - 1):
-        cur, prev = series[i], series[i + 1]
-        pairs.append((cur, prev))
+    if annual and len(annual) >= 2:
+        pairs += _annual_pairs(annual)
+    if quarterly and len(quarterly) >= 5:
+        pairs += _quarterly_yoy_pairs(quarterly)
     return pairs
 
 
-def _dol(rev, opinc):
-    """営業レバレッジ = ΔOpInc% / ΔRev% の中央値."""
-    if not rev or not opinc:
-        return None
-    n = min(len(rev), len(opinc))
-    rev, opinc = rev[:n], opinc[:n]
+def _dol_from_pairs(rev_pairs, op_pairs):
+    """営業レバレッジ = ΔOpInc% / ΔRev% の中央値（YoYエピソード集合から）."""
+    n = min(len(rev_pairs), len(op_pairs))
     dols = []
-    for i in range(n - 1):
-        dr = (rev[i] - rev[i + 1]) / abs(rev[i + 1]) if rev[i + 1] else None
-        do = (opinc[i] - opinc[i + 1]) / abs(opinc[i + 1]) if opinc[i + 1] else None
+    for i in range(n):
+        rc, rp = rev_pairs[i]
+        oc, op_ = op_pairs[i]
+        dr = (rc - rp) / abs(rp) if rp else None
+        do = (oc - op_) / abs(op_) if op_ else None
         if dr and abs(dr) > 0.02 and do is not None:
-            dols.append(do / dr)
-    if not dols:
-        return None
-    return float(np.median([max(-5, min(12, d)) for d in dols]))
+            dols.append(max(-5, min(12, do / dr)))
+    return float(np.median(dols)) if dols else None
 
 
-def _stickiness(rev, cost):
-    """Weiss型コスト硬直性: 売上増時と減時の費用弾力性の差(正=硬直的)."""
-    if not rev or not cost:
-        return None
-    n = min(len(rev), len(cost))
-    rev, cost = rev[:n], cost[:n]
+def _stickiness_from_pairs(rev_pairs, cost_pairs):
+    """Weiss型コスト硬直性: 売上増時と減時の費用弾力性の差(正=硬直的)。
+    YoYエピソード合算で増減両方のサンプルを確保しやすくする."""
+    n = min(len(rev_pairs), len(cost_pairs))
     up, down = [], []
-    for i in range(n - 1):
-        dr = (rev[i] - rev[i + 1]) / abs(rev[i + 1]) if rev[i + 1] else 0
-        dc = (cost[i] - cost[i + 1]) / abs(cost[i + 1]) if cost[i + 1] else 0
+    for i in range(n):
+        rc, rp = rev_pairs[i]
+        cc, cp = cost_pairs[i]
+        if not rp or not cp:
+            continue
+        dr = (rc - rp) / abs(rp)
+        dc = (cc - cp) / abs(cp)
         if abs(dr) < 0.02:
             continue
-        elast = dc / dr
+        elast = max(-8, min(8, dc / dr))
         (up if dr > 0 else down).append(elast)
     if not up or not down:
         return None
-    # 売上増時の弾力性 > 売上減時の弾力性 なら硬直的（コストが減りにくい）
     return float(np.mean(up) - np.mean(down))
 
 
-def _merton_dd(mktcap, total_debt, sigma_e, mu):
-    """Bharath-Shumway(2008) naive Merton距離デフォルト. 高いほど安全."""
+def _merton_dd(mktcap, cur_debt, lt_debt, total_debt, sigma_e, mu):
+    """Bharath-Shumway(2008) naive Merton距離デフォルト. 高いほど安全.
+    デフォルトポイントFはKMV慣行=短期負債+0.5×長期負債（総負債は過大なため）."""
     if not mktcap or mktcap <= 0:
         return None
-    F = total_debt if (total_debt and total_debt > 0) else mktcap * 0.01
+    if cur_debt is not None or lt_debt is not None:
+        F = (cur_debt or 0) + 0.5 * (lt_debt or 0)
+    else:
+        F = total_debt
+    if not F or F <= 0:
+        F = (total_debt if (total_debt and total_debt > 0) else mktcap * 0.01)
     V = mktcap + F
     sigma_e = sigma_e if (sigma_e and sigma_e > 0) else 0.4
     sigma_v = (mktcap / V) * sigma_e + (F / V) * (0.05 + 0.25 * sigma_e)   # naive資産ボラ
@@ -139,24 +155,37 @@ def compute_raw(symbols, spy_hist):
             bs = getattr(tk, "balance_sheet", None)
             info = tk.info
 
-            rev = _row(inc, "Total Revenue", "Operating Revenue") or _row(qinc, "Total Revenue")
-            opinc = (_row(inc, "Total Operating Income As Reported", "Operating Income", "EBIT")
-                     or _row(qinc, "Operating Income", "EBIT"))
-            cost = (_row(inc, "Total Expenses", "Reconciled Cost Of Revenue", "Cost Of Revenue")
-                    or _row(qinc, "Total Expenses"))
+            # 年次＋四半期の両方を取得（変化エピソードは全てYoYで頻度整合）
+            rev_a = _row(inc, "Total Revenue", "Operating Revenue")
+            rev_q = _row(qinc, "Total Revenue", "Operating Revenue")
+            op_a = _row(inc, "Total Operating Income As Reported", "Operating Income", "EBIT")
+            op_q = _row(qinc, "Total Operating Income As Reported", "Operating Income", "EBIT")
+            cost_a = _row(inc, "Total Expenses", "Reconciled Cost Of Revenue", "Cost Of Revenue")
+            cost_q = _row(qinc, "Total Expenses", "Reconciled Cost Of Revenue", "Cost Of Revenue")
             rnd = _row(inc, "Research And Development")
+            rev = rev_a or rev_q
+
             debt_row = _row(bs, "Total Debt", "Net Debt")
             total_debt = debt_row[0] if debt_row else info.get("totalDebt")
+            cur_row = _row(bs, "Current Debt", "Current Debt And Capital Lease Obligation")
+            lt_row = _row(bs, "Long Term Debt", "Long Term Debt And Capital Lease Obligation")
+            cur_debt = cur_row[0] if cur_row else None
+            lt_debt = lt_row[0] if lt_row else None
 
             hist = tk.history(period="1y")
             vol, ret1y = _annualized_vol_and_ret(hist)
             b_now, b_trend = _rolling_beta(hist, spy_hist)
 
-            raw[tid]["operating_leverage"] = _dol(rev, opinc)
-            raw[tid]["cost_stickiness"] = _stickiness(rev, cost)
-            raw[tid]["survival_dd"] = _merton_dd(info.get("marketCap"), total_debt, vol, ret1y)
-            # R&D強度 = R&D費 / 売上（客観・自動。人手のキーワード不要）
-            raw[tid]["rnd_intensity"] = (rnd[0] / rev[0] * 100) if (rnd and rev and rev[0]) else None
+            rev_pairs = _change_pairs(rev_a, rev_q)
+            raw[tid]["operating_leverage"] = _dol_from_pairs(rev_pairs, _change_pairs(op_a, op_q))
+            raw[tid]["cost_stickiness"] = _stickiness_from_pairs(rev_pairs, _change_pairs(cost_a, cost_q))
+            raw[tid]["survival_dd"] = _merton_dd(info.get("marketCap"), cur_debt, lt_debt,
+                                                 total_debt, vol, ret1y)
+            # R&D強度 = R&D費/売上。損益計算書にR&D行が無い場合は「不明」ではなく
+            # 経済的にゼロとして採点する（Chan et al. 系ファクター研究の標準慣行。
+            # 中立50に置くと無投資企業が実投資下位企業より上位に来る歪みが生じるため）
+            if rev and rev[0]:
+                raw[tid]["rnd_intensity"] = (rnd[0] / rev[0] * 100) if rnd else 0.0
 
             dd = info.get("fiftyTwoWeekHigh")
             price = info.get("currentPrice") or info.get("regularMarketPrice")
@@ -193,7 +222,8 @@ def _fmt(v):
 
 
 def percentile_normalize(raw):
-    """各ファクターを横断的に0-100パーセンタイルへ. 欠損は中立50."""
+    """各ファクターを横断的に0-100パーセンタイルへ.
+    同値タイは平均ランク（恣意的な順位差を排除）。真の欠損のみ中立50."""
     norm = {tid: {} for tid in raw}
     for f in FACTORS:
         vals = [(tid, raw[tid].get(f)) for tid in raw if raw[tid].get(f) is not None]
@@ -203,7 +233,16 @@ def percentile_normalize(raw):
             continue
         ordered = sorted(vals, key=lambda x: x[1])
         n = len(ordered)
-        rank = {tid: round(100 * i / (n - 1), 1) for i, (tid, _) in enumerate(ordered)}
+        rank = {}
+        i = 0
+        while i < n:
+            j = i
+            while j + 1 < n and ordered[j + 1][1] == ordered[i][1]:
+                j += 1
+            pct = round(100 * ((i + j) / 2) / (n - 1), 1)   # タイ区間の平均ランク
+            for k in range(i, j + 1):
+                rank[ordered[k][0]] = pct
+            i = j + 1
         for tid in raw:
             norm[tid][f] = rank.get(tid, 50.0)
     return norm

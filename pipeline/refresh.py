@@ -207,6 +207,10 @@ def main():
 
     raw = fac.compute_raw(symmap, spy_hist)
     norm = fac.percentile_normalize(raw)
+    # ファクター別データカバレッジ（透明性: 何銘柄が実データで採点されたか）
+    coverage = {f: sum(1 for t in raw if raw[t].get(f) is not None) for f in fac.FACTORS}
+    coverage["_total"] = len(raw)
+    print("  [fac] カバレッジ: " + ", ".join(f"{k}={v}" for k, v in coverage.items()))
 
     fore_data = {}
     for tid, fin in financials.items():
@@ -332,7 +336,8 @@ def main():
     _write("financials.json", {"updated": ts, "data": financials})
     _write("indicators.json", {"updated": ts, "data": indicators})
     _write("foresight.json", {"updated": ts, "weights": weights, "data": fore_data,
-                              "concentration": conc, "discovered": discovered})
+                              "concentration": conc, "discovered": discovered,
+                              "coverage": coverage})
     _write("learning.json", {"updated": ts, **lr, "concentration": conc,
                              "recorded_today": recorded, "graded_events": graded})
     _write("analyst.json", {"updated": ts, **commentary})

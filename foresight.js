@@ -15,7 +15,7 @@ const FORESIGHT_PILLARS = [
   { key: 'survival_dd', label: '距離デフォルト', short: 'MERTON', color: 'var(--accent-3)',
     desc: 'Bharath-Shumway(2008) naive Merton。市場ベースの生存力（高いほど倒産から遠い）' },
   { key: 'rnd_intensity', label: 'R&D強度', short: 'R&D', color: 'var(--accent-2)',
-    desc: 'Chan-Lakonishok-Sougiannis(2001)。R&D費/売上。財務諸表から機械的に算出（人手のキーワード不要）' },
+    desc: 'Chan et al.(2001)。R&D費/売上。R&D未計上（採金業等）は中立ではなく0として採点（学術慣行）' },
   { key: 'contrarian_inflection', label: '逆張り変曲', short: 'CONTRA', color: 'var(--danger)',
     desc: '52週高値からのドローダウン×前向きな成長。総悲観だが変曲している乖離' },
   { key: 'capital_momentum', label: '資金の勢い', short: 'FLOW', color: 'var(--accent)',

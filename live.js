@@ -266,7 +266,7 @@ function renderWatch() {
   el.querySelectorAll('.watch-card').forEach((c) => {
     c.addEventListener('click', (e) => {
       if (e.target.closest('a')) return;
-      if (typeof selectCompany === 'function') selectCompany(c.dataset.ticker);
+      if (typeof selectCompany === 'function') selectCompany(c.dataset.ticker, true);
     });
   });
 }
@@ -315,6 +315,12 @@ function renderLearning() {
       <thead><tr><th>原理</th><th class="num">IC(予測力)</th><th class="num">既定重み</th><th class="num">現在の重み</th></tr></thead>
       <tbody>${icRows}</tbody>
     </table>
+    ${(() => {
+      const cov = LIVE.foresight && LIVE.foresight.coverage;
+      if (!cov) return '';
+      const tot = cov._total || 0;
+      return `<div class="discovered-list">📊 データカバレッジ（実データで採点できた銘柄数 / ${tot}）: ${Object.keys(FORESIGHT_PILLAR_JP).map((k) => `${FORESIGHT_PILLAR_JP[k]} ${cov[k] != null ? cov[k] : '—'}`).join(' · ')} — 欠損は中立50（R&D未計上は0扱いでカバレッジに含む）</div>`;
+    })()}
     <div class="learn-note">${L.note} — ガラパゴス化防止: 事前分布を錨に×0.5〜1.6の範囲でのみ調整。ICは「原理スコア→その後の市場超過リターン」の順位相関で、+0.05で実用・±0.02は雑音。</div>
     ${(LIVE.foresight && LIVE.foresight.discovered && LIVE.foresight.discovered.length) ? `<div class="discovered-list">🔭 今回の自動発見（固定リスト外）: ${LIVE.foresight.discovered.join(', ')}</div>` : ''}`;
 }

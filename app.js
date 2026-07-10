@@ -212,7 +212,7 @@ function renderRanking() {
   document.getElementById('rank-body').innerHTML = benchRow + rows;
 
   document.querySelectorAll('.company-row').forEach((r) => {
-    r.addEventListener('click', () => selectCompany(r.dataset.ticker));
+    r.addEventListener('click', () => selectCompany(r.dataset.ticker, true));
   });
 }
 
@@ -264,11 +264,17 @@ function radarSVG(company, size = 240) {
 }
 
 // ── Detail panel ─────────────────────────
-function selectCompany(ticker) {
+function selectCompany(ticker, userAction) {
   state.selected = ticker;
   renderRanking();
   renderDetail();
   renderQuadrant();
+  // モバイル/タブレット（1カラム積み）では、タップ時に詳細パネルへ確実にジャンプ
+  // （smoothは環境依存で無効化される事例があるため、明示的にinstantを指定）
+  if (userAction && window.innerWidth <= 1080) {
+    const panel = document.getElementById('detail-body');
+    if (panel) panel.closest('.panel').scrollIntoView({ behavior: 'instant', block: 'start' });
+  }
 }
 
 function renderDetail() {
@@ -309,8 +315,8 @@ function renderDetail() {
   // 質(主観)レンズのみ論理テキスト。先見(客観)レンズはファクターの学術的根拠を表示。
   const thesisBlocks = disc ? `
     <div class="thesis-block down">
-      <h4>▼ 客観性についての明示</h4>
-      <p>このスコアは私の主観を含まず、株価・財務諸表・arXiv/GitHubの実データから算出した6つの客観ファクター（営業レバレッジ/コスト硬直性/Merton距離デフォルト/技術先行/逆張り変曲/資金勢い）の横断パーセンタイルのみに基づく。CDS乖離・特許全文LLM・完全なPiT遡及修正は無料データ範囲外で未実装。</p>
+      <h4>▼ 集計方法の明示</h4>
+      <p>財務諸表・株価から機械算出した6ファクターの横断パーセンタイル（同値タイは平均ランク）。変化系ファクター（DOL・コスト硬直性）は年次＋四半期の<b>前年同期比</b>エピソードの中央値/平均で季節性を排除。R&D未計上は中立ではなく<b>0として採点</b>（Chan et al.慣行）。Merton距離のデフォルトポイントはKMV慣行（短期負債＋長期負債×0.5）。生値が「—」の項目のみ真の欠損として中立50。</p>
     </div>` : `
     <div class="thesis-block up"><h4>▲ 必然の論理（主観フレーム・参考）</h4><p>${c.thesis || ''}</p></div>
     <div class="thesis-block down"><h4>▼ ブラックスワン（主観フレーム・参考）</h4><p>${c.risk_note || ''}</p></div>`;
@@ -442,7 +448,7 @@ function renderQuadrant() {
   const el = document.getElementById('quadrant');
   el.innerHTML = svg;
   el.querySelectorAll('.quad-dot').forEach((d) => {
-    d.addEventListener('click', () => selectCompany(d.dataset.ticker));
+    d.addEventListener('click', () => selectCompany(d.dataset.ticker, true));
   });
 }
 
