@@ -287,6 +287,75 @@ function renderWatch() {
   });
 }
 
+// ── 今日のダイジェスト（モバイルのホーム。3秒で要点） ──
+function renderToday() {
+  const el = document.getElementById('today-body');
+  if (!el) return;
+  const W = LIVE.watch || {};
+  const sigs = W.signals || [];
+  const card = (t, name, sub, val, valColor, cls) => `
+    <div class="today-card ${cls || ''}" data-ticker="${t}">
+      <span class="tc-tk">${t}</span>
+      <span class="tc-mid"><span class="tc-name">${name || ''}</span><br><span class="tc-sub">${sub || ''}</span></span>
+      <span class="tc-val" style="color:${valColor || 'var(--text)'}">${val}</span>
+    </div>`;
+
+  // 1) ⚡アラート（最新3件・採点結果つき）
+  const alerts = (W.alerts_recent || []).slice(0, 3);
+  const alertHtml = alerts.length
+    ? alerts.map((a) => {
+        const g5 = a.grades && a.grades['5'];
+        const sub = g5 != null ? `5日採点 ${(g5 * 100).toFixed(1)}% (対SPY)` : `${a.date} 発火 · 採点待ち`;
+        return card(a.ticker, '', sub, a.signal, heatColor(a.signal), 'alert');
+      }).join('')
+    : '<div class="today-empty">現在アラートなし（兆候スコア65以上で発火・スマホ通知）</div>';
+
+  // 2) 兆候上位3
+  const topSigs = sigs.slice(0, 3).map((s) => {
+    const h = (s.headlines || [])[0];
+    return card(s.ticker, s.name, h ? h.title.slice(0, 42) : `連続${s.streak}日選出`, s.signal, heatColor(s.signal));
+  }).join('') || '<div class="today-empty">ウォッチ蓄積中</div>';
+
+  // 3) スコア急変（直近2スナップショットの客観スコア差・上位3）
+  let movers = '<div class="today-empty">履歴蓄積中（次回実行から表示）</div>';
+  const pts = (LIVE.history && LIVE.history.points || []).filter((p) => p.foresight);
+  if (pts.length >= 2) {
+    const a = pts[pts.length - 2].foresight, b = pts[pts.length - 1].foresight;
+    const ds = Object.keys(b).filter((t) => a[t] != null)
+      .map((t) => ({ t, d: b[t] - a[t], now: b[t] }))
+      .sort((x, y) => Math.abs(y.d) - Math.abs(x.d)).slice(0, 3);
+    if (ds.length && Math.abs(ds[0].d) > 0.05) {
+      movers = ds.map((m) => card(m.t, '', `客観スコア ${m.d >= 0 ? '+' : ''}${m.d.toFixed(1)} → ${m.now.toFixed(1)}`,
+        (m.d >= 0 ? '▲' : '▼'), m.d >= 0 ? 'var(--good)' : 'var(--danger)')).join('');
+    }
+  }
+
+  // 4) 決算接近（7日以内）
+  const earnSoon = sigs.filter((s) => s.earn_days != null && s.earn_days <= 7)
+    .sort((x, y) => x.earn_days - y.earn_days).slice(0, 3);
+  const earnHtml = earnSoon.length
+    ? earnSoon.map((s) => card(s.ticker, s.name, '決算跨ぎは統計的にコイントス', s.earn_days === 0 ? '本日' : `${s.earn_days}日後`, 'var(--warn)')).join('')
+    : '<div class="today-empty">7日以内の決算なし</div>';
+
+  // 5) システム1行
+  const L = LIVE.learning || {};
+  const upd = LIVE.meta ? Math.round((Date.now() - new Date(LIVE.meta.updated)) / 60000) : null;
+  const sys = `更新 ${upd != null ? (upd < 60 ? upd + '分前' : Math.round(upd / 60) + '時間前') : '—'} · ユニバース ${Object.keys((LIVE.foresight || {}).data || {}).length}銘柄 · ファクター採点 ${L.graded_samples ?? 0}/${L.min_samples ?? 12}${(W.alert_summary && Object.keys(W.alert_summary).length) ? ' · アラート的中率あり→ウォッチ参照' : ''}`;
+
+  el.innerHTML = `
+    <div class="today-sec"><h3>⚡ アラート</h3>${alertHtml}</div>
+    <div class="today-sec"><h3>📈 兆候 上位3</h3>${topSigs}</div>
+    <div class="today-sec"><h3>🔥 スコア急変</h3>${movers}</div>
+    <div class="today-sec"><h3>📅 決算接近（7日以内）</h3>${earnHtml}</div>
+    <div class="today-line">${sys}</div>`;
+
+  el.querySelectorAll('.today-card').forEach((c) => {
+    c.addEventListener('click', () => {
+      if (typeof selectCompany === 'function') selectCompany(c.dataset.ticker, true);
+    });
+  });
+}
+
 // ── 自己改善ステータス（遅延採点・IC・ガラパゴス化ガード） ──
 const FORESIGHT_PILLAR_JP = { operating_leverage: '営業レバレッジ', cost_stickiness: 'コスト硬直性',
   survival_dd: '距離デフォルト', rnd_intensity: 'R&D強度', contrarian_inflection: '逆張り変曲',

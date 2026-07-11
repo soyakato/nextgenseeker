@@ -164,17 +164,20 @@ def main():
     print(f"=== NextGenSeeker refresh @ {ts} ===")
 
     # ── 客観ユニバース構築（固定リスト＝主観を全廃） ──
-    print("[1/5] 客観ユニバース構築 (Yahooスクリーナー和集合)...")
+    print("[1/5] 客観ユニバース構築 (継続コア＋スクリーナー和集合)...")
     try:
-        uni_syms = universe.build()
+        fresh = universe.build()
     except Exception as e:
         print(f"  [uni] 構築失敗: {repr(e)[:80]}")
-        uni_syms = []
+        fresh = []
+    core = universe.persistent_core(watch.load_state())
+    uni_syms = list(dict.fromkeys(core + fresh))[:75]   # コア優先・計75上限
     if not uni_syms:
-        # スクリーナー全滅時は前回のユニバースを再利用（パイプラインを止めない）
+        # 全滅時は前回のユニバースを再利用（パイプラインを止めない）
         prev = _load("foresight.json", {"data": {}}).get("data", {})
         uni_syms = list(prev.keys())
         print(f"  [uni] フォールバック: 前回ユニバース {len(uni_syms)}銘柄を再利用")
+    print(f"  [uni] 最終ユニバース {len(uni_syms)}銘柄（コア{len(core)}＋新規）")
     symmap = {s: s for s in uni_syms}      # 内部ID＝シンボル（人手の別名なし）
     discovered = list(uni_syms)
 

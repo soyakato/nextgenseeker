@@ -267,6 +267,35 @@ function radarSVG(company, size = 240) {
   </svg>`;
 }
 
+// ── Bottom tabs（モバイル・アプリシェル） ──
+let ACTIVE_TAB = 'today';
+const isTabMode = () => window.innerWidth <= 1080;
+
+function applyTabs() {
+  const mobile = isTabMode();
+  document.querySelectorAll('[data-tab]').forEach((el) => {
+    el.classList.toggle('tab-hidden', mobile && el.dataset.tab !== ACTIVE_TAB);
+  });
+  document.querySelectorAll('.tab-btn').forEach((b) => {
+    b.classList.toggle('active', b.dataset.tabgo === ACTIVE_TAB);
+  });
+}
+
+function setTab(tab) {
+  ACTIVE_TAB = tab;
+  closeDetailSheet();
+  applyTabs();
+  window.scrollTo(0, 0);
+}
+
+// 前後ナビ共通化（ボタン＋スワイプの両方から使う）
+function navDetail(dir) {
+  const i = LAST_RANKED.indexOf(state.selected);
+  if (i < 0) return;
+  const t = LAST_RANKED[i + dir];
+  if (t) selectCompany(t, false);
+}
+
 // ── Detail sheet（モバイルのマスター・ディテール） ──
 function openDetailSheet() {
   const p = document.querySelector('.detail-panel');
@@ -382,8 +411,8 @@ function renderDetail() {
 
   const pv = document.getElementById('dnav-prev');
   const nx = document.getElementById('dnav-next');
-  if (pv && prevT) pv.addEventListener('click', () => selectCompany(prevT, false));
-  if (nx && nextT) nx.addEventListener('click', () => selectCompany(nextT, false));
+  if (pv && prevT) pv.addEventListener('click', () => navDetail(-1));
+  if (nx && nextT) nx.addEventListener('click', () => navDetail(1));
 }
 
 // ── Ownership block（機関保有・保有期間の変遷） ──
@@ -570,6 +599,27 @@ async function init() {
     b.addEventListener('click', () => setLens(b.dataset.lens));
   });
 
+  // ボトムタブ（モバイル）: 初期タブ=今日。リサイズで表示制御を再適用
+  document.querySelectorAll('.tab-btn').forEach((b) => {
+    b.addEventListener('click', () => setTab(b.dataset.tabgo));
+  });
+  applyTabs();
+  window.addEventListener('resize', applyTabs);
+
+  // 詳細シート内の左右スワイプ = 前後銘柄（縦スクロールは妨げない）
+  const dpEl = document.querySelector('.detail-panel');
+  if (dpEl) {
+    let sx = 0, sy = 0;
+    dpEl.addEventListener('touchstart', (e) => {
+      sx = e.touches[0].clientX; sy = e.touches[0].clientY;
+    }, { passive: true });
+    dpEl.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0].clientX - sx;
+      const dy = e.changedTouches[0].clientY - sy;
+      if (Math.abs(dx) > 70 && Math.abs(dx) > 2.2 * Math.abs(dy)) navDetail(dx < 0 ? 1 : -1);
+    }, { passive: true });
+  }
+
   // 詳細シートの閉じる操作（✕ / 背景タップ / Escキー）
   const dc = document.getElementById('detail-close');
   if (dc) dc.addEventListener('click', closeDetailSheet);
@@ -628,6 +678,7 @@ async function init() {
   renderIndicators();
   renderLearning();
   renderWatch();
+  renderToday();
 
   renderRanking();
   renderDetail();

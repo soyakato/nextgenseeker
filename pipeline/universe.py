@@ -16,6 +16,24 @@ def _valid(sym):
     return bool(_SYM.match(sym)) and sym not in _EXCLUDE
 
 
+def persistent_core(watch_state, days=10, min_appear=4, cap=25):
+    """継続選出コア: 過去days日にmin_appear回以上ユニバース選出された銘柄を保持する。
+    day_gainers系スクリーナーの日次入替（実測~28%/日）が生む注目バイアスを、
+    外部データや人手を加えず自己の選出履歴という客観ルールだけで緩和する."""
+    import datetime as dt
+    cutoff = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    scored = []
+    for t, e in (watch_state.get("tickers") or {}).items():
+        recent = [d for d in e.get("dates", {}) if d >= cutoff]
+        if len(recent) >= min_appear:
+            scored.append((len(recent), min(e["dates"].values()), t))
+    scored.sort(key=lambda x: (-x[0], x[1]))
+    core = [t for _, _, t in scored[:cap]]
+    if core:
+        print(f"  [uni] 継続コア {len(core)}銘柄（{days}日間{min_appear}回以上選出）")
+    return core
+
+
 def build():
     """スクリーナー和集合の客観ユニバースを返す。出現スクリーナー数で優先順位付け."""
     counts = {}

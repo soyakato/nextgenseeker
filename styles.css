@@ -448,6 +448,57 @@ button.btn.active { background: var(--accent); color: #fff; border-color: var(--
   body.sheet-open { overflow: hidden; }
 }
 
+/* ── Bottom tab bar (mobile app shell) ──── */
+.tab-bar {
+  display: none; position: fixed; z-index: 100; left: 0; right: 0; bottom: 0;
+  background: var(--bg-panel); border-top: 1.5px solid var(--border-bright);
+  padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
+  justify-content: space-around; box-shadow: 0 -4px 20px rgba(14, 42, 77, 0.08);
+}
+.tab-btn {
+  flex: 1; max-width: 110px; background: none; border: none; cursor: pointer;
+  font-family: var(--sans); font-size: 10.5px; font-weight: 700; color: var(--text-faint);
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 6px 4px; border-radius: 10px; min-height: 48px;
+}
+.tab-btn span { font-size: 19px; }
+.tab-btn.active { color: var(--accent); background: var(--tint-a); }
+
+/* ── Today digest ───────────────────────── */
+.today-body { padding: 14px 16px; }
+.today-sec { margin-bottom: 14px; }
+.today-sec h3 {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 1px; color: var(--text-faint);
+  margin-bottom: 7px; font-weight: 700;
+}
+.today-card {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--bg-panel-2); border: 1px solid var(--border); border-radius: 12px;
+  padding: 10px 13px; margin-bottom: 7px; cursor: pointer; transition: border-color .15s;
+}
+.today-card:hover { border-color: var(--accent); }
+.today-card.alert { background: var(--warn-bg); border-color: var(--warn); }
+.today-card .tc-tk { font-family: var(--mono); font-weight: 800; font-size: 14px; min-width: 52px; }
+.today-card .tc-mid { flex: 1; min-width: 0; }
+.today-card .tc-name { font-size: 11px; color: var(--text-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.today-card .tc-sub { font-family: var(--mono); font-size: 10px; color: var(--text-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.today-card .tc-val { font-family: var(--mono); font-weight: 800; font-size: 16px; white-space: nowrap; }
+.today-line { font-family: var(--mono); font-size: 11px; color: var(--text-dim); padding: 4px 2px; }
+.today-empty { font-size: 12px; color: var(--text-faint); padding: 4px 2px; }
+
+/* タブモード（モバイル）: アクティブタブ以外を隠す。デスクトップは全表示 */
+@media (max-width: 1080px) {
+  .tab-bar { display: flex; }
+  body { padding-bottom: 76px; }
+  .tab-hidden { display: none !important; }
+  .detail-panel.open { display: block !important; }   /* シートはタブ状態より優先 */
+  .masthead .stamp { display: none; }                  /* モバイルは要点のみ */
+  .brand p { display: none; }
+}
+@media (min-width: 1081px) {
+  .today-panel { margin-bottom: 22px; }
+}
+
 footer.foot {
   margin-top: 40px; padding-top: 18px; border-top: 1.5px solid var(--border);
   font-size: 11px; color: var(--text-faint); line-height: 1.75; font-family: var(--mono);
