@@ -127,7 +127,7 @@ header.masthead {
 
 /* ── Framework cards ────────────────────── */
 .framework { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 20px 0; }
-.framework.six { grid-template-columns: repeat(6, 1fr); }
+.framework.six { grid-template-columns: repeat(auto-fit, minmax(178px, 1fr)); }
 .pillar-card {
   background: var(--bg-panel); border: 1px solid var(--border);
   border-radius: 12px; padding: 12px 13px; position: relative; overflow: hidden;
@@ -261,6 +261,25 @@ button.btn.active { background: var(--accent); color: #fff; border-color: var(--
 .quad-label { font-family: var(--mono); font-size: 9px; fill: var(--text-dim); pointer-events: none; }
 .quad-axis-label { font-family: var(--mono); font-size: 10px; fill: var(--text-faint); letter-spacing: 0.5px; }
 .quad-quadrant-label { font-family: var(--sans); font-size: 11px; font-weight: 800; opacity: 0.65; }
+
+/* ── Ownership block ────────────────────── */
+.own-block {
+  background: linear-gradient(180deg, var(--tint-b), transparent);
+  border: 1px solid var(--border-bright); border-radius: 10px;
+  padding: 10px 12px; margin: 12px 0;
+}
+.own-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+.own-tag {
+  font-family: var(--mono); font-size: 9px; font-weight: 800; letter-spacing: 1px;
+  background: var(--warn); color: #4a3300; padding: 2px 7px; border-radius: 4px;
+}
+.own-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px 12px; }
+.own-grid > div { display: flex; flex-direction: column; }
+.own-grid span { font-size: 10px; color: var(--text-faint); font-family: var(--mono); }
+.own-grid span em { font-style: normal; font-size: 9px; }
+.own-grid b { font-size: 13.5px; font-family: var(--mono); font-weight: 800; }
+.own-delta { margin-top: 8px; font-family: var(--mono); font-size: 10.5px; color: var(--text-dim); border-top: 1px solid var(--border); padding-top: 6px; }
+@media (max-width: 640px) { .own-grid { grid-template-columns: 1fr 1fr; } }
 
 /* ── Live financial block ───────────────── */
 .live-fin {

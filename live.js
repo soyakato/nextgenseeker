@@ -2,11 +2,11 @@
  * live.js — パイプライン生成の live/*.json を読み込み、
  * CAPITALスコアを実データ化＋先行指標トラッカーを描画する。
  */
-const LIVE = { financials: null, indicators: null, analyst: null, meta: null, history: null, foresight: null, learning: null, watch: null, loaded: false };
+const LIVE = { financials: null, indicators: null, analyst: null, meta: null, history: null, foresight: null, learning: null, watch: null, ownership: null, loaded: false };
 
 async function loadLiveData() {
   const bust = '?t=' + Date.now();
-  const files = ['financials', 'indicators', 'analyst', 'meta', 'history', 'foresight', 'learning', 'watch'];
+  const files = ['financials', 'indicators', 'analyst', 'meta', 'history', 'foresight', 'learning', 'watch', 'ownership'];
   await Promise.all(files.map(async (f) => {
     try {
       const r = await fetch(`live/${f}.json${bust}`);
@@ -45,6 +45,7 @@ function applyLiveForesight() {
       c.foresight = { ...d.factors };
       c.foresightRaw = d.raw || null;
       c.foresightDiag = d.diag || null;
+      c.own = d.own || null;
       c.foresightLive = true;
       c.sector = d.sector || c.sector;
     } else {
@@ -53,6 +54,20 @@ function applyLiveForesight() {
     }
   };
   COMPANIES.forEach(patch);
+}
+
+// 機関保有の変遷: 自前時系列(ownership.json)から最古スナップショットとの差分を返す
+function ownershipDelta(ticker) {
+  const pts = LIVE.ownership && LIVE.ownership.points;
+  if (!pts || pts.length < 2) return null;
+  const first = pts[0].data && pts[0].data[ticker];
+  const last = pts[pts.length - 1].data && pts[pts.length - 1].data[ticker];
+  if (!first || !last || first.pct == null || last.pct == null) return null;
+  return {
+    dPct: (last.pct - first.pct) * 100,
+    dCnt: (last.cnt != null && first.cnt != null) ? last.cnt - first.cnt : null,
+    days: Math.round((new Date(pts[pts.length - 1].t) - new Date(pts[0].t)) / 86400000),
+  };
 }
 
 // 客観ユニバース: live/foresight.json の全銘柄を軽量オブジェクトとして返す（客観レンズの母集団）
@@ -69,6 +84,7 @@ function liveUniverseCompanies() {
       layer: d.sector || '客観ユニバース', chokepoint: '',
       scores: {}, risk: null, metrics: {}, thesis: '', risk_note: '',
       foresight: { ...d.factors }, foresightRaw: d.raw || null, foresightDiag: d.diag || null,
+      own: d.own || null,
       live: finAll[t] || null, foresightLive: true, isObjective: true,
     });
   }
@@ -273,7 +289,8 @@ function renderWatch() {
 
 // ── 自己改善ステータス（遅延採点・IC・ガラパゴス化ガード） ──
 const FORESIGHT_PILLAR_JP = { operating_leverage: '営業レバレッジ', cost_stickiness: 'コスト硬直性',
-  survival_dd: '距離デフォルト', rnd_intensity: 'R&D強度', contrarian_inflection: '逆張り変曲', capital_momentum: '資金の勢い' };
+  survival_dd: '距離デフォルト', rnd_intensity: 'R&D強度', contrarian_inflection: '逆張り変曲',
+  capital_momentum: '資金の勢い', holding_trend: '保有期間トレンド' };
 
 function renderLearning() {
   const el = document.getElementById('learning-body');

@@ -34,6 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          # GitHub APIレート緩和
           NTFY_TOPIC: ${{ vars.NTFY_TOPIC }}                 # スマホプッシュ通知
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }} # 任意（LLM判定）
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}      # Tiingo EOD（保有期間トレンド）
         run: python refresh.py
 
       - name: Commit data

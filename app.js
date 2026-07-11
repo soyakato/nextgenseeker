@@ -128,10 +128,11 @@ const PRESETS = {
 // 客観ファクター・レンズ用プリセット
 const FORESIGHT_PRESETS = {
   balanced:  { label: '均衡（学術頑健）', weights: { ...FORESIGHT_DEFAULT_WEIGHTS } },
-  leverage:  { label: '営業レバレッジ重視', weights: { operating_leverage: 38, cost_stickiness: 20, survival_dd: 14, tech_lead: 10, contrarian_inflection: 10, capital_momentum: 8 } },
-  survival:  { label: '生存力（低倒産）', weights: { operating_leverage: 12, cost_stickiness: 8, survival_dd: 40, tech_lead: 12, contrarian_inflection: 12, capital_momentum: 16 } },
-  tech:      { label: '技術先行重視', weights: { operating_leverage: 12, cost_stickiness: 8, survival_dd: 16, tech_lead: 40, contrarian_inflection: 12, capital_momentum: 12 } },
-  contrarian:{ label: '逆張り変曲', weights: { operating_leverage: 16, cost_stickiness: 10, survival_dd: 16, tech_lead: 10, contrarian_inflection: 38, capital_momentum: 10 } },
+  leverage:  { label: '営業レバレッジ重視', weights: { operating_leverage: 34, cost_stickiness: 18, survival_dd: 12, rnd_intensity: 9, contrarian_inflection: 9, capital_momentum: 9, holding_trend: 9 } },
+  survival:  { label: '生存力（低倒産）', weights: { operating_leverage: 10, cost_stickiness: 7, survival_dd: 36, rnd_intensity: 11, contrarian_inflection: 10, capital_momentum: 13, holding_trend: 13 } },
+  rnd:       { label: 'R&D強度重視', weights: { operating_leverage: 11, cost_stickiness: 7, survival_dd: 14, rnd_intensity: 36, contrarian_inflection: 11, capital_momentum: 11, holding_trend: 10 } },
+  contrarian:{ label: '逆張り変曲', weights: { operating_leverage: 14, cost_stickiness: 9, survival_dd: 14, rnd_intensity: 9, contrarian_inflection: 34, capital_momentum: 10, holding_trend: 10 } },
+  holders:   { label: '機関・保有期間重視', weights: { operating_leverage: 10, cost_stickiness: 6, survival_dd: 14, rnd_intensity: 8, contrarian_inflection: 10, capital_momentum: 26, holding_trend: 26 } },
 };
 let activePreset = 'balanced';
 
@@ -371,6 +372,7 @@ function renderDetail() {
     </div>
 
     ${foresightBreakdown}
+    ${ownershipBlock(c)}
     ${liveFinancialBlock(c)}
 
     ${(!disc && c.chokepoint) ? `<div class="detail-choke"><b>CHOKEPOINT / 握っているボトルネック</b>${c.chokepoint}</div>` : ''}
@@ -381,6 +383,34 @@ function renderDetail() {
   const nx = document.getElementById('dnav-next');
   if (pv && prevT) pv.addEventListener('click', () => selectCompany(prevT, false));
   if (nx && nextT) nx.addEventListener('click', () => selectCompany(nextT, false));
+}
+
+// ── Ownership block（機関保有・保有期間の変遷） ──
+function ownershipBlock(c) {
+  const o = c.own;
+  if (!o) return '';
+  const pct = (v, d = 1) => (v == null ? '—' : (v * 100).toFixed(d) + '%');
+  const flowCls = o.flow_13f == null ? 'flat' : (o.flow_13f > 0.005 ? 'up' : (o.flow_13f < -0.005 ? 'down' : 'flat'));
+  const flowSym = o.flow_13f == null ? '—' : (o.flow_13f > 0 ? '▲ 買い越し ' : (o.flow_13f < 0 ? '▼ 売り越し ' : '→ ')) + pct(o.flow_13f);
+  const adCls = o.ad60 == null ? 'flat' : (o.ad60 > 0.05 ? 'up' : (o.ad60 < -0.05 ? 'down' : 'flat'));
+  const delta = (typeof ownershipDelta === 'function') ? ownershipDelta(c.ticker) : null;
+  const deltaTxt = delta
+    ? `保有率 ${delta.dPct >= 0 ? '+' : ''}${delta.dPct.toFixed(2)}pt${delta.dCnt != null ? ` · 機関数 ${delta.dCnt >= 0 ? '+' : ''}${delta.dCnt}` : ''}（${delta.days}日間の自前観測）`
+    : '変遷は観測蓄積中（実行ごとに記録）';
+  return `
+    <div class="own-block">
+      <div class="own-head"><span class="own-tag">機関保有・保有期間の変遷</span>
+        <span class="fbreak-hint">13F四半期確報＋日次代理＋自前時系列</span></div>
+      <div class="own-grid">
+        <div><span>機関保有率</span><b>${pct(o.inst_pct)}</b></div>
+        <div><span>機関数</span><b>${o.inst_count != null ? o.inst_count.toLocaleString() : '—'}</b></div>
+        <div><span>13F上位フロー<em>${o.flow_date ? ' ' + o.flow_date : ''}</em></span><b class="trend ${flowCls}">${flowSym}</b></div>
+        <div><span>A/D蓄積60日<em>（日次代理）</em></span><b class="trend ${adCls}">${o.ad60 == null ? '—' : (o.ad60 > 0 ? '+' : '') + o.ad60}</b></div>
+        <div><span>推定保有期間</span><b>${o.hp_days != null ? o.hp_days + '日' : '—'}</b></div>
+        <div><span>価格系データ源</span><b>${o.src === 'tiingo' ? 'Tiingo 2年' : 'yfinance 1年'}</b></div>
+      </div>
+      <div class="own-delta">${deltaTxt}</div>
+    </div>`;
 }
 
 // ── Live financial block ─────────────────

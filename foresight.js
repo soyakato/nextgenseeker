@@ -19,13 +19,15 @@ const FORESIGHT_PILLARS = [
   { key: 'contrarian_inflection', label: '逆張り変曲', short: 'CONTRA', color: 'var(--danger)',
     desc: '52週高値からのドローダウン×前向きな成長。総悲観だが変曲している乖離' },
   { key: 'capital_momentum', label: '資金の勢い', short: 'FLOW', color: 'var(--accent)',
-    desc: '機関保有＋52週位置＋時変ベータの上昇（Kalman近似）。静かな資金流入' },
+    desc: '機関保有率＋52週位置＋時変ベータ＋A/D蓄積60日＋13F機関フロー。機関の足跡の合成' },
+  { key: 'holding_trend', label: '保有期間トレンド', short: 'HOLD', color: 'var(--accent-deep, var(--accent))',
+    desc: '推定保有期間(発行株数/平均出来高)の前年比変化。正=回転低下＝長期保有者の買い集め（Tiingo 2年出来高）' },
 ];
 
 // 既定ウェイト（learning.DEFAULT_WEIGHTS と一致。採点実績で自己調整される）
 const FORESIGHT_DEFAULT_WEIGHTS = {
-  operating_leverage: 20, cost_stickiness: 12, survival_dd: 20,
-  rnd_intensity: 18, contrarian_inflection: 15, capital_momentum: 15,
+  operating_leverage: 18, cost_stickiness: 10, survival_dd: 18,
+  rnd_intensity: 14, contrarian_inflection: 14, capital_momentum: 13, holding_trend: 13,
 };
 
 // 任意のファクターオブジェクトから合成スコアを算出

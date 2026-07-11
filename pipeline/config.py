@@ -37,6 +37,7 @@ POWER_PROXIES = ["CEG", "VST"]           # 電力ボトルネックの受益
 HBM_PROXIES = ["000660.KS", "MU"]        # HBM供給
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")  # 任意。あればレート制限緩和
+TIINGO_API_KEY = os.environ.get("TIINGO_API_KEY", "")  # Tiingo EOD（保有期間トレンド等）
 
 # ── 原理④「専門家の先行足跡」: 各社の技術キーワード（arXiv実測用） ──
 # キオクシアのCBA/AiSAQが論文に先行出現したように、研究の勢いを暗黒期シグナルとする

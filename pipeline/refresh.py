@@ -222,11 +222,23 @@ def main():
             "raw": {f: (round(raw[tid][f], 3) if isinstance(raw[tid].get(f), float) else raw[tid].get(f))
                     for f in fac.FACTORS},
             "diag": raw[tid].get("_diag"),
+            "own": raw[tid].get("_own"),
             "composite": _composite(factors_final, weights),
             "sector": fin.get("sector"),
             "price": fin.get("price"),
             "discovered": bool(fin.get("discovered")),
         }
+
+    # ── 機関保有の変遷: 保有率・機関数・13Fフローを毎実行記録（自前の時系列） ──
+    own_hist = _load("ownership.json", {"points": []})
+    own_snap = {t: {"pct": (d["own"] or {}).get("inst_pct"),
+                    "cnt": (d["own"] or {}).get("inst_count"),
+                    "flow": (d["own"] or {}).get("flow_13f")}
+                for t, d in fore_data.items() if d.get("own")}
+    if not any(p["t"][:10] == ts[:10] for p in own_hist["points"]):
+        own_hist["points"].append({"t": ts, "data": own_snap})
+        own_hist["points"] = own_hist["points"][-120:]
+    _write("ownership.json", own_hist)
 
     # ── 遅延採点: 今日のコホートを記録 → 満期分を市場超過で採点 ──
     picks = {t: {"composite": d["composite"], "pillars": d["factors"], "price": d["price"]}

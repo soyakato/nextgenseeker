@@ -15,10 +15,12 @@ import math
 import time
 import numpy as np
 import yfinance as yf
+import fetch_tiingo
 from config import BENCHMARK_SYMBOL
 
 FACTORS = ["operating_leverage", "cost_stickiness", "survival_dd",
-           "rnd_intensity", "contrarian_inflection", "capital_momentum"]
+           "rnd_intensity", "contrarian_inflection", "capital_momentum",
+           "holding_trend"]
 
 
 def _row(df, *names):
@@ -144,6 +146,58 @@ def _rolling_beta(stock_hist, spy_hist):
         return None, None
 
 
+def _holding_trend(volume):
+    """保有期間トレンド = 推定保有期間(発行株数/平均出来高)の前年比変化%.
+    HP比では発行株数が相殺されるため ADV20(1年前)/ADV20(現在) で計算できる。
+    正=保有期間が延伸（回転低下=長期保有者の買い集め・安定化）、負=回転上昇（投機化）.
+    Tiingo 2年系列が主・yfinance 1年系列は最古20日窓で代替（240営業日以上必要）."""
+    v = [x for x in volume if x]
+    if len(v) < 240:
+        return None
+    adv_now = float(np.mean(v[-20:]))
+    adv_prev = float(np.mean(v[-260:-240])) if len(v) >= 260 else float(np.mean(v[:20]))
+    if adv_now <= 0 or adv_prev <= 0:
+        return None
+    return max(-80.0, min(300.0, (adv_prev / adv_now - 1) * 100))
+
+
+def _ad_accum(close, high, low, volume, window=60):
+    """Chaikin A/D蓄積比率(-1〜+1): 日中どこで引けたか×出来高の総和/総出来高.
+    正=高値圏引け多発（買い集めの足跡）、負=安値圏引け多発（分散）."""
+    n = min(len(close), len(high), len(low), len(volume))
+    if n < window + 2:
+        return None
+    mfv = tot = 0.0
+    for i in range(n - window, n):
+        c, h, l, v = close[i], high[i], low[i], volume[i]
+        if None in (c, h, l, v) or not v:
+            continue
+        rng = h - l
+        mult = ((c - l) - (h - c)) / rng if rng > 0 else 0.0
+        mfv += mult * v
+        tot += v
+    return (mfv / tot) if tot > 0 else None
+
+
+def _inst_flow_13f(tk):
+    """13F上位機関の保有変化(前四半期比)の加重平均。正=機関の買い越し.
+    新規建て等の極端値は±50%にクランプ（四半期・確報データ）."""
+    try:
+        ih = tk.institutional_holders
+        if ih is None or ih.empty or "pctChange" not in ih.columns:
+            return None, None
+        rows = ih.dropna(subset=["pctChange"]).head(10)
+        if rows.empty:
+            return None, None
+        w = rows["pctHeld"].fillna(0).clip(lower=0.001)
+        chg = rows["pctChange"].clip(-0.5, 0.5)
+        flow = float((chg * w).sum() / w.sum())
+        date = str(rows["Date Reported"].iloc[0])[:10] if "Date Reported" in rows.columns else None
+        return flow, date
+    except Exception:
+        return None, None
+
+
 def compute_raw(symbols, spy_hist):
     """各銘柄の生ファクター値(正規化前)を財務諸表・株価から機械的に計算. symbols: {id: yahoo_sym}."""
     raw = {tid: {f: None for f in FACTORS} for tid in symbols}
@@ -194,7 +248,32 @@ def compute_raw(symbols, spy_hist):
             if drawdown is not None:
                 mult = max(0.4, min(1.4, 0.55 + (g or 0)))
                 raw[tid]["contrarian_inflection"] = drawdown * 100 * mult
-            # 資金勢い: 機関保有 + 52週位置 + 時変ベータ上昇
+
+            # ── Tiingo 2年OHLCV（主）/ yfinance 1年（代替）の統一系列 ──
+            tio = fetch_tiingo.eod(sym)
+            if tio:
+                closes, highs, lows, vols = tio["close"], tio["high"], tio["low"], tio["volume"]
+            else:
+                closes = [float(x) for x in hist["Close"].fillna(0)] if len(hist) else []
+                highs = [float(x) for x in hist["High"].fillna(0)] if len(hist) else []
+                lows = [float(x) for x in hist["Low"].fillna(0)] if len(hist) else []
+                vols = [float(x) for x in hist["Volume"].fillna(0)] if len(hist) else []
+
+            # 保有期間トレンド（第7ファクター・Tiingo出来高由来）
+            raw[tid]["holding_trend"] = _holding_trend(vols)
+            # A/D蓄積60日（機関の足跡・日次代理）
+            ad60 = _ad_accum(closes, highs, lows, vols, window=60)
+            # 13F機関フロー（四半期・確報）
+            flow13f, flow_date = _inst_flow_13f(tk)
+            inst_count = None
+            try:
+                mh = tk.major_holders
+                if mh is not None and "institutionsCount" in mh.index:
+                    inst_count = int(mh.loc["institutionsCount"].iloc[0])
+            except Exception:
+                pass
+
+            # 資金勢い: 機関保有 + 52週位置 + 時変ベータ上昇 + A/D蓄積 + 13Fフロー
             inst = info.get("heldPercentInstitutions")
             lo = info.get("fiftyTwoWeekLow")
             pos = ((price - lo) / (dd - lo)) if (price and dd and lo and dd > lo) else None
@@ -202,15 +281,29 @@ def compute_raw(symbols, spy_hist):
                 (inst * 100 if inst is not None else None),
                 (pos * 100 if pos is not None else None),
                 (50 + b_trend * 100) if b_trend is not None else None,
+                (50 + ad60 * 100) if ad60 is not None else None,
+                (50 + max(-0.5, min(0.5, flow13f)) * 100) if flow13f is not None else None,
             ] if x is not None]
             raw[tid]["capital_momentum"] = (sum(comps) / len(comps)) if comps else None
+
+            shares = info.get("sharesOutstanding")
+            adv20 = float(np.mean([x for x in vols[-20:] if x])) if len(vols) >= 20 else None
+            hp_days = round(shares / adv20, 1) if (shares and adv20) else None
+            raw[tid]["_own"] = {
+                "inst_pct": inst, "inst_count": inst_count,
+                "flow_13f": (round(flow13f, 4) if flow13f is not None else None),
+                "flow_date": flow_date,
+                "ad60": (round(ad60, 3) if ad60 is not None else None),
+                "hp_days": hp_days,
+                "src": "tiingo" if tio else "yfinance",
+            }
             raw[tid]["_diag"] = {"beta": round(b_now, 2) if b_now else None,
                                  "beta_trend": round(b_trend, 3) if b_trend is not None else None,
                                  "vol": round(vol, 2) if vol else None,
                                  "debt": total_debt}
             print(f"  [fac] {tid:7s} DOL={_fmt(raw[tid]['operating_leverage'])} "
-                  f"stick={_fmt(raw[tid]['cost_stickiness'])} DD={_fmt(raw[tid]['survival_dd'])} "
-                  f"contra={_fmt(raw[tid]['contrarian_inflection'])}")
+                  f"hold={_fmt(raw[tid]['holding_trend'])} flow13F={_fmt(flow13f)} "
+                  f"ad={_fmt(ad60)} hp={_fmt(hp_days)}d src={'T' if tio else 'Y'}")
         except Exception as e:
             print(f"  [fac] {tid:7s} ERROR {repr(e)[:80]}")
         time.sleep(0.5)

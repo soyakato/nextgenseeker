@@ -21,9 +21,10 @@ from factors import FACTORS
 
 LEDGER_PATH = os.path.join(LIVE_DIR, "learning_ledger.json")
 
-# 客観ファクターの既定ウェイト（学術的な頑健性を反映した中立初期値）
-DEFAULT_WEIGHTS = {"operating_leverage": 20, "cost_stickiness": 12, "survival_dd": 20,
-                   "rnd_intensity": 18, "contrarian_inflection": 15, "capital_momentum": 15}
+# 客観ファクターの既定ウェイト（学術的な頑健性を反映した中立初期値・計100）
+DEFAULT_WEIGHTS = {"operating_leverage": 18, "cost_stickiness": 10, "survival_dd": 18,
+                   "rnd_intensity": 14, "contrarian_inflection": 14, "capital_momentum": 13,
+                   "holding_trend": 13}
 
 # fp.PILLARS の後方互換
 class _FP:
