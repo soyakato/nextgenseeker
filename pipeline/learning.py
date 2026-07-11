@@ -22,9 +22,10 @@ from factors import FACTORS
 LEDGER_PATH = os.path.join(LIVE_DIR, "learning_ledger.json")
 
 # 客観ファクターの既定ウェイト（学術的な頑健性を反映した中立初期値・計100）
-DEFAULT_WEIGHTS = {"operating_leverage": 18, "cost_stickiness": 10, "survival_dd": 18,
-                   "rnd_intensity": 14, "contrarian_inflection": 14, "capital_momentum": 13,
-                   "holding_trend": 13}
+# PEADは短中期で最頑健(Bernard&Thomas)のため新規ながら12を配分
+DEFAULT_WEIGHTS = {"operating_leverage": 16, "cost_stickiness": 9, "survival_dd": 16,
+                   "rnd_intensity": 12, "contrarian_inflection": 12, "capital_momentum": 12,
+                   "holding_trend": 11, "earnings_drift": 12}
 
 # fp.PILLARS の後方互換
 class _FP:

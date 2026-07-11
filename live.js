@@ -234,7 +234,7 @@ function renderWatch() {
       <div class="watch-head">
         <span class="watch-tier ${s.tier === '確定' ? 'firm' : 'prov'}">${s.tier}</span>
         <div class="watch-id"><b>${s.ticker}</b><span>${s.name} · ${s.sector || '—'}</span></div>
-        <div class="watch-sub">連続${s.streak}日 · 出現${s.appearances}回 · 本日#${s.today_rank || '—'} ${momTxt ? '· ' + momTxt : ''} ${earnChip}</div>
+        <div class="watch-sub">連続${s.streak}日 · 出現${s.appearances}回 · 本日#${s.today_rank || '—'} ${momTxt ? '· ' + momTxt : ''} ${s.consensus ? `· 評価 Buy${s.consensus.buy}/Hold${s.consensus.hold}/Sell${s.consensus.sell}` : ''} ${earnChip}</div>
         <div class="watch-sig" style="color:${col}">${s.signal}${alerted ? ' ⚡' : ''}</div>
       </div>
       <div class="watch-bars">
@@ -290,7 +290,7 @@ function renderWatch() {
 // ── 自己改善ステータス（遅延採点・IC・ガラパゴス化ガード） ──
 const FORESIGHT_PILLAR_JP = { operating_leverage: '営業レバレッジ', cost_stickiness: 'コスト硬直性',
   survival_dd: '距離デフォルト', rnd_intensity: 'R&D強度', contrarian_inflection: '逆張り変曲',
-  capital_momentum: '資金の勢い', holding_trend: '保有期間トレンド' };
+  capital_momentum: '資金の勢い', holding_trend: '保有期間トレンド', earnings_drift: '決算ドリフト' };
 
 function renderLearning() {
   const el = document.getElementById('learning-body');

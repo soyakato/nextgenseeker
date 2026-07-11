@@ -13,14 +13,16 @@
 """
 import math
 import time
+import datetime as dt
 import numpy as np
 import yfinance as yf
 import fetch_tiingo
+import fetch_fmp
 from config import BENCHMARK_SYMBOL
 
 FACTORS = ["operating_leverage", "cost_stickiness", "survival_dd",
            "rnd_intensity", "contrarian_inflection", "capital_momentum",
-           "holding_trend"]
+           "holding_trend", "earnings_drift"]
 
 
 def _row(df, *names):
@@ -179,6 +181,65 @@ def _ad_accum(close, high, low, volume, window=60):
     return (mfv / tot) if tot > 0 else None
 
 
+def _earnings_drift_yf(tk):
+    """PEAD主データ源: yfinance earnings_dates（全銘柄カバー・Surprise(%)算出済み）.
+    返り値 (drift, {date,pct,next})。データ自体が無い場合のみ (None, None)."""
+    try:
+        ed = tk.earnings_dates
+    except Exception:
+        return None, None
+    if ed is None or ed.empty or "Reported EPS" not in ed.columns:
+        return None, None
+    today = dt.date.today()
+    next_date, latest = None, None
+    for idx, row in ed.iterrows():
+        d = idx.date() if hasattr(idx, "date") else None
+        if d is None:
+            continue
+        rep = row.get("Reported EPS")
+        if rep is None or rep != rep:            # NaN=未報告（将来分）
+            if d >= today and (next_date is None or d < next_date):
+                next_date = d
+            continue
+        sp = row.get("Surprise(%)")
+        if sp is None or sp != sp:
+            continue
+        if d <= today and (latest is None or d > latest[0]):
+            latest = (d, float(sp))
+    nxt = next_date.isoformat() if next_date else None
+    if latest is None:
+        return None, {"date": None, "pct": None, "next": nxt}
+    surp = {"date": latest[0].isoformat(), "pct": round(latest[1], 1), "next": nxt}
+    days = (today - latest[0]).days
+    if days > 100:
+        return 0.0, surp                          # ドリフト消滅（真の状態）
+    frac = max(-1.0, min(1.0, latest[1] / 100.0))
+    decay = max(0.0, 1.0 - days / 90.0)
+    return round(frac * decay * 100, 2), surp
+
+
+def _earnings_drift(symbol):
+    """PEAD（決算後ドリフト, Bernard & Thomas 1989）:
+    直近決算のEPSサプライズ% × 時間減衰(報告後90日で消滅)。
+    ドリフトは数週間スケールで最も頑健なアノマリー。
+    報告後100日超=ドリフト消滅で0（真の状態）、FMPデータ欠損のみNone（中立）."""
+    s = fetch_fmp.latest_surprise(symbol)
+    if s is None:
+        return None, None
+    act, est = s.get("act"), s.get("est")
+    if act is None or est is None:
+        return None, s
+    try:
+        days = (dt.date.today() - dt.date.fromisoformat(s["date"])).days
+    except Exception:
+        return None, s
+    if days > 100:
+        return 0.0, s
+    surprise = max(-1.0, min(1.0, (act - est) / max(abs(est), 0.1)))
+    decay = max(0.0, 1.0 - days / 90.0)
+    return round(surprise * decay * 100, 2), s
+
+
 def _inst_flow_13f(tk):
     """13F上位機関の保有変化(前四半期比)の加重平均。正=機関の買い越し.
     新規建て等の極端値は±50%にクランプ（四半期・確報データ）."""
@@ -273,23 +334,36 @@ def compute_raw(symbols, spy_hist):
             except Exception:
                 pass
 
-            # 資金勢い: 機関保有 + 52週位置 + 時変ベータ上昇 + A/D蓄積 + 13Fフロー
+            # 資金勢い: 日次鮮度の成分のみ（52週位置＋時変ベータ＋A/D蓄積60日）。
+            # 13Fフロー・機関保有率は四半期＋45日遅延の遅効データであり、
+            # さらに保有率の「水準」は高い＝発見済みを意味し早期発見と逆行するため
+            # スコアから除外し、参考表示（own）に降格した。
             inst = info.get("heldPercentInstitutions")
             lo = info.get("fiftyTwoWeekLow")
             pos = ((price - lo) / (dd - lo)) if (price and dd and lo and dd > lo) else None
             comps = [x for x in [
-                (inst * 100 if inst is not None else None),
                 (pos * 100 if pos is not None else None),
                 (50 + b_trend * 100) if b_trend is not None else None,
                 (50 + ad60 * 100) if ad60 is not None else None,
-                (50 + max(-0.5, min(0.5, flow13f)) * 100) if flow13f is not None else None,
             ] if x is not None]
             raw[tid]["capital_momentum"] = (sum(comps) / len(comps)) if comps else None
+
+            # PEAD: yfinance earnings_dates主（全銘柄）、FMPは補完
+            # （FMP無料枠は銘柄ユニバース制限があり10/60しか取れない＝横断比較を壊すため主にできない）
+            drift, surp = _earnings_drift_yf(tk)
+            if drift is None and surp is None:
+                drift, s = _earnings_drift(sym)
+                surp = ({"date": s.get("date"),
+                         "pct": (round((s["act"] - s["est"]) / max(abs(s["est"]), 0.1) * 100, 1)
+                                 if (s.get("act") is not None and s.get("est") is not None) else None),
+                         "next": s.get("next_date")} if s else None)
+            raw[tid]["earnings_drift"] = drift
 
             shares = info.get("sharesOutstanding")
             adv20 = float(np.mean([x for x in vols[-20:] if x])) if len(vols) >= 20 else None
             hp_days = round(shares / adv20, 1) if (shares and adv20) else None
             raw[tid]["_own"] = {
+                "surprise": surp,
                 "inst_pct": inst, "inst_count": inst_count,
                 "flow_13f": (round(flow13f, 4) if flow13f is not None else None),
                 "flow_date": flow_date,

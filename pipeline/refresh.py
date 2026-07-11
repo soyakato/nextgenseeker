@@ -27,8 +27,12 @@ import discovery
 import watch
 import fetch_news
 import fetch_edgar
+import fetch_fmp
 import news_judge
 import analyst
+
+# アナリスト格付アクション→方向の機械マップ（FMPのaction分類そのまま）
+_GRADE_MAP = {"upgrade": (0.6, 0.7), "downgrade": (-0.6, 0.7), "initiate": (0.25, 0.4)}
 
 
 def _write(name, obj):
@@ -284,6 +288,14 @@ def main():
     edgar_by_t = fetch_edgar.fetch_8k(watch_ids)
     for t in watch_ids:
         ev = fetch_edgar.to_judged_items(edgar_by_t.get(t, []))
+        # アナリスト格付イベント（FMP・アクション分類の機械判定）も合流
+        for e in (fetch_fmp.recent_grades(t) or [])[:5]:
+            d, cf = _GRADE_MAP.get(e.get("action", ""), (0.0, 0.15))
+            ev.append({"title": f"アナリスト{e.get('action', '')}: {e.get('from', '')}→{e.get('to', '')}",
+                       "summary": "", "pub": e.get("date", ""), "provider": e.get("firm") or "FMP",
+                       "url": "", "dir": d, "conf": cf,
+                       "type": "格付" + ("↑" if d > 0 else ("↓" if d < 0 else "")),
+                       "why": "格付イベント（機械判定）"})
         if not ev:
             continue
         entry = judged.setdefault(t, {"score": 50.0, "items": [], "n": 0})
@@ -308,9 +320,12 @@ def main():
             "persist": round(persist, 1), "news": news_score,
             "confirm": round(confirm, 1), "signal": sig,
             "mom": mom.get(t), "earn_days": earn.get(t),
+            "consensus": fetch_fmp.consensus(t),
             "headlines": (judged.get(t, {}).get("items") or [])[:5],
         })
     signals.sort(key=lambda s: -s["signal"])
+    fetch_fmp.save_cache()
+    print(f"  [fmp] API使用 {fetch_fmp.calls_used()}回（予算150/実行・250/日）")
 
     n_alerts = watch.record_alerts(wst, today, signals, price_now, bench_now)
     watch.record_watch_cohort(wst, today, signals, price_now, bench_now)

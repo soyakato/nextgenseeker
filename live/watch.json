@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T08:15:18.827495+00:00",
+  "updated": "2026-07-11T08:53:47.340176+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -20,7 +20,8 @@
         "ret5": 0.0906,
         "vol_surge": 1.25
       },
-      "earn_days": 15,
+      "earn_days": 16,
+      "consensus": null,
       "headlines": [
         {
           "title": "Basin rig count down five as prices climb",
@@ -90,14 +91,15 @@
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.8,
+      "news": 54.8,
       "confirm": 75.3,
-      "signal": 74.1,
+      "signal": 74.5,
       "mom": {
         "ret5": 0.1096,
         "vol_surge": 0.69
       },
       "earn_days": null,
+      "consensus": null,
       "headlines": [
         {
           "title": "SEC 8-K提出: その他の重要イベント",
@@ -123,6 +125,17 @@
           "why": "特定イベント検出なし"
         },
         {
+          "title": "Apple CEO Tim Cook Announces $30 Billion Broadcom Deal to Produce 15 Billion Chips",
+          "summary": "The major chip deal with Broadcom is part of Apple's American Manufacturing Program.",
+          "pub": "2026-07-11T08:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/11/apple-ceo-tim-cook-announces-30-billion-broadcom-d/",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
           "title": "Mark Zuckerberg Is Turning Meta Into a Bigger Chipmaker. Its Newest In-House AI Chip Enters Production in September.",
           "summary": "A reported September production date hints at how the company plans to get more out of its massive AI budget.",
           "pub": "2026-07-11T03:01",
@@ -143,17 +156,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Apple vs. Broadcom: Is Either Stock a Buy After Their $30 Billion Chip Partnership?",
-          "summary": "Apple and Broadcom have expanded their long-standing partnership with a multiyear agreement expected to exceed $30 billion.",
-          "pub": "2026-07-10T21:32",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-vs-broadcom-either-stock-213200451.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
         }
       ]
     },
@@ -168,14 +170,20 @@
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 48.8,
+      "news": 50.2,
       "confirm": 71.8,
-      "signal": 71.1,
+      "signal": 71.6,
       "mom": {
         "ret5": 0.0828,
         "vol_surge": 0.8
       },
       "earn_days": null,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
       "headlines": [
         {
           "title": "SEC 8-K提出: 役員の退任・選任",
@@ -237,90 +245,30 @@
       ]
     },
     {
-      "ticker": "CERT",
-      "tier": "確定",
-      "streak": 4,
-      "appearances": 4,
-      "best_rank": 13,
-      "today_rank": 16,
-      "first_seen": "2026-07-08",
-      "name": "Certara, Inc.",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 71.5,
-      "confirm": 41.1,
-      "signal": 70.9,
-      "mom": {
-        "ret5": -0.0287,
-        "vol_surge": 0.98
-      },
-      "earn_days": 26,
-      "headlines": [
-        {
-          "title": "Bank of America Securities Reiterates Buy Rating on Nvidia (NVDA)",
-          "summary": "NVIDIA Corp. (NASDAQ:NVDA) is one of the 10 Best Data Center Stocks to Buy in July. On July 8, TipRanks reported that Bank of America Securities analyst Vivek Arya reiterated a Buy rating on Nvidia while setting a $350 price target. Nvidia continues to see strong Buy ratings from analysts, with 94%",
-          "pub": "2026-07-10T06:58",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-securities-reiterates-buy-065812878.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
-        },
-        {
-          "title": "NVIDIA (NVDA): The Best NASDAQ 100 Stock to Buy Other Than SpaceX",
-          "summary": "NVIDIA Corporation (NASDAQ:NVDA) is one of the 15 Best NASDAQ 100 Stocks to Buy Other Than SpaceX. On July 7, 2026, Certara (CERT) said it is partnering with NVIDIA Corporation (NASDAQ:NVDA) to advance Certara’s open integrated AI platform. NVIDIA BioNeMo provides access to NVIDIA’s full life scienc",
-          "pub": "2026-07-09T16:44",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-best-nasdaq-100-164401962.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "AI Chips Today - Certara-NVIDIA Partnership Revolutionizes AI in Drug Development",
-          "summary": "Certara has announced a partnership with NVIDIA to enhance its AI platform for drug discovery and development by incorporating the NVIDIA BioNeMo Agent Toolkit. This collaboration aims to unify Certara's biosimulation software, regulatory expertise, and datasets with AI-driven agents that provide sp",
-          "pub": "2026-07-08T11:37",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ai-chips-today-certara-nvidia-113752197.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Certara teams up with Nvidia to strengthen AI platform with BioNeMo toolkit (CERT)",
-          "summary": "Partnership expands AI capabilities for drug developmentCertara, Inc. (NASDAQ:CERT) has announced a collaboration with Nvidia (NASDAQ:NVDA) to integrate the Nvidia BioNeMo Agent Toolkit into its artificial intelligence platform, bringing together Certara’s biosimulation technology, regulatory expert",
-          "pub": "2026-07-07T12:54",
-          "provider": "InvestorsHub",
-          "url": "https://investorshub.advfn.com/market-news/article/31467/certara-teams-up-with-nvidia-to-strengthen-ai-platform-with-bionemo-toolkit-cert",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +拡大・新製品"
-        }
-      ]
-    },
-    {
       "ticker": "AMD",
       "tier": "確定",
       "streak": 4,
       "appearances": 4,
       "best_rank": 1,
-      "today_rank": 2,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.0,
+      "news": 49.3,
       "confirm": 70.7,
-      "signal": 70.8,
+      "signal": 70.9,
       "mom": {
         "ret5": 0.0774,
         "vol_surge": 0.83
       },
-      "earn_days": 24,
+      "earn_days": 25,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
       "headlines": [
         {
           "title": "SEC 8-K提出: 役員の退任・選任",
@@ -335,48 +283,48 @@
           "is_edgar": true
         },
         {
-          "title": "Chip stocks regain some ground after whipsaw of a trading week",
-          "summary": "While South Korean memory chipmaker SK Hynix (000660.KS) makes its debut on US market with a fresh listing on the Nasdaq, Yahoo Finance Markets and Data Editor Jared Blikre and Senior Business Reporter Ines Ferré take a closer look at the semiconductor landscape and memory chip trade.",
-          "pub": "2026-07-10T14:30",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/chip-stocks-regain-ground-whipsaw-143000172.html",
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-10",
+          "provider": "Stifel",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Nasdaq's hottest winners just fell behind: Chart of the Day",
-          "summary": "The Nasdaq-100 is holding up. Its old leaders are struggling.",
-          "pub": "2026-07-10T10:00",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/nasdaqs-hottest-winners-just-fell-behind-chart-of-the-day-100000829.html",
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-06",
+          "provider": "Goldman Sachs",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Shares of Intel and AMD Have Plummeted in the Last Few Days. Is It Time to Panic?",
-          "summary": "AMD and Intel investors have enjoyed incredible gains so far in 2026.",
-          "pub": "2026-07-11T07:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/11/intel-and-amds-stock-have-plummeted-in-the-last-fe/",
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-06-30",
+          "provider": "Wells Fargo",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "SK Hynix ETFs Are Coming. Exactly Who Should Own Them.",
-          "summary": "Single-stock leveraged ETFs will amplify the daily gains—or losses—of the South Korean memory-chip maker. They’re not for the buy-and-hold crowd.",
-          "pub": "2026-07-11T06:00",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/hynix-etfs-leveraged-inverse-stock-02ea2851?siteid=yhoof2&yptr=yahoo",
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-06-29",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -386,7 +334,7 @@
       "streak": 4,
       "appearances": 4,
       "best_rank": 10,
-      "today_rank": 13,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -399,6 +347,7 @@
         "vol_surge": 0.61
       },
       "earn_days": 39,
+      "consensus": null,
       "headlines": [
         {
           "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務",
@@ -464,7 +413,7 @@
       "streak": 4,
       "appearances": 4,
       "best_rank": 4,
-      "today_rank": 8,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -477,6 +426,7 @@
         "vol_surge": 0.58
       },
       "earn_days": null,
+      "consensus": null,
       "headlines": [
         {
           "title": "Credo's CTO Sold 31,290 Shares. His Remaining $1.6 Billion Stake Tells the Real Story",
@@ -541,7 +491,7 @@
       "streak": 4,
       "appearances": 4,
       "best_rank": 7,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -553,7 +503,8 @@
         "ret5": 0.0,
         "vol_surge": 0.96
       },
-      "earn_days": 5,
+      "earn_days": 6,
+      "consensus": null,
       "headlines": [
         {
           "title": "SEC 8-K提出: 重要契約の締結・その他の重要イベント",
@@ -620,20 +571,32 @@
       "streak": 4,
       "appearances": 4,
       "best_rank": 16,
-      "today_rank": 18,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 63.4,
+      "news": 64.0,
       "confirm": 39.9,
-      "signal": 67.3,
+      "signal": 67.6,
       "mom": {
         "ret5": -0.0121,
         "vol_surge": 0.57
       },
       "earn_days": null,
+      "consensus": null,
       "headlines": [
+        {
+          "title": "How Investors Are Reacting To C3.ai (AI) CEO Shuffle, Revenue Drop And Shell Partnership Extension",
+          "summary": "C3.ai recently reported a sharp revenue decline in 2026 alongside the temporary step-down and subsequent return of CEO Tom Siebel, while extending its enterprise AI collaboration with Shell against a backdrop of intensifying competition from BigBear.ai. This combination of leadership disruption, con",
+          "pub": "2026-07-11T08:15",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-c3-ai-ai-081553667.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
         {
           "title": "C3.ai (AI) Brings Revenue And Leadership Into Focus, Is The Stock Slightly Overvalued?",
           "summary": "C3.ai event puts revenue trends and leadership back in focus C3.ai (AI) has moved back into the spotlight after revenue declined in 2026, its collaboration with Shell expanded, and founder Tom Siebel returned as CEO following a period away for health reasons. See our latest analysis for C3.ai. At a",
@@ -677,17 +640,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "C3.ai, Inc. (AI) Exceeds Market Returns: Some Facts to Consider",
-          "summary": "In the closing of the recent trading day, C3.ai, Inc. (AI) stood at $9.01, denoting a +1.69% move from the preceding trading day.",
-          "pub": "2026-07-09T21:50",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-inc-ai-exceeds-215002343.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -696,8 +648,8 @@
       "tier": "確定",
       "streak": 4,
       "appearances": 4,
-      "best_rank": 20,
-      "today_rank": 20,
+      "best_rank": 18,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "AGNC Investment Corp.",
       "sector": "Real Estate",
@@ -709,7 +661,8 @@
         "ret5": 0.0118,
         "vol_surge": 0.97
       },
-      "earn_days": 9,
+      "earn_days": 10,
+      "consensus": null,
       "headlines": [
         {
           "title": "AGNC Investment (AGNC) Suffers a Larger Drop Than the General Market: Key Insights",
@@ -717,6 +670,84 @@
           "pub": "2026-07-08T21:50",
           "provider": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/agnc-investment-agnc-suffers-larger-215002623.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AMKR",
+      "tier": "確定",
+      "streak": 4,
+      "appearances": 4,
+      "best_rank": 18,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Amkor Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.5,
+      "confirm": 49.6,
+      "signal": 65.5,
+      "mom": {
+        "ret5": 0.0118,
+        "vol_surge": 0.74
+      },
+      "earn_days": 17,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "FormFactor, Amkor, and Kulicke and Soffa Shares Skyrocket, What You Need To Know",
+          "summary": "A number of stocks jumped in the afternoon session after semiconductor stocks rebounded amid dip buying following a recent selloff, as reports revealed that China may ease restrictions on advanced Nvidia AI chip imports.",
+          "pub": "2026-07-09T19:43",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-amkor-kulicke-soffa-shares-194342984.html",
+          "dir": -0.1,
+          "conf": 0.10000000000000003,
+          "type": "急騰報道",
+          "why": "+急騰報道 -急落報道"
+        },
+        {
+          "title": "Amtech's AI Packaging Demand Surges: Is More Upside Ahead?",
+          "summary": "ASYS is seeing AI packaging demand surge as equipment sales, new orders and backlog gains fuel its growth outlook.",
+          "pub": "2026-07-09T12:29",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amtechs-ai-packaging-demand-surges-122900538.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Amkor Technology (AMKR) Gains As Market Dips: What You Should Know",
+          "summary": "In the closing of the recent trading day, Amkor Technology (AMKR) stood at $66.91, denoting a +2.42% move from the preceding trading day.",
+          "pub": "2026-07-08T22:00",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-amkr-gains-market-220001079.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Amkor Technology (AMKR) Falls Sharply As Fair Value Debate Returns",
+          "summary": "Amkor Technology (AMKR) is back in focus after its shares fell 12.9% on July 2, 2026, to $69.65, as investors weighed valuation metrics and recent insider selling activity. See our latest analysis for Amkor Technology. The recent 1 day share price return decline of 6.5% and 7 day share price return",
+          "pub": "2026-07-08T01:15",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-amkr-falls-sharply-011547058.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Amkor (AMKR) Stock Still Looks Like A Bargain On A 205% Run",
+          "summary": "After a 205.4% gain over the past five years, Amkor Technology now sits in a tricky spot where strong recent returns and upbeat AI packaging headlines meet valuation checks that still screen the stock as relatively cheap. Amkor Technology has delivered a 205.4% return over five years, which puts ext",
+          "pub": "2026-07-07T23:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-amkr-stock-still-looks-231059268.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -742,7 +773,8 @@
         "ret5": 0.0161,
         "vol_surge": 0.65
       },
-      "earn_days": 24,
+      "earn_days": 25,
+      "consensus": null,
       "headlines": [
         {
           "title": "ALAB Rides on Strong Demand for PCIe Solution: A Sign for More Upside?",
@@ -802,50 +834,6 @@
       ]
     },
     {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 4,
-      "appearances": 4,
-      "best_rank": 2,
-      "today_rank": 3,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 42.5,
-      "signal": 62.7,
-      "mom": {
-        "ret5": -0.0231,
-        "vol_surge": 0.96
-      },
-      "earn_days": 18,
-      "headlines": [
-        {
-          "title": "Surface Metals advances Nevada Gold and Lithium projects toward key milestones",
-          "summary": "Surface Metals CEO Steve Hanson joined Steve Darling from Proactive to discuss the company's Nevada-focused portfolio and plans to advance both its Cimarron Gold Project and Clayton Valley lithium project. Hanson said Surface Metals is focused on developing North American resource assets, with a por",
-          "pub": "2026-07-10T16:29",
-          "provider": "Proactive",
-          "url": "https://finance.yahoo.com/video/surface-metals-advances-nevada-gold-162923597.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Should You Buy, Sell or Hold AEM Stock After a 31% Drop in 3 Months?",
-          "summary": "Agnico Eagle shares fell 31% in three months as gold prices retreated, but growth projects and strong cash flow continue to support the miner.",
-          "pub": "2026-07-10T11:56",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-aem-stock-115600320.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 4,
@@ -856,15 +844,43 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.1,
+      "news": 54.2,
       "confirm": 41.9,
-      "signal": 62.6,
+      "signal": 64.3,
       "mom": {
         "ret5": -0.0194,
         "vol_surge": 0.85
       },
-      "earn_days": 23,
+      "earn_days": 24,
+      "consensus": {
+        "buy": 12,
+        "hold": 11,
+        "sell": 3,
+        "consensus": "Buy"
+      },
       "headlines": [
+        {
+          "title": "アナリストupgrade: Neutral→Buy",
+          "summary": "",
+          "pub": "2026-07-02",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストupgrade: Underperform→Peer Perform",
+          "summary": "",
+          "pub": "2026-06-16",
+          "provider": "Wolfe Research",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
         {
           "title": "Rackspace Technology (RXT) Is Down 6.6% After Revenue Cut And Dilutive AI Pivot Announcement – Has The Bull Case Changed?",
           "summary": "Earlier this week, Rackspace Technology cut its 2026 revenue guidance to US$2.45–2.55 billion, reduced expected adjusted EBITDA, and outlined exits from low-margin public cloud resale and legacy hosting while launching a US$250 million at-the-market equity program to fund an enterprise AI push. At t",
@@ -897,28 +913,51 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 4,
+      "appearances": 4,
+      "best_rank": 2,
+      "today_rank": 4,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 42.5,
+      "signal": 62.7,
+      "mom": {
+        "ret5": -0.0231,
+        "vol_surge": 0.96
+      },
+      "earn_days": 19,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Surface Metals advances Nevada Gold and Lithium projects toward key milestones",
+          "summary": "Surface Metals CEO Steve Hanson joined Steve Darling from Proactive to discuss the company's Nevada-focused portfolio and plans to advance both its Cimarron Gold Project and Clayton Valley lithium project. Hanson said Surface Metals is focused on developing North American resource assets, with a por",
+          "pub": "2026-07-10T16:29",
+          "provider": "Proactive",
+          "url": "https://finance.yahoo.com/video/surface-metals-advances-nevada-gold-162923597.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Rackspace Technology (RXT) Rebounds 22% After Brutal Week",
-          "summary": "One brutal week and one chaotic Thursday left Rackspace investors staring at a guidance cut, a shareholder investigation, and a last-minute AI gamble with Palantir. Now the stock is bouncing hard, and the question is whether this recovery has any real foundation under it.",
-          "pub": "2026-07-10T19:22",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/10/rackspace-technology-rxt-market-movers/",
-          "dir": -0.8,
-          "conf": 0.8,
-          "type": "訴訟・調査",
-          "why": "-訴訟・調査"
-        },
-        {
-          "title": "Palantir's 104% U.S. Revenue Growth is the Key Number to Watch",
-          "summary": "PLTR's U.S. business is expanding at an exceptional pace, making domestic revenue growth one of the company's most important performance indicators.",
-          "pub": "2026-07-10T17:04",
+          "title": "Should You Buy, Sell or Hold AEM Stock After a 31% Drop in 3 Months?",
+          "summary": "Agnico Eagle shares fell 31% in three months as gold prices retreated, but growth projects and strong cash flow continue to support the miner.",
+          "pub": "2026-07-10T11:56",
           "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantirs-104-u-revenue-growth-170400431.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-aem-stock-115600320.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -940,7 +979,8 @@
         "ret5": -0.0603,
         "vol_surge": 0.71
       },
-      "earn_days": 24,
+      "earn_days": 25,
+      "consensus": null,
       "headlines": [
         {
           "title": "Can Flywire's B2B Opportunity Accelerate Growth?",
@@ -994,7 +1034,7 @@
       "streak": 4,
       "appearances": 4,
       "best_rank": 5,
-      "today_rank": 11,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
@@ -1006,7 +1046,8 @@
         "ret5": -0.0763,
         "vol_surge": 0.47
       },
-      "earn_days": 25,
+      "earn_days": 26,
+      "consensus": null,
       "headlines": []
     }
   ],
@@ -1023,31 +1064,31 @@
     {
       "date": "2026-07-11",
       "ticker": "AVGO",
-      "signal": 74.1,
+      "signal": 74.5,
       "price": 399.97,
       "spy": 754.9500122070312,
       "grades": {}
     },
     {
       "date": "2026-07-11",
-      "ticker": "AMD",
-      "signal": 71.2,
-      "price": 557.89,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
       "ticker": "NVDA",
-      "signal": 71.1,
+      "signal": 71.6,
       "price": 210.96,
       "spy": 754.9500122070312,
       "grades": {}
     },
     {
       "date": "2026-07-11",
+      "ticker": "AMD",
+      "signal": 70.9,
+      "price": 557.89,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-11",
       "ticker": "CERT",
-      "signal": 70.6,
+      "signal": 70.9,
       "price": 6.77,
       "spy": 754.9500122070312,
       "grades": {}
@@ -1055,16 +1096,8 @@
     {
       "date": "2026-07-11",
       "ticker": "ADI",
-      "signal": 70.2,
+      "signal": 70.3,
       "price": 395.65,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "AI",
-      "signal": 69.9,
-      "price": 8.95,
       "spy": 754.9500122070312,
       "grades": {}
     },
@@ -1086,9 +1119,25 @@
     },
     {
       "date": "2026-07-11",
+      "ticker": "AI",
+      "signal": 67.6,
+      "price": 8.95,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-11",
       "ticker": "AGNC",
       "signal": 65.9,
       "price": 11.13,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-11",
+      "ticker": "AMKR",
+      "signal": 65.5,
+      "price": 70.47,
       "spy": 754.9500122070312,
       "grades": {}
     },
@@ -1161,14 +1210,6 @@
       "ticker": "AMD",
       "signal": 68.2,
       "price": 557.89,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-10",
-      "ticker": "NVDA",
-      "signal": 67.8,
-      "price": 210.96,
       "spy": 754.9500122070312,
       "grades": {}
     }

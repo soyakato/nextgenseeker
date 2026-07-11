@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NextGenSeeker — 客観ファクター・スクリーナー</title>
-<link rel="stylesheet" href="styles.css?v=27">
+<link rel="stylesheet" href="styles.css?v=29">
 </head>
 <body>
 <div class="wrap">
@@ -12,11 +12,11 @@
   <header class="masthead">
     <div class="brand">
       <h1><span class="logo">NGS</span> <span class="grad">NextGenSeeker</span></h1>
-      <p><b>客観ファクター・レンズ</b>（既定）— 銘柄選定・採点とも人手を排し全自動。銘柄はYahooスクリーナー和集合から実行ごとに自動構築し、採点は財務諸表・株価から機械算出した7ファクター（営業レバレッジ・コスト硬直性・Merton距離デフォルト・R&D強度・逆張り変曲・資金勢い・保有期間トレンド）の横断パーセンタイルのみ。固定リスト・手書きスコア・後知恵アーキタイプは全廃（残る設計判断はフッターに開示）。</p>
+      <p><b>客観ファクター・レンズ</b>（既定）— 銘柄選定・採点とも人手を排し全自動。銘柄はYahooスクリーナー和集合から実行ごとに自動構築し、採点は財務諸表・株価から機械算出した8ファクター（営業レバレッジ・コスト硬直性・Merton距離デフォルト・R&D強度・逆張り変曲・資金勢い・保有期間トレンド・決算ドリフト）の横断パーセンタイルのみ。固定リスト・手書きスコア・後知恵アーキタイプは全廃（残る設計判断はフッターに開示）。</p>
     </div>
     <div class="stamp">
       NGS-ENGINE v3.1<br>
-      採点: <b>客観7ファクター</b><br>
+      採点: <b>客観8ファクター</b><br>
       銘柄選定: <b>スクリーナー自動</b><br>
       客観ユニバース: <b id="universe-count">—</b> 銘柄
     </div>
@@ -97,7 +97,7 @@
   </div>
 
   <footer class="foot">
-    <b>客観性についての明示</b> — 私の主観の残渣を全て排除した：①手書きの後知恵アーキタイプ（旧NVDA/KIOXIA基準）②静的な手書きスコア・事前分布 ③<b>手で選んだ銘柄リスト（＝選定バイアス）</b> ④<b>手書きの技術キーワード</b>。銘柄はYahooスクリーナー和集合で自動選定し、採点は財務諸表・株価から機械算出した7ファクター（DOL＝Novy-Marx / コスト硬直性＝Weiss / 距離デフォルト＝Bharath-Shumway naive Merton / R&D強度＝Chan et al. / 逆張り変曲 / 資金勢い＝機関保有・A/D蓄積・13Fフロー・時変ベータ / 保有期間トレンド＝売買回転率の逆数トレンド, Tiingo 2年出来高）の横断パーセンタイルのみ。重みは遅延採点(SPY超過リターン)のICで自己調整。<br>
+    <b>客観性についての明示</b> — 私の主観の残渣を全て排除した：①手書きの後知恵アーキタイプ（旧NVDA/KIOXIA基準）②静的な手書きスコア・事前分布 ③<b>手で選んだ銘柄リスト（＝選定バイアス）</b> ④<b>手書きの技術キーワード</b>。銘柄はYahooスクリーナー和集合で自動選定し、採点は財務諸表・株価から機械算出した8ファクター（DOL＝Novy-Marx / コスト硬直性＝Weiss / 距離デフォルト＝Bharath-Shumway naive Merton / R&D強度＝Chan et al. / 逆張り変曲 / 資金勢い＝52週位置・時変ベータ・A/D蓄積（日次鮮度のみ。遅効の13F系は参考表示に分離） / 保有期間トレンド＝売買回転率の逆数トレンド(Tiingo 2年) / 決算ドリフト＝PEAD, Bernard&Thomas(FMP)）の横断パーセンタイルのみ。重みは遅延採点(SPY超過リターン)のICで自己調整。<br>
     <b>残る設計判断（完全な客観は不可能・正直な開示）</b>: ①ファクターの数式・クランプ値・初期重みは学術文献に依拠した<b>設計判断</b>（採点ICで自動調整される）②ユニバースは<b>米国スクリーナー基盤</b>（日本株・欧州株は現状対象外）③先行指標トラッカーと主観フレームは手選りのキュレーション参考であり、客観スコアには一切使われない。<br>
     <b>未実装（無料データ範囲外）</b>: CDS乖離の暗黙補助金(Merton CCA)、特許全文LLM(Predictive Patentomics)、完全なPoint-in-Time遡及修正、TVTP-MS。生存者バイアス（上場廃止銘柄）とスクリーナー自体の選定基準は残る。<br>
     ※ 教育目的であり投資助言ではありません。ファクターも代理指標を含む近似です。
@@ -105,11 +105,11 @@
 
 </div>
 
-<script src="data.js?v=27"></script>
-<script src="engine.js?v=27"></script>
-<script src="foresight.js?v=27"></script>
-<script src="live.js?v=27"></script>
+<script src="data.js?v=29"></script>
+<script src="engine.js?v=29"></script>
+<script src="foresight.js?v=29"></script>
+<script src="live.js?v=29"></script>
 <script>document.getElementById('universe-count').textContent = COMPANIES.length;</script>
-<script src="app.js?v=27"></script>
+<script src="app.js?v=29"></script>
 </body>
 </html>
