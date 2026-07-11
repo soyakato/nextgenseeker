@@ -128,12 +128,13 @@ const PRESETS = {
 // 客観ファクター・レンズ用プリセット
 const FORESIGHT_PRESETS = {
   balanced:  { label: '均衡（学術頑健）', weights: { ...FORESIGHT_DEFAULT_WEIGHTS } },
-  leverage:  { label: '営業レバレッジ重視', weights: { operating_leverage: 32, cost_stickiness: 16, survival_dd: 11, rnd_intensity: 8, contrarian_inflection: 8, capital_momentum: 8, holding_trend: 8, earnings_drift: 9 } },
-  survival:  { label: '生存力（低倒産）', weights: { operating_leverage: 9, cost_stickiness: 6, survival_dd: 34, rnd_intensity: 10, contrarian_inflection: 9, capital_momentum: 12, holding_trend: 11, earnings_drift: 9 } },
-  rnd:       { label: 'R&D強度重視', weights: { operating_leverage: 10, cost_stickiness: 6, survival_dd: 13, rnd_intensity: 34, contrarian_inflection: 10, capital_momentum: 10, holding_trend: 8, earnings_drift: 9 } },
-  contrarian:{ label: '逆張り変曲', weights: { operating_leverage: 13, cost_stickiness: 8, survival_dd: 13, rnd_intensity: 8, contrarian_inflection: 32, capital_momentum: 9, holding_trend: 8, earnings_drift: 9 } },
-  holders:   { label: '機関・保有期間重視', weights: { operating_leverage: 9, cost_stickiness: 5, survival_dd: 12, rnd_intensity: 7, contrarian_inflection: 9, capital_momentum: 24, holding_trend: 24, earnings_drift: 10 } },
-  pead:      { label: '決算ドリフト重視', weights: { operating_leverage: 12, cost_stickiness: 6, survival_dd: 13, rnd_intensity: 8, contrarian_inflection: 10, capital_momentum: 9, holding_trend: 8, earnings_drift: 34 } },
+  leverage:  { label: '営業レバレッジ重視', weights: { operating_leverage: 30, cost_stickiness: 15, survival_dd: 10, rnd_intensity: 8, contrarian_inflection: 8, capital_momentum: 8, holding_trend: 7, earnings_drift: 8, value_yield: 6 } },
+  survival:  { label: '生存力（低倒産）', weights: { operating_leverage: 9, cost_stickiness: 5, survival_dd: 32, rnd_intensity: 9, contrarian_inflection: 8, capital_momentum: 11, holding_trend: 10, earnings_drift: 8, value_yield: 8 } },
+  rnd:       { label: 'R&D強度重視', weights: { operating_leverage: 9, cost_stickiness: 5, survival_dd: 12, rnd_intensity: 32, contrarian_inflection: 9, capital_momentum: 10, holding_trend: 8, earnings_drift: 9, value_yield: 6 } },
+  contrarian:{ label: '逆張り変曲', weights: { operating_leverage: 12, cost_stickiness: 7, survival_dd: 12, rnd_intensity: 7, contrarian_inflection: 30, capital_momentum: 8, holding_trend: 8, earnings_drift: 8, value_yield: 8 } },
+  holders:   { label: '機関・保有期間重視', weights: { operating_leverage: 8, cost_stickiness: 5, survival_dd: 11, rnd_intensity: 6, contrarian_inflection: 8, capital_momentum: 23, holding_trend: 23, earnings_drift: 9, value_yield: 7 } },
+  pead:      { label: '決算ドリフト重視', weights: { operating_leverage: 11, cost_stickiness: 5, survival_dd: 12, rnd_intensity: 7, contrarian_inflection: 9, capital_momentum: 9, holding_trend: 7, earnings_drift: 32, value_yield: 8 } },
+  value:     { label: 'バリュー（FCF利回り）', weights: { operating_leverage: 9, cost_stickiness: 5, survival_dd: 16, rnd_intensity: 5, contrarian_inflection: 12, capital_momentum: 7, holding_trend: 7, earnings_drift: 7, value_yield: 32 } },
 };
 let activePreset = 'balanced';
 

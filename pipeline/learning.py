@@ -23,9 +23,9 @@ LEDGER_PATH = os.path.join(LIVE_DIR, "learning_ledger.json")
 
 # 客観ファクターの既定ウェイト（学術的な頑健性を反映した中立初期値・計100）
 # PEADは短中期で最頑健(Bernard&Thomas)のため新規ながら12を配分
-DEFAULT_WEIGHTS = {"operating_leverage": 16, "cost_stickiness": 9, "survival_dd": 16,
-                   "rnd_intensity": 12, "contrarian_inflection": 12, "capital_momentum": 12,
-                   "holding_trend": 11, "earnings_drift": 12}
+DEFAULT_WEIGHTS = {"operating_leverage": 15, "cost_stickiness": 8, "survival_dd": 15,
+                   "rnd_intensity": 11, "contrarian_inflection": 11, "capital_momentum": 11,
+                   "holding_trend": 10, "earnings_drift": 11, "value_yield": 8}
 
 # fp.PILLARS の後方互換
 class _FP:

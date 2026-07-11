@@ -23,14 +23,16 @@ const FORESIGHT_PILLARS = [
   { key: 'holding_trend', label: '保有期間トレンド', short: 'HOLD', color: 'var(--accent-deep, var(--accent))',
     desc: '推定保有期間(発行株数/平均出来高)の前年比変化。正=回転低下＝長期保有者の買い集め（Tiingo 2年出来高）' },
   { key: 'earnings_drift', label: '決算ドリフト', short: 'PEAD', color: '#e8590c',
-    desc: 'PEAD(Bernard&Thomas 1989)。直近EPSサプライズ%×時間減衰(90日)。数週間スケールで最頑健のアノマリー（FMP）' },
+    desc: 'PEAD(Bernard&Thomas 1989)。直近EPSサプライズ%×時間減衰(90日)。数週間スケールで最頑健のアノマリー' },
+  { key: 'value_yield', label: 'FCF利回り', short: 'VALUE', color: '#12b886',
+    desc: 'FCF/時価総額（Fama-French系バリューの現代版）。バリュー株発掘の直接尺度。負値=キャッシュ燃焼も情報' },
 ];
 
 // 既定ウェイト（learning.DEFAULT_WEIGHTS と一致。採点実績で自己調整される）
 const FORESIGHT_DEFAULT_WEIGHTS = {
-  operating_leverage: 16, cost_stickiness: 9, survival_dd: 16,
-  rnd_intensity: 12, contrarian_inflection: 12, capital_momentum: 12,
-  holding_trend: 11, earnings_drift: 12,
+  operating_leverage: 15, cost_stickiness: 8, survival_dd: 15,
+  rnd_intensity: 11, contrarian_inflection: 11, capital_momentum: 11,
+  holding_trend: 10, earnings_drift: 11, value_yield: 8,
 };
 
 // 任意のファクターオブジェクトから合成スコアを算出

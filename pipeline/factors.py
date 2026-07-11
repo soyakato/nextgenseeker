@@ -22,7 +22,7 @@ from config import BENCHMARK_SYMBOL
 
 FACTORS = ["operating_leverage", "cost_stickiness", "survival_dd",
            "rnd_intensity", "contrarian_inflection", "capital_momentum",
-           "holding_trend", "earnings_drift"]
+           "holding_trend", "earnings_drift", "value_yield"]
 
 
 def _row(df, *names):
@@ -347,6 +347,15 @@ def compute_raw(symbols, spy_hist):
                 (50 + ad60 * 100) if ad60 is not None else None,
             ] if x is not None]
             raw[tid]["capital_momentum"] = (sum(comps) / len(comps)) if comps else None
+
+            # バリュー: FCF利回り = FCF/時価総額（Fama-French系バリューの現代版。
+            # 負値=キャッシュ燃焼も情報として保持。バリュー株発掘の直接尺度）
+            fcf_v = info.get("freeCashflow")
+            mc_v = info.get("marketCap")
+            if mc_v:
+                # ±60%クランプ: それ以上はADRの通貨不整合等のデータ異常が支配的
+                raw[tid]["value_yield"] = (round(max(-60.0, min(60.0, fcf_v / mc_v * 100)), 2)
+                                           if fcf_v is not None else None)
 
             # PEAD: yfinance earnings_dates主（全銘柄）、FMPは補完
             # （FMP無料枠は銘柄ユニバース制限があり10/60しか取れない＝横断比較を壊すため主にできない）

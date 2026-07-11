@@ -359,7 +359,8 @@ function renderToday() {
 // ── 自己改善ステータス（遅延採点・IC・ガラパゴス化ガード） ──
 const FORESIGHT_PILLAR_JP = { operating_leverage: '営業レバレッジ', cost_stickiness: 'コスト硬直性',
   survival_dd: '距離デフォルト', rnd_intensity: 'R&D強度', contrarian_inflection: '逆張り変曲',
-  capital_momentum: '資金の勢い', holding_trend: '保有期間トレンド', earnings_drift: '決算ドリフト' };
+  capital_momentum: '資金の勢い', holding_trend: '保有期間トレンド', earnings_drift: '決算ドリフト',
+  value_yield: 'FCF利回り' };
 
 function renderLearning() {
   const el = document.getElementById('learning-body');
