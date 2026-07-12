@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T03:58:09.604852+00:00",
+  "updated": "2026-07-12T08:32:14.075210+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,7 +8,7 @@
       "streak": 5,
       "appearances": 5,
       "best_rank": 9,
-      "today_rank": 9,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Baker Hughes Company",
       "sector": "Energy",
@@ -86,14 +86,14 @@
       "streak": 5,
       "appearances": 5,
       "best_rank": 8,
-      "today_rank": 11,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 58.1,
+      "news": 55.3,
       "confirm": 75.3,
-      "signal": 75.8,
+      "signal": 74.7,
       "mom": {
         "ret5": 0.1096,
         "vol_surge": 0.69
@@ -114,6 +114,39 @@
           "is_edgar": true
         },
         {
+          "title": "$1,000 in Nvidia vs. $1,000 in Broadcom: Which AI Chip Bet Paid Off More?",
+          "summary": "The answer flips depending on when you would have bought. And the outcomes differ dramatically for three different time periods.",
+          "pub": "2026-07-12T08:18",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/12/1000-in-nvidia-vs-1000-in-broadcom-which-ai-chip-b/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Meta Platforms (META) Turn Surplus AI Capacity Into a Durable Enterprise Revenue Engine?",
+          "summary": "In recent weeks, Meta Platforms announced a plan to launch “Meta Compute” to rent out excess AI capacity, accelerate production of its in-house Iris data-center chip with Broadcom and TSMC from September, and roll out advanced AI models like Muse Spark 1.1 and Muse Image alongside a new chief data o",
+          "pub": "2026-07-12T06:11",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-meta-turn-surplus-061155319.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "What’s the AI hit to U.S. inflation?",
+          "summary": "Investing.com -- Artificial intelligence is adding to U.S. inflation rather than reducing it, with the current investment boom estimated to contribute roughly 0.4 percentage points to annual inflation in 2026, according to CIBC Capital Markets.",
+          "pub": "2026-07-12T05:30",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/economy/policy/articles/ai-hit-u-inflation-053010343.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Nancy Pelosi, Donald Trump Bet On The Same 10 Stocks – Some Might Surprise You (CORRECTED)",
           "summary": "Editor’s Note: This story has been updated to correct details related to Intel (INTC). When it comes to tracking the trading activity of members of Congress, former Speaker of the House Nancy Pelosi (D-Calif.) has been among the most followed....",
           "pub": "2026-07-11T21:31",
@@ -123,39 +156,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Broadcom Lands $30 Billion Chip Deal With Apple. Why It’s a Win-Win for AAPL and AVGO.",
-          "summary": "Broadcom strengthened its growth outlook by securing a $30 billion chip agreement with Apple through 2031.",
-          "pub": "2026-07-11T17:30",
-          "provider": "Barchart",
-          "url": "https://www.barchart.com/story/news/3239883/broadcom-lands-30-billion-chip-deal-with-apple-why-its-a-win-win-for-aapl-and-avgo",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +受注"
-        },
-        {
-          "title": "Got $10,000? Broadcom vs Marvell: Only One Will Match The AI Hype",
-          "summary": "Broadcom and Marvell both rode AI tailwinds to blockbuster quarters, but their cash flows, growth strategies, and risk profiles point in completely different directions. Before you put $10,000 into either ticker, understand which one is actually built to deliver on the hype.",
-          "pub": "2026-07-11T14:00",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/11/got-10000-broadcom-vs-marvell-only-one-will-match-the-ai-hype/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Broadcom Inc. (AVGO) Is Going To Come Back, Says Jim Cramer",
-          "summary": "We recently published Jim Cramer Insisted Recent AI Chip Selloff Wasn’t A Bottom & Discussed These 17 Stocks. Broadcom Inc. (NASDAQ:AVGO) is one of the stocks discussed by Jim Cramer. Broadcom Inc. (NASDAQ:AVGO) is another AI stock that Jim Cramer has been nothing but enthusiastic about. The shares",
-          "pub": "2026-07-11T12:53",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-going-come-125347317.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
         }
       ]
     },
@@ -250,9 +250,9 @@
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.9,
+      "news": 50.2,
       "confirm": 71.8,
-      "signal": 71.9,
+      "signal": 71.6,
       "mom": {
         "ret5": 0.0828,
         "vol_surge": 0.8
@@ -290,33 +290,89 @@
           "is_edgar": true
         },
         {
-          "title": "Meta Platforms Just Unveiled a Shocking New Artificial Intelligence (AI) Strategy",
-          "summary": "The social media company's plan to become a cloud computing provider could shift the market's sentiment toward the stock.",
-          "pub": "2026-07-12T03:50",
+          "title": "Warren Buffett's Most Recent Warning to Wall Street Echoes One He Issued During the Dot-Com Bubble. Is It Time to Listen?",
+          "summary": "Investors turn to Buffett for his wise words regarding investing.",
+          "pub": "2026-07-12T08:22",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/11/meta-platforms-just-unveiled-a-shocking-new-artifi/",
+          "url": "https://www.fool.com/investing/2026/07/12/warren-buffetts-most-recent-warning-to-wall-street/",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "空売り・過大評価",
+          "why": "-空売り・過大評価"
+        },
+        {
+          "title": "$1,000 in Nvidia vs. $1,000 in Broadcom: Which AI Chip Bet Paid Off More?",
+          "summary": "The answer flips depending on when you would have bought. And the outcomes differ dramatically for three different time periods.",
+          "pub": "2026-07-12T08:18",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/12/1000-in-nvidia-vs-1000-in-broadcom-which-ai-chip-b/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Dow Jones Futures: Market Sets Up But U.S. Strikes Iran; Nvidia, Micron, Sandisk Near Buy Points",
-          "summary": "Taiwan Semi, Goldman and GE Aerospace are big earnings due with the market improving. Nvidia, Sandisk, Micron, Robinhood are near buy points.",
-          "pub": "2026-07-12T02:45",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-big-earnings-market-sets-up-nvidia-micron-sandisk-robinhood-spacex/?src=A00220&yptr=yahoo",
+          "title": "Is Now the Ultimate Entry Point for Micron Technology Stock?",
+          "summary": "There is even more growth ahead for Micron, but investors must weigh its valuation.",
+          "pub": "2026-07-12T08:15",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/12/is-now-the-ultimate-entry-point-for-micron-technol/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CNQ",
+      "tier": "確定",
+      "streak": 5,
+      "appearances": 5,
+      "best_rank": 20,
+      "today_rank": 20,
+      "first_seen": "2026-07-08",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 52.2,
+      "confirm": 67.5,
+      "signal": 71.1,
+      "mom": {
+        "ret5": 0.0547,
+        "vol_surge": 1.07
+      },
+      "earn_days": 25,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Cenovus Surges 85.3% in a Year: Should You Buy the Stock Now?",
+          "summary": "CVE's 85% rally, MEG Energy synergies, low-cost oil sand assets and integrated refining network are strengthening its long-term growth case.",
+          "pub": "2026-07-09T14:20",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cenovus-surges-85-3-buy-142000767.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
         },
         {
-          "title": "Why Oklo Stock Sank 27% In The First Half of 2026",
-          "summary": "The boom in enthusiasm around nuclear energy stocks has begun to fade.",
-          "pub": "2026-07-12T02:07",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/11/why-oklo-stock-sank-27-in-the-first-half-of-2026/",
+          "title": "Cenovus Energy Stock Climbs 3.5%: What's Fueling the Rally?",
+          "summary": "CVE climbed 3.5% as higher crude prices and strong first-quarter results boosted confidence, with improving margins and growth plans reinforcing optimism.",
+          "pub": "2026-07-08T12:29",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/cenovus-energy-stock-climbs-3-122900654.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Cenovus' Integrated Structure Offers an Edge Amid Lower Oil Prices",
+          "summary": "CVE's refining and pipeline network gives it an edge in a lower oil price environment, helping cushion upstream pressure and support margins.",
+          "pub": "2026-07-06T16:39",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/cenovus-integrated-structure-offers-edge-163900500.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -414,7 +470,7 @@
       "streak": 5,
       "appearances": 5,
       "best_rank": 10,
-      "today_rank": 10,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -493,7 +549,7 @@
       "streak": 5,
       "appearances": 5,
       "best_rank": 4,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -571,7 +627,7 @@
       "streak": 5,
       "appearances": 5,
       "best_rank": 7,
-      "today_rank": 8,
+      "today_rank": 9,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -638,84 +694,6 @@
           "pub": "2026-07-08T13:00",
           "provider": "24/7 Wall St.",
           "url": "https://247wallst.com/investing/2026/07/08/3-absurdly-cheap-stocks-to-buy-with-1000-in-july/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AMKR",
-      "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
-      "best_rank": 18,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Amkor Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.5,
-      "confirm": 49.6,
-      "signal": 65.5,
-      "mom": {
-        "ret5": 0.0118,
-        "vol_surge": 0.74
-      },
-      "earn_days": 15,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "FormFactor, Amkor, and Kulicke and Soffa Shares Skyrocket, What You Need To Know",
-          "summary": "A number of stocks jumped in the afternoon session after semiconductor stocks rebounded amid dip buying following a recent selloff, as reports revealed that China may ease restrictions on advanced Nvidia AI chip imports.",
-          "pub": "2026-07-09T19:43",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-amkor-kulicke-soffa-shares-194342984.html",
-          "dir": -0.1,
-          "conf": 0.10000000000000003,
-          "type": "急騰報道",
-          "why": "+急騰報道 -急落報道"
-        },
-        {
-          "title": "Amtech's AI Packaging Demand Surges: Is More Upside Ahead?",
-          "summary": "ASYS is seeing AI packaging demand surge as equipment sales, new orders and backlog gains fuel its growth outlook.",
-          "pub": "2026-07-09T12:29",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/amtechs-ai-packaging-demand-surges-122900538.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Amkor Technology (AMKR) Gains As Market Dips: What You Should Know",
-          "summary": "In the closing of the recent trading day, Amkor Technology (AMKR) stood at $66.91, denoting a +2.42% move from the preceding trading day.",
-          "pub": "2026-07-08T22:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-amkr-gains-market-220001079.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Amkor Technology (AMKR) Falls Sharply As Fair Value Debate Returns",
-          "summary": "Amkor Technology (AMKR) is back in focus after its shares fell 12.9% on July 2, 2026, to $69.65, as investors weighed valuation metrics and recent insider selling activity. See our latest analysis for Amkor Technology. The recent 1 day share price return decline of 6.5% and 7 day share price return",
-          "pub": "2026-07-08T01:15",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-amkr-falls-sharply-011547058.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Amkor (AMKR) Stock Still Looks Like A Bargain On A 205% Run",
-          "summary": "After a 205.4% gain over the past five years, Amkor Technology now sits in a tricky spot where strong recent returns and upbeat AI packaging headlines meet valuation checks that still screen the stock as relatively cheap. Amkor Technology has delivered a 205.4% return over five years, which puts ext",
-          "pub": "2026-07-07T23:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-amkr-stock-still-looks-231059268.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -890,7 +868,7 @@
       "streak": 5,
       "appearances": 5,
       "best_rank": 18,
-      "today_rank": 19,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "Host Hotels & Resorts, Inc.",
       "sector": "Real Estate",
@@ -924,7 +902,7 @@
       "streak": 5,
       "appearances": 5,
       "best_rank": 2,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
@@ -980,7 +958,7 @@
       "streak": 5,
       "appearances": 5,
       "best_rank": 3,
-      "today_rank": 3,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -1036,7 +1014,7 @@
       "streak": 5,
       "appearances": 5,
       "best_rank": 5,
-      "today_rank": 12,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
@@ -1128,6 +1106,14 @@
       "grades": {}
     },
     {
+      "date": "2026-07-12",
+      "ticker": "CNQ",
+      "signal": 71.1,
+      "price": 41.81,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
       "date": "2026-07-11",
       "ticker": "BKR",
       "signal": 79.9,
@@ -1204,14 +1190,6 @@
       "ticker": "AGNC",
       "signal": 65.9,
       "price": 11.13,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "AMKR",
-      "signal": 65.5,
-      "price": 70.47,
       "spy": 754.9500122070312,
       "grades": {}
     }
