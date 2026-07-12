@@ -44,9 +44,3 @@ function foresightCompositeFrom(factors, weights) {
   return Math.max(0, Math.min(100, s));
 }
 
-function computeForesight(company, weights) {
-  return { composite: foresightCompositeFrom(company.foresight, weights) };
-}
-
-// 後方互換: 旧コードが呼ぶが、客観モデルでは静的付与は行わない（liveのみ）
-function attachForesight() { /* no-op: 先見スコアは live/foresight.json のみに由来 */ }

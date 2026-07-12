@@ -1,152 +1,82 @@
 {
-  "updated": "2026-07-12T08:32:14.075210+00:00",
+  "updated": "2026-07-12T11:39:16.870150+00:00",
   "data": {
-    "moat_erosion": {
-      "repos": [
-        {
-          "repo": "ROCm/ROCm",
-          "stars": 6678,
-          "forks": 580,
-          "open_issues": 249,
-          "pushed_at": "2026-07-10T13:19:18Z",
-          "commits_30d": 13,
-          "label": "AMD ROCm (CUDA対抗スタック)"
-        },
-        {
-          "repo": "triton-lang/triton",
-          "stars": 19659,
-          "forks": 3011,
-          "open_issues": 1137,
-          "pushed_at": "2026-07-12T02:09:20Z",
-          "commits_30d": 100,
-          "label": "Triton (ハード非依存カーネル言語)"
-        },
-        {
-          "repo": "tinygrad/tinygrad",
-          "stars": 33285,
-          "forks": 4218,
-          "open_issues": 186,
-          "pushed_at": "2026-07-12T08:03:15Z",
-          "commits_30d": 100,
-          "label": "tinygrad (マルチバックエンド)"
-        },
-        {
-          "repo": "ggml-org/llama.cpp",
-          "stars": 120102,
-          "forks": 20485,
-          "open_issues": 1841,
-          "pushed_at": "2026-07-12T05:30:33Z",
-          "commits_30d": 100,
-          "label": "llama.cpp (多バックエンド推論)"
-        },
-        {
-          "repo": "vllm-project/vllm",
-          "stars": 86011,
-          "forks": 19298,
-          "open_issues": 5703,
-          "pushed_at": "2026-07-12T06:21:02Z",
-          "commits_30d": 100,
-          "label": "vLLM (推論サービング)"
-        }
-      ],
-      "scale": {
-        "repo": "spectral-compute/scale-docs",
-        "stars": 67,
-        "forks": 1,
-        "open_issues": 2,
-        "pushed_at": "2026-07-10T23:03:30Z",
-        "commits_30d": 1,
-        "label": "SCALE (Spectral Compute / CUDAバイナリ互換)"
-      },
-      "total_stars": 265735,
-      "total_commits_30d": 413,
-      "heat": 82.6
+    "regime": {
+      "label": "リスクオン",
+      "desc": "ベンチマークが上昇トレンド・恐怖指数も平静。モメンタム系ファクターが機能しやすい地合い",
+      "bench": 755.0,
+      "ma50": 739.9,
+      "ma200": 691.1,
+      "r20": 0.0434,
+      "vix": 15.0
     },
-    "market": {
-      "tsmc_demand": {
-        "items": [
-          {
-            "symbol": "TSM",
-            "price": 434.11,
-            "chg_3m": 17.4,
-            "chg_6m": null,
-            "revenue_growth": 0.351,
-            "gross_margin": 0.61873
-          }
-        ],
-        "heat": 74.5
+    "sector_temp": [
+      {
+        "sector": "Technology",
+        "avg": 58.2,
+        "n": 16,
+        "top": "PLTR"
       },
-      "optical": {
-        "items": [
-          {
-            "symbol": "COHR",
-            "price": 324.5,
-            "chg_3m": 5.5,
-            "chg_6m": null,
-            "revenue_growth": 0.205,
-            "gross_margin": 0.36990002
-          },
-          {
-            "symbol": "LITE",
-            "price": 802.01,
-            "chg_3m": -10.6,
-            "chg_6m": null,
-            "revenue_growth": 0.901,
-            "gross_margin": 0.40837002
-          },
-          {
-            "symbol": "FN",
-            "price": 471.13,
-            "chg_3m": -28.8,
-            "chg_6m": null,
-            "revenue_growth": 0.393,
-            "gross_margin": 0.12037
-          }
-        ],
-        "heat": 57.9
+      {
+        "sector": "Basic Materials",
+        "avg": 56.1,
+        "n": 5,
+        "top": "KGC"
       },
-      "power": {
-        "items": [
-          {
-            "symbol": "CEG",
-            "price": 251.38,
-            "chg_3m": -12.1,
-            "chg_6m": null,
-            "revenue_growth": 0.638,
-            "gross_margin": 0.23263
-          },
-          {
-            "symbol": "VST",
-            "price": 158.86,
-            "chg_3m": 2.8,
-            "chg_6m": null,
-            "revenue_growth": 0.434,
-            "gross_margin": 0.38637
-          }
-        ],
-        "heat": 65.9
+      {
+        "sector": "Energy",
+        "avg": 52.0,
+        "n": 7,
+        "top": "BKR"
       },
-      "hbm": {
-        "items": [
-          {
-            "symbol": "000660.KS",
-            "price": 2180000.0,
-            "chg_3m": 118.5,
-            "chg_6m": null,
-            "revenue_growth": 1.981,
-            "gross_margin": 0.68342
-          },
-          {
-            "symbol": "MU",
-            "price": 979.3,
-            "chg_3m": 132.9,
-            "chg_6m": null,
-            "revenue_growth": 3.457,
-            "gross_margin": 0.72569
-          }
-        ],
-        "heat": 100.0
+      {
+        "sector": "Real Estate",
+        "avg": 50.9,
+        "n": 3,
+        "top": "HST"
+      },
+      {
+        "sector": "Healthcare",
+        "avg": 47.8,
+        "n": 3,
+        "top": "CERT"
+      },
+      {
+        "sector": "Consumer Cyclical",
+        "avg": 47.6,
+        "n": 8,
+        "top": "FIGS"
+      },
+      {
+        "sector": "Industrials",
+        "avg": 46.2,
+        "n": 4,
+        "top": "ECO"
+      },
+      {
+        "sector": "Communication Services",
+        "avg": 43.2,
+        "n": 4,
+        "top": "META"
+      },
+      {
+        "sector": "Financial Services",
+        "avg": 40.0,
+        "n": 8,
+        "top": "AIG"
+      },
+      {
+        "sector": "Utilities",
+        "avg": 37.5,
+        "n": 1,
+        "top": "CEPU"
+      },
+      {
+        "sector": "Consumer Defensive",
+        "avg": 37.4,
+        "n": 2,
+        "top": "COTY"
       }
-    }
+    ]
   }
 }

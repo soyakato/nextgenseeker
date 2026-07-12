@@ -1,170 +1,52 @@
-"""レポート第4章の『源流シグナル』を自動取得する.
+"""市場環境トラッカー — 地合いレジーム（旧・半導体固定プロキシは全廃）.
 
-  1. CUDAの堀の侵食  … GitHub上のCUDA代替スタックのモメンタム（実データ）
-  2. TSMC需要ゲージ  … TSM 四半期売上成長＋価格モメンタム（プロキシ）
-  3. 光インターコネクト … COHR/LITE/FN のモメンタム（受注先行のプロキシ）
-  4. 電力ボトルネック  … CEG/VST（プロキシ）
-  5. HBM供給        … SK Hynix/Micron（プロキシ）
+旧版はCUDA/TSMC/光/HBM等の手選りプロキシ＝テック固定で、バリュー株も扱う現在の
+スコープと不整合だった。新版は市場全体の客観指標のみ:
+  - 地合いレジーム: ベンチマーク(SPY)の50/200日線と20日リターン＋VIX水準から
+    リスクオン/中立/リスクオフを機械判定（trend_radarで実測済みの手法。
+    弱気局面ではモメンタム系ICが反転するという10年検証に基づく文脈情報）
+セクター温度図はユニバース自体から導出するため refresh.py 側で合成する。
+参考表示専用 — 客観スコアには一切使用しない。
 """
-import time
-import datetime as dt
-import requests
 import yfinance as yf
-from config import (MOAT_EROSION_REPOS, SCALE_REPO_CANDIDATES, OPTICAL_PROXIES,
-                    POWER_PROXIES, HBM_PROXIES, GITHUB_TOKEN, HTTP_HEADERS,
-                    REQUEST_TIMEOUT)
+from config import BENCHMARK_SYMBOL
 
 
-def _gh_headers():
-    h = {"Accept": "application/vnd.github+json", "User-Agent": "NextGenSeeker"}
-    if GITHUB_TOKEN:
-        h["Authorization"] = f"Bearer {GITHUB_TOKEN}"
-    return h
-
-
-def _clamp(v, lo, hi):
-    return max(lo, min(hi, v))
-
-
-def gh_repo(full):
-    """リポジトリのスター/フォーク/更新日と直近30日コミット数を取得."""
-    r = requests.get(f"https://api.github.com/repos/{full}",
-                     headers=_gh_headers(), timeout=REQUEST_TIMEOUT)
-    if r.status_code != 200:
+def _regime_from(spy_close, vix_last):
+    if spy_close is None or len(spy_close) < 60:
         return None
-    d = r.json()
-    since = (dt.datetime.utcnow() - dt.timedelta(days=30)).isoformat() + "Z"
-    commits30 = None
-    try:
-        cr = requests.get(
-            f"https://api.github.com/repos/{full}/commits",
-            headers=_gh_headers(), params={"since": since, "per_page": 100},
-            timeout=REQUEST_TIMEOUT)
-        if cr.status_code == 200:
-            commits30 = len(cr.json())
-    except Exception:
-        pass
-    return {
-        "repo": full,
-        "stars": d.get("stargazers_count"),
-        "forks": d.get("forks_count"),
-        "open_issues": d.get("open_issues_count"),
-        "pushed_at": d.get("pushed_at"),
-        "commits_30d": commits30,
-    }
-
-
-def fetch_moat_erosion():
-    repos = []
-    for full, label in MOAT_EROSION_REPOS:
-        d = gh_repo(full)
-        if d:
-            d["label"] = label
-            repos.append(d)
-            print(f"  [gh] {full:26s} stars={d['stars']} commits30d={d['commits_30d']}")
-        time.sleep(0.3)
-
-    # SCALE (Spectral Compute) を探索。無ければ N/A。
-    scale = None
-    for cand in SCALE_REPO_CANDIDATES:
-        d = gh_repo(cand)
-        if d:
-            d["label"] = "SCALE (Spectral Compute / CUDAバイナリ互換)"
-            scale = d
-            print(f"  [gh] SCALE found: {cand} stars={d['stars']}")
-            break
-    if not scale:
-        print("  [gh] SCALE repo 非公開/未検出 -> N/A")
-
-    total_stars = sum(r["stars"] or 0 for r in repos)
-    total_commits = sum(r["commits_30d"] or 0 for r in repos)
-    # ヒート: 直近コミット活動を0-100に。代替スタックが活発なほど堀は侵食。
-    heat = _clamp(round(total_commits / 500 * 100, 1), 0, 100)
-    return {
-        "repos": repos,
-        "scale": scale,
-        "total_stars": total_stars,
-        "total_commits_30d": total_commits,
-        "heat": heat,
-    }
-
-
-def _momentum(symbol):
-    """価格モメンタム(3M/6M %)と四半期売上成長を取得."""
-    t = yf.Ticker(symbol)
-    out = {"symbol": symbol}
-    try:
-        h = t.history(period="6mo", interval="1d")
-        if len(h) > 5:
-            close = h["Close"].dropna()
-            last = float(close.iloc[-1])
-            out["price"] = round(last, 2)
-            def chg(days):
-                if len(close) > days:
-                    p0 = float(close.iloc[-days])
-                    return round((last / p0 - 1) * 100, 1)
-                return None
-            out["chg_3m"] = chg(63)
-            out["chg_6m"] = chg(126)
-    except Exception as e:
-        out["price_err"] = repr(e)[:80]
-    try:
-        info = t.info
-        out["revenue_growth"] = info.get("revenueGrowth")
-        out["gross_margin"] = info.get("grossMargins")
-    except Exception:
-        pass
-    return out
-
-
-def _heat_from_momentum(items):
-    """複数銘柄の3Mモメンタムと売上成長を0-100ヒートに合成."""
-    vals = []
-    for it in items:
-        c = it.get("chg_3m")
-        g = it.get("revenue_growth")
-        s = 50
-        if c is not None:
-            s = 50 + _clamp(c, -40, 60)          # 3M価格変化
-        if g is not None:
-            s = 0.6 * s + 0.4 * (50 + _clamp(g * 100, -30, 50))
-        vals.append(_clamp(s, 0, 100))
-    return round(sum(vals) / len(vals), 1) if vals else None
-
-
-def fetch_market_signals():
-    def basket(symbols):
-        items = []
-        for s in symbols:
-            items.append(_momentum(s))
-            time.sleep(0.3)
-        return items
-
-    tsmc = _momentum("TSM"); time.sleep(0.3)
-    optical = basket(OPTICAL_PROXIES)
-    power = basket(POWER_PROXIES)
-    hbm = basket(HBM_PROXIES)
-
-    for name, it in [("TSMC", [tsmc]), ("OPTICAL", optical),
-                     ("POWER", power), ("HBM", hbm)]:
-        print(f"  [mkt] {name:8s} heat={_heat_from_momentum(it)}")
-
-    return {
-        "tsmc_demand": {"items": [tsmc], "heat": _heat_from_momentum([tsmc])},
-        "optical": {"items": optical, "heat": _heat_from_momentum(optical)},
-        "power": {"items": power, "heat": _heat_from_momentum(power)},
-        "hbm": {"items": hbm, "heat": _heat_from_momentum(hbm)},
-    }
+    last = float(spy_close.iloc[-1])
+    ma50 = float(spy_close.tail(50).mean())
+    ma200 = float(spy_close.tail(200).mean()) if len(spy_close) >= 210 else None
+    r20 = last / float(spy_close.iloc[-21]) - 1 if len(spy_close) > 21 else 0.0
+    v = vix_last
+    uptrend = (last > ma50 > ma200) if ma200 else (last > ma50 and r20 > 0)
+    if uptrend and (v is None or v < 20):
+        label = "リスクオン"
+        desc = "ベンチマークが上昇トレンド・恐怖指数も平静。モメンタム系ファクターが機能しやすい地合い"
+    elif last < ma50 and ((v or 0) > 25 or r20 < -0.05):
+        label = "リスクオフ"
+        desc = "50日線割れ＋変動率上昇。モメンタム系の統計的傾きが反転しやすい局面 — 生存力・バリュー寄りの重みと小さいサイズを検討"
+    else:
+        label = "中立"
+        desc = "強い方向感なし。標準の重み付けで"
+    return {"label": label, "desc": desc,
+            "bench": round(last, 1), "ma50": round(ma50, 1),
+            "ma200": (round(ma200, 1) if ma200 else None),
+            "r20": round(r20, 4), "vix": (round(v, 1) if v is not None else None)}
 
 
 def fetch_all():
-    print(" -- moat erosion (GitHub) --")
-    moat = fetch_moat_erosion()
-    print(" -- market proxies --")
-    market = fetch_market_signals()
-    return {"moat_erosion": moat, "market": market}
-
-
-if __name__ == "__main__":
-    import json
-    print(json.dumps(fetch_all(), indent=2, ensure_ascii=False))
+    """{regime: {...}} を返す。取得失敗はNone（呼び出し側が前回値を再利用）."""
+    spy = yf.Ticker(BENCHMARK_SYMBOL).history(period="1y")["Close"].dropna()
+    vix_last = None
+    try:
+        vh = yf.Ticker("^VIX").history(period="5d")["Close"].dropna()
+        if len(vh):
+            vix_last = float(vh.iloc[-1])
+    except Exception:
+        pass
+    regime = _regime_from(spy, vix_last)
+    if regime:
+        print(f"  [env] 地合い: {regime['label']} (bench {regime['bench']} / MA50 {regime['ma50']} / VIX {regime['vix']})")
+    return {"regime": regime}

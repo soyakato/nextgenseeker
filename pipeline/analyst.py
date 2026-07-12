@@ -1,7 +1,8 @@
-"""任意の高度化レイヤー: 取得済みシグナルを『アナリスト読み筋』に合成する.
+"""任意の高度化レイヤー: 市場環境（地合い＋セクター温度）を『読み筋』に合成する.
 
 ANTHROPIC_API_KEY があれば Claude Messages API で自然言語コメントを生成。
-無ければ決定論的なルールベース要約に自動フォールバックする（キー無しでも完全動作）。
+無ければ決定論的なルールベース要約に自動フォールバック（キー無しでも完全動作）。
+半導体固定の旧版から、ユニバース自動導出のセクター温度＋地合いレジームに刷新。
 """
 import json
 import requests
@@ -9,71 +10,46 @@ from config import ANTHROPIC_API_KEY, NGS_MODEL, REQUEST_TIMEOUT
 
 
 def _rule_based(financials, indicators):
-    moat = indicators["moat_erosion"]
-    mkt = indicators["market"]
     lines = []
-
-    heat = moat["heat"]
-    if heat >= 60:
-        lines.append(f"【CUDAの堀】代替スタックのコミット活動が高水準（ヒート{heat}）。"
-                     "ソフト独占の侵食シグナルは強め — 中期のコモディティ化リスクに注意。")
-    elif heat >= 30:
-        lines.append(f"【CUDAの堀】代替スタックの活動は中程度（ヒート{heat}）。"
-                     "侵食は進行中だが決定的な水準ではない。")
-    else:
-        lines.append(f"【CUDAの堀】代替スタックの直近活動は限定的（ヒート{heat}）。堀は当面堅牢。")
-
-    th = mkt["tsmc_demand"]["heat"]
-    if th is not None:
-        tone = "拡大基調" if th >= 55 else ("減速の兆し" if th < 45 else "横ばい")
-        lines.append(f"【TSMC需要ゲージ】プロキシ・ヒート{th}（{tone}）。"
-                     "CoWoS/先端製造の需要が上流の律速。")
-
-    oh = mkt["optical"]["heat"]
-    if oh is not None:
-        lines.append(f"【光インターコネクト】受注先行プロキシ・ヒート{oh}。"
-                     "ラックスケール化に伴う光モジュール需要の温度感。")
-
-    # 財務ハイライト: CAPITALスコア上位/下位
-    scored = [(t, d.get("capital_score")) for t, d in financials.items()
-              if d.get("capital_score") is not None]
-    scored.sort(key=lambda x: x[1], reverse=True)
-    if scored:
-        top = ", ".join(f"{t}({s})" for t, s in scored[:3])
-        bot = ", ".join(f"{t}({s})" for t, s in scored[-2:])
-        lines.append(f"【利益の質・実データ】上位: {top} / 下位: {bot}。"
-                     "高粗利×高FCF変換の上流が引き続き構造的に優位。")
-
+    reg = indicators.get("regime")
+    if reg:
+        lines.append(f"【地合い】{reg['label']} — {reg['desc']}"
+                     + (f"（ベンチ {reg['bench']} / 50日線 {reg['ma50']}"
+                        + (f" / VIX {reg['vix']}" if reg.get('vix') is not None else "") + "）"))
+    st = indicators.get("sector_temp") or []
+    if st:
+        hot = st[0]
+        cold = st[-1]
+        lines.append(f"【セクター温度・最高】{hot['sector']}（平均{hot['avg']}・{hot['n']}銘柄・筆頭 {hot['top']}）"
+                     " — 現ユニバースで最も客観スコアが高い領域。")
+        if len(st) >= 3:
+            mid = ", ".join(f"{x['sector']}{x['avg']}" for x in st[1:4])
+            lines.append(f"【セクター温度・分布】{mid} …（ユニバース構成から自動導出。テーマ偏重の有無を示す）")
+        lines.append(f"【セクター温度・最低】{cold['sector']}（平均{cold['avg']}）"
+                     " — スコア下位。避けられている領域。")
+    if not lines:
+        lines.append("市場環境データを取得中。")
     return "\n".join(lines)
 
 
 def _claude(financials, indicators):
-    # 送信用に軽量サマリを作る
-    fin_summary = {t: {"cap": d.get("capital_score"),
-                       "gm": d.get("gross_margin"),
-                       "revG": d.get("revenue_growth"),
-                       "fcfConv": d.get("fcf_conversion")}
-                   for t, d in financials.items() if d.get("capital_score")}
+    reg = indicators.get("regime")
+    st = indicators.get("sector_temp") or []
     payload = {
         "model": NGS_MODEL,
-        "max_tokens": 700,
+        "max_tokens": 600,
         "system": (
-            "あなたはAIバリューチェーンを専門とする半導体アナリスト。"
-            "与えられた実データ（財務スコアとGitHub/市場の先行シグナル）だけを根拠に、"
-            "『次のNVIDIA候補』の構造を日本語で簡潔に読み解く。"
-            "CUDAの堀の侵食・チョークポイント・利益の質・必然の需要の観点で、"
-            "4〜6行の箇条書き＋最後に1行の総括。投資助言は避け、構造分析に徹する。"),
+            "あなたは市場全体を俯瞰するマクロ・アナリスト。"
+            "与えられた実データ（地合いレジームとセクター別の客観スコア温度）だけを根拠に、"
+            "いま市場のどこに機会が出ているかを日本語で簡潔に読み解く。"
+            "3〜5行の箇条書き＋最後に1行の総括。特定銘柄の売買推奨や投資助言は避け、"
+            "セクター・地合いの構造分析に徹する。"),
         "messages": [{
             "role": "user",
-            "content": ("financials=" + json.dumps(fin_summary, ensure_ascii=False)
-                        + "\nindicators=" + json.dumps({
-                            "moat_heat": indicators["moat_erosion"]["heat"],
-                            "moat_commits30d": indicators["moat_erosion"]["total_commits_30d"],
-                            "tsmc_heat": indicators["market"]["tsmc_demand"]["heat"],
-                            "optical_heat": indicators["market"]["optical"]["heat"],
-                            "power_heat": indicators["market"]["power"]["heat"],
-                            "hbm_heat": indicators["market"]["hbm"]["heat"],
-                        }, ensure_ascii=False))
+            "content": "data=" + json.dumps({
+                "regime": reg,
+                "sector_temp": st[:8],
+            }, ensure_ascii=False),
         }],
     }
     r = requests.post(

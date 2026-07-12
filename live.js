@@ -17,45 +17,6 @@ async function loadLiveData() {
   return LIVE.loaded;
 }
 
-// 実データのCAPITALスコアをCOMPANIES/BENCHMARKに適用（元値は _capital_static に退避）
-function applyLiveCapital(useLive) {
-  const fin = LIVE.financials && LIVE.financials.data;
-  const patch = (c) => {
-    if (c._capital_static === undefined) c._capital_static = c.scores.capital;
-    const d = fin && fin[c.ticker];
-    c.live = d || null;
-    if (useLive && d && d.capital_score != null) {
-      c.scores.capital = d.capital_score;
-      c.capitalIsLive = true;
-    } else {
-      c.scores.capital = c._capital_static;
-      c.capitalIsLive = false;
-    }
-  };
-  COMPANIES.forEach(patch);
-  patch(BENCHMARK);
-}
-
-// 客観ファクター（live/foresight.json の factors）を curated 銘柄にも適用（質レンズのライブ表示用）
-function applyLiveForesight() {
-  const fd = LIVE.foresight && LIVE.foresight.data;
-  const patch = (c) => {
-    const d = fd && fd[c.ticker];
-    if (d && d.factors) {
-      c.foresight = { ...d.factors };
-      c.foresightRaw = d.raw || null;
-      c.foresightDiag = d.diag || null;
-      c.own = d.own || null;
-      c.foresightLive = true;
-      c.sector = d.sector || c.sector;
-    } else {
-      c.foresight = null;
-      c.foresightLive = false;
-    }
-  };
-  COMPANIES.forEach(patch);
-}
-
 // 機関保有の変遷: 自前時系列(ownership.json)から最古スナップショットとの差分を返す
 function ownershipDelta(ticker) {
   const pts = LIVE.ownership && LIVE.ownership.points;
@@ -111,62 +72,50 @@ function heatColor(v) {
   return `hsl(${hue},78%,40%)`;
 }
 
-// ── 先行指標トラッカーの描画 ──
+// ── 市場環境トラッカー（地合いレジーム＋セクター温度図） ──
 function renderIndicators() {
   const host = document.getElementById('indicator-body');
   if (!host) return;
-  if (!LIVE.indicators || !LIVE.indicators.data) {
-    host.innerHTML = `<div class="empty-detail">ライブ先行指標は未生成です。<br>
-      <code>python3 pipeline/refresh.py</code> を実行するとデータが表示されます。</div>`;
+  const ind = (LIVE.indicators && LIVE.indicators.data) || {};
+  const reg = ind.regime;
+  const st = ind.sector_temp || [];
+  if (!reg && !st.length) {
+    host.innerHTML = `<div class="empty-detail">市場環境データは未生成です。<br>
+      <code>python3 pipeline/refresh.py</code> を実行すると表示されます。</div>`;
     return;
   }
-  const ind = LIVE.indicators.data;
-  const moat = ind.moat_erosion, mkt = ind.market;
 
-  const signalCard = (title, sub, heat, trendKey, extra = '') => {
-    const tr = trendArrow(trendKey);
-    const col = heatColor(heat);
+  const regClass = reg ? ({ 'リスクオン': 'on', '中立': 'neutral', 'リスクオフ': 'off' }[reg.label] || 'neutral') : 'neutral';
+  const regimeCard = reg ? `
+    <div class="regime-card regime-${regClass}">
+      <div class="regime-head"><span class="regime-badge">${reg.label}</span>
+        <span class="regime-metrics">ベンチ ${reg.bench} · 50日線 ${reg.ma50}${reg.ma200 ? ' · 200日線 ' + reg.ma200 : ''}${reg.vix != null ? ' · VIX ' + reg.vix : ''} · 20日 ${(reg.r20 * 100).toFixed(1)}%</span></div>
+      <div class="regime-desc">${reg.desc}</div>
+    </div>` : '';
+
+  // セクター温度図: ユニバースから自動導出（テック/バリューどんな構成でも自動追従）
+  const maxAvg = Math.max(...st.map((x) => x.avg), 1);
+  const rows = st.map((x) => {
+    const col = heatColor(x.avg);
     return `
-      <div class="sig-card">
-        <div class="sig-top">
-          <div><div class="sig-title">${title}</div><div class="sig-sub">${sub}</div></div>
-          <div class="sig-heat" style="color:${col}">${heat != null ? heat : 'N/A'}
-            <span class="trend ${tr.cls}">${tr.sym}</span></div>
-        </div>
-        <div class="heat-bar"><i style="width:${heat || 0}%;background:${col}"></i></div>
-        ${extra}
+      <div class="sector-row" data-ticker="${x.top}">
+        <span class="sector-name">${x.sector}</span>
+        <div class="sector-bar"><i style="width:${(x.avg / maxAvg) * 100}%;background:${col}"></i></div>
+        <span class="sector-avg" style="color:${col}">${x.avg}</span>
+        <span class="sector-n">${x.n}銘柄 · 筆頭 <b>${x.top}</b></span>
       </div>`;
-  };
-
-  // CUDA堀侵食: リポジトリ明細
-  const repoRows = (moat.repos || []).map((r) => `
-    <div class="repo-row">
-      <span class="repo-name">${r.repo}</span>
-      <span class="repo-stat">★ ${(r.stars || 0).toLocaleString()}</span>
-      <span class="repo-stat">commits30d ${r.commits_30d ?? '—'}</span>
-    </div>`).join('');
-  const scale = moat.scale
-    ? `<div class="scale-box hit">◉ SCALE検出: <b>${moat.scale.repo}</b> · ★${moat.scale.stars} — CUDA互換レイヤーの公開活動を監視中</div>`
-    : `<div class="scale-box miss">○ SCALE(Spectral Compute)の主要リポジトリは非公開/未検出 — 進展があれば自動で捕捉</div>`;
-
-  const moatExtra = `<div class="repo-list">${repoRows}</div>${scale}`;
-
-  // 市場プロキシの明細
-  const proxyDetail = (grp) => (grp.items || []).map((it) =>
-    `<span class="proxy-chip">${it.symbol}: 3M ${it.chg_3m != null ? (it.chg_3m > 0 ? '+' : '') + it.chg_3m + '%' : '—'}${it.revenue_growth != null ? ' · revG ' + Math.round(it.revenue_growth * 100) + '%' : ''}</span>`).join('');
+  }).join('');
 
   host.innerHTML = `
-    <div class="sig-grid">
-      ${signalCard('CUDAの堀の侵食', 'GitHub: CUDA代替スタックの直近コミット活動', moat.heat, 'moat_heat', moatExtra)}
-      ${signalCard('TSMC 需要ゲージ', 'TSM 四半期成長＋価格モメンタム (プロキシ)', mkt.tsmc_demand.heat, 'tsmc_heat',
-        `<div class="proxy-line">${proxyDetail(mkt.tsmc_demand)}</div>`)}
-      ${signalCard('光インターコネクト', 'COHR/LITE/FN 受注先行プロキシ', mkt.optical.heat, 'optical_heat',
-        `<div class="proxy-line">${proxyDetail(mkt.optical)}</div>`)}
-      ${signalCard('電力ボトルネック', 'CEG/VST 電力逼迫の受益 (プロキシ)', mkt.power.heat, 'power_heat',
-        `<div class="proxy-line">${proxyDetail(mkt.power)}</div>`)}
-      ${signalCard('HBM 供給', 'SK Hynix/Micron モメンタム (プロキシ)', mkt.hbm.heat, 'hbm_heat',
-        `<div class="proxy-line">${proxyDetail(mkt.hbm)}</div>`)}
-    </div>`;
+    ${regimeCard}
+    <div class="sector-temp-title">セクター温度図 <span class="fbreak-hint">現ユニバースの客観スコア平均。市場がどこに機会を出しているかを自動反映（クリックで筆頭銘柄）</span></div>
+    <div class="sector-temp">${rows}</div>`;
+
+  host.querySelectorAll('.sector-row').forEach((r) => {
+    r.addEventListener('click', () => {
+      if (typeof selectCompany === 'function') selectCompany(r.dataset.ticker, true);
+    });
+  });
 }
 
 // ── アナリスト読み筋＋更新ステータス ──

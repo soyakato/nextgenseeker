@@ -191,18 +191,13 @@ def main():
         except Exception as e:
             financials[s] = {"symbol": s, "ok": False, "error": repr(e)[:120]}
 
-    print("[3/5] 先行指標取得 (GitHub / market)...")
+    print("[3/5] 市場環境取得 (地合いレジーム)...")
     try:
         indicators = fetch_indicators.fetch_all()
     except Exception as e:
         # 参考パネル用データの失敗で本体を殺さない。前回値を再利用。
-        print(f"  [ind] 取得失敗（前回値を再利用）: {repr(e)[:80]}")
-        indicators = _load("indicators.json", {}).get("data") or {
-            "moat_erosion": {"repos": [], "scale": None, "total_stars": 0,
-                             "total_commits_30d": 0, "heat": 0},
-            "market": {k: {"items": [], "heat": None}
-                       for k in ("tsmc_demand", "optical", "power", "hbm")},
-        }
+        print(f"  [env] 取得失敗（前回値を再利用）: {repr(e)[:80]}")
+        indicators = _load("indicators.json", {}).get("data") or {"regime": None}
 
     # ── 客観ファクターを財務諸表・株価から機械的に計算（主観・キーワードなし） ──
     print("[4/5] 客観ファクター計算＋自己改善...")
@@ -270,6 +265,22 @@ def main():
     ranked = sorted(fore_data.items(), key=lambda kv: kv[1]["composite"], reverse=True)
     conc = discovery.concentration_guard(
         [(t, d["sector"]) for t, d in ranked], CONCENTRATION_TOP_N, CONCENTRATION_THRESHOLD)
+
+    # ── セクター温度図: ユニバース自体から自動集計（テック/バリュー等どんな構成でも自動追従） ──
+    sec_agg = {}
+    for t, d in fore_data.items():
+        s = d.get("sector") or "その他"
+        e = sec_agg.setdefault(s, {"scores": [], "tickers": []})
+        e["scores"].append(d["composite"])
+        e["tickers"].append(t)
+    sector_temp = sorted(
+        [{"sector": s, "avg": round(sum(e["scores"]) / len(e["scores"]), 1),
+          "n": len(e["scores"]),
+          "top": max(zip(e["scores"], e["tickers"]))[1]}
+         for s, e in sec_agg.items()],
+        key=lambda x: -x["avg"])
+    indicators["sector_temp"] = sector_temp
+    print("  [env] セクター温度: " + " / ".join(f"{x['sector'][:10]}={x['avg']}({x['n']})" for x in sector_temp[:5]))
 
     # ── ウォッチ＆兆候レーダー（継続選出→触媒ニュース→価格確認） ──
     print("[5/6] ウォッチ＆兆候レーダー...")
@@ -376,15 +387,8 @@ def main():
     history = _load("history.json", {"points": []})
     history["points"].append({
         "t": ts,
-        "capital": {t: d.get("capital_score") for t, d in financials.items() if d.get("capital_score")},
         "foresight": {t: d["composite"] for t, d in fore_data.items()},
-        "moat_heat": indicators["moat_erosion"]["heat"],
-        "moat_commits30d": indicators["moat_erosion"]["total_commits_30d"],
-        "moat_stars": indicators["moat_erosion"]["total_stars"],
-        "tsmc_heat": indicators["market"]["tsmc_demand"]["heat"],
-        "optical_heat": indicators["market"]["optical"]["heat"],
-        "power_heat": indicators["market"]["power"]["heat"],
-        "hbm_heat": indicators["market"]["hbm"]["heat"],
+        "regime": (indicators.get("regime") or {}).get("label"),
     })
     history["points"] = history["points"][-180:]
     _write("history.json", history)
