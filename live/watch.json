@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T13:57:09.797107+00:00",
+  "updated": "2026-07-12T19:32:03.796274+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -91,9 +91,9 @@
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.3,
+      "news": 56.1,
       "confirm": 75.3,
-      "signal": 74.7,
+      "signal": 75.0,
       "mom": {
         "ret5": 0.1096,
         "vol_surge": 0.69
@@ -112,6 +112,17 @@
           "type": "8-K 8.01",
           "why": "その他の重要イベント（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Should You Buy Broadcom Inc. (AVGO)’s Shares?",
+          "summary": "Broadcom Inc. (NASDAQ:AVGO) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw. Semiconductor designer Broadcom Inc. (NASDAQ:AVGO)’s shares have been quite volatile over the past couple of days. While they are up by 15% year-to-date, they lost 12% between June 18th and Ju",
+          "pub": "2026-07-12T14:01",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-broadcom-inc-avgo-shares-140110778.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Broadcom vs. Marvell: A Valuation Showdown for the Custom AI Chip Trade",
@@ -145,17 +156,6 @@
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
-        },
-        {
-          "title": "What’s the AI hit to U.S. inflation?",
-          "summary": "Investing.com -- Artificial intelligence is adding to U.S. inflation rather than reducing it, with the current investment boom estimated to contribute roughly 0.4 percentage points to annual inflation in 2026, according to CIBC Capital Markets.",
-          "pub": "2026-07-12T05:30",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/economy/policy/articles/ai-hit-u-inflation-053010343.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -205,6 +205,17 @@
           "is_edgar": true
         },
         {
+          "title": "Goldman Sachs sets jaw-dropping SanDisk stock price target for 2026",
+          "summary": "I have been tracking SanDisk's numbers. It’s one of my favourites. Why? Its performance, and the reason behind the big numbers. And the numbers keep doing something unusual for sure. They keep getting bigger than the already-big numbers that preceded them. If you didn’t know, SanDisk (SNDK) is the .",
+          "pub": "2026-07-12T16:47",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/sndk-sandisk-stock-price-target-goldman-sachs-july-2026-nand-supply",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "SK Hynix Joins the Nasdaq. But This Nasdaq-100 Semiconductor Stock Could Be an Even Better Buy for the Second Half of 2026.",
           "summary": "ASML's lithography machines are needed to manufacture advanced logic and memory chips for AI workflows.",
           "pub": "2026-07-12T12:57",
@@ -221,102 +232,6 @@
           "pub": "2026-07-11T15:34",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/news/robinhood-ai-plays-lead-five-stocks-near-buy-points/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Pushing the Edge: Super Micro Computer Reboots the AI Landscape",
-          "summary": "Super Micro Computer launched a Kubernetes edge AI appliance with Red Hat and Portworx targeting sovereign AI demand, even as shares fell 30% and short interest rose to about 19% of its float.",
-          "pub": "2026-07-11T11:55",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/articles/pushing-the-edge-super-micro-computer-reboots-the-ai-landscape/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
-      "best_rank": 4,
-      "today_rank": 6,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 49.4,
-      "confirm": 71.8,
-      "signal": 71.3,
-      "mom": {
-        "ret5": 0.0828,
-        "vol_surge": 0.8
-      },
-      "earn_days": 45,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-07-02",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 株主総会結果",
-          "summary": "",
-          "pub": "2026-06-30",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056",
-          "dir": 0.0,
-          "conf": 0.2,
-          "type": "8-K 5.07",
-          "why": "株主総会結果（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Coinbase, Lyft, and Axon prove there's more going on in markets than the 'Magnificent 7'",
-          "summary": "There's more happening in the investor world than Micron, Nvidia, and earnings season.",
-          "pub": "2026-07-12T12:30",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/coinbase-lyft-and-axon-prove-theres-more-going-on-in-markets-than-the-magnificent-7-123000539.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Alphabet vs. Amazon vs. Microsoft: Which Is the Best Cloud Computing Stock to Buy Today?",
-          "summary": "One cloud computing stock stands out among the group.",
-          "pub": "2026-07-12T13:55",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/12/alphabet-vs-amazon-vs-microsoft-which-is-the-best/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Nvidia Vs. AMD: Perplexity Choosing Nvidia Over AMD Tells a Deeper Story About Chip Dominance",
-          "summary": "When Perplexity chose silicon for its AI coding stack, the decision exposed a fault line running beneath two blockbuster earnings reports and raised a question neither company wants asked out loud: is the CPU market already decided?",
-          "pub": "2026-07-12T13:43",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/12/nvidia-vs-amd-perplexity-choosing-nvidia-over-amd-tells-a-deeper-story-about-chip-dominance/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -461,6 +376,91 @@
           "conf": 0.15,
           "type": "格付",
           "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 5,
+      "appearances": 5,
+      "best_rank": 4,
+      "today_rank": 6,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 47.1,
+      "confirm": 71.8,
+      "signal": 70.4,
+      "mom": {
+        "ret5": 0.0828,
+        "vol_surge": 0.8
+      },
+      "earn_days": 45,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-07-02",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 株主総会結果",
+          "summary": "",
+          "pub": "2026-06-30",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056",
+          "dir": 0.0,
+          "conf": 0.2,
+          "type": "8-K 5.07",
+          "why": "株主総会結果（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Coinbase, Lyft, and Axon prove there's more going on in markets than the 'Magnificent 7'",
+          "summary": "There's more happening in the investor world than Micron, Nvidia, and earnings season.",
+          "pub": "2026-07-12T12:30",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/coinbase-lyft-and-axon-prove-theres-more-going-on-in-markets-than-the-magnificent-7-123000539.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Nvidia Still Turn Long-Term Investors Into Millionaires?",
+          "summary": "It's not too late to get rich through strategic investments in the chipmaking giant.",
+          "pub": "2026-07-12T19:04",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/12/can-nvidia-still-turn-long-term-investors-into-mil/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Overwhelmed by Investing? Here's the Quickest Way to Simplify the Process.",
+          "summary": "Investing doesn't have to feel like learning quantum physics. Here's how you can make it work.",
+          "pub": "2026-07-12T18:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/12/overwhelmed-by-investing-heres-the-quickest-way-to/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -702,6 +702,167 @@
       ]
     },
     {
+      "ticker": "AMKR",
+      "tier": "確定",
+      "streak": 5,
+      "appearances": 5,
+      "best_rank": 18,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Amkor Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.5,
+      "confirm": 49.6,
+      "signal": 65.5,
+      "mom": {
+        "ret5": 0.0118,
+        "vol_surge": 0.74
+      },
+      "earn_days": 15,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "FormFactor, Amkor, and Kulicke and Soffa Shares Skyrocket, What You Need To Know",
+          "summary": "A number of stocks jumped in the afternoon session after semiconductor stocks rebounded amid dip buying following a recent selloff, as reports revealed that China may ease restrictions on advanced Nvidia AI chip imports.",
+          "pub": "2026-07-09T19:43",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-amkor-kulicke-soffa-shares-194342984.html",
+          "dir": -0.1,
+          "conf": 0.10000000000000003,
+          "type": "急騰報道",
+          "why": "+急騰報道 -急落報道"
+        },
+        {
+          "title": "Amtech's AI Packaging Demand Surges: Is More Upside Ahead?",
+          "summary": "ASYS is seeing AI packaging demand surge as equipment sales, new orders and backlog gains fuel its growth outlook.",
+          "pub": "2026-07-09T12:29",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amtechs-ai-packaging-demand-surges-122900538.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Amkor Technology (AMKR) Gains As Market Dips: What You Should Know",
+          "summary": "In the closing of the recent trading day, Amkor Technology (AMKR) stood at $66.91, denoting a +2.42% move from the preceding trading day.",
+          "pub": "2026-07-08T22:00",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-amkr-gains-market-220001079.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Amkor Technology (AMKR) Falls Sharply As Fair Value Debate Returns",
+          "summary": "Amkor Technology (AMKR) is back in focus after its shares fell 12.9% on July 2, 2026, to $69.65, as investors weighed valuation metrics and recent insider selling activity. See our latest analysis for Amkor Technology. The recent 1 day share price return decline of 6.5% and 7 day share price return",
+          "pub": "2026-07-08T01:15",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-amkr-falls-sharply-011547058.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Amkor (AMKR) Stock Still Looks Like A Bargain On A 205% Run",
+          "summary": "After a 205.4% gain over the past five years, Amkor Technology now sits in a tricky spot where strong recent returns and upbeat AI packaging headlines meet valuation checks that still screen the stock as relatively cheap. Amkor Technology has delivered a 205.4% return over five years, which puts ext",
+          "pub": "2026-07-07T23:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-amkr-stock-still-looks-231059268.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "tier": "確定",
+      "streak": 5,
+      "appearances": 5,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 55.0,
+      "confirm": 41.9,
+      "signal": 64.6,
+      "mom": {
+        "ret5": -0.0194,
+        "vol_surge": 0.85
+      },
+      "earn_days": 22,
+      "consensus": {
+        "buy": 12,
+        "hold": 11,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストupgrade: Neutral→Buy",
+          "summary": "",
+          "pub": "2026-07-02",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストupgrade: Underperform→Peer Perform",
+          "summary": "",
+          "pub": "2026-06-16",
+          "provider": "Wolfe Research",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Palantir Could Hit a $400 Billion Market Cap by the End of 2027, and Here Is Why Investors Should Pay Attention",
+          "summary": "An expanding AI platform makes the $400 billion market cap case compelling, but Palantir investors still need to watch the risks.",
+          "pub": "2026-07-12T16:05",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/12/palantir-could-hit-400-billion-market-cap/",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Galaxy’s Mike Novogratz Warns AI Is Quietly Commoditizing Humans, Calls Palantir CEO's TV Rant Most Honest He's Seen",
+          "summary": "Novogratz linked AI concerns to broader market trends, suggesting investor capital is rotating between AI-related stocks and crypto assets.",
+          "pub": "2026-07-12T09:56",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/glxy-novogratz-karp-ai-commoditization/cZmDgMdR7o5",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why Rackspace Technology Stock Is Finally Starting to Look Attractive",
+          "summary": "Rackspace stock is falling after cutting its revenue and announcing a planned stock offering.",
+          "pub": "2026-07-11T13:30",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/3238645/why-rackspace-technology-stock-is-finally-starting-to-look-attractive",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "ALAB",
       "tier": "確定",
       "streak": 5,
@@ -780,129 +941,12 @@
       ]
     },
     {
-      "ticker": "HST",
-      "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
-      "best_rank": 18,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Host Hotels & Resorts, Inc.",
-      "sector": "Real Estate",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 46.5,
-      "signal": 63.9,
-      "mom": {
-        "ret5": -0.0073,
-        "vol_surge": 0.91
-      },
-      "earn_days": 24,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Host Hotels Gains 18.8% in Three Months: Will the Trend Last?",
-          "summary": "HST climbs 18.8% in three months as RevPAR growth, strong travel demand and capital recycling support its outlook.",
-          "pub": "2026-07-07T17:46",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/host-hotels-gains-18-8-174600216.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.0,
-      "confirm": 41.9,
-      "signal": 63.0,
-      "mom": {
-        "ret5": -0.0194,
-        "vol_surge": 0.85
-      },
-      "earn_days": 22,
-      "consensus": {
-        "buy": 12,
-        "hold": 11,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストupgrade: Neutral→Buy",
-          "summary": "",
-          "pub": "2026-07-02",
-          "provider": "DA Davidson",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストupgrade: Underperform→Peer Perform",
-          "summary": "",
-          "pub": "2026-06-16",
-          "provider": "Wolfe Research",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Galaxy’s Mike Novogratz Warns AI Is Quietly Commoditizing Humans, Calls Palantir CEO's TV Rant Most Honest He's Seen",
-          "summary": "Novogratz linked AI concerns to broader market trends, suggesting investor capital is rotating between AI-related stocks and crypto assets.",
-          "pub": "2026-07-12T09:56",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/glxy-novogratz-karp-ai-commoditization/cZmDgMdR7o5",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Rackspace Technology Stock Is Finally Starting to Look Attractive",
-          "summary": "Rackspace stock is falling after cutting its revenue and announcing a planned stock offering.",
-          "pub": "2026-07-11T13:30",
-          "provider": "Barchart",
-          "url": "https://www.barchart.com/story/news/3238645/why-rackspace-technology-stock-is-finally-starting-to-look-attractive",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "MarketBeat Week in Review – 07/06 - 07/10",
-          "summary": "MarketBeat recaps the week's top stories, covering SK Hynix's debut, AI stock rotation, earnings from D.R. Horton, and analysis of Palantir, Microsoft, Meta, Broadcom, Rivian, ASML, and Circle.",
-          "pub": "2026-07-11T11:00",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/articles/marketbeat-week-in-review-07-06-07-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 5,
       "appearances": 5,
       "best_rank": 2,
-      "today_rank": 3,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
@@ -957,8 +1001,8 @@
       "tier": "確定",
       "streak": 5,
       "appearances": 5,
-      "best_rank": 4,
-      "today_rank": 4,
+      "best_rank": 3,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
