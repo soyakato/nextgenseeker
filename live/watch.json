@@ -1,85 +1,7 @@
 {
-  "updated": "2026-07-13T04:00:51.622115+00:00",
+  "updated": "2026-07-13T09:48:14.131696+00:00",
   "judge_source": "rule-based",
   "signals": [
-    {
-      "ticker": "BKR",
-      "tier": "確定",
-      "streak": 6,
-      "appearances": 6,
-      "best_rank": 9,
-      "today_rank": 10,
-      "first_seen": "2026-07-08",
-      "name": "Baker Hughes Company",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 70.4,
-      "confirm": 80.9,
-      "signal": 82.4,
-      "mom": {
-        "ret5": 0.0906,
-        "vol_surge": 1.25
-      },
-      "earn_days": 13,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Baker Hughes (BKR) Secures Long-Term Service Agreement for ANOH Gas Plant",
-          "summary": "Baker Hughes Company (NASDAQ:BKR) is one of the best stocks to invest in under $100. On June 23, Baker Hughes announced a significant long-term service agreement with ANOH Gas Processing Company/AGPC for the ANOH Gas Processing Plant in Nigeria. The contract covers lifecycle support, including parts",
-          "pub": "2026-07-11T21:15",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/energy/articles/baker-hughes-bkr-secures-long-155952946.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +受注"
-        },
-        {
-          "title": "Basin rig count down five as prices climb",
-          "summary": "The rig count in the Permian Basin was down five this week, the latest count Friday by Baker Hughes shows, with 256 rigs active in the region. A year ago, 265 rigs were active in the region. Nationally, the oil and gas rig count is up one from last week at 581 rigs. A year ago, 537 rigs were active.",
-          "pub": "2026-07-11T00:02",
-          "provider": "Odessa American, Texas",
-          "url": "https://www.oaoa.com/?p=366329",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "S&P 500 Posts Weekly Gain as Technology, Energy Rally",
-          "summary": "The Standard & Poor's 500 index rose 1.2% this week, lifted by a fresh burst of AI enthusiasm amid g",
-          "pub": "2026-07-10T20:55",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-weekly-gain-205535829.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "US Oil, Gas Drillers Hang Back in Volatile Market",
-          "summary": "The total number of active drilling rigs for oil and gas in the United States rose this week, according to new data that Baker Hughes published on Friday",
-          "pub": "2026-07-10T18:00",
-          "provider": "Oilprice.com",
-          "url": "https://finance.yahoo.com/energy/articles/us-oil-gas-drillers-hang-180000139.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Baker Hughes Wins Cheniere Sabine Pass Awards to Drive LNG Growth",
-          "summary": "BKR secures three Cheniere awards, expanding its role at the Sabine Pass LNG facility and strengthening its long-term growth in LNG infrastructure.",
-          "pub": "2026-07-10T14:19",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/baker-hughes-wins-cheniere-sabine-141900074.html",
-          "dir": 0.9,
-          "conf": 0.9,
-          "type": "受注",
-          "why": "+受注 +拡大・新製品"
-        }
-      ]
-    },
     {
       "ticker": "AVGO",
       "tier": "確定",
@@ -91,9 +13,9 @@
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 56.1,
+      "news": 51.3,
       "confirm": 75.3,
-      "signal": 75.0,
+      "signal": 73.1,
       "mom": {
         "ret5": 0.1096,
         "vol_surge": 0.69
@@ -112,6 +34,17 @@
           "type": "8-K 8.01",
           "why": "その他の重要イベント（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "INTC, AMD, NVDA, AVGO: Chip Stocks Slide As Fresh US-Iran Strikes Test Peace Deal",
+          "summary": "The selloff in chip stocks comes amid a broader rotation within the tech sector, with investor money flowing out of chip names and back into Big Tech.",
+          "pub": "2026-07-13T04:58",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/intc-amd-nvda-avgo-chip-stocks-slide-as-fresh-us-iran-strikes-test-peace-deal/cZmzgG5R7oh",
+          "dir": 0.2,
+          "conf": 0.19999999999999996,
+          "type": "契約・提携",
+          "why": "+契約・提携 -急落報道"
         },
         {
           "title": "Best Artificial Intelligence (AI) Stock: AMD, Nvidia, or Broadcom",
@@ -145,17 +78,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "$1,000 in Nvidia vs. $1,000 in Broadcom: Which AI Chip Bet Paid Off More?",
-          "summary": "The answer flips depending on when you would have bought. And the outcomes differ dramatically for three different time periods.",
-          "pub": "2026-07-12T08:18",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/12/1000-in-nvidia-vs-1000-in-broadcom-which-ai-chip-b/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -164,8 +86,8 @@
       "tier": "確定",
       "streak": 6,
       "appearances": 6,
-      "best_rank": 17,
-      "today_rank": 17,
+      "best_rank": 16,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Dell Technologies Inc.",
       "sector": "Technology",
@@ -240,19 +162,103 @@
       ]
     },
     {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 6,
+      "appearances": 6,
+      "best_rank": 1,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 49.7,
+      "confirm": 70.7,
+      "signal": 71.1,
+      "mom": {
+        "ret5": 0.0774,
+        "vol_surge": 0.83
+      },
+      "earn_days": 22,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-07-01",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-10",
+          "provider": "Stifel",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-06",
+          "provider": "Goldman Sachs",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-06-30",
+          "provider": "Wells Fargo",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-06-29",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
       "ticker": "NVDA",
       "tier": "確定",
       "streak": 6,
       "appearances": 6,
       "best_rank": 4,
-      "today_rank": 5,
+      "today_rank": 6,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.1,
+      "news": 48.1,
       "confirm": 71.8,
-      "signal": 71.2,
+      "signal": 70.8,
       "mom": {
         "ret5": 0.0828,
         "vol_surge": 0.8
@@ -301,78 +307,22 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Did Nvidia's 2028 Rack Delay Under Jensen Huang Open a Door for AMD and Google?",
-          "summary": "A potential rare Nvidia misstep could be a big tailwind for AMD and Alphabet.",
-          "pub": "2026-07-13T03:35",
+          "title": "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
+          "summary": "The artificial intelligence (AI) boom is altering the financial landscape of America's largest tech companies.",
+          "pub": "2026-07-13T09:35",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/12/did-nvidias-2028-rack-delay-under-jensen-huang-ope/",
+          "url": "https://www.fool.com/investing/2026/07/13/rank-magnificent-7-stocks-free-cash-flow-yield/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "What You’ve Done to Create Financial Freedom, Vol. 4",
-          "summary": "Each Independence Week, Rule Breaker Investing asks a simple question: What have you done over the past year to create financial freedom—for yourself or for others?",
-          "pub": "2026-07-13T03:27",
+          "title": "Wall Street's Newest Blockbuster Stock Split Was Just Announced -- and This Non-Tech Titan Has Skyrocketed 457,000% Since Its IPO",
+          "summary": "This consumer-facing company has increased its net sales annually for more than three decades.",
+          "pub": "2026-07-13T09:26",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/12/what-youve-done-to-create-financial-freedom-vol-4/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "CNQ",
-      "tier": "確定",
-      "streak": 6,
-      "appearances": 6,
-      "best_rank": 19,
-      "today_rank": 19,
-      "first_seen": "2026-07-08",
-      "name": "Canadian Natural Resources Limi",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 52.2,
-      "confirm": 67.5,
-      "signal": 71.1,
-      "mom": {
-        "ret5": 0.0547,
-        "vol_surge": 1.07
-      },
-      "earn_days": 24,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Cenovus Surges 85.3% in a Year: Should You Buy the Stock Now?",
-          "summary": "CVE's 85% rally, MEG Energy synergies, low-cost oil sand assets and integrated refining network are strengthening its long-term growth case.",
-          "pub": "2026-07-09T14:20",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cenovus-surges-85-3-buy-142000767.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Cenovus Energy Stock Climbs 3.5%: What's Fueling the Rally?",
-          "summary": "CVE climbed 3.5% as higher crude prices and strong first-quarter results boosted confidence, with improving margins and growth plans reinforcing optimism.",
-          "pub": "2026-07-08T12:29",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/cenovus-energy-stock-climbs-3-122900654.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Cenovus' Integrated Structure Offers an Edge Amid Lower Oil Prices",
-          "summary": "CVE's refining and pipeline network gives it an edge in a lower oil price environment, helping cushion upstream pressure and support margins.",
-          "pub": "2026-07-06T16:39",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/cenovus-integrated-structure-offers-edge-163900500.html",
+          "url": "https://www.fool.com/investing/2026/07/13/wall-st-blockbuster-stock-split-457000-since-ipo/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -386,7 +336,7 @@
       "streak": 6,
       "appearances": 6,
       "best_rank": 9,
-      "today_rank": 9,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -465,7 +415,7 @@
       "streak": 6,
       "appearances": 6,
       "best_rank": 4,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -543,7 +493,7 @@
       "streak": 6,
       "appearances": 6,
       "best_rank": 7,
-      "today_rank": 8,
+      "today_rank": 9,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -623,7 +573,7 @@
       "streak": 6,
       "appearances": 6,
       "best_rank": 16,
-      "today_rank": 21,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
@@ -701,7 +651,7 @@
       "streak": 6,
       "appearances": 6,
       "best_rank": 18,
-      "today_rank": 20,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "Amkor Technology, Inc.",
       "sector": "Technology",
@@ -862,7 +812,7 @@
       "streak": 6,
       "appearances": 6,
       "best_rank": 2,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
@@ -935,12 +885,46 @@
       ]
     },
     {
+      "ticker": "HST",
+      "tier": "確定",
+      "streak": 6,
+      "appearances": 6,
+      "best_rank": 17,
+      "today_rank": 17,
+      "first_seen": "2026-07-08",
+      "name": "Host Hotels & Resorts, Inc.",
+      "sector": "Real Estate",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 46.5,
+      "signal": 63.9,
+      "mom": {
+        "ret5": -0.0073,
+        "vol_surge": 0.91
+      },
+      "earn_days": 23,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Host Hotels Gains 18.8% in Three Months: Will the Trend Last?",
+          "summary": "HST climbs 18.8% in three months as RevPAR growth, strong travel demand and capital recycling support its outlook.",
+          "pub": "2026-07-07T17:46",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/host-hotels-gains-18-8-174600216.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 6,
       "appearances": 6,
       "best_rank": 2,
-      "today_rank": 3,
+      "today_rank": 5,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
@@ -996,7 +980,7 @@
       "streak": 6,
       "appearances": 6,
       "best_rank": 2,
-      "today_rank": 2,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -1152,6 +1136,14 @@
       "grades": {}
     },
     {
+      "date": "2026-07-13",
+      "ticker": "AMD",
+      "signal": 71.1,
+      "price": 557.89,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
       "date": "2026-07-12",
       "ticker": "BKR",
       "signal": 82.4,
@@ -1220,14 +1212,6 @@
       "ticker": "AMKR",
       "signal": 65.5,
       "price": 70.47,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-12",
-      "ticker": "CNQ",
-      "signal": 71.1,
-      "price": 41.81,
       "spy": 754.9500122070312,
       "grades": {}
     }
