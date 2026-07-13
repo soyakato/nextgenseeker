@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-12T19:32:03.796274+00:00",
+  "updated": "2026-07-13T04:00:51.622115+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
       "ticker": "BKR",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 9,
       "today_rank": 10,
       "first_seen": "2026-07-08",
@@ -20,7 +20,7 @@
         "ret5": 0.0906,
         "vol_surge": 1.25
       },
-      "earn_days": 14,
+      "earn_days": 13,
       "consensus": null,
       "headlines": [
         {
@@ -83,8 +83,8 @@
     {
       "ticker": "AVGO",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 8,
       "today_rank": 11,
       "first_seen": "2026-07-08",
@@ -112,6 +112,17 @@
           "type": "8-K 8.01",
           "why": "その他の重要イベント（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Best Artificial Intelligence (AI) Stock: AMD, Nvidia, or Broadcom",
+          "summary": "This trio is dominating the AI computing space.",
+          "pub": "2026-07-12T22:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/12/best-artificial-intelligence-ai-stock-amd-nvidia-o/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Should You Buy Broadcom Inc. (AVGO)’s Shares?",
@@ -145,25 +156,14 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can Meta Platforms (META) Turn Surplus AI Capacity Into a Durable Enterprise Revenue Engine?",
-          "summary": "In recent weeks, Meta Platforms announced a plan to launch “Meta Compute” to rent out excess AI capacity, accelerate production of its in-house Iris data-center chip with Broadcom and TSMC from September, and roll out advanced AI models like Muse Spark 1.1 and Muse Image alongside a new chief data o",
-          "pub": "2026-07-12T06:11",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-meta-turn-surplus-061155319.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
         }
       ]
     },
     {
       "ticker": "DELL",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 17,
       "today_rank": 17,
       "first_seen": "2026-07-08",
@@ -240,164 +240,24 @@
       ]
     },
     {
-      "ticker": "CNQ",
-      "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
-      "best_rank": 19,
-      "today_rank": 19,
-      "first_seen": "2026-07-08",
-      "name": "Canadian Natural Resources Limi",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 52.2,
-      "confirm": 67.5,
-      "signal": 71.1,
-      "mom": {
-        "ret5": 0.0547,
-        "vol_surge": 1.07
-      },
-      "earn_days": 25,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Cenovus Surges 85.3% in a Year: Should You Buy the Stock Now?",
-          "summary": "CVE's 85% rally, MEG Energy synergies, low-cost oil sand assets and integrated refining network are strengthening its long-term growth case.",
-          "pub": "2026-07-09T14:20",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cenovus-surges-85-3-buy-142000767.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Cenovus Energy Stock Climbs 3.5%: What's Fueling the Rally?",
-          "summary": "CVE climbed 3.5% as higher crude prices and strong first-quarter results boosted confidence, with improving margins and growth plans reinforcing optimism.",
-          "pub": "2026-07-08T12:29",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/cenovus-energy-stock-climbs-3-122900654.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Cenovus' Integrated Structure Offers an Edge Amid Lower Oil Prices",
-          "summary": "CVE's refining and pipeline network gives it an edge in a lower oil price environment, helping cushion upstream pressure and support margins.",
-          "pub": "2026-07-06T16:39",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/cenovus-integrated-structure-offers-edge-163900500.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
-      "best_rank": 1,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 49.5,
-      "confirm": 70.7,
-      "signal": 71.0,
-      "mom": {
-        "ret5": 0.0774,
-        "vol_surge": 0.83
-      },
-      "earn_days": 23,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-07-01",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-07-10",
-          "provider": "Stifel",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-07-06",
-          "provider": "Goldman Sachs",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-06-30",
-          "provider": "Wells Fargo",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-06-29",
-          "provider": "Cantor Fitzgerald",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
       "ticker": "NVDA",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 4,
-      "today_rank": 6,
+      "today_rank": 5,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 47.1,
+      "news": 49.1,
       "confirm": 71.8,
-      "signal": 70.4,
+      "signal": 71.2,
       "mom": {
         "ret5": 0.0828,
         "vol_surge": 0.8
       },
-      "earn_days": 45,
+      "earn_days": 44,
       "consensus": {
         "buy": 60,
         "hold": 16,
@@ -441,22 +301,78 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Can Nvidia Still Turn Long-Term Investors Into Millionaires?",
-          "summary": "It's not too late to get rich through strategic investments in the chipmaking giant.",
-          "pub": "2026-07-12T19:04",
+          "title": "Did Nvidia's 2028 Rack Delay Under Jensen Huang Open a Door for AMD and Google?",
+          "summary": "A potential rare Nvidia misstep could be a big tailwind for AMD and Alphabet.",
+          "pub": "2026-07-13T03:35",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/12/can-nvidia-still-turn-long-term-investors-into-mil/",
+          "url": "https://www.fool.com/investing/2026/07/12/did-nvidias-2028-rack-delay-under-jensen-huang-ope/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Overwhelmed by Investing? Here's the Quickest Way to Simplify the Process.",
-          "summary": "Investing doesn't have to feel like learning quantum physics. Here's how you can make it work.",
-          "pub": "2026-07-12T18:50",
+          "title": "What You’ve Done to Create Financial Freedom, Vol. 4",
+          "summary": "Each Independence Week, Rule Breaker Investing asks a simple question: What have you done over the past year to create financial freedom—for yourself or for others?",
+          "pub": "2026-07-13T03:27",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/12/overwhelmed-by-investing-heres-the-quickest-way-to/",
+          "url": "https://www.fool.com/investing/2026/07/12/what-youve-done-to-create-financial-freedom-vol-4/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CNQ",
+      "tier": "確定",
+      "streak": 6,
+      "appearances": 6,
+      "best_rank": 19,
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 52.2,
+      "confirm": 67.5,
+      "signal": 71.1,
+      "mom": {
+        "ret5": 0.0547,
+        "vol_surge": 1.07
+      },
+      "earn_days": 24,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Cenovus Surges 85.3% in a Year: Should You Buy the Stock Now?",
+          "summary": "CVE's 85% rally, MEG Energy synergies, low-cost oil sand assets and integrated refining network are strengthening its long-term growth case.",
+          "pub": "2026-07-09T14:20",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cenovus-surges-85-3-buy-142000767.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Cenovus Energy Stock Climbs 3.5%: What's Fueling the Rally?",
+          "summary": "CVE climbed 3.5% as higher crude prices and strong first-quarter results boosted confidence, with improving margins and growth plans reinforcing optimism.",
+          "pub": "2026-07-08T12:29",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/cenovus-energy-stock-climbs-3-122900654.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Cenovus' Integrated Structure Offers an Edge Amid Lower Oil Prices",
+          "summary": "CVE's refining and pipeline network gives it an edge in a lower oil price environment, helping cushion upstream pressure and support margins.",
+          "pub": "2026-07-06T16:39",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/cenovus-integrated-structure-offers-edge-163900500.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -467,8 +383,8 @@
     {
       "ticker": "ADI",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 9,
       "today_rank": 9,
       "first_seen": "2026-07-08",
@@ -482,7 +398,7 @@
         "ret5": 0.049,
         "vol_surge": 0.61
       },
-      "earn_days": 38,
+      "earn_days": 37,
       "consensus": null,
       "headlines": [
         {
@@ -546,8 +462,8 @@
     {
       "ticker": "CRDO",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 4,
       "today_rank": 7,
       "first_seen": "2026-07-08",
@@ -624,8 +540,8 @@
     {
       "ticker": "AA",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 7,
       "today_rank": 8,
       "first_seen": "2026-07-08",
@@ -639,7 +555,7 @@
         "ret5": 0.0,
         "vol_surge": 0.96
       },
-      "earn_days": 4,
+      "earn_days": 3,
       "consensus": null,
       "headlines": [
         {
@@ -702,12 +618,90 @@
       ]
     },
     {
+      "ticker": "AI",
+      "tier": "確定",
+      "streak": 6,
+      "appearances": 6,
+      "best_rank": 16,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "C3.ai, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 64.0,
+      "confirm": 39.9,
+      "signal": 67.6,
+      "mom": {
+        "ret5": -0.0121,
+        "vol_surge": 0.57
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "How Investors Are Reacting To C3.ai (AI) CEO Shuffle, Revenue Drop And Shell Partnership Extension",
+          "summary": "C3.ai recently reported a sharp revenue decline in 2026 alongside the temporary step-down and subsequent return of CEO Tom Siebel, while extending its enterprise AI collaboration with Shell against a backdrop of intensifying competition from BigBear.ai. This combination of leadership disruption, con",
+          "pub": "2026-07-11T08:15",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-c3-ai-ai-081553667.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "C3.ai (AI) Brings Revenue And Leadership Into Focus, Is The Stock Slightly Overvalued?",
+          "summary": "C3.ai event puts revenue trends and leadership back in focus C3.ai (AI) has moved back into the spotlight after revenue declined in 2026, its collaboration with Shell expanded, and founder Tom Siebel returned as CEO following a period away for health reasons. See our latest analysis for C3.ai. At a",
+          "pub": "2026-07-11T06:14",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-ai-brings-revenue-061451187.html",
+          "dir": 0.2,
+          "conf": 0.19999999999999996,
+          "type": "契約・提携",
+          "why": "+契約・提携 -空売り・過大評価"
+        },
+        {
+          "title": "C3.ai (AI) Stock Looks Overvalued On Cash Flow And Sales",
+          "summary": "C3.ai’s share price has fallen sharply over the past five years, yet both the Discounted Cash Flow (DCF) intrinsic value estimate and traditional market multiples currently point to the stock trading at a premium rather than offering clear value. C3.ai’s total return over the past 5 years is down 82",
+          "pub": "2026-07-11T04:16",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-ai-stock-looks-041613475.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "空売り・過大評価",
+          "why": "-空売り・過大評価"
+        },
+        {
+          "title": "C3.ai vs. BigBear.ai: What Quarterly Revenue Trends Tell Investors About These AI Companies",
+          "summary": "C3.ai's revenue has plummeted in 2026 while BigBear.ai holds steady — and the gap between them is shrinking.",
+          "pub": "2026-07-10T21:47",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/coverage/charts/2026/07/10/c3-ai-vs-bigbear-ai-what-quarterly-revenue-trends-tell-investors-about-these-ai-companies/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Is SOUN Stock a Buy After Revenue Growth and Ongoing Losses in 2026?",
+          "summary": "SoundHound's 52% revenue growth and debt-free balance sheet support its AI story, but losses, cash burn and weak signals make it more watchlist than buy.",
+          "pub": "2026-07-10T17:18",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/soun-stock-buy-revenue-growth-171800975.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AMKR",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 18,
-      "today_rank": 18,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Amkor Technology, Inc.",
       "sector": "Technology",
@@ -719,7 +713,7 @@
         "ret5": 0.0118,
         "vol_surge": 0.74
       },
-      "earn_days": 15,
+      "earn_days": 14,
       "consensus": null,
       "headlines": [
         {
@@ -782,22 +776,22 @@
     {
       "ticker": "PLTR",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 1,
       "today_rank": 1,
       "first_seen": "2026-07-08",
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.0,
+      "news": 55.5,
       "confirm": 41.9,
-      "signal": 64.6,
+      "signal": 64.8,
       "mom": {
         "ret5": -0.0194,
         "vol_surge": 0.85
       },
-      "earn_days": 22,
+      "earn_days": 21,
       "consensus": {
         "buy": 12,
         "hold": 11,
@@ -828,6 +822,28 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "Zeta Global Eyes AI Infrastructure Shift as Palantir Integration Nears",
+          "summary": "Zeta Global (NYSE:ZETA) executives said the company is moving beyond its core marketing technology positioning and toward what they described as an AI infrastructure and business intelligence platform, supported by recently announced partnerships with Palantir, OpenAI and Snowflake. Speaking during",
+          "pub": "2026-07-13T01:02",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/zeta-global-eyes-ai-infrastructure-shift-as-palantir-integration-nears-2026-07-12/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Palantir CEO has a blunt verdict on OpenAI and Anthropic",
+          "summary": "Palantir posted the highest revenue growth rate in its history in the first quarter of fiscal year 2026. U.S. commercial revenue jumped 133%. The company raised its full-year guidance by 10 points. By any operational measure, things are going well. And yet Alex Karp walked onto CNBC's Squawk Box ...",
+          "pub": "2026-07-12T23:37",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/technology/palantir-ceo-has-a-blunt-verdict-on-openai-and-anthropic",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
           "title": "Palantir Could Hit a $400 Billion Market Cap by the End of 2027, and Here Is Why Investors Should Pay Attention",
           "summary": "An expanding AI platform makes the $400 billion market cap case compelling, but Palantir investors still need to watch the risks.",
           "pub": "2026-07-12T16:05",
@@ -837,52 +853,41 @@
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
-        },
-        {
-          "title": "Galaxy’s Mike Novogratz Warns AI Is Quietly Commoditizing Humans, Calls Palantir CEO's TV Rant Most Honest He's Seen",
-          "summary": "Novogratz linked AI concerns to broader market trends, suggesting investor capital is rotating between AI-related stocks and crypto assets.",
-          "pub": "2026-07-12T09:56",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/glxy-novogratz-karp-ai-commoditization/cZmDgMdR7o5",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Rackspace Technology Stock Is Finally Starting to Look Attractive",
-          "summary": "Rackspace stock is falling after cutting its revenue and announcing a planned stock offering.",
-          "pub": "2026-07-11T13:30",
-          "provider": "Barchart",
-          "url": "https://www.barchart.com/story/news/3238645/why-rackspace-technology-stock-is-finally-starting-to-look-attractive",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
     {
       "ticker": "ALAB",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 2,
-      "today_rank": 5,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.0,
+      "news": 49.6,
       "confirm": 49.6,
-      "signal": 64.5,
+      "signal": 64.7,
       "mom": {
         "ret5": 0.0161,
         "vol_surge": 0.65
       },
-      "earn_days": 23,
+      "earn_days": 22,
       "consensus": null,
       "headlines": [
+        {
+          "title": "An Astera Labs Insider Sold at $458, but the 93% Revenue Growth Is the Real Story",
+          "summary": "Manuel Alba's sale follows a 386% one-year surge in Astera Labs shares. The semiconductor company now trades at a $69.7 billion market cap.",
+          "pub": "2026-07-12T22:10",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/coverage/filings/2026/07/12/an-astera-labs-insider-sold-at-usd458-but-the-93-revenue-growth-is-the-real-story/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
         {
           "title": "5 Under the Radar AI Chip Stocks Powering the Data Center Boom",
           "summary": "While investors chase GPU names, a quieter group of semiconductor companies is absorbing the real capital flowing into AI data centers, and five of them are already posting triple-digit revenue growth that Wall Street models still can't keep pace with.",
@@ -926,27 +931,16 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Chip Stocks Join in Broad Selloff",
-          "summary": "Chip stocks fell, reversing gains seen earlier in the session and extending recent losses. The PHLX Semiconductor Index is down 0.1%, falling alongside the broader market sell-off fueled by a reignited U.",
-          "pub": "2026-07-08T16:12",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-070826/card/chip-stocks-rise-despite-broad-sell-off-57FRlQc5rbq2KNPTEOnt?siteid=yhoof2&yptr=yahoo",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
         }
       ]
     },
     {
       "ticker": "KGC",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 2,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
@@ -958,7 +952,7 @@
         "ret5": -0.0231,
         "vol_surge": 0.96
       },
-      "earn_days": 17,
+      "earn_days": 16,
       "consensus": null,
       "headlines": [
         {
@@ -999,10 +993,10 @@
     {
       "ticker": "FLYW",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
-      "best_rank": 3,
-      "today_rank": 3,
+      "streak": 6,
+      "appearances": 6,
+      "best_rank": 2,
+      "today_rank": 2,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -1014,7 +1008,7 @@
         "ret5": -0.0603,
         "vol_surge": 0.71
       },
-      "earn_days": 23,
+      "earn_days": 22,
       "consensus": null,
       "headlines": [
         {
@@ -1055,8 +1049,8 @@
     {
       "ticker": "CDE",
       "tier": "確定",
-      "streak": 5,
-      "appearances": 5,
+      "streak": 6,
+      "appearances": 6,
       "best_rank": 5,
       "today_rank": 12,
       "first_seen": "2026-07-08",
@@ -1070,13 +1064,93 @@
         "ret5": -0.0763,
         "vol_surge": 0.47
       },
-      "earn_days": 24,
+      "earn_days": 23,
       "consensus": null,
       "headlines": []
     }
   ],
   "alert_summary": {},
   "alerts_recent": [
+    {
+      "date": "2026-07-13",
+      "ticker": "BKR",
+      "signal": 82.4,
+      "price": 57.56,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "AVGO",
+      "signal": 75.0,
+      "price": 399.97,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "DELL",
+      "signal": 73.1,
+      "price": 434.97,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "NVDA",
+      "signal": 71.2,
+      "price": 210.96,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "CNQ",
+      "signal": 71.1,
+      "price": 41.81,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "ADI",
+      "signal": 70.3,
+      "price": 395.65,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "CRDO",
+      "signal": 68.9,
+      "price": 257.79,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "AA",
+      "signal": 68.3,
+      "price": 48.68,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "AI",
+      "signal": 67.6,
+      "price": 8.95,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "AMKR",
+      "signal": 65.5,
+      "price": 70.47,
+      "spy": 754.9500122070312,
+      "grades": {}
+    },
     {
       "date": "2026-07-12",
       "ticker": "BKR",
@@ -1154,86 +1228,6 @@
       "ticker": "CNQ",
       "signal": 71.1,
       "price": 41.81,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "BKR",
-      "signal": 79.9,
-      "price": 57.56,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "AVGO",
-      "signal": 74.5,
-      "price": 399.97,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "NVDA",
-      "signal": 71.6,
-      "price": 210.96,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "AMD",
-      "signal": 70.9,
-      "price": 557.89,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "CERT",
-      "signal": 70.9,
-      "price": 6.77,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "ADI",
-      "signal": 70.3,
-      "price": 395.65,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "CRDO",
-      "signal": 68.9,
-      "price": 257.79,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "AA",
-      "signal": 68.1,
-      "price": 48.68,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "AI",
-      "signal": 67.6,
-      "price": 8.95,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-11",
-      "ticker": "AGNC",
-      "signal": 65.9,
-      "price": 11.13,
       "spy": 754.9500122070312,
       "grades": {}
     }
