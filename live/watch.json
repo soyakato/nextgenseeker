@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T03:34:32.226212+00:00",
+  "updated": "2026-07-14T08:28:39.369549+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,17 +8,17 @@
       "streak": 7,
       "appearances": 7,
       "best_rank": 9,
-      "today_rank": 12,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Baker Hughes Company",
       "sector": "Energy",
       "persist": 100,
       "news": 64.1,
-      "confirm": 74.5,
+      "confirm": 74.7,
       "signal": 78.0,
       "mom": {
         "ret5": 0.0828,
-        "vol_surge": 0.98
+        "vol_surge": 0.99
       },
       "earn_days": 12,
       "consensus": null,
@@ -81,107 +81,22 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
-      "best_rank": 4,
-      "today_rank": 8,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.3,
-      "confirm": 59.4,
-      "signal": 69.1,
-      "mom": {
-        "ret5": 0.0408,
-        "vol_surge": 0.81
-      },
-      "earn_days": 43,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-07-02",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 株主総会結果",
-          "summary": "",
-          "pub": "2026-06-30",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056",
-          "dir": 0.0,
-          "conf": 0.2,
-          "type": "8-K 5.07",
-          "why": "株主総会結果（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Why Fortune 500 companies are flocking to open source AI",
-          "summary": "Ollama CEO Jeffrey Morgan joins Yahoo Finance's Josh Lipton to explain how open-source AI models provide cost savings, data control, and secure localized deployment for major enterprise clients like the Fortune 500.",
-          "pub": "2026-07-13T22:39",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/why-fortune-500-companies-are-flocking-to-open-source-ai-223952992.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "SK Hynix stock sees record plunge in Korea despite impressive Nasdaq debut",
-          "summary": "SK Hynix (SKHYV, SKHY) made its impressive Nasdaq (^IXIC) debut on Friday, but the South Korean shares (000660.KS) are now plunging. Yahoo Finance Senior Business Reporter Ines Ferré and AInvest managing editor Adam Shapiro chat with Morning Brief host Julie Hyman about the company's market moves an",
-          "pub": "2026-07-13T13:53",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/sk-hynix-stock-sees-record-plunge-in-korea-despite-impressive-nasdaq-debut-135319420.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "TSMC seen riding AI boom to fifth straight quarter of record profit",
-          "summary": "TSMC, the world's largest manufacturer of advanced AI chips, will likely notch a fifth consecutive quarter of record earnings, driven ‌by booming AI infrastructure spending.  Analysts say demand for Taiwan Semiconductor Manufacturing Co's (TSMC) 3-nanometre and 2-nanometre ‌process technologies for",
-          "pub": "2026-07-14T03:11",
-          "provider": "Reuters",
-          "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-seen-riding-ai-boom-031106342.html",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "記録更新",
-          "why": "+記録更新"
-        }
-      ]
-    },
-    {
       "ticker": "DELL",
       "tier": "確定",
       "streak": 7,
       "appearances": 7,
       "best_rank": 16,
-      "today_rank": 16,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "Dell Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 55.6,
-      "confirm": 55.5,
+      "confirm": 55.6,
       "signal": 68.9,
       "mom": {
         "ret5": 0.0372,
-        "vol_surge": 0.62
+        "vol_surge": 0.63
       },
       "earn_days": null,
       "consensus": null,
@@ -246,22 +161,107 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 7,
+      "appearances": 7,
+      "best_rank": 4,
+      "today_rank": 9,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.5,
+      "confirm": 59.5,
+      "signal": 68.1,
+      "mom": {
+        "ret5": 0.0408,
+        "vol_surge": 0.82
+      },
+      "earn_days": 43,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-07-02",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 株主総会結果",
+          "summary": "",
+          "pub": "2026-06-30",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056",
+          "dir": 0.0,
+          "conf": 0.2,
+          "type": "8-K 5.07",
+          "why": "株主総会結果（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Why Fortune 500 companies are flocking to open source AI",
+          "summary": "Ollama CEO Jeffrey Morgan joins Yahoo Finance's Josh Lipton to explain how open-source AI models provide cost savings, data control, and secure localized deployment for major enterprise clients like the Fortune 500.",
+          "pub": "2026-07-13T22:39",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/why-fortune-500-companies-are-flocking-to-open-source-ai-223952992.html",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
+        },
+        {
+          "title": "SK Hynix stock sees record plunge in Korea despite impressive Nasdaq debut",
+          "summary": "SK Hynix (SKHYV, SKHY) made its impressive Nasdaq (^IXIC) debut on Friday, but the South Korean shares (000660.KS) are now plunging. Yahoo Finance Senior Business Reporter Ines Ferré and AInvest managing editor Adam Shapiro chat with Morning Brief host Julie Hyman about the company's market moves an",
+          "pub": "2026-07-13T13:53",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/sk-hynix-stock-sees-record-plunge-in-korea-despite-impressive-nasdaq-debut-135319420.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Earnings, Inflation, Iran — What’s moving markets",
+          "summary": "Investing.com - U.S. stock futures were mixed on Tueday as renewed tensions between the United States and Iran kept investors on edge ahead of a pivotal week for markets.",
+          "pub": "2026-07-14T08:26",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/articles/earnings-inflation-iran-moving-markets-082640160.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AVGO",
       "tier": "確定",
       "streak": 7,
       "appearances": 7,
       "best_rank": 8,
-      "today_rank": 13,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.1,
-      "confirm": 53.0,
-      "signal": 66.3,
+      "news": 50.5,
+      "confirm": 53.2,
+      "signal": 66.2,
       "mom": {
         "ret5": 0.0271,
-        "vol_surge": 0.66
+        "vol_surge": 0.67
       },
       "earn_days": null,
       "consensus": null,
@@ -301,6 +301,17 @@
           "why": "特定イベント検出なし"
         },
         {
+          "title": "What Broadcom (AVGO)'s Extended Apple Custom Chip Deal Through 2031 Means For Shareholders",
+          "summary": "In early July 2026, Broadcom Inc. announced that it and Apple Inc. had expanded their long-running technology collaboration through 2031 with new multi-year agreements for Broadcom to develop and supply custom ASIC silicon across multiple generations of Apple products. This long-dated Apple deal, al",
+          "pub": "2026-07-14T05:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/articles/broadcom-avgo-extended-apple-custom-051036035.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
           "title": "Famous AI Investor Says This is the ‘Mega Bull Case’ For Stocks like NVIDIA, Micron, and Broadcom",
           "summary": "A prominent AI investor argues that the real winners of the AI boom are not the labs building the models, and the cash flow numbers already suggest a massive redistribution is quietly underway.",
           "pub": "2026-07-14T01:30",
@@ -310,17 +321,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Jim Cramer: South Korea Is Mispricing SK Hynix. Here’s Why He’s Still Bullish on AI Memory",
-          "summary": "SK Hynix crashed into bear-market territory in Seoul just days after a blockbuster U.S. debut, and Jim Cramer thinks Korean investors are missing something fundamental about where AI memory demand is actually headed.",
-          "pub": "2026-07-13T23:04",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/13/jim-cramer-south-korea-is-mispricing-sk-hynix-heres-why-hes-still-bullish-on-ai-memory/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
         }
       ]
     },
@@ -413,7 +413,7 @@
       "streak": 7,
       "appearances": 7,
       "best_rank": 9,
-      "today_rank": 9,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -492,7 +492,7 @@
       "streak": 7,
       "appearances": 7,
       "best_rank": 7,
-      "today_rank": 10,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -567,36 +567,80 @@
       ]
     },
     {
-      "ticker": "HST",
+      "ticker": "AI",
       "tier": "確定",
       "streak": 7,
       "appearances": 7,
-      "best_rank": 17,
-      "today_rank": 20,
+      "best_rank": 16,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
-      "name": "Host Hotels & Resorts, Inc.",
-      "sector": "Real Estate",
+      "name": "C3.ai, Inc.",
+      "sector": "Technology",
       "persist": 100,
-      "news": 50.0,
-      "confirm": 45.9,
-      "signal": 63.8,
+      "news": 51.5,
+      "confirm": 39.7,
+      "signal": 62.5,
       "mom": {
-        "ret5": -0.0077,
-        "vol_surge": 0.88
+        "ret5": -0.0129,
+        "vol_surge": 0.57
       },
-      "earn_days": 22,
+      "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "Host Hotels Gains 18.8% in Three Months: Will the Trend Last?",
-          "summary": "HST climbs 18.8% in three months as RevPAR growth, strong travel demand and capital recycling support its outlook.",
-          "pub": "2026-07-07T17:46",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/host-hotels-gains-18-8-174600216.html",
+          "title": "1 Stock Under $10 Worth Your Attention and 2 We Avoid",
+          "summary": "Investors can certainly boost their returns by concentrating on stocks trading between $1 and $10. However, a disciplined approach is necessary because many of these businesses are speculative and lack the underlying fundamentals to support their prices.",
+          "pub": "2026-07-13T18:38",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-stock-under-10-worth-183839008.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        },
+        {
+          "title": "BigBear.ai Debt Reduction Strategy: A Turning Point for the Stock?",
+          "summary": "BBAI's debt cuts, cash cushion and AI backlog growth could lift confidence, but losses and negative cash flow keep its stock re-rating test alive.",
+          "pub": "2026-07-13T16:19",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bigbear-ai-debt-reduction-strategy-161900250.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "C3.ai, Inc. (AI) Is a Trending Stock: Facts to Know Before Betting on It",
+          "summary": "Zacks.com users have recently been watching C3.ai (AI) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+          "pub": "2026-07-13T13:00",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-inc-ai-trending-130004643.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "How Investors Are Reacting To C3.ai (AI) CEO Shuffle, Revenue Drop And Shell Partnership Extension",
+          "summary": "C3.ai recently reported a sharp revenue decline in 2026 alongside the temporary step-down and subsequent return of CEO Tom Siebel, while extending its enterprise AI collaboration with Shell against a backdrop of intensifying competition from BigBear.ai. This combination of leadership disruption, con",
+          "pub": "2026-07-11T08:15",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-c3-ai-ai-081553667.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "C3.ai (AI) Brings Revenue And Leadership Into Focus, Is The Stock Slightly Overvalued?",
+          "summary": "C3.ai event puts revenue trends and leadership back in focus C3.ai (AI) has moved back into the spotlight after revenue declined in 2026, its collaboration with Shell expanded, and founder Tom Siebel returned as CEO following a period away for health reasons. See our latest analysis for C3.ai. At a",
+          "pub": "2026-07-11T06:14",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-ai-brings-revenue-061451187.html",
+          "dir": 0.2,
+          "conf": 0.19999999999999996,
+          "type": "契約・提携",
+          "why": "+契約・提携 -空売り・過大評価"
         }
       ]
     },
@@ -690,7 +734,7 @@
       "streak": 7,
       "appearances": 7,
       "best_rank": 2,
-      "today_rank": 6,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -752,11 +796,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 33.9,
+      "confirm": 34.0,
       "signal": 60.2,
       "mom": {
         "ret5": -0.0502,
-        "vol_surge": 0.93
+        "vol_surge": 0.94
       },
       "earn_days": 15,
       "consensus": null,
@@ -880,7 +924,7 @@
       "streak": 7,
       "appearances": 7,
       "best_rank": 5,
-      "today_rank": 14,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
@@ -907,9 +951,9 @@
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 48.6,
+      "news": 47.6,
       "confirm": 15.8,
-      "signal": 54.2,
+      "signal": 53.8,
       "mom": {
         "ret5": -0.1634,
         "vol_surge": 0.72
@@ -917,6 +961,17 @@
       "earn_days": 21,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Astera Labs (ALAB) Tumbles 12.3%: What Spooked Investors?",
+          "summary": "Astera Labs Inc. (NASDAQ:ALAB) is one of the 10 Stocks Investors Are Running Away From. Astera Labs fell for a second day on Tuesday, losing 12.33 percent to finish at $362.05 apiece, as investor sentiment was primarily dampened by the re-escalating tensions between the US and Iran. In a social medi",
+          "pub": "2026-07-14T05:53",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-alab-tumbles-12-055326235.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
         {
           "title": "Arm And Marvell Tumble As Chip Stocks Sell Off",
           "summary": "Chip stocks sold off on Monday despite an upbeat report from Taiwan Semiconductor Manufacturing. Arm and other stocks broke support.",
@@ -960,17 +1015,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo Climbs 165% in a Year: Is the Stock Still Worth Buying?",
-          "summary": "CRDO is riding AI infrastructure demand, with revenue, margins and connectivity products fueling strong growth despite key customer risks.",
-          "pub": "2026-07-09T14:21",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-climbs-165-stock-still-142100398.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -980,7 +1024,7 @@
       "streak": 7,
       "appearances": 7,
       "best_rank": 4,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -995,6 +1039,17 @@
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Credo Technology (CRDO) Loses 8% Over Renewed US-Iran Tensions",
+          "summary": "Credo Technology Group Holding Ltd (NASDAQ:CRDO) is one of the 10 Stocks Investors Are Running Away From. Credo Technology dropped its share prices by 8.11 percent on Monday to close at $236.88 apiece, as investors turned pessimistic anew amid the escalating tensions between the US and Iran. Over th",
+          "pub": "2026-07-14T05:12",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-crdo-loses-8-051216340.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Credo Technology Group Holding (CRDO) Wins Analyst Backing, Is It Still 82% Overvalued?",
           "summary": "Credo Technology Group Holding (CRDO) has moved into the spotlight after analysts highlighted the company as a top semiconductor pick and pointed to its focus on AI connectivity solutions as a key part of the story. See our latest analysis for Credo Technology Group Holding. The recent analyst atten",
@@ -1034,17 +1089,6 @@
           "pub": "2026-07-12T12:13",
           "provider": "Insider Monkey",
           "url": "https://finance.yahoo.com/technology/ai/articles/why-credo-technology-nasdaq-crdo-121332702.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo's CTO Sold 31,290 Shares. His Remaining $1.6 Billion Stake Tells the Real Story",
-          "summary": "Cheng Chi Fung executed sales under a pre-arranged Rule 10b5-1 trading plan, retaining a $1.56 billion stake in the chipmaker.",
-          "pub": "2026-07-09T22:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/filings/2026/07/09/credo-s-cto-sold-31-290-shares-his-remaining-usd1-6-billion-stake-tells-the-real-story/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
