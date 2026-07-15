@@ -1,26 +1,26 @@
 {
-  "updated": "2026-07-14T19:43:11.504764+00:00",
+  "updated": "2026-07-15T03:35:41.224177+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
       "ticker": "BKR",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 9,
-      "today_rank": 13,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Baker Hughes Company",
       "sector": "Energy",
       "persist": 100,
       "news": 64.1,
-      "confirm": 65.7,
-      "signal": 75.3,
+      "confirm": 68.1,
+      "signal": 76.1,
       "mom": {
-        "ret5": 0.0563,
-        "vol_surge": 0.92
+        "ret5": 0.0607,
+        "vol_surge": 0.99
       },
-      "earn_days": 12,
+      "earn_days": 11,
       "consensus": null,
       "headlines": [
         {
@@ -81,24 +81,265 @@
       ]
     },
     {
+      "ticker": "AMKR",
+      "tier": "確定",
+      "streak": 8,
+      "appearances": 8,
+      "best_rank": 18,
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "Amkor Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.6,
+      "confirm": 67.4,
+      "signal": 70.9,
+      "mom": {
+        "ret5": 0.0745,
+        "vol_surge": 0.67
+      },
+      "earn_days": 12,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Monolithic Power Systems and Amkor Stocks Trade Up, What You Need To Know",
+          "summary": "A number of stocks jumped in the afternoon session after a cooler-than-expected June inflation report and a surprise capital expenditure warning from IBM appeared to validate AI hardware demand.",
+          "pub": "2026-07-14T22:55",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-systems-amkor-stocks-225511901.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "AXTI Falls Below 50-Day SMA: Is It Time to Hold or Exit the Stock?",
+          "summary": "AXT's drop below its 50-day SMA reflects export delays and cash-flow risks, but record InP backlog and AI demand support retaining the stock.",
+          "pub": "2026-07-14T14:07",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/axti-falls-below-50-day-140700236.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "AMKR Trades Cheaper Than Industry at 2.06X P/S: Is the Stock a Buy?",
+          "summary": "Amkor trades at a steep P/S discount despite AI-driven advanced packaging growth, Arizona expansion and rising smartphone demand, backed by long-term catalysts.",
+          "pub": "2026-07-14T12:42",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkr-trades-cheaper-industry-2-124200533.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Amkor, Himax, and Entegris Shares Plummet, What You Need To Know",
+          "summary": "A number of stocks fell in the afternoon session after investors took profits following the chip sector's strong rally in the first half of the year as Middle East tensions escalated. SK Hynix shares fell over 5% in South Korea following its strong Nasdaq debut the previous week.",
+          "pub": "2026-07-14T01:02",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-himax-entegris-shares-plummet-010239593.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Premium Smartphone Demand Holds Up: What's Ahead for Amkor Technology?",
+          "summary": "AMKR is riding resilient premium smartphone demand as rising AI and chip complexity boost advanced packaging opportunities ahead.",
+          "pub": "2026-07-13T16:25",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/articles/premium-smartphone-demand-holds-whats-162500286.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 8,
+      "appearances": 8,
+      "best_rank": 8,
+      "today_rank": 15,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 57.1,
+      "confirm": 59.7,
+      "signal": 70.8,
+      "mom": {
+        "ret5": 0.0494,
+        "vol_surge": 0.66
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: その他の重要イベント",
+          "summary": "",
+          "pub": "2026-07-06",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Why Broadcom Stock Ticked Higher on Tuesday",
+          "summary": "This was partially due to a broad investor pivot away from software companies into hardware makers.",
+          "pub": "2026-07-14T23:28",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/14/why-broadcom-stock-ticked-higher-on-tuesday/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Broadcom Inc. (AVGO) Agreement a Strategic Positive for Apple, says Evercore ISI",
+          "summary": "We recently published Ray Dalio Stock Portfolio: 10 Best Stocks to Buy. Broadcom Inc. (NASDAQ:AVGO) is one of Ray Dalio’s best stocks to buy. On July 8, Evercore ISI called the multiyear agreement with Broadcom Inc. (NASDAQ:AVGO) strategically positive and said the partnership with Broadcom helps Ap",
+          "pub": "2026-07-14T21:44",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/articles/broadcom-inc-avgo-agreement-strategic-214435793.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "The Real Risk Inside Broadcom Stock",
+          "summary": "The company's historic AI boom is undeniable, but it's also reshaping the business in ways that could challenge its premium valuation.",
+          "pub": "2026-07-14T21:22",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/607057/the-real-risk-inside-broadcom-stock/2026-07-14",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "NVIDIA Stock Amplifies Your Market Ride",
+          "summary": "The chipmaker's recent strength is tempting, but its long-term behavior tends to magnify the market's moves, not counter them.",
+          "pub": "2026-07-14T21:11",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/607056/nvidia-stock-amplifies-your-market-ride/2026-07-14",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 8,
+      "appearances": 8,
+      "best_rank": 4,
+      "today_rank": 8,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 48.6,
+      "confirm": 70.4,
+      "signal": 70.6,
+      "mom": {
+        "ret5": 0.0755,
+        "vol_surge": 0.85
+      },
+      "earn_days": 42,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-07-02",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "New York enacts statewide moratorium on AI data center construction: A closer look",
+          "summary": "New York Governor Kathy Hochul signed an executive order to place a moratorium on the construction of new AI data centers. Yahoo Finance Technology Editor Dan Howley explains the details.",
+          "pub": "2026-07-14T21:09",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/new-york-enacts-statewide-moratorium-on-ai-data-center-construction-a-closer-look-210912459.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Dow Jones Futures: Goldman, CrowdStrike Jump, But AI Stocks Need To Do This",
+          "summary": "The Nasdaq and AI stocks rallied, but still face key resistance. Goldman and CrowdStrike make big bullish moves.",
+          "pub": "2026-07-15T02:55",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-goldman-crowdstrike-ai-stocks-asml-morgan-stanley/?src=A00220&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Michael Burry's biggest moneymaker isn't a stock",
+          "summary": "There is a version of getting rich on Wall Street that has nothing to do with being right about a stock. You can spend a career building a reputation and then, one day, discover the reputation itself is the position. It pays whether or not your next call works. It compounds while you sleep. It does",
+          "pub": "2026-07-15T02:33",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/michael-burrys-biggest-moneymaker-isnt-a-stock",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why IBM Stock Crashed Today",
+          "summary": "It was a brutal day for Big Blue's shareholders.",
+          "pub": "2026-07-15T01:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/14/why-ibm-stock-crashed-today/",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        }
+      ]
+    },
+    {
       "ticker": "AMD",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 1,
       "today_rank": 2,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 57.9,
-      "confirm": 64.3,
-      "signal": 72.5,
+      "news": 52.3,
+      "confirm": 64.5,
+      "signal": 70.3,
       "mom": {
-        "ret5": 0.0623,
-        "vol_surge": 0.71
+        "ret5": 0.062,
+        "vol_surge": 0.73
       },
-      "earn_days": 21,
+      "earn_days": 20,
       "consensus": {
         "buy": 50,
         "hold": 20,
@@ -165,240 +406,78 @@
       ]
     },
     {
-      "ticker": "AVGO",
+      "ticker": "AA",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
-      "best_rank": 8,
-      "today_rank": 14,
+      "streak": 8,
+      "appearances": 8,
+      "best_rank": 7,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
       "persist": 100,
-      "news": 58.0,
-      "confirm": 60.6,
-      "signal": 71.4,
+      "news": 61.2,
+      "confirm": 47.0,
+      "signal": 68.6,
       "mom": {
-        "ret5": 0.0544,
-        "vol_surge": 0.62
+        "ret5": 0.001,
+        "vol_surge": 0.78
       },
-      "earn_days": null,
+      "earn_days": 1,
       "consensus": null,
       "headlines": [
         {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-07-06",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "TYLSemi raises $43 million to create building blocks of custom AI chips",
-          "summary": "TYLSemi, a startup founded by executives from recent Qualcomm acquisition AlphaWave, on ‌Tuesday said it has raised $43 million in early ‌funding to help companies build their own AI chips.  The market for such AI ​chips is booming, with major companies such as Meta Platforms working with Broadcom a",
-          "pub": "2026-07-14T18:54",
-          "provider": "Reuters",
-          "url": "https://finance.yahoo.com/technology/ai/articles/tylsemi-raises-43-million-create-185440426.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Broadcom Inc. (AVGO) Secures Role as Key Apple Supplier with Chip Deal through 2031",
-          "summary": "Broadcom Inc. (NASDAQ:AVGO) is among the Best AI Stocks. On July 6, Reuters reported that Broadcom Inc. (NASDAQ:AVGO) expanded its partnership with Apple through 2031 to develop and supply custom chips. It extends a relationship that analysts estimate generates about 20% of Broadcom’s annual revenue",
-          "pub": "2026-07-14T18:54",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/articles/broadcom-inc-avgo-secures-role-185416683.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +受注"
-        },
-        {
-          "title": "Most Stocks in the S&P 500 Are Actually Trading Lower",
-          "summary": "Today’s S&P 500 gains wouldn’t suggest it, but most of the index’s components are actually in the red.  The S&P 500 is up 0.4% while the Equal Weight S&P 500 is moving in the other direction, down 0.3%.  Nearly two-thirds of names in the S&P 500 were down despite session gains, signaling that stocks",
-          "pub": "2026-07-14T18:06",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-071426/card/most-stocks-in-the-s-p-500-are-actually-trading-lower-vucxr4AlGliE396EmOur?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "AVGO Dragged You Through a 30% Plunge for 16%. QQQ Just Went Up 18%",
-          "summary": "Broadcom dominated every AI headline in 2026 while retail investors kicked themselves for missing it. But the actual dollar returns tell a story that should make those investors feel a lot better about what they already owned.",
-          "pub": "2026-07-14T16:45",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/07/14/avgo-dragged-you-through-a-30-plunge-for-16-qqq-just-went-up-18/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
-      "best_rank": 4,
-      "today_rank": 8,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 49.9,
-      "confirm": 69.8,
-      "signal": 70.9,
-      "mom": {
-        "ret5": 0.0751,
-        "vol_surge": 0.82
-      },
-      "earn_days": 43,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
+          "title": "SEC 8-K提出: 重要契約の締結・その他の重要イベント",
           "summary": "",
           "pub": "2026-07-02",
           "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326010155",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
           "is_edgar": true
         },
         {
-          "title": "SEC 8-K提出: 株主総会結果",
+          "title": "SEC 8-K提出: Reg FD開示",
           "summary": "",
-          "pub": "2026-06-30",
+          "pub": "2026-07-01",
           "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326009899",
           "dir": 0.0,
           "conf": 0.2,
-          "type": "8-K 5.07",
-          "why": "株主総会結果（一次情報・機械判定）",
+          "type": "8-K 7.01",
+          "why": "Reg FD開示（一次情報・機械判定）",
           "is_edgar": true
         },
         {
-          "title": "Micron and Nvidia are powering a $700 billion chip profit boom: Chart of the Day",
-          "summary": "Chip stocks have shed $2.7 trillion since late June, yet Wall Street still sees industry profits reaching roughly $700 billion in 2027.",
-          "pub": "2026-07-14T10:00",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/micron-and-nvidia-are-powering-a-700-billion-chip-profit-boom-chart-of-the-day-100000068.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Alcoa Receives International Approval for Gallium Production Project in Australia",
+          "summary": "Alcoa said it and the governments of Australia, Japan and the U.S. have reached a final investment decision to build a gallium production plant at the company’s Wagerup alumina refinery in Western Australia.",
+          "pub": "2026-07-14T21:09",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/business/alcoa-receives-international-approval-for-gallium-production-project-in-australia-a2242d3e?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.7,
+          "conf": 0.7,
+          "type": "承認",
+          "why": "+承認"
         },
         {
-          "title": "Why Fortune 500 companies are flocking to open source AI",
-          "summary": "Ollama CEO Jeffrey Morgan joins Yahoo Finance's Josh Lipton to explain how open-source AI models provide cost savings, data control, and secure localized deployment for major enterprise clients like the Fortune 500.",
-          "pub": "2026-07-13T22:39",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/why-fortune-500-companies-are-flocking-to-open-source-ai-223952992.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
+          "title": "Alcoa (AA) Following Its Asset Deal, Is The Undervalued Case Back In Focus?",
+          "summary": "Alcoa (AA) has moved to expand its bauxite, alumina, and aluminum footprint by agreeing to acquire South32’s interests in several Brazilian and Australian assets, including Worsley Alumina and Hillside Aluminium, under a new transaction. See our latest analysis for Alcoa. At the latest share price o",
+          "pub": "2026-07-14T20:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-aa-following-asset-deal-201045011.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "契約・提携",
+          "why": "+契約・提携 +拡大・新製品"
         },
         {
-          "title": "Microsoft Is Cheaper Than the S&P 500. Now Is the Perfect Time to Load Up on the Stock.",
-          "summary": "Microsoft's sell-off doesn't make a lot of sense.",
-          "pub": "2026-07-14T19:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/14/microsoft-is-cheaper-than-the-sp-500-now-is-the-pe/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        }
-      ]
-    },
-    {
-      "ticker": "AMKR",
-      "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
-      "best_rank": 18,
-      "today_rank": 18,
-      "first_seen": "2026-07-08",
-      "name": "Amkor Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.1,
-      "confirm": 63.1,
-      "signal": 69.4,
-      "mom": {
-        "ret5": 0.0626,
-        "vol_surge": 0.62
-      },
-      "earn_days": 13,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "AXTI Falls Below 50-Day SMA: Is It Time to Hold or Exit the Stock?",
-          "summary": "AXT's drop below its 50-day SMA reflects export delays and cash-flow risks, but record InP backlog and AI demand support retaining the stock.",
-          "pub": "2026-07-14T14:07",
+          "title": "Alcoa Gears Up to Post Q2 Earnings: What Lies Ahead for the Stock?",
+          "summary": "AA heads into Q2 earnings with revenues and EPS seen surging year over year as aluminum demand and smelter restarts offset pressure in alumina.",
+          "pub": "2026-07-14T15:09",
           "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/axti-falls-below-50-day-140700236.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "AMKR Trades Cheaper Than Industry at 2.06X P/S: Is the Stock a Buy?",
-          "summary": "Amkor trades at a steep P/S discount despite AI-driven advanced packaging growth, Arizona expansion and rising smartphone demand, backed by long-term catalysts.",
-          "pub": "2026-07-14T12:42",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amkr-trades-cheaper-industry-2-124200533.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Amkor, Himax, and Entegris Shares Plummet, What You Need To Know",
-          "summary": "A number of stocks fell in the afternoon session after investors took profits following the chip sector's strong rally in the first half of the year as Middle East tensions escalated. SK Hynix shares fell over 5% in South Korea following its strong Nasdaq debut the previous week.",
-          "pub": "2026-07-14T01:02",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-himax-entegris-shares-plummet-010239593.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Premium Smartphone Demand Holds Up: What's Ahead for Amkor Technology?",
-          "summary": "AMKR is riding resilient premium smartphone demand as rising AI and chip complexity boost advanced packaging opportunities ahead.",
-          "pub": "2026-07-13T16:25",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/premium-smartphone-demand-holds-whats-162500286.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Applied Materials vs. Amkor Technology: Which Artificial Intelligence Stock Is a Better Buy in 2026?",
-          "summary": "Applied Materials commands 24.7% net margins while Amkor trades at a fraction of the valuation, but customer concentration and export risks reshape the equation.",
-          "pub": "2026-07-13T12:24",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/better-buy/2026/07/13/applied-materials-vs-amkor-technology-which-artificial-intelligence-stock-is-a-better-buy-in-2026/",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-gears-post-q2-earnings-150900763.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -409,8 +488,8 @@
     {
       "ticker": "ADI",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 9,
       "today_rank": 10,
       "first_seen": "2026-07-08",
@@ -418,13 +497,13 @@
       "sector": "Technology",
       "persist": 100,
       "news": 55.9,
-      "confirm": 53.1,
-      "signal": 68.3,
+      "confirm": 53.7,
+      "signal": 68.5,
       "mom": {
-        "ret5": 0.0369,
-        "vol_surge": 0.47
+        "ret5": 0.0362,
+        "vol_surge": 0.52
       },
-      "earn_days": 36,
+      "earn_days": 35,
       "consensus": null,
       "headlines": [
         {
@@ -486,102 +565,22 @@
       ]
     },
     {
-      "ticker": "AA",
-      "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
-      "best_rank": 7,
-      "today_rank": 11,
-      "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 56.0,
-      "confirm": 44.6,
-      "signal": 65.8,
-      "mom": {
-        "ret5": -0.005,
-        "vol_surge": 0.74
-      },
-      "earn_days": 2,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 重要契約の締結・その他の重要イベント",
-          "summary": "",
-          "pub": "2026-07-02",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326010155",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: Reg FD開示",
-          "summary": "",
-          "pub": "2026-07-01",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326009899",
-          "dir": 0.0,
-          "conf": 0.2,
-          "type": "8-K 7.01",
-          "why": "Reg FD開示（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Alcoa Gears Up to Post Q2 Earnings: What Lies Ahead for the Stock?",
-          "summary": "AA heads into Q2 earnings with revenues and EPS seen surging year over year as aluminum demand and smelter restarts offset pressure in alumina.",
-          "pub": "2026-07-14T15:09",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-gears-post-q2-earnings-150900763.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Wall Street's Insights Into Key Metrics Ahead of Alcoa (AA) Q2 Earnings",
-          "summary": "Get a deeper insight into the potential performance of Alcoa (AA) for the quarter ended June 2026 by going beyond Wall Street's top-and-bottom-line estimates and examining the estimates for some of its key metrics.",
-          "pub": "2026-07-13T13:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-streets-insights-key-metrics-131506447.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "New Strong Sell Stocks for July 9th",
-          "summary": "NNI, AA and ASBFY have been added to the Zacks Rank #5 (Strong Sell) List on July 9, 2026.",
-          "pub": "2026-07-09T08:09",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-july-9th-080900047.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "AI",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 16,
-      "today_rank": 23,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 51.5,
-      "confirm": 48.8,
-      "signal": 65.2,
+      "confirm": 51.4,
+      "signal": 66.0,
       "mom": {
-        "ret5": 0.0185,
-        "vol_surge": 0.55
+        "ret5": 0.0246,
+        "vol_surge": 0.6
       },
       "earn_days": null,
       "consensus": null,
@@ -646,22 +645,22 @@
     {
       "ticker": "PLTR",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 1,
       "today_rank": 1,
       "first_seen": "2026-07-08",
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.0,
-      "confirm": 47.1,
-      "signal": 64.5,
+      "news": 54.2,
+      "confirm": 46.9,
+      "signal": 65.8,
       "mom": {
-        "ret5": -0.0028,
-        "vol_surge": 0.86
+        "ret5": -0.0048,
+        "vol_surge": 0.89
       },
-      "earn_days": 20,
+      "earn_days": 19,
       "consensus": {
         "buy": 12,
         "hold": 11,
@@ -692,33 +691,33 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Palantir CEO Warns AI Could Create 'Unimaginable Wealth' For Tech Biggest Winners",
-          "summary": "Palantir Boss Warns AI May Deliver Massive Fortunes to a Select Few",
-          "pub": "2026-07-14T18:32",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-warns-ai-could-183255504.html",
+          "title": "Microsoft CEO adds fuel to Palantir CEO’s AI warning",
+          "summary": "It turns out that Palantir (PLTR) CEO Alex Karp’s thunderous warning about the AI industry wasn’t a one-off rant. Over the past couple of years, the word \"AI\" has become like a broken record, heard at least once almost every day, often followed by a wave of anxiety. What has happened amid all the ..",
+          "pub": "2026-07-15T03:07",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/microsoft-ceo-adds-fuel-to-palantir-ceos-ai-warning",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Is Palantir (PLTR) the Best Growth Stock With Highest Upside Potential?",
-          "summary": "Palantir Technologies Inc. (NASDAQ:PLTR) is one of the 10 Best Growth Stocks With Highest Upside Potential. On July 9, 2026, Rackspace (RXT) and Palantir Technologies Inc. (NASDAQ:PLTR) announced an operating model framework to help regulated and sovereign enterprises own and operate AI in productio",
-          "pub": "2026-07-14T16:09",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-best-growth-stock-160938945.html",
+          "title": "Michael Burry's biggest moneymaker isn't a stock",
+          "summary": "There is a version of getting rich on Wall Street that has nothing to do with being right about a stock. You can spend a career building a reputation and then, one day, discover the reputation itself is the position. It pays whether or not your next call works. It compounds while you sleep. It does",
+          "pub": "2026-07-15T02:33",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/michael-burrys-biggest-moneymaker-isnt-a-stock",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Why Palantir Technologies Stock Popped Today",
-          "summary": "Palantir might be a buy after earnings -- if the free cash flow holds up.",
-          "pub": "2026-07-14T15:53",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/14/why-palantir-technologies-stock-popped-today/",
+          "title": "SpaceX Fizzles to Close $1 Above IPO Price Weeks After Debut",
+          "summary": "(Bloomberg) -- Three days of losses have brought SpaceX shares to the brink of falling below their initial public offering price, a key level that traders and investors watch to assess the health of new issues.Most Read from BloombergUS Hits Iran With Strikes, Blockade as Trump Plans Hormuz ChargeTr",
+          "pub": "2026-07-14T22:05",
+          "provider": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-fizzles-close-1-above-220521954.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -729,8 +728,8 @@
     {
       "ticker": "KGC",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 2,
       "today_rank": 5,
       "first_seen": "2026-07-08",
@@ -738,13 +737,13 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 48.2,
-      "signal": 64.5,
+      "confirm": 49.3,
+      "signal": 64.8,
       "mom": {
-        "ret5": -0.0006,
-        "vol_surge": 0.89
+        "ret5": 0.0013,
+        "vol_surge": 0.93
       },
-      "earn_days": 15,
+      "earn_days": 14,
       "consensus": null,
       "headlines": [
         {
@@ -785,22 +784,22 @@
     {
       "ticker": "HST",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 17,
-      "today_rank": 21,
+      "today_rank": 22,
       "first_seen": "2026-07-08",
       "name": "Host Hotels & Resorts, Inc.",
       "sector": "Real Estate",
       "persist": 100,
       "news": 50.0,
-      "confirm": 44.7,
-      "signal": 63.4,
+      "confirm": 46.5,
+      "signal": 63.9,
       "mom": {
-        "ret5": -0.0011,
-        "vol_surge": 0.67
+        "ret5": 0.0013,
+        "vol_surge": 0.74
       },
-      "earn_days": 22,
+      "earn_days": 21,
       "consensus": null,
       "headlines": [
         {
@@ -819,30 +818,30 @@
     {
       "ticker": "CDE",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 5,
-      "today_rank": 15,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 39.5,
-      "signal": 61.8,
+      "confirm": 40.2,
+      "signal": 62.1,
       "mom": {
-        "ret5": -0.0041,
-        "vol_surge": 0.38
+        "ret5": -0.0025,
+        "vol_surge": 0.4
       },
-      "earn_days": 22,
+      "earn_days": 21,
       "consensus": null,
       "headlines": []
     },
     {
       "ticker": "CRDO",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 4,
       "today_rank": 7,
       "first_seen": "2026-07-08",
@@ -850,11 +849,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 49.1,
-      "confirm": 30.7,
-      "signal": 58.8,
+      "confirm": 29.9,
+      "signal": 58.6,
       "mom": {
-        "ret5": -0.038,
-        "vol_surge": 0.47
+        "ret5": -0.0415,
+        "vol_surge": 0.49
       },
       "earn_days": null,
       "consensus": null,
@@ -862,7 +861,7 @@
         {
           "title": "These Chip Stocks Are Staying Strong In A Choppy Market",
           "summary": "Chip stocks continued to whipsaw in volatile trading on Tuesday. But several semiconductor stocks were holding above a key support level.",
-          "pub": "2026-07-14T16:38",
+          "pub": "2026-07-14T20:29",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/news/technology/chip-stocks-whipsaw-astera-labs-maintains-support/?src=A00220&yptr=yahoo",
           "dir": 0.0,
@@ -919,8 +918,8 @@
     {
       "ticker": "ALAB",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 2,
       "today_rank": 3,
       "first_seen": "2026-07-08",
@@ -928,15 +927,37 @@
       "sector": "Technology",
       "persist": 100,
       "news": 48.6,
-      "confirm": 29.7,
-      "signal": 58.4,
+      "confirm": 27.3,
+      "signal": 57.6,
       "mom": {
-        "ret5": -0.0456,
-        "vol_surge": 0.56
+        "ret5": -0.0551,
+        "vol_surge": 0.59
       },
-      "earn_days": 21,
+      "earn_days": 20,
       "consensus": null,
       "headlines": [
+        {
+          "title": "These Chip Stocks Are Staying Strong In A Choppy Market",
+          "summary": "Chip stocks continued to whipsaw in volatile trading on Tuesday. But several semiconductor stocks were holding above a key support level.",
+          "pub": "2026-07-14T20:29",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/chip-stocks-whipsaw-astera-labs-maintains-support/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Astera Labs (ALAB) Is Down 16.3% After Insider Sales And Chip Volatility Headlines Has The Bull Case Changed?",
+          "summary": "Astera Labs has recently faced pressure linked to chip-sector weakness, insider share sales under Rule 10b5-1 plans, index rebalancing effects, and broader geopolitical tensions, even as it prepares to report its second-quarter earnings in early August 2026. At the same time, the company is expandin",
+          "pub": "2026-07-14T20:11",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-alab-down-16-201127626.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "UBS Raises its Price Target on Astera Labs, Inc. (ALAB)",
           "summary": "Astera Labs, Inc. (NASDAQ:ALAB) is among the Best AI Stocks. On June 29, UBS raised its price target on Astera Labs, Inc. (NASDAQ:ALAB) to $400 from $205. The firm maintained a Neutral rating on the stock. Earlier, on June 3, Astera Labs, Inc. (NASDAQ:ALAB) announced an expansion of its Taiwan opera",
@@ -960,33 +981,11 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "These Chip Stocks Are Staying Strong In A Choppy Market",
-          "summary": "Chip stocks continued to whipsaw in volatile trading on Tuesday. But several semiconductor stocks were holding above a key support level.",
-          "pub": "2026-07-14T16:38",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/chip-stocks-whipsaw-astera-labs-maintains-support/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
           "title": "Astera Labs (ALAB) Tumbles 12.3%: What Spooked Investors?",
           "summary": "Astera Labs Inc. (NASDAQ:ALAB) is one of the 10 Stocks Investors Are Running Away From. Astera Labs fell for a second day on Tuesday, losing 12.33 percent to finish at $362.05 apiece, as investor sentiment was primarily dampened by the re-escalating tensions between the US and Iran. In a social medi",
           "pub": "2026-07-14T05:53",
           "provider": "Insider Monkey",
           "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-alab-tumbles-12-055326235.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Arm And Marvell Tumble As Chip Stocks Sell Off",
-          "summary": "Chip stocks sold off on Monday despite an upbeat report from Taiwan Semiconductor Manufacturing. Arm and other stocks broke support.",
-          "pub": "2026-07-13T20:49",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/chip-stocks-sox-arm-marvell-sell-off/?src=A00220&yptr=yahoo",
           "dir": -0.4,
           "conf": 0.4,
           "type": "急落報道",
@@ -997,8 +996,8 @@
     {
       "ticker": "FLYW",
       "tier": "確定",
-      "streak": 7,
-      "appearances": 7,
+      "streak": 8,
+      "appearances": 8,
       "best_rank": 2,
       "today_rank": 4,
       "first_seen": "2026-07-08",
@@ -1006,13 +1005,13 @@
       "sector": "Technology",
       "persist": 100,
       "news": 48.0,
-      "confirm": 27.2,
-      "signal": 57.4,
+      "confirm": 28.0,
+      "signal": 57.6,
       "mom": {
-        "ret5": -0.0534,
-        "vol_surge": 0.55
+        "ret5": -0.0518,
+        "vol_surge": 0.57
       },
-      "earn_days": 21,
+      "earn_days": 20,
       "consensus": null,
       "headlines": [
         {
@@ -1053,6 +1052,78 @@
   ],
   "alert_summary": {},
   "alerts_recent": [
+    {
+      "date": "2026-07-15",
+      "ticker": "BKR",
+      "signal": 76.1,
+      "price": 57.775,
+      "spy": 751.8300170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "AMKR",
+      "signal": 70.9,
+      "price": 70.2,
+      "spy": 751.8300170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "AVGO",
+      "signal": 70.8,
+      "price": 389.11,
+      "spy": 751.8300170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "NVDA",
+      "signal": 70.6,
+      "price": 211.8,
+      "spy": 751.8300170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "AMD",
+      "signal": 70.3,
+      "price": 548.13,
+      "spy": 751.8300170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "AA",
+      "signal": 68.6,
+      "price": 49.06,
+      "spy": 751.8300170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "ADI",
+      "signal": 68.5,
+      "price": 392.75,
+      "spy": 751.8300170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "AI",
+      "signal": 66.0,
+      "price": 9.15,
+      "spy": 751.8300170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "PLTR",
+      "signal": 65.8,
+      "price": 133.72,
+      "spy": 751.8300170898438,
+      "grades": {}
+    },
     {
       "date": "2026-07-14",
       "ticker": "BKR",
@@ -1139,78 +1210,6 @@
       "signal": 65.2,
       "price": 9.08,
       "spy": 752.1400146484375,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-13",
-      "ticker": "BKR",
-      "signal": 82.4,
-      "price": 57.56,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-13",
-      "ticker": "AVGO",
-      "signal": 75.0,
-      "price": 399.97,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-13",
-      "ticker": "DELL",
-      "signal": 73.1,
-      "price": 434.97,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-13",
-      "ticker": "NVDA",
-      "signal": 71.2,
-      "price": 210.96,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-13",
-      "ticker": "CNQ",
-      "signal": 71.1,
-      "price": 41.81,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-13",
-      "ticker": "ADI",
-      "signal": 70.3,
-      "price": 395.65,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-13",
-      "ticker": "CRDO",
-      "signal": 68.9,
-      "price": 257.79,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-13",
-      "ticker": "AA",
-      "signal": 68.3,
-      "price": 48.68,
-      "spy": 754.9500122070312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-13",
-      "ticker": "AI",
-      "signal": 67.6,
-      "price": 8.95,
-      "spy": 754.9500122070312,
       "grades": {}
     }
   ],
