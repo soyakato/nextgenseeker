@@ -1,82 +1,162 @@
 {
-  "updated": "2026-07-15T14:10:39.932244+00:00",
+  "updated": "2026-07-15T19:37:09.226669+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
-      "ticker": "BKR",
+      "ticker": "AA",
       "tier": "確定",
       "streak": 8,
       "appearances": 8,
-      "best_rank": 9,
-      "today_rank": 16,
+      "best_rank": 7,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
-      "name": "Baker Hughes Company",
-      "sector": "Energy",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
       "persist": 100,
-      "news": 59.1,
-      "confirm": 62.0,
-      "signal": 72.2,
+      "news": 61.8,
+      "confirm": 46.5,
+      "signal": 68.7,
       "mom": {
-        "ret5": 0.0475,
-        "vol_surge": 0.85
+        "ret5": 0.0063,
+        "vol_surge": 0.64
       },
-      "earn_days": 11,
+      "earn_days": 1,
       "consensus": null,
       "headlines": [
         {
-          "title": "Susquehanna Upholds Positive Rating For Baker Hughes (BKR)",
-          "summary": "Baker Hughes Co. (NASDAQ:BKR) is one of the 10 oversold NASDAQ stocks to invest in right now. On July 8, Susquehanna reduced its target price for Baker Hughes Co. (NASDAQ:BKR) from $80 to $70, resulting in a revised upside potential of almost 33%. The firm also reiterated its Positive rating on the",
-          "pub": "2026-07-15T09:37",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/susquehanna-upholds-positive-rating-baker-093722286.html",
+          "title": "SEC 8-K提出: 重要契約の締結・その他の重要イベント",
+          "summary": "",
+          "pub": "2026-07-02",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326010155",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: Reg FD開示",
+          "summary": "",
+          "pub": "2026-07-01",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326009899",
+          "dir": 0.0,
+          "conf": 0.2,
+          "type": "8-K 7.01",
+          "why": "Reg FD開示（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Alcoa to build gallium plant at Wagerup refinery",
+          "summary": "Alcoa will manage both the construction and operation of the production plant.",
+          "pub": "2026-07-15T15:08",
+          "provider": "Mining Technology",
+          "url": "https://www.mining-technology.com/news/alcoa-gallium-plant-wagerup-refinery/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "What BKR's Management Still Has To Prove",
-          "summary": "Baker Hughes has a powerful growth engine in one half of its business and a geopolitical headache in the other, and how management explains the balance tells you everything about the stock's path forward.",
-          "pub": "2026-07-14T13:28",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/606847/what-bkrs-management-still-has-to-prove/2026-07-14",
+          "title": "How Investors May Respond To Alcoa (AA) Smelter Restarts Amid Alumina Headwinds And Shifting Segment Mix",
+          "summary": "In the past few days, Alcoa has been expected to report higher second‑quarter 2026 revenues and earnings, supported by stronger aluminum demand across packaging, electrical, and transportation end markets and the restart of key smelters in Spain, Brazil, and Norway, even as alumina shipments from Au",
+          "pub": "2026-07-15T11:13",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-alcoa-aa-111308766.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Does Baker Hughes Stock Spread Your Risk?",
-          "summary": "The energy tech firm is running hot, but its long-term behavior offers a different story for your portfolio.",
-          "pub": "2026-07-13T22:25",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/606825/does-baker-hughes-stock-spread-your-risk/2026-07-13",
+          "title": "Alcoa Greenlights Gallium Plant in Australia With U.S. and Japan Backing",
+          "summary": "Alcoa and the governments of Australia, Japan and the United States have approved the construction of a new gallium production facility at the company's Wagerup alumina refinery in Western Australia.",
+          "pub": "2026-07-15T08:30",
+          "provider": "Oilprice.com",
+          "url": "https://finance.yahoo.com/energy/articles/alcoa-greenlights-gallium-plant-australia-083000466.html",
+          "dir": 0.7,
+          "conf": 0.7,
+          "type": "承認",
+          "why": "+承認"
+        }
+      ]
+    },
+    {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 8,
+      "appearances": 8,
+      "best_rank": 2,
+      "today_rank": 6,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 52.6,
+      "confirm": 56.1,
+      "signal": 67.9,
+      "mom": {
+        "ret5": 0.0327,
+        "vol_surge": 0.75
+      },
+      "earn_days": 14,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Kinross Gold (TSX:K) Could Be 45% Undervalued Following Nevada Exploration Progress",
+          "summary": "Kinross Gold (TSX:K) is back in focus after Kinross Gold U.S.A. advanced its 2026 exploration program at Riley Gold Corp.'s Pipeline West/Clipper Project in Nevada, where it is preparing to drill newly identified high-priority targets. See our latest analysis for Kinross Gold. For context, Kinross G",
+          "pub": "2026-07-15T19:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-could-191019587.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "EC conditionally approves $13.6bn Baker Hughes-Chart deal",
-          "summary": "Both companies are based in the US and operate globally in the supply of technology and equipment for the energy and gas industries.",
-          "pub": "2026-07-13T08:37",
-          "provider": "Offshore Technology",
-          "url": "https://www.offshore-technology.com/news/ec-conditionally-approves-baker-hughes-chart-deal/",
+          "title": "Newmont Stock Slides 16% in 3 Months: Here's How to Play the Stock",
+          "summary": "NEM shares have fallen 16% in three months as gold prices weakened, but growth projects, strong cash flow and buybacks shape the long-term outlook.",
+          "pub": "2026-07-15T13:02",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/newmont-stock-slides-16-3-130200518.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Kinross Gold (TSX:K) Starts Drilling In Nevada With A New Cortez District Bet",
+          "summary": "Kinross Gold (TSX:K) has started drilling at the Pipeline West/Clipper Project in Nevada. The work is part of a new exploration program under an earn in agreement with Riley Gold Corp. The project targets untested areas within the Cortez District, a long established gold producing region. Kinross Go",
+          "pub": "2026-07-15T12:22",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-starts-122228996.html",
           "dir": 0.6,
           "conf": 0.6,
           "type": "契約・提携",
           "why": "+契約・提携"
         },
         {
-          "title": "Baker Hughes (BKR) Secures Long-Term Service Agreement for ANOH Gas Plant",
-          "summary": "Baker Hughes Company (NASDAQ:BKR) is one of the best stocks to invest in under $100. On June 23, Baker Hughes announced a significant long-term service agreement with ANOH Gas Processing Company/AGPC for the ANOH Gas Processing Plant in Nigeria. The contract covers lifecycle support, including parts",
-          "pub": "2026-07-11T21:15",
+          "title": "Here is why Kinross Gold Corporation (KGC) is among the 12 Strong Buy Stocks with High Upside According to Analysts",
+          "summary": "With an upside potential of 72.23%, Kinross Gold Corporation (NYSE:KGC) is among the 12 Strong Buy Stocks with High Upside According to Analysts. On July 9, RBC Capital lowered its price target on Kinross Gold Corporation (NYSE:KGC) to $39 from $40 while maintaining an Outperform rating on the share",
+          "pub": "2026-07-15T09:21",
           "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/energy/articles/baker-hughes-bkr-secures-long-155952946.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +受注"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-kinross-gold-corporation-kgc-092137366.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Surface Metals advances Nevada Gold and Lithium projects toward key milestones",
+          "summary": "Surface Metals CEO Steve Hanson joined Steve Darling from Proactive to discuss the company's Nevada-focused portfolio and plans to advance both its Cimarron Gold Project and Clayton Valley lithium project. Hanson said Surface Metals is focused on developing North American resource assets, with a por",
+          "pub": "2026-07-10T16:29",
+          "provider": "Proactive",
+          "url": "https://finance.yahoo.com/video/surface-metals-advances-nevada-gold-162923597.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -92,11 +172,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 51.5,
-      "confirm": 66.1,
-      "signal": 70.4,
+      "confirm": 57.5,
+      "signal": 67.9,
       "mom": {
-        "ret5": 0.0767,
-        "vol_surge": 0.54
+        "ret5": 0.0446,
+        "vol_surge": 0.61
       },
       "earn_days": null,
       "consensus": null,
@@ -159,77 +239,54 @@
       ]
     },
     {
-      "ticker": "AVGO",
+      "ticker": "FLYW",
       "tier": "確定",
       "streak": 8,
       "appearances": 8,
-      "best_rank": 8,
-      "today_rank": 18,
+      "best_rank": 2,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
+      "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.4,
-      "confirm": 61.6,
-      "signal": 70.2,
+      "news": 48.0,
+      "confirm": 61.0,
+      "signal": 67.5,
       "mom": {
-        "ret5": 0.0601,
-        "vol_surge": 0.57
+        "ret5": 0.0567,
+        "vol_surge": 0.6
       },
-      "earn_days": null,
+      "earn_days": 20,
       "consensus": null,
       "headlines": [
         {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-07-06",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
+          "title": "3 Growth Stocks to Stash",
+          "summary": "Growth is oxygen. But when it evaporates, the consequences can be severe - ask anyone who bought Cisco in the Dot-Com Bubble or newer investors who lived through the 2020 to 2022 COVID cycle.",
+          "pub": "2026-07-14T11:11",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-stash-111111116.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "空売り・過大評価",
+          "why": "-空売り・過大評価"
         },
         {
-          "title": "How Marvell Turned AI Demand Into A 200% Rally",
-          "summary": "Here is how Marvell Technology convinced the market its already bright future was accelerating at a pace few saw coming.",
-          "pub": "2026-07-15T13:13",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/607093/how-marvell-turned-ai-demand-into-a-200-rally/2026-07-15",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Broadcom Inc. (AVGO) Is a Trending Stock: Facts to Know Before Betting on It",
-          "summary": "Recently, Zacks.com users have been paying close attention to Broadcom Inc. (AVGO). This makes it worthwhile to examine what the stock has in store.",
-          "pub": "2026-07-15T13:00",
+          "title": "Can Flywire's B2B Opportunity Accelerate Growth?",
+          "summary": "FLYW's B2B business gains momentum as invoice migration and payment ramp-ups lift revenues, with software adoption poised to support long-term growth.",
+          "pub": "2026-07-09T15:08",
           "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-trending-stock-130006099.html",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywires-b2b-opportunity-accelerate-growth-150800063.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Why Broadcom (AVGO) Is Reinforcing Its Long-Term Growth With an Extended Apple Chip Partnership Through 2031",
-          "summary": "Broadcom Inc. (NASDAQ:AVGO) is one of the high-growth wide-moat stocks to buy. On July 6, Reuters reported that Broadcom expanded its partnership with Apple through 2031 to develop and supply custom chips. The agreement reinforces Broadcom’s role in providing complex radio-frequency, Wi-Fi, Bluetoot",
-          "pub": "2026-07-15T12:06",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-broadcom-avgo-reinforcing-long-120620454.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Broadcom (AVGO) Price Prediction: How Much a $5,000 Investment Could Be Worth by 2031",
-          "summary": "Broadcom's AI revenue is compounding at a pace that has Wall Street running out of superlatives, but a retail investor putting $5,000 in today faces a valuation and customer-concentration risk that could just as easily flatline that bet as double it.",
-          "pub": "2026-07-15T12:02",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/15/broadcom-avgo-price-prediction-how-much-a-5000-investment-could-be-worth-by-2031/",
+          "title": "Paycom, Workday, and Flywire Shares Are Falling, What You Need To Know",
+          "summary": "A number of stocks fell in the afternoon session after President Trump declared the Iran ceasefire \"over\" and threatened renewed strikes, sending oil higher and bond yields up in a session that punished high-multiple tech.",
+          "pub": "2026-07-08T22:10",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/paycom-workday-flywire-shares-falling-221044831.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -238,82 +295,81 @@
       ]
     },
     {
-      "ticker": "NVDA",
+      "ticker": "PLTR",
       "tier": "確定",
       "streak": 8,
       "appearances": 8,
-      "best_rank": 4,
-      "today_rank": 10,
+      "best_rank": 1,
+      "today_rank": 2,
       "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
+      "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 46.9,
-      "confirm": 67.8,
-      "signal": 69.1,
+      "news": 54.2,
+      "confirm": 51.8,
+      "signal": 67.2,
       "mom": {
-        "ret5": 0.0732,
-        "vol_surge": 0.72
+        "ret5": 0.0149,
+        "vol_surge": 0.82
       },
-      "earn_days": 42,
+      "earn_days": 19,
       "consensus": {
-        "buy": 60,
-        "hold": 16,
+        "buy": 12,
+        "hold": 11,
         "sell": 3,
         "consensus": "Buy"
       },
       "headlines": [
         {
-          "title": "SEC 8-K提出: 役員の退任・選任",
+          "title": "アナリストupgrade: Neutral→Buy",
           "summary": "",
           "pub": "2026-07-02",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "One chart reveals why investors are concerned about earnings from Microsoft, Amazon, and other hyperscalers",
-          "summary": "The hyperscalers are under pressure to show results from their AI spending.",
-          "pub": "2026-07-15T13:37",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/one-chart-reveals-why-investors-are-concerned-about-earnings-from-microsoft-amazon-and-other-hyperscalers-133720503.html",
+          "title": "アナリストupgrade: Underperform→Peer Perform",
+          "summary": "",
+          "pub": "2026-06-16",
+          "provider": "Wolfe Research",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Market Chatter: Palantir Technologies CTO Says China's AI Models Rely on Unauthorized Use of US Technology",
+          "summary": "Palantir Technologies (PLTR) Chief Technology Officer Shyam Sankar said China's latest artificial in",
+          "pub": "2026-07-15T18:14",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-palantir-technologies-cto-181443959.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Nvidia Begins H200 Shipments to China",
-          "summary": "U.S. officials say only a small number of the advanced AI chips have been delivered so far.",
-          "pub": "2026-07-15T14:10",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-begins-h200-shipments-china-141018933.html",
+          "title": "Two AI Stocks, Two Price Targets: What’s Next for AMD and Palantir",
+          "summary": "Palantir has cratered while AMD has gone parabolic, yet our model hands both the same rating and confidence score. The reasoning behind that call reveals a tension in AI investing that most price targets ignore.",
+          "pub": "2026-07-15T17:44",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/15/two-ai-stocks-two-price-targets-whats-next-for-amd-and-palantir/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Huang says Vera Rubin in production, dismisses delay reports",
-          "summary": "The denial of a delay is notable. Any credible delay in Vera Rubin's ramp would sharpen competitive pressure from AMD's advancing MI350 and MI400 roadmap, making the CEO's on-record rebuttal particularly consequential for investors who have priced Nvidia's product cycle into its elevated valuation.",
-          "pub": "2026-07-15T14:04",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/huang-says-vera-rubin-production-140456434.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Here's Why the Latest Inflation Data Was Good News for Fed Chair Kevin Warsh and the Stock Market",
-          "summary": "The rate of inflation just slowed down for the first time in three months.",
-          "pub": "2026-07-15T13:57",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/15/heres-inflation-good-news-kevin-warsh-stock-market/",
+          "title": "Palantir CEO Alex Karp Warns AI Could Become America's Biggest Driver of Wealth Inequality: 'You Now Have a Revolution Where…'",
+          "summary": "Palantir Technologies Inc. CEO Alex Karp warned that AI could become the biggest driver of wealth inequality in the U.S., saying that while the technology is likely to improve the standard of living for the average person, the biggest gains...",
+          "pub": "2026-07-15T17:30",
+          "provider": "Benzinga",
+          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-alex-karp-warns-173053220.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -327,17 +383,17 @@
       "streak": 8,
       "appearances": 8,
       "best_rank": 9,
-      "today_rank": 14,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 56.6,
-      "confirm": 51.2,
-      "signal": 68.0,
+      "news": 57.0,
+      "confirm": 47.1,
+      "signal": 66.9,
       "mom": {
-        "ret5": 0.0329,
-        "vol_surge": 0.42
+        "ret5": 0.0149,
+        "vol_surge": 0.51
       },
       "earn_days": 35,
       "consensus": null,
@@ -353,6 +409,28 @@
           "type": "8-K 1.01",
           "why": "重要契約の締結（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "STM vs. ADI: Which Semiconductor Stock Looks More Attractive Now?",
+          "summary": "STMicroelectronics and Analog Devices are expanding AI, automotive and industrial chip offerings as semiconductor demand continues to grow.",
+          "pub": "2026-07-15T14:03",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stm-vs-adi-semiconductor-stock-140300926.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Texas Instruments' CapEx Moderates: Can Cash Flow Improve Further?",
+          "summary": "TXN's lower 2026 capital spending is likely to lift free cash flow and expand flexibility for dividends, buybacks and future growth.",
+          "pub": "2026-07-15T13:17",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-capex-moderates-cash-131700083.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
         },
         {
           "title": "ON Jumps 67% Year to Date: Buy, Sell or Hold the Stock?",
@@ -375,24 +453,86 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 8,
+      "appearances": 8,
+      "best_rank": 4,
+      "today_rank": 9,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 48.5,
+      "confirm": 58.1,
+      "signal": 66.8,
+      "mom": {
+        "ret5": 0.0369,
+        "vol_surge": 0.8
+      },
+      "earn_days": 42,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-07-02",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "5 Analog Chip Stocks Set to Rebound as the Cycle Changes",
-          "summary": "Analog chip inventories just hit a turning point that historically precedes a major re-rating, and five names across auto, industrial, and AI power are positioned to capture the move before the window closes.",
-          "pub": "2026-07-12T12:00",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/12/5-analog-chip-stocks-set-to-rebound-as-the-cycle-changes/",
+          "title": "Apple, Goldman Sachs, and Chevron are powering the Dow — for wildly different reasons: AlphaCheck",
+          "summary": "The Dow has barely budged in July. Its leaders have broken away.",
+          "pub": "2026-07-15T18:15",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/apple-goldman-sachs-and-chevron-are-powering-the-dow--for-wildly-different-reasons-alphacheck-181535203.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Here's Why Investors Should Hold Docusign in Their Portfolios Now",
-          "summary": "DOCU's recurring subscription revenues, eSignature growth and tech partnerships support its outlook despite liquidity and pricing risks.",
-          "pub": "2026-07-10T13:57",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-investors-hold-docusign-135700686.html",
+          "title": "New York enacts statewide moratorium on AI data center construction: A closer look",
+          "summary": "New York Governor Kathy Hochul signed an executive order to place a moratorium on the construction of new AI data centers. Yahoo Finance Technology Editor Dan Howley explains the details.",
+          "pub": "2026-07-14T21:09",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/new-york-enacts-statewide-moratorium-on-ai-data-center-construction-a-closer-look-210912459.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Chinese AI model developer DeepSeek preps for IPO: What to know",
+          "summary": "Chinese large language model (LLM) developer DeepSeek is reportedly preparing for an IPO later this year or in 2027. Yahoo Finance Technology Editor Dan Howley outlines what we know so far.",
+          "pub": "2026-07-14T20:57",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/chinese-ai-model-developer-deepseek-preps-for-ipo-what-to-know-205729630.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why Micron Stock Just Dropped Again",
+          "summary": "Warren Buffett just pointed out the obvious -- but investors were still surprised.",
+          "pub": "2026-07-15T19:26",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/15/why-micron-stock-just-dropped-again/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -401,82 +541,181 @@
       ]
     },
     {
-      "ticker": "AA",
+      "ticker": "AVGO",
       "tier": "確定",
       "streak": 8,
       "appearances": 8,
-      "best_rank": 7,
-      "today_rank": 12,
+      "best_rank": 8,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
       "persist": 100,
-      "news": 63.2,
-      "confirm": 41.9,
-      "signal": 67.9,
+      "news": 55.8,
+      "confirm": 48.0,
+      "signal": 66.7,
       "mom": {
-        "ret5": -0.0054,
-        "vol_surge": 0.57
+        "ret5": 0.0162,
+        "vol_surge": 0.54
       },
-      "earn_days": 1,
+      "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "SEC 8-K提出: 重要契約の締結・その他の重要イベント",
+          "title": "SEC 8-K提出: その他の重要イベント",
           "summary": "",
-          "pub": "2026-07-02",
+          "pub": "2026-07-06",
           "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326010155",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
           "is_edgar": true
         },
         {
-          "title": "SEC 8-K提出: Reg FD開示",
-          "summary": "",
-          "pub": "2026-07-01",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000095010326009899",
-          "dir": 0.0,
-          "conf": 0.2,
-          "type": "8-K 7.01",
-          "why": "Reg FD開示（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "How Investors May Respond To Alcoa (AA) Smelter Restarts Amid Alumina Headwinds And Shifting Segment Mix",
-          "summary": "In the past few days, Alcoa has been expected to report higher second‑quarter 2026 revenues and earnings, supported by stronger aluminum demand across packaging, electrical, and transportation end markets and the restart of key smelters in Spain, Brazil, and Norway, even as alumina shipments from Au",
-          "pub": "2026-07-15T11:13",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-alcoa-aa-111308766.html",
+          "title": "Bank of America Says Long Semiconductors is the “Most Crowded Trade Ever”",
+          "summary": "Chip stocks have staged a historic run in 2026, and Bank of America's latest fund manager survey reveals just how extreme the crowding has become. Before you chase or fade the four AI-chip names at the center of it, the valuation spread between them tells a very different story for each.",
+          "pub": "2026-07-15T18:46",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/15/bank-of-america-says-long-semiconductors-is-the-most-crowded-trade-ever/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Alcoa Greenlights Gallium Plant in Australia With U.S. and Japan Backing",
-          "summary": "Alcoa and the governments of Australia, Japan and the United States have approved the construction of a new gallium production facility at the company's Wagerup alumina refinery in Western Australia.",
-          "pub": "2026-07-15T08:30",
-          "provider": "Oilprice.com",
-          "url": "https://finance.yahoo.com/energy/articles/alcoa-greenlights-gallium-plant-australia-083000466.html",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "承認",
-          "why": "+承認"
+          "title": "Apple Looks to Buy AI Chip Startups",
+          "summary": "Report says company is exploring semiconductor startup deals",
+          "pub": "2026-07-15T18:45",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/apple-looks-buy-ai-chip-184545544.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Alcoa Receives International Approval for Gallium Production Project in Australia",
-          "summary": "Alcoa said it and the governments of Australia, Japan and the U.S. have reached a final investment decision to build a gallium production plant at the company’s Wagerup alumina refinery in Western Australia.",
-          "pub": "2026-07-14T21:09",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/business/alcoa-receives-international-approval-for-gallium-production-project-in-australia-a2242d3e?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "承認",
-          "why": "+承認"
+          "title": "Why I Won’t Stop Buying Meta Before September",
+          "summary": "Meta keeps beating expectations by wider margins than almost anyone predicted, and a single event on the September calendar shifts the investment case in a way most coverage ignores entirely.",
+          "pub": "2026-07-15T18:30",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/15/why-i-wont-stop-buying-meta-before-september/",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "Morgan Stanley: Broadcom bears are wrong about Google TPU",
+          "summary": "Broadcom shares climbed Tuesday, July 14, 2026, after Morgan Stanley published one of its most forceful defenses yet of the company’s position in artificial intelligence chips. The relief looks fragile. The stock is still down sharply from the record high it set barely six weeks earlier, and this ..",
+          "pub": "2026-07-15T17:33",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/morgan-stanley-broadcom-bears-google-tpu",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CDE",
+      "tier": "確定",
+      "streak": 8,
+      "appearances": 8,
+      "best_rank": 5,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Coeur Mining, Inc.",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 54.7,
+      "signal": 66.4,
+      "mom": {
+        "ret5": 0.0489,
+        "vol_surge": 0.32
+      },
+      "earn_days": 21,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "BKR",
+      "tier": "確定",
+      "streak": 8,
+      "appearances": 8,
+      "best_rank": 9,
+      "today_rank": 15,
+      "first_seen": "2026-07-08",
+      "name": "Baker Hughes Company",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 58.5,
+      "confirm": 41.3,
+      "signal": 65.8,
+      "mom": {
+        "ret5": -0.0115,
+        "vol_surge": 0.65
+      },
+      "earn_days": 11,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Oilfield Services Sector Faces Near-Term Uncertainty; Q2 Season to Be 'Tricky,' BofA Securities Says",
+          "summary": "The oilfield services sector is facing near-term uncertainty from ongoing macro issues, with Q2 earn",
+          "pub": "2026-07-15T15:02",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/energy/articles/oilfield-services-sector-faces-near-150251695.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Susquehanna Upholds Positive Rating For Baker Hughes (BKR)",
+          "summary": "Baker Hughes Co. (NASDAQ:BKR) is one of the 10 oversold NASDAQ stocks to invest in right now. On July 8, Susquehanna reduced its target price for Baker Hughes Co. (NASDAQ:BKR) from $80 to $70, resulting in a revised upside potential of almost 33%. The firm also reiterated its Positive rating on the",
+          "pub": "2026-07-15T09:37",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/susquehanna-upholds-positive-rating-baker-093722286.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "3 Energy Stocks Racing to Fix AI's Power Problem",
+          "summary": "Geothermal energy is emerging as a fast, low-cost power source for AI data centers, with Fervo Energy, Ormat Technologies and Baker Hughes positioned to benefit from hyperscaler demand.",
+          "pub": "2026-07-14T15:55",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/articles/3-energy-stocks-racing-to-fix-ais-power-problem/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "What BKR's Management Still Has To Prove",
+          "summary": "Baker Hughes has a powerful growth engine in one half of its business and a geopolitical headache in the other, and how management explains the balance tells you everything about the stock's path forward.",
+          "pub": "2026-07-14T13:28",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/606847/what-bkrs-management-still-has-to-prove/2026-07-14",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Does Baker Hughes Stock Spread Your Risk?",
+          "summary": "The energy tech firm is running hot, but its long-term behavior offers a different story for your portfolio.",
+          "pub": "2026-07-13T22:25",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/606825/does-baker-hughes-stock-spread-your-risk/2026-07-13",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -486,17 +725,17 @@
       "streak": 8,
       "appearances": 8,
       "best_rank": 1,
-      "today_rank": 2,
+      "today_rank": 1,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.8,
-      "confirm": 59.5,
-      "signal": 67.8,
+      "news": 49.3,
+      "confirm": 52.9,
+      "signal": 65.6,
       "mom": {
-        "ret5": 0.0501,
-        "vol_surge": 0.63
+        "ret5": 0.0226,
+        "vol_surge": 0.74
       },
       "earn_days": 20,
       "consensus": {
@@ -570,21 +809,32 @@
       "streak": 8,
       "appearances": 8,
       "best_rank": 16,
-      "today_rank": 21,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Amkor Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 51.1,
-      "confirm": 56.7,
-      "signal": 67.4,
+      "confirm": 48.7,
+      "signal": 65.1,
       "mom": {
-        "ret5": 0.0463,
-        "vol_surge": 0.52
+        "ret5": 0.0143,
+        "vol_surge": 0.63
       },
       "earn_days": 12,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Are Computer and Technology Stocks Lagging  Amkor Technology (AMKR) This Year?",
+          "summary": "Here is how Amkor Technology (AMKR) and Credo Technology Group Holding Ltd. (CRDO) have performed compared to their sector so far this year.",
+          "pub": "2026-07-15T13:40",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/computer-technology-stocks-lagging-amkor-134003749.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "3 High-Flying Stocks We Steer Clear Of",
           "summary": "Expensive stocks often command premium valuations because the market thinks their business models are exceptional. However, the downside is that high expectations are already baked into their prices, leaving little room for error if they stumble even slightly.",
@@ -628,303 +878,88 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "tier": "確定",
+      "streak": 8,
+      "appearances": 8,
+      "best_rank": 16,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 48.2,
+      "confirm": 33.1,
+      "signal": 59.2,
+      "mom": {
+        "ret5": -0.0459,
+        "vol_surge": 0.79
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: Item 3.03・定款変更",
+          "summary": "",
+          "pub": "2026-07-06",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526296224",
+          "dir": 0.0,
+          "conf": 0.2,
+          "type": "8-K 3.03",
+          "why": "Item 3.03（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "Amkor, Himax, and Entegris Shares Plummet, What You Need To Know",
-          "summary": "A number of stocks fell in the afternoon session after investors took profits following the chip sector's strong rally in the first half of the year as Middle East tensions escalated. SK Hynix shares fell over 5% in South Korea following its strong Nasdaq debut the previous week.",
-          "pub": "2026-07-14T01:02",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-himax-entegris-shares-plummet-010239593.html",
-          "dir": 0.3,
+          "title": "SEC 8-K提出: Item 3.03・株主総会結果・その他の重要イベント",
+          "summary": "",
+          "pub": "2026-07-01",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000036",
+          "dir": 0.1,
           "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 8,
-      "appearances": 8,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.2,
-      "confirm": 50.1,
-      "signal": 66.7,
-      "mom": {
-        "ret5": 0.013,
-        "vol_surge": 0.75
-      },
-      "earn_days": 19,
-      "consensus": {
-        "buy": 12,
-        "hold": 11,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストupgrade: Neutral→Buy",
-          "summary": "",
-          "pub": "2026-07-02",
-          "provider": "DA Davidson",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "アナリストupgrade: Underperform→Peer Perform",
-          "summary": "",
-          "pub": "2026-06-16",
-          "provider": "Wolfe Research",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Palantir Stock Climbs After Confirming Q2 Earnings Release",
-          "summary": "Palantir Gains as Aug. 3 Earnings Countdown Begins",
-          "pub": "2026-07-15T12:23",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-climbs-confirming-q2-122350326.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "He sold his last company to Palantir. Now he’s betting $32 million that robots can fix construction’s labor crisis",
-          "summary": "Monumental founder Salar al Khafaji is bringing his fleet of autonomous bricklaying robots to the U.S. this year, backed by a new Khosla Ventures-led round.",
-          "pub": "2026-07-15T12:00",
-          "provider": "Fortune",
-          "url": "https://finance.yahoo.com/technology/articles/sold-last-company-palantir-now-120000137.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Microsoft CEO adds fuel to Palantir CEO’s AI warning",
-          "summary": "It turns out that Palantir (PLTR) CEO Alex Karp’s thunderous warning about the AI industry wasn’t a one-off rant. Over the past couple of years, the word \"AI\" has become like a broken record, heard at least once almost every day, often followed by a wave of anxiety. What has happened amid all the ..",
-          "pub": "2026-07-15T03:07",
-          "provider": "TheStreet",
-          "url": "https://www.thestreet.com/investing/microsoft-ceo-adds-fuel-to-palantir-ceos-ai-warning",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "HST",
-      "tier": "確定",
-      "streak": 8,
-      "appearances": 8,
-      "best_rank": 17,
-      "today_rank": 23,
-      "first_seen": "2026-07-08",
-      "name": "Host Hotels & Resorts, Inc.",
-      "sector": "Real Estate",
-      "persist": 100,
-      "news": 54.5,
-      "confirm": 49.4,
-      "signal": 66.6,
-      "mom": {
-        "ret5": 0.0174,
-        "vol_surge": 0.61
-      },
-      "earn_days": 21,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Ladenburg Lifts PT on Host Hotels & Resorts (HST) – Here’s Why",
-          "summary": "Host Hotels & Resorts, Inc. (NASDAQ:HST) is one of the top wonderful stocks to buy now. Ladenburg lifted the price target on Host Hotels & Resorts, Inc. (NASDAQ:HST) to $28 from $25 on June 10, maintaining a Buy rating on the shares. The firm told investors in a research note that the company’s RevP",
-          "pub": "2026-07-15T08:35",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ladenburg-lifts-pt-host-hotels-083514388.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
-        },
-        {
-          "title": "HST or CUBE: Which Is the Better Value Stock Right Now?",
-          "summary": "HST vs. CUBE: Which Stock Is the Better Value Option?",
-          "pub": "2026-07-14T15:40",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hst-cube-better-value-stock-154003532.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 8,
-      "appearances": 8,
-      "best_rank": 2,
-      "today_rank": 7,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 53.6,
-      "confirm": 45.7,
-      "signal": 65.1,
-      "mom": {
-        "ret5": -0.0034,
-        "vol_surge": 0.78
-      },
-      "earn_days": 14,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Kinross Gold (TSX:K) Starts Drilling In Nevada With A New Cortez District Bet",
-          "summary": "Kinross Gold (TSX:K) has started drilling at the Pipeline West/Clipper Project in Nevada. The work is part of a new exploration program under an earn in agreement with Riley Gold Corp. The project targets untested areas within the Cortez District, a long established gold producing region. Kinross Go",
-          "pub": "2026-07-15T12:22",
+          "title": "Dell (NYSE:DELL) Joins Global AI Coalition To Help Shape How Cities Deploy AI",
+          "summary": "Dell Technologies (NYSE:DELL) has joined a new global AI coalition for urban transformation as a founding member. The coalition is led by research firm ThoughtLab and focuses on real world AI deployment in cities worldwide. The initiative aims to produce an evidence based AI playbook and benchmarkin",
+          "pub": "2026-07-15T19:10",
           "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-starts-122228996.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Here is why Kinross Gold Corporation (KGC) is among the 12 Strong Buy Stocks with High Upside According to Analysts",
-          "summary": "With an upside potential of 72.23%, Kinross Gold Corporation (NYSE:KGC) is among the 12 Strong Buy Stocks with High Upside According to Analysts. On July 9, RBC Capital lowered its price target on Kinross Gold Corporation (NYSE:KGC) to $39 from $40 while maintaining an Outperform rating on the share",
-          "pub": "2026-07-15T09:21",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-kinross-gold-corporation-kgc-092137366.html",
+          "url": "https://finance.yahoo.com/technology/ai/articles/dell-nyse-dell-joins-global-191009054.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Surface Metals advances Nevada Gold and Lithium projects toward key milestones",
-          "summary": "Surface Metals CEO Steve Hanson joined Steve Darling from Proactive to discuss the company's Nevada-focused portfolio and plans to advance both its Cimarron Gold Project and Clayton Valley lithium project. Hanson said Surface Metals is focused on developing North American resource assets, with a por",
-          "pub": "2026-07-10T16:29",
-          "provider": "Proactive",
-          "url": "https://finance.yahoo.com/video/surface-metals-advances-nevada-gold-162923597.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Stock Market Today: Nasdaq Gains Steam; PayPal Surges, But Sandisk, Chip Stocks Tumble (Live Coverage)",
+          "summary": "The Dow Jones index rises Wednesday after a cool inflation reading. Dell Technologies slides while Aehr Test Systems rockets 22% higher.",
+          "pub": "2026-07-15T18:18",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ppi-inflation-data-asml-stock/?src=A00220&yptr=yahoo",
+          "dir": -0.1,
+          "conf": 0.10000000000000003,
+          "type": "急騰報道",
+          "why": "+急騰報道 -急落報道"
         },
         {
-          "title": "Buyer Beware: These 2 Stocks Charts Just Displayed a Death Cross",
-          "summary": "Hertz Global and Kinross Gold both formed death cross patterns amid weak fundamentals, rising short interest, and deteriorating sentiment, signaling further downside risk for the two stocks.",
-          "pub": "2026-07-10T12:10",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/articles/buyer-beware-these-2-stocks-charts-just-displayed-a-death-cross/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Should You Buy, Sell or Hold AEM Stock After a 31% Drop in 3 Months?",
-          "summary": "Agnico Eagle shares fell 31% in three months as gold prices retreated, but growth projects and strong cash flow continue to support the miner.",
-          "pub": "2026-07-10T11:56",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-aem-stock-115600320.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 8,
-      "appearances": 8,
-      "best_rank": 2,
-      "today_rank": 5,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 48.0,
-      "confirm": 50.2,
-      "signal": 64.3,
-      "mom": {
-        "ret5": 0.0281,
-        "vol_surge": 0.45
-      },
-      "earn_days": 20,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "3 Growth Stocks to Stash",
-          "summary": "Growth is oxygen. But when it evaporates, the consequences can be severe - ask anyone who bought Cisco in the Dot-Com Bubble or newer investors who lived through the 2020 to 2022 COVID cycle.",
-          "pub": "2026-07-14T11:11",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-stash-111111116.html",
+          "title": "Dell leads broader AI hardware selloff as shares tumble 14%",
+          "summary": "The selloff extends well beyond Dell. Hewlett Packard Enterprise is sliding roughly 8% and Super Micro Computer is off around 5%, confirming the move is concentrated in high-beta AI hardware names rather than broad technology. The Nasdaq-100 ETF (QQQ) is down about 1% on the session.",
+          "pub": "2026-07-15T17:33",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dell-leads-broader-ai-hardware-173339617.html",
           "dir": -0.4,
           "conf": 0.4,
-          "type": "空売り・過大評価",
-          "why": "-空売り・過大評価"
-        },
-        {
-          "title": "Can Flywire's B2B Opportunity Accelerate Growth?",
-          "summary": "FLYW's B2B business gains momentum as invoice migration and payment ramp-ups lift revenues, with software adoption poised to support long-term growth.",
-          "pub": "2026-07-09T15:08",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywires-b2b-opportunity-accelerate-growth-150800063.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Paycom, Workday, and Flywire Shares Are Falling, What You Need To Know",
-          "summary": "A number of stocks fell in the afternoon session after President Trump declared the Iran ceasefire \"over\" and threatened renewed strikes, sending oil higher and bond yields up in a session that punished high-multiple tech.",
-          "pub": "2026-07-08T22:10",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/paycom-workday-flywire-shares-falling-221044831.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "急落報道",
+          "why": "-急落報道"
         }
       ]
-    },
-    {
-      "ticker": "CDE",
-      "tier": "確定",
-      "streak": 8,
-      "appearances": 8,
-      "best_rank": 5,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Coeur Mining, Inc.",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 41.7,
-      "signal": 62.5,
-      "mom": {
-        "ret5": 0.0053,
-        "vol_surge": 0.34
-      },
-      "earn_days": 21,
-      "consensus": null,
-      "headlines": []
     },
     {
       "ticker": "ALAB",
@@ -932,21 +967,32 @@
       "streak": 8,
       "appearances": 8,
       "best_rank": 2,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.8,
-      "confirm": 12.5,
+      "news": 50.2,
+      "confirm": 13.5,
       "signal": 54.1,
       "mom": {
-        "ret5": -0.1139,
-        "vol_surge": 0.5
+        "ret5": -0.1093,
+        "vol_surge": 0.57
       },
       "earn_days": 20,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Arista, Seagate and Astera Lead AI Picks",
+          "summary": "Networking, storage and connectivity lead its 2027 outlook",
+          "pub": "2026-07-15T18:42",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/arista-seagate-astera-lead-ai-184248758.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "These Chip Stocks Are Staying Strong In A Choppy Market",
           "summary": "Chip stocks continued to whipsaw in volatile trading on Tuesday. But several semiconductor stocks were holding above a key support level.",
@@ -990,17 +1036,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Beyond the Foundry: 5 Infrastructure Stocks Tackling the AI Bottlenecks",
-          "summary": "Arista Networks, Vertiv, Astera Labs, Corning, and Constellation Energy address AI infrastructure bottlenecks like networking, cooling, and power, and each carries a consensus Buy or Moderate Buy rating.",
-          "pub": "2026-07-14T13:00",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/articles/beyond-the-foundry-5-infrastructure-stocks-tackling-the-ai-bottlenecks/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
         }
       ]
     },
@@ -1010,21 +1045,32 @@
       "streak": 8,
       "appearances": 8,
       "best_rank": 4,
-      "today_rank": 9,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
       "news": 49.1,
-      "confirm": 11.3,
-      "signal": 53.0,
+      "confirm": 12.2,
+      "signal": 53.3,
       "mom": {
-        "ret5": -0.1184,
-        "vol_surge": 0.42
+        "ret5": -0.1209,
+        "vol_surge": 0.48
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Are Computer and Technology Stocks Lagging  Amkor Technology (AMKR) This Year?",
+          "summary": "Here is how Amkor Technology (AMKR) and Credo Technology Group Holding Ltd. (CRDO) have performed compared to their sector so far this year.",
+          "pub": "2026-07-15T13:40",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/computer-technology-stocks-lagging-amkor-134003749.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "These Chip Stocks Are Staying Strong In A Choppy Market",
           "summary": "Chip stocks continued to whipsaw in volatile trading on Tuesday. But several semiconductor stocks were holding above a key support level.",
@@ -1068,17 +1114,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Arm And Marvell Tumble As Chip Stocks Sell Off",
-          "summary": "Chip stocks sold off on Monday despite an upbeat report from Taiwan Semiconductor Manufacturing. Arm and other stocks broke support.",
-          "pub": "2026-07-13T20:49",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/chip-stocks-sox-arm-marvell-sell-off/?src=A00220&yptr=yahoo",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
         }
       ]
     }
@@ -1174,6 +1209,22 @@
       "grades": {}
     },
     {
+      "date": "2026-07-15",
+      "ticker": "FLYW",
+      "signal": 67.5,
+      "price": 18.65,
+      "spy": 753.469970703125,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "CDE",
+      "signal": 66.4,
+      "price": 16.01,
+      "spy": 753.469970703125,
+      "grades": {}
+    },
+    {
       "date": "2026-07-14",
       "ticker": "BKR",
       "signal": 78.0,
@@ -1226,22 +1277,6 @@
       "ticker": "AMD",
       "signal": 68.8,
       "price": 551.2,
-      "spy": 749.6500244140625,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-14",
-      "ticker": "AMKR",
-      "signal": 67.3,
-      "price": 68.27,
-      "spy": 749.6500244140625,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-14",
-      "ticker": "AA",
-      "signal": 66.4,
-      "price": 49.285,
       "spy": 749.6500244140625,
       "grades": {}
     }
