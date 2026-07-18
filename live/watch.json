@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T03:33:02.372972+00:00",
+  "updated": "2026-07-18T08:09:36.883742+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,14 +8,14 @@
       "streak": 11,
       "appearances": 11,
       "best_rank": 1,
-      "today_rank": 3,
+      "today_rank": 2,
       "first_seen": "2026-07-08",
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 52.3,
       "confirm": 60.7,
-      "signal": 61.5,
+      "signal": 64.1,
       "mom": {
         "ret5": 0.0441,
         "vol_surge": 0.83
@@ -97,11 +97,11 @@
       "sector": "Energy",
       "persist": 100,
       "news": 50.0,
-      "confirm": 63.0,
-      "signal": 61.0,
+      "confirm": 63.3,
+      "signal": 63.4,
       "mom": {
         "ret5": 0.0497,
-        "vol_surge": 0.87
+        "vol_surge": 0.89
       },
       "earn_days": 19,
       "consensus": null,
@@ -132,7 +132,7 @@
       "persist": 100,
       "news": 51.5,
       "confirm": 55.4,
-      "signal": 59.4,
+      "signal": 62.5,
       "mom": {
         "ret5": 0.0289,
         "vol_surge": 0.78
@@ -210,7 +210,7 @@
       "persist": 100,
       "news": 56.9,
       "confirm": 40.0,
-      "signal": 57.4,
+      "signal": 62.0,
       "mom": {
         "ret5": -0.028,
         "vol_surge": 0.89
@@ -277,183 +277,22 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 11,
-      "appearances": 11,
-      "best_rank": 4,
-      "today_rank": 9,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.5,
-      "confirm": 35.9,
-      "signal": 52.6,
-      "mom": {
-        "ret5": -0.0386,
-        "vol_surge": 0.83
-      },
-      "earn_days": 39,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-07-14",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Semiconductor stocks trim losses as investors buy the dip",
-          "summary": "Chip stocks trimmed losses on Friday as investors bought the dip despite AI jitters.",
-          "pub": "2026-07-17T13:09",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/semiconductor-stocks-trim-losses-as-investors-buy-the-dip-130920103.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "VTI Is Cheaper Than It Used to Be. So What's the Catch?",
-          "summary": "The entire US stock market is trading at a discount to its recent past, but the safest alternative is paying you more to wait.",
-          "pub": "2026-07-18T01:32",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/607746/vti-is-cheaper-than-it-used-to-be-so-whats-the-catch/2026-07-17",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Sweetgreen Stock Surged Today",
-          "summary": "The salad maker's investors received some much-needed good news.",
-          "pub": "2026-07-18T00:36",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/17/why-sweetgreen-stock-surged-today/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Why StubHub Stock Plummeted by 13% This Week",
-          "summary": "A new law passed in Washington, D.C. imposes price caps on resold event tickets.",
-          "pub": "2026-07-18T00:23",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/17/why-stubhub-stock-plummeted-by-13-this-week/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "ADI",
-      "tier": "確定",
-      "streak": 11,
-      "appearances": 11,
-      "best_rank": 9,
-      "today_rank": 11,
-      "first_seen": "2026-07-08",
-      "name": "Analog Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.6,
-      "confirm": 29.4,
-      "signal": 50.6,
-      "mom": {
-        "ret5": -0.0513,
-        "vol_surge": 0.65
-      },
-      "earn_days": 32,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Is Analog Devices (ADI) Stock Outpacing Its Computer and Technology Peers This Year?",
-          "summary": "Here is how Analog Devices (ADI) and Ametek (AME) have performed compared to their sector so far this year.",
-          "pub": "2026-07-17T13:40",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-outpacing-134050281.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Analog Devices (ADI) Declines More Than Market: Some Information for Investors",
-          "summary": "Analog Devices (ADI) reached $380.53 at the closing of the latest trading day, reflecting a -2.67% change compared to its last close.",
-          "pub": "2026-07-16T22:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-declines-more-221504075.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Vicor and the AI Power Trend Reshaping Data Center Hardware",
-          "summary": "VICR is riding AI data-center demand as power density, backlog growth and expanded Fab 1 capacity make power delivery a strategic hardware bottleneck.",
-          "pub": "2026-07-16T17:08",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/vicor-ai-power-trend-reshaping-170800718.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is VICR Stock Still Worth Buying After Its Big AI-Fueled Run?",
-          "summary": "Vicor's AI-driven demand, rising backlog and stronger earnings support momentum, but premium valuation and execution risks leave modest upside.",
-          "pub": "2026-07-16T17:02",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/vicr-stock-still-worth-buying-170200839.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Vicor Stock Outlook as AI Demand, Capacity and Royalties Align",
-          "summary": "VICR's AI demand, $300.6 million backlog and royalties support growth, but capacity limits and legal timing keep execution risk high.",
-          "pub": "2026-07-16T16:07",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/vicor-stock-outlook-ai-demand-160700802.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 11,
       "appearances": 11,
       "best_rank": 2,
-      "today_rank": 8,
+      "today_rank": 9,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 52.4,
-      "confirm": 25.9,
-      "signal": 50.5,
+      "confirm": 26.6,
+      "signal": 56.4,
       "mom": {
         "ret5": -0.065,
-        "vol_surge": 0.69
+        "vol_surge": 0.74
       },
       "earn_days": 11,
       "consensus": null,
@@ -516,6 +355,167 @@
       ]
     },
     {
+      "ticker": "ADI",
+      "tier": "確定",
+      "streak": 11,
+      "appearances": 11,
+      "best_rank": 9,
+      "today_rank": 11,
+      "first_seen": "2026-07-08",
+      "name": "Analog Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.6,
+      "confirm": 29.5,
+      "signal": 56.0,
+      "mom": {
+        "ret5": -0.0513,
+        "vol_surge": 0.66
+      },
+      "earn_days": 32,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Is Analog Devices (ADI) Stock Outpacing Its Computer and Technology Peers This Year?",
+          "summary": "Here is how Analog Devices (ADI) and Ametek (AME) have performed compared to their sector so far this year.",
+          "pub": "2026-07-17T13:40",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-outpacing-134050281.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Analog Devices (ADI) Declines More Than Market: Some Information for Investors",
+          "summary": "Analog Devices (ADI) reached $380.53 at the closing of the latest trading day, reflecting a -2.67% change compared to its last close.",
+          "pub": "2026-07-16T22:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-declines-more-221504075.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Vicor and the AI Power Trend Reshaping Data Center Hardware",
+          "summary": "VICR is riding AI data-center demand as power density, backlog growth and expanded Fab 1 capacity make power delivery a strategic hardware bottleneck.",
+          "pub": "2026-07-16T17:08",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/vicor-ai-power-trend-reshaping-170800718.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Is VICR Stock Still Worth Buying After Its Big AI-Fueled Run?",
+          "summary": "Vicor's AI-driven demand, rising backlog and stronger earnings support momentum, but premium valuation and execution risks leave modest upside.",
+          "pub": "2026-07-16T17:02",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vicr-stock-still-worth-buying-170200839.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Vicor Stock Outlook as AI Demand, Capacity and Royalties Align",
+          "summary": "VICR's AI demand, $300.6 million backlog and royalties support growth, but capacity limits and legal timing keep execution risk high.",
+          "pub": "2026-07-16T16:07",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/vicor-stock-outlook-ai-demand-160700802.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 11,
+      "appearances": 11,
+      "best_rank": 4,
+      "today_rank": 10,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 47.7,
+      "confirm": 36.0,
+      "signal": 55.9,
+      "mom": {
+        "ret5": -0.0386,
+        "vol_surge": 0.84
+      },
+      "earn_days": 39,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-07-14",
+          "provider": "Keybanc",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Semiconductor stocks trim losses as investors buy the dip",
+          "summary": "Chip stocks trimmed losses on Friday as investors bought the dip despite AI jitters.",
+          "pub": "2026-07-17T13:09",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/semiconductor-stocks-trim-losses-as-investors-buy-the-dip-130920103.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Global Oil Supply Is Being Squeezed From Two Directions at Once. Here Are the Best Energy Stocks to Buy.",
+          "summary": "These cash-flow-heavy businesses offer opportunities to build long-term wealth through reliable dividends and inflation protection.",
+          "pub": "2026-07-18T07:55",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/18/global-oil-supply-is-being-squeezed-from-two-directions-at-once-here-are-the-best-energy-stocks-to-buy/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "I Know That a Bear Market Is Coming Eventually. This Is Warren Buffett's Single Best Piece of Advice for Investors.",
+          "summary": "Not surprisingly, Warren Buffett looks on the bright side of market crashes.",
+          "pub": "2026-07-18T07:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/18/bear-market-coming-this-is-warren-buffett-advice/",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Mark Zuckerberg's Meta Is Putting Its In-House Iris AI Chip Into Production in September as Part of a Plan to Double Its Computing Capacity to 14 Gigawatts",
+          "summary": "Wall Street is underestimating the implications for Meta's long-term growth.",
+          "pub": "2026-07-18T07:02",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/18/zuckerbergs-meta-iris-production-double-capacity/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AVGO",
       "tier": "確定",
       "streak": 11,
@@ -528,7 +528,7 @@
       "persist": 100,
       "news": 49.1,
       "confirm": 22.6,
-      "signal": 47.6,
+      "signal": 53.6,
       "mom": {
         "ret5": -0.0729,
         "vol_surge": 0.63
@@ -606,11 +606,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 49.2,
-      "confirm": 21.7,
-      "signal": 47.4,
+      "confirm": 22.0,
+      "signal": 53.5,
       "mom": {
         "ret5": -0.0888,
-        "vol_surge": 0.89
+        "vol_surge": 0.91
       },
       "earn_days": null,
       "consensus": null,
@@ -686,7 +686,7 @@
       "persist": 100,
       "news": 49.2,
       "confirm": 20.1,
-      "signal": 46.9,
+      "signal": 53.1,
       "mom": {
         "ret5": -0.0965,
         "vol_surge": 0.94
@@ -765,7 +765,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 17.2,
-      "signal": 46.4,
+      "signal": 52.8,
       "mom": {
         "ret5": -0.2648,
         "vol_surge": 0.81
@@ -843,7 +843,7 @@
       "persist": 100,
       "news": 50.6,
       "confirm": 14.6,
-      "signal": 45.9,
+      "signal": 52.6,
       "mom": {
         "ret5": -0.2138,
         "vol_surge": 0.64
@@ -851,6 +851,17 @@
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Credo Technology Group Holding (CRDO) Stock Could Be Fully Priced Following Fresh AI Demand Buzz",
+          "summary": "Credo Technology Group Holding has delivered a very large 3 year return, yet the latest valuation work suggests the stock is trading at a premium to its intrinsic value, with the share price also no longer looking like an obvious bargain on broader checks. Over the last 3 years, Credo Technology Gro",
+          "pub": "2026-07-18T04:19",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-crdo-041908921.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "'Wrong Picks or Just Bad Timing?' A Newbie Investor Wonders Why Their Stock Portfolio Fell 9%. Here Are the Stocks They Bought",
           "summary": "Watching a new investment portfolio drop nearly 10% within days of buying can make anyone question whether they made a mistake. That’s exactly what happened to one beginner investor after a basket of technology and AI-related stocks fell sharply, leaving...",
@@ -894,17 +905,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "A Credo Executive Sold Nearly $24 Million in Stock Across Two Sales in One Day",
-          "summary": "This insider maintains 2.6 million shares directly and roughly 475,000 indirectly through a family trust after a planned sale under a Rule 10b5-1 trading arrangement.",
-          "pub": "2026-07-16T22:51",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/filings/2026/07/16/a-credo-insider-sold-usd11-3-million-in-stock-after-a-121-run-here-s-what-investors-should-know/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -920,11 +920,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 48.7,
-      "confirm": 17.6,
-      "signal": 45.8,
+      "confirm": 17.8,
+      "signal": 52.3,
       "mom": {
         "ret5": -0.1114,
-        "vol_surge": 0.84
+        "vol_surge": 0.85
       },
       "earn_days": 17,
       "consensus": {
@@ -1004,7 +1004,7 @@
       "persist": 100,
       "news": 49.6,
       "confirm": 15.2,
-      "signal": 45.5,
+      "signal": 52.2,
       "mom": {
         "ret5": -0.1069,
         "vol_surge": 0.68
@@ -1081,11 +1081,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 11.6,
-      "signal": 44.6,
+      "confirm": 11.8,
+      "signal": 51.6,
       "mom": {
         "ret5": -0.102,
-        "vol_surge": 0.44
+        "vol_surge": 0.45
       },
       "earn_days": 18,
       "consensus": null,
