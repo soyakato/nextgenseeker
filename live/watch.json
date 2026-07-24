@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T03:44:52.487538+00:00",
+  "updated": "2026-07-24T08:43:04.052765+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -14,11 +14,11 @@
       "sector": "Energy",
       "persist": 100,
       "news": 56.5,
-      "confirm": 72.7,
-      "signal": 72.9,
+      "confirm": 72.9,
+      "signal": 75.4,
       "mom": {
         "ret5": 0.0968,
-        "vol_surge": 0.58
+        "vol_surge": 0.59
       },
       "earn_days": 13,
       "consensus": null,
@@ -80,9 +80,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.7,
+      "news": 54.5,
       "confirm": 72.2,
-      "signal": 70.5,
+      "signal": 74.3,
       "mom": {
         "ret5": 0.0774,
         "vol_surge": 0.93
@@ -153,19 +153,98 @@
       ]
     },
     {
+      "ticker": "BKR",
+      "tier": "確定",
+      "streak": 17,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 24,
+      "first_seen": "2026-07-08",
+      "name": "Baker Hughes Company",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 62.3,
+      "confirm": 48.7,
+      "signal": 73.2,
+      "mom": {
+        "ret5": -0.008,
+        "vol_surge": 1.07
+      },
+      "earn_days": 2,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 重要契約の締結・重要契約の終了・資産取得・売却完了・債務・オフバランス義務・Reg FD開示",
+          "summary": "",
+          "pub": "2026-07-16",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1701605/000119312526305477",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Can Baker Hughes Keep Its Winning Streak Alive in Q2 Earnings?",
+          "summary": "BKR enters Q2 with an earnings-beat streak, rising estimates and oil-price support, despite expected year-over-year declines.",
+          "pub": "2026-07-22T14:55",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/baker-hughes-keep-winning-streak-145500085.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "FTAI Aviation Jumps On $1.5 Billion Deal For New Power Unit",
+          "summary": "FTAI Aviation stock jumped 5.5% when its unit that turns unused jet engines into gas-powered turbines signed a deal with an unnamed \"international cloud service provider.\"",
+          "pub": "2026-07-22T14:52",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/ge-vernova-ftai-aviation-turbines-ai-energy-data-centers/?src=A00220&yptr=yahoo",
+          "dir": 0.9,
+          "conf": 0.8999999999999999,
+          "type": "契約・提携",
+          "why": "+契約・提携 +急騰報道"
+        },
+        {
+          "title": "Seeking Clues to Baker Hughes (BKR) Q2 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+          "summary": "Get a deeper insight into the potential performance of Baker Hughes (BKR) for the quarter ended June 2026 by going beyond Wall Street's top-and-bottom-line estimates and examining the estimates for some of its key metrics.",
+          "pub": "2026-07-21T13:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/news/seeking-clues-baker-hughes-bkr-131507982.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "SLB Eyes 31% Profit Drop as Iran Conflict Tests Oilfield Services",
+          "summary": "Halliburton, SLB and Baker Hughes earnings could reveal the full second-quarter impact of Middle East disruptions.",
+          "pub": "2026-07-20T20:57",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/energy/articles/slb-eyes-31-profit-drop-205723854.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 17,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 9,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
       "news": 50.9,
       "confirm": 73.5,
-      "signal": 70.4,
+      "signal": 73.0,
       "mom": {
         "ret5": 0.1372,
         "vol_surge": 0.57
@@ -231,98 +310,19 @@
       ]
     },
     {
-      "ticker": "BKR",
-      "tier": "確定",
-      "streak": 17,
-      "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 23,
-      "first_seen": "2026-07-08",
-      "name": "Baker Hughes Company",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 62.3,
-      "confirm": 48.4,
-      "signal": 69.7,
-      "mom": {
-        "ret5": -0.008,
-        "vol_surge": 1.05
-      },
-      "earn_days": 2,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 重要契約の締結・重要契約の終了・資産取得・売却完了・債務・オフバランス義務・Reg FD開示",
-          "summary": "",
-          "pub": "2026-07-16",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1701605/000119312526305477",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Can Baker Hughes Keep Its Winning Streak Alive in Q2 Earnings?",
-          "summary": "BKR enters Q2 with an earnings-beat streak, rising estimates and oil-price support, despite expected year-over-year declines.",
-          "pub": "2026-07-22T14:55",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/baker-hughes-keep-winning-streak-145500085.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "FTAI Aviation Jumps On $1.5 Billion Deal For New Power Unit",
-          "summary": "FTAI Aviation stock jumped 5.5% when its unit that turns unused jet engines into gas-powered turbines signed a deal with an unnamed \"international cloud service provider.\"",
-          "pub": "2026-07-22T14:52",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/ge-vernova-ftai-aviation-turbines-ai-energy-data-centers/?src=A00220&yptr=yahoo",
-          "dir": 0.9,
-          "conf": 0.8999999999999999,
-          "type": "契約・提携",
-          "why": "+契約・提携 +急騰報道"
-        },
-        {
-          "title": "Seeking Clues to Baker Hughes (BKR) Q2 Earnings? A Peek Into Wall Street Projections for Key Metrics",
-          "summary": "Get a deeper insight into the potential performance of Baker Hughes (BKR) for the quarter ended June 2026 by going beyond Wall Street's top-and-bottom-line estimates and examining the estimates for some of its key metrics.",
-          "pub": "2026-07-21T13:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/news/seeking-clues-baker-hughes-bkr-131507982.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "SLB Eyes 31% Profit Drop as Iran Conflict Tests Oilfield Services",
-          "summary": "Halliburton, SLB and Baker Hughes earnings could reveal the full second-quarter impact of Middle East disruptions.",
-          "pub": "2026-07-20T20:57",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/energy/articles/slb-eyes-31-profit-drop-205723854.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 17,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 6,
+      "today_rank": 5,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 58.0,
       "confirm": 56.5,
-      "signal": 69.6,
+      "signal": 72.8,
       "mom": {
         "ret5": 0.0327,
         "vol_surge": 0.78
@@ -382,14 +382,14 @@
       "streak": 17,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 14,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 61.2,
       "confirm": 45.4,
-      "signal": 68.5,
+      "signal": 72.1,
       "mom": {
         "ret5": -0.0009,
         "vol_surge": 0.71
@@ -467,7 +467,7 @@
       "persist": 100,
       "news": 56.9,
       "confirm": 52.0,
-      "signal": 68.0,
+      "signal": 71.5,
       "mom": {
         "ret5": 0.0226,
         "vol_surge": 0.68
@@ -538,14 +538,14 @@
       "streak": 17,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.2,
+      "news": 53.2,
       "confirm": 58.9,
-      "signal": 67.5,
+      "signal": 71.2,
       "mom": {
         "ret5": 0.0481,
         "vol_surge": 0.63
@@ -553,6 +553,17 @@
       "earn_days": 41,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Broadcom (AVGO) Lands At The Center Of A $35 Billion AI Financing Trade",
+          "summary": "Wall Street banks have begun trading pieces of a $35b financing package tied to Broadcom and Anthropic's AI chip and infrastructure build out. The transactions involve buying and selling segments of the funding that supports Anthropic's custom chip orders with Broadcom. This activity signals fresh i",
+          "pub": "2026-07-24T07:16",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-lands-center-35-071631748.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Marvell Technology Stock And The Forecast It Kept Outgrowing",
           "summary": "The chipmaker kept telling investors its own AI targets were too low, but the message took a while to land.",
@@ -596,17 +607,6 @@
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
-        },
-        {
-          "title": "Cerebras Scores With CrowdStrike Deal: What it Means for Investors",
-          "summary": "CBRS' CrowdStrike pact brings wafer-scale AI inference to real-time cyber defense, widening its enterprise reach as cloud growth accelerates.",
-          "pub": "2026-07-23T15:57",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-scores-crowdstrike-deal-means-155700503.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
         }
       ]
     },
@@ -616,14 +616,14 @@
       "streak": 17,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 19,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 48.0,
       "confirm": 58.4,
-      "signal": 65.4,
+      "signal": 68.7,
       "mom": {
         "ret5": 0.0304,
         "vol_surge": 0.95
@@ -645,19 +645,53 @@
       ]
     },
     {
+      "ticker": "HST",
+      "tier": "確定",
+      "streak": 17,
+      "appearances": 15,
+      "best_rank": 17,
+      "today_rank": 20,
+      "first_seen": "2026-07-08",
+      "name": "Host Hotels & Resorts, Inc.",
+      "sector": "Real Estate",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 50.5,
+      "signal": 68.1,
+      "mom": {
+        "ret5": 0.0123,
+        "vol_surge": 0.79
+      },
+      "earn_days": 12,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "What You Need To Know Ahead of Host Hotels & Resorts’ Earnings Release",
+          "summary": "Host Hotels & Resorts will report its fiscal second-quarter earnings next month, and analysts project a modest rise in funds from operations.",
+          "pub": "2026-07-17T11:15",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/3333501/what-you-need-to-know-ahead-of-host-hotels-resorts-earnings-release",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "NVDA",
       "tier": "確定",
       "streak": 17,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 11,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.5,
+      "news": 50.0,
       "confirm": 49.3,
-      "signal": 64.4,
+      "signal": 67.9,
       "mom": {
         "ret5": 0.0066,
         "vol_surge": 0.82
@@ -704,56 +738,22 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Alphabet Just Revealed a $94 Billion Stake in SpaceX -- and It Can't Sell a Single Share Yet",
-          "summary": "A $1 billion bet from 2015 has turned into one of the biggest investment wins in corporate history. Selling is another matter.",
-          "pub": "2026-07-24T03:26",
+          "title": "The Probability of a July Fed Rate Hike Has Tripled Over the Last Week -- Here's Why",
+          "summary": "These inflationary concerns can't be swept under the rug.",
+          "pub": "2026-07-24T08:26",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/23/alphabet-just-revealed-a-94-billion-stake-in-space/",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "Prediction: This Autonomous Driving Stock Will Be a Much Better Buy Than Tesla Over the Long Term",
-          "summary": "Uber is taking a unique approach to the autonomous driving revolution.",
-          "pub": "2026-07-24T03:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/23/prediction-autonomous-driving-stock-buy-tesla-term/",
+          "url": "https://www.fool.com/investing/2026/07/24/probability-july-fed-rate-hike-tripled-last-week/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "HST",
-      "tier": "確定",
-      "streak": 17,
-      "appearances": 15,
-      "best_rank": 17,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Host Hotels & Resorts, Inc.",
-      "sector": "Real Estate",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 50.5,
-      "signal": 64.4,
-      "mom": {
-        "ret5": 0.0123,
-        "vol_surge": 0.79
-      },
-      "earn_days": 12,
-      "consensus": null,
-      "headlines": [
+        },
         {
-          "title": "What You Need To Know Ahead of Host Hotels & Resorts’ Earnings Release",
-          "summary": "Host Hotels & Resorts will report its fiscal second-quarter earnings next month, and analysts project a modest rise in funds from operations.",
-          "pub": "2026-07-17T11:15",
-          "provider": "Barchart",
-          "url": "https://www.barchart.com/story/news/3333501/what-you-need-to-know-ahead-of-host-hotels-resorts-earnings-release",
+          "title": "Palantir Is Down 25%. Here's Why I'm Buying More.",
+          "summary": "Palantir's growth story is far from over.",
+          "pub": "2026-07-24T08:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/24/palantir-is-down-28-heres-why-im-buying-more/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -772,9 +772,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 60.0,
+      "news": 59.1,
       "confirm": 21.1,
-      "signal": 62.0,
+      "signal": 66.4,
       "mom": {
         "ret5": -0.0823,
         "vol_surge": 0.72
@@ -810,6 +810,17 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "Palantir Is Down 25%. Here's Why I'm Buying More.",
+          "summary": "Palantir's growth story is far from over.",
+          "pub": "2026-07-24T08:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/24/palantir-is-down-28-heres-why-im-buying-more/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "ORCL Stock Rises After-Hours On Pentagon Deal Worth Up To $7B — Why Retail Sees NOW, PLTR, MSFT And Others Benefiting Too",
           "summary": "Stocktwits retail traders said the contract could be the first of many government AI wins, with some also turning bullish on Palantir and enterprise software peers.",
           "pub": "2026-07-24T00:07",
@@ -830,96 +841,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Best Monthly Dividend ETFs for Consistent Income",
-          "summary": "If you're looking for more frequent payouts, you can still enjoy the benefits of low fees and broad diversification, thanks to these top monthly dividend ETFs.",
-          "pub": "2026-07-23T17:31",
-          "provider": "Kiplinger",
-          "url": "https://www.kiplinger.com/investing/etfs/best-monthly-dividend-etfs",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AA",
-      "tier": "確定",
-      "streak": 17,
-      "appearances": 15,
-      "best_rank": 7,
-      "today_rank": 10,
-      "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 46.8,
-      "confirm": 40.8,
-      "signal": 60.6,
-      "mom": {
-        "ret5": -0.0337,
-        "vol_surge": 1.06
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-07-16",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526306118",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Empire Metals strengthens management team",
-          "summary": "Empire Metals Ltd (AIM:EEE, OTCQX:EPMLF) has strengthened its project delivery and environmental approvals team as it pushes the Pitfield Titanium Project through feasibility studies towards commercial development. The company appointed Chris Dodds as general manager for project delivery,...",
-          "pub": "2026-07-23T06:31",
-          "provider": "Proactive",
-          "url": "https://www.proactiveinvestors.com/companies/news/1095924/empire-metals-strengthens-management-team-1095924.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Alcoa (AA) Stock May Be 45% Undervalued As Gallium Project Starts",
-          "summary": "Alcoa stock has pulled back sharply in recent weeks even after returning 41.7% over the past year, and both the Discounted Cash Flow (DCF) intrinsic value estimate and market multiples currently point to the shares trading at a discount to what the company’s cash flows may justify. Over the past 12",
-          "pub": "2026-07-21T03:12",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-aa-stock-may-45-031247991.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Trump Signs Orders On Aluminum And Defense Supply Chains — AA, KALU, CENX, MP Stocks In Focus",
-          "summary": "The White House announced two policy moves aimed at reducing reliance on foreign suppliers while encouraging domestic metals production.",
-          "pub": "2026-07-20T23:47",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/trump-signs-orders-on-aluminum-and-defense-supply-chains-aa-kalu-cenx-mp-stocks-in-focus/cZZikEER7H9",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Company News for July 20, 2026",
-          "summary": "Companies in The News Are: VIST, TRV, CVX, AA",
-          "pub": "2026-07-20T13:27",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-july-20-2026-132700750.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -929,14 +850,14 @@
       "streak": 17,
       "appearances": 15,
       "best_rank": 18,
-      "today_rank": 24,
+      "today_rank": 26,
       "first_seen": "2026-07-08",
       "name": "AGNC Investment Corp.",
       "sector": "Real Estate",
       "persist": 100,
       "news": 50.0,
       "confirm": 35.0,
-      "signal": 60.6,
+      "signal": 65.1,
       "mom": {
         "ret5": -0.0761,
         "vol_surge": 1.52
@@ -1003,6 +924,85 @@
       ]
     },
     {
+      "ticker": "AA",
+      "tier": "確定",
+      "streak": 17,
+      "appearances": 15,
+      "best_rank": 7,
+      "today_rank": 9,
+      "first_seen": "2026-07-08",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 46.8,
+      "confirm": 40.8,
+      "signal": 64.8,
+      "mom": {
+        "ret5": -0.0337,
+        "vol_surge": 1.06
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-07-16",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526306118",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Empire Metals strengthens management team",
+          "summary": "Empire Metals Ltd (AIM:EEE, OTCQX:EPMLF) has strengthened its project delivery and environmental approvals team as it pushes the Pitfield Titanium Project through feasibility studies towards commercial development. The company appointed Chris Dodds as general manager for project delivery,...",
+          "pub": "2026-07-23T06:31",
+          "provider": "Proactive",
+          "url": "https://www.proactiveinvestors.com/companies/news/1095924/empire-metals-strengthens-management-team-1095924.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Alcoa (AA) Stock May Be 45% Undervalued As Gallium Project Starts",
+          "summary": "Alcoa stock has pulled back sharply in recent weeks even after returning 41.7% over the past year, and both the Discounted Cash Flow (DCF) intrinsic value estimate and market multiples currently point to the shares trading at a discount to what the company’s cash flows may justify. Over the past 12",
+          "pub": "2026-07-21T03:12",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-aa-stock-may-45-031247991.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Trump Signs Orders On Aluminum And Defense Supply Chains — AA, KALU, CENX, MP Stocks In Focus",
+          "summary": "The White House announced two policy moves aimed at reducing reliance on foreign suppliers while encouraging domestic metals production.",
+          "pub": "2026-07-20T23:47",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/trump-signs-orders-on-aluminum-and-defense-supply-chains-aa-kalu-cenx-mp-stocks-in-focus/cZZikEER7H9",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Company News for July 20, 2026",
+          "summary": "Companies in The News Are: VIST, TRV, CVX, AA",
+          "pub": "2026-07-20T13:27",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-july-20-2026-132700750.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "FLYW",
       "tier": "確定",
       "streak": 17,
@@ -1015,7 +1015,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 17.4,
-      "signal": 56.4,
+      "signal": 61.7,
       "mom": {
         "ret5": -0.1372,
         "vol_surge": 0.83
@@ -1140,6 +1140,38 @@
       "grades": {}
     },
     {
+      "date": "2026-07-24",
+      "ticker": "HST",
+      "signal": 68.1,
+      "price": 23.96,
+      "spy": 738.1799926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-24",
+      "ticker": "NVDA",
+      "signal": 67.9,
+      "price": 208.76,
+      "spy": 738.1799926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-24",
+      "ticker": "PLTR",
+      "signal": 66.4,
+      "price": 123.37,
+      "spy": 738.1799926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-24",
+      "ticker": "AGNC",
+      "signal": 65.1,
+      "price": 10.56,
+      "spy": 738.1799926757812,
+      "grades": {}
+    },
+    {
       "date": "2026-07-23",
       "ticker": "CNQ",
       "signal": 69.2,
@@ -1193,38 +1225,6 @@
       "signal": 65.4,
       "price": 24.5,
       "spy": 747.4099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-23",
-      "ticker": "CRDO",
-      "signal": 71.3,
-      "price": 236.41,
-      "spy": 739.0900268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-23",
-      "ticker": "ALAB",
-      "signal": 69.6,
-      "price": 329.8,
-      "spy": 739.0900268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-23",
-      "ticker": "ADI",
-      "signal": 67.5,
-      "price": 376.585,
-      "spy": 735.97998046875,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-23",
-      "ticker": "CDE",
-      "signal": 65.0,
-      "price": 15.185,
-      "spy": 735.97998046875,
       "grades": {}
     }
   ],
