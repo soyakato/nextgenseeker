@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T03:38:32.224729+00:00",
+  "updated": "2026-07-25T08:24:27.426923+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -15,7 +15,7 @@
       "persist": 100,
       "news": 70.1,
       "confirm": 55.9,
-      "signal": 78.1,
+      "signal": 82.0,
       "mom": {
         "ret5": 0.0321,
         "vol_surge": 0.75
@@ -93,7 +93,7 @@
       "persist": 100,
       "news": 61.5,
       "confirm": 57.0,
-      "signal": 74.5,
+      "signal": 78.8,
       "mom": {
         "ret5": 0.0232,
         "vol_surge": 1.0
@@ -171,11 +171,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 58.0,
-      "confirm": 62.4,
-      "signal": 74.0,
+      "confirm": 63.0,
+      "signal": 78.3,
       "mom": {
         "ret5": 0.0567,
-        "vol_surge": 0.69
+        "vol_surge": 0.73
       },
       "earn_days": 4,
       "consensus": null,
@@ -238,11 +238,11 @@
       "sector": "Energy",
       "persist": 100,
       "news": 58.8,
-      "confirm": 60.5,
-      "signal": 74.0,
+      "confirm": 60.7,
+      "signal": 78.3,
       "mom": {
         "ret5": 0.0581,
-        "vol_surge": 0.54
+        "vol_surge": 0.55
       },
       "earn_days": 12,
       "consensus": null,
@@ -317,7 +317,7 @@
       "persist": 100,
       "news": 51.8,
       "confirm": 64.2,
-      "signal": 71.6,
+      "signal": 76.1,
       "mom": {
         "ret5": 0.0528,
         "vol_surge": 0.89
@@ -388,89 +388,6 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 18,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 11,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 55.2,
-      "confirm": 52.7,
-      "signal": 70.8,
-      "mom": {
-        "ret5": 0.0199,
-        "vol_surge": 0.78
-      },
-      "earn_days": 32,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-07-14",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Tech stocks live: Huang, Nadella, and other CEOs defend open-source AI as US threatens crackdown",
-          "summary": "Live coverage of tech stock news.",
-          "pub": "2026-07-20T16:43",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-tech-heavy-nasdaq-climbs-ahead-of-big-tech-earnings-kickoff-164334720.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'",
-          "summary": "OpenAI president Greg Brockman says AI-driven computing constraints will last for the foreseeable future.",
-          "pub": "2026-07-24T15:52",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/article/openai-president-greg-brockman-we-will-remain-in-this-compute-shortage-no-matter-what-155249677.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is Wall Street buying Intel's comeback story after blowout Q2 earnings?",
-          "summary": "Intel stock (INTC), which initially surged following its second quarter earnings yesterday, is trying to hold onto some of its gains Friday morning. Morning Brief Host Julie Hyman is joined by Yahoo Finance Senior Business Reporter Ines Ferré and Interactive Brokers chief strategist Steve Sosnick to",
-          "pub": "2026-07-24T14:16",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/is-wall-street-buying-intels-comeback-story-after-blowout-q2-earnings-141629070.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Why Apple Stock Is Up Today",
-          "summary": "As competitors spend enormous sums, the tech titan's financial discipline is being rewarded.",
-          "pub": "2026-07-25T03:02",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/24/why-apple-stock-is-up-today/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 18,
@@ -482,11 +399,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 51.0,
-      "confirm": 58.5,
-      "signal": 70.1,
+      "confirm": 58.6,
+      "signal": 75.0,
       "mom": {
         "ret5": 0.0517,
-        "vol_surge": 0.53
+        "vol_surge": 0.54
       },
       "earn_days": 39,
       "consensus": null,
@@ -561,7 +478,7 @@
       "persist": 100,
       "news": 48.0,
       "confirm": 65.1,
-      "signal": 70.1,
+      "signal": 74.8,
       "mom": {
         "ret5": 0.0544,
         "vol_surge": 0.92
@@ -588,14 +505,14 @@
       "streak": 18,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 14,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 56.2,
       "confirm": 43.2,
-      "signal": 69.4,
+      "signal": 74.7,
       "mom": {
         "ret5": -0.0093,
         "vol_surge": 0.73
@@ -661,6 +578,89 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 18,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 11,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.5,
+      "confirm": 52.7,
+      "signal": 73.9,
+      "mom": {
+        "ret5": 0.0199,
+        "vol_surge": 0.78
+      },
+      "earn_days": 32,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-07-14",
+          "provider": "Keybanc",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Tech stocks live: Huang, Nadella, and other CEOs defend open-source AI as US threatens crackdown",
+          "summary": "Live coverage of tech stock news.",
+          "pub": "2026-07-20T16:43",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-tech-heavy-nasdaq-climbs-ahead-of-big-tech-earnings-kickoff-164334720.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'",
+          "summary": "OpenAI president Greg Brockman says AI-driven computing constraints will last for the foreseeable future.",
+          "pub": "2026-07-24T15:52",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/article/openai-president-greg-brockman-we-will-remain-in-this-compute-shortage-no-matter-what-155249677.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Is Wall Street buying Intel's comeback story after blowout Q2 earnings?",
+          "summary": "Intel stock (INTC), which initially surged following its second quarter earnings yesterday, is trying to hold onto some of its gains Friday morning. Morning Brief Host Julie Hyman is joined by Yahoo Finance Senior Business Reporter Ines Ferré and Interactive Brokers chief strategist Steve Sosnick to",
+          "pub": "2026-07-24T14:16",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/is-wall-street-buying-intels-comeback-story-after-blowout-q2-earnings-141629070.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Alphabet's Projected $205 Billion Capex Can Lift These 3 AI Stocks",
+          "summary": "Cipher Digital, Micron, and Broadcom all look poised to be big winners as Alphabet continues to boost its capex budget.",
+          "pub": "2026-07-25T08:03",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/25/alphabets-projected-205-billion-capex-can-lift-the/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "HST",
       "tier": "確定",
       "streak": 18,
@@ -672,11 +672,11 @@
       "sector": "Real Estate",
       "persist": 100,
       "news": 50.0,
-      "confirm": 53.7,
-      "signal": 68.7,
+      "confirm": 53.9,
+      "signal": 73.9,
       "mom": {
         "ret5": 0.0234,
-        "vol_surge": 0.78
+        "vol_surge": 0.79
       },
       "earn_days": 11,
       "consensus": null,
@@ -705,12 +705,12 @@
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 45.0,
-      "confirm": 52.5,
-      "signal": 66.3,
+      "news": 48.2,
+      "confirm": 52.7,
+      "signal": 73.0,
       "mom": {
         "ret5": 0.0299,
-        "vol_surge": 0.57
+        "vol_surge": 0.58
       },
       "earn_days": 40,
       "consensus": null,
@@ -727,9 +727,20 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "South Korea President Lee looking to open new era of AI in with global tech companies",
+          "title": "Samsung and SK Hynix unveil $950 billion US chip supply partnerships",
+          "summary": "Investing.com -- Samsung Electronics and SK Hynix will pursue memory-chip supply partnerships with major U.S. technology companies valued at a combined $950 billion, Reuters reported, citing South Korean presidential adviser Kim Yong-beom.",
+          "pub": "2026-07-25T07:48",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/samsung-sk-hynix-unveil-950-074847076.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Samsung Elec, SK Group seal $950 billion deals as South Korea hosts AI powers",
           "summary": "By Max A.",
-          "pub": "2026-07-25T00:32",
+          "pub": "2026-07-25T07:23",
           "provider": "Reuters",
           "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-president-lee-looking-003232888.html",
           "dir": 0.0,
@@ -738,33 +749,22 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Missed Out on Nvidia's Historic Run? These 2 Tech Winners Are Just Getting Started.",
-          "summary": "Broadcom and Micron still have major growth ahead of them.",
-          "pub": "2026-07-24T21:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/24/missed-out-on-nvidias-historic-run-these-2-tech-wi/",
-          "dir": -0.8,
-          "conf": 0.8,
-          "type": "決算ミス",
-          "why": "-決算ミス"
+          "title": "South Korea's SK Hynix, Samsung Elec sign $950 billion partnership with US big tech",
+          "summary": "SEOUL, July 25 (Reuters) - South Korea's Samsung Electronics and SK Hynix will pursue memory chip supply partnership with U.S. big tech companies including Nvidia worth $950 billion overall, South",
+          "pub": "2026-07-25T04:37",
+          "provider": "Reuters",
+          "url": "https://finance.yahoo.com/technology/articles/south-koreas-sk-hynix-samsung-043721253.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
         },
         {
-          "title": "MRVL Has Momentum. The Question Is The Price",
-          "summary": "This AI chipmaker is on a historic run, but the price of admission is steep, forcing investors to decide if the engine has more power than the market has already paid for.",
-          "pub": "2026-07-24T21:14",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/608755/mrvl-has-momentum-the-question-is-the-price/2026-07-24",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "AMD Stock Scores Price-Target Hikes On AI Computer News",
-          "summary": "AMD earned plaudits from Wall Street for its latest processors and computer systems for artificial intelligence.",
-          "pub": "2026-07-24T20:33",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/amd-stock-advancing-ai-2026-price-target-hikes/?src=A00220&yptr=yahoo",
+          "title": "Texas Instruments vs. Qualcomm: One Pays Out 94% of Earnings. The Better Dividend Chip Stock Is Clear.",
+          "summary": "Texas Instruments and Qualcomm offer different paths to AI growth and dividend income, but which chip stock gives investors the better setup?",
+          "pub": "2026-07-24T23:00",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/3456512/texas-instruments-vs-qualcomm-one-pays-out-94-of-earnings-the-better-dividend-chip-stock-is-clear",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -784,11 +784,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 46.4,
-      "confirm": 48.0,
-      "signal": 66.0,
+      "confirm": 48.2,
+      "signal": 71.7,
       "mom": {
         "ret5": 0.0059,
-        "vol_surge": 0.75
+        "vol_surge": 0.76
       },
       "earn_days": null,
       "consensus": null,
@@ -864,7 +864,7 @@
       "persist": 100,
       "news": 51.6,
       "confirm": 31.6,
-      "signal": 65.1,
+      "signal": 71.3,
       "mom": {
         "ret5": -0.0397,
         "vol_surge": 0.57
@@ -942,7 +942,7 @@
       "persist": 100,
       "news": 53.5,
       "confirm": 23.6,
-      "signal": 64.4,
+      "signal": 70.8,
       "mom": {
         "ret5": -0.0715,
         "vol_surge": 0.67
@@ -989,6 +989,17 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "Palantir Technologies (NasdaqGS:PLTR) Joins Nvidia To Defend Open Weight AI Models",
+          "summary": "Nvidia CEO Jensen Huang, with Palantir Technologies (NasdaqGS:PLTR) as a co signer, issued an open letter defending open weight AI models. The letter urges policymakers to avoid restrictive AI regulations that could limit open model development and use. The message highlights national security, inno",
+          "pub": "2026-07-25T06:09",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-nasdaqgs-pltr-joins-060929813.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Nvidia, Microsoft, Palantir Lead Big Tech Revolt Against AI Restrictions",
           "summary": "Big Tech Draws Line on AI: Nvidia, Microsoft Push Back on New Restrictions",
           "pub": "2026-07-24T23:59",
@@ -998,17 +1009,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Michael Burry Doubles Down On MU, NVDA Shorts While Holding TSLA, PLTR Bets — Here’s What He’s Buying",
-          "summary": "The ‘Big Short’ investor expanded his bearish semiconductor wagers while increasing exposure to online sports betting stocks.",
-          "pub": "2026-07-24T22:56",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-doubles-down-on-mu-nvda-shorts-while-holding-tsla-pltr-bets-what-he-is-buying/cZZp9WcR7zi",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "空売り・過大評価",
-          "why": "-空売り・過大評価"
         }
       ]
     },
@@ -1025,7 +1025,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 17.6,
-      "signal": 61.7,
+      "signal": 68.6,
       "mom": {
         "ret5": -0.1236,
         "vol_surge": 0.84
@@ -1182,6 +1182,22 @@
       "grades": {}
     },
     {
+      "date": "2026-07-25",
+      "ticker": "PLTR",
+      "signal": 70.8,
+      "price": 122.92,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-25",
+      "ticker": "FLYW",
+      "signal": 68.6,
+      "price": 15.89,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
       "date": "2026-07-24",
       "ticker": "CNQ",
       "signal": 72.9,
@@ -1218,22 +1234,6 @@
       "ticker": "KGC",
       "signal": 69.6,
       "price": 23.67,
-      "spy": 738.1799926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-24",
-      "ticker": "ADI",
-      "signal": 68.5,
-      "price": 380.2,
-      "spy": 738.1799926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-24",
-      "ticker": "ALAB",
-      "signal": 68.0,
-      "price": 326.97,
       "spy": 738.1799926757812,
       "grades": {}
     }
