@@ -1,86 +1,7 @@
 {
-  "updated": "2026-07-26T13:57:22.392772+00:00",
+  "updated": "2026-07-26T19:36:00.058995+00:00",
   "judge_source": "rule-based",
   "signals": [
-    {
-      "ticker": "BKR",
-      "tier": "確定",
-      "streak": 19,
-      "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 23,
-      "first_seen": "2026-07-08",
-      "name": "Baker Hughes Company",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 61.5,
-      "confirm": 57.0,
-      "signal": 78.8,
-      "mom": {
-        "ret5": 0.0232,
-        "vol_surge": 1.0
-      },
-      "earn_days": 0,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 重要契約の締結・重要契約の終了・資産取得・売却完了・債務・オフバランス義務・Reg FD開示",
-          "summary": "",
-          "pub": "2026-07-16",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1701605/000119312526305477",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Baker Hughes (BKR) Q2 Earnings: What To Expect",
-          "summary": "Energy technology company Baker Hughes (NASDAQ:BKR) will be announcing earnings results next tomorrow after the bell. Here’s what to expect.",
-          "pub": "2026-07-25T03:01",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/baker-hughes-bkr-q2-earnings-030100537.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Basin rig count down one as prices rise",
-          "summary": "The rig count in the Permian Basin was down one this week, the latest count Friday by Baker Hughes shows, with 258 rigs active in the region. A year ago, 260 rigs were active in the region. Nationally, the oil and gas rig count is down one from last week at 587 rigs. A year ago, 542 rigs were active",
-          "pub": "2026-07-25T00:01",
-          "provider": "Odessa American, Texas",
-          "url": "https://www.oaoa.com/?p=367323",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "US Oil Drillers Take A Break As Oil Prices Hover Near $100",
-          "summary": "The total number of active drilling rigs for oil and gas in the United States fell this week, according to new data that Baker Hughes published on Friday",
-          "pub": "2026-07-24T17:15",
-          "provider": "Oilprice.com",
-          "url": "https://finance.yahoo.com/energy/articles/us-oil-drillers-break-oil-171500014.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can Baker Hughes Keep Its Winning Streak Alive in Q2 Earnings?",
-          "summary": "BKR enters Q2 with an earnings-beat streak, rising estimates and oil-price support, despite expected year-over-year declines.",
-          "pub": "2026-07-22T14:55",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/baker-hughes-keep-winning-streak-145500085.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        }
-      ]
-    },
     {
       "ticker": "KGC",
       "tier": "確定",
@@ -145,6 +66,89 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 19,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 55.8,
+      "confirm": 64.2,
+      "signal": 77.7,
+      "mom": {
+        "ret5": 0.0528,
+        "vol_surge": 0.89
+      },
+      "earn_days": 9,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-24",
+          "provider": "Jefferies",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-24",
+          "provider": "UBS",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-24",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-07-24",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Sector Perform→Sector Perform",
+          "summary": "",
+          "pub": "2026-07-24",
+          "provider": "RBC Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -223,89 +227,6 @@
           "conf": 0.6,
           "type": "格上げ",
           "why": "+格上げ"
-        }
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 19,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.9,
-      "confirm": 64.2,
-      "signal": 76.2,
-      "mom": {
-        "ret5": 0.0528,
-        "vol_surge": 0.89
-      },
-      "earn_days": 9,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-07-24",
-          "provider": "Jefferies",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-07-24",
-          "provider": "UBS",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-07-24",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-07-24",
-          "provider": "Cantor Fitzgerald",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Sector Perform→Sector Perform",
-          "summary": "",
-          "pub": "2026-07-24",
-          "provider": "RBC Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -505,7 +426,7 @@
       "streak": 19,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 13,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -578,6 +499,28 @@
       ]
     },
     {
+      "ticker": "APA",
+      "tier": "確定",
+      "streak": 19,
+      "appearances": 15,
+      "best_rank": 21,
+      "today_rank": 23,
+      "first_seen": "2026-07-08",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 56.8,
+      "signal": 74.3,
+      "mom": {
+        "ret5": 0.0336,
+        "vol_surge": 0.78
+      },
+      "earn_days": 10,
+      "consensus": null,
+      "headlines": []
+    },
+    {
       "ticker": "HST",
       "tier": "確定",
       "streak": 19,
@@ -622,9 +565,9 @@
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.2,
+      "news": 49.9,
       "confirm": 52.7,
-      "signal": 73.8,
+      "signal": 73.7,
       "mom": {
         "ret5": 0.0199,
         "vol_surge": 0.78
@@ -649,48 +592,48 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Why GE Vernova Investors Should Ignore the Wind",
-          "summary": "While wind orders continue to fall, it's only one small part of a company experiencing incredible momentum.",
-          "pub": "2026-07-26T13:50",
+          "title": "Airbnb Is in the Spotlight for All the Right Reasons. Here's Why It's a Buy Now.",
+          "summary": "As one of the world's most disruptive businesses, this leading travel platform should be on every investor's radar.",
+          "pub": "2026-07-26T19:20",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/why-ge-vernova-investors-should-ignore-the-wind/",
+          "url": "https://www.fool.com/investing/2026/07/26/airbnb-is-in-the-spotlight-for-all-the-right-reaso/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Bloom Energy's Next Earnings Report on July 28 Could Send the Stock Soaring. Here's Why.",
-          "summary": "Bloom Energy's second-quarter financial results could prove to be a powerful catalyst for the stock.",
-          "pub": "2026-07-26T13:45",
+          "title": "Teva's Turnaround Is Working. Here's the 1 Thing That Could Send It Soaring Another 50%.",
+          "summary": "The pharmaceutical company has a likely blockbuster drug as the flagship of its pipeline.",
+          "pub": "2026-07-26T19:05",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/bloom-energys-next-earnings-report-on-july-28-could-send-the-stock-soaring-heres-why/",
+          "url": "https://www.fool.com/investing/2026/07/26/tevas-turnaround-is-working-heres-the-1-thing-that/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "South Korea's KOSPI Is Trading Like a Meme Stock, and the S&P 500 or Nasdaq Composite May Be Next",
-          "summary": "If you think the wild volatility we've observed in Korea's stock market could never happen here, the data suggests you'll be sorely mistaken.",
-          "pub": "2026-07-26T13:26",
+          "title": "Buy These 2 Boring Industrial Infrastructure Stocks This Month",
+          "summary": "They're not the sort of names you brag about owning, but they'll certainly get the job done.",
+          "pub": "2026-07-26T18:50",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/kospi-trading-like-a-meme-stock-sp-500-nasdaq-next/",
+          "url": "https://www.fool.com/investing/2026/07/26/buy-these-2-boring-industrial-stocks-in-july/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Mark Zuckerberg's Meta Is Also One of CoreWeave's Biggest Customers, in a Deal Worth $35 Billion Through 2032. That Didn't Stop CoreWeave Shares From Sinking on Meta's Own Cloud News.",
-          "summary": "A report stating that Meta Platforms intends to sell its excess cloud computing capacity doesn't bode well for CoreWeave.",
-          "pub": "2026-07-26T13:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/mark-zuckerbergs-meta-is-also-one-of-coreweaves-bi/",
-          "dir": 0.2,
-          "conf": 0.19999999999999996,
-          "type": "契約・提携",
-          "why": "+契約・提携 -急落報道"
+          "title": "Why a 15% Yield on Blue Chip Stocks Worries Even Income Investors",
+          "summary": "A 15% monthly yield from an ETF built on Warren Buffett's favorite blue chips sounds almost too good to question, but the math behind that payout reveals a fragile engine that few income investors fully understand before buying in.",
+          "pub": "2026-07-26T18:34",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/26/why-a-15-yield-on-blue-chip-stocks-worries-even-income-investors/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -700,7 +643,7 @@
       "streak": 19,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 12,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -990,22 +933,22 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Prediction: Palantir Stock Will Drop to This Price After Aug. 3",
-          "summary": "Palantir stock is down 30% so far in 2026, and more selling pressure could be on the way.",
-          "pub": "2026-07-26T07:12",
+          "title": "Better AI Software Stock: Palantir vs. ServiceNow",
+          "summary": "Worries about AI making software companies obsolete may be overblown.",
+          "pub": "2026-07-26T16:07",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/prediction-palantir-stock-will-drop-to-this-price/",
+          "url": "https://www.fool.com/investing/2026/07/26/better-ai-software-stock-palantir-vs-servicenow/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Why Nvidia CEO Jensen Huang Is Defending Chinese AI Models",
-          "summary": "The Nvidia CEO publishes an open letter in support of the open-weight artificial-intelligence models competing with OpenAI and Anthropic.",
-          "pub": "2026-07-25T22:07",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/nvidia-jensen-huang-china-ai-models-openai-anthropic-82fe7a80?siteid=yhoof2&yptr=yahoo",
+          "title": "Prediction: Palantir Stock Will Drop to This Price After Aug. 3",
+          "summary": "Palantir stock is down 30% so far in 2026, and more selling pressure could be on the way.",
+          "pub": "2026-07-26T07:12",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/26/prediction-palantir-stock-will-drop-to-this-price/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -1188,6 +1131,14 @@
       "grades": {}
     },
     {
+      "date": "2026-07-26",
+      "ticker": "APA",
+      "signal": 74.3,
+      "price": 36.15,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
       "date": "2026-07-25",
       "ticker": "AMKR",
       "signal": 78.1,
@@ -1216,14 +1167,6 @@
       "ticker": "CNQ",
       "signal": 74.0,
       "price": 46.44,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-25",
-      "ticker": "AMD",
-      "signal": 71.6,
-      "price": 521.95,
       "spy": 738.9299926757812,
       "grades": {}
     }
