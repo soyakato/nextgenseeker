@@ -1,11 +1,90 @@
 {
-  "updated": "2026-07-26T19:36:00.058995+00:00",
+  "updated": "2026-07-27T04:03:02.407628+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
+      "ticker": "BKR",
+      "tier": "確定",
+      "streak": 20,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Baker Hughes Company",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 65.5,
+      "confirm": 57.0,
+      "signal": 80.4,
+      "mom": {
+        "ret5": 0.0232,
+        "vol_surge": 1.0
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 重要契約の締結・重要契約の終了・資産取得・売却完了・債務・オフバランス義務・Reg FD開示",
+          "summary": "",
+          "pub": "2026-07-16",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1701605/000119312526305477",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Baker Hughes Raises Outlook After Record Equipment Bookings",
+          "summary": "Baker Hughes raised its Industrial & Energy Technology order outlook after record second-quarter bookings driven by LNG, power generation and data center demand, while reaffirming confidence in meeting its full-year earnings guidance.",
+          "pub": "2026-07-27T02:01",
+          "provider": "Oilprice.com",
+          "url": "https://finance.yahoo.com/energy/articles/baker-hughes-raises-outlook-record-020112770.html",
+          "dir": 0.9,
+          "conf": 0.9,
+          "type": "ガイダンス引上げ",
+          "why": "+ガイダンス引上げ"
+        },
+        {
+          "title": "Baker Hughes (BKR) Q2 Earnings: What To Expect",
+          "summary": "Energy technology company Baker Hughes (NASDAQ:BKR) will be announcing earnings results next tomorrow after the bell. Here’s what to expect.",
+          "pub": "2026-07-25T03:01",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/baker-hughes-bkr-q2-earnings-030100537.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Basin rig count down one as prices rise",
+          "summary": "The rig count in the Permian Basin was down one this week, the latest count Friday by Baker Hughes shows, with 258 rigs active in the region. A year ago, 260 rigs were active in the region. Nationally, the oil and gas rig count is down one from last week at 587 rigs. A year ago, 542 rigs were active",
+          "pub": "2026-07-25T00:01",
+          "provider": "Odessa American, Texas",
+          "url": "https://www.oaoa.com/?p=367323",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "US Oil Drillers Take A Break As Oil Prices Hover Near $100",
+          "summary": "The total number of active drilling rigs for oil and gas in the United States fell this week, according to new data that Baker Hughes published on Friday",
+          "pub": "2026-07-24T17:15",
+          "provider": "Oilprice.com",
+          "url": "https://finance.yahoo.com/energy/articles/us-oil-drillers-break-oil-171500014.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "KGC",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 2,
       "today_rank": 8,
@@ -20,7 +99,7 @@
         "ret5": 0.0567,
         "vol_surge": 0.73
       },
-      "earn_days": 3,
+      "earn_days": 2,
       "consensus": null,
       "headlines": [
         {
@@ -72,7 +151,7 @@
     {
       "ticker": "AMD",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 1,
       "today_rank": 1,
@@ -87,7 +166,7 @@
         "ret5": 0.0528,
         "vol_surge": 0.89
       },
-      "earn_days": 9,
+      "earn_days": 8,
       "consensus": {
         "buy": 50,
         "hold": 20,
@@ -155,10 +234,10 @@
     {
       "ticker": "CNQ",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 20,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
@@ -170,7 +249,7 @@
         "ret5": 0.0581,
         "vol_surge": 0.55
       },
-      "earn_days": 11,
+      "earn_days": 10,
       "consensus": null,
       "headlines": [
         {
@@ -233,24 +312,46 @@
     {
       "ticker": "AVGO",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 16,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.5,
+      "news": 58.5,
       "confirm": 52.7,
-      "signal": 75.5,
+      "signal": 77.0,
       "mom": {
         "ret5": 0.0299,
         "vol_surge": 0.58
       },
-      "earn_days": 39,
+      "earn_days": 38,
       "consensus": null,
       "headlines": [
+        {
+          "title": "SK Hynix, Samsung Ink $950 Billion AI Chip Deals, But Stocks Still Slide",
+          "summary": "SK Hynix and Samsung signed $950 billion in AI chip deals with Nvidia and Broadcom, yet both stocks fell Monday as investors booked profits.",
+          "pub": "2026-07-27T03:36",
+          "provider": "BeInCrypto",
+          "url": "https://beincrypto.com/sk-hynix-samsung-ai-deals-stocks-fall/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Alphabet CEO Sundar Pichai Just Made a Major Decision Affecting Nvidia and Broadcom Investors",
+          "summary": "Alphabet just raised capital and reaffirms guidance again.",
+          "pub": "2026-07-27T00:51",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/26/alphabets-ceo-sundar-pichai-just-made-a-major-deci/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "U.S. Memory Stock Pullback May Offer Investors a Fresh Buying Opportunity",
           "summary": "Morgan Stanley believes the recent decline in U. S.",
@@ -283,38 +384,99 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 20,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 10,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 53.6,
+      "confirm": 52.7,
+      "signal": 75.1,
+      "mom": {
+        "ret5": 0.0199,
+        "vol_surge": 0.78
+      },
+      "earn_days": 30,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-07-14",
+          "provider": "Keybanc",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Samsung Wins $200 Billion Order to Supply Chips to Broadcom",
-          "summary": "(Bloomberg) -- Samsung Electronics Co. won a contract worth more than $200 billion to make chips for Broadcom Inc., as the companies race to win a larger share of the AI infrastructure market.Most Read from BloombergRetina Chip Designed to Restore Sight to Go on Sale in EuropeApple Plans Overhaul of",
-          "pub": "2026-07-25T06:30",
-          "provider": "Bloomberg",
-          "url": "https://finance.yahoo.com/technology/ai/articles/samsung-wins-200-billion-order-063012683.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +受注"
+          "title": "This Quantum Stock Is a Key Nvidia Partner and Looks Like a Buy Near a 52-Week Low",
+          "summary": "Infleqtion is securing the right partnerships and customers that can set it up for a multiyear run when quantum computing is commercialized.",
+          "pub": "2026-07-27T03:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/26/this-quantum-stock-is-a-key-nvidia-partner-and-loo/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "South Korea's SK Hynix, Samsung Elec sign $950 billion partnership with US big tech",
-          "summary": "SEOUL, July 25 (Reuters) - South Korea's Samsung Electronics and SK Hynix will pursue memory chip supply partnership with U.S. big tech companies including Nvidia worth $950 billion overall, South",
-          "pub": "2026-07-25T04:37",
-          "provider": "Reuters",
-          "url": "https://finance.yahoo.com/technology/articles/south-koreas-sk-hynix-samsung-043721253.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
+          "title": "SK Hynix, Samsung Ink $950 Billion AI Chip Deals, But Stocks Still Slide",
+          "summary": "SK Hynix and Samsung signed $950 billion in AI chip deals with Nvidia and Broadcom, yet both stocks fell Monday as investors booked profits.",
+          "pub": "2026-07-27T03:36",
+          "provider": "BeInCrypto",
+          "url": "https://beincrypto.com/sk-hynix-samsung-ai-deals-stocks-fall/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Coinbase Is Down More Than 60% Over the Past 12 Months. Here's Why I'm Bearish on COIN Stock.",
+          "summary": "The cryptocurrency exchange faces a lot of macro, competitive, and regulatory headwinds.",
+          "pub": "2026-07-27T03:35",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/26/coinbase-is-down-more-than-50-over-the-past-12-mon/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "This Vanguard ETF Consistently Beats the S&P 500. Here's Why More Outperformance Is Possible.",
+          "summary": "This index fund consistently beats other large-cap indexes over the long term.",
+          "pub": "2026-07-27T03:29",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/26/this-vanguard-etf-consistently-beats-the-sp-500-he/",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
         }
       ]
     },
     {
       "ticker": "CRDO",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 10,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -326,7 +488,7 @@
         "ret5": 0.0517,
         "vol_surge": 0.54
       },
-      "earn_days": 38,
+      "earn_days": 37,
       "consensus": null,
       "headlines": [
         {
@@ -389,10 +551,10 @@
     {
       "ticker": "CDE",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 18,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
@@ -404,7 +566,7 @@
         "ret5": 0.0544,
         "vol_surge": 0.92
       },
-      "earn_days": 10,
+      "earn_days": 9,
       "consensus": null,
       "headlines": [
         {
@@ -423,7 +585,7 @@
     {
       "ticker": "ADI",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 9,
       "today_rank": 12,
@@ -438,7 +600,7 @@
         "ret5": -0.0093,
         "vol_surge": 0.73
       },
-      "earn_days": 24,
+      "earn_days": 23,
       "consensus": null,
       "headlines": [
         {
@@ -499,34 +661,12 @@
       ]
     },
     {
-      "ticker": "APA",
-      "tier": "確定",
-      "streak": 19,
-      "appearances": 15,
-      "best_rank": 21,
-      "today_rank": 23,
-      "first_seen": "2026-07-08",
-      "name": "APA Corporation",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 56.8,
-      "signal": 74.3,
-      "mom": {
-        "ret5": 0.0336,
-        "vol_surge": 0.78
-      },
-      "earn_days": 10,
-      "consensus": null,
-      "headlines": []
-    },
-    {
       "ticker": "HST",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 17,
-      "today_rank": 21,
+      "today_rank": 22,
       "first_seen": "2026-07-08",
       "name": "Host Hotels & Resorts, Inc.",
       "sector": "Real Estate",
@@ -538,7 +678,7 @@
         "ret5": 0.0234,
         "vol_surge": 0.79
       },
-      "earn_days": 10,
+      "earn_days": 9,
       "consensus": null,
       "headlines": [
         {
@@ -555,92 +695,9 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 19,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 11,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 49.9,
-      "confirm": 52.7,
-      "signal": 73.7,
-      "mom": {
-        "ret5": 0.0199,
-        "vol_surge": 0.78
-      },
-      "earn_days": 31,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-07-14",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Airbnb Is in the Spotlight for All the Right Reasons. Here's Why It's a Buy Now.",
-          "summary": "As one of the world's most disruptive businesses, this leading travel platform should be on every investor's radar.",
-          "pub": "2026-07-26T19:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/airbnb-is-in-the-spotlight-for-all-the-right-reaso/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Teva's Turnaround Is Working. Here's the 1 Thing That Could Send It Soaring Another 50%.",
-          "summary": "The pharmaceutical company has a likely blockbuster drug as the flagship of its pipeline.",
-          "pub": "2026-07-26T19:05",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/tevas-turnaround-is-working-heres-the-1-thing-that/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Buy These 2 Boring Industrial Infrastructure Stocks This Month",
-          "summary": "They're not the sort of names you brag about owning, but they'll certainly get the job done.",
-          "pub": "2026-07-26T18:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/buy-these-2-boring-industrial-stocks-in-july/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why a 15% Yield on Blue Chip Stocks Worries Even Income Investors",
-          "summary": "A 15% monthly yield from an ETF built on Warren Buffett's favorite blue chips sounds almost too good to question, but the math behind that payout reveals a fragile engine that few income investors fully understand before buying in.",
-          "pub": "2026-07-26T18:34",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/26/why-a-15-yield-on-blue-chip-stocks-worries-even-income-investors/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "AA",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 7,
       "today_rank": 13,
@@ -719,10 +776,10 @@
     {
       "ticker": "AGNC",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 18,
-      "today_rank": 22,
+      "today_rank": 23,
       "first_seen": "2026-07-08",
       "name": "AGNC Investment Corp.",
       "sector": "Real Estate",
@@ -748,6 +805,17 @@
           "type": "8-K 2.02",
           "why": "決算発表（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "A $550,000 Portfolio That Quietly Pays a 62-Year-Old $3,400 a Month Until Social Security Kicks In",
+          "summary": "Stopping work at 62 while waiting for a bigger Social Security check sounds clean on paper, but the math gets complicated fast when a portfolio has to carry the entire household for years. Here is how much capital different yield strategies actually require, and which tradeoffs could quietly wreck t",
+          "pub": "2026-07-26T19:52",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/personal-finance/2026/07/26/a-550000-portfolio-that-quietly-pays-a-62-year-old-3400-a-month-until-social-security-kicks-in/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "How Much of a $12,000 Monthly Dividend Paycheck Do You Actually Keep After Taxes?",
@@ -781,24 +849,13 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "How a 55-Year-Old Teacher Could Replace an $85,000 Salary With Dividend Growth Plus Covered Calls",
-          "summary": "Replacing an $85,000 teacher's salary with investment income sounds straightforward until you discover that choosing the wrong yield tier could cost you over a million dollars in required capital or quietly drain your purchasing power over a decade.",
-          "pub": "2026-07-23T23:09",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/personal-finance/2026/07/23/how-a-55-year-old-teacher-could-replace-an-85000-salary-with-dividend-growth-plus-covered-calls/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
     {
       "ticker": "ALAB",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 1,
       "today_rank": 2,
@@ -813,7 +870,7 @@
         "ret5": -0.0397,
         "vol_surge": 0.57
       },
-      "earn_days": 9,
+      "earn_days": 8,
       "consensus": null,
       "headlines": [
         {
@@ -876,7 +933,7 @@
     {
       "ticker": "PLTR",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 1,
       "today_rank": 4,
@@ -891,7 +948,7 @@
         "ret5": -0.0715,
         "vol_surge": 0.67
       },
-      "earn_days": 8,
+      "earn_days": 7,
       "consensus": {
         "buy": 12,
         "hold": 11,
@@ -933,22 +990,22 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Better AI Software Stock: Palantir vs. ServiceNow",
-          "summary": "Worries about AI making software companies obsolete may be overblown.",
-          "pub": "2026-07-26T16:07",
+          "title": "IBM Fell 25% as Hardware Spending Dominated AI Budgets. Palantir Sells What Runs on Top.",
+          "summary": "The same infrastructure investments that stalled one tech giant's software deals could fuel another's.",
+          "pub": "2026-07-27T02:50",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/better-ai-software-stock-palantir-vs-servicenow/",
+          "url": "https://www.fool.com/investing/2026/07/26/ibm-fell-25-as-hardware-spending-dominated-ai-budg/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Prediction: Palantir Stock Will Drop to This Price After Aug. 3",
-          "summary": "Palantir stock is down 30% so far in 2026, and more selling pressure could be on the way.",
-          "pub": "2026-07-26T07:12",
+          "title": "Better AI Software Stock: Palantir vs. ServiceNow",
+          "summary": "Worries about AI making software companies obsolete may be overblown.",
+          "pub": "2026-07-26T16:07",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/prediction-palantir-stock-will-drop-to-this-price/",
+          "url": "https://www.fool.com/investing/2026/07/26/better-ai-software-stock-palantir-vs-servicenow/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -959,7 +1016,7 @@
     {
       "ticker": "FLYW",
       "tier": "確定",
-      "streak": 19,
+      "streak": 20,
       "appearances": 15,
       "best_rank": 2,
       "today_rank": 5,
@@ -974,7 +1031,7 @@
         "ret5": -0.1236,
         "vol_surge": 0.84
       },
-      "earn_days": 9,
+      "earn_days": 8,
       "consensus": null,
       "headlines": [
         {
@@ -1010,6 +1067,126 @@
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-07-27",
+      "ticker": "BKR",
+      "signal": 80.4,
+      "price": 57.25,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "KGC",
+      "signal": 78.3,
+      "price": 23.85,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "AMD",
+      "signal": 77.7,
+      "price": 521.95,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "CNQ",
+      "signal": 77.7,
+      "price": 46.44,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "AVGO",
+      "signal": 77.0,
+      "price": 381.92,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "NVDA",
+      "signal": 75.1,
+      "price": 206.84,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "CRDO",
+      "signal": 75.0,
+      "price": 213.15,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "CDE",
+      "signal": 74.8,
+      "price": 15.13,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "ADI",
+      "signal": 74.7,
+      "price": 371.86,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "HST",
+      "signal": 73.9,
+      "price": 24.5,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "AA",
+      "signal": 73.1,
+      "price": 44.24,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "AGNC",
+      "signal": 71.9,
+      "price": 10.59,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "ALAB",
+      "signal": 71.3,
+      "price": 291.58,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "PLTR",
+      "signal": 70.2,
+      "price": 122.92,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "FLYW",
+      "signal": 68.6,
+      "price": 15.89,
+      "spy": 738.9299926757812,
+      "grades": {}
+    },
     {
       "date": "2026-07-26",
       "ticker": "BKR",
@@ -1047,126 +1224,6 @@
       "ticker": "AVGO",
       "signal": 75.5,
       "price": 381.92,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "CRDO",
-      "signal": 75.0,
-      "price": 213.15,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "CDE",
-      "signal": 74.8,
-      "price": 15.13,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "ADI",
-      "signal": 74.7,
-      "price": 371.86,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "NVDA",
-      "signal": 74.5,
-      "price": 206.84,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "HST",
-      "signal": 73.9,
-      "price": 24.5,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "AA",
-      "signal": 73.1,
-      "price": 44.24,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "AGNC",
-      "signal": 71.9,
-      "price": 10.59,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "ALAB",
-      "signal": 71.3,
-      "price": 291.58,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "PLTR",
-      "signal": 69.9,
-      "price": 122.92,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "FLYW",
-      "signal": 68.6,
-      "price": 15.89,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-26",
-      "ticker": "APA",
-      "signal": 74.3,
-      "price": 36.15,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-25",
-      "ticker": "AMKR",
-      "signal": 78.1,
-      "price": 64.96,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-25",
-      "ticker": "BKR",
-      "signal": 74.5,
-      "price": 57.25,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-25",
-      "ticker": "KGC",
-      "signal": 74.0,
-      "price": 23.85,
-      "spy": 738.9299926757812,
-      "grades": {}
-    },
-    {
-      "date": "2026-07-25",
-      "ticker": "CNQ",
-      "signal": 74.0,
-      "price": 46.44,
       "spy": 738.9299926757812,
       "grades": {}
     }
