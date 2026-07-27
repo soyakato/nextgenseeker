@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T04:03:02.407628+00:00",
+  "updated": "2026-07-27T10:09:55.859822+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,14 +8,14 @@
       "streak": 20,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 18,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Baker Hughes Company",
       "sector": "Energy",
       "persist": 100,
-      "news": 65.5,
+      "news": 64.4,
       "confirm": 57.0,
-      "signal": 80.4,
+      "signal": 79.9,
       "mom": {
         "ret5": 0.0232,
         "vol_surge": 1.0
@@ -23,6 +23,18 @@
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-07-27",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000021",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
         {
           "title": "SEC 8-K提出: 重要契約の締結・重要契約の終了・資産取得・売却完了・債務・オフバランス義務・Reg FD開示",
           "summary": "",
@@ -34,6 +46,17 @@
           "type": "8-K 1.01",
           "why": "重要契約の締結（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Do Record IET Orders and Chart Deal Synergies Change The Bull Case For Baker Hughes (BKR)?",
+          "summary": "Baker Hughes recently reported past second-quarter 2026 results showing sales of US$6,742 million and net income of US$681 million, while also declaring a US$0.23 per-share quarterly dividend funded from operating cash flow. The completion of the Chart Industries acquisition, now a new reporting seg",
+          "pub": "2026-07-27T09:14",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/record-iet-orders-chart-deal-091402748.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
         },
         {
           "title": "Baker Hughes Raises Outlook After Record Equipment Bookings",
@@ -52,28 +75,6 @@
           "pub": "2026-07-25T03:01",
           "provider": "StockStory",
           "url": "https://finance.yahoo.com/markets/stocks/articles/baker-hughes-bkr-q2-earnings-030100537.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Basin rig count down one as prices rise",
-          "summary": "The rig count in the Permian Basin was down one this week, the latest count Friday by Baker Hughes shows, with 258 rigs active in the region. A year ago, 260 rigs were active in the region. Nationally, the oil and gas rig count is down one from last week at 587 rigs. A year ago, 542 rigs were active",
-          "pub": "2026-07-25T00:01",
-          "provider": "Odessa American, Texas",
-          "url": "https://www.oaoa.com/?p=367323",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "US Oil Drillers Take A Break As Oil Prices Hover Near $100",
-          "summary": "The total number of active drilling rigs for oil and gas in the United States fell this week, according to new data that Baker Hughes published on Friday",
-          "pub": "2026-07-24T17:15",
-          "provider": "Oilprice.com",
-          "url": "https://finance.yahoo.com/energy/articles/us-oil-drillers-break-oil-171500014.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -159,9 +160,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.8,
+      "news": 56.2,
       "confirm": 64.2,
-      "signal": 77.7,
+      "signal": 77.8,
       "mom": {
         "ret5": 0.0528,
         "vol_surge": 0.89
@@ -306,167 +307,6 @@
           "conf": 0.6,
           "type": "格上げ",
           "why": "+格上げ"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 20,
-      "appearances": 15,
-      "best_rank": 8,
-      "today_rank": 17,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 58.5,
-      "confirm": 52.7,
-      "signal": 77.0,
-      "mom": {
-        "ret5": 0.0299,
-        "vol_surge": 0.58
-      },
-      "earn_days": 38,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SK Hynix, Samsung Ink $950 Billion AI Chip Deals, But Stocks Still Slide",
-          "summary": "SK Hynix and Samsung signed $950 billion in AI chip deals with Nvidia and Broadcom, yet both stocks fell Monday as investors booked profits.",
-          "pub": "2026-07-27T03:36",
-          "provider": "BeInCrypto",
-          "url": "https://beincrypto.com/sk-hynix-samsung-ai-deals-stocks-fall/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Alphabet CEO Sundar Pichai Just Made a Major Decision Affecting Nvidia and Broadcom Investors",
-          "summary": "Alphabet just raised capital and reaffirms guidance again.",
-          "pub": "2026-07-27T00:51",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/alphabets-ceo-sundar-pichai-just-made-a-major-deci/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "U.S. Memory Stock Pullback May Offer Investors a Fresh Buying Opportunity",
-          "summary": "Morgan Stanley believes the recent decline in U. S.",
-          "pub": "2026-07-25T13:00",
-          "provider": "InvestorsHub",
-          "url": "https://investorshub.advfn.com/market-news/article/32655/u-s-memory-stock-pullback-may-offer-investors-a-fresh-buying-opportunity-2",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Samsung and SK Hynix unveil $950 billion U.S. chip supply partnerships",
-          "summary": "Investing.com -- Samsung Electronics and SK Hynix will pursue memory-chip supply partnerships with major U.S. technology companies valued at a combined $950 billion, Reuters reported, citing South Korean presidential adviser Kim Yong-beom.",
-          "pub": "2026-07-25T07:48",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/samsung-sk-hynix-unveil-950-074847076.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Samsung Elec, SK Group seal $950 billion deals as South Korea hosts AI powers",
-          "summary": "By Max A.",
-          "pub": "2026-07-25T07:23",
-          "provider": "Reuters",
-          "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-president-lee-looking-003232888.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 20,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 10,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.6,
-      "confirm": 52.7,
-      "signal": 75.1,
-      "mom": {
-        "ret5": 0.0199,
-        "vol_surge": 0.78
-      },
-      "earn_days": 30,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-07-14",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "This Quantum Stock Is a Key Nvidia Partner and Looks Like a Buy Near a 52-Week Low",
-          "summary": "Infleqtion is securing the right partnerships and customers that can set it up for a multiyear run when quantum computing is commercialized.",
-          "pub": "2026-07-27T03:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/this-quantum-stock-is-a-key-nvidia-partner-and-loo/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "SK Hynix, Samsung Ink $950 Billion AI Chip Deals, But Stocks Still Slide",
-          "summary": "SK Hynix and Samsung signed $950 billion in AI chip deals with Nvidia and Broadcom, yet both stocks fell Monday as investors booked profits.",
-          "pub": "2026-07-27T03:36",
-          "provider": "BeInCrypto",
-          "url": "https://beincrypto.com/sk-hynix-samsung-ai-deals-stocks-fall/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Coinbase Is Down More Than 60% Over the Past 12 Months. Here's Why I'm Bearish on COIN Stock.",
-          "summary": "The cryptocurrency exchange faces a lot of macro, competitive, and regulatory headwinds.",
-          "pub": "2026-07-27T03:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/coinbase-is-down-more-than-50-over-the-past-12-mon/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "This Vanguard ETF Consistently Beats the S&P 500. Here's Why More Outperformance Is Possible.",
-          "summary": "This index fund consistently beats other large-cap indexes over the long term.",
-          "pub": "2026-07-27T03:29",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/this-vanguard-etf-consistently-beats-the-sp-500-he/",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
         }
       ]
     },
@@ -682,11 +522,100 @@
       "consensus": null,
       "headlines": [
         {
+          "title": "Beyond Broadband: What Could Power Comcast Stock From Here?",
+          "summary": "While everyone obsesses over broadband subscriber counts, a different business inside Comcast is quietly hitting record after record.",
+          "pub": "2026-07-27T08:46",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/608936/beyond-broadband-what-could-power-comcast-stock-from-here/2026-07-27",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Howmet Aerospace Stock And The Sound Of One Hand Clapping",
           "summary": "Management raised its full-year profit forecast by double digits, but the market seems to be waiting for a second opinion.",
           "pub": "2026-07-24T12:10",
           "provider": "Trefis",
           "url": "https://www.trefis.com/articles/608766/howmet-aerospace-stock-and-the-sound-of-one-hand-clapping/2026-07-24",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 20,
+      "appearances": 15,
+      "best_rank": 8,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 52.7,
+      "signal": 73.7,
+      "mom": {
+        "ret5": 0.0299,
+        "vol_surge": 0.58
+      },
+      "earn_days": 38,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Why is Bernstein bullish on memory stocks after Samsung, Nvidia deals?",
+          "summary": "Investing.com -- Bernstein has reiterated its bullish stance on memory chipmakers following a wave of multibillion-dollar partnerships announced at an AI Summit hosted by the South Korean government in San Francisco on Friday, where Samsung, SK Hynix, Nvidia and Broadcom unveiled new agreements span",
+          "pub": "2026-07-27T09:51",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/articles/why-bernstein-bullish-memory-stocks-095139149.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Intel More Than Quadrupled In A Year, So Why Has It Cooled",
+          "summary": "The company spent the past year going from survival questions to one of the market's biggest gainers, which makes its retreat from the high the more interesting story.",
+          "pub": "2026-07-27T09:14",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/608973/intel-more-than-quadrupled-in-a-year-so-why-has-it-cooled/2026-07-27",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why Cheap QCOM Stock Fails Part Of The Value Test",
+          "summary": "A leader in mobile technology is trading at a steep discount to the market, forcing investors to decide if the price reflects a temporary problem or a permanent decline.",
+          "pub": "2026-07-27T08:46",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/608939/why-cheap-qcom-stock-fails-part-of-the-value-test/2026-07-27",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "SK Hynix, Samsung Ink $950 Billion AI Chip Deals, But Stocks Still Slide",
+          "summary": "SK Hynix and Samsung signed $950 billion in AI chip deals with Nvidia and Broadcom, yet both stocks fell Monday as investors booked profits.",
+          "pub": "2026-07-27T03:36",
+          "provider": "BeInCrypto",
+          "url": "https://beincrypto.com/sk-hynix-samsung-ai-deals-stocks-fall/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Alphabet CEO Sundar Pichai Just Made a Major Decision Affecting Nvidia and Broadcom Investors",
+          "summary": "Alphabet just raised capital and reaffirms guidance again.",
+          "pub": "2026-07-27T00:51",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/26/alphabets-ceo-sundar-pichai-just-made-a-major-deci/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -766,6 +695,89 @@
           "pub": "2026-07-20T23:47",
           "provider": "Stocktwits",
           "url": "https://stocktwits.com/news-articles/markets/equity/trump-signs-orders-on-aluminum-and-defense-supply-chains-aa-kalu-cenx-mp-stocks-in-focus/cZZikEER7H9",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 20,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 10,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 47.3,
+      "confirm": 52.7,
+      "signal": 72.7,
+      "mom": {
+        "ret5": 0.0199,
+        "vol_surge": 0.78
+      },
+      "earn_days": 30,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-07-14",
+          "provider": "Keybanc",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Why is Bernstein bullish on memory stocks after Samsung, Nvidia deals?",
+          "summary": "Investing.com -- Bernstein has reiterated its bullish stance on memory chipmakers following a wave of multibillion-dollar partnerships announced at an AI Summit hosted by the South Korean government in San Francisco on Friday, where Samsung, SK Hynix, Nvidia and Broadcom unveiled new agreements span",
+          "pub": "2026-07-27T09:51",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/articles/why-bernstein-bullish-memory-stocks-095139149.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "If I Could Tell Every Investor 1 Thing About the Next Bear Market, It's This",
+          "summary": "A bear market is coming eventually. Here's how to prepare.",
+          "pub": "2026-07-27T09:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/27/if-i-could-tell-every-investor-1-thing-about-the-n/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Cathie Wood's Ark Bought $21.3 Million of SpaceX Stock as Shares Fell 45% From Their Record High. Wall Street's Median Price Target Is $243.81, 111.5% Above the Current Close.",
+          "summary": "Cathie Wood's investment fund is heavily invested in SpaceX stock.",
+          "pub": "2026-07-27T09:45",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/27/cathie-woods-ark-bought-213-million-of-spacex-stoc/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Solana and Hyperliquid ETFs Continue to See New Inflows. Should Investors Be Bullish on SOL and HYPE?",
+          "summary": "Just as other crypto majors are struggling, these two are exhibiting some strength.",
+          "pub": "2026-07-27T09:36",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/27/solana-and-hyperliquid-etfs-continue-to-see-new-in/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -941,9 +953,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.9,
+      "news": 50.1,
       "confirm": 23.6,
-      "signal": 70.2,
+      "signal": 69.5,
       "mom": {
         "ret5": -0.0715,
         "vol_surge": 0.67
@@ -990,22 +1002,22 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "IBM Fell 25% as Hardware Spending Dominated AI Budgets. Palantir Sells What Runs on Top.",
-          "summary": "The same infrastructure investments that stalled one tech giant's software deals could fuel another's.",
-          "pub": "2026-07-27T02:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/ibm-fell-25-as-hardware-spending-dominated-ai-budg/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Nvidia rallies the open AI camp",
+          "summary": "Tech companies are rallying behind open weight AI models — and not just the usual suspects.",
+          "pub": "2026-07-27T09:01",
+          "provider": "Axios",
+          "url": "https://www.axios.com/2026/07/27/nvidia-anthropic-openai-open-weight-debate#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
         },
         {
-          "title": "Better AI Software Stock: Palantir vs. ServiceNow",
-          "summary": "Worries about AI making software companies obsolete may be overblown.",
-          "pub": "2026-07-26T16:07",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/26/better-ai-software-stock-palantir-vs-servicenow/",
+          "title": "The Growth That Has to Land for Palantir Stock to Make Sense",
+          "summary": "The software firm’s shares look expensive, but a look at future earnings reveals a very different picture.",
+          "pub": "2026-07-27T08:46",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/608955/the-growth-that-has-to-land-for-palantir-stock-to-make-sense/2026-07-27",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
