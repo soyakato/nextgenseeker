@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T03:36:47.460063+00:00",
+  "updated": "2026-07-28T09:05:13.656959+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,17 +8,17 @@
       "streak": 21,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 12,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Baker Hughes Company",
       "sector": "Energy",
       "persist": 100,
       "news": 65.3,
-      "confirm": 82.1,
+      "confirm": 82.7,
       "signal": 84.0,
       "mom": {
         "ret5": 0.0986,
-        "vol_surge": 1.17
+        "vol_surge": 1.21
       },
       "earn_days": null,
       "consensus": null,
@@ -83,6 +83,85 @@
       ]
     },
     {
+      "ticker": "AMKR",
+      "tier": "確定",
+      "streak": 21,
+      "appearances": 15,
+      "best_rank": 16,
+      "today_rank": 24,
+      "first_seen": "2026-07-08",
+      "name": "Amkor Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 67.5,
+      "confirm": 41.4,
+      "signal": 78.7,
+      "mom": {
+        "ret5": -0.0296,
+        "vol_surge": 1.02
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-07-27",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Why Is AMKR Stock Tumbling Premarket Today?",
+          "summary": "Amkor stock falls premarket after weaker Q3 revenue guidance offsets earnings beat.",
+          "pub": "2026-07-28T08:55",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/why-is-amkr-stock-tumbling-premarket-today/cZZCKSvRJGK",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "Amkor Technology Inc (AMKR) Q2 2026 Earnings Call Highlights: Record Revenue and Strategic ...",
+          "summary": "Amkor Technology Inc (AMKR) reports a 26% revenue increase and announces key partnerships, despite challenges in the communications sector.",
+          "pub": "2026-07-28T05:00",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-inc-amkr-q2-050029769.html",
+          "dir": 0.7,
+          "conf": 0.7,
+          "type": "記録更新",
+          "why": "+記録更新"
+        },
+        {
+          "title": "Amkor Technology Q2 Earnings Call Highlights",
+          "summary": "Amkor Technology (NASDAQ:AMKR) reported record second-quarter revenue of $1.9 billion, up 13% sequentially and 26% from a year earlier, as growth in computing and automotive and industrial markets helped the semiconductor packaging and test company exceed the high end of its guidance. Chief Executi",
+          "pub": "2026-07-27T22:02",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/amkor-technology-q2-earnings-call-highlights-2026-07-27/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Compared to Estimates, Amkor Technology (AMKR) Q2 Earnings: A Look at Key Metrics",
+          "summary": "The headline numbers for Amkor Technology (AMKR) give insight into how the company performed in the quarter ended June 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals.",
+          "pub": "2026-07-27T22:00",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-amkor-technology-amkr-220002565.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 21,
@@ -94,11 +173,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 58.0,
-      "confirm": 63.3,
+      "confirm": 63.6,
       "signal": 78.4,
       "mom": {
         "ret5": 0.0617,
-        "vol_surge": 0.65
+        "vol_surge": 0.67
       },
       "earn_days": 1,
       "consensus": null,
@@ -144,17 +223,17 @@
       "streak": 21,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 15,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 62.5,
-      "confirm": 46.5,
-      "signal": 77.7,
+      "confirm": 43.8,
+      "signal": 77.1,
       "mom": {
-        "ret5": -0.0015,
-        "vol_surge": 0.8
+        "ret5": -0.0092,
+        "vol_surge": 0.77
       },
       "earn_days": 22,
       "consensus": null,
@@ -229,7 +308,7 @@
       "persist": 100,
       "news": 63.9,
       "confirm": 38.1,
-      "signal": 77.0,
+      "signal": 76.8,
       "mom": {
         "ret5": -0.0246,
         "vol_surge": 0.7
@@ -300,101 +379,22 @@
       ]
     },
     {
-      "ticker": "AMKR",
-      "tier": "確定",
-      "streak": 21,
-      "appearances": 15,
-      "best_rank": 16,
-      "today_rank": 23,
-      "first_seen": "2026-07-08",
-      "name": "Amkor Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 61.9,
-      "confirm": 41.3,
-      "signal": 76.7,
-      "mom": {
-        "ret5": -0.0296,
-        "vol_surge": 1.01
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-07-27",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Amkor Technology Q2 Earnings Call Highlights",
-          "summary": "Amkor Technology (NASDAQ:AMKR) reported record second-quarter revenue of $1.9 billion, up 13% sequentially and 26% from a year earlier, as growth in computing and automotive and industrial markets helped the semiconductor packaging and test company exceed the high end of its guidance. Chief Executi",
-          "pub": "2026-07-27T22:02",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/amkor-technology-q2-earnings-call-highlights-2026-07-27/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Compared to Estimates, Amkor Technology (AMKR) Q2 Earnings: A Look at Key Metrics",
-          "summary": "The headline numbers for Amkor Technology (AMKR) give insight into how the company performed in the quarter ended June 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals.",
-          "pub": "2026-07-27T22:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-amkor-technology-amkr-220002565.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Amkor Technology (AMKR) Q2 Earnings and Revenues Beat Estimates",
-          "summary": "Amkor Technology (AMKR) delivered earnings and revenue surprises of +48.94% and +5.25%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "pub": "2026-07-27T21:35",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-amkr-q2-earnings-213502773.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "AMKR Stock Trims After-Hours Rally As Weak Q3 Outlook Offsets Strong Q2 Earnings",
-          "summary": "Amkor topped Wall Street’s second-quarter estimates, but weaker-than-expected third-quarter sales guidance tempered investor enthusiasm.",
-          "pub": "2026-07-27T21:33",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/amkr-stock-trims-after-hours-rally-as-weak-q3-outlook-offsets-strong-q2-earnings/cZZxMVcR76u",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        }
-      ]
-    },
-    {
       "ticker": "CDE",
       "tier": "確定",
       "streak": 21,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 17,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 48.0,
-      "confirm": 74.7,
+      "confirm": 75.0,
       "signal": 76.2,
       "mom": {
         "ret5": 0.0847,
-        "vol_surge": 0.95
+        "vol_surge": 0.97
       },
       "earn_days": 8,
       "consensus": null,
@@ -418,17 +418,17 @@
       "streak": 21,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 22,
+      "today_rank": 27,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
       "persist": 100,
       "news": 57.3,
-      "confirm": 49.7,
+      "confirm": 50.0,
       "signal": 76.1,
       "mom": {
         "ret5": 0.0191,
-        "vol_surge": 0.6
+        "vol_surge": 0.62
       },
       "earn_days": 9,
       "consensus": null,
@@ -496,17 +496,17 @@
       "streak": 21,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 19,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.1,
-      "confirm": 48.2,
-      "signal": 74.7,
+      "news": 54.6,
+      "confirm": 48.5,
+      "signal": 74.8,
       "mom": {
         "ret5": 0.0134,
-        "vol_surge": 0.61
+        "vol_surge": 0.63
       },
       "earn_days": 37,
       "consensus": null,
@@ -534,6 +534,17 @@
           "why": "特定イベント検出なし"
         },
         {
+          "title": "Big Tech credit risks rise sharply as AI spending soars",
+          "summary": "A closely watched gauge of risk in holding the debt of companies at the centre of the AI boom is rising rapidly, underscoring growing jitters...",
+          "pub": "2026-07-27T20:55",
+          "provider": "Financial Times",
+          "url": "https://finance.yahoo.com/technology/articles/big-tech-credit-risks-rise-205503982.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
           "title": "Nvidia in Talks to Finance OpenAI, Report Says. What It Means for the Stock.",
           "summary": "Chip stocks fell sharply in morning trading after a report emerged that a state-backed Chinese company has started mass producing chip-making machines.  Nvidia has missed out on the chip rally, up just 5.4% this year compared with the  (SOX) 63% rise—the index that tracks the 30 biggest U.S.-listed",
           "pub": "2026-07-27T20:32",
@@ -554,17 +565,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Should You Buy Broadcom Stock While It's Under $400?",
-          "summary": "The tech stock is down more than 20% from its high.",
-          "pub": "2026-07-27T17:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/27/should-you-buy-broadcom-stock-while-its-under-400/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -574,14 +574,14 @@
       "streak": 21,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 11,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
       "confirm": 49.0,
-      "signal": 73.2,
+      "signal": 73.1,
       "mom": {
         "ret5": 0.0138,
         "vol_surge": 0.66
@@ -649,7 +649,7 @@
       "persist": 100,
       "news": 49.4,
       "confirm": 44.3,
-      "signal": 72.3,
+      "signal": 72.2,
       "mom": {
         "ret5": -0.0171,
         "vol_surge": 0.96
@@ -725,14 +725,14 @@
       "streak": 21,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 9,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
       "news": 51.0,
       "confirm": 37.7,
-      "signal": 71.9,
+      "signal": 71.8,
       "mom": {
         "ret5": -0.0185,
         "vol_surge": 0.55
@@ -803,17 +803,17 @@
       "streak": 21,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 24,
+      "today_rank": 26,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 43.1,
-      "confirm": 56.0,
+      "confirm": 56.6,
       "signal": 71.6,
       "mom": {
         "ret5": 0.0244,
-        "vol_surge": 0.91
+        "vol_surge": 0.95
       },
       "earn_days": 43,
       "consensus": null,
@@ -882,14 +882,14 @@
       "streak": 21,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 13,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 48.7,
+      "news": 49.1,
       "confirm": 38.4,
-      "signal": 71.1,
+      "signal": 71.2,
       "mom": {
         "ret5": -0.0333,
         "vol_surge": 0.89
@@ -914,48 +914,48 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Nvidia reportedly in talks to finance OpenAI's massive Ohio data center",
-          "summary": "Chipmaker Nvidia (NVDA) is reportedly in talks with OpenAI (OPAI.PVT) to help fund a $250 billion backstop, according to the Wall Street Journal, that would guarantee the latter's plans for an AI data center in Ohio. Yahoo Finance Tech Editor Dan Howley touches on the investor concerns this possible",
-          "pub": "2026-07-27T20:46",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/nvidia-reportedly-in-talks-to-finance-openais-massive-ohio-data-center-204640730.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Semiconductor stock charts just formed this bearish shape that signals more potential losses",
-          "summary": "Look out below for semis?",
-          "pub": "2026-07-27T14:54",
+          "title": "Stock market today: S&P 500, Nasdaq futures slide as chip sell-off deepens",
+          "summary": "Concerns about the AI boom's sustainability offset the market impact of falling oil prices and earnings optimism.",
+          "pub": "2026-07-28T08:28",
           "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/semiconductor-stock-charts-just-formed-this-bearish-shape-that-signals-more-potential-losses-145440205.html",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-28-dow-sp-500-nasdaq-082832371.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Nvidia drops nearly 5%, leading chip stocks lower amid renewed worries of circular financing",
+          "summary": "Growing fears of AI circular financing sent shares of Nvidia and the rest of the chip sector lower.",
+          "pub": "2026-07-27T19:33",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-drops-nearly-5-leading-chip-stocks-lower-amid-renewed-worries-of-circular-financing-193309793.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Marvell Technology vs. UiPath: Which Tech Stock Is a Better Buy in 2026?",
-          "summary": "Marvell trades at a premium valuation with higher growth, while UiPath offers a cheaper entry point with a lower growth profile.",
-          "pub": "2026-07-28T03:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/better-buy/2026/07/27/marvell-technology-vs-uipath-which-tech-stock-is-a-better-buy-in-2026/",
+          "title": "Apple overtakes Nvidia as most valuable company as iPhone maker avoids 'capex pitfalls'",
+          "summary": "Apple stock has climbed more than 22% year to date, with investors rewarding the iPhone maker for its capex-light approach to AI spending.",
+          "pub": "2026-07-27T15:03",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/apple-overtakes-nvidia-as-most-valuable-company-as-iphone-maker-avoids-capex-pitfalls-150316032.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Prediction: This Beaten-Down Growth Stock Will Soar in August",
-          "summary": "Sweetgreen looks poised to pop.",
-          "pub": "2026-07-28T03:05",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/27/prediction-this-beaten-down-growth-stock-will-soar/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "title": "Nasdaq futures drop on AI chip worries ahead of pivotal earnings",
+          "summary": "July 28 (Reuters) - Nasdaq futures fell on Tuesday, mirroring a cautious mood across global markets toward AI chip stocks on concerns about hefty corporate spending and rising Chinese competition,",
+          "pub": "2026-07-28T08:59",
+          "provider": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-drop-ai-chip-085903477.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -965,14 +965,14 @@
       "streak": 21,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 2,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 51.6,
       "confirm": 18.5,
-      "signal": 69.3,
+      "signal": 69.2,
       "mom": {
         "ret5": -0.086,
         "vol_surge": 0.62
@@ -1049,11 +1049,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 18.1,
-      "signal": 68.7,
+      "confirm": 17.3,
+      "signal": 68.4,
       "mom": {
-        "ret5": -0.1048,
-        "vol_surge": 0.87
+        "ret5": -0.1098,
+        "vol_surge": 0.82
       },
       "earn_days": 7,
       "consensus": null,
