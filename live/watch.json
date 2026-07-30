@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T03:29:31.889591+00:00",
+  "updated": "2026-07-30T08:50:40.800642+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -15,7 +15,7 @@
       "persist": 100,
       "news": 63.7,
       "confirm": 67.2,
-      "signal": 80.2,
+      "signal": 79.5,
       "mom": {
         "ret5": 0.0375,
         "vol_surge": 1.4
@@ -88,17 +88,17 @@
       "streak": 23,
       "appearances": 15,
       "best_rank": 17,
-      "today_rank": 26,
+      "today_rank": 24,
       "first_seen": "2026-07-08",
       "name": "Host Hotels & Resorts, Inc.",
       "sector": "Real Estate",
       "persist": 100,
       "news": 51.1,
-      "confirm": 62.4,
-      "signal": 74.4,
+      "confirm": 62.7,
+      "signal": 73.5,
       "mom": {
         "ret5": 0.0424,
-        "vol_surge": 0.98
+        "vol_surge": 1.0
       },
       "earn_days": 6,
       "consensus": null,
@@ -155,17 +155,17 @@
       "streak": 23,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 14,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 66.7,
-      "confirm": 23.1,
-      "signal": 74.1,
+      "confirm": 23.5,
+      "signal": 73.1,
       "mom": {
         "ret5": -0.0863,
-        "vol_surge": 0.93
+        "vol_surge": 0.96
       },
       "earn_days": 20,
       "consensus": null,
@@ -234,17 +234,17 @@
       "streak": 23,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 4,
+      "today_rank": 5,
       "first_seen": "2026-07-08",
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 55.3,
-      "confirm": 42.3,
-      "signal": 72.8,
+      "confirm": 42.5,
+      "signal": 71.7,
       "mom": {
         "ret5": -0.0126,
-        "vol_surge": 0.74
+        "vol_surge": 0.75
       },
       "earn_days": 4,
       "consensus": {
@@ -312,6 +312,51 @@
       ]
     },
     {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 23,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 46.2,
+      "signal": 70.2,
+      "mom": {
+        "ret5": 0.0012,
+        "vol_surge": 0.72
+      },
+      "earn_days": 5,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Here Are Friday’s Top Wall Street Analyst Research Calls: Albertsons, Blue Owl Capital, Cleveland-Cliffs, Chime Financial, Digital Realty, Dover, PayPal Holdings, SpaceX, and More",
+          "summary": "Markets took a brutal hit Thursday as oil prices, surging interest rates, and Middle East tensions sent every major index deep into the red. See which stocks analysts are upgrading, downgrading, and initiating fresh coverage on as Wall Street braces for more turbulence.",
+          "pub": "2026-07-24T12:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/24/here-are-fridays-top-wall-street-analyst-research-calls-albertsons-blue-owl-capital-cleveland-cliffs-chime-financial-digital-realty-dover-paypal-holdings-spacex-and-more/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Flywire (FLYW) Could Be 13% Undervalued As Earnings Near",
+          "summary": "Upcoming earnings release puts Flywire (FLYW) in focus Flywire (FLYW) has set a date for its next key event, with second quarter 2026 results scheduled for release after market close on Tuesday, August 4, followed by a management-led conference call. See our latest analysis for Flywire. Flywire's sh",
+          "pub": "2026-07-23T12:11",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-could-13-undervalued-121108696.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AMKR",
       "tier": "確定",
       "streak": 23,
@@ -323,11 +368,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 54.4,
-      "confirm": 35.9,
-      "signal": 71.3,
+      "confirm": 36.0,
+      "signal": 70.2,
       "mom": {
         "ret5": -0.362,
-        "vol_surge": 2.06
+        "vol_surge": 2.07
       },
       "earn_days": null,
       "consensus": null,
@@ -391,43 +436,76 @@
       ]
     },
     {
-      "ticker": "FLYW",
+      "ticker": "AVGO",
       "tier": "確定",
       "streak": 23,
       "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 2,
+      "best_rank": 8,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
+      "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.0,
-      "confirm": 45.9,
-      "signal": 71.2,
+      "news": 58.4,
+      "confirm": 25.6,
+      "signal": 70.1,
       "mom": {
-        "ret5": 0.0012,
-        "vol_surge": 0.7
+        "ret5": -0.0668,
+        "vol_surge": 0.71
       },
-      "earn_days": 5,
+      "earn_days": 35,
       "consensus": null,
       "headlines": [
         {
-          "title": "Here Are Friday’s Top Wall Street Analyst Research Calls: Albertsons, Blue Owl Capital, Cleveland-Cliffs, Chime Financial, Digital Realty, Dover, PayPal Holdings, SpaceX, and More",
-          "summary": "Markets took a brutal hit Thursday as oil prices, surging interest rates, and Middle East tensions sent every major index deep into the red. See which stocks analysts are upgrading, downgrading, and initiating fresh coverage on as Wall Street braces for more turbulence.",
-          "pub": "2026-07-24T12:00",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/24/here-are-fridays-top-wall-street-analyst-research-calls-albertsons-blue-owl-capital-cleveland-cliffs-chime-financial-digital-realty-dover-paypal-holdings-spacex-and-more/",
+          "title": "Kospi sell-off deepens, Why leveraged ETFs are under fire",
+          "summary": "The KOSPI Composite Index (^KS11) rout continues, prompting South Korea's Finance Minister to apologize for introducing leveraged ETFs. Yahoo Finance Markets and Data Editor joins Julie Hyman on Market Domination to break down how these high-risk funds work, why they're fueling concern, and the key",
+          "pub": "2026-07-29T15:51",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/kospi-sell-off-deepens-why-leveraged-etfs-are-under-fire-155119000.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Is Broadcom (AVGO) Stock Below Fair Value After Its AI Deals?",
+          "summary": "Broadcom stock has pulled back recently after a very strong multi year run, yet on current checks it still screens as undervalued based on both a Discounted Cash Flow (DCF) intrinsic value estimate and earnings multiples. Broadcom has delivered a very large 5 year return of about 7x, which means any",
+          "pub": "2026-07-30T01:09",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-stock-below-fair-010921113.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Flywire (FLYW) Could Be 13% Undervalued As Earnings Near",
-          "summary": "Upcoming earnings release puts Flywire (FLYW) in focus Flywire (FLYW) has set a date for its next key event, with second quarter 2026 results scheduled for release after market close on Tuesday, August 4, followed by a management-led conference call. See our latest analysis for Flywire. Flywire's sh",
-          "pub": "2026-07-23T12:11",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-could-13-undervalued-121108696.html",
+          "title": "Samsung’s Chip Profit Soars Over 250-Fold on AI Memory Shortages",
+          "summary": "(Bloomberg) -- Samsung Electronics Co.’s semiconductor arm reported a more than 250-fold jump in profit after AI’s reliance on memory delivered hefty margins. Most Read from BloombergStocks Fall as 30-Year Bond Yields Surge After Fed: Markets WrapWarner Bros. Deal Collapse Would Cost the Ellisons $9",
+          "pub": "2026-07-30T00:06",
+          "provider": "Bloomberg",
+          "url": "https://finance.yahoo.com/technology/ai/articles/samsung-chip-profit-soars-over-000605123.html",
+          "dir": 0.9,
+          "conf": 0.8999999999999999,
+          "type": "契約・提携",
+          "why": "+契約・提携 +急騰報道"
+        },
+        {
+          "title": "Which Company Will Win the Race to $3 Trillion -- Amazon, Broadcom, or Taiwan Semiconductor?",
+          "summary": "The $3 trillion market cap club will be crowded in 2027.",
+          "pub": "2026-07-29T22:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/29/which-company-will-win-the-race-to-3-trillion-amaz/",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
+        },
+        {
+          "title": "Broadcom Inc. (AVGO) Falls More Steeply Than Broader Market: What Investors Need to Know",
+          "summary": "Broadcom Inc. (AVGO) closed the most recent trading day at $370.35, moving 2.77% from the previous trading session.",
+          "pub": "2026-07-29T21:45",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-falls-more-214502886.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -441,14 +519,14 @@
       "streak": 23,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 19,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 56.0,
       "confirm": 24.1,
-      "signal": 70.1,
+      "signal": 68.8,
       "mom": {
         "ret5": -0.0764,
         "vol_surge": 0.8
@@ -481,100 +559,22 @@
       ]
     },
     {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 23,
-      "appearances": 15,
-      "best_rank": 8,
-      "today_rank": 18,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.4,
-      "confirm": 25.6,
-      "signal": 69.3,
-      "mom": {
-        "ret5": -0.0668,
-        "vol_surge": 0.71
-      },
-      "earn_days": 35,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Kospi sell-off deepens, Why leveraged ETFs are under fire",
-          "summary": "The KOSPI Composite Index (^KS11) rout continues, prompting South Korea's Finance Minister to apologize for introducing leveraged ETFs. Yahoo Finance Markets and Data Editor joins Julie Hyman on Market Domination to break down how these high-risk funds work, why they're fueling concern, and the key",
-          "pub": "2026-07-29T15:51",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/kospi-sell-off-deepens-why-leveraged-etfs-are-under-fire-155119000.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Is Broadcom (AVGO) Stock Below Fair Value After Its AI Deals?",
-          "summary": "Broadcom stock has pulled back recently after a very strong multi year run, yet on current checks it still screens as undervalued based on both a Discounted Cash Flow (DCF) intrinsic value estimate and earnings multiples. Broadcom has delivered a very large 5 year return of about 7x, which means any",
-          "pub": "2026-07-30T01:09",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-stock-below-fair-010921113.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Which Company Will Win the Race to $3 Trillion -- Amazon, Broadcom, or Taiwan Semiconductor?",
-          "summary": "The $3 trillion market cap club will be crowded in 2027.",
-          "pub": "2026-07-29T22:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/29/which-company-will-win-the-race-to-3-trillion-amaz/",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "Broadcom Inc. (AVGO) Falls More Steeply Than Broader Market: What Investors Need to Know",
-          "summary": "Broadcom Inc. (AVGO) closed the most recent trading day at $370.35, moving 2.77% from the previous trading session.",
-          "pub": "2026-07-29T21:45",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-falls-more-214502886.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Tesla Stock Breaks $300. How Far It Needs to Fall to Lose Trillion-Dollar Status.",
-          "summary": "The shares dropped for five consecutive days, including a four-day losing streak since the car maker reported weaker-than-expected second-quarter earnings.",
-          "pub": "2026-07-29T20:29",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/tesla-stock-price-trillion-dollars-a53cdd8b?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 23,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 9,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 32.8,
-      "signal": 69.1,
+      "confirm": 32.9,
+      "signal": 67.9,
       "mom": {
         "ret5": -0.0425,
-        "vol_surge": 0.7
+        "vol_surge": 0.71
       },
       "earn_days": null,
       "consensus": null,
@@ -609,14 +609,14 @@
       "streak": 23,
       "appearances": 15,
       "best_rank": 15,
-      "today_rank": 20,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Dell Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 56.2,
       "confirm": 16.7,
-      "signal": 68.9,
+      "signal": 67.6,
       "mom": {
         "ret5": -0.1633,
         "vol_surge": 0.78
@@ -693,11 +693,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.9,
-      "confirm": 21.1,
-      "signal": 67.5,
+      "confirm": 21.2,
+      "signal": 66.2,
       "mom": {
         "ret5": -0.2223,
-        "vol_surge": 1.07
+        "vol_surge": 1.08
       },
       "earn_days": 5,
       "consensus": {
@@ -770,14 +770,14 @@
       "streak": 23,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 15,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
       "confirm": 23.2,
-      "signal": 67.5,
+      "signal": 66.2,
       "mom": {
         "ret5": -0.0713,
         "vol_surge": 0.64
@@ -818,13 +818,69 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CRDO",
+      "tier": "確定",
+      "streak": 23,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 12,
+      "first_seen": "2026-07-08",
+      "name": "Credo Technology Group Holding ",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 15.3,
+      "signal": 64.9,
+      "mom": {
+        "ret5": -0.2226,
+        "vol_surge": 0.69
+      },
+      "earn_days": 34,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "The Zacks Analyst Blog Highlights Credo Technology, Broadcom, Marvell Technology and Astera Labs",
+          "summary": "CRDO, AVGO, MRVL and ALAB are riding booming AI data center networking demand as faster Ethernet, optics and interconnect technologies fuel growth.",
+          "pub": "2026-07-24T11:09",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-credo-110900427.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Empire Metals strengthens management team",
-          "summary": "Empire Metals Ltd (AIM:EEE, OTCQX:EPMLF) has strengthened its project delivery and environmental approvals team as it pushes the Pitfield Titanium Project through feasibility studies towards commercial development. The company appointed Chris Dodds as general manager for project delivery,...",
-          "pub": "2026-07-23T06:31",
-          "provider": "Proactive",
-          "url": "https://www.proactiveinvestors.com/companies/news/1095924/empire-metals-strengthens-management-team-1095924.html",
+          "title": "Should Credo’s Projected US$600 Million AI Optics Ramp Reshape CRDO’s Core Investment Thesis?",
+          "summary": "In recent days, Credo Technology Group Holding has highlighted a sharp ramp in its optical networking business, with management projecting more than 80% revenue growth in fiscal 2027, including over US$600.00 million from products such as ZeroFlap optics, silicon photonics, photonic integrated circu",
+          "pub": "2026-07-23T20:11",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/credo-projected-us-600-million-201102943.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Credo or Marvell: Who Leads the AI Connectivity Race?",
+          "summary": "Two semiconductor giants are chasing the same hyperscaler dollars with radically different strategies, and only one can sustain its margin edge when the optical ramp arrives.",
+          "pub": "2026-07-23T14:30",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/23/credo-or-marvell-who-leads-the-ai-connectivity-race/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "4 Networking Semiconductor Stocks to Watch in August 2026",
+          "summary": "AI data center networking demand is surging as AI clusters grow. See why Marvell, Broadcom, Credo and Astera Labs are stocks to watch in August.",
+          "pub": "2026-07-23T13:54",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/4-networking-semiconductor-stocks-watch-135400804.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -844,11 +900,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 49.6,
-      "confirm": 16.1,
-      "signal": 66.2,
+      "confirm": 16.2,
+      "signal": 64.8,
       "mom": {
         "ret5": -0.2453,
-        "vol_surge": 0.74
+        "vol_surge": 0.75
       },
       "earn_days": 5,
       "consensus": null,
@@ -911,89 +967,22 @@
       ]
     },
     {
-      "ticker": "CRDO",
-      "tier": "確定",
-      "streak": 23,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 13,
-      "first_seen": "2026-07-08",
-      "name": "Credo Technology Group Holding ",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 15.2,
-      "signal": 66.2,
-      "mom": {
-        "ret5": -0.2226,
-        "vol_surge": 0.68
-      },
-      "earn_days": 34,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "The Zacks Analyst Blog Highlights Credo Technology, Broadcom, Marvell Technology and Astera Labs",
-          "summary": "CRDO, AVGO, MRVL and ALAB are riding booming AI data center networking demand as faster Ethernet, optics and interconnect technologies fuel growth.",
-          "pub": "2026-07-24T11:09",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-credo-110900427.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Should Credo’s Projected US$600 Million AI Optics Ramp Reshape CRDO’s Core Investment Thesis?",
-          "summary": "In recent days, Credo Technology Group Holding has highlighted a sharp ramp in its optical networking business, with management projecting more than 80% revenue growth in fiscal 2027, including over US$600.00 million from products such as ZeroFlap optics, silicon photonics, photonic integrated circu",
-          "pub": "2026-07-23T20:11",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/credo-projected-us-600-million-201102943.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo or Marvell: Who Leads the AI Connectivity Race?",
-          "summary": "Two semiconductor giants are chasing the same hyperscaler dollars with radically different strategies, and only one can sustain its margin edge when the optical ramp arrives.",
-          "pub": "2026-07-23T14:30",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/23/credo-or-marvell-who-leads-the-ai-connectivity-race/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "4 Networking Semiconductor Stocks to Watch in August 2026",
-          "summary": "AI data center networking demand is surging as AI clusters grow. See why Marvell, Broadcom, Credo and Astera Labs are stocks to watch in August.",
-          "pub": "2026-07-23T13:54",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/4-networking-semiconductor-stocks-watch-135400804.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "NVDA",
       "tier": "確定",
       "streak": 23,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 12,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 46.6,
-      "confirm": 18.9,
-      "signal": 65.5,
+      "news": 48.2,
+      "confirm": 19.2,
+      "signal": 64.8,
       "mom": {
         "ret5": -0.104,
-        "vol_surge": 0.93
+        "vol_surge": 0.95
       },
       "earn_days": 27,
       "consensus": {
@@ -1026,37 +1015,37 @@
           "why": "-急落報道"
         },
         {
-          "title": "Even $64 Billion in Quarterly Profit Is a Disappointment for Chip Investors",
-          "summary": "South Korea’s SK Hynix shares fell nearly 10% despite record results powered by the AI boom.",
-          "pub": "2026-07-30T02:47",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/tech/even-64-billion-in-quarterly-profit-is-a-disappointment-for-chip-investors-91dcb5c4",
+          "title": "Alphabet Will Spend as Much as $205 Billion This Year. The Depreciation Bill Starts Landing in 2027.",
+          "summary": "The cash leaves now. The earnings hit arrives later, on a six-year schedule the company set itself.",
+          "pub": "2026-07-30T08:32",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/30/alphabet-will-spend-as-much-as-205-billion-this-ye/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Why Lithia Stock Surged Today",
-          "summary": "The world's largest auto retailer raised its dividend by 23%.",
-          "pub": "2026-07-30T02:43",
+          "title": "Forget the Fed Meeting! The Most Important Inflation Metric Is Being Released Today.",
+          "summary": "This inflation data point is the ultimate green or red light for Wall Street and investors.",
+          "pub": "2026-07-30T08:26",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/29/why-lithia-stock-surged-today/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "url": "https://www.fool.com/investing/2026/07/30/forget-fed-meeting-most-important-inflation-metric/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Chipotle Raises Full-Year Guidance After 9.3% Revenue Jump. Is the Turnaround Finally Here?",
-          "summary": "Chipotle jumped after hours, but is the recovery sustainable?",
-          "pub": "2026-07-30T02:34",
+          "title": "Rivian Reports Earnings on July 30, Followed by Lucid on Aug. 4. Here's the Better Buy Now.",
+          "summary": "Both electric-vehicle makers need positive momentum to lift their struggling stocks.",
+          "pub": "2026-07-30T07:25",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/29/chipotle-raises-full-year-guidance-after-93-revenue-jump-is-the-turnaround-finally-here/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "url": "https://www.fool.com/investing/2026/07/30/rivian-reports-earnings-on-july-30-followed-by-luc/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     }
