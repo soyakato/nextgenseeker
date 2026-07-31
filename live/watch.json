@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T03:51:14.679622+00:00",
+  "updated": "2026-07-31T09:17:28.517249+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,17 +8,17 @@
       "streak": 24,
       "appearances": 15,
       "best_rank": 21,
-      "today_rank": 21,
+      "today_rank": 22,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
-      "news": 57.3,
-      "confirm": 66.6,
-      "signal": 76.7,
+      "news": 60.5,
+      "confirm": 67.2,
+      "signal": 77.9,
       "mom": {
         "ret5": 0.0545,
-        "vol_surge": 1.02
+        "vol_surge": 1.06
       },
       "earn_days": null,
       "consensus": null,
@@ -34,6 +34,17 @@
           "type": "8-K 2.02",
           "why": "決算発表（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Bristol Myers Squibb (BMY) Earnings Beat And Higher Outlook Put Valuation Back In Focus",
+          "summary": "Bristol-Myers Squibb (BMY) reported second quarter 2026 results that exceeded Wall Street expectations, with revenue and earnings per share ahead of forecasts and management raising full year guidance for both measures. See our latest analysis for Bristol-Myers Squibb. The strong Q2 surprise has com",
+          "pub": "2026-07-31T09:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/healthcare/articles/bristol-myers-squibb-bmy-earnings-091026344.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
         },
         {
           "title": "Bristol-Myers Squibb (BMY) Q2 2026 Earnings Call Transcript",
@@ -67,17 +78,6 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
-        },
-        {
-          "title": "Bristol Myers Stock Rises. Why the Drugmaker Is Lifting Its Earnings Guidance.",
-          "summary": "Bristol Myers Squibb faces declining revenue in its legacy drug portfolio, but new products like Opdivo are offsetting the drop.",
-          "pub": "2026-07-30T18:27",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/bristol-myers-earnings-stock-price-ca0954b0?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -87,17 +87,17 @@
       "streak": 24,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 17,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 68.1,
-      "confirm": 40.1,
-      "signal": 76.6,
+      "confirm": 40.2,
+      "signal": 76.3,
       "mom": {
         "ret5": -0.0356,
-        "vol_surge": 1.05
+        "vol_surge": 1.06
       },
       "earn_days": 19,
       "consensus": null,
@@ -166,14 +166,14 @@
       "streak": 24,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 30,
+      "today_rank": 28,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 47.1,
       "confirm": 78.3,
-      "signal": 74.6,
+      "signal": 74.3,
       "mom": {
         "ret5": 0.1129,
         "vol_surge": 0.89
@@ -245,17 +245,17 @@
       "streak": 24,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 22,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 58.0,
-      "confirm": 48.9,
-      "signal": 73.9,
+      "confirm": 49.1,
+      "signal": 73.7,
       "mom": {
         "ret5": 0.0105,
-        "vol_surge": 0.72
+        "vol_surge": 0.73
       },
       "earn_days": 5,
       "consensus": null,
@@ -279,14 +279,14 @@
       "streak": 24,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 28,
+      "today_rank": 27,
       "first_seen": "2026-07-08",
       "name": "Amkor Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 54.4,
       "confirm": 40.0,
-      "signal": 70.9,
+      "signal": 70.6,
       "mom": {
         "ret5": -0.2613,
         "vol_surge": 2.49
@@ -353,19 +353,64 @@
       ]
     },
     {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 24,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 7,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 48.7,
+      "signal": 70.3,
+      "mom": {
+        "ret5": 0.009,
+        "vol_surge": 0.73
+      },
+      "earn_days": 4,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Flywire vs. dLocal: Which Payments Stock Is the Better Investment Now?",
+          "summary": "dLocal stands out with faster payment growth, strong customer expansion, broad emerging-market reach and a lower forward sales multiple.",
+          "pub": "2026-07-30T16:33",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-vs-dlocal-payments-stock-163300014.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Here Are Friday’s Top Wall Street Analyst Research Calls: Albertsons, Blue Owl Capital, Cleveland-Cliffs, Chime Financial, Digital Realty, Dover, PayPal Holdings, SpaceX, and More",
+          "summary": "Markets took a brutal hit Thursday as oil prices, surging interest rates, and Middle East tensions sent every major index deep into the red. See which stocks analysts are upgrading, downgrading, and initiating fresh coverage on as Wall Street braces for more turbulence.",
+          "pub": "2026-07-24T12:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/24/here-are-fridays-top-wall-street-analyst-research-calls-albertsons-blue-owl-capital-cleveland-cliffs-chime-financial-digital-realty-dover-paypal-holdings-spacex-and-more/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 24,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.6,
+      "news": 51.9,
       "confirm": 43.4,
-      "signal": 70.8,
+      "signal": 70.1,
       "mom": {
         "ret5": -0.009,
         "vol_surge": 0.74
@@ -412,134 +457,22 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "EMCOR Group Q2 Earnings Call Highlights",
+          "summary": "EMCOR Group (NYSE:EME) reported record second-quarter revenue, operating income and remaining performance obligations, driven by strong demand in data centers, institutional projects, manufacturing and industrial work, and other end markets. The company also raised its full-year 2026 revenue and ear",
+          "pub": "2026-07-31T07:03",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/emcor-group-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Analyst compares SpaceX, Palantir to Bitcoin",
           "summary": "Though Palantir Technologies Inc. (Nasdaq: PLTR), Space Exploration Technologies or SpaceX (Nasdaq: SPCX), and Bitcoin (BTC) are entirely different assets, they are all different kinds of stake on the same geopolitical shift, 10x Research said on May 19. Founded by Peter Thiel, Stephen Cohen, Joe ..",
           "pub": "2026-07-30T22:00",
           "provider": "TheStreet",
           "url": "https://www.thestreet.com/crypto/markets/analyst-compares-spacex-palantir-to-bitcoin",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Michael Burry Adds To His NVDA And MU Shorts — And Makes More Moves In These Stocks",
-          "summary": "Michael Burry reveals fresh portfolio moves, adding to existing holdings while expanding short positions tied to AI and semiconductor stocks.",
-          "pub": "2026-07-30T21:38",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-adds-to-his-nvda-mu-shorts-and-makes-more-moves-in-these-stocks/cZN5h4yRJ27",
-          "dir": 0.0,
-          "conf": 0.0,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品 -空売り・過大評価"
-        }
-      ]
-    },
-    {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 24,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 5,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 48.7,
-      "signal": 70.6,
-      "mom": {
-        "ret5": 0.009,
-        "vol_surge": 0.73
-      },
-      "earn_days": 4,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Flywire vs. dLocal: Which Payments Stock Is the Better Investment Now?",
-          "summary": "dLocal stands out with faster payment growth, strong customer expansion, broad emerging-market reach and a lower forward sales multiple.",
-          "pub": "2026-07-30T16:33",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-vs-dlocal-payments-stock-163300014.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Here Are Friday’s Top Wall Street Analyst Research Calls: Albertsons, Blue Owl Capital, Cleveland-Cliffs, Chime Financial, Digital Realty, Dover, PayPal Holdings, SpaceX, and More",
-          "summary": "Markets took a brutal hit Thursday as oil prices, surging interest rates, and Middle East tensions sent every major index deep into the red. See which stocks analysts are upgrading, downgrading, and initiating fresh coverage on as Wall Street braces for more turbulence.",
-          "pub": "2026-07-24T12:00",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/24/here-are-fridays-top-wall-street-analyst-research-calls-albertsons-blue-owl-capital-cleveland-cliffs-chime-financial-digital-realty-dover-paypal-holdings-spacex-and-more/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 24,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 4,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 47.3,
-      "signal": 70.4,
-      "mom": {
-        "ret5": -0.0021,
-        "vol_surge": 0.86
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Kinross Gold Corp (KGC) (Q2 2026) Earnings Call Highlights: Record Free Cash Flow and Robust ...",
-          "summary": "Kinross Gold Corp (KGC) delivered a strong Q2 with 492,000 ounces of production and over $725 million in free cash flow, positioning it well for full-year guidance.",
-          "pub": "2026-07-30T19:01",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/kinross-gold-corp-kgc-q2-190112200.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Kinross Gold Corporation Q2 2026 Earnings Call Summary",
-          "summary": "Moby summary of Kinross Gold Corporation's Q2 2026 earnings call",
-          "pub": "2026-07-30T12:30",
-          "provider": "Moby",
-          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-kinross-gold-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Kinross Gold (KGC) Q2 Earnings Surpass Estimates",
-          "summary": "Kinross Gold (KGC) delivered earnings and revenue surprises of +7.58% and -1.98%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "pub": "2026-07-29T22:25",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-kgc-q2-earnings-222511102.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Should You Buy, Sell or Hold AEM Stock Ahead of Q2 Earnings?",
-          "summary": "AEM's Q2 performance is expected to benefit from higher realized gold prices amid cost and production headwinds.",
-          "pub": "2026-07-27T13:19",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-aem-stock-131900147.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -553,17 +486,17 @@
       "streak": 24,
       "appearances": 15,
       "best_rank": 15,
-      "today_rank": 26,
+      "today_rank": 25,
       "first_seen": "2026-07-08",
       "name": "Dell Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 60.2,
-      "confirm": 23.3,
-      "signal": 70.4,
+      "confirm": 23.7,
+      "signal": 70.1,
       "mom": {
         "ret5": -0.0786,
-        "vol_surge": 0.79
+        "vol_surge": 0.82
       },
       "earn_days": 34,
       "consensus": null,
@@ -626,19 +559,86 @@
       ]
     },
     {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 24,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 4,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 47.4,
+      "signal": 70.0,
+      "mom": {
+        "ret5": -0.0021,
+        "vol_surge": 0.87
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Kinross Gold Corp (KGC) (Q2 2026) Earnings Call Highlights: Record Free Cash Flow and Robust ...",
+          "summary": "Kinross Gold Corp (KGC) delivered a strong Q2 with 492,000 ounces of production and over $725 million in free cash flow, positioning it well for full-year guidance.",
+          "pub": "2026-07-30T19:01",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/kinross-gold-corp-kgc-q2-190112200.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Kinross Gold Corporation Q2 2026 Earnings Call Summary",
+          "summary": "Moby summary of Kinross Gold Corporation's Q2 2026 earnings call",
+          "pub": "2026-07-30T12:30",
+          "provider": "Moby",
+          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-kinross-gold-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Kinross Gold (KGC) Q2 Earnings Surpass Estimates",
+          "summary": "Kinross Gold (KGC) delivered earnings and revenue surprises of +7.58% and -1.98%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "pub": "2026-07-29T22:25",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-kgc-q2-earnings-222511102.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Should You Buy, Sell or Hold AEM Stock Ahead of Q2 Earnings?",
+          "summary": "AEM's Q2 performance is expected to benefit from higher realized gold prices amid cost and production headwinds.",
+          "pub": "2026-07-27T13:19",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-aem-stock-131900147.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 24,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 15,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
       "confirm": 42.6,
-      "signal": 69.6,
+      "signal": 69.2,
       "mom": {
         "ret5": -0.0066,
         "vol_surge": 0.64
@@ -682,11 +682,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 46.6,
-      "confirm": 43.0,
-      "signal": 68.2,
+      "confirm": 43.3,
+      "signal": 67.9,
       "mom": {
         "ret5": -0.0118,
-        "vol_surge": 0.77
+        "vol_surge": 0.79
       },
       "earn_days": 34,
       "consensus": null,
@@ -754,17 +754,17 @@
       "streak": 24,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 11,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.6,
-      "confirm": 29.8,
-      "signal": 67.2,
+      "news": 51.3,
+      "confirm": 30.0,
+      "signal": 67.5,
       "mom": {
         "ret5": -0.0657,
-        "vol_surge": 0.97
+        "vol_surge": 0.98
       },
       "earn_days": 26,
       "consensus": {
@@ -808,26 +808,26 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "3 Reasons Alphabet Is the Most Underrated \"Magnificent Seven\" Stock",
-          "summary": "Alphabet may be the market's most overlooked AI leader, offering investors a rare mix of rapid growth, bargain valuation, and valuable hidden assets that could reward patient shareholders.",
-          "pub": "2026-07-31T03:20",
+          "title": "Quantum Fallout: 1 Quantum Stock to Buy, 1 to Hold, and 1 to Sell on the Recent Dip",
+          "summary": "Quantum stocks are all speculative, but some have clear advantages.",
+          "pub": "2026-07-31T09:05",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/30/3-reasons-why-alphabet-is-the-most-underrated-magn/",
+          "url": "https://www.fool.com/investing/2026/07/31/quantum-fallout-quantum-stock-buy-hold-sell/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Why Norwegian Cruise Line Stock Is Sinking",
-          "summary": "Lower projected profits drove investors to abandon ship.",
-          "pub": "2026-07-31T03:15",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/07/30/why-norwegian-cruise-line-stock-is-down-today/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
+          "title": "MU, SKHY, NVDA, AMD, INTC Extend Rally Premarket, But Chip Stocks Still On Track For Worst Month Since 2002",
+          "summary": "The gains in U.S. chip stocks on Thursday and Friday mark a dramatic reversal of the selloff this month.",
+          "pub": "2026-07-31T08:50",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/mu-skhy-nvda-amd-intc-extend-rally-premarket-but-chip-stocks-still-on-track-for-worst-month-since-2002/cZN4TMURJ2D",
+          "dir": -0.1,
+          "conf": 0.10000000000000003,
+          "type": "急騰報道",
+          "why": "+急騰報道 -急落報道"
         }
       ]
     },
@@ -842,9 +842,9 @@
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.1,
+      "news": 50.6,
       "confirm": 23.3,
-      "signal": 66.7,
+      "signal": 66.1,
       "mom": {
         "ret5": -0.0834,
         "vol_surge": 0.89
@@ -852,6 +852,17 @@
       "earn_days": 4,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Astera Labs vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
+          "summary": "Astera Labs is posting triple-digit growth with a fortress balance sheet, while Intel is seeing accelerating data center growth.",
+          "pub": "2026-07-31T04:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/coverage/better-buy/2026/07/31/astera-labs-vs-intel-which-technology-stock-is-a-better-buy-in-2026/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Astera Labs vs. CoreWeave: Which Technology Stock Is a Better Buy in 2026?",
           "summary": "One profitable but concentrated, the other scaling fast but burning cash.",
@@ -895,17 +906,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Here's Why Astera Labs, Inc. (ALAB) Fell More Than Broader Market",
-          "summary": "In the closing of the recent trading day, Astera Labs, Inc. (ALAB) stood at $249.74, denoting a -4.03% move from the preceding trading day.",
-          "pub": "2026-07-29T22:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-astera-labs-inc-221502922.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -921,11 +921,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.3,
-      "confirm": 21.9,
-      "signal": 66.1,
+      "confirm": 22.2,
+      "signal": 65.7,
       "mom": {
         "ret5": -0.1006,
-        "vol_surge": 1.13
+        "vol_surge": 1.15
       },
       "earn_days": 4,
       "consensus": {
@@ -998,14 +998,14 @@
       "streak": 24,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 12,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
       "news": 52.0,
       "confirm": 16.4,
-      "signal": 65.9,
+      "signal": 65.4,
       "mom": {
         "ret5": -0.1498,
         "vol_surge": 0.76
