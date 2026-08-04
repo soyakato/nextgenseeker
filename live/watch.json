@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T03:38:08.174260+00:00",
+  "updated": "2026-08-04T09:08:46.034966+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,16 +8,16 @@
       "streak": 28,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 25,
+      "today_rank": 29,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 53.6,
       "confirm": 80.2,
-      "signal": 77.2,
+      "signal": 77.5,
       "mom": {
-        "ret5": 0.1032,
+        "ret5": 0.1264,
         "vol_surge": 1.01
       },
       "earn_days": 36,
@@ -81,6 +81,85 @@
       ]
     },
     {
+      "ticker": "BMY",
+      "tier": "確定",
+      "streak": 28,
+      "appearances": 15,
+      "best_rank": 14,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
+      "persist": 100,
+      "news": 54.5,
+      "confirm": 71.7,
+      "signal": 76.3,
+      "mom": {
+        "ret5": 0.0519,
+        "vol_surge": 1.41
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-07-30",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000018",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "More Biotech M&A Is Coming, Whether an AstraZeneca-Bristol Myers Deal Happens or Not",
+          "summary": "Even if a megamerger fails to materialize, investors stand to benefit from a wave of M&A activity in the biopharma sector.",
+          "pub": "2026-08-04T05:30",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/biotech-mergers-astrazeneca-bristol-myers-stock-e9362d24?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "Why Did AMZN, SNOW, BMY Stocks Surge To 52-Week Highs Today?",
+          "summary": "Amazon crossed a $3 trillion market value, Snowflake rose as investors showed more confidence in its AI business, and Bristol-Myers stock climbed on possible merger discussions.",
+          "pub": "2026-08-04T01:46",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/why-did-amzn-snow-bmy-stocks-surge-to-52-week-highs-today/cZo5c3GRJ3V",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Bristol-Myers Squibb (BMY) Q2 2026 Earnings Call Transcript",
+          "summary": "Growth portfolio now drives 60% of revenue as Eliquis surges 21%.",
+          "pub": "2026-08-04T00:15",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/bristol-myers-squibb-bmy-q2-2026-earnings-call-transcript/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "$49 Billion In Payouts, A Lagging Stock: The Pfizer Trade-Off",
+          "summary": "The pharmaceutical giant sent shareholders a fortune in cash, yet the stock itself fell far behind the market. Here is the honest accounting of what owners actually got.",
+          "pub": "2026-08-03T23:14",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/609810/49-billion-in-payouts-a-lagging-stock-the-pfizer-trade-off/2026-08-03",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "ALAB",
       "tier": "確定",
       "streak": 28,
@@ -92,10 +171,10 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 81.2,
-      "signal": 75.9,
+      "confirm": 71.4,
+      "signal": 74.4,
       "mom": {
-        "ret5": 0.1364,
+        "ret5": 0.0674,
         "vol_surge": 1.08
       },
       "earn_days": 0,
@@ -159,32 +238,37 @@
       ]
     },
     {
-      "ticker": "BMY",
+      "ticker": "PLTR",
       "tier": "確定",
       "streak": 28,
       "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 18,
+      "best_rank": 1,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
       "persist": 100,
-      "news": 53.1,
-      "confirm": 70.1,
-      "signal": 75.2,
+      "news": 59.1,
+      "confirm": 49.6,
+      "signal": 74.0,
       "mom": {
-        "ret5": 0.0465,
-        "vol_surge": 1.41
+        "ret5": 0.0011,
+        "vol_surge": 0.95
       },
       "earn_days": null,
-      "consensus": null,
+      "consensus": {
+        "buy": 12,
+        "hold": 11,
+        "sell": 3,
+        "consensus": "Buy"
+      },
       "headlines": [
         {
           "title": "SEC 8-K提出: 決算発表・Reg FD開示",
           "summary": "",
-          "pub": "2026-07-30",
+          "pub": "2026-08-03",
           "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039",
           "dir": 0.0,
           "conf": 0.3,
           "type": "8-K 2.02",
@@ -192,48 +276,48 @@
           "is_edgar": true
         },
         {
-          "title": "Why Did AMZN, SNOW, BMY Stocks Surge To 52-Week Highs Today?",
-          "summary": "Amazon crossed a $3 trillion market value, Snowflake rose as investors showed more confidence in its AI business, and Bristol-Myers stock climbed on possible merger discussions.",
-          "pub": "2026-08-04T01:46",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/why-did-amzn-snow-bmy-stocks-surge-to-52-week-highs-today/cZo5c3GRJ3V",
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-30",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-24",
+          "provider": "Citigroup",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-07-17",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Palantir stock jumps as US commercial business booms",
+          "summary": "Palantir stock jumped after the company smashed earnings estimates and raised its full year guidance.",
+          "pub": "2026-08-03T12:28",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/palantir-stock-jumps-as-us-commercial-business-booms-122817775.html",
           "dir": 0.3,
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
-        },
-        {
-          "title": "Bristol-Myers Squibb (BMY) Q2 2026 Earnings Call Transcript",
-          "summary": "Growth portfolio now drives 60% of revenue as Eliquis surges 21%.",
-          "pub": "2026-08-04T00:15",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/bristol-myers-squibb-bmy-q2-2026-earnings-call-transcript/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "$49 Billion In Payouts, A Lagging Stock: The Pfizer Trade-Off",
-          "summary": "The pharmaceutical giant sent shareholders a fortune in cash, yet the stock itself fell far behind the market. Here is the honest accounting of what owners actually got.",
-          "pub": "2026-08-03T23:14",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/609810/49-billion-in-payouts-a-lagging-stock-the-pfizer-trade-off/2026-08-03",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "MRNA, LNTH, BMY, CAPR, RARE Stocks In Focus — These FDA Decisions Could Shape August Trading",
-          "summary": "Decisions are due by August 23 at the latest on therapies ranging from an mRNA flu vaccine to a gene therapy for a rare metabolic disorder, putting biotech investors on high alert.",
-          "pub": "2026-08-03T21:26",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/mrna-lnth-bmy-capr-rare-stocks-in-focus-these-fda-decisions-could-shape-august-trading/cZoTYS7RJ30",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -249,10 +333,10 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 58.0,
-      "confirm": 52.2,
-      "signal": 73.9,
+      "confirm": 44.0,
+      "signal": 72.5,
       "mom": {
-        "ret5": 0.013,
+        "ret5": -0.0145,
         "vol_surge": 0.89
       },
       "earn_days": 1,
@@ -283,327 +367,21 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 28,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 12,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.1,
-      "confirm": 65.5,
-      "signal": 73.1,
-      "mom": {
-        "ret5": 0.0515,
-        "vol_surge": 1.0
-      },
-      "earn_days": 22,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-07-14",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Tech stocks rally to kick off August. Can chipmakers keep up with demand?",
-          "summary": "US stocks (^DJI, ^IXIC, ^GSPC) surge ahead to close out the first trading day of August with daily gains, the Nasdaq Composite rising by 2.13%. Cboe senior vice president JJ Kinahan joins Josh Lipton to assess the day's rise in the tech sector as key chipmakers like AMD (AMD) prepare to release earn",
-          "pub": "2026-08-03T21:30",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/tech-stocks-rally-kick-off-213000641.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "AMD vs. Sandisk: Which company will get some post-earnings market love?",
-          "summary": "AMD (AMD) and Sandisk (SNDK) are both set to report quarterly earnings this week. Zacks Investment Management chief market strategist Brian Mulberry, Yahoo Finance Senior Business Reporter Ines Ferré, and Yahoo Finance Senior Reporter Brooke DiPalma discuss how markets could react to both earnings r",
-          "pub": "2026-08-03T16:00",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/amd-vs-sandisk-company-post-160000399.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "This valuation signal shows how investors are rethinking tech stocks",
-          "summary": "Good to see a more rational set of valuations on the biggest companies.",
-          "pub": "2026-08-03T14:44",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/this-valuation-signal-shows-how-investors-are-rethinking-tech-stocks-144411798.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Arm Holdings Stock Lost 34% in July",
-          "summary": "A broader sell-off in AI stocks weighed on Arm.",
-          "pub": "2026-08-04T03:05",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/03/why-arm-holdings-stock-lost-34-in-july/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        }
-      ]
-    },
-    {
-      "ticker": "CRDO",
-      "tier": "確定",
-      "streak": 28,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 9,
-      "first_seen": "2026-07-08",
-      "name": "Credo Technology Group Holding ",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.3,
-      "confirm": 61.4,
-      "signal": 72.8,
-      "mom": {
-        "ret5": 0.0491,
-        "vol_surge": 0.78
-      },
-      "earn_days": 29,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Nvidia Stock Retakes Key Level As Chip Stocks Waver",
-          "summary": "Chip stocks were a mixed bag on Monday as the Philadelphia semiconductor index, known as SOX, seesawed. However, Nvidia stock retook a key support level. On the stock market today, the SOX rose just over 1%.",
-          "pub": "2026-08-03T20:36",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/nvidia-stock-up-chip-stocks-sox-index-wavers/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo Technology's Co-Founder and CTO Sold Nearly 30,000 Shares Worth $6.1 Million. What Does That Mean for Investors?",
-          "summary": "The connectivity provider for data center infrastructure reported a notable insider sale following a 134% increase in its stock price over the past year.",
-          "pub": "2026-08-03T00:29",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/filings/2026/08/02/credo-technology-s-co-founder-and-cto-sold-nearly-30-000-shares-worth-usd6-1-million-what-does-that-mean-for-investors/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Should You Buy, Sell, or Hold ALAB Stock Before Q2 Earnings Release?",
-          "summary": "Astera Labs Q2 earnings are likely to gain from strong AI connectivity momentum, but margin pressure, rich valuation, and rising competition could keep investors cautious.",
-          "pub": "2026-07-31T17:39",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-alab-stock-173900918.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Optical Momentum Triggers Investor Rerating of Credo Technology Group Holding Ltd (CRDO)",
-          "summary": "Spyglass Capital Management LLC, an investment management firm, released its second-quarter investor letter for “Spyglass Growth Strategy”. A copy of the letter can be downloaded here. Spyglass Growth Strategy appreciated 24.63% in the second quarter, significantly outperforming the Bloomberg Midcap",
-          "pub": "2026-07-31T13:59",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/optical-momentum-triggers-investor-rerating-135936372.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Prediction: Where Will Rambus End The Year?",
-          "summary": "Rambus just beat earnings on every single line and still cratered more than 14% over two sessions, leaving investors wondering whether the selloff created an opportunity or a warning sign worth heeding.",
-          "pub": "2026-07-30T17:30",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/30/prediction-where-will-rambus-end-the-year/",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "決算ビート",
-          "why": "+決算ビート -急落報道"
-        }
-      ]
-    },
-    {
-      "ticker": "DELL",
-      "tier": "確定",
-      "streak": 28,
-      "appearances": 15,
-      "best_rank": 15,
-      "today_rank": 28,
-      "first_seen": "2026-07-08",
-      "name": "Dell Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.2,
-      "confirm": 49.5,
-      "signal": 71.9,
-      "mom": {
-        "ret5": 0.0049,
-        "vol_surge": 0.87
-      },
-      "earn_days": 30,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Dell (NYSE:DELL) Just Got Closer To June AI Through Michael Dell's Investment",
-          "summary": "Michael Dell has personally invested in June AI, a startup focused on transforming how enterprises implement software for the AI era. The investment reflects Dell leadership's interest in next generation enterprise AI solutions beyond Dell Technologies' own portfolio. The development is relevant for",
-          "pub": "2026-08-03T21:08",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/dell-nyse-dell-just-got-210802235.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Dell Technologies Stock: Is Wall Street Bullish or Bearish?",
-          "summary": "Though Dell Technologies has significantly outperformed the broader market over the past year, Wall Street analysts maintain a cautiously optimistic outlook about the stock’s prospects.",
-          "pub": "2026-08-03T18:44",
-          "provider": "Barchart",
-          "url": "https://www.barchart.com/story/news/3618441/dell-technologies-stock-is-wall-street-bullish-or-bearish",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Dell Leaps Amid AI Server Demand Surge; Two More Stocks On Watch For Rising Profit",
-          "summary": "Dell, Palo Alto Networks and Bank of America are near buy points as analysts up their profit estimates in Monday's stock market.",
-          "pub": "2026-08-03T18:18",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/dell-palo-alto-networks-panw-bank-of-america-bac-stock/?src=A00220&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Apple's Record Quarter Ran Into A Memory Bill",
-          "summary": "Revenue, iPhone, and Mac all set June quarter records; what sent the stock down was the September quarter guide and an open-ended memory cost.",
-          "pub": "2026-08-03T12:39",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/609846/apples-record-quarter-ran-into-a-memory-bill/2026-08-03",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "記録更新",
-          "why": "+記録更新"
-        },
-        {
-          "title": "How To Turn $100,000 Into $5.1 Million In 7 Months",
-          "summary": "July wound up as the second-straight down month of the year for most S&P 500 investors. But some stocks rallied anyway.",
-          "pub": "2026-08-03T12:00",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-how-to-turn-100000-into-million-in-7-months/?src=A00220&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        }
-      ]
-    },
-    {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 28,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 11,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 57.3,
-      "signal": 71.5,
-      "mom": {
-        "ret5": 0.0304,
-        "vol_surge": 0.88
-      },
-      "earn_days": 0,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Should You Buy, Hold or Sell FLYW Stock Before Q2 Earnings?",
-          "summary": "Flywire heads into Q2 earnings with healthy growth prospects, but seasonal softness and margin investments support patience.",
-          "pub": "2026-08-03T17:01",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-flyw-stock-170100204.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Flywire (FLYW) Q2 Earnings: What To Expect",
-          "summary": "Global payments company Flywire (NASDAQ:FLYW) will be reporting results this Tuesday after market hours. Here’s what to look for.",
-          "pub": "2026-08-03T14:05",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-q2-earnings-expect-140522045.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "3 Cash-Heavy Stocks Worth Your Attention",
-          "summary": "In a world where many businesses have shaky balance sheets, some have ignored the crowd and exercised prudence. These cash-heavy companies shine bright for their financial discipline, resilience, and ability to generate solid returns.",
-          "pub": "2026-07-31T13:39",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-heavy-stocks-worth-133949451.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Flywire vs. dLocal: Which Payments Stock Is the Better Investment Now?",
-          "summary": "dLocal stands out with faster payment growth, strong customer expansion, broad emerging-market reach and a lower forward sales multiple.",
-          "pub": "2026-07-30T16:33",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-vs-dlocal-payments-stock-163300014.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "AVGO",
       "tier": "確定",
       "streak": 28,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 19,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.6,
-      "confirm": 55.4,
+      "confirm": 54.1,
       "signal": 71.4,
       "mom": {
-        "ret5": 0.0235,
+        "ret5": 0.0193,
         "vol_surge": 0.89
       },
       "earn_days": 29,
@@ -678,10 +456,10 @@
       "sector": "Energy",
       "persist": 100,
       "news": 50.0,
-      "confirm": 56.3,
-      "signal": 71.4,
+      "confirm": 53.8,
+      "signal": 71.1,
       "mom": {
-        "ret5": 0.0351,
+        "ret5": 0.0267,
         "vol_surge": 0.72
       },
       "earn_days": 2,
@@ -734,86 +512,170 @@
       ]
     },
     {
-      "ticker": "PLTR",
+      "ticker": "AA",
       "tier": "確定",
       "streak": 28,
       "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 3,
+      "best_rank": 7,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
       "persist": 100,
-      "news": 58.8,
-      "confirm": 35.8,
-      "signal": 71.3,
+      "news": 50.0,
+      "confirm": 52.7,
+      "signal": 70.9,
       "mom": {
-        "ret5": -0.0447,
-        "vol_surge": 0.95
+        "ret5": 0.0231,
+        "vol_surge": 0.72
       },
       "earn_days": null,
-      "consensus": {
-        "buy": 12,
-        "hold": 11,
-        "sell": 3,
-        "consensus": "Buy"
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "ADI",
+      "tier": "確定",
+      "streak": 28,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Analog Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.2,
+      "confirm": 46.9,
+      "signal": 70.7,
+      "mom": {
+        "ret5": -0.012,
+        "vol_surge": 1.03
       },
+      "earn_days": 15,
+      "consensus": null,
       "headlines": [
         {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "title": "SEC 8-K提出: その他の重要イベント",
           "summary": "",
-          "pub": "2026-08-03",
+          "pub": "2026-07-29",
           "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039",
-          "dir": 0.0,
+          "url": "https://www.sec.gov/Archives/edgar/data/6281/000119312526324223",
+          "dir": 0.1,
           "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
           "is_edgar": true
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-07-30",
-          "provider": "Rosenblatt",
-          "url": "",
+          "title": "Analog Devices (ADI) Stock Dips While Market Gains: Key Facts",
+          "summary": "The latest trading day saw Analog Devices (ADI) settling at $361.85, representing a -1.51% change from its previous close.",
+          "pub": "2026-08-03T22:00",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-dips-220002819.html",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-07-24",
-          "provider": "Citigroup",
-          "url": "",
+          "title": "MKSI Gears Up to Report Q2 Earnings: What's in Store for the Stock?",
+          "summary": "MKS reports Q2 earnings on Aug. 5, with AI-driven chip demand supporting growth as tariffs and modest industrial gains weigh on results.",
+          "pub": "2026-08-03T17:12",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mksi-gears-report-q2-earnings-171200698.html",
+          "dir": -0.5,
+          "conf": 0.5,
+          "type": "規制・関税",
+          "why": "-規制・関税"
+        },
+        {
+          "title": "VECO Set to Report Q2 Earnings: What's in Store for the Stock?",
+          "summary": "Veeco Instruments is set to report Q2 results on Aug. 5, with AI-led chip demand, advanced packaging growth and margin gains offsetting weaker spending in China.",
+          "pub": "2026-08-03T17:08",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/veco-set-report-q2-earnings-170800536.html",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-07-17",
-          "provider": "DA Davidson",
-          "url": "",
+          "title": "DoorDash to Report Q2 Earnings: What's in Store for the Stock?",
+          "summary": "DASH is set to report Q2 results on Aug. 5. It has been witnessing strong demand, rising orders and grocery momentum, alongside competition and heavy investment costs.",
+          "pub": "2026-08-03T17:05",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/doordash-report-q2-earnings-whats-170500819.html",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 28,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 8,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 50.5,
+      "signal": 70.5,
+      "mom": {
+        "ret5": 0.0076,
+        "vol_surge": 0.88
+      },
+      "earn_days": 0,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Should You Buy, Hold or Sell FLYW Stock Before Q2 Earnings?",
+          "summary": "Flywire heads into Q2 earnings with healthy growth prospects, but seasonal softness and margin investments support patience.",
+          "pub": "2026-08-03T17:01",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-flyw-stock-170100204.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Palantir stock jumps as US commercial business booms",
-          "summary": "Palantir stock jumped after the company smashed earnings estimates and raised its full year guidance.",
-          "pub": "2026-08-03T12:28",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/palantir-stock-jumps-as-us-commercial-business-booms-122817775.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "title": "Flywire (FLYW) Q2 Earnings: What To Expect",
+          "summary": "Global payments company Flywire (NASDAQ:FLYW) will be reporting results this Tuesday after market hours. Here’s what to look for.",
+          "pub": "2026-08-03T14:05",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-q2-earnings-expect-140522045.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "3 Cash-Heavy Stocks Worth Your Attention",
+          "summary": "In a world where many businesses have shaky balance sheets, some have ignored the crowd and exercised prudence. These cash-heavy companies shine bright for their financial discipline, resilience, and ability to generate solid returns.",
+          "pub": "2026-07-31T13:39",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-heavy-stocks-worth-133949451.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Flywire vs. dLocal: Which Payments Stock Is the Better Investment Now?",
+          "summary": "dLocal stands out with faster payment growth, strong customer expansion, broad emerging-market reach and a lower forward sales multiple.",
+          "pub": "2026-07-30T16:33",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-vs-dlocal-payments-stock-163300014.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -829,10 +691,10 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 54.0,
-      "confirm": 42.2,
-      "signal": 70.4,
+      "confirm": 38.9,
+      "signal": 69.9,
       "mom": {
-        "ret5": -0.0205,
+        "ret5": -0.0314,
         "vol_surge": 0.89
       },
       "earn_days": null,
@@ -896,26 +758,243 @@
       ]
     },
     {
-      "ticker": "AA",
+      "ticker": "NVDA",
       "tier": "確定",
       "streak": 28,
       "appearances": 15,
-      "best_rank": 7,
-      "today_rank": 14,
+      "best_rank": 4,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
       "persist": 100,
-      "news": 50.0,
-      "confirm": 51.0,
-      "signal": 70.4,
+      "news": 51.0,
+      "confirm": 41.3,
+      "signal": 69.2,
       "mom": {
-        "ret5": 0.0172,
-        "vol_surge": 0.72
+        "ret5": -0.0294,
+        "vol_surge": 1.01
       },
-      "earn_days": null,
+      "earn_days": 22,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-07-14",
+          "provider": "Keybanc",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Tech stocks rally to kick off August. Can chipmakers keep up with demand?",
+          "summary": "US stocks (^DJI, ^IXIC, ^GSPC) surge ahead to close out the first trading day of August with daily gains, the Nasdaq Composite rising by 2.13%. Cboe senior vice president JJ Kinahan joins Josh Lipton to assess the day's rise in the tech sector as key chipmakers like AMD (AMD) prepare to release earn",
+          "pub": "2026-08-03T21:30",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/tech-stocks-rally-kick-off-213000641.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "AMD vs. Sandisk: Which company will get some post-earnings market love?",
+          "summary": "AMD (AMD) and Sandisk (SNDK) are both set to report quarterly earnings this week. Zacks Investment Management chief market strategist Brian Mulberry, Yahoo Finance Senior Business Reporter Ines Ferré, and Yahoo Finance Senior Reporter Brooke DiPalma discuss how markets could react to both earnings r",
+          "pub": "2026-08-03T16:00",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/amd-vs-sandisk-company-post-160000399.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "This valuation signal shows how investors are rethinking tech stocks",
+          "summary": "Good to see a more rational set of valuations on the biggest companies.",
+          "pub": "2026-08-03T14:44",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/this-valuation-signal-shows-how-investors-are-rethinking-tech-stocks-144411798.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "President Trump Buys 2 AI Stocks That Wall Street Says Are Undervalued",
+          "summary": "President Trump's brokerage accounts have bought substantial shares of Alphabet and Meta Platforms stock this year.",
+          "pub": "2026-08-04T08:32",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/04/president-trump-buys-ai-stocks-wall-st-undervalued/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CRDO",
+      "tier": "確定",
+      "streak": 28,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 10,
+      "first_seen": "2026-07-08",
+      "name": "Credo Technology Group Holding ",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.3,
+      "confirm": 38.0,
+      "signal": 68.7,
+      "mom": {
+        "ret5": -0.0289,
+        "vol_surge": 0.78
+      },
+      "earn_days": 29,
       "consensus": null,
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Nvidia Stock Retakes Key Level As Chip Stocks Waver",
+          "summary": "Chip stocks were a mixed bag on Monday as the Philadelphia semiconductor index, known as SOX, seesawed. However, Nvidia stock retook a key support level. On the stock market today, the SOX rose just over 1%.",
+          "pub": "2026-08-03T20:36",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/nvidia-stock-up-chip-stocks-sox-index-wavers/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Credo Technology's Co-Founder and CTO Sold Nearly 30,000 Shares Worth $6.1 Million. What Does That Mean for Investors?",
+          "summary": "The connectivity provider for data center infrastructure reported a notable insider sale following a 134% increase in its stock price over the past year.",
+          "pub": "2026-08-03T00:29",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/coverage/filings/2026/08/02/credo-technology-s-co-founder-and-cto-sold-nearly-30-000-shares-worth-usd6-1-million-what-does-that-mean-for-investors/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Should You Buy, Sell, or Hold ALAB Stock Before Q2 Earnings Release?",
+          "summary": "Astera Labs Q2 earnings are likely to gain from strong AI connectivity momentum, but margin pressure, rich valuation, and rising competition could keep investors cautious.",
+          "pub": "2026-07-31T17:39",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-alab-stock-173900918.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Optical Momentum Triggers Investor Rerating of Credo Technology Group Holding Ltd (CRDO)",
+          "summary": "Spyglass Capital Management LLC, an investment management firm, released its second-quarter investor letter for “Spyglass Growth Strategy”. A copy of the letter can be downloaded here. Spyglass Growth Strategy appreciated 24.63% in the second quarter, significantly outperforming the Bloomberg Midcap",
+          "pub": "2026-07-31T13:59",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/optical-momentum-triggers-investor-rerating-135936372.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Prediction: Where Will Rambus End The Year?",
+          "summary": "Rambus just beat earnings on every single line and still cratered more than 14% over two sessions, leaving investors wondering whether the selloff created an opportunity or a warning sign worth heeding.",
+          "pub": "2026-07-30T17:30",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/30/prediction-where-will-rambus-end-the-year/",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "決算ビート",
+          "why": "+決算ビート -急落報道"
+        }
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "tier": "確定",
+      "streak": 28,
+      "appearances": 15,
+      "best_rank": 15,
+      "today_rank": 27,
+      "first_seen": "2026-07-08",
+      "name": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 54.2,
+      "confirm": 26.0,
+      "signal": 67.6,
+      "mom": {
+        "ret5": -0.0734,
+        "vol_surge": 0.87
+      },
+      "earn_days": 30,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Dell (NYSE:DELL) Just Got Closer To June AI Through Michael Dell's Investment",
+          "summary": "Michael Dell has personally invested in June AI, a startup focused on transforming how enterprises implement software for the AI era. The investment reflects Dell leadership's interest in next generation enterprise AI solutions beyond Dell Technologies' own portfolio. The development is relevant for",
+          "pub": "2026-08-03T21:08",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/dell-nyse-dell-just-got-210802235.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Dell Technologies Stock: Is Wall Street Bullish or Bearish?",
+          "summary": "Though Dell Technologies has significantly outperformed the broader market over the past year, Wall Street analysts maintain a cautiously optimistic outlook about the stock’s prospects.",
+          "pub": "2026-08-03T18:44",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/3618441/dell-technologies-stock-is-wall-street-bullish-or-bearish",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Dell Leaps Amid AI Server Demand Surge; Two More Stocks On Watch For Rising Profit",
+          "summary": "Dell, Palo Alto Networks and Bank of America are near buy points as analysts up their profit estimates in Monday's stock market.",
+          "pub": "2026-08-03T18:18",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/dell-palo-alto-networks-panw-bank-of-america-bac-stock/?src=A00220&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Apple's Record Quarter Ran Into A Memory Bill",
+          "summary": "Revenue, iPhone, and Mac all set June quarter records; what sent the stock down was the September quarter guide and an open-ended memory cost.",
+          "pub": "2026-08-03T12:39",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/609846/apples-record-quarter-ran-into-a-memory-bill/2026-08-03",
+          "dir": 0.7,
+          "conf": 0.7,
+          "type": "記録更新",
+          "why": "+記録更新"
+        },
+        {
+          "title": "How To Turn $100,000 Into $5.1 Million In 7 Months",
+          "summary": "July wound up as the second-straight down month of the year for most S&P 500 investors. But some stocks rallied anyway.",
+          "pub": "2026-08-03T12:00",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-how-to-turn-100000-into-million-in-7-months/?src=A00220&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        }
+      ]
     },
     {
       "ticker": "AMD",
@@ -928,11 +1007,11 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.7,
-      "confirm": 45.4,
-      "signal": 70.1,
+      "news": 50.7,
+      "confirm": 25.3,
+      "signal": 66.0,
       "mom": {
-        "ret5": -0.0208,
+        "ret5": -0.0877,
         "vol_surge": 1.11
       },
       "earn_days": 0,
@@ -997,85 +1076,6 @@
           "conf": 0.15,
           "type": "格付",
           "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
-      "ticker": "ADI",
-      "tier": "確定",
-      "streak": 28,
-      "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 23,
-      "first_seen": "2026-07-08",
-      "name": "Analog Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 52.2,
-      "confirm": 42.4,
-      "signal": 69.7,
-      "mom": {
-        "ret5": -0.0269,
-        "vol_surge": 1.03
-      },
-      "earn_days": 15,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-07-29",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/6281/000119312526324223",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Analog Devices (ADI) Stock Dips While Market Gains: Key Facts",
-          "summary": "The latest trading day saw Analog Devices (ADI) settling at $361.85, representing a -1.51% change from its previous close.",
-          "pub": "2026-08-03T22:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-dips-220002819.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "MKSI Gears Up to Report Q2 Earnings: What's in Store for the Stock?",
-          "summary": "MKS reports Q2 earnings on Aug. 5, with AI-driven chip demand supporting growth as tariffs and modest industrial gains weigh on results.",
-          "pub": "2026-08-03T17:12",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mksi-gears-report-q2-earnings-171200698.html",
-          "dir": -0.5,
-          "conf": 0.5,
-          "type": "規制・関税",
-          "why": "-規制・関税"
-        },
-        {
-          "title": "VECO Set to Report Q2 Earnings: What's in Store for the Stock?",
-          "summary": "Veeco Instruments is set to report Q2 results on Aug. 5, with AI-led chip demand, advanced packaging growth and margin gains offsetting weaker spending in China.",
-          "pub": "2026-08-03T17:08",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/veco-set-report-q2-earnings-170800536.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "DoorDash to Report Q2 Earnings: What's in Store for the Stock?",
-          "summary": "DASH is set to report Q2 results on Aug. 5. It has been witnessing strong demand, rising orders and grocery momentum, alongside competition and heavy investment costs.",
-          "pub": "2026-08-03T17:05",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/doordash-report-q2-earnings-whats-170500819.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     }
