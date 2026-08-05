@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-04T19:57:00.854321+00:00",
+  "updated": "2026-08-05T03:33:20.343917+00:00",
   "weights": {
-    "operating_leverage": 15.0,
-    "cost_stickiness": 8.0,
-    "survival_dd": 15.0,
-    "rnd_intensity": 11.0,
-    "contrarian_inflection": 11.0,
-    "capital_momentum": 11.0,
+    "operating_leverage": 14.67,
+    "cost_stickiness": 8.95,
+    "survival_dd": 17.0,
+    "rnd_intensity": 6.24,
+    "contrarian_inflection": 13.45,
+    "capital_momentum": 6.63,
     "holding_trend": 10.0,
     "earnings_drift": 11.0,
     "value_yield": 8.0
@@ -23,38 +23,38 @@
     "value_yield": 8
   },
   "multipliers": {
-    "operating_leverage": 1.0,
-    "cost_stickiness": 1.0,
-    "survival_dd": 1.0,
-    "rnd_intensity": 1.0,
-    "contrarian_inflection": 1.0,
-    "capital_momentum": 1.0,
+    "operating_leverage": 0.978,
+    "cost_stickiness": 1.119,
+    "survival_dd": 1.133,
+    "rnd_intensity": 0.567,
+    "contrarian_inflection": 1.223,
+    "capital_momentum": 0.602,
     "holding_trend": 1.0,
     "earnings_drift": 1.0,
     "value_yield": 1.0
   },
   "ic": {
-    "operating_leverage": null,
-    "cost_stickiness": null,
-    "survival_dd": null,
-    "rnd_intensity": null,
-    "contrarian_inflection": null,
-    "capital_momentum": null,
+    "operating_leverage": -0.014,
+    "cost_stickiness": 0.079,
+    "survival_dd": 0.089,
+    "rnd_intensity": -0.289,
+    "contrarian_inflection": 0.148,
+    "capital_momentum": -0.265,
     "holding_trend": null,
     "earnings_drift": null,
     "value_yield": null
   },
-  "composite_ic": null,
-  "graded_samples": 0,
-  "active": false,
+  "composite_ic": -0.026,
+  "graded_samples": 60,
+  "active": true,
   "min_samples": 12,
   "horizons": [
     20,
     60
   ],
   "forget_days": 180,
-  "cohorts_tracked": 28,
-  "note": "結果待ち: 採点サンプル 0/12 — 貯まるまで重みは事前分布のまま動かさない",
+  "cohorts_tracked": 29,
+  "note": "学習作動中（採点結果で重みを調整）",
   "concentration": {
     "warn": true,
     "dominant_sector": "Technology",
@@ -63,6 +63,6 @@
     "top_n": 8,
     "note": "⚠ 上位8銘柄中5が「Technology」に集中（62%）— 過剰適応/テーマ偏りの兆候。一緒に上げ下げする点に注意。"
   },
-  "recorded_today": false,
-  "graded_events": 0
+  "recorded_today": true,
+  "graded_events": 1
 }
