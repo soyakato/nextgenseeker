@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T03:19:33.722498+00:00",
+  "updated": "2026-08-07T07:41:47.212052+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -82,81 +82,85 @@
       ]
     },
     {
-      "ticker": "BMY",
+      "ticker": "NVDA",
       "tier": "確定",
       "streak": 31,
       "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 18,
+      "best_rank": 4,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
       "persist": 100,
-      "news": 73.6,
-      "confirm": 56.2,
-      "signal": 81.8,
+      "news": 60.9,
+      "confirm": 80.2,
+      "signal": 81.2,
       "mom": {
-        "ret5": -0.0109,
-        "vol_surge": 1.63
+        "ret5": 0.1228,
+        "vol_surge": 1.01
       },
-      "earn_days": null,
-      "consensus": null,
+      "earn_days": 19,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
       "headlines": [
         {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "title": "アナリストmaintain: Overweight→Overweight",
           "summary": "",
-          "pub": "2026-07-30",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000018",
+          "pub": "2026-07-14",
+          "provider": "Keybanc",
+          "url": "",
           "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "RVMD Posts Wider-Than-Anticipated Loss in Q2, Lifts '26 Expense View",
-          "summary": "Revolution Medicines posts a wider-than-expected loss in Q2 and raises its 2026 expense outlook again as investors weigh higher spending and pipeline progress.",
-          "pub": "2026-08-06T18:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/rvmd-posts-wider-anticipated-loss-180000469.html",
+          "title": "SpaceX Shares Fail to Launch Despite Soaring Revenue. Is the Stock a Buy on the Dip?",
+          "summary": "SpaceX turned in a solid quarter, but headwinds remain.",
+          "pub": "2026-08-07T07:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/07/spacex-shares-fail-to-launch-despite-soaring-reven/",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Samsung’s new memory chip could make Nvidia’s AI chips faster",
+          "summary": "Anyone who has bought a fast new laptop only to watch it freeze while a file loads knows the frustration. The processor is not the problem. It is waiting on memory that cannot feed it fast enough, and that same bottleneck now sits between AI companies and faster models. Samsung Electronics says it .",
+          "pub": "2026-08-07T06:03",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/technology/samsung-new-memory-chip-ai-faster",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Bristol Myers (BMY) Moves to Buy: Rationale Behind the Upgrade",
-          "summary": "Bristol Myers (BMY) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
-          "pub": "2026-08-06T16:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bristol-myers-bmy-moves-buy-160002191.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
+          "title": "SpaceX (SPCX) Unveils Orbital AI Network And $16.8 Billion Chip Factory Plans",
+          "summary": "Space Exploration Technologies (NasdaqGS: SPCX) unveils Starmind, an orbital AI data center network built with Nvidia, targeting space based compute and data services. Tesla and SpaceX announce plans for a US$16.8b Terafab AI chip factory in Texas to expand AI hardware production capacity. SpaceX ou",
+          "pub": "2026-08-07T05:14",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/spacex-spcx-unveils-orbital-ai-051429949.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
         },
         {
-          "title": "EDIT Q2 Earnings Beat Estimates, Revenues Rise, Pipeline in Focus",
-          "summary": "Editas beats Q2 estimates as collaboration revenues surge, while EDIT-401 advanced toward clinical testing with encouraging preclinical data.",
-          "pub": "2026-08-06T15:26",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/edit-q2-earnings-beat-estimates-152600257.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "決算ビート",
-          "why": "+決算ビート +契約・提携 +急騰報道"
-        },
-        {
-          "title": "Schrödinger and BMS expand partnership to deploy AI for drug discovery",
-          "summary": "The new arrangement will extend the use of Schrödinger’s technologies, including Bunsen and RetroSynth, throughout BMS’s teams.",
-          "pub": "2026-08-06T10:01",
-          "provider": "Pharmaceutical Technology",
-          "url": "https://www.pharmaceutical-technology.com/news/schrodinger-bms-ai-drug-discovery/",
+          "title": "SharonAI Holdings Inc (SHAZ) (Q2 2026) Earnings Call Highlights: AI Capacity Surges to 212MW ...",
+          "summary": "SharonAI Holdings Inc (SHAZ) secures $4.9 billion NVIDIA deal and $8.8 billion revenue book, positioning for material Q4 2026 revenue ramp despite execution risks.",
+          "pub": "2026-08-07T05:06",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/sharonai-holdings-inc-shaz-q2-050635678.html",
           "dir": 1.0,
           "conf": 1.0,
           "type": "契約・提携",
-          "why": "+契約・提携 +拡大・新製品"
+          "why": "+契約・提携 +受注 +急騰報道"
         }
       ]
     },
@@ -172,11 +176,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 52.0,
-      "confirm": 94.4,
+      "confirm": 94.7,
       "signal": 80.4,
       "mom": {
         "ret5": 0.2753,
-        "vol_surge": 1.96
+        "vol_surge": 1.98
       },
       "earn_days": null,
       "consensus": {
@@ -250,7 +254,7 @@
       "streak": 31,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 14,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -328,21 +332,32 @@
       "streak": 31,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 20,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 59.3,
-      "confirm": 73.5,
+      "confirm": 73.7,
       "signal": 79.4,
       "mom": {
         "ret5": 0.0844,
-        "vol_surge": 0.88
+        "vol_surge": 0.89
       },
       "earn_days": 26,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Is Broadcom the Best Chip Stock to Own Now? Maybe",
+          "summary": "Broadcom sits at a tollbooth on the AI buildout, and one look at its order book raises a question worth asking: why are so many chip investors still looking elsewhere?",
+          "pub": "2026-08-07T04:57",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/07/is-broadcom-the-best-chip-stock-to-own-now-maybe/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Where to Invest in AI in 2026: A Guide for Advisors",
           "summary": "<p>Where to invest in AI in 2026? Experts from J.P. Morgan, Pictet & Chantico break down AI stocks, ETFs, capex trends, and portfolio strategies for advisors.</p>",
@@ -386,17 +401,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Astera Labs Beat And Guided Higher, Then Fell Because The Rally Came First",
-          "summary": "A record quarter and a guide above expectations met a stock that had already climbed for four straight sessions, and the mix underneath that growth is what actually changed.",
-          "pub": "2026-08-06T18:51",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/610418/astera-labs-beat-and-guided-higher-then-fell-because-the-rally-came-first/2026-08-06",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "決算ビート",
-          "why": "+決算ビート +記録更新 +急騰報道"
         }
       ]
     },
@@ -406,7 +410,7 @@
       "streak": 31,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 26,
+      "today_rank": 30,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -559,12 +563,90 @@
       ]
     },
     {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 31,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 6,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 55.2,
+      "confirm": 76.5,
+      "signal": 78.4,
+      "mom": {
+        "ret5": 0.0847,
+        "vol_surge": 1.07
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "NUGT and AGQ Jump Big as Gold and Silver Rally",
+          "summary": "Gold and silver sparked a chain reaction across leveraged ETFs today, but the mechanics behind those eye-catching percentage gains tell a more complicated story about what these instruments actually deliver over time.",
+          "pub": "2026-08-05T15:57",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/08/05/nugt-and-agq-jump-big-as-gold-and-silver-rally/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Why These Bargain Stocks Can Outshine Gold",
+          "summary": "Even with the precious metal’s recent weakness, gold mining stocks could be the best way to profit from this year’s uncertainty.",
+          "pub": "2026-08-05T05:00",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/gold-price-miner-mining-stocks-7f413d87?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Kinross Q2 Earnings Call Centers on Costs and Project Execution",
+          "summary": "KGC holds 2026 guidance after Q2 as it manages U.S. cost pressure, advances Great Bear and Lobo-Marte and maintains its 40% free-cash-flow return target.",
+          "pub": "2026-08-03T16:39",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-q2-earnings-call-centers-163900571.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "KGC Q2 Earnings Beat Estimates on Higher Gold Prices",
+          "summary": "Kinross' Q2 earnings beat estimates as higher gold prices lifted revenue and margins despite lower production and rising costs.",
+          "pub": "2026-08-03T13:50",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/kgc-q2-earnings-beat-estimates-135000540.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "Kinross Gold (TSX:K) Maps Out Lobo Marte As A Long Life Chile Growth Project",
+          "summary": "Kinross Gold (TSX:K) released a detailed update on its Lobo-Marte gold project in Chile. The company outlined project economics, long-life production potential and current progress in the permitting process. The update highlighted plans for substantial, low cost gold output that is expected to exten",
+          "pub": "2026-08-01T10:09",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-maps-100941398.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "FLYW",
       "tier": "確定",
       "streak": 31,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -638,163 +720,81 @@
       ]
     },
     {
-      "ticker": "KGC",
+      "ticker": "BMY",
       "tier": "確定",
       "streak": 31,
       "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 5,
+      "best_rank": 14,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
       "persist": 100,
-      "news": 55.2,
-      "confirm": 76.2,
-      "signal": 78.3,
+      "news": 60.9,
+      "confirm": 56.2,
+      "signal": 76.9,
       "mom": {
-        "ret5": 0.0847,
-        "vol_surge": 1.05
+        "ret5": -0.0109,
+        "vol_surge": 1.63
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "NUGT and AGQ Jump Big as Gold and Silver Rally",
-          "summary": "Gold and silver sparked a chain reaction across leveraged ETFs today, but the mechanics behind those eye-catching percentage gains tell a more complicated story about what these instruments actually deliver over time.",
-          "pub": "2026-08-05T15:57",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/08/05/nugt-and-agq-jump-big-as-gold-and-silver-rally/",
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-07-30",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000018",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "These New Drugs Could Fuel Fresh Highs for Biotech and Pharma Stocks",
+          "summary": "Positive readouts in cancer and cardiac drug trials could keep the rally going. Sizing up the stakes for Merck, Moderna, Summit Therapeutics, and more.",
+          "pub": "2026-08-07T05:15",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/biotech-pharma-merck-novartis-bristol-myers-stocks-1b626dfc?siteid=yhoof2&yptr=yahoo",
           "dir": 0.3,
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
         },
         {
-          "title": "Why These Bargain Stocks Can Outshine Gold",
-          "summary": "Even with the precious metal’s recent weakness, gold mining stocks could be the best way to profit from this year’s uncertainty.",
-          "pub": "2026-08-05T05:00",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/gold-price-miner-mining-stocks-7f413d87?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Kinross Q2 Earnings Call Centers on Costs and Project Execution",
-          "summary": "KGC holds 2026 guidance after Q2 as it manages U.S. cost pressure, advances Great Bear and Lobo-Marte and maintains its 40% free-cash-flow return target.",
-          "pub": "2026-08-03T16:39",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-q2-earnings-call-centers-163900571.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "KGC Q2 Earnings Beat Estimates on Higher Gold Prices",
-          "summary": "Kinross' Q2 earnings beat estimates as higher gold prices lifted revenue and margins despite lower production and rising costs.",
-          "pub": "2026-08-03T13:50",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/kgc-q2-earnings-beat-estimates-135000540.html",
-          "dir": 0.8,
+          "title": "How the FTSE became a ‘departure lounge’ for British companies",
+          "summary": "On holiday in Devon this summer, Charles Hall felt a familiar sinking feeling.",
+          "pub": "2026-08-07T05:00",
+          "provider": "The Telegraph",
+          "url": "https://uk.finance.yahoo.com/news/ftse-became-departure-lounge-british-050000356.html",
+          "dir": -0.8,
           "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
+          "type": "経営陣退任",
+          "why": "-経営陣退任 -急落報道"
         },
         {
-          "title": "Kinross Gold (TSX:K) Maps Out Lobo Marte As A Long Life Chile Growth Project",
-          "summary": "Kinross Gold (TSX:K) released a detailed update on its Lobo-Marte gold project in Chile. The company outlined project economics, long-life production potential and current progress in the permitting process. The update highlighted plans for substantial, low cost gold output that is expected to exten",
-          "pub": "2026-08-01T10:09",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-maps-100941398.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 31,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 19,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.5,
-      "confirm": 80.0,
-      "signal": 77.2,
-      "mom": {
-        "ret5": 0.1228,
-        "vol_surge": 1.0
-      },
-      "earn_days": 19,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-07-14",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Where to Invest in AI in 2026: A Guide for Advisors",
-          "summary": "<p>Where to invest in AI in 2026? Experts from J.P. Morgan, Pictet & Chantico break down AI stocks, ETFs, capex trends, and portfolio strategies for advisors.</p>",
-          "pub": "2026-08-07T03:00",
-          "provider": "etf.com",
-          "url": "http://www.etf.com/sections/advisor-center/where-invest-ai-2026-guide-advisors?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss",
+          "title": "RVMD Posts Wider-Than-Anticipated Loss in Q2, Lifts '26 Expense View",
+          "summary": "Revolution Medicines posts a wider-than-expected loss in Q2 and raises its 2026 expense outlook again as investors weigh higher spending and pipeline progress.",
+          "pub": "2026-08-06T18:00",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/healthcare/articles/rvmd-posts-wider-anticipated-loss-180000469.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "SpaceX and Tesla Merger Talks Are Heating Up. Here's Why Investors Should Pay Attention.",
-          "summary": "Elon Musk has a lot to gain from a potential megamerger.",
-          "pub": "2026-08-07T02:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/06/spacex-and-tesla-merger-talks-are-heating-up-and-i/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Peloton Stock Plunged Today",
-          "summary": "People aren't connecting to the company's fitness offerings like they used to.",
-          "pub": "2026-08-07T02:44",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/06/why-peloton-stock-plunged-today/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Firmus nearly doubles valuation to over $10.5 billion in 4 months with Nvidia-backed fundraise",
-          "summary": "Firmus said on Friday it had raised $2 billion in equity in its ‌latest funding round to speed up the ‌build-out of AI factories in Australia and Asia Pacific, bringing up ​the company's post-money valuation to above $10.5 billion. Here are the details: • The latest funding round saw follow-on parti",
-          "pub": "2026-08-07T02:29",
-          "provider": "Reuters",
-          "url": "https://finance.yahoo.com/technology/ai/articles/firmus-nearly-doubles-valuation-over-022927084.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Bristol Myers (BMY) Moves to Buy: Rationale Behind the Upgrade",
+          "summary": "Bristol Myers (BMY) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
+          "pub": "2026-08-06T16:00",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bristol-myers-bmy-moves-buy-160002191.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "格上げ",
+          "why": "+格上げ"
         }
       ]
     },
@@ -804,17 +804,17 @@
       "streak": 31,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 25,
+      "today_rank": 26,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.9,
-      "confirm": 74.6,
+      "confirm": 74.8,
       "signal": 76.4,
       "mom": {
         "ret5": 0.0871,
-        "vol_surge": 0.9
+        "vol_surge": 0.91
       },
       "earn_days": 33,
       "consensus": null,
@@ -877,85 +877,6 @@
       ]
     },
     {
-      "ticker": "CDE",
-      "tier": "確定",
-      "streak": 31,
-      "appearances": 15,
-      "best_rank": 5,
-      "today_rank": 29,
-      "first_seen": "2026-07-08",
-      "name": "Coeur Mining, Inc.",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 58.3,
-      "confirm": 58.3,
-      "signal": 76.3,
-      "mom": {
-        "ret5": 0.0162,
-        "vol_surge": 1.23
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-08-05",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546626000038",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Coeur Mining Inc (CDE) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
-          "summary": "Coeur Mining Inc (CDE) posts record $1.1 billion quarterly revenue and initiates $750 million buyback, while navigating ramp-up delays and non-cash accounting impacts.",
-          "pub": "2026-08-06T23:03",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/coeur-mining-inc-cde-q2-230349412.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "株主還元",
-          "why": "+株主還元 +記録更新"
-        },
-        {
-          "title": "Coeur Mining, Inc. Q2 2026 Earnings Call Summary",
-          "summary": "Moby summary of Coeur Mining, Inc.'s Q2 2026 earnings call",
-          "pub": "2026-08-06T12:30",
-          "provider": "Moby",
-          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-coeur-mining-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Coeur Mining (CDE) Lags Q2 Earnings and Revenue Estimates",
-          "summary": "Coeur Mining (CDE) delivered earnings and revenue surprises of -45.46% and -12.59%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "pub": "2026-08-06T00:35",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/coeur-mining-cde-lags-q2-003523190.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Coeur Mining Set to Report Q2 Earnings: Here's What to Expect",
-          "summary": "CDE is slated to report Q2 2026 results on Aug. 5, with earnings expected to rise 10% year over year as investors watch costs and mine performance.",
-          "pub": "2026-08-03T13:03",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/coeur-mining-set-report-q2-130300450.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 31,
@@ -1000,7 +921,7 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.8,
+      "news": 52.9,
       "confirm": 55.2,
       "signal": 73.6,
       "mom": {
@@ -1085,11 +1006,11 @@
       "sector": "Energy",
       "persist": 100,
       "news": 54.6,
-      "confirm": 35.7,
-      "signal": 70.7,
+      "confirm": 35.8,
+      "signal": 70.8,
       "mom": {
         "ret5": -0.0387,
-        "vol_surge": 0.82
+        "vol_surge": 0.83
       },
       "earn_days": null,
       "consensus": null,
@@ -1144,6 +1065,40 @@
           "pub": "2026-08-06T00:35",
           "provider": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/array-technologies-inc-arry-q2-003516794.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CVE",
+      "tier": "確定",
+      "streak": 31,
+      "appearances": 15,
+      "best_rank": 27,
+      "today_rank": 29,
+      "first_seen": "2026-07-08",
+      "name": "Cenovus Energy Inc",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 31.2,
+      "signal": 68.1,
+      "mom": {
+        "ret5": -0.0683,
+        "vol_surge": 1.11
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Suncor CEO says ‘a lot of work to do’ on pipeline, carbon MOU",
+          "summary": "Suncor more than tripled profits to $3.7 billion, which allowed it to boost shareholder rewards and more than double royalty payments to governments",
+          "pub": "2026-08-05T01:57",
+          "provider": "Financial Post",
+          "url": "https://financialpost.com/commodities/energy/suncor-energy-second-quarter-results",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -1286,6 +1241,14 @@
       "grades": {}
     },
     {
+      "date": "2026-08-07",
+      "ticker": "CVE",
+      "signal": 68.1,
+      "price": 28.25,
+      "spy": 768.5599975585938,
+      "grades": {}
+    },
+    {
       "date": "2026-08-06",
       "ticker": "PLTR",
       "signal": 80.8,
@@ -1314,14 +1277,6 @@
       "ticker": "AVGO",
       "signal": 79.2,
       "price": 418.28,
-      "spy": 769.7899780273438,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-06",
-      "ticker": "KGC",
-      "signal": 79.0,
-      "price": 25.7,
       "spy": 769.7899780273438,
       "grades": {}
     }
