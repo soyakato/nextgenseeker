@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T13:15:50.361288+00:00",
+  "updated": "2026-08-09T19:01:21.861106+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -92,7 +92,7 @@
       "streak": 33,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 27,
+      "today_rank": 29,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
@@ -250,7 +250,7 @@
       "streak": 33,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 35,
+      "today_rank": 30,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -329,7 +329,7 @@
       "streak": 33,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 23,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -395,89 +395,6 @@
           "pub": "2026-08-05T16:54",
           "provider": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/flyw-q2-earnings-call-focuses-165400722.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 33,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 28,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.6,
-      "confirm": 79.4,
-      "signal": 78.3,
-      "mom": {
-        "ret5": 0.1156,
-        "vol_surge": 0.96
-      },
-      "earn_days": 17,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-07-14",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "How AI agents can power the S&P 500 higher",
-          "summary": "AI agents are only getting more powerful.",
-          "pub": "2026-08-09T12:30",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/how-ai-agents-can-power-the-sp-500-higher-123000201.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
-          "summary": "The latest monthly jobs report could take the pressure off the Fed to hike rates.",
-          "pub": "2026-08-09T11:35",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Memory Sector Stocks Are Down 30% or More From Their Highs, But These 2 Are Worth Buying Now",
-          "summary": "Rather than chasing the biggest AI memory winners, investors may find better long-term opportunities in discounted companies like Western Digital and Silicon Motion.",
-          "pub": "2026-08-09T13:15",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/09/memory-sector-stock-down-from-high-buy/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "A Once-in-a-Generation Stock Market Warning Just Appeared. Investors Might Not Like What's Coming Next.",
-          "summary": "The stock market is flashing one of its rarest signals. Here's what investors should do next.",
-          "pub": "2026-08-09T12:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/09/a-once-in-a-generation-stock-market-warning-just-a/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -569,7 +486,7 @@
       "streak": 33,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 29,
+      "today_rank": 31,
       "first_seen": "2026-07-08",
       "name": "Amkor Technology, Inc.",
       "sector": "Technology",
@@ -800,19 +717,102 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 33,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 27,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.1,
+      "confirm": 79.4,
+      "signal": 76.5,
+      "mom": {
+        "ret5": 0.1156,
+        "vol_surge": 0.96
+      },
+      "earn_days": 17,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-07-14",
+          "provider": "Keybanc",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "How AI agents can power the S&P 500 higher",
+          "summary": "AI agents are only getting more powerful.",
+          "pub": "2026-08-09T12:30",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/how-ai-agents-can-power-the-sp-500-higher-123000201.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
+          "summary": "The latest monthly jobs report could take the pressure off the Fed to hike rates.",
+          "pub": "2026-08-09T11:35",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "If You Had Bought $10,000 of Apple Stock When Steve Jobs Handpicked Tim Cook as the Next CEO, Here's How Much You'd Have Today",
+          "summary": "Tim Cook's 15-year tenure has proven to be one of the best in corporate history.",
+          "pub": "2026-08-09T18:56",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/09/if-bought-apple-stock-when-steve-jobs-tim-cook/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Atlassian Jumped More Than 30% After Guiding Next Year's Growth Down to 18%. The Market Bought the Margins.",
+          "summary": "A slower forecast and a soaring stock look like a contradiction. The profit line resolves it.",
+          "pub": "2026-08-09T18:52",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/09/atlassian-jumped-more-than-30-after-guiding-next-y/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        }
+      ]
+    },
+    {
       "ticker": "AI",
       "tier": "確定",
       "streak": 33,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 32,
+      "today_rank": 36,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.5,
+      "news": 51.8,
       "confirm": 76.0,
-      "signal": 76.4,
+      "signal": 76.5,
       "mom": {
         "ret5": 0.1133,
         "vol_surge": 0.73
@@ -899,6 +899,28 @@
       "consensus": null,
       "headlines": [
         {
+          "title": "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+          "summary": "Is MRVL a good stock to buy? We came across a bullish thesis on Marvell Technology, Inc. on Compounding Your Wealth’s Substack by Sergey. In this article, we will summarize the bulls’ thesis on MRVL. Marvell Technology, Inc.’s share was trading at $211.02 as of August 6th 2026. MRVL’s trailing and f",
+          "pub": "2026-08-09T18:19",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-vs-avgo-nvda-181931790.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Top Semiconductor Stock Outpacing Nvidia With a 36% Gain Over 6 Months",
+          "summary": "Broadcom outpaced Nvidia over the past six months and is setting the foundation for continued outperformance.",
+          "pub": "2026-08-09T13:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/09/top-semiconductor-stock-outpacing-nvidia-with-a-36/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
           "summary": "The largest companies are huge because they have run their businesses very well.",
           "pub": "2026-08-09T06:50",
@@ -926,28 +948,6 @@
           "pub": "2026-08-08T17:30",
           "provider": "24/7 Wall St.",
           "url": "https://247wallst.com/investing/2026/08/08/nvidia-micron-or-broadcom-what-would-raymond-dalio-do/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Alphabet CEO Sundar Pichai Just Made a Decision That Could Move Nvidia and Broadcom Stock",
-          "summary": "Alphabet's growth opportunities look like an embarrassment of riches.",
-          "pub": "2026-08-08T15:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/08/alphabet-ceo-sundar-pichai-just-made-a-decision-th/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Does Broadcom (AVGO) Now Lead The Biggest AI Infrastructure Spend Outside GPUs?",
-          "summary": "Broadcom (NasdaqGS:AVGO) has become a dominant supplier for hyperscale AI clusters used by major cloud and AI providers such as Anthropic, OpenAI, and Meta. Multi-year commitments from these customers are channeling significant capital expenditure into Broadcom's AI infrastructure hardware, even as",
-          "pub": "2026-08-08T14:11",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/does-broadcom-avgo-now-lead-141116363.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
