@@ -1,7 +1,86 @@
 {
-  "updated": "2026-08-10T13:45:13.929480+00:00",
+  "updated": "2026-08-10T19:17:32.638167+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "ADI",
+      "tier": "確定",
+      "streak": 34,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 35,
+      "first_seen": "2026-07-08",
+      "name": "Analog Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 69.5,
+      "confirm": 67.2,
+      "signal": 81.9,
+      "mom": {
+        "ret5": 0.0704,
+        "vol_surge": 0.74
+      },
+      "earn_days": 9,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: その他の重要イベント",
+          "summary": "",
+          "pub": "2026-07-29",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/6281/000119312526324223",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "ACMR Q2 Earnings Surpass Estimates, Revenues Rise Y/Y",
+          "summary": "ACM Research's Q2 earnings and revenues beat estimates, while strong orders and new products support growth and lifted 2026 guidance.",
+          "pub": "2026-08-10T15:09",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/acmr-q2-earnings-surpass-estimates-150900615.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "Dear Analog Devices Stock Fans, Mark Your Calendars for August 19",
+          "summary": "Analog Devices is heading into earnings on AI momentum, with investors watching whether results justify lofty expectations.",
+          "pub": "2026-08-08T14:45",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/3737183/dear-analog-devices-stock-fans-mark-your-calendars-for-august-19",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "LASR Q2 Earnings Surpass Estimates on Strong A&D Growth",
+          "summary": "nLIGHT's Q2 2026 earnings and revenues beat estimates as record aerospace and defense demand fueles strong product sales and margin gains.",
+          "pub": "2026-08-07T16:09",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lasr-q2-earnings-surpass-estimates-160900318.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "Gen Digital Q1 Earnings Beat Estimates, Revenues Increase Y/Y",
+          "summary": "GEN beats Q1 earnings and revenue estimates, posts double-digit bookings growth, and raises fiscal 2027 guidance as demand stays strong.",
+          "pub": "2026-08-07T16:03",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gen-digital-q1-earnings-beat-160300477.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        }
+      ]
+    },
     {
       "ticker": "CDE",
       "tier": "確定",
@@ -14,11 +93,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 58.2,
-      "confirm": 85.8,
-      "signal": 80.9,
+      "confirm": 88.7,
+      "signal": 81.4,
       "mom": {
-        "ret5": 0.1048,
-        "vol_surge": 1.39
+        "ret5": 0.1668,
+        "vol_surge": 1.58
       },
       "earn_days": null,
       "consensus": null,
@@ -82,85 +161,6 @@
       ]
     },
     {
-      "ticker": "ADI",
-      "tier": "確定",
-      "streak": 34,
-      "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 35,
-      "first_seen": "2026-07-08",
-      "name": "Analog Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 66.3,
-      "confirm": 67.4,
-      "signal": 80.6,
-      "mom": {
-        "ret5": 0.0734,
-        "vol_surge": 0.69
-      },
-      "earn_days": 9,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-07-29",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/6281/000119312526324223",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Dear Analog Devices Stock Fans, Mark Your Calendars for August 19",
-          "summary": "Analog Devices is heading into earnings on AI momentum, with investors watching whether results justify lofty expectations.",
-          "pub": "2026-08-08T14:45",
-          "provider": "Barchart",
-          "url": "https://www.barchart.com/story/news/3737183/dear-analog-devices-stock-fans-mark-your-calendars-for-august-19",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "LASR Q2 Earnings Surpass Estimates on Strong A&D Growth",
-          "summary": "nLIGHT's Q2 2026 earnings and revenues beat estimates as record aerospace and defense demand fueles strong product sales and margin gains.",
-          "pub": "2026-08-07T16:09",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lasr-q2-earnings-surpass-estimates-160900318.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "Gen Digital Q1 Earnings Beat Estimates, Revenues Increase Y/Y",
-          "summary": "GEN beats Q1 earnings and revenue estimates, posts double-digit bookings growth, and raises fiscal 2027 guidance as demand stays strong.",
-          "pub": "2026-08-07T16:03",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/gen-digital-q1-earnings-beat-160300477.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "AMSC Q1 Earnings Miss Estimates on Margin Pressure, Sales Beat",
-          "summary": "American Superconductor's Q1 sales rise 30% and beat estimates, but earnings decline 44.8% as Comtrafo costs, labor and product mix pressure margins.",
-          "pub": "2026-08-07T15:27",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amsc-q1-earnings-miss-estimates-152700001.html",
-          "dir": 0.0,
-          "conf": 0.0,
-          "type": "決算ビート",
-          "why": "+決算ビート -決算ミス"
-        }
-      ]
-    },
-    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 34,
@@ -171,12 +171,12 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.3,
-      "confirm": 93.8,
-      "signal": 80.5,
+      "news": 48.4,
+      "confirm": 96.7,
+      "signal": 79.1,
       "mom": {
-        "ret5": 0.406,
-        "vol_surge": 1.92
+        "ret5": 0.3994,
+        "vol_surge": 2.11
       },
       "earn_days": null,
       "consensus": {
@@ -250,17 +250,17 @@
       "streak": 34,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 16,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
       "news": 56.8,
-      "confirm": 74.3,
-      "signal": 78.2,
+      "confirm": 75.2,
+      "signal": 78.4,
       "mom": {
-        "ret5": 0.1643,
-        "vol_surge": 0.62
+        "ret5": 0.1221,
+        "vol_surge": 0.68
       },
       "earn_days": 23,
       "consensus": null,
@@ -323,6 +323,162 @@
       ]
     },
     {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 34,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 5,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 49.5,
+      "confirm": 85.4,
+      "signal": 77.4,
+      "mom": {
+        "ret5": 0.1752,
+        "vol_surge": 1.36
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "WPM Q2 Earnings Beat Estimates on Higher Prices, Revenue Growth",
+          "summary": "Wheaton Precious Metals beats Q2 earnings estimates as higher metal prices drive revenue growth, wider margins and a stronger cash flow.",
+          "pub": "2026-08-10T14:33",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/wpm-q2-earnings-beat-estimates-143300595.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "AEM Stock Pops 25% in a Month: What Should Investors Do Now?",
+          "summary": "AEM's 25% rally reflects stronger gold prices and earnings, but rising costs and lower production could temper its momentum.",
+          "pub": "2026-08-10T13:06",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aem-stock-pops-25-month-130600702.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Kinross Gold (KGC) Q2 2026 Earnings Call Transcript",
+          "summary": "Record $2.7B cash balance and $727M free cash flow signal strong operational momentum.",
+          "pub": "2026-08-08T00:14",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/kinross-gold-kgc-q2-2026-earnings-call-transcript/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "RGLD Q2 Earnings Miss Estimates, Revenues Surge Y/Y on Metal Prices",
+          "summary": "Royal Gold posts higher Q2 revenues and record operating cash flow despite an earnings miss, driven by stronger metal prices and new asset contributions.",
+          "pub": "2026-08-07T16:03",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rgld-q2-earnings-miss-estimates-160300233.html",
+          "dir": -0.5,
+          "conf": 0.5,
+          "type": "急騰報道",
+          "why": "+急騰報道 -決算ミス"
+        },
+        {
+          "title": "BTG Q2 Earnings Miss Estimates, Revenues Rise Y/Y on Metal Prices",
+          "summary": "B2Gold misses Q2 earnings estimates as revenues climb on higher gold prices, while production declines and the company narrows its 2026 output guidance.",
+          "pub": "2026-08-07T15:51",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/btg-q2-earnings-miss-estimates-155100234.html",
+          "dir": -0.8,
+          "conf": 0.8,
+          "type": "決算ミス",
+          "why": "-決算ミス"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 34,
+      "appearances": 15,
+      "best_rank": 8,
+      "today_rank": 22,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 53.8,
+      "confirm": 71.3,
+      "signal": 76.4,
+      "mom": {
+        "ret5": 0.082,
+        "vol_surge": 0.78
+      },
+      "earn_days": 23,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Broadcom Boosts VCF Security: Can it Fend Off Nutanix and IBM?",
+          "summary": "AVGO expands VCF security with faster vDefend deployment, on-prem malware sandboxing and API protection as rivals intensify competition.",
+          "pub": "2026-08-10T16:19",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/articles/broadcom-boosts-vcf-security-fend-161900110.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Cerebras Q2 Earnings Loom: Buy or Sell CBRS Stock Ahead of Results?",
+          "summary": "CBRS heads into Q2 earnings with 88% core revenue growth expected, AI inference momentum and OpenAI gains, but margin pressures remain.",
+          "pub": "2026-08-10T16:07",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-q2-earnings-loom-buy-160700843.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Broadcom Stock Looks Like a Screaming Deal",
+          "summary": "Broadcom has major momentum heading into 2027.",
+          "pub": "2026-08-10T16:05",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/10/broadcom-stock-looks-like-a-screaming-deal/",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "Qualcomm's Android Growth Number Has Left The Front Of The Story",
+          "summary": "A metric management once put at the top of its quarterly summary now surfaces only when someone asks for it.",
+          "pub": "2026-08-10T15:14",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/610766/qualcomms-android-growth-number-has-left-the-front-of-the-story/2026-08-10",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Broadcom’s Brilliant Positioning is Why I Am Loading Up Over and Over",
+          "summary": "Every AI investor faces the same dilemma: pick the winner of the compute race or find the one company that gets paid no matter who wins. One stock quietly sits on the bill of materials for Google, Meta, OpenAI, and Anthropic all at once.",
+          "pub": "2026-08-10T14:49",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/10/broadcoms-brilliant-positioning-is-why-i-am-loading-up-over-and-over/",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
+        }
+      ]
+    },
+    {
       "ticker": "ALAB",
       "tier": "確定",
       "streak": 34,
@@ -334,11 +490,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 60.8,
-      "confirm": 60.7,
-      "signal": 77.2,
+      "confirm": 55.9,
+      "signal": 76.3,
       "mom": {
-        "ret5": 0.0261,
-        "vol_surge": 1.19
+        "ret5": 0.0067,
+        "vol_surge": 1.26
       },
       "earn_days": null,
       "consensus": null,
@@ -402,374 +558,22 @@
       ]
     },
     {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 34,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 5,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 48.9,
-      "confirm": 83.3,
-      "signal": 76.8,
-      "mom": {
-        "ret5": 0.1528,
-        "vol_surge": 1.22
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Kinross Gold (KGC) Q2 2026 Earnings Call Transcript",
-          "summary": "Record $2.7B cash balance and $727M free cash flow signal strong operational momentum.",
-          "pub": "2026-08-08T00:14",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/kinross-gold-kgc-q2-2026-earnings-call-transcript/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "RGLD Q2 Earnings Miss Estimates, Revenues Surge Y/Y on Metal Prices",
-          "summary": "Royal Gold posts higher Q2 revenues and record operating cash flow despite an earnings miss, driven by stronger metal prices and new asset contributions.",
-          "pub": "2026-08-07T16:03",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rgld-q2-earnings-miss-estimates-160300233.html",
-          "dir": -0.5,
-          "conf": 0.5,
-          "type": "急騰報道",
-          "why": "+急騰報道 -決算ミス"
-        },
-        {
-          "title": "BTG Q2 Earnings Miss Estimates, Revenues Rise Y/Y on Metal Prices",
-          "summary": "B2Gold misses Q2 earnings estimates as revenues climb on higher gold prices, while production declines and the company narrows its 2026 output guidance.",
-          "pub": "2026-08-07T15:51",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/btg-q2-earnings-miss-estimates-155100234.html",
-          "dir": -0.8,
-          "conf": 0.8,
-          "type": "決算ミス",
-          "why": "-決算ミス"
-        },
-        {
-          "title": "NUGT and AGQ Jump Big as Gold and Silver Rally",
-          "summary": "Gold and silver sparked a chain reaction across leveraged ETFs today, but the mechanics behind those eye-catching percentage gains tell a more complicated story about what these instruments actually deliver over time.",
-          "pub": "2026-08-05T15:57",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/08/05/nugt-and-agq-jump-big-as-gold-and-silver-rally/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Why These Bargain Stocks Can Outshine Gold",
-          "summary": "Even with the precious metal’s recent weakness, gold mining stocks could be the best way to profit from this year’s uncertainty.",
-          "pub": "2026-08-05T05:00",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/gold-price-miner-mining-stocks-7f413d87?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AMKR",
-      "tier": "確定",
-      "streak": 34,
-      "appearances": 15,
-      "best_rank": 16,
-      "today_rank": 28,
-      "first_seen": "2026-07-08",
-      "name": "Amkor Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 56.2,
-      "confirm": 67.5,
-      "signal": 76.7,
-      "mom": {
-        "ret5": 0.0818,
-        "vol_surge": 0.53
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-07-27",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Nvidia’s (NVDA) Amkor (AMKR) Deal Adds Packaging Muscle Ahead Of Earnings",
-          "summary": "Nvidia (NASDAQ:NVDA) is heading into its August 26 earnings date with fresh evidence that AI infrastructure spending is still accelerating. On July 23, Amkor Technology (NASDAQ:AMKR) announced a multi-year, $1.5 billion agreement with Nvidia to expand advanced chip packaging and test capacity in the",
-          "pub": "2026-08-06T10:46",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-amkor-amkr-deal-104631781.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +拡大・新製品"
-        },
-        {
-          "title": "Bull of the Day: Amkor (AMKR)",
-          "summary": "Semi packaging and testing is the newest AI bottleneck and titans TSMC & NVIDIA know who to call in Arizona",
-          "pub": "2026-08-05T09:20",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-amkor-amkr-092000813.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Zacks.com featured highlights Sandisk, Carpenter Technology and Amkor",
-          "summary": "Sandisk, Carpenter Technology and Amkor have been highlighted in this Screen of The Week article.",
-          "pub": "2026-08-04T13:38",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-sandisk-133800655.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "3 Stocks Under $50 We Think Twice About",
-          "summary": "The $10-50 price range often includes mid-sized businesses with proven track records and plenty of growth runway ahead. They also usually carry less risk than penny stocks, though they’re not immune to volatility as many lack the scale advantages of their larger peers.",
-          "pub": "2026-08-03T19:57",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-think-195722215.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 34,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 26,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.1,
-      "confirm": 70.6,
-      "signal": 76.0,
-      "mom": {
-        "ret5": 0.0788,
-        "vol_surge": 0.8
-      },
-      "earn_days": 16,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-07-14",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "How Many High-Yield Financial Stocks Does an Income Portfolio Actually Need?",
-          "summary": "If you are buying stocks with 10% yields, you have to make sure you appreciate the risks you are taking on.",
-          "pub": "2026-08-10T13:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/10/how-many-high-yield-financial-stocks-does-an-incom/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Tilray Brands Expects to Hit a Major Milestone for the Current Fiscal Year: $1 Billion in Annual Revenue. Here's How it Plans to Get There",
-          "summary": "The cannabis stock has struggled despite Tilray achieving solid growth in its most recent fiscal year.",
-          "pub": "2026-08-10T13:34",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/10/tilray-brands-expects-to-hit-a-major-milestone-for/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Price Prediction: Archer Aviation Will Trade at $10 on This Date",
-          "summary": "Archer Aviation holds an Olympic air taxi contract, a stack of blue-chip AI partnerships, and a clear FAA certification timeline, yet its shares sit closer to a 52-week low than a high. Something has to give, and the catalyst timeline is tighter than most investors realize.",
-          "pub": "2026-08-10T13:30",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/10/price-prediction-archer-aviation-will-trade-at-10-on-this-date/",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Prediction: Micron and Taiwan Semiconductor Manufacturing Stocks Will Both Rebound to Fresh Highs Before 2026 Ends",
-          "summary": "Micron and TSMC are at the core of the AI build-out.",
-          "pub": "2026-08-10T13:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/10/prediction-micron-and-taiwan-semiconductor-stocks/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AA",
-      "tier": "確定",
-      "streak": 34,
-      "appearances": 15,
-      "best_rank": 7,
-      "today_rank": 10,
-      "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 74.9,
-      "signal": 75.6,
-      "mom": {
-        "ret5": 0.1353,
-        "vol_surge": 0.66
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Pentagon War Game Exposed a Critical US Aluminum Risk Months Before Iran Attacks",
-          "summary": "(Bloomberg) -- Last summer, about 80 government officials and industry executives gathered in Washington to answer a key question: How would the US aluminum supply chain hold up in the event of a major global conflict?Most Read from BloombergTrump Says Iran Talks Going Well as Hopes Rise for Hormuz",
-          "pub": "2026-08-05T10:00",
-          "provider": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/pentagon-war-game-exposed-critical-100021661.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 34,
-      "appearances": 15,
-      "best_rank": 8,
-      "today_rank": 24,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.1,
-      "confirm": 74.3,
-      "signal": 75.6,
-      "mom": {
-        "ret5": 0.095,
-        "vol_surge": 0.72
-      },
-      "earn_days": 23,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Intel Falls 5% on Proposed $15B Share Sale as AMD, NVIDIA, Broadcom Hold Steady",
-          "summary": "Intel just rattled its own shareholders with a massive equity raise while every other major chipmaker barely flinched, and the gap between Intel's selloff and the flat sector tells a story about where this company is actually headed.",
-          "pub": "2026-08-10T13:19",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/10/intel-falls-5-on-proposed-15b-share-sale-as-amd-nvidia-broadcom-hold-steady/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "TSMC Sales Jumps 45% as Nvidia-Driven AI Boom Powers Chip Demand",
-          "summary": "TSMC Sales Soar to $14.5 Billion as AI Spending Keeps Accelerating",
-          "pub": "2026-08-10T12:18",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/tsmc-sales-jumps-45-nvidia-121836175.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Chip Stocks Face a Long Climb Back to Their Peak Despite Recent Rally",
-          "summary": "The PHLX Semiconductor Index has roared back to life, climbing more than 18% from its recent low on July 29. Yet it still has a long way to go to reclaim its summertime highs. Following last month's sharp decline, the index—consisting of names like Nvidia, Micron Technology, and Broadcom—needs an ad",
-          "pub": "2026-08-10T10:22",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-10-2026/card/chip-stocks-face-a-long-climb-back-to-their-peak-despite-recent-rally-VMPs0LjGUDijwjmC7pbF?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028",
-          "summary": "Taiwan Semiconductor is a fantastic stock pick.",
-          "pub": "2026-08-09T19:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/09/a-10000-investment-in-taiwan-semiconductor-today/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
-          "summary": "Is MRVL a good stock to buy? We came across a bullish thesis on Marvell Technology, Inc. on Compounding Your Wealth’s Substack by Sergey. In this article, we will summarize the bulls’ thesis on MRVL. Marvell Technology, Inc.’s share was trading at $211.02 as of August 6th 2026. MRVL’s trailing and f",
-          "pub": "2026-08-09T18:19",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-vs-avgo-nvda-181931790.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "FLYW",
       "tier": "確定",
       "streak": 34,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 18,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
       "news": 52.0,
-      "confirm": 68.2,
-      "signal": 75.1,
+      "confirm": 73.8,
+      "signal": 76.2,
       "mom": {
-        "ret5": 0.0415,
-        "vol_surge": 1.38
+        "ret5": 0.0547,
+        "vol_surge": 1.49
       },
       "earn_days": null,
       "consensus": null,
@@ -833,32 +637,66 @@
       ]
     },
     {
-      "ticker": "BMY",
+      "ticker": "AA",
       "tier": "確定",
       "streak": 34,
       "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 22,
+      "best_rank": 7,
+      "today_rank": 9,
       "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
       "persist": 100,
-      "news": 63.6,
-      "confirm": 43.7,
-      "signal": 75.1,
+      "news": 50.0,
+      "confirm": 76.2,
+      "signal": 75.9,
       "mom": {
-        "ret5": -0.0171,
-        "vol_surge": 0.92
+        "ret5": 0.1479,
+        "vol_surge": 0.75
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "title": "Pentagon War Game Exposed a Critical US Aluminum Risk Months Before Iran Attacks",
+          "summary": "(Bloomberg) -- Last summer, about 80 government officials and industry executives gathered in Washington to answer a key question: How would the US aluminum supply chain hold up in the event of a major global conflict?Most Read from BloombergTrump Says Iran Talks Going Well as Hopes Rise for Hormuz",
+          "pub": "2026-08-05T10:00",
+          "provider": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/pentagon-war-game-exposed-critical-100021661.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AMKR",
+      "tier": "確定",
+      "streak": 34,
+      "appearances": 15,
+      "best_rank": 16,
+      "today_rank": 27,
+      "first_seen": "2026-07-08",
+      "name": "Amkor Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 57.1,
+      "confirm": 60.5,
+      "signal": 75.7,
+      "mom": {
+        "ret5": 0.0555,
+        "vol_surge": 0.59
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
           "summary": "",
-          "pub": "2026-07-30",
+          "pub": "2026-07-27",
           "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043",
           "dir": 0.0,
           "conf": 0.3,
           "type": "8-K 2.02",
@@ -866,48 +704,131 @@
           "is_edgar": true
         },
         {
-          "title": "Interest Rates Could Still Rise in September: 5 High-Yield Passive Income Stocks Will Benefit",
-          "summary": "Surging oil prices, a CPI spike not seen in three years, and Treasury yields at levels last touched in 2007 are forcing a September rate decision that could reshape which stocks lead the market through the rest of 2026.",
-          "pub": "2026-08-10T12:15",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/10/interest-rates-are-going-up-in-september-5-high-yield-passive-income-stocks-will-benefit/",
+          "title": "1 Profitable Stock for Long-Term Investors and 2 Facing Challenges",
+          "summary": "While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies — as Jeff Bezos said, “Your margin is my opportunity”.",
+          "pub": "2026-08-10T17:09",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-long-term-170922812.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
-          "summary": "10x Genomics reported second-quarter revenue of $151 million, including $1.6 million in license and royalty revenue tied to its settlement with Takara Bio. Excluding non-recurring settlement revenue in both periods, revenue was $149.4 million, up 3% from the prior-year quarter. Chief Executive Offi",
-          "pub": "2026-08-07T20:04",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/xenon-pharmaceuticals-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
-          "summary": "Replimune secures FDA approval for Tudriqev on its third attempt, making it the company’s first product on the market.",
-          "pub": "2026-08-07T19:33",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/replimune-stock-fda-skin-cancer-drug-1b2251e4?siteid=yhoof2&yptr=yahoo",
+          "title": "Nvidia’s (NVDA) Amkor (AMKR) Deal Adds Packaging Muscle Ahead Of Earnings",
+          "summary": "Nvidia (NASDAQ:NVDA) is heading into its August 26 earnings date with fresh evidence that AI infrastructure spending is still accelerating. On July 23, Amkor Technology (NASDAQ:AMKR) announced a multi-year, $1.5 billion agreement with Nvidia to expand advanced chip packaging and test capacity in the",
+          "pub": "2026-08-06T10:46",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-amkor-amkr-deal-104631781.html",
           "dir": 1.0,
           "conf": 1.0,
-          "type": "承認",
-          "why": "+承認 +受注"
+          "type": "契約・提携",
+          "why": "+契約・提携 +拡大・新製品"
         },
         {
-          "title": "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong",
-          "summary": "CYTK tops Q2 revenue estimates as Myqorzo gains traction, but higher launch costs and the absence of milestone payments weigh on results.",
-          "pub": "2026-08-07T18:22",
+          "title": "Bull of the Day: Amkor (AMKR)",
+          "summary": "Semi packaging and testing is the newest AI bottleneck and titans TSMC & NVIDIA know who to call in Arizona",
+          "pub": "2026-08-05T09:20",
           "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/cytk-q2-earnings-top-estimates-182200106.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "決算ビート",
-          "why": "+決算ビート +拡大・新製品"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-amkor-amkr-092000813.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Zacks.com featured highlights Sandisk, Carpenter Technology and Amkor",
+          "summary": "Sandisk, Carpenter Technology and Amkor have been highlighted in this Screen of The Week article.",
+          "pub": "2026-08-04T13:38",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-sandisk-133800655.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 34,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 23,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.8,
+      "confirm": 66.2,
+      "signal": 75.1,
+      "mom": {
+        "ret5": 0.0591,
+        "vol_surge": 0.9
+      },
+      "earn_days": 16,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-07-14",
+          "provider": "Keybanc",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq slip as oil prices climb, Nvidia stock sinks",
+          "summary": "Investors awaited earnings and key inflation data as the major indexes traded within reach of all-time highs.",
+          "pub": "2026-08-10T10:43",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-slip-as-oil-prices-climb-nvidia-stock-sinks-104358890.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Growth Is Flat in 2026. Vanguard’s Deep-Value Fund Is Up 22%, and Almost Nobody Owns It",
+          "summary": "While IWF investors have spent 2026 watching the Magnificent 7 sputter, one overlooked Vanguard fund running the opposite playbook has quietly outpaced nearly every major ETF on the market this year.",
+          "pub": "2026-08-10T19:08",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/10/growth-is-flat-in-2026-vanguards-deep-value-fund-is-up-22-and-almost-nobody-owns-it/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Nvidia Made Them Rich. Redditors Say These 2 Stocks Are Next",
+          "summary": "Nvidia shares have shown explosive growth since ChatGPT launched in late 2022. The stock minted a lot of millionaires and retail investors rejoiced. But doubts are creeping in now and growth is not what it used to be. The logical question every long-term investor asks is this: what is the next Nvidi",
+          "pub": "2026-08-10T18:57",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-made-them-rich-redditors-185703582.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Cathie Wood Puts $37 Million Into SpaceX",
+          "summary": "Wood added shares during both the 13.6% selloff and Friday's rebound.",
+          "pub": "2026-08-10T18:55",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-puts-37-million-185518089.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
         }
       ]
     },
@@ -917,17 +838,17 @@
       "streak": 34,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 34,
+      "today_rank": 30,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.8,
-      "confirm": 58.5,
-      "signal": 73.3,
+      "news": 52.2,
+      "confirm": 63.7,
+      "signal": 74.4,
       "mom": {
-        "ret5": 0.0514,
-        "vol_surge": 0.54
+        "ret5": 0.0663,
+        "vol_surge": 0.59
       },
       "earn_days": 30,
       "consensus": null,
@@ -975,17 +896,85 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
+        }
+      ]
+    },
+    {
+      "ticker": "BMY",
+      "tier": "確定",
+      "streak": 34,
+      "appearances": 15,
+      "best_rank": 14,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
+      "persist": 100,
+      "news": 56.7,
+      "confirm": 48.5,
+      "signal": 73.3,
+      "mom": {
+        "ret5": -0.0046,
+        "vol_surge": 0.99
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-07-30",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000018",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "SoundHound to Post Q2 Earnings: Should You Buy, Sell or Hold the Stock?",
-          "summary": "SOUN heads into Q2 earnings with 23% revenue growth expected, robust AI demand and product momentum, but losses and margin pressure cloud the outlook.",
-          "pub": "2026-08-03T16:54",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/soundhound-post-q2-earnings-buy-165400397.html",
+          "title": "Bristol Myers Squibb to build $2.3 billion Houston campus",
+          "summary": "The roughly 600,000-square-foot facility at Generation Park will create nearly 500 permanent jobs and about 2,000 construction positions",
+          "pub": "2026-08-10T17:37",
+          "provider": "Quartz",
+          "url": "https://qz.com/bristol-myers-squibb-manufacturing-campus-houston-texas-081026",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        },
+        {
+          "title": "IMCR Jumps 21.2% in 3 Months as Kimmtrak Growth Fuels More Momentum",
+          "summary": "Immunocore's 3-month gain reflects Kimmtrak growth and pipeline progress, but valuation and mixed signals temper the momentum case.",
+          "pub": "2026-08-10T16:16",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/imcr-jumps-21-2-3-161600739.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Is IMCR Worth Buying as Kimmtrak Growth Meets a Premium Valuation?",
+          "summary": "Immunocore's Kimmtrak growth and late-stage catalysts strengthen its case, but a premium valuation and single-product risk raise the stakes.",
+          "pub": "2026-08-10T15:41",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/healthcare/articles/imcr-worth-buying-kimmtrak-growth-154100947.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "IMCR Q2 Revenues Climb 18.3% as Kimmtrak Demand Helps Offset EPS Miss",
+          "summary": "Immunocore's Q2 revenue beat reflects strong Kimmtrak demand, but an EPS miss and distributor stocking headwind cloud the near-term outlook.",
+          "pub": "2026-08-10T15:39",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/healthcare/articles/imcr-q2-revenues-climb-18-153900256.html",
+          "dir": 0.0,
+          "conf": 0.0,
+          "type": "決算ビート",
+          "why": "+決算ビート -決算ミス"
         }
       ]
     },
@@ -995,17 +984,17 @@
       "streak": 34,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
       "persist": 100,
       "news": 54.0,
-      "confirm": 48.8,
-      "signal": 72.3,
+      "confirm": 53.3,
+      "signal": 73.1,
       "mom": {
-        "ret5": 0.0114,
-        "vol_surge": 0.69
+        "ret5": 0.0224,
+        "vol_surge": 0.77
       },
       "earn_days": null,
       "consensus": null,
@@ -1078,12 +1067,12 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.5,
-      "confirm": 47.8,
-      "signal": 71.9,
+      "news": 51.1,
+      "confirm": 46.7,
+      "signal": 70.8,
       "mom": {
-        "ret5": -0.0118,
-        "vol_surge": 1.09
+        "ret5": -0.0196,
+        "vol_surge": 1.17
       },
       "earn_days": null,
       "consensus": {
