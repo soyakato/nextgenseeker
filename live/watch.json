@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T07:51:00.091852+00:00",
+  "updated": "2026-08-14T13:43:50.528749+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,17 +8,17 @@
       "streak": 38,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 32,
+      "today_rank": 26,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
       "persist": 100,
-      "news": 56.3,
-      "confirm": 86.0,
-      "signal": 79.8,
+      "news": 55.6,
+      "confirm": 80.3,
+      "signal": 78.3,
       "mom": {
-        "ret5": 0.1789,
-        "vol_surge": 1.4
+        "ret5": 0.0986,
+        "vol_surge": 1.05
       },
       "earn_days": null,
       "consensus": null,
@@ -34,6 +34,17 @@
           "type": "8-K 2.02",
           "why": "決算発表（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Coeur Mining (CDE) Just Topped $1B in Quarterly Revenue. Can It Last?",
+          "summary": "Coeur Mining (NYSE:CDE) just delivered the biggest quarter in its history on August 6. Quarterly revenue crossed $1 billion for the first time, powered by the first full quarter of contributions from the newly acquired New Afton and Rainy River mines. Free cash flow hit a record, the cash balance to",
+          "pub": "2026-08-14T10:53",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coeur-mining-cde-just-topped-105322513.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "CDE- A Standout Silver Play that Delivered a Record Quarter",
@@ -67,17 +78,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Coeur Mining (CDE) Is Up 16.6% After Record Output And New Payout Plan Has The Bull Case Changed?",
-          "summary": "In early August 2026, Coeur Mining reported record quarterly gold output of 163,490 ounces and quarterly revenue of about US$1.09 billion, alongside revised 2026 production guidance across gold, silver and copper. The company paired these mixed operating and earnings results with its first dividend",
-          "pub": "2026-08-08T05:13",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/coeur-mining-cde-16-6-051310889.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -87,17 +87,17 @@
       "streak": 38,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 6,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 63.9,
-      "confirm": 68.2,
-      "signal": 79.0,
+      "confirm": 45.1,
+      "signal": 74.0,
       "mom": {
-        "ret5": 0.048,
-        "vol_surge": 1.25
+        "ret5": -0.0099,
+        "vol_surge": 0.87
       },
       "earn_days": null,
       "consensus": null,
@@ -160,26 +160,193 @@
       ]
     },
     {
+      "ticker": "ADI",
+      "tier": "確定",
+      "streak": 38,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Analog Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 67.1,
+      "confirm": 38.0,
+      "signal": 73.7,
+      "mom": {
+        "ret5": -0.018,
+        "vol_surge": 0.56
+      },
+      "earn_days": 5,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Stock Market Week Ahead: Walmart, Target Lead Retail Earnings; Nvidia Among Stocks In Buy Areas",
+          "summary": "Walmart, Target and other retail earnings take center stage this coming week. Alibaba and Viking Holdings also are on tap.",
+          "pub": "2026-08-14T11:03",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-walmart-target-lead-retail-earnings-nvidia-among-stocks-in-buy-areas/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Should Investors Buy ADI Stock Despite its Premium Valuation?",
+          "summary": "Analog Devices' industrial and data center growth, strong margins and AI exposure may justify its premium valuation despite near-term volatility.",
+          "pub": "2026-08-13T14:30",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-adi-stock-despite-143000951.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "TXN's $5.8B Shareholder Returns: Can FCF Support Bigger Payouts Ahead?",
+          "summary": "Texas Instruments' surging free cash flow, lower capital spending and stronger growth boost its capacity for dividends and share buybacks.",
+          "pub": "2026-08-13T13:33",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/txns-5-8b-shareholder-returns-133300810.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Should Investors Buy MPWR as AI Growth Meets a Premium Valuation?",
+          "summary": "MPWR's AI and server demand is lifting earnings and estimates, but a 44.1X forward multiple and limited margin expansion raise the bar for investors.",
+          "pub": "2026-08-12T16:06",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-mpwr-ai-growth-160600762.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "MPWR Raises 2026 Enterprise Data Growth Floor as AI Demand Surges",
+          "summary": "MPWR lifts its 2026 Enterprise Data growth floor to 130% as AI and server demand surge, while new data-center products widen its growth opportunity.",
+          "pub": "2026-08-12T16:05",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/mpwr-raises-2026-enterprise-data-160500435.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        }
+      ]
+    },
+    {
+      "ticker": "CNQ",
+      "tier": "確定",
+      "streak": 38,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 14,
+      "first_seen": "2026-07-08",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 64.1,
+      "signal": 72.6,
+      "mom": {
+        "ret5": 0.0605,
+        "vol_surge": 0.73
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Suncor Boosts Buybacks as Record Cash Flow Supports Bigger Returns",
+          "summary": "Suncor Energy boosts monthly buybacks to C$500 million after record cash flow, but commodity swings and operating risks could test the pace.",
+          "pub": "2026-08-11T14:08",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/suncor-boosts-buybacks-record-cash-140800855.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Canadian Natural Resources (TSX:CNQ) Stock Still Looks Cheap As Its 294% Run Continues",
+          "summary": "Canadian Natural Resources has delivered a very strong 5 year share price run, yet recent valuation checks still lean toward the stock looking inexpensive at around C$63.45. The stock has returned about 294.5% over 5 years, which puts extra focus on whether the current price already builds in much o",
+          "pub": "2026-08-09T08:08",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/canadian-natural-resources-tsx-cnq-080859345.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Canadian Natural Resources (TSX:CNQ) Posts Record Q2 And Revisits Oil Sands Expansion",
+          "summary": "Canadian Natural Resources (TSX:CNQ) reports record Q2 2026 results and raises its production guidance. The company signals it may revisit multi billion dollar oil sands expansion projects following a new policy memorandum of understanding with government and industry peers. Management highlights th",
+          "pub": "2026-08-09T07:14",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/energy/articles/canadian-natural-resources-tsx-cnq-071453278.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Canadian Natural Resources Q2 Earnings Call Highlights",
+          "summary": "Canadian Natural Resources (NYSE:CNQ) reported record second-quarter production, adjusted earnings and adjusted funds flow, supported by strong oil sands performance, higher output from acquired assets and favorable pricing for synthetic crude oil. President Scott Stauth said the company set eight",
+          "pub": "2026-08-08T02:03",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/canadian-natural-resources-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "CNQ Q2 Earnings Call Flags Higher Output and Growth Discipline",
+          "summary": "Canadian Natural's Q2 call lifts 2026 production guidance after record output, keeps capital at C$6B and major growth projects on hold pending MOU terms.",
+          "pub": "2026-08-07T16:26",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/cnq-q2-earnings-call-flags-162600878.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 38,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 19,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.6,
-      "confirm": 75.3,
-      "signal": 76.5,
+      "news": 55.1,
+      "confirm": 54.9,
+      "signal": 72.6,
       "mom": {
-        "ret5": 0.1543,
-        "vol_surge": 0.69
+        "ret5": 0.0373,
+        "vol_surge": 0.58
       },
       "earn_days": 18,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Credo Stock On The Mend After Tech Sell-Off, But Needs More Work To Break Out",
+          "summary": "Credo stock is making headway toward a buy point. But the AI play is still recovering from a steep slide from its all-time high.",
+          "pub": "2026-08-14T12:00",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/stock-lists/ibd-50/credo-stock-crdo-ai-tech-buy-point-markets-investing/?src=A00220&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.29999999999999993,
+          "type": "記録更新",
+          "why": "+記録更新 -急落報道"
+        },
         {
           "title": "Applied Materials (AMAT) Beats Q3 Earnings and Revenue Estimates",
           "summary": "Applied Materials (AMAT) delivered earnings and revenue surprises of +3.55% and +1.31%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
@@ -223,17 +390,156 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 38,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 30,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 59.1,
+      "confirm": 47.5,
+      "signal": 72.6,
+      "mom": {
+        "ret5": 0.0078,
+        "vol_surge": 0.68
+      },
+      "earn_days": 12,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "The AI build-out has a problem that $1 trillion in cash can't fix",
+          "summary": "Forecasts are rising for how much money Big Tech will throw at the AI data center build-out this year. But money may not get the job done if chips, skilled labor, and power bottlenecks stand in the way.",
+          "pub": "2026-08-14T13:41",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/article/the-ai-build-out-has-a-problem-that-1-trillion-in-cash-cant-fix-134114624.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Dow Jones Futures: Cisco, Coherent Are Earnings Losers After Nebius, Lumentum, CoreWeave Lead AI Rally",
-          "summary": "AI stocks led the market Wednesday, fueled by Nebius, Lumentum, CoreWeave and Super Micro. Cisco and Coherent were earnings movers late.",
-          "pub": "2026-08-13T12:13",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-cisco-coherent-earnings-movers-nebius-lumentum-coreweave-ai-rally/?src=A00220&yptr=yahoo",
+          "title": "The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea",
+          "summary": "The next AI winners may look nothing like Nvidia.",
+          "pub": "2026-08-14T09:57",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/the-next-ai-winners-may-look-nothing-like-nvidia-or-micron-one-big-investment-idea-095700607.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Price Prediction: Coinbase Stock Is Down. Here’s Where I Think It’s Headed Next.",
+          "summary": "Coinbase has shed more than half its value in a year, but a closer look at what just happened in Q2 reveals a company that may be stronger than its stock price suggests.",
+          "pub": "2026-08-14T13:30",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/14/price-prediction-coinbase-stock-is-down-heres-where-i-think-its-headed-next/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why Joby Aviation's Move Into Defense Is a Bullish Sign for Investors",
+          "summary": "Joby is acquiring Resonant Sciences in a $500 million deal.",
+          "pub": "2026-08-14T13:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/14/why-joby-aviations-move-into-defense-is-a-bullish/",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "Korean Stocks Rally Again Overnight. KOSPI Closes Up 2.41% As SK Hynix and Samsung Rally.",
+          "summary": "A single investor day in Milpitas just sent shockwaves through Seoul, and the ripple effects are repricing an entire asset class that Korean giants are preparing to take public.",
+          "pub": "2026-08-14T13:20",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/14/korean-stocks-rally-again-overnight-kospi-closes-up-2-41-as-sk-hynix-and-samsung-rally/",
           "dir": 0.3,
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
+        }
+      ]
+    },
+    {
+      "ticker": "AMKR",
+      "tier": "確定",
+      "streak": 38,
+      "appearances": 15,
+      "best_rank": 16,
+      "today_rank": 31,
+      "first_seen": "2026-07-08",
+      "name": "Amkor Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 62.3,
+      "signal": 72.2,
+      "mom": {
+        "ret5": 0.0684,
+        "vol_surge": 0.45
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Buy AI-Driven SNDK and AMKR to Benefit From Recent Stock Price Debacle",
+          "summary": "SNDK and AMKR are AI-driven semiconductor plays with sharp recent declines, solid estimates and significant upside potential.",
+          "pub": "2026-08-13T13:03",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-ai-driven-sndk-amkr-130300725.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Amkor reportedly weighing partial sale of China operations",
+          "summary": "In one considered scenario, Amkor may retain a minority stake in the business, which is estimated to worth $1bn to $1.5bn.",
+          "pub": "2026-08-11T12:29",
+          "provider": "Investment Monitor",
+          "url": "https://www.investmentmonitor.ai/news/amkor-partial-sale-china-operations/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Buy and Hold These 2 Top-Ranked AI-Led Semiconductor Equipment Stocks",
+          "summary": "AI-driven semiconductor demand is boosting LRCX and AMKR, with strong results, growth prospects and upside potential supporting both stocks.",
+          "pub": "2026-08-11T12:12",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/buy-hold-2-top-ranked-121200594.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "1 Profitable Stock for Long-Term Investors and 2 Facing Challenges",
+          "summary": "While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies — as Jeff Bezos said, “Your margin is my opportunity”.",
+          "pub": "2026-08-10T17:09",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-long-term-170922812.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -248,12 +554,12 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.2,
-      "confirm": 82.1,
-      "signal": 76.2,
+      "news": 50.3,
+      "confirm": 59.3,
+      "signal": 71.7,
       "mom": {
-        "ret5": 0.1481,
-        "vol_surge": 1.14
+        "ret5": 0.0414,
+        "vol_surge": 0.79
       },
       "earn_days": null,
       "consensus": {
@@ -322,104 +628,37 @@
       ]
     },
     {
-      "ticker": "ADI",
-      "tier": "確定",
-      "streak": 38,
-      "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 33,
-      "first_seen": "2026-07-08",
-      "name": "Analog Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 67.1,
-      "confirm": 48.3,
-      "signal": 75.9,
-      "mom": {
-        "ret5": 0.0102,
-        "vol_surge": 0.68
-      },
-      "earn_days": 5,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Should Investors Buy ADI Stock Despite its Premium Valuation?",
-          "summary": "Analog Devices' industrial and data center growth, strong margins and AI exposure may justify its premium valuation despite near-term volatility.",
-          "pub": "2026-08-13T14:30",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-adi-stock-despite-143000951.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "TXN's $5.8B Shareholder Returns: Can FCF Support Bigger Payouts Ahead?",
-          "summary": "Texas Instruments' surging free cash flow, lower capital spending and stronger growth boost its capacity for dividends and share buybacks.",
-          "pub": "2026-08-13T13:33",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/txns-5-8b-shareholder-returns-133300810.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Should Investors Buy MPWR as AI Growth Meets a Premium Valuation?",
-          "summary": "MPWR's AI and server demand is lifting earnings and estimates, but a 44.1X forward multiple and limited margin expansion raise the bar for investors.",
-          "pub": "2026-08-12T16:06",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-mpwr-ai-growth-160600762.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "MPWR Raises 2026 Enterprise Data Growth Floor as AI Demand Surges",
-          "summary": "MPWR lifts its 2026 Enterprise Data growth floor to 130% as AI and server demand surge, while new data-center products widen its growth opportunity.",
-          "pub": "2026-08-12T16:05",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/mpwr-raises-2026-enterprise-data-160500435.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "LITE Q4 Earnings Beat as AI Demand Drives Optical Growth Surge",
-          "summary": "Lumentum's Q4 earnings and revenues surge as cloud and AI demand drives record transceiver shipments and 1.6T product shipments begin.",
-          "pub": "2026-08-12T15:42",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/lite-q4-earnings-beat-ai-154200375.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "決算ビート",
-          "why": "+決算ビート +急騰報道"
-        }
-      ]
-    },
-    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 38,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 10,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 51.1,
-      "confirm": 68.5,
-      "signal": 74.0,
+      "confirm": 50.6,
+      "signal": 70.1,
       "mom": {
-        "ret5": 0.0465,
-        "vol_surge": 1.3
+        "ret5": -0.0045,
+        "vol_surge": 1.13
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Trump Supporters Imperil $4 Billion Aluminum Plant Central to His Industrial Push",
+          "summary": "Oklahoma residents fear toxic emissions, threatening an effort to restore US industrial might.",
+          "pub": "2026-08-14T10:00",
+          "provider": "Bloomberg",
+          "url": "https://finance.yahoo.com/economy/policy/articles/trump-supporters-imperil-4-billion-100019066.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Aluminum Stock Briefly Tops Buy Point. Earnings Surge 357% Amid Strong Trends.",
           "summary": "Shares of Kaiser Aluminum climbed above a buy point Wednesday, just days after the company issued a bullish quarterly report, and as the stock stands out among peers.  With an IBD Composite Rating of 98 and a three-month Relative Strength Rating of 82, Kaiser Aluminum has emerged as the leader among",
@@ -439,17 +678,17 @@
       "streak": 38,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 37,
+      "today_rank": 33,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 55.1,
-      "confirm": 57.5,
-      "signal": 73.2,
+      "confirm": 42.7,
+      "signal": 70.0,
       "mom": {
-        "ret5": 0.0325,
-        "vol_surge": 0.85
+        "ret5": -0.0098,
+        "vol_surge": 0.71
       },
       "earn_days": 26,
       "consensus": null,
@@ -512,313 +751,6 @@
       ]
     },
     {
-      "ticker": "AMKR",
-      "tier": "確定",
-      "streak": 38,
-      "appearances": 15,
-      "best_rank": 16,
-      "today_rank": 34,
-      "first_seen": "2026-07-08",
-      "name": "Amkor Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 62.8,
-      "signal": 72.3,
-      "mom": {
-        "ret5": 0.0663,
-        "vol_surge": 0.53
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Buy AI-Driven SNDK and AMKR to Benefit From Recent Stock Price Debacle",
-          "summary": "SNDK and AMKR are AI-driven semiconductor plays with sharp recent declines, solid estimates and significant upside potential.",
-          "pub": "2026-08-13T13:03",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-ai-driven-sndk-amkr-130300725.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Amkor reportedly weighing partial sale of China operations",
-          "summary": "In one considered scenario, Amkor may retain a minority stake in the business, which is estimated to worth $1bn to $1.5bn.",
-          "pub": "2026-08-11T12:29",
-          "provider": "Investment Monitor",
-          "url": "https://www.investmentmonitor.ai/news/amkor-partial-sale-china-operations/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Buy and Hold These 2 Top-Ranked AI-Led Semiconductor Equipment Stocks",
-          "summary": "AI-driven semiconductor demand is boosting LRCX and AMKR, with strong results, growth prospects and upside potential supporting both stocks.",
-          "pub": "2026-08-11T12:12",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/buy-hold-2-top-ranked-121200594.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "1 Profitable Stock for Long-Term Investors and 2 Facing Challenges",
-          "summary": "While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies — as Jeff Bezos said, “Your margin is my opportunity”.",
-          "pub": "2026-08-10T17:09",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-long-term-170922812.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "CNQ",
-      "tier": "確定",
-      "streak": 38,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 14,
-      "first_seen": "2026-07-08",
-      "name": "Canadian Natural Resources Limi",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 61.9,
-      "signal": 72.1,
-      "mom": {
-        "ret5": 0.0473,
-        "vol_surge": 0.85
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Suncor Boosts Buybacks as Record Cash Flow Supports Bigger Returns",
-          "summary": "Suncor Energy boosts monthly buybacks to C$500 million after record cash flow, but commodity swings and operating risks could test the pace.",
-          "pub": "2026-08-11T14:08",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/suncor-boosts-buybacks-record-cash-140800855.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Canadian Natural Resources (TSX:CNQ) Stock Still Looks Cheap As Its 294% Run Continues",
-          "summary": "Canadian Natural Resources has delivered a very strong 5 year share price run, yet recent valuation checks still lean toward the stock looking inexpensive at around C$63.45. The stock has returned about 294.5% over 5 years, which puts extra focus on whether the current price already builds in much o",
-          "pub": "2026-08-09T08:08",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/canadian-natural-resources-tsx-cnq-080859345.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Canadian Natural Resources (TSX:CNQ) Posts Record Q2 And Revisits Oil Sands Expansion",
-          "summary": "Canadian Natural Resources (TSX:CNQ) reports record Q2 2026 results and raises its production guidance. The company signals it may revisit multi billion dollar oil sands expansion projects following a new policy memorandum of understanding with government and industry peers. Management highlights th",
-          "pub": "2026-08-09T07:14",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/energy/articles/canadian-natural-resources-tsx-cnq-071453278.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Canadian Natural Resources Q2 Earnings Call Highlights",
-          "summary": "Canadian Natural Resources (NYSE:CNQ) reported record second-quarter production, adjusted earnings and adjusted funds flow, supported by strong oil sands performance, higher output from acquired assets and favorable pricing for synthetic crude oil. President Scott Stauth said the company set eight",
-          "pub": "2026-08-08T02:03",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/canadian-natural-resources-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "CNQ Q2 Earnings Call Flags Higher Output and Growth Discipline",
-          "summary": "Canadian Natural's Q2 call lifts 2026 production guidance after record output, keeps capital at C$6B and major growth projects on hold pending MOU terms.",
-          "pub": "2026-08-07T16:26",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/cnq-q2-earnings-call-flags-162600878.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 38,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 36,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 52.1,
-      "confirm": 55.9,
-      "signal": 71.7,
-      "mom": {
-        "ret5": 0.0288,
-        "vol_surge": 0.82
-      },
-      "earn_days": 12,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "Nvidia bulls may have a small problem on their hands",
-          "summary": "The market is positioned for the company to post great results and for CEO Jensen Huang to sound super bullish on the earnings call.",
-          "pub": "2026-08-13T14:23",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-bulls-may-have-a-small-problem-on-their-hands-142341243.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is Bitcoin Headed for a Breakdown or a Breakout? The Historical Evidence Is Just Too Overwhelming to Ignore.",
-          "summary": "Bitcoin's breakdowns are typically followed by surprise breakout rallies.",
-          "pub": "2026-08-14T07:27",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/14/is-bitcoin-headed-for-a-breakdown-or-a-breakout/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Should You Forget Berkshire Hathaway and Buy a Focused Financial Stock Instead?",
-          "summary": "One option currently provides a guaranteed return on investment.",
-          "pub": "2026-08-14T07:25",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/14/should-you-forget-berkshire-hathaway-and-buy-a-foc/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Alphabet and Amazon Are Spending $420 Billion on Infrastructure. These 2 Stocks Are Primed to Cash in on It.",
-          "summary": "Nvidia and Micron are making a ton of money from the AI build-out.",
-          "pub": "2026-08-14T07:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/14/alphabet-and-amazon-are-spending-420-billion-on-in/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Bill Ackman Just Disclosed 6 New Positions, and 4 of Them Are Financial Stocks. Here's What He's Betting On.",
-          "summary": "The famous long-term investor and his team made notable changes to Pershing Square's equity portfolio.",
-          "pub": "2026-08-14T07:19",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/14/bill-ackman-just-disclosed-6-new-positions-and-4-of-them-are-financial-stocks-heres-what-hes-betting-on/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 38,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 15,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.1,
-      "confirm": 48.7,
-      "signal": 69.3,
-      "mom": {
-        "ret5": 0.0022,
-        "vol_surge": 0.87
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1580560/000158056026000013",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Fintech, Payments Firms Outperform Expectations Amid Solid Consumer Spending, RBC Says",
-          "summary": "Financial technology and payments companies outperformed quarterly estimates as consumer spending tu",
-          "pub": "2026-08-13T16:22",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fintech-payments-firms-outperform-expectations-162221489.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Flywire expands payment support in US and Canada with Trustly",
-          "summary": "The tie-up will give customers a way to approve sizeable domestic and international transfers straight from their bank accounts in local currency.",
-          "pub": "2026-08-13T11:55",
-          "provider": "Electronic Payments",
-          "url": "https://www.electronicpaymentsinternational.com/news/flywire-trustly-us-canada-payments/",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "Flywire’s Q2 Earnings Call: Our Top 5 Analyst Questions",
-          "summary": "Flywire’s second quarter was marked by strong performance, driven by broad-based growth across its core verticals and continued client wins in education, travel, and B2B payments. The company’s ability to consolidate complex payment workflows and replace legacy providers resonated with new and exist",
-          "pub": "2026-08-13T00:53",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-q2-earnings-call-top-005300565.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "2 Cash-Producing Stocks to Target This Week and 1 We Ignore",
-          "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
-          "pub": "2026-08-12T02:37",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-target-023722191.html",
-          "dir": -0.8,
-          "conf": 0.8,
-          "type": "決算ミス",
-          "why": "-決算ミス"
-        }
-      ]
-    },
-    {
       "ticker": "AMD",
       "tier": "確定",
       "streak": 38,
@@ -829,12 +761,12 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.0,
-      "confirm": 41.5,
-      "signal": 68.5,
+      "news": 49.8,
+      "confirm": 50.6,
+      "signal": 69.6,
       "mom": {
-        "ret5": -0.0128,
-        "vol_surge": 0.69
+        "ret5": 0.0255,
+        "vol_surge": 0.53
       },
       "earn_days": null,
       "consensus": {
@@ -903,80 +835,81 @@
       ]
     },
     {
-      "ticker": "AVGO",
+      "ticker": "FLYW",
       "tier": "確定",
       "streak": 38,
       "appearances": 15,
-      "best_rank": 8,
-      "today_rank": 24,
+      "best_rank": 2,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
+      "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.6,
-      "confirm": 43.2,
-      "signal": 68.3,
+      "news": 50.1,
+      "confirm": 48.7,
+      "signal": 69.3,
       "mom": {
-        "ret5": -0.0065,
-        "vol_surge": 0.68
+        "ret5": 0.0082,
+        "vol_surge": 0.75
       },
-      "earn_days": 19,
+      "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "Why Coherent Stock Jumped Before Its Own Results Landed",
-          "summary": "The gain was set before the results crossed, and its optical peers rose with it.",
-          "pub": "2026-08-14T01:23",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/611367/why-coherent-stock-jumped-before-its-own-results-landed/2026-08-13",
-          "dir": 0.3,
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1580560/000158056026000013",
+          "dir": 0.0,
           "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "AMD Stock Can Halve Or Nearly Double, And That Is The Calm Assumption",
-          "summary": "Options are priced for a calmer stretch than the stock just delivered, and even that assumption leaves room to lose close to half a position or nearly double it.",
-          "pub": "2026-08-13T20:07",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/611363/amd-stock-can-halve-or-nearly-double-and-that-is-the-calm-assumption/2026-08-13",
+          "title": "Fintech, Payments Firms Outperform Expectations Amid Solid Consumer Spending, RBC Says",
+          "summary": "Financial technology and payments companies outperformed quarterly estimates as consumer spending tu",
+          "pub": "2026-08-13T16:22",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fintech-payments-firms-outperform-expectations-162221489.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "These 3 Tech Stocks Made Double-Digit Dividend Raises This Year",
-          "summary": "The trio is playing a major role in the AI revolution.",
-          "pub": "2026-08-13T18:03",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/13/these-3-tech-stocks-made-double-digit-dividend/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Flywire expands payment support in US and Canada with Trustly",
+          "summary": "The tie-up will give customers a way to approve sizeable domestic and international transfers straight from their bank accounts in local currency.",
+          "pub": "2026-08-13T11:55",
+          "provider": "Electronic Payments",
+          "url": "https://www.electronicpaymentsinternational.com/news/flywire-trustly-us-canada-payments/",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
         },
         {
-          "title": "Collect 13% On CIEN Stock Now, Own It 60% Cheaper If It Dips",
-          "summary": "Here is a way to collect an immediate income stream from the networking boom, which you keep no matter what, while lining up a chance to buy a key supplier at a deep discount if it ever gets there.",
-          "pub": "2026-08-13T17:53",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/611295/collect-13-on-cien-stock-now-own-it-60-cheaper-if-it-dips/2026-08-13",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Flywire’s Q2 Earnings Call: Our Top 5 Analyst Questions",
+          "summary": "Flywire’s second quarter was marked by strong performance, driven by broad-based growth across its core verticals and continued client wins in education, travel, and B2B payments. The company’s ability to consolidate complex payment workflows and replace legacy providers resonated with new and exist",
+          "pub": "2026-08-13T00:53",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-q2-earnings-call-top-005300565.html",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
         },
         {
-          "title": "The Best Growth Stocks to Buy",
-          "summary": "The best growth stocks promise to generate significant returns for your portfolio. But what are growth stocks, and how do you find the best ones?",
-          "pub": "2026-08-13T15:59",
-          "provider": "Kiplinger",
-          "url": "https://www.kiplinger.com/investing/stocks/best-growth-stocks",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "2 Cash-Producing Stocks to Target This Week and 1 We Ignore",
+          "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
+          "pub": "2026-08-12T02:37",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-target-023722191.html",
+          "dir": -0.8,
+          "conf": 0.8,
+          "type": "決算ミス",
+          "why": "-決算ミス"
         }
       ]
     },
@@ -992,11 +925,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 51.0,
-      "confirm": 37.6,
-      "signal": 67.3,
+      "confirm": 30.8,
+      "signal": 65.8,
       "mom": {
-        "ret5": -0.0263,
-        "vol_surge": 0.7
+        "ret5": -0.0434,
+        "vol_surge": 0.59
       },
       "earn_days": null,
       "consensus": null,
@@ -1060,6 +993,84 @@
       ]
     },
     {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 38,
+      "appearances": 15,
+      "best_rank": 8,
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.6,
+      "confirm": 26.2,
+      "signal": 65.0,
+      "mom": {
+        "ret5": -0.0585,
+        "vol_surge": 0.58
+      },
+      "earn_days": 19,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+          "summary": "Investors are reaching for more risk — and getting paid for it.",
+          "pub": "2026-08-14T10:01",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Here’s What Jim Cramer Is Saying About Semis in August",
+          "summary": "Jim Cramer is calling a special Investing Club session on semiconductors, and the timing is no accident. Chip earnings this quarter have split the sector into clear winners and laggards, and Cramer is betting members need to know which lane to own before the back half of 2026.",
+          "pub": "2026-08-14T12:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/14/heres-what-jim-cramer-is-saying-about-semis-in-august/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Latest News In AI Chips - Cerebras Expands Amidst Rising Demand For AI Innovation",
+          "summary": "Cerebras Systems recently reported significant growth in its AI chip and cloud businesses, with its cloud revenue nearly quadrupling year-over-year in the second quarter of 2026. This growth highlights the increasing demand for fast AI inference, a pivotal development in the AI chip industry. In res",
+          "pub": "2026-08-14T11:37",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/latest-news-ai-chips-cerebras-113751324.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Not Micron, Not Sandisk. This Artificial Intelligence (AI) Memory Stock Could Be the Next Nvidia.",
+          "summary": "Memory has emerged as the newest bottleneck in the AI semiconductor value chain.",
+          "pub": "2026-08-14T11:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/14/not-micron-not-sandisk-this-artificial-intelligenc/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "3 AI Infrastructure Stocks Powering the Data Center Boom in August",
+          "summary": "Three companies sit at the physical heart of the AI factory buildout, and each has posted explosive growth while raising guidance heading into fall. The question is whether their fundamentals justify the momentum or set the stage for a painful reset.",
+          "pub": "2026-08-14T11:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/14/3-ai-infrastructure-stocks-powering-the-data-center-boom-in-august/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "BMY",
       "tier": "確定",
       "streak": 38,
@@ -1071,11 +1082,11 @@
       "sector": "Healthcare",
       "persist": 100,
       "news": 42.0,
-      "confirm": 48.0,
-      "signal": 66.0,
+      "confirm": 38.5,
+      "signal": 63.9,
       "mom": {
-        "ret5": 0.0078,
-        "vol_surge": 0.71
+        "ret5": -0.0187,
+        "vol_surge": 0.61
       },
       "earn_days": null,
       "consensus": null,
