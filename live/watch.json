@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T12:59:41.768720+00:00",
+  "updated": "2026-08-15T18:47:43.322330+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,7 +8,7 @@
       "streak": 39,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 28,
+      "today_rank": 30,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
@@ -87,21 +87,32 @@
       "streak": 39,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 21,
+      "today_rank": 24,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
       "news": 71.8,
-      "confirm": 41.8,
-      "signal": 76.1,
+      "confirm": 41.7,
+      "signal": 76.0,
       "mom": {
         "ret5": -0.0138,
-        "vol_surge": 0.73
+        "vol_surge": 0.72
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "What Does Bristol Myers Squibb (BMY) Risk From The Revived $6.7 Billion Lawsuit?",
+          "summary": "Bristol Myers Squibb (NYSE:BMY) is facing a revived US$6.7b lawsuit after a federal appeals court reinstated claims tied to its Celgene acquisition. Plaintiffs allege the company deliberately delayed FDA approval of certain drugs to avoid paying contingent value rights owed to former Celgene shareho",
+          "pub": "2026-08-15T14:07",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/healthcare/articles/does-bristol-myers-squibb-bmy-140731477.html",
+          "dir": -0.1,
+          "conf": 0.10000000000000009,
+          "type": "承認",
+          "why": "+承認 -訴訟・調査"
+        },
         {
           "title": "Bristol Myers Squibb (BMY) Stock May Be 46% Undervalued As FDA Approval Lands",
           "summary": "Bristol-Myers Squibb stock has delivered a 38.1% gain over the past year, while valuation work using a Discounted Cash Flow (DCF) intrinsic value estimate and earnings multiples both currently point to the shares trading at a discount to that estimate. For investors, that combination of strong recen",
@@ -145,17 +156,6 @@
           "conf": 1.0,
           "type": "承認",
           "why": "+承認 +受注"
-        },
-        {
-          "title": "Bristol Myers Squibb (BMY) Wins FDA Approval, Is The Stock Fully Priced?",
-          "summary": "Bristol Myers Squibb (BMY) is back in focus after the FDA granted accelerated approval for ZENBEXUS in a multiple myeloma combination regimen, introducing the first approved CELMoD therapy in this disease setting. See our latest analysis for Bristol-Myers Squibb. The ZENBEXUS approval lands at a tim",
-          "pub": "2026-08-14T19:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/healthcare/articles/bristol-myers-squibb-bmy-wins-191013366.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "承認",
-          "why": "+承認 +受注"
         }
       ]
     },
@@ -165,7 +165,7 @@
       "streak": 39,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 14,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
@@ -227,86 +227,80 @@
       ]
     },
     {
-      "ticker": "AMD",
+      "ticker": "CRDO",
       "tier": "確定",
       "streak": 39,
       "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
+      "best_rank": 4,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
+      "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.9,
-      "confirm": 64.6,
-      "signal": 73.8,
+      "news": 59.1,
+      "confirm": 57.2,
+      "signal": 74.3,
       "mom": {
-        "ret5": 0.0642,
-        "vol_surge": 0.69
+        "ret5": 0.0401,
+        "vol_surge": 0.68
       },
-      "earn_days": null,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
+      "earn_days": 17,
+      "consensus": null,
       "headlines": [
         {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
+          "title": "Rambus Stock Has Been on a Wild Ride. Here’s What Happens Next",
+          "summary": "Rambus plunged nearly 30% from its June peak even as it posted record revenue and landed a hyperscaler design win, leaving investors to figure out whether the selloff signals a broken story or a rare entry point.",
+          "pub": "2026-08-15T13:30",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/15/rambus-stock-has-been-on-a-wild-ride-heres-what-happens-next/",
+          "dir": 0.8,
+          "conf": 0.7999999999999999,
+          "type": "記録更新",
+          "why": "+記録更新 +受注 -急落報道"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-06",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "title": "Credo Stock On The Mend After Tech Sell-Off, But Needs More Work To Break Out",
+          "summary": "Credo stock is making headway toward a buy point. But the AI play is still recovering from a steep slide from its all-time high.",
+          "pub": "2026-08-14T12:00",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/stock-lists/ibd-50/credo-stock-crdo-ai-tech-buy-point-markets-investing/?src=A00220&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.29999999999999993,
+          "type": "記録更新",
+          "why": "+記録更新 -急落報道"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-06",
-          "provider": "Argus Research",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "title": "Applied Materials (AMAT) Beats Q3 Earnings and Revenue Estimates",
+          "summary": "Applied Materials (AMAT) delivered earnings and revenue surprises of +3.55% and +1.31%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "pub": "2026-08-13T21:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-beats-q3-211502115.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
         },
         {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-05",
-          "provider": "Wedbush",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "title": "Stock Market Today: Nasdaq 100 Leads Upside; Cerebras Smashed On Earnings, Yet Up For Week (Live Coverage)",
+          "summary": "Stock Market Today: The Dow Jones index rises Thursday after surprise key inflation data. Cisco and AI stock Cerebras plunge on earnings.",
+          "pub": "2026-08-13T20:51",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-cisco-cerebras-earnings/?src=A00220&yptr=yahoo",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
         },
         {
-          "title": "アナリストmaintain: Sector Perform→Sector Perform",
-          "summary": "",
-          "pub": "2026-08-05",
-          "provider": "RBC Capital",
-          "url": "",
+          "title": "Is Credo (CRDO) Quietly Redefining Its AI Moat Through Open Interconnect Standards and Memory Solutions?",
+          "summary": "Earlier in August 2026, Credo Technology Group Holding Ltd. showcased its OmniConnect Weaver AI memory interconnect and Toucan PCIe 6.0-capable retimer at the FMS 2026 conference, where OmniConnect Weaver was also named a finalist in two FMS Best of Show award categories. By pairing new AI-focused i",
+          "pub": "2026-08-13T17:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/credo-crdo-quietly-redefining-ai-171036061.html",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -394,7 +388,7 @@
       "streak": 39,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 29,
+      "today_rank": 32,
       "first_seen": "2026-07-08",
       "name": "Amkor Technology, Inc.",
       "sector": "Technology",
@@ -467,80 +461,165 @@
       ]
     },
     {
-      "ticker": "CRDO",
+      "ticker": "AMD",
       "tier": "確定",
       "streak": 39,
       "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 13,
+      "best_rank": 1,
+      "today_rank": 2,
       "first_seen": "2026-07-08",
-      "name": "Credo Technology Group Holding ",
+      "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.1,
-      "confirm": 57.2,
-      "signal": 72.7,
+      "news": 50.3,
+      "confirm": 64.6,
+      "signal": 72.3,
       "mom": {
-        "ret5": 0.0401,
-        "vol_surge": 0.68
+        "ret5": 0.0642,
+        "vol_surge": 0.69
       },
-      "earn_days": 17,
+      "earn_days": null,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-06",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-06",
+          "provider": "Argus Research",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-05",
+          "provider": "Wedbush",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Sector Perform→Sector Perform",
+          "summary": "",
+          "pub": "2026-08-05",
+          "provider": "RBC Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 39,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 15,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 48.6,
+      "confirm": 63.6,
+      "signal": 71.4,
+      "mom": {
+        "ret5": 0.0579,
+        "vol_surge": 0.75
+      },
+      "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "Credo Stock On The Mend After Tech Sell-Off, But Needs More Work To Break Out",
-          "summary": "Credo stock is making headway toward a buy point. But the AI play is still recovering from a steep slide from its all-time high.",
-          "pub": "2026-08-14T12:00",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/stock-lists/ibd-50/credo-stock-crdo-ai-tech-buy-point-markets-investing/?src=A00220&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.29999999999999993,
-          "type": "記録更新",
-          "why": "+記録更新 -急落報道"
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1580560/000158056026000013",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "Applied Materials (AMAT) Beats Q3 Earnings and Revenue Estimates",
-          "summary": "Applied Materials (AMAT) delivered earnings and revenue surprises of +3.55% and +1.31%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "pub": "2026-08-13T21:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-beats-q3-211502115.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
+          "title": "Fintech, Payments Firms Outperform Expectations Amid Solid Consumer Spending, RBC Says",
+          "summary": "Financial technology and payments companies outperformed quarterly estimates as consumer spending tu",
+          "pub": "2026-08-13T16:22",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fintech-payments-firms-outperform-expectations-162221489.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Stock Market Today: Nasdaq 100 Leads Upside; Cerebras Smashed On Earnings, Yet Up For Week (Live Coverage)",
-          "summary": "Stock Market Today: The Dow Jones index rises Thursday after surprise key inflation data. Cisco and AI stock Cerebras plunge on earnings.",
-          "pub": "2026-08-13T20:51",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-cisco-cerebras-earnings/?src=A00220&yptr=yahoo",
-          "dir": -0.4,
+          "title": "Flywire expands payment support in US and Canada with Trustly",
+          "summary": "The tie-up will give customers a way to approve sizeable domestic and international transfers straight from their bank accounts in local currency.",
+          "pub": "2026-08-13T11:55",
+          "provider": "Electronic Payments",
+          "url": "https://www.electronicpaymentsinternational.com/news/flywire-trustly-us-canada-payments/",
+          "dir": 0.4,
           "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
         },
         {
-          "title": "Is Credo (CRDO) Quietly Redefining Its AI Moat Through Open Interconnect Standards and Memory Solutions?",
-          "summary": "Earlier in August 2026, Credo Technology Group Holding Ltd. showcased its OmniConnect Weaver AI memory interconnect and Toucan PCIe 6.0-capable retimer at the FMS 2026 conference, where OmniConnect Weaver was also named a finalist in two FMS Best of Show award categories. By pairing new AI-focused i",
-          "pub": "2026-08-13T17:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/credo-crdo-quietly-redefining-ai-171036061.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Flywire’s Q2 Earnings Call: Our Top 5 Analyst Questions",
+          "summary": "Flywire’s second quarter was marked by strong performance, driven by broad-based growth across its core verticals and continued client wins in education, travel, and B2B payments. The company’s ability to consolidate complex payment workflows and replace legacy providers resonated with new and exist",
+          "pub": "2026-08-13T00:53",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-q2-earnings-call-top-005300565.html",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
         },
         {
-          "title": "Credo Targets AI's Memory Wall With Open Chiplet Interconnect Standard",
-          "summary": "CRDO is advancing open interconnect standards to tackle AI memory bottlenecks and enable more flexible, modular data-center architectures.",
-          "pub": "2026-08-13T13:23",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/credo-targets-ais-memory-wall-132300053.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "2 Cash-Producing Stocks to Target This Week and 1 We Ignore",
+          "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
+          "pub": "2026-08-12T02:37",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-target-023722191.html",
+          "dir": -0.8,
+          "conf": 0.8,
+          "type": "決算ミス",
+          "why": "-決算ミス"
         }
       ]
     },
@@ -550,7 +629,7 @@
       "streak": 39,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 18,
+      "today_rank": 23,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -619,6 +698,89 @@
           "conf": 0.8,
           "type": "決算ビート",
           "why": "+決算ビート"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 39,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 25,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 55.2,
+      "confirm": 48.3,
+      "signal": 70.8,
+      "mom": {
+        "ret5": 0.0054,
+        "vol_surge": 0.78
+      },
+      "earn_days": 11,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding",
+          "summary": "Berkshire Hathaway (BRK-A, BRK-B), under new CEO Greg Abel, increased its Alphabet position, making the Google parent its third-largest U.S.-listed equity holding by market value, behind Apple (AAPL) and American Express (AXP). According to a new filing, Berkshire held roughly 106 million Alphabet s",
+          "pub": "2026-08-14T21:29",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/berkshire-ups-alphabet-stake-under-212900630.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+          "summary": "Investors are reaching for more risk — and getting paid for it.",
+          "pub": "2026-08-14T10:01",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Eli Lilly Is Building a Weight Loss Drug for Every Kind of Patient",
+          "summary": "The company's peers in the pharmaceutical industry should be worried.",
+          "pub": "2026-08-15T18:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/15/eli-lilly-is-building-a-weight-loss-drug-for-every/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Iren Won't Have to Raise Capital for Much Longer After the Horizon 1 Delivery",
+          "summary": "Iren is starting to make money from its Microsoft deal, and that will make it less reliant on issuing corporate bonds.",
+          "pub": "2026-08-15T18:15",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/15/iren-wont-have-to-raise-capital-much-longer-after/",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "5 Monthly Dividend ETFs Paying 7 to 14 Percent to Ride Into 2027",
+          "summary": "Five monthly paying ETFs are pulling income from covered calls, preferred stock, and junk bond coupons at yields that dwarf the 10-year Treasury, but the engine behind each payout changes everything about which one belongs in your portfolio.",
+          "pub": "2026-08-15T17:11",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/15/5-monthly-dividend-etfs-paying-7-to-14-percent-to-ride-into-2027/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -701,85 +863,6 @@
       ]
     },
     {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 39,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 16,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 48.6,
-      "confirm": 58.5,
-      "signal": 70.3,
-      "mom": {
-        "ret5": 0.0335,
-        "vol_surge": 0.9
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1580560/000158056026000013",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Fintech, Payments Firms Outperform Expectations Amid Solid Consumer Spending, RBC Says",
-          "summary": "Financial technology and payments companies outperformed quarterly estimates as consumer spending tu",
-          "pub": "2026-08-13T16:22",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fintech-payments-firms-outperform-expectations-162221489.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Flywire expands payment support in US and Canada with Trustly",
-          "summary": "The tie-up will give customers a way to approve sizeable domestic and international transfers straight from their bank accounts in local currency.",
-          "pub": "2026-08-13T11:55",
-          "provider": "Electronic Payments",
-          "url": "https://www.electronicpaymentsinternational.com/news/flywire-trustly-us-canada-payments/",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "Flywire’s Q2 Earnings Call: Our Top 5 Analyst Questions",
-          "summary": "Flywire’s second quarter was marked by strong performance, driven by broad-based growth across its core verticals and continued client wins in education, travel, and B2B payments. The company’s ability to consolidate complex payment workflows and replace legacy providers resonated with new and exist",
-          "pub": "2026-08-13T00:53",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-q2-earnings-call-top-005300565.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "2 Cash-Producing Stocks to Target This Week and 1 We Ignore",
-          "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
-          "pub": "2026-08-12T02:37",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-target-023722191.html",
-          "dir": -0.8,
-          "conf": 0.8,
-          "type": "決算ミス",
-          "why": "-決算ミス"
-        }
-      ]
-    },
-    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 39,
@@ -790,9 +873,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.9,
+      "news": 51.2,
       "confirm": 51.7,
-      "signal": 69.8,
+      "signal": 69.9,
       "mom": {
         "ret5": 0.0118,
         "vol_surge": 0.88
@@ -920,89 +1003,6 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 39,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 23,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 48.3,
-      "signal": 68.7,
-      "mom": {
-        "ret5": 0.0054,
-        "vol_surge": 0.78
-      },
-      "earn_days": 11,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding",
-          "summary": "Berkshire Hathaway (BRK-A, BRK-B), under new CEO Greg Abel, increased its Alphabet position, making the Google parent its third-largest U.S.-listed equity holding by market value, behind Apple (AAPL) and American Express (AXP). According to a new filing, Berkshire held roughly 106 million Alphabet s",
-          "pub": "2026-08-14T21:29",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/berkshire-ups-alphabet-stake-under-212900630.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "The AI build-out has a problem that $1 trillion in cash can't fix",
-          "summary": "Forecasts are rising for how much money Big Tech will throw at the AI data center build-out this year. But money may not get the job done if chips, skilled labor, and power bottlenecks stand in the way.",
-          "pub": "2026-08-14T13:41",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/article/the-ai-build-out-has-a-problem-that-1-trillion-in-cash-cant-fix-134114624.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Block Stock Slumps Despite Earnings Rising by 65%",
-          "summary": "AI-driven efficiencies are an underappreciated catalyst for the fintech company.",
-          "pub": "2026-08-15T12:41",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/15/block-stock-slumps-despite-earnings-rising-by-65/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Nu Holdings Banks More Than Half the Adults in Brazil",
-          "summary": "The digital bank just topped $1 billion in quarterly profit for the first time. So where does growth come from when most of a country already banks with you?",
-          "pub": "2026-08-15T12:37",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/15/nu-holdings-banks-more-than-half-the-adults-in-bra/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Elon Musk's $1 Trillion Pay Package Needs Tesla to Hit an $8.5 Trillion Market Cap. Here's What That Means for Shareholders.",
-          "summary": "Everything depends on creating long-term shareholder value.",
-          "pub": "2026-08-15T12:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/15/elon-musk-trillion-pay-package-tesla-market-cap/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "ALAB",
       "tier": "確定",
       "streak": 39,
@@ -1092,9 +1092,9 @@
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.6,
+      "news": 50.0,
       "confirm": 23.4,
-      "signal": 63.6,
+      "signal": 63.3,
       "mom": {
         "ret5": -0.0813,
         "vol_surge": 0.85
@@ -1108,6 +1108,17 @@
           "pub": "2026-08-14T10:01",
           "provider": "Yahoo Finance",
           "url": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Cisco vs. Broadcom: One Stock Looks Like the Better AI Play",
+          "summary": "Cisco just posted a networking super cycle quarter while Broadcom reported AI semiconductor numbers that border on absurd, and the two stocks now sit at nearly the same valuation multiple despite wildly different growth trajectories.",
+          "pub": "2026-08-15T15:30",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/15/cisco-vs-broadcom-one-stock-looks-like-the-better-ai-play/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -1141,17 +1152,6 @@
           "pub": "2026-08-14T22:43",
           "provider": "Barrons.com",
           "url": "https://www.barrons.com/articles/third-point-nvidia-broadcom-warner-bros-discovery-stock-1f4560da?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "AI Infrastructure Stocks: Billions of Reasons to Stay Bullish",
-          "summary": "Investors have hundreds of billions ($) of reasons why to remain bullish on the AI buildout, particularly for companies like Vertiv (VRT) and Broadcom (AVGO), as companies continue to invest heavily in their AI futures.",
-          "pub": "2026-08-14T22:12",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ai-infrastructure-stocks-billions-reasons-221200697.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
