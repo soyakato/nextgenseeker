@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-15T18:47:43.322330+00:00",
+  "updated": "2026-08-16T01:57:39.399157+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
       "ticker": "CDE",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 30,
+      "today_rank": 31,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
@@ -84,24 +84,35 @@
     {
       "ticker": "BMY",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 24,
+      "today_rank": 23,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
       "news": 71.8,
-      "confirm": 41.7,
-      "signal": 76.0,
+      "confirm": 41.8,
+      "signal": 76.1,
       "mom": {
         "ret5": -0.0138,
-        "vol_surge": 0.72
+        "vol_surge": 0.73
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Are Mega-Mergers Back?",
+          "summary": "Companies try to get deals done while regulators allow them. But are buyouts always a good idea?",
+          "pub": "2026-08-15T19:14",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/15/are-mega-mergers-back/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "What Does Bristol Myers Squibb (BMY) Risk From The Revived $6.7 Billion Lawsuit?",
           "summary": "Bristol Myers Squibb (NYSE:BMY) is facing a revived US$6.7b lawsuit after a federal appeals court reinstated claims tied to its Celgene acquisition. Plaintiffs allege the company deliberately delayed FDA approval of certain drugs to avoid paying contingent value rights owed to former Celgene shareho",
@@ -145,27 +156,16 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can BMY's First CELMoD Approval Support Its Growth Strategy?",
-          "summary": "Bristol Myers wins FDA accelerated approval for Zenbexus, the first CELMoD therapy, as data show it doubles MRD-negative complete response rates.",
-          "pub": "2026-08-14T19:25",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/bmys-first-celmod-approval-support-192500252.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "承認",
-          "why": "+承認 +受注"
         }
       ]
     },
     {
       "ticker": "CNQ",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 13,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
@@ -229,10 +229,10 @@
     {
       "ticker": "CRDO",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 12,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -244,7 +244,7 @@
         "ret5": 0.0401,
         "vol_surge": 0.68
       },
-      "earn_days": 17,
+      "earn_days": 16,
       "consensus": null,
       "headlines": [
         {
@@ -307,7 +307,7 @@
     {
       "ticker": "KGC",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 2,
       "today_rank": 5,
@@ -316,11 +316,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 63.9,
-      "confirm": 46.3,
+      "confirm": 46.0,
       "signal": 73.8,
       "mom": {
         "ret5": -0.0119,
-        "vol_surge": 0.99
+        "vol_surge": 0.97
       },
       "earn_days": null,
       "consensus": null,
@@ -385,7 +385,7 @@
     {
       "ticker": "AMKR",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 16,
       "today_rank": 32,
@@ -461,9 +461,92 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 40,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 25,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 60.3,
+      "confirm": 48.3,
+      "signal": 72.8,
+      "mom": {
+        "ret5": 0.0054,
+        "vol_surge": 0.78
+      },
+      "earn_days": 10,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-11",
+          "provider": "Wells Fargo",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Could Investing $5,000 in SpaceX Help Make You a Millionaire?",
+          "summary": "SpaceX's shares will likely be volatile for a while.",
+          "pub": "2026-08-16T01:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/15/could-investing-5000-in-spacex-help-make-you-a-mil/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "CrowdStrike Is One of My Largest Holdings and Trading Near Its All-Time High. Here's Why I'm Not Buying More Shares Right Now.",
+          "summary": "The timing of an investment matters, even for great companies.",
+          "pub": "2026-08-16T00:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/15/crowdstrike-is-one-of-my-largest-holdings-and-trad/",
+          "dir": 0.7,
+          "conf": 0.7,
+          "type": "記録更新",
+          "why": "+記録更新"
+        },
+        {
+          "title": "If You'd Put $5,000 Into Rocket Lab 5 Years Ago, Here's How Much You'd Have Today",
+          "summary": "You would have made a pretty penny.",
+          "pub": "2026-08-16T00:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/15/if-youd-put-5000-into-rocket-lab-5-years-ago-heres/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "How could open-weight models impact GenAI ROIC?",
+          "summary": "Investing.com -- The rise of lower-cost open-weight AI models could pressure pricing and returns for model developers, but hyperscalers should continue generating attractive returns from the computing infrastructure needed to run them, Morgan Stanley analysts said.",
+          "pub": "2026-08-15T23:52",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/could-open-weight-models-impact-235236970.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AMD",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 1,
       "today_rank": 2,
@@ -547,20 +630,20 @@
     {
       "ticker": "FLYW",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 15,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
       "news": 48.6,
-      "confirm": 63.6,
+      "confirm": 63.8,
       "signal": 71.4,
       "mom": {
         "ret5": 0.0579,
-        "vol_surge": 0.75
+        "vol_surge": 0.76
       },
       "earn_days": null,
       "consensus": null,
@@ -626,10 +709,10 @@
     {
       "ticker": "ADI",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 23,
+      "today_rank": 29,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -641,7 +724,7 @@
         "ret5": -0.0014,
         "vol_surge": 0.67
       },
-      "earn_days": 4,
+      "earn_days": 3,
       "consensus": null,
       "headlines": [
         {
@@ -702,92 +785,93 @@
       ]
     },
     {
-      "ticker": "NVDA",
+      "ticker": "PLTR",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 25,
+      "best_rank": 1,
+      "today_rank": 1,
       "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
+      "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.2,
-      "confirm": 48.3,
-      "signal": 70.8,
+      "news": 52.6,
+      "confirm": 51.7,
+      "signal": 70.5,
       "mom": {
-        "ret5": 0.0054,
-        "vol_surge": 0.78
+        "ret5": 0.0118,
+        "vol_surge": 0.88
       },
-      "earn_days": 11,
+      "earn_days": null,
       "consensus": {
-        "buy": 60,
-        "hold": 16,
+        "buy": 13,
+        "hold": 10,
         "sell": 3,
         "consensus": "Buy"
       },
       "headlines": [
         {
-          "title": "Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding",
-          "summary": "Berkshire Hathaway (BRK-A, BRK-B), under new CEO Greg Abel, increased its Alphabet position, making the Google parent its third-largest U.S.-listed equity holding by market value, behind Apple (AAPL) and American Express (AXP). According to a new filing, Berkshire held roughly 106 million Alphabet s",
-          "pub": "2026-08-14T21:29",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/berkshire-ups-alphabet-stake-under-212900630.html",
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-03",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039",
           "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
-          "summary": "Investors are reaching for more risk — and getting paid for it.",
-          "pub": "2026-08-14T10:01",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html",
+          "title": "アナリストmaintain: Neutral→Neutral",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Eli Lilly Is Building a Weight Loss Drug for Every Kind of Patient",
-          "summary": "The company's peers in the pharmaceutical industry should be worried.",
-          "pub": "2026-08-15T18:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/15/eli-lilly-is-building-a-weight-loss-drug-for-every/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Iren Won't Have to Raise Capital for Much Longer After the Horizon 1 Delivery",
-          "summary": "Iren is starting to make money from its Microsoft deal, and that will make it less reliant on issuing corporate bonds.",
-          "pub": "2026-08-15T18:15",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/15/iren-wont-have-to-raise-capital-much-longer-after/",
+          "title": "アナリストupgrade: Hold→Buy",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Deutsche Bank",
+          "url": "",
           "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "5 Monthly Dividend ETFs Paying 7 to 14 Percent to Ride Into 2027",
-          "summary": "Five monthly paying ETFs are pulling income from covered calls, preferred stock, and junk bond coupons at yields that dwarf the 10-year Treasury, but the engine behind each payout changes everything about which one belongs in your portfolio.",
-          "pub": "2026-08-15T17:11",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/15/5-monthly-dividend-etfs-paying-7-to-14-percent-to-ride-into-2027/",
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Mizuho",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Citigroup",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
     {
       "ticker": "AI",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 16,
       "today_rank": 35,
@@ -802,7 +886,7 @@
         "ret5": -0.0284,
         "vol_surge": 0.88
       },
-      "earn_days": 25,
+      "earn_days": 24,
       "consensus": null,
       "headlines": [
         {
@@ -863,93 +947,9 @@
       ]
     },
     {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 39,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.2,
-      "confirm": 51.7,
-      "signal": 69.9,
-      "mom": {
-        "ret5": 0.0118,
-        "vol_surge": 0.88
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 13,
-        "hold": 10,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "UBS",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Mizuho",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Citigroup",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
       "ticker": "AA",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 7,
       "today_rank": 7,
@@ -1005,7 +1005,7 @@
     {
       "ticker": "ALAB",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 1,
       "today_rank": 3,
@@ -1084,34 +1084,34 @@
     {
       "ticker": "AVGO",
       "tier": "確定",
-      "streak": 39,
+      "streak": 40,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 20,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.0,
+      "news": 52.2,
       "confirm": 23.4,
-      "signal": 63.3,
+      "signal": 64.2,
       "mom": {
         "ret5": -0.0813,
         "vol_surge": 0.85
       },
-      "earn_days": 18,
+      "earn_days": 17,
       "consensus": null,
       "headlines": [
         {
-          "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
-          "summary": "Investors are reaching for more risk — and getting paid for it.",
-          "pub": "2026-08-14T10:01",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Bond Traders Are Agonizing Over $70 Billion of Shadow Credit Backstops For AI Companies",
+          "summary": "Even before Nvidia Corp.’s splashy $500 billion financing partnership this week, investors were starting to fret over the roughly $70 billion in phantom liabilities that don’t appear on major AI companies’ balance sheets, but could materialize at the worst possible time.",
+          "pub": "2026-08-15T19:00",
+          "provider": "Bloomberg",
+          "url": "https://finance.yahoo.com/technology/ai/articles/bond-traders-agonizing-over-70-190000845.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
         },
         {
           "title": "Cisco vs. Broadcom: One Stock Looks Like the Better AI Play",
@@ -1174,6 +1174,118 @@
   },
   "alerts_recent": [
     {
+      "date": "2026-08-16",
+      "ticker": "CDE",
+      "signal": 76.6,
+      "price": 18.81,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "BMY",
+      "signal": 76.1,
+      "price": 63.83,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "CNQ",
+      "signal": 75.6,
+      "price": 47.97,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "CRDO",
+      "signal": 74.3,
+      "price": 259.9,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "KGC",
+      "signal": 73.8,
+      "price": 27.31,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "AMKR",
+      "signal": 73.2,
+      "price": 58.99,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "NVDA",
+      "signal": 72.8,
+      "price": 225.16,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "AMD",
+      "signal": 72.3,
+      "price": 514.39,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "FLYW",
+      "signal": 71.4,
+      "price": 18.81,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "ADI",
+      "signal": 71.1,
+      "price": 389.39,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "PLTR",
+      "signal": 70.5,
+      "price": 174.04,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "AI",
+      "signal": 70.5,
+      "price": 9.93,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "AA",
+      "signal": 68.9,
+      "price": 49.98,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-16",
+      "ticker": "ALAB",
+      "signal": 67.8,
+      "price": 321.61,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
       "date": "2026-08-15",
       "ticker": "CDE",
       "signal": 77.0,
@@ -1219,118 +1331,6 @@
       "signal": 73.7,
       "price": 58.99,
       "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-15",
-      "ticker": "CRDO",
-      "signal": 73.1,
-      "price": 259.9,
-      "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-15",
-      "ticker": "ADI",
-      "signal": 71.5,
-      "price": 389.39,
-      "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-15",
-      "ticker": "NVDA",
-      "signal": 71.5,
-      "price": 225.16,
-      "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-15",
-      "ticker": "FLYW",
-      "signal": 71.4,
-      "price": 18.81,
-      "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-15",
-      "ticker": "AI",
-      "signal": 70.9,
-      "price": 9.93,
-      "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-15",
-      "ticker": "AA",
-      "signal": 70.6,
-      "price": 49.98,
-      "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-15",
-      "ticker": "PLTR",
-      "signal": 70.2,
-      "price": 174.04,
-      "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-15",
-      "ticker": "ALAB",
-      "signal": 68.2,
-      "price": 321.61,
-      "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-14",
-      "ticker": "KGC",
-      "signal": 78.9,
-      "price": 26.85,
-      "spy": 777.8800048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-14",
-      "ticker": "CDE",
-      "signal": 78.9,
-      "price": 18.45,
-      "spy": 777.8800048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-14",
-      "ticker": "CRDO",
-      "signal": 76.5,
-      "price": 265.99,
-      "spy": 777.8800048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-14",
-      "ticker": "PLTR",
-      "signal": 76.2,
-      "price": 179.01,
-      "spy": 777.8800048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-14",
-      "ticker": "ADI",
-      "signal": 76.1,
-      "price": 381.17,
-      "spy": 777.8800048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-14",
-      "ticker": "AA",
-      "signal": 73.9,
-      "price": 49.59,
-      "spy": 777.8800048828125,
       "grades": {}
     }
   ],
