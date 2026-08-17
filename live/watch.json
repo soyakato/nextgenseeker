@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T07:16:48.369863+00:00",
+  "updated": "2026-08-17T13:06:09.635526+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,7 +8,7 @@
       "streak": 41,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 30,
+      "today_rank": 31,
       "first_seen": "2026-07-08",
       "name": "Coeur Mining, Inc.",
       "sector": "Basic Materials",
@@ -87,7 +87,7 @@
       "streak": 41,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 22,
+      "today_rank": 24,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
@@ -361,96 +361,12 @@
       ]
     },
     {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 41,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 52.4,
-      "confirm": 64.6,
-      "signal": 73.2,
-      "mom": {
-        "ret5": 0.0642,
-        "vol_surge": 0.69
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-06",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-06",
-          "provider": "Argus Research",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Sector Perform→Sector Perform",
-          "summary": "",
-          "pub": "2026-08-05",
-          "provider": "RBC Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Neutral→Neutral",
-          "summary": "",
-          "pub": "2026-08-05",
-          "provider": "JP Morgan",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
       "ticker": "AMKR",
       "tier": "確定",
       "streak": 41,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 29,
+      "today_rank": 30,
       "first_seen": "2026-07-08",
       "name": "Amkor Technology, Inc.",
       "sector": "Technology",
@@ -523,80 +439,249 @@
       ]
     },
     {
-      "ticker": "ADI",
+      "ticker": "AMD",
       "tier": "確定",
       "streak": 41,
       "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 14,
+      "best_rank": 1,
+      "today_rank": 2,
       "first_seen": "2026-07-08",
-      "name": "Analog Devices, Inc.",
+      "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 58.0,
-      "confirm": 44.6,
-      "signal": 71.1,
+      "news": 51.5,
+      "confirm": 64.6,
+      "signal": 72.8,
       "mom": {
-        "ret5": -0.0014,
-        "vol_surge": 0.67
+        "ret5": 0.0642,
+        "vol_surge": 0.69
       },
-      "earn_days": 2,
+      "earn_days": null,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-06",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-06",
+          "provider": "Argus Research",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Sector Perform→Sector Perform",
+          "summary": "",
+          "pub": "2026-08-05",
+          "provider": "RBC Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Neutral→Neutral",
+          "summary": "",
+          "pub": "2026-08-05",
+          "provider": "JP Morgan",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 41,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 25,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 60.0,
+      "confirm": 48.3,
+      "signal": 72.7,
+      "mom": {
+        "ret5": 0.0054,
+        "vol_surge": 0.78
+      },
+      "earn_days": 9,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-17",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-11",
+          "provider": "Wells Fargo",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Micron stock heats up again, crossing $1,000",
+          "summary": "Micron shares are back with some momentum.",
+          "pub": "2026-08-17T11:53",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/micron-stock-heats-up-again-crossing-1000-115304344.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Reddit's Data Licensing Revenue Grew 24% to $43 Million, With OpenAI and Google as Its Two Biggest Buyers. Here's Why That Number Is So Tiny.",
+          "summary": "The company's data is valuable for AI training, but advertising is the bigger opportunity.",
+          "pub": "2026-08-17T12:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/17/reddits-data-revenue-openai-google-buyers/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Nvidia, Alphabet, Peter Thiel: SpaceX Top Shareholders Revealed",
+          "summary": "A series filings reveal the massive stakes tech giants Nvidia and Alphabet and mega investors Peter Thiel have in SpaceX.",
+          "pub": "2026-08-17T12:47",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/spacex-stock-elon-musk-nvidia-alphabet-google-peter-thiel/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 41,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 48.4,
+      "confirm": 63.8,
+      "signal": 71.4,
+      "mom": {
+        "ret5": 0.0579,
+        "vol_surge": 0.76
+      },
+      "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "The Bull Case For Analog Devices (ADI) Could Change Following Lofty Earnings Projections In Key End Markets",
-          "summary": "In the lead-up to its recent earnings release, Wall Street analysts projected that Analog Devices would report quarterly earnings of US$3.33 per share and revenues of US$3.92 billion, implying very large year-over-year growth in both profit and sales. Analysts also anticipated especially strong reve",
-          "pub": "2026-08-16T06:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-analog-devices-adi-061002026.html",
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1580560/000158056026000013",
           "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "S&P 500 Ekes Out Weekly Gain Amid Growing Probability of Fed Pause Extension",
-          "summary": "The Standard & Poor's 500 index rose 0.4% this week after cooling inflation and an unexpected drop i",
-          "pub": "2026-08-14T20:45",
+          "title": "Fintech, Payments Firms Outperform Expectations Amid Solid Consumer Spending, RBC Says",
+          "summary": "Financial technology and payments companies outperformed quarterly estimates as consumer spending tu",
+          "pub": "2026-08-13T16:22",
           "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-ekes-weekly-gain-204531244.html",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fintech-payments-firms-outperform-expectations-162221489.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Target Stock Flies To New Highs As Earnings Approach, But Walmart Stuck In Neutral",
-          "summary": "Target stock is holding near highs, but Walmart is struggling as investors prepare for a parade of earnings reports in the retail sector.",
-          "pub": "2026-08-14T14:26",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/earnings-preview/target-stock-flies-to-new-highs-walmart-viking-earnings/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Flywire expands payment support in US and Canada with Trustly",
+          "summary": "The tie-up will give customers a way to approve sizeable domestic and international transfers straight from their bank accounts in local currency.",
+          "pub": "2026-08-13T11:55",
+          "provider": "Electronic Payments",
+          "url": "https://www.electronicpaymentsinternational.com/news/flywire-trustly-us-canada-payments/",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
         },
         {
-          "title": "JKHY Set to Report Q4 Earnings: What's in Store for the Stock?",
-          "summary": "Jack Henry & Associates heads into Q4 with cloud and payments growth in focus, but slower digital revenues and higher costs may pressure earnings.",
-          "pub": "2026-08-14T13:40",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jkhy-set-report-q4-earnings-134000247.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Flywire’s Q2 Earnings Call: Our Top 5 Analyst Questions",
+          "summary": "Flywire’s second quarter was marked by strong performance, driven by broad-based growth across its core verticals and continued client wins in education, travel, and B2B payments. The company’s ability to consolidate complex payment workflows and replace legacy providers resonated with new and exist",
+          "pub": "2026-08-13T00:53",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-q2-earnings-call-top-005300565.html",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
         },
         {
-          "title": "Applied Materials' Q3 Earnings Beat Estimates, Revenues Rise Y/Y",
-          "summary": "AMAT posts record Q3 results as AI-driven demand lifts revenues, advanced packaging and memory growth, while Q4 guidance points to further gains.",
-          "pub": "2026-08-14T13:24",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-q3-earnings-beat-132400379.html",
-          "dir": 0.8,
+          "title": "2 Cash-Producing Stocks to Target This Week and 1 We Ignore",
+          "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
+          "pub": "2026-08-12T02:37",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-target-023722191.html",
+          "dir": -0.8,
           "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
+          "type": "決算ミス",
+          "why": "-決算ミス"
         }
       ]
     },
@@ -679,168 +764,6 @@
       ]
     },
     {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 41,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 19,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 48.4,
-      "confirm": 58.5,
-      "signal": 70.2,
-      "mom": {
-        "ret5": 0.0335,
-        "vol_surge": 0.9
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1580560/000158056026000013",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Fintech, Payments Firms Outperform Expectations Amid Solid Consumer Spending, RBC Says",
-          "summary": "Financial technology and payments companies outperformed quarterly estimates as consumer spending tu",
-          "pub": "2026-08-13T16:22",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fintech-payments-firms-outperform-expectations-162221489.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Flywire expands payment support in US and Canada with Trustly",
-          "summary": "The tie-up will give customers a way to approve sizeable domestic and international transfers straight from their bank accounts in local currency.",
-          "pub": "2026-08-13T11:55",
-          "provider": "Electronic Payments",
-          "url": "https://www.electronicpaymentsinternational.com/news/flywire-trustly-us-canada-payments/",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "Flywire’s Q2 Earnings Call: Our Top 5 Analyst Questions",
-          "summary": "Flywire’s second quarter was marked by strong performance, driven by broad-based growth across its core verticals and continued client wins in education, travel, and B2B payments. The company’s ability to consolidate complex payment workflows and replace legacy providers resonated with new and exist",
-          "pub": "2026-08-13T00:53",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-q2-earnings-call-top-005300565.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "2 Cash-Producing Stocks to Target This Week and 1 We Ignore",
-          "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
-          "pub": "2026-08-12T02:37",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-target-023722191.html",
-          "dir": -0.8,
-          "conf": 0.8,
-          "type": "決算ミス",
-          "why": "-決算ミス"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 41,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 24,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.4,
-      "confirm": 48.3,
-      "signal": 70.1,
-      "mom": {
-        "ret5": 0.0054,
-        "vol_surge": 0.78
-      },
-      "earn_days": 9,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-11",
-          "provider": "Wells Fargo",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "3 Nuclear Stocks With Real Revenue vs. 3 That Are Still Pre-Revenue. Here's Where the Money Actually Is.",
-          "summary": "Nuclear is booming, and the smartest money may be flowing to the companies already selling the power, equipment, and fuel.",
-          "pub": "2026-08-17T07:05",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/17/3-nuclear-stocks-with-real-revenue-vs-3-that-are-s/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "3 Critical Things Investors Overlooked in Rivian's Strong Q2",
-          "summary": "Rivian topped Wall Street estimates in the second quarter, but there were several positive developments.",
-          "pub": "2026-08-17T06:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/17/3-critical-things-investors-overlooked-in-rivians/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What Nvidia's $500 billion Wall Street deal signals about the AI boom",
-          "summary": "Nvidia and six of the world's largest investment firms announced plans last week to channel more than $500 billion (€433bn) into AI infrastructure, an arrangement designed to let tech companies build data centres without loading the cost onto their own balance sheets.View on euronews",
-          "pub": "2026-08-17T06:05",
-          "provider": "Euronews",
-          "url": "https://www.euronews.com/2026/08/17/what-nvidias-500-billion-wall-street-deal-signals-about-the-ai-boom",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Michael Burry Says ‘You Could Have Heard It First’ — As Big Tech’s $3T AI Spending Risk Comes Into Focus",
-          "summary": "The total includes $1.2 trillion in unstarted leases and $1.9 trillion in purchase commitments.",
-          "pub": "2026-08-17T05:52",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-says-you-could-have-heard-it-first-as-big-tech-s-3-t-ai-spending-risk-comes-into-focus/cZo6sZzRJKV",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 41,
@@ -851,9 +774,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.5,
+      "news": 51.3,
       "confirm": 51.7,
-      "signal": 69.2,
+      "signal": 69.9,
       "mom": {
         "ret5": 0.0118,
         "vol_surge": 0.88
@@ -981,6 +904,162 @@
       ]
     },
     {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 41,
+      "appearances": 15,
+      "best_rank": 8,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 62.5,
+      "confirm": 23.4,
+      "signal": 68.3,
+      "mom": {
+        "ret5": -0.0813,
+        "vol_surge": 0.85
+      },
+      "earn_days": 16,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Billionaires Are Betting on This Overlooked Stock. Should You Buy?",
+          "summary": "Daniel Loeb just made Warner Bros. Discovery his largest new position, exiting Nvidia and Broadcom to fund it. Here is what billionaires see that most analysts are still missing.",
+          "pub": "2026-08-17T12:30",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/17/billionaires-are-betting-on-this-overlooked-stock-should-you-buy/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "AI Chips Today - Fort Technology Expands Amid Record Revenue and Strategic Acquisitions",
+          "summary": "Recent developments in the AI Chips sector highlight significant growth and strategic expansions. Fort Technology Inc., a subsidiary of Nexera Technologies, reported a record 49% increase in revenue and a 145% rise in gross profit for the first half of 2026. This growth is attributed to a substantia",
+          "pub": "2026-08-17T11:37",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-chips-today-fort-technology-113704087.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "記録更新",
+          "why": "+記録更新 +拡大・新製品"
+        },
+        {
+          "title": "Who’s Really The King of Custom Silicon, Broadcom or Marvell Technology?",
+          "summary": "Broadcom and Marvell both design custom AI chips for the same hyperscaler clients, but their quarterly numbers tell two very different stories about who actually controls the future of cloud silicon.",
+          "pub": "2026-08-17T11:17",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/17/whos-really-the-king-of-custom-silicon-broadcom-or-marvell-technology/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Stocks Mostly Up Pre-Bell as Traders Await Fed Meeting Minutes, Retail Earnings",
+          "summary": "The benchmark US stock measures were mostly pointing higher before the opening bell Monday as trader",
+          "pub": "2026-08-17T11:09",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-pre-bell-traders-110959890.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "EMCOR and Thor Industries have been highlighted as Zacks Bull and Bear of the Day",
+          "summary": "EMCOR's AI-driven growth, strong Q2 beat and raised outlook contrast sharply with Thor Industries' RV market headwinds.",
+          "pub": "2026-08-17T08:41",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/emcor-thor-industries-highlighted-zacks-084100302.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "決算ビート",
+          "why": "+決算ビート +ガイダンス引上げ"
+        }
+      ]
+    },
+    {
+      "ticker": "ADI",
+      "tier": "確定",
+      "streak": 41,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 22,
+      "first_seen": "2026-07-08",
+      "name": "Analog Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 44.6,
+      "signal": 67.9,
+      "mom": {
+        "ret5": -0.0014,
+        "vol_surge": 0.67
+      },
+      "earn_days": 2,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Update: US Equity Futures Mixed Pre-Bell as 60-Day US-Iran Ceasefire Expires",
+          "summary": "(Updates with economic data, recent oil price movement, world markets' overview and corporate stock",
+          "pub": "2026-08-17T12:55",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-mixed-pre-125500559.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "US Equity Futures Mixed Pre-Bell as 60-Day US-Iran Ceasefire Expires",
+          "summary": "US equity futures were mixed pre-bell Monday as the fragile ceasefire between the US and Iran reache",
+          "pub": "2026-08-17T11:59",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-mixed-pre-115926371.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "How To Earn $500 A Month From Analog Devices Stock Ahead Of Q3 Earnings",
+          "summary": "Analog Devices, Inc. will release earnings for its third quarter before the opening bell on Wednesday, Aug. 19. Analysts expect the company to report quarterly earnings of $3.33 per share, up from $2.05 per share in the year-ago period. The...",
+          "pub": "2026-08-17T10:01",
+          "provider": "Benzinga",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-analog-devices-100113245.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "US Equity Investors to Focus on Fed Policy Minutes, PMIs Alongside Trump's Move to Inflict Intense Economic Pain on Iran",
+          "summary": "US equity investors are expected to focus on macroeconomic data this week following recent soft prin",
+          "pub": "2026-08-17T09:55",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/economy/policy/articles/us-equity-investors-focus-fed-095510308.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Fed Minutes, Retailer Earnings: What to Watch This Week",
+          "summary": "Monday  Economic data: Empire state manufacturing survey (Federal Reserve Bank of New York), NAHB home builder confidence index, Treasury international capital data (U.S.), CPI (Canada).   Earnings (p.",
+          "pub": "2026-08-17T08:03",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-17-2026/card/fed-minutes-retailer-earnings-what-to-watch-this-week-TJdKx1SfsxmQRP7Q9ZHs?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "ALAB",
       "tier": "確定",
       "streak": 41,
@@ -991,9 +1070,9 @@
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.4,
+      "news": 54.9,
       "confirm": 33.9,
-      "signal": 67.8,
+      "signal": 67.6,
       "mom": {
         "ret5": -0.0376,
         "vol_surge": 0.68
@@ -1012,6 +1091,17 @@
           "type": "8-K 2.02",
           "why": "決算発表（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Here Are Monday’s Top Wall Street Analyst Research Calls: Apple, Dave, Etsy, Federal Signal, Mobileye Global, Netskope, Okta, Shopify, Workday, and More",
+          "summary": "Wall Street kicked off the week with a flurry of bold calls on some of the market's most closely watched names, and at least one stock just scored a target price hike of more than 50 percent from a major firm.",
+          "pub": "2026-08-17T11:54",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/17/here-are-mondays-top-wall-street-analyst-research-calls-apple-dave-etsy-federal-signal-mobileye-global-netskope-okta-shopify-workday-and-more/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Does Astera Labs, Inc. (ALAB) Have the Potential to Rally 30.45% as Wall Street Analysts Expect?",
@@ -1045,95 +1135,6 @@
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
-        },
-        {
-          "title": "Astera Labs (ALAB) Q2 2026 Earnings Call Transcript",
-          "summary": "Revenue doubled year-over-year as Scorpio X-Series enters volume production.",
-          "pub": "2026-08-11T23:43",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/astera-labs-alab-q2-2026-earnings-call-transcript/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 41,
-      "appearances": 15,
-      "best_rank": 8,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 23.4,
-      "signal": 63.3,
-      "mom": {
-        "ret5": -0.0813,
-        "vol_surge": 0.85
-      },
-      "earn_days": 16,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Michael Burry Says ‘You Could Have Heard It First’ — As Big Tech’s $3T AI Spending Risk Comes Into Focus",
-          "summary": "The total includes $1.2 trillion in unstarted leases and $1.9 trillion in purchase commitments.",
-          "pub": "2026-08-17T05:52",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-says-you-could-have-heard-it-first-as-big-tech-s-3-t-ai-spending-risk-comes-into-focus/cZo6sZzRJKV",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "AVGO Stock Rebounds After Worst Drop In Two Months: Retail Traders Look Past VMware Worry, Bet On Rebound",
-          "summary": "AVGO dipped 6% on Friday, piquing interest among retail investors ahead of the chipmaker's quarterly report due early next month.",
-          "pub": "2026-08-17T04:29",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/avgo-stock-rebounds-after-worst-drop-in-two-months-retail-traders-look-past-v-mware-worry-bet-on-rebound/cZo6qWHRJKk",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Dow Futures Slip, S&P 500, Nasdaq Futures Climb Ahead Of Key Retail Earnings, Fed Minutes: NLST, AVGO, LUNR, MRK Stocks In Focus",
-          "summary": "Dow futures were down 0.09%, while the S&P 500 futures climbed 0.09% and the Nasdaq-100 futures were up 0.25% at the time of writing.",
-          "pub": "2026-08-17T02:02",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/dow-futures-slip-s-and-p-500-nasdaq-futures-climb-ahead-of-key-retail-earnings-fed-minutes-nlst-avgo-lunr-mrk-stocks-in-focus/cZo6n1CRJKQ",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
-          "summary": "Top hedge funds quietly rotated out of one chip giant and piled into another last quarter, and the price action since then suggests they knew something. Here is what Druckenmiller, Loeb, and Tepper actually did with their semiconductor books.",
-          "pub": "2026-08-16T22:13",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/16/wall-streets-biggest-funds-are-dumping-broadcom-and-adding-taiwan-semiconductor-time-to-follow-the-smart-money/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "I Checked VIG's Top Holdings. They're Not What You'd Expect From a Dividend ETF.",
-          "summary": "This ETF focuses on a specific type of dividend stock.",
-          "pub": "2026-08-16T15:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/16/i-checked-vigs-top-holdings-theyre-not-what-youd-e/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     }
@@ -1264,6 +1265,14 @@
       "grades": {}
     },
     {
+      "date": "2026-08-17",
+      "ticker": "AVGO",
+      "signal": 68.3,
+      "price": 392.99,
+      "spy": 776.3400268554688,
+      "grades": {}
+    },
+    {
       "date": "2026-08-16",
       "ticker": "CDE",
       "signal": 76.6,
@@ -1300,14 +1309,6 @@
       "ticker": "KGC",
       "signal": 73.8,
       "price": 27.31,
-      "spy": 776.3400268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-16",
-      "ticker": "AMKR",
-      "signal": 73.2,
-      "price": 58.99,
       "spy": 776.3400268554688,
       "grades": {}
     }
