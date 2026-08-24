@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T07:29:21.776967+00:00",
+  "updated": "2026-08-24T13:13:21.126637+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -53,7 +53,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 17,
-      "today_rank": 34,
+      "today_rank": 30,
       "first_seen": "2026-07-08",
       "name": "C3.ai, Inc.",
       "sector": "Technology",
@@ -209,7 +209,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 26,
+      "today_rank": 24,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
@@ -259,9 +259,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.7,
+      "news": 52.1,
       "confirm": 55.7,
-      "signal": 70.0,
+      "signal": 70.2,
       "mom": {
         "ret5": 0.0339,
         "vol_surge": 0.7
@@ -332,40 +332,6 @@
       ]
     },
     {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 25,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 57.3,
-      "signal": 69.7,
-      "mom": {
-        "ret5": 0.0388,
-        "vol_surge": 0.71
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "2 Software Stocks Worth Your Attention and 1 That Underwhelm",
-          "summary": "Software is eating the world, and virtually no business is left untouched by it. The undeniable tailwinds fueling the industry have also led to strong returns for SaaS stocks lately as they’ve gained 51.5% over the past six months, outpacing the S&P 500’s 12.7% rise.",
-          "pub": "2026-08-21T15:47",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-software-stocks-worth-attention-154747633.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 43,
@@ -376,9 +342,9 @@
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
-      "news": 47.5,
+      "news": 50.0,
       "confirm": 59.6,
-      "signal": 69.2,
+      "signal": 70.2,
       "mom": {
         "ret5": 0.0374,
         "vol_surge": 0.89
@@ -387,15 +353,15 @@
       "consensus": null,
       "headlines": [
         {
-          "title": "U.S. Steel Stocks Nucor, Steel Dynamics: Big Winners As Canada Trade Talks Collapse?",
-          "summary": "Nucor, Steel Dynamics, Cleveland-Cliffs and Century Aluminum could be winners from U.S.-Canada trade talks breaking down.  Last week those stocks tumbled on the prospect of a Canada trade deal that would lower U.S. tariffs on steel and aluminum.  Prime Minister Mark Carney vowed to retaliate \"dollar",
-          "pub": "2026-08-24T00:17",
+          "title": "U.S. Steel Stocks Nucor, Steel Dynamics Rally As Canada Trade Talks Collapse",
+          "summary": "Nucor, Steel Dynamics, Cleveland-Cliffs and Century Aluminum are likely winners from the breakdown of U.S.-Canada trade talks.  All four stocks moved higher early Monday after tumbling last week on the prospect of a Canada trade deal that would lower U.S. tariffs on steel and aluminum.  Prime Minist",
+          "pub": "2026-08-24T13:09",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/news/u-s-steel-stocks-nucor-steel-dynamics-canada-trade-talks-collapse/?src=A00220&yptr=yahoo",
-          "dir": -0.3,
-          "conf": 0.30000000000000004,
+          "dir": 0.4,
+          "conf": 0.3999999999999999,
           "type": "契約・提携",
-          "why": "+契約・提携 -急落報道 -規制・関税"
+          "why": "+契約・提携 +急騰報道 -規制・関税"
         },
         {
           "title": "Alcoa (AA) Stock Still Trades At A Discount To Fair Value After A 90% Run",
@@ -444,19 +410,53 @@
       ]
     },
     {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 23,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 57.3,
+      "signal": 69.7,
+      "mom": {
+        "ret5": 0.0388,
+        "vol_surge": 0.71
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "2 Software Stocks Worth Your Attention and 1 That Underwhelm",
+          "summary": "Software is eating the world, and virtually no business is left untouched by it. The undeniable tailwinds fueling the industry have also led to strong returns for SaaS stocks lately as they’ve gained 51.5% over the past six months, outpacing the S&P 500’s 12.7% rise.",
+          "pub": "2026-08-21T15:47",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-software-stocks-worth-attention-154747633.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "NVDA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 19,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 57.1,
+      "news": 55.7,
       "confirm": 33.1,
-      "signal": 66.9,
+      "signal": 66.3,
       "mom": {
         "ret5": -0.0464,
         "vol_surge": 0.8
@@ -515,11 +515,11 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Nvidia's Q2 earnings to test resurgent AI trade",
-          "summary": "Nvidia will report its Q2 earnings after the bell on Aug. 26.",
-          "pub": "2026-08-23T11:25",
+          "title": "Tech stocks today: All eyes on Nvidia as Meta trial resumes",
+          "summary": "This week's major tech news",
+          "pub": "2026-08-24T12:54",
           "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html",
+          "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-all-eyes-on-nvidia-as-meta-trial-resumes-125406169.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -533,7 +533,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 15,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -559,6 +559,17 @@
           "type": "8-K 2.02",
           "why": "決算発表（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "3 Nasdaq 100 Stocks to Keep an Eye On",
+          "summary": "The Nasdaq 100 (^NDX) is where investors find some of the most innovative and disruptive companies shaping the future. A select few continue to execute at a high level, growing their market dominance and delivering strong returns.",
+          "pub": "2026-08-24T12:25",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-nasdaq-100-stocks-keep-122536725.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Chip Stocks Didn't Fall on Chip News This Week. They Fell on a 19-Year High in the 30-Year Treasury Yield.",
@@ -592,17 +603,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Texas Instruments Is a Worthy AI Picks-and-Shovels Play I Keep Buying",
-          "summary": "Everyone chases GPU stocks while one analog chip maker quietly powers every AI server, EV drivetrain, and factory line on the planet, and its free cash flow just told a story worth paying attention to.",
-          "pub": "2026-08-21T11:40",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/21/texas-instruments-is-a-worthy-ai-picks-and-shovels-play-i-keep-buying/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -612,14 +612,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 18,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.6,
+      "news": 50.0,
       "confirm": 35.0,
-      "signal": 64.7,
+      "signal": 64.5,
       "mom": {
         "ret5": -0.0624,
         "vol_surge": 1.25
@@ -628,55 +628,55 @@
       "consensus": null,
       "headlines": [
         {
-          "title": "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027",
-          "summary": "The famous investor dumped three top chip stocks and bought another one with a clear near-term catalyst.",
-          "pub": "2026-08-24T06:05",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/24/billionaire-stanley-druckenmiller-sold-micron-2027/",
+          "title": "The Big Difference Between Broadcom and Marvell Technology",
+          "summary": "Broadcom and Marvell both reported blowout AI numbers, but they are playing completely different games inside the same semiconductor supercycle, and choosing between them means deciding which kind of risk you actually want.",
+          "pub": "2026-08-24T13:05",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/24/the-big-difference-between-broadcom-and-marvell-technology/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Broadcom Has Seen Its Biggest Customer Drop a Key Chip Before. History Says What the Stock Did Next.",
-          "summary": "The chip giant's stock slid after its most important AI customer expanded work with a rival. The last time a design-away scare hit the company, what followed was a 500% gain.",
-          "pub": "2026-08-24T02:46",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/23/broadcom-has-seen-its-biggest-customer-drop-a-key-chip-before-history-says-what-the-stock-did-next/",
+          "title": "Broadcom Rebounds as Wall Street Sees 25% AI Upside",
+          "summary": "Analysts are arguing that Google's Marvell expansion does not destroy Broadcom's deeply embedded custom-chip advantage.",
+          "pub": "2026-08-24T12:05",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-rebounds-wall-street-sees-120553781.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Billionaires Stanley Druckenmiller and Dan Loeb Both Sold Broadcom and Piled Into This Virtual Monopoly Artificial Intelligence (AI) Stock Instead",
-          "summary": "Stanley Druckenmiller and Dan Loeb both completely exited their stakes in Broadcom during the second quarter.",
-          "pub": "2026-08-23T18:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/23/stanley-druckenmiller-and-dan-loeb-piled-into/",
+          "title": "Nvidia’s Trillion-Dollar Chip Market Has Friends and Foes Closing In",
+          "summary": "The chipmaker remains dominant for now, but an onslaught of companies is encroaching on its territory.",
+          "pub": "2026-08-24T12:00",
+          "provider": "Bloomberg",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-trillion-dollar-chip-market-120003930.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Broadcom vs. Marvell Technology: 1 Critical Metric Decides the Better Custom AI Chip Stock",
-          "summary": "Custom AI chips will see more demand over the next few years.",
-          "pub": "2026-08-23T17:26",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/23/broadcom-vs-marvell-technology-1-critical-metric-d/",
+          "title": "AI Chips Update - AI Data Storage Solutions Enhance Security and Accessibility",
+          "summary": "The rapid adoption of AI is highlighting the limitations of fragmented data storage environments in enterprises, leading to challenges in maintaining data visibility, governance, and security. In response to these issues, Ciphertex Data Security has introduced AI•S, a software-defined storage platfo",
+          "pub": "2026-08-24T11:37",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-chips-ai-data-storage-113730083.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond",
-          "summary": "Nvidia stands out as the top semiconductor stock for the coming years because of its dominant AI ecosystem, not to mention it's the most popular AI stock in the ecosystem.",
-          "pub": "2026-08-23T09:30",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/23/forget-broadcom-nvidia-nvda-is-still-the-top-semic/",
+          "title": "The Bear Case on Agents and Compute is Wrong So I Buy More Nvidia",
+          "summary": "Bears insist smarter AI agents will shrink the GPU compute bill, and that argument sounds reasonable until you do the math on what an agent actually burns per task.",
+          "pub": "2026-08-24T11:11",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/24/the-bear-case-on-agents-and-compute-is-wrong-so-i-buy-more-nvidia/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -768,7 +768,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 10,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -846,7 +846,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 30,
+      "today_rank": 26,
       "first_seen": "2026-07-08",
       "name": "Amkor Technology, Inc.",
       "sector": "Technology",
@@ -907,9 +907,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.6,
+      "news": 52.6,
       "confirm": 20.9,
-      "signal": 61.8,
+      "signal": 62.2,
       "mom": {
         "ret5": -0.08,
         "vol_surge": 0.66
