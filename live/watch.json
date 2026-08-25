@@ -1,24 +1,69 @@
 {
-  "updated": "2026-08-25T01:52:41.101077+00:00",
+  "updated": "2026-08-25T07:08:41.288124+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "CDE",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 12,
+      "today_rank": 32,
+      "first_seen": "2026-07-08",
+      "name": "Coeur Mining, Inc.",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 58.0,
+      "confirm": 76.8,
+      "signal": 77.6,
+      "mom": {
+        "ret5": 0.0813,
+        "vol_surge": 1.16
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Coeur Mining Diversifies Your Portfolio And Amplifies Its Swings",
+          "summary": "A low correlation to the market is not the same thing as a calm holding, and this gold and silver miner shows why.",
+          "pub": "2026-08-20T18:32",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/612231/coeur-mining-diversifies-your-portfolio-and-amplifies-its-swings/2026-08-20",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Hecla Mining and Coeur Mining Spike 13% as Treasury Buyback Plan Ignites Precious Metals Rally",
+          "summary": "A Treasury Department move sent silver and gold miners surging double digits in a single session, but the precious metals equities have barely kept pace with their underlying metals all year. The real question is whether Wednesday's catalyst finally closes that gap or just adds another head fake to",
+          "pub": "2026-08-19T17:18",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/19/hecla-mining-and-coeur-mining-spike-13-as-treasury-buyback-plan-ignites-precious-metals-rally/",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "株主還元",
+          "why": "+株主還元 +急騰報道"
+        }
+      ]
+    },
     {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 7,
+      "today_rank": 6,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 84.5,
-      "signal": 76.1,
+      "confirm": 84.7,
+      "signal": 76.2,
       "mom": {
         "ret5": 0.1913,
-        "vol_surge": 1.3
+        "vol_surge": 1.31
       },
       "earn_days": null,
       "consensus": null,
@@ -48,84 +93,6 @@
       ]
     },
     {
-      "ticker": "AI",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 17,
-      "today_rank": 31,
-      "first_seen": "2026-07-08",
-      "name": "C3.ai, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 57.8,
-      "confirm": 61.0,
-      "signal": 73.8,
-      "mom": {
-        "ret5": 0.0423,
-        "vol_surge": 0.89
-      },
-      "earn_days": 8,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "C3.ai, Inc. (AI) Registers a Bigger Fall Than the Market: Important Facts to Note",
-          "summary": "C3.ai, Inc. (AI) closed the most recent trading day at $10.11, moving 1.84% from the previous trading session.",
-          "pub": "2026-08-24T21:50",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-inc-ai-registers-215002066.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What Is C3.ai (AI) Facing As Revenue Slips And Thomas Siebel Returns?",
-          "summary": "C3.ai (NYSE:AI) is being compared with Lumentum on revenue paths, with C3.ai reporting sustained revenue declines while Lumentum follows a different trajectory in AI related markets. The contrast in revenue trends highlights differing momentum for the two companies within AI focused segments. C3.ai",
-          "pub": "2026-08-21T14:11",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/c3-ai-ai-facing-revenue-141101224.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Palantir's Margin Expansion Signals a Structural Growth Advantage",
-          "summary": "PLTR's expanding margins, surging Rule of 40 score and AI deployment focus strengthen the case for durable, more efficient growth.",
-          "pub": "2026-08-20T17:13",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantirs-margin-expansion-signals-structural-171300520.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "3 Small-Cap Stocks with Questionable Fundamentals",
-          "summary": "Many small-cap stocks have limited Wall Street coverage, giving savvy investors the chance to act before everyone else catches on. But the flip side is that these businesses have increased downside risk because they lack the scale and staying power of their larger competitors.",
-          "pub": "2026-08-20T10:19",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-questionable-101915369.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "C3.ai vs. Seagate Technology: Which Technology Stock Is a Better Buy in 2026?",
-          "summary": "One faces a $1.8 billion accumulated deficit and 36% revenue decline; the other just posted $3.2 billion in net income on 34% growth.",
-          "pub": "2026-08-19T20:22",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/better-buy/2026/08/19/c3ai-vs-seagate-technology-which-technology-stock-is-a-better-buy-in-2026/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "BMY",
       "tier": "確定",
       "streak": 43,
@@ -138,7 +105,7 @@
       "persist": 100,
       "news": 55.4,
       "confirm": 58.8,
-      "signal": 72.3,
+      "signal": 72.2,
       "mom": {
         "ret5": 0.041,
         "vol_surge": 0.77
@@ -332,11 +299,11 @@
       "sector": "Energy",
       "persist": 100,
       "news": 50.0,
-      "confirm": 54.2,
+      "confirm": 54.4,
       "signal": 69.0,
       "mom": {
         "ret5": 0.0286,
-        "vol_surge": 0.71
+        "vol_surge": 0.72
       },
       "earn_days": null,
       "consensus": null,
@@ -378,7 +345,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 41.3,
-      "signal": 66.0,
+      "signal": 65.9,
       "mom": {
         "ret5": -0.049,
         "vol_surge": 1.4
@@ -445,103 +412,19 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 7,
-      "today_rank": 18,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.9,
-      "confirm": 26.0,
-      "signal": 63.9,
-      "mom": {
-        "ret5": -0.0735,
-        "vol_surge": 0.87
-      },
-      "earn_days": 1,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-17",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-24",
-          "provider": "Cantor Fitzgerald",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-21",
-          "provider": "BMO Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-20",
-          "provider": "RBC Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-11",
-          "provider": "Wells Fargo",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 10,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 47.9,
       "confirm": 35.9,
-      "signal": 63.8,
+      "signal": 63.7,
       "mom": {
         "ret5": -0.0449,
         "vol_surge": 0.96
@@ -619,7 +502,7 @@
       "persist": 100,
       "news": 56.1,
       "confirm": 17.9,
-      "signal": 62.9,
+      "signal": 62.7,
       "mom": {
         "ret5": -0.1645,
         "vol_surge": 0.86
@@ -685,19 +568,103 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 7,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.2,
+      "confirm": 26.0,
+      "signal": 62.7,
+      "mom": {
+        "ret5": -0.0735,
+        "vol_surge": 0.87
+      },
+      "earn_days": 1,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-17",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-24",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-21",
+          "provider": "BMO Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-20",
+          "provider": "RBC Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-11",
+          "provider": "Wells Fargo",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 11,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
       "news": 55.0,
       "confirm": 18.1,
-      "signal": 62.5,
+      "signal": 62.3,
       "mom": {
         "ret5": -0.2129,
         "vol_surge": 0.87
@@ -775,7 +742,7 @@
       "persist": 100,
       "news": 55.0,
       "confirm": 17.8,
-      "signal": 62.4,
+      "signal": 62.3,
       "mom": {
         "ret5": -0.2186,
         "vol_surge": 0.85
@@ -831,7 +798,7 @@
       "persist": 100,
       "news": 48.4,
       "confirm": 27.9,
-      "signal": 62.1,
+      "signal": 62.0,
       "mom": {
         "ret5": -0.0858,
         "vol_surge": 1.24
@@ -839,6 +806,17 @@
       "earn_days": 8,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
+          "summary": "President Donald Trump bought up to $50,000 in Space Exploration Technologies Corp (NASDAQ:SPCX) shares shortly after the Elon Musk-led company’s record IPO. Trump Bought SpaceX Shares After Record IPO Trump purchased between $15,001 and $50,000 worth of SpaceX shares on June 23, according to a fina",
+          "pub": "2026-08-25T03:35",
+          "provider": "Benzinga",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trump-snapped-spacex-shares-11-033507082.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Berkshire Hathaway Rose While Every Major Chip Stock Fell Monday",
           "summary": "When the AI complex wobbles, the money has to go somewhere. Monday it went to the giant whose earnings don't depend on the build-out.",
@@ -882,17 +860,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Marvell Technology Stock More Than Tripled On A Roadmap It Had Been Publishing All Along",
-          "summary": "The clues to the run sat in dated interconnect milestones, not in the custom-silicon question that dominated the argument surrounding the stock.",
-          "pub": "2026-08-24T21:11",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/612589/marvell-technology-stock-more-than-tripled-on-a-roadmap-it-had-been-publishing-all-along/2026-08-24",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -907,9 +874,9 @@
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.0,
+      "news": 51.1,
       "confirm": 17.2,
-      "signal": 60.7,
+      "signal": 60.5,
       "mom": {
         "ret5": -0.1332,
         "vol_surge": 0.81
@@ -987,7 +954,7 @@
       "persist": 100,
       "news": 51.6,
       "confirm": 15.4,
-      "signal": 60.5,
+      "signal": 60.3,
       "mom": {
         "ret5": -0.0973,
         "vol_surge": 0.64
@@ -1130,6 +1097,14 @@
       "grades": {}
     },
     {
+      "date": "2026-08-25",
+      "ticker": "CDE",
+      "signal": 77.6,
+      "price": 20.88,
+      "spy": 763.469970703125,
+      "grades": {}
+    },
+    {
       "date": "2026-08-24",
       "ticker": "KGC",
       "signal": 75.6,
@@ -1222,14 +1197,6 @@
       "ticker": "BMY",
       "signal": 72.6,
       "price": 67.01,
-      "spy": 765.719970703125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-23",
-      "ticker": "CNQ",
-      "signal": 71.8,
-      "price": 51.4,
       "spy": 765.719970703125,
       "grades": {}
     }
