@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T01:58:55.404728+00:00",
+  "updated": "2026-08-26T07:09:19.679852+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -14,11 +14,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 86.5,
+      "confirm": 86.9,
       "signal": 76.7,
       "mom": {
         "ret5": 0.2362,
-        "vol_surge": 1.43
+        "vol_surge": 1.46
       },
       "earn_days": null,
       "consensus": null,
@@ -87,14 +87,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 23,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
       "news": 50.1,
       "confirm": 54.9,
-      "signal": 69.2,
+      "signal": 69.1,
       "mom": {
         "ret5": 0.0283,
         "vol_surge": 0.76
@@ -165,14 +165,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 11,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 48.2,
       "confirm": 57.3,
-      "signal": 69.0,
+      "signal": 68.9,
       "mom": {
         "ret5": 0.0252,
         "vol_surge": 0.98
@@ -243,17 +243,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 10,
-      "today_rank": 14,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.8,
-      "confirm": 50.8,
-      "signal": 68.5,
+      "confirm": 51.4,
+      "signal": 68.6,
       "mom": {
         "ret5": -0.0079,
-        "vol_surge": 1.21
+        "vol_surge": 1.25
       },
       "earn_days": null,
       "consensus": null,
@@ -269,6 +269,17 @@
           "type": "8-K 2.02",
           "why": "決算発表（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "5 Insightful Analyst Questions From Analog Devices’s Q2 Earnings Call",
+          "summary": "Analog Devices delivered results for Q2 that were above Wall Street expectations, with management attributing broad-based growth to robust demand in data center and industrial markets. CEO Vincent Roche highlighted that the company’s grid-to-chip strategy and continued investment in R&D enabled Anal",
+          "pub": "2026-08-26T06:51",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-analog-065113729.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Get Paid 12% A Year To Let Someone Else Chase ADI Stock Higher",
@@ -302,214 +313,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Wall Street Analysts Think Analog Devices (ADI) Is a Good Investment: Is It?",
-          "summary": "According to the average brokerage recommendation (ABR), one should invest in Analog Devices (ADI). It is debatable whether this highly sought-after metric is effective because Wall Street analysts' recommendations tend to be overly optimistic. Would it be worth investing in the stock?",
-          "pub": "2026-08-25T13:30",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-analog-133005182.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 56.3,
-      "confirm": 40.8,
-      "signal": 68.3,
-      "mom": {
-        "ret5": -0.0108,
-        "vol_surge": 0.6
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-08-19",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務",
-          "summary": "",
-          "pub": "2026-08-17",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストupgrade: Outperform→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-25",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-21",
-          "provider": "BMO Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-06",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 9,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.6,
-      "confirm": 41.1,
-      "signal": 67.3,
-      "mom": {
-        "ret5": -0.0083,
-        "vol_surge": 0.57
-      },
-      "earn_days": 28,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Schwab Strategist Flags Wall Street's Growth Is Concentrated in Two Firms",
-          "summary": "Nvidia and Micron drive a third of S&P earnings growth as Bitcoin breaks $80,000 on bond market stress alerting traders to a bubble.",
-          "pub": "2026-08-26T01:18",
-          "provider": "BeInCrypto",
-          "url": "https://beincrypto.com/micron-wall-street-earnings-concentration-bitcoin/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "空売り・過大評価",
-          "why": "-空売り・過大評価"
-        },
-        {
-          "title": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading — MRNA, SPCX, PSKY, OpenAI In Focus",
-          "summary": "Treasury yields declined, as the benchmark 10-year Treasury note yield dropped by over 7 basis points to reach 4.63%.",
-          "pub": "2026-08-26T00:02",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-rangebound-as-investors-await-nvidia-earnings/cZYNONDRJom",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Finance giant sets aggressive Micron stock target after earnings",
-          "summary": "BMO Capital started coverage on Micron with a standout conviction call, and the number is turning heads.",
-          "pub": "2026-08-25T22:33",
-          "provider": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/bmo-sets-micron-mu-stock-target-1300-outperform",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can You Stomach The Plunge In Micron Stock?",
-          "summary": "The memory chip maker's history of deep, prolonged drawdowns is the real risk for shareholders today.",
-          "pub": "2026-08-25T22:23",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/612783/can-you-stomach-the-plunge-in-micron-stock-2/2026-08-25",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
-          "summary": "Western Digital stock has soared big time over the past year, and the good news is it could jump even higher amid the memory shortage.",
-          "pub": "2026-08-25T21:21",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/25/prediction-this-memory-stock-will-soar-165-in-3-years-hint-it-s-not-micron-or-sandisk/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        }
-      ]
-    },
-    {
-      "ticker": "CNQ",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Canadian Natural Resources Limi",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 47.1,
-      "signal": 67.3,
-      "mom": {
-        "ret5": 0.0,
-        "vol_surge": 0.81
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "CNQ Raises 2026 Production Outlook While Holding Core Capital Flat",
-          "summary": "Canadian Natural raised its 2026 production outlook again while keeping operating capital at C$5.99B, putting capital efficiency and execution in focus.",
-          "pub": "2026-08-20T16:47",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/cnq-raises-2026-production-outlook-164700615.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -524,9 +327,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 48.9,
+      "news": 51.3,
       "confirm": 48.5,
-      "signal": 67.1,
+      "signal": 68.1,
       "mom": {
         "ret5": 0.0069,
         "vol_surge": 0.76
@@ -602,14 +405,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 16,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.3,
+      "news": 56.1,
       "confirm": 39.5,
-      "signal": 66.8,
+      "signal": 67.9,
       "mom": {
         "ret5": -0.0304,
         "vol_surge": 0.91
@@ -681,12 +484,131 @@
       ]
     },
     {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 53.9,
+      "confirm": 40.8,
+      "signal": 67.3,
+      "mom": {
+        "ret5": -0.0108,
+        "vol_surge": 0.6
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-08-19",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務",
+          "summary": "",
+          "pub": "2026-08-17",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストupgrade: Outperform→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-25",
+          "provider": "Raymond James",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-21",
+          "provider": "BMO Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-06",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
+      "ticker": "CNQ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 47.5,
+      "signal": 67.3,
+      "mom": {
+        "ret5": 0.0,
+        "vol_surge": 0.83
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "CNQ Raises 2026 Production Outlook While Holding Core Capital Flat",
+          "summary": "Canadian Natural raised its 2026 production outlook again while keeping operating capital at C$5.99B, putting capital efficiency and execution in focus.",
+          "pub": "2026-08-20T16:47",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/cnq-raises-2026-production-outlook-164700615.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 6,
+      "today_rank": 5,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
@@ -759,97 +681,19 @@
       ]
     },
     {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 17,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.4,
-      "confirm": 34.3,
-      "signal": 65.6,
-      "mom": {
-        "ret5": -0.0612,
-        "vol_surge": 1.18
-      },
-      "earn_days": 7,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "The story that Nvidia's margins, balance sheet tell going into Q2 earnings",
-          "summary": "Moor Insights & Strategy founder, CEO, and chief analyst Patrick Moorhead speaks with Josh Lipton about what Nvidia's (NVDA) margins and balance sheet may be conveying about the chip giant ahead of its second quarter earnings release on Wednesday, August 26.",
-          "pub": "2026-08-25T20:00",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/story-nvidias-margins-balance-sheet-200000914.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What You Actually Pay To Join The AMD Run",
-          "summary": "The chipmaker's long-term surge is powered by real AI demand, but a recent pullback and a steep valuation force investors to ask what's left in the tank.",
-          "pub": "2026-08-25T22:34",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/612797/what-you-actually-pay-to-join-the-amd-run-2/2026-08-25",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Is Marvell (MRVL) Stock Poised for Another AI-Fueled Rally as Q2 Earnings Approach?",
-          "summary": "Outside of Nvidia, Marvell Technology will provide the semiconductor market's most closely watched earnings report this week on Thursday, August 27.",
-          "pub": "2026-08-25T22:08",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-poised-another-220800295.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "S&P 100 Is Quietly Sending a Powerful Signal",
-          "summary": "The market rotation may be healthier than it first appears.",
-          "pub": "2026-08-25T19:53",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/p-100-quietly-sending-powerful-195321128.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Get Paid 12% A Year To Let Someone Else Chase ADI Stock Higher",
-          "summary": "Collect an immediate income that's yours to keep, in return for capping your stock's potential gains above a chosen higher price.",
-          "pub": "2026-08-25T19:22",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/612809/get-paid-12-a-year-to-let-someone-else-chase-adi-stock-higher/2026-08-25",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "CLS",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 18,
+      "today_rank": 16,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
       "confirm": 40.1,
-      "signal": 65.6,
+      "signal": 65.5,
       "mom": {
         "ret5": -0.012,
         "vol_surge": 0.58
@@ -915,6 +759,162 @@
       ]
     },
     {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 17,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 53.4,
+      "confirm": 34.3,
+      "signal": 65.5,
+      "mom": {
+        "ret5": -0.0612,
+        "vol_surge": 1.18
+      },
+      "earn_days": 7,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "The story that Nvidia's margins, balance sheet tell going into Q2 earnings",
+          "summary": "Moor Insights & Strategy founder, CEO, and chief analyst Patrick Moorhead speaks with Josh Lipton about what Nvidia's (NVDA) margins and balance sheet may be conveying about the chip giant ahead of its second quarter earnings release on Wednesday, August 26.",
+          "pub": "2026-08-25T20:00",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/story-nvidias-margins-balance-sheet-200000914.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "BMO sees writing on the wall for Broadcom stock after earnings",
+          "summary": "BMO’s Harsh Kumar just ranked Broadcom second only to Nvidia in AI chips.",
+          "pub": "2026-08-26T02:17",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/bmo-sets-broadcom-avgo-stock-target-to-455-outperform",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "What You Actually Pay To Join The AMD Run",
+          "summary": "The chipmaker's long-term surge is powered by real AI demand, but a recent pullback and a steep valuation force investors to ask what's left in the tank.",
+          "pub": "2026-08-25T22:34",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/612797/what-you-actually-pay-to-join-the-amd-run-2/2026-08-25",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Is Marvell (MRVL) Stock Poised for Another AI-Fueled Rally as Q2 Earnings Approach?",
+          "summary": "Outside of Nvidia, Marvell Technology will provide the semiconductor market's most closely watched earnings report this week on Thursday, August 27.",
+          "pub": "2026-08-25T22:08",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-poised-another-220800295.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "S&P 100 Is Quietly Sending a Powerful Signal",
+          "summary": "The market rotation may be healthier than it first appears.",
+          "pub": "2026-08-25T19:53",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-100-quietly-sending-powerful-195321128.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 9,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 48.6,
+      "confirm": 41.1,
+      "signal": 65.2,
+      "mom": {
+        "ret5": -0.0083,
+        "vol_surge": 0.57
+      },
+      "earn_days": 28,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Micron (MU) Stock Looks Cheap, But Not Like A Clear Bargain",
+          "summary": "Micron Technology stock has recorded an extremely strong three year run, yet current valuation checks flag a mixed picture rather than a clear bargain or clear overvaluation. After such a rapid rise, the key issue for you is whether the recent price fully reflects the AI memory story that Micron is",
+          "pub": "2026-08-26T06:19",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-stock-looks-cheap-061938878.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Schwab Strategist Flags Wall Street's Growth Is Concentrated in Two Firms",
+          "summary": "Nvidia and Micron drive a third of S&P earnings growth as Bitcoin breaks $80,000 on bond market stress alerting traders to a bubble.",
+          "pub": "2026-08-26T01:18",
+          "provider": "BeInCrypto",
+          "url": "https://beincrypto.com/micron-wall-street-earnings-concentration-bitcoin/",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "空売り・過大評価",
+          "why": "-空売り・過大評価"
+        },
+        {
+          "title": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading — MRNA, SPCX, PSKY, OpenAI In Focus",
+          "summary": "Treasury yields declined, as the benchmark 10-year Treasury note yield dropped by over 7 basis points to reach 4.63%.",
+          "pub": "2026-08-26T00:02",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-rangebound-as-investors-await-nvidia-earnings/cZYNONDRJom",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Finance giant sets aggressive Micron stock target after earnings",
+          "summary": "BMO Capital started coverage on Micron with a standout conviction call, and the number is turning heads.",
+          "pub": "2026-08-25T22:33",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/bmo-sets-micron-mu-stock-target-1300-outperform",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can You Stomach The Plunge In Micron Stock?",
+          "summary": "The memory chip maker's history of deep, prolonged drawdowns is the real risk for shareholders today.",
+          "pub": "2026-08-25T22:23",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/612783/can-you-stomach-the-plunge-in-micron-stock-2/2026-08-25",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        }
+      ]
+    },
+    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 43,
@@ -927,7 +927,7 @@
       "persist": 100,
       "news": 55.0,
       "confirm": 21.2,
-      "signal": 63.1,
+      "signal": 63.0,
       "mom": {
         "ret5": -0.0791,
         "vol_surge": 0.66
