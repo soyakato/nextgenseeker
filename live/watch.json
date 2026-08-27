@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T20:03:28.190917+00:00",
+  "updated": "2026-08-27T09:50:20.160606+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,17 +8,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 8,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 78.0,
-      "signal": 74.6,
+      "confirm": 79.2,
+      "signal": 74.9,
       "mom": {
-        "ret5": 0.0819,
-        "vol_surge": 1.23
+        "ret5": 0.0824,
+        "vol_surge": 1.3
       },
       "earn_days": null,
       "consensus": null,
@@ -37,6 +37,86 @@
       ]
     },
     {
+      "ticker": "NEM",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 16,
+      "first_seen": "2026-07-08",
+      "name": "Newmont Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 53.0,
+      "confirm": 68.0,
+      "signal": 73.4,
+      "mom": {
+        "ret5": 0.0521,
+        "vol_surge": 1.16
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-08-20",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1164727/000110465926099237",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 重要契約の締結・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-13",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1164727/000110465926095968",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Greatland hails 'transformative year' as it eyes further expansion",
+          "summary": "Greatland Resources Ltd (AIM:GGP, OTC:GRLGF, FRA:G8G, ASX:GGP) described the past financial year as transformative, its first 12 months owning the Telfer gold and copper mine, as it prepares for an ambitious programme of investment and expansion. The dual-listed miner, which bought Telfer in...",
+          "pub": "2026-08-27T06:48",
+          "provider": "Proactive",
+          "url": "https://www.proactiveinvestors.com/companies/news/1097696/greatland-hails-transformative-year-as-it-eyes-further-expansion-1097696.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Menankoto Permit Accelerate B2Gold's Fekola Regional Growth?",
+          "summary": "BTG's Menankoto permit clears the way for Fekola Regional to ramp up, targeting more than 150,000 ounces annually from 2028.",
+          "pub": "2026-08-26T15:05",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/menankoto-permit-accelerate-b2golds-fekola-150500662.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Newmont vs. Barrick Mining: Which Gold Giant Is Shining Brighter?",
+          "summary": "Newmont and Barrick are benefiting from stronger gold prices, while growth projects, costs, valuations and earnings outlooks shape the investment case.",
+          "pub": "2026-08-26T12:13",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/newmont-vs-barrick-mining-gold-121300560.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AMD",
       "tier": "確定",
       "streak": 43,
@@ -47,9 +127,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.1,
+      "news": 55.4,
       "confirm": 52.9,
-      "signal": 70.6,
+      "signal": 70.8,
       "mom": {
         "ret5": 0.0311,
         "vol_surge": 0.57
@@ -112,7 +192,7 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-08-06",
-          "provider": "Rosenblatt",
+          "provider": "Argus Research",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -127,21 +207,43 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 6,
+      "today_rank": 7,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 56.2,
-      "confirm": 47.7,
+      "confirm": 47.6,
       "signal": 69.8,
       "mom": {
-        "ret5": 0.0122,
-        "vol_surge": 0.6
+        "ret5": 0.0114,
+        "vol_surge": 0.61
       },
-      "earn_days": 8,
+      "earn_days": 7,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Ooma (OOMA) Q2 Earnings and Revenues Top Estimates",
+          "summary": "Ooma (OOMA) delivered earnings and revenue surprises of +6.06% and +1.90%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "pub": "2026-08-26T21:35",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ooma-ooma-q2-earnings-revenues-213503537.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "Decoding ANET Stock's Premium Valuation",
+          "summary": "This is an aggressive supply-chase year for Arista Networks. The company builds high-performance networking gear for its two largest partners, Microsoft and Meta.",
+          "pub": "2026-08-26T21:25",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/612945/decoding-anet-stocks-premium-valuation/2026-08-26",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Should You Include Belden Stock in Portfolio After Solid Q2 Results?",
           "summary": "BDC's record Q2 results, AI data-center momentum and RUCKUS deal strengthen its shift toward higher-value, full-stack networking solutions.",
@@ -174,28 +276,89 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 54.0,
+      "confirm": 49.6,
+      "signal": 69.4,
+      "mom": {
+        "ret5": 0.0132,
+        "vol_surge": 0.71
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 13,
+        "hold": 10,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
         {
-          "title": "AI Jitters and Geopolitical Threats Mark Start of Busy Week in Markets",
-          "summary": "Stocks tied to the artificial-intelligence trade dropped, extending their bumpy stretch ahead of Wednesday’s all-important earnings update from Nvidia.  “From a markets perspective, they tend to get ignored.”",
-          "pub": "2026-08-24T20:51",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/finance/investing/ai-jitters-and-geopolitical-threats-mark-start-of-busy-week-in-markets-a192c22a?siteid=yhoof2&yptr=yahoo",
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "UBS",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Stock Market Today: Dow Up As Trump Says This On Canada; Nvidia Shares Skid Despite AI Move",
-          "summary": "The Dow Jones average rises but other indexes fall as President Trump lashes out at Canada. Nvidia dives but a stock clears an entry.",
-          "pub": "2026-08-24T20:43",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-economic-d-day-alibaba-stock-baba/?src=A00220&yptr=yahoo",
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Citigroup",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Neutral→Neutral",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Piper Sandler",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -211,11 +374,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 54.4,
-      "confirm": 47.8,
-      "signal": 69.1,
+      "confirm": 48.4,
+      "signal": 69.3,
       "mom": {
-        "ret5": 0.0192,
-        "vol_surge": 0.47
+        "ret5": 0.0198,
+        "vol_surge": 0.5
       },
       "earn_days": null,
       "consensus": null,
@@ -278,109 +441,37 @@
       ]
     },
     {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.0,
-      "confirm": 49.5,
-      "signal": 69.0,
-      "mom": {
-        "ret5": 0.0132,
-        "vol_surge": 0.7
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 13,
-        "hold": 10,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Mizuho",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "UBS",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "DA Davidson",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Piper Sandler",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストupgrade: Hold→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Deutsche Bank",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
       "ticker": "BMY",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 24,
+      "today_rank": 25,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
-      "news": 54.6,
-      "confirm": 43.7,
-      "signal": 68.2,
+      "news": 56.1,
+      "confirm": 44.6,
+      "signal": 69.1,
       "mom": {
-        "ret5": -0.0005,
-        "vol_surge": 0.59
+        "ret5": -0.0006,
+        "vol_surge": 0.65
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Will ZENBEXUS’s First-in-Class CELMoD Approval Based on MRD-Negative CR Change Bristol Myers Squibb’s (BMY) Narrative",
+          "summary": "In August 2026, Bristol-Myers Squibb received accelerated FDA approval for ZENBEXUS (iberdomide) as the first cereblon-modulating protein degrader (CELMoD) therapy for adults with relapsed or refractory multiple myeloma after at least one prior treatment including a proteasome inhibitor and an immun",
+          "pub": "2026-08-27T02:13",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/healthcare/articles/zenbexus-first-class-celmod-approval-021330959.html",
+          "dir": 0.7,
+          "conf": 0.7,
+          "type": "承認",
+          "why": "+承認"
+        },
         {
           "title": "Has AbbVie Stock Become Too Expensive to Buy?",
           "summary": "The drugmaker's stock is on a tear, but for investors arriving now, the real question is whether the business can outrun its own premium price.",
@@ -424,47 +515,41 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "3 Dividend Stocks to Hold for the Next 10 Years",
-          "summary": "These healthcare leaders are unlikely to suspend their dividend programs.",
-          "pub": "2026-08-25T18:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/25/3-dividend-stocks-to-hold-for-the-next-10-years/",
-          "dir": -0.7,
-          "conf": 0.7,
-          "type": "リコール・停止",
-          "why": "-リコール・停止"
         }
       ]
     },
     {
-      "ticker": "ADI",
+      "ticker": "NVDA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 10,
+      "best_rank": 7,
       "today_rank": 13,
       "first_seen": "2026-07-08",
-      "name": "Analog Devices, Inc.",
+      "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.8,
-      "confirm": 48.4,
-      "signal": 67.8,
+      "news": 56.8,
+      "confirm": 39.9,
+      "signal": 68.2,
       "mom": {
-        "ret5": -0.0039,
-        "vol_surge": 0.97
+        "ret5": -0.0363,
+        "vol_surge": 1.05
       },
       "earn_days": null,
-      "consensus": null,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
       "headlines": [
         {
           "title": "SEC 8-K提出: 決算発表",
           "summary": "",
-          "pub": "2026-08-19",
+          "pub": "2026-08-26",
           "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000072",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073",
           "dir": 0.0,
           "conf": 0.3,
           "type": "8-K 2.02",
@@ -472,89 +557,123 @@
           "is_edgar": true
         },
         {
-          "title": "5 Insightful Analyst Questions From Analog Devices’s Q2 Earnings Call",
-          "summary": "Analog Devices delivered results for Q2 that were above Wall Street expectations, with management attributing broad-based growth to robust demand in data center and industrial markets. CEO Vincent Roche highlighted that the company’s grid-to-chip strategy and continued investment in R&D enabled Anal",
-          "pub": "2026-08-26T06:51",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-analog-065113729.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務・Reg FD開示",
+          "summary": "",
+          "pub": "2026-08-17",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "Get Paid 12% A Year To Let Someone Else Chase ADI Stock Higher",
-          "summary": "Collect an immediate income that's yours to keep, in return for capping your stock's potential gains above a chosen higher price.",
-          "pub": "2026-08-25T19:22",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/612809/get-paid-12-a-year-to-let-someone-else-chase-adi-stock-higher/2026-08-25",
+          "title": "アナリストmaintain: Strong Buy→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-25",
+          "provider": "Raymond James",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Gen 2 VPD Boosts VICR's Power Management Prospects Against TXN & ADI",
-          "summary": "Vicor's Gen 2 VPD targets higher AI power density, while licensing, customer programs and added capacity could expand its data-center opportunity.",
-          "pub": "2026-08-25T15:54",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/gen-2-vpd-boosts-vicrs-155400148.html",
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-24",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-24",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 53.1,
+      "confirm": 43.8,
+      "signal": 67.7,
+      "mom": {
+        "ret5": -0.019,
+        "vol_surge": 0.97
+      },
+      "earn_days": 6,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Is Nvidia's AI data center dominance slipping as the market expands?",
+          "summary": "Moor Insights & Strategy founder, CEO, and chief analyst Patrick Moorhead speaks with Josh Lipton about Nvidia's (NVDA) biggest competition in AI data centers, as he anticipates the company's market share could fall to 70% from 90% over the next two years.",
+          "pub": "2026-08-26T12:00",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/nvidias-ai-data-center-dominance-120000341.html",
           "dir": 0.4,
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
         },
         {
-          "title": "Can ADI's Automotive Segment Sustain Its Growth Momentum?",
-          "summary": "Analog Devices' automotive growth outpaces the vehicle market, with gains in ADAS, infotainment and electric powertrains driving momentum into the fourth quarter.",
-          "pub": "2026-08-25T14:33",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/adis-automotive-segment-sustain-growth-143300394.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "CNQ",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Canadian Natural Resources Limi",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 48.5,
-      "signal": 67.5,
-      "mom": {
-        "ret5": 0.003,
-        "vol_surge": 0.84
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
+          "title": "INTC, AMD, AVGO: Chip Stocks Jump Premarket After Nvidia's Blowout Report",
+          "summary": "Chip and AI-linked stocks gained in sympathy after Nvidia’s Q2 report.",
+          "pub": "2026-08-27T09:43",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/intc-amd-avgo-chip-stocks-jump-premarket-after-nvidia-s-blowout-report/cZY8x7bRJpD",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
         {
-          "title": "An Oil Catastrophe Was Averted in 2026. What If It Comes in 2027?",
-          "summary": "Two fund managers with a strong track record of contrarian commodity calls think the oil spike is yet to come. Here’s how they’re preparing.",
-          "pub": "2026-08-26T12:08",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/why-100-oil-is-coming-stocks-to-buy-de14ef92?siteid=yhoof2&yptr=yahoo",
+          "title": "On Nvidia Earnings Day, Cathie Wood’s ARK Loaded Up $20M On Rival Chip Stock",
+          "summary": "Cathie Wood’s ARK Investment Management bought a total of 57,705 AVGO shares across three of its funds.",
+          "pub": "2026-08-27T04:44",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/on-nvidia-earnings-day-cathie-wood-s-ark-loaded-up-20-m-on-rival-chip-stock/cZY8YJSRJpk",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "CNQ Raises 2026 Production Outlook While Holding Core Capital Flat",
-          "summary": "Canadian Natural raised its 2026 production outlook again while keeping operating capital at C$5.99B, putting capital efficiency and execution in focus.",
-          "pub": "2026-08-20T16:47",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/cnq-raises-2026-production-outlook-164700615.html",
+          "title": "Nvidia, Meta, Revolution Medicines, Abercrombie, Intuit, Salesforce, Moderna, and More Stocks That Explain Today’s Market",
+          "summary": "Stocks traded modestly lower Wednesday ahead of Nvidia’s earnings report and after the personal consumption expenditures index, or PCE, for July revealed inflation was a bit stronger than expected.  Intel  rose o.9% and  Broadcom  declined 0.3% with investors in wait-and-see mode when it comes to ch",
+          "pub": "2026-08-26T21:43",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/stock-movers-6a7eb3fe?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Nvidia's Second-Quarter Results More Than Double Amid Record Data Center Sales",
+          "summary": "Nvidia's (NVDA) fiscal second-quarter results more than doubled from a year ago and topped Wall Stre",
+          "pub": "2026-08-26T21:03",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-apos-second-quarter-results-210351793.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -568,14 +687,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 5,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.1,
+      "news": 52.5,
       "confirm": 44.6,
-      "signal": 67.4,
+      "signal": 67.6,
       "mom": {
         "ret5": 0.0044,
         "vol_surge": 0.55
@@ -641,194 +760,122 @@
       ]
     },
     {
-      "ticker": "NVDA",
+      "ticker": "ADI",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 7,
-      "today_rank": 17,
+      "best_rank": 10,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.9,
-      "confirm": 38.4,
-      "signal": 67.1,
-      "mom": {
-        "ret5": -0.0363,
-        "vol_surge": 0.95
-      },
-      "earn_days": 0,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-17",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Strong Buy→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-25",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-24",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-24",
-          "provider": "Cantor Fitzgerald",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-24",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 18,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.0,
-      "confirm": 43.7,
-      "signal": 66.8,
-      "mom": {
-        "ret5": -0.019,
-        "vol_surge": 0.96
-      },
-      "earn_days": 7,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Is Nvidia's AI data center dominance slipping as the market expands?",
-          "summary": "Moor Insights & Strategy founder, CEO, and chief analyst Patrick Moorhead speaks with Josh Lipton about Nvidia's (NVDA) biggest competition in AI data centers, as he anticipates the company's market share could fall to 70% from 90% over the next two years.",
-          "pub": "2026-08-26T12:00",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/nvidias-ai-data-center-dominance-120000341.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "OpenAI's New AI Chip Could Be Good News for Broadcom",
-          "summary": "BNP sees custom accelerators becoming a bigger part of AI infrastructure.",
-          "pub": "2026-08-26T19:40",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/openais-ai-chip-could-good-194049805.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Nvidia, Meta, Revolution Medicines, Abercrombie, Intuit, Salesforce, Moderna, and More Stocks That Explain Today’s Market",
-          "summary": "Stocks traded modestly lower Wednesday ahead of Nvidia’s earnings report and after the personal consumption expenditures index, or PCE, for July revealed inflation was a bit stronger than expected.  Nvidia   earnings after the bell could be key in determining where the artificial-intelligence trade",
-          "pub": "2026-08-26T18:52",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/stock-movers-6a7eb3fe?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Qualcomm's Costs Are Inside The Guidance And Its Replacement Growth Is Not",
-          "summary": "The company nearly doubled its long-term non-handset target in June, while a faster Apple exit and a cost squeeze went straight into the near-term numbers.",
-          "pub": "2026-08-26T17:53",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/613012/qualcomms-costs-are-inside-the-guidance-and-its-replacement-growth-is-not/2026-08-26",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "MXL's AI Optical Growth Accelerates: Can It Challenge AVGO & MRVL?",
-          "summary": "MaxLinear's Keystone ramp, rising 800G demand and next-generation 1.6T pipeline strengthens its AI optical push against larger rivals.",
-          "pub": "2026-08-26T17:16",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/mxls-ai-optical-growth-accelerates-171600411.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 26,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
+      "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 44.6,
-      "signal": 66.6,
+      "confirm": 48.8,
+      "signal": 67.6,
       "mom": {
-        "ret5": 0.0005,
-        "vol_surge": 0.63
+        "ret5": -0.0039,
+        "vol_surge": 1.0
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "2 Software Stocks Worth Your Attention and 1 That Underwhelm",
-          "summary": "Software is eating the world, and virtually no business is left untouched by it. The undeniable tailwinds fueling the industry have also led to strong returns for SaaS stocks lately as they’ve gained 51.5% over the past six months, outpacing the S&P 500’s 12.7% rise.",
-          "pub": "2026-08-21T15:47",
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-08-19",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000072",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Analog Devices (ADI) Stock Looks Overvalued Despite Strong AI Hopes",
+          "summary": "Analog Devices stock has delivered very strong long term gains over the past five years, while broader valuation checks currently frame it as leaning expensive rather than a clear bargain. With AI related demand and recent corporate moves in the spotlight, investors are weighing whether the recent s",
+          "pub": "2026-08-27T09:08",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-looks-090817506.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "空売り・過大評価",
+          "why": "-空売り・過大評価"
+        },
+        {
+          "title": "5 Insightful Analyst Questions From Analog Devices’s Q2 Earnings Call",
+          "summary": "Analog Devices delivered results for Q2 that were above Wall Street expectations, with management attributing broad-based growth to robust demand in data center and industrial markets. CEO Vincent Roche highlighted that the company’s grid-to-chip strategy and continued investment in R&D enabled Anal",
+          "pub": "2026-08-26T06:51",
           "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-software-stocks-worth-attention-154747633.html",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-analog-065113729.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Get Paid 12% A Year To Let Someone Else Chase ADI Stock Higher",
+          "summary": "Collect an immediate income that's yours to keep, in return for capping your stock's potential gains above a chosen higher price.",
+          "pub": "2026-08-25T19:22",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/612809/get-paid-12-a-year-to-let-someone-else-chase-adi-stock-higher/2026-08-25",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Gen 2 VPD Boosts VICR's Power Management Prospects Against TXN & ADI",
+          "summary": "Vicor's Gen 2 VPD targets higher AI power density, while licensing, customer programs and added capacity could expand its data-center opportunity.",
+          "pub": "2026-08-25T15:54",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/gen-2-vpd-boosts-vicrs-155400148.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        }
+      ]
+    },
+    {
+      "ticker": "CNQ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 22,
+      "first_seen": "2026-07-08",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 48.9,
+      "signal": 67.6,
+      "mom": {
+        "ret5": 0.0028,
+        "vol_surge": 0.87
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "An Oil Catastrophe Was Averted in 2026. What If It Comes in 2027?",
+          "summary": "Two fund managers with a strong track record of contrarian commodity calls think the oil spike is yet to come. Here’s how they’re preparing.",
+          "pub": "2026-08-26T12:08",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/why-100-oil-is-coming-stocks-to-buy-de14ef92?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "CNQ Raises 2026 Production Outlook While Holding Core Capital Flat",
+          "summary": "Canadian Natural raised its 2026 production outlook again while keeping operating capital at C$5.99B, putting capital efficiency and execution in focus.",
+          "pub": "2026-08-20T16:47",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/cnq-raises-2026-production-outlook-164700615.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -842,7 +889,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 9,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -854,7 +901,7 @@
         "ret5": -0.0355,
         "vol_surge": 0.56
       },
-      "earn_days": 6,
+      "earn_days": 5,
       "consensus": null,
       "headlines": [
         {
@@ -920,19 +967,19 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 10,
+      "today_rank": 9,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 48.5,
-      "confirm": 43.5,
-      "signal": 65.7,
+      "news": 49.0,
+      "confirm": 43.7,
+      "signal": 66.0,
       "mom": {
         "ret5": 0.0014,
-        "vol_surge": 0.54
+        "vol_surge": 0.55
       },
-      "earn_days": 28,
+      "earn_days": 34,
       "consensus": null,
       "headlines": [
         {
@@ -959,37 +1006,37 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "4 reasons Nvidia stock is lagging",
-          "summary": "Nvidia's stock isn't having its typical huge year.",
-          "pub": "2026-08-26T09:35",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/4-reasons-nvidia-stock-is-lagging-093542775.html",
+          "title": "Why Are Nasdaq, S&P 500 Futures Soaring Premarket? NVDA, MU, MRVL, OKTA, CRM, WEN, RKLB Stocks In Focus",
+          "summary": "Retail sentiment on Stocktwits remained ‘bearish’ on QQQ and improved to ‘neutral’ on SPY.",
+          "pub": "2026-08-27T08:54",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-sp500-futures-soaring-premarket-nvda-mu-mrvl-okta-crm-wen-rklb-stocks-in-focus/cZY8vxLRJpv",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Nvidia’s AI Servers Are About to Get Pricier — What a 15%+ Hike Means for the Whole Stack",
-          "summary": "Some of NVIDIA Corporation (NASDAQ:NVDA)’s largest customers have been told that prices of servers ‌containing its AI chips will rise by more than 15%, according to a Bloomberg News report from August 22. The increases will go into effect on systems ⁠shipped early next year and will include those wi",
-          "pub": "2026-08-26T19:00",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ai-servers-pricier-15-190022645.html",
+          "title": "Zacks Earnings Trends Highlights: Alphabet, Micron and  Nvidia",
+          "summary": "Alphabet, Micron and Nvidia have been highlighted in this Earnings Trends article.",
+          "pub": "2026-08-27T08:08",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-earnings-trends-highlights-alphabet-080800952.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Micron Reshuffles Its Leadership for the Next Phase of the AI Boom",
-          "summary": "Two veteran executives are taking broader control of operations and products.",
-          "pub": "2026-08-26T18:06",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/micron-reshuffles-leadership-next-phase-180606304.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "MU, SNDK, SKHY: Memory Stocks Surge Overnight After Nvidia More Than Doubles Purchases",
+          "summary": "Nvidia’s purchase commitments tied primarily to memory procurement more than doubled to $279 billion last quarter, underscoring the scramble to lock in supply.",
+          "pub": "2026-08-27T04:18",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-skhy-memory-stocks-surge-overnight-after-nvidia-more-than-doubles-purchases/cZY8omTRJp1",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
         }
       ]
     },
@@ -999,21 +1046,43 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 12,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 48.4,
-      "confirm": 36.5,
-      "signal": 64.0,
+      "confirm": 36.7,
+      "signal": 64.1,
       "mom": {
-        "ret5": -0.0351,
-        "vol_surge": 0.8
+        "ret5": -0.0353,
+        "vol_surge": 0.82
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "South32 H2 Earnings Call Highlights",
+          "summary": "South32 (LON:S32) reported higher earnings and cash flow for FY26 as its base-metals operations benefited from commodity prices and operating performance, while the miner outlined plans to sharpen its focus on copper and zinc following the proposed sale of its aluminium value chain assets. Chief Ex",
+          "pub": "2026-08-27T01:02",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-south32-h2-earnings-call-highlights-2026-08-26/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Agilent Technologies Q3 Earnings Call Highlights",
+          "summary": "Agilent Technologies (NYSE:A) reported third-quarter fiscal 2026 revenue of $1.88 billion, with core revenue growth of 7.3%, exceeding the high end of its guidance range. The company said earnings per share were $1.56 excluding tariff-refund benefits, up 14% from a year earlier and $0.06 above the t",
+          "pub": "2026-08-26T23:04",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-agilent-technologies-q3-earnings-call-highlights-2026-08-26/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": -0.5,
+          "conf": 0.5,
+          "type": "規制・関税",
+          "why": "-規制・関税"
+        },
         {
           "title": "Alcoa Stock Price Prediction: Middle East Energy Outlook Pushes AA to $68",
           "summary": "Wells Fargo just raised its Alcoa price target well above what the rest of Wall Street believes the stock is worth, and the reasoning traces back to a single CFO conversation about Middle East energy risk that changed everything.",
@@ -1046,45 +1115,135 @@
           "conf": 0.5,
           "type": "規制・関税",
           "why": "-規制・関税"
-        },
-        {
-          "title": "Alcoa (AA) Breaks Ground On Wagerup Gallium Plant And Expands Critical Minerals Reach",
-          "summary": "Alcoa (NYSE:AA) has broken ground on a new gallium production plant at its Wagerup alumina refinery in Western Australia. The project is focused on supplying gallium, a critical mineral used in advanced technologies, and is supported by partners from Australia, Japan, and the United States. The new",
-          "pub": "2026-08-24T13:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-aa-breaks-ground-wagerup-131026165.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "Alcoa (AA) Stock Still Trades At A Discount To Fair Value After A 90% Run",
-          "summary": "After a strong three year run that has seen Alcoa return 90.0%, the stock now trades at US$51.85, with both the intrinsic value estimate from a Discounted Cash Flow (DCF) model and market multiples indicating the shares screen as undervalued. Alcoa's 90.0% return over the last three years raises the",
-          "pub": "2026-08-23T16:07",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-aa-stock-still-trades-160719911.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     }
   ],
   "alert_summary": {
     "5": {
-      "n": 522,
+      "n": 536,
       "hit_rate": 0.52,
-      "avg_excess": 0.0118
+      "avg_excess": 0.0116
     },
     "20": {
-      "n": 196,
-      "hit_rate": 0.63,
-      "avg_excess": 0.0468
+      "n": 213,
+      "hit_rate": 0.65,
+      "avg_excess": 0.052
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-08-27",
+      "ticker": "KGC",
+      "signal": 74.9,
+      "price": 32.32,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "NEM",
+      "signal": 73.4,
+      "price": 131.6,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "AMD",
+      "signal": 70.8,
+      "price": 480.93,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "CIEN",
+      "signal": 69.8,
+      "price": 404.03,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "PLTR",
+      "signal": 69.4,
+      "price": 177.5,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "CLS",
+      "signal": 69.3,
+      "price": 307.32,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "BMY",
+      "signal": 69.1,
+      "price": 67.57,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "NVDA",
+      "signal": 68.2,
+      "price": 209.66,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "AVGO",
+      "signal": 67.7,
+      "price": 355.59,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "ALAB",
+      "signal": 67.6,
+      "price": 290.3,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "ADI",
+      "signal": 67.6,
+      "price": 371.8,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "CNQ",
+      "signal": 67.6,
+      "price": 49.64,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "CRDO",
+      "signal": 66.5,
+      "price": 226.49,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "MU",
+      "signal": 66.0,
+      "price": 938.4,
+      "spy": 766.0800170898438,
+      "grades": {}
+    },
     {
       "date": "2026-08-26",
       "ticker": "KGC",
@@ -1132,137 +1291,25 @@
       "price": 479.18,
       "spy": 765.9099731445312,
       "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "MU",
-      "signal": 67.3,
-      "price": 932.97,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "CNQ",
-      "signal": 67.3,
-      "price": 49.59,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "PLTR",
-      "signal": 67.1,
-      "price": 172.73,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "NVDA",
-      "signal": 66.8,
-      "price": 213.05,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "CIEN",
-      "signal": 66.0,
-      "price": 387.66,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "AVGO",
-      "signal": 65.6,
-      "price": 356.74,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "CLS",
-      "signal": 65.6,
-      "price": 306.86,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "ALAB",
-      "signal": 67.4,
-      "price": 290.3,
-      "spy": 766.010009765625,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "CRDO",
-      "signal": 66.5,
-      "price": 226.49,
-      "spy": 766.010009765625,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-25",
-      "ticker": "KGC",
-      "signal": 76.1,
-      "price": 32.98,
-      "spy": 763.469970703125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-25",
-      "ticker": "AI",
-      "signal": 73.8,
-      "price": 10.11,
-      "spy": 763.469970703125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-25",
-      "ticker": "BMY",
-      "signal": 72.3,
-      "price": 67.28,
-      "spy": 763.469970703125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-25",
-      "ticker": "FLYW",
-      "signal": 71.2,
-      "price": 19.42,
-      "spy": 763.469970703125,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-25",
-      "ticker": "PLTR",
-      "signal": 69.0,
-      "price": 175.89,
-      "spy": 763.469970703125,
-      "grades": {}
     }
   ],
   "composition": {
     "composition": {
-      "persist": 0.358,
-      "news": 0.403,
-      "confirm": 0.239
+      "persist": 0.359,
+      "news": 0.404,
+      "confirm": 0.238
     },
     "ic": {
-      "persist": 0.127,
-      "news": 0.003,
-      "confirm": -0.137
+      "persist": 0.121,
+      "news": -0.002,
+      "confirm": -0.145
     },
     "multipliers": {
-      "persist": 1.191,
-      "news": 1.005,
-      "confirm": 0.795
+      "persist": 1.181,
+      "news": 0.997,
+      "confirm": 0.783
     },
-    "graded_samples": 945,
+    "graded_samples": 975,
     "active": true,
     "min_samples": 10
   },
