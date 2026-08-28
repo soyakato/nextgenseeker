@@ -1,7 +1,85 @@
 {
-  "updated": "2026-08-27T22:16:33.166325+00:00",
+  "updated": "2026-08-28T11:24:46.312664+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "CRDO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 7,
+      "first_seen": "2026-07-08",
+      "name": "Credo Technology Group Holding ",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 60.7,
+      "confirm": 55.8,
+      "signal": 73.7,
+      "mom": {
+        "ret5": 0.0384,
+        "vol_surge": 0.62
+      },
+      "earn_days": 4,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "3 Under-the-Radar AI Stocks Wall Street Is Missing",
+          "summary": "While Wall Street piles into the usual semiconductor giants, three mid-cap names buried deeper in the AI stack are quietly booking orders into 2027 and posting triple-digit revenue growth that most investors have not noticed yet.",
+          "pub": "2026-08-28T11:01",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/28/3-under-the-radar-ai-stocks-wall-street-is-missing/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Marvell Technology (MRVL) Q2 Earnings and Revenues Beat Estimates",
+          "summary": "Marvell (MRVL) delivered earnings and revenue surprises of +1.08% and +1.03%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "pub": "2026-08-27T21:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-q2-earnings-211502034.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "This Under-the-Radar AI Stock Could Be the Next Big Semiconductor Winner",
+          "summary": "Credo Technology exploded from double digits to over $300 in a single year, but the setup heading into fiscal 2027 is a fundamentally different bet, and the math behind our price target reveals exactly where the risk-reward gets interesting again.",
+          "pub": "2026-08-27T15:32",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/27/this-under-the-radar-ai-stock-could-be-the-next-big-semiconductor-winner/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Credo Technology Group Holding (CRDO), Why Is It Getting Fresh Attention Now?",
+          "summary": "Credo Technology Group Holding (CRDO) has drawn investor attention after recent share price moves, prompting a closer look at how its semiconductor connectivity business and financial profile line up with current market expectations. See our latest analysis for Credo Technology Group Holding. The re",
+          "pub": "2026-08-25T23:07",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-crdo-230759202.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Semtech (SMTC) Q2 Earnings and Revenues Top Estimates",
+          "summary": "Semtech (SMTC) delivered earnings and revenue surprises of +14.52% and +4.12%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "pub": "2026-08-25T21:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/semtech-smtc-q2-earnings-revenues-211502936.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        }
+      ]
+    },
     {
       "ticker": "NVDA",
       "tier": "確定",
@@ -13,9 +91,9 @@
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.9,
+      "news": 50.9,
       "confirm": 71.7,
-      "signal": 75.5,
+      "signal": 73.5,
       "mom": {
         "ret5": 0.0513,
         "vol_surge": 1.42
@@ -64,17 +142,6 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-24",
-          "provider": "Cantor Fitzgerald",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-08-24",
@@ -84,245 +151,95 @@
           "conf": 0.15,
           "type": "格付",
           "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-24",
+          "provider": "Keybanc",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
     {
-      "ticker": "CRDO",
+      "ticker": "AVGO",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 8,
+      "best_rank": 11,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
-      "name": "Credo Technology Group Holding ",
+      "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 62.8,
-      "confirm": 55.8,
-      "signal": 74.6,
+      "news": 57.9,
+      "confirm": 56.2,
+      "signal": 72.7,
       "mom": {
-        "ret5": 0.0384,
-        "vol_surge": 0.62
+        "ret5": 0.0206,
+        "vol_surge": 1.0
       },
       "earn_days": 5,
       "consensus": null,
       "headlines": [
         {
-          "title": "Marvell Technology (MRVL) Q2 Earnings and Revenues Beat Estimates",
-          "summary": "Marvell (MRVL) delivered earnings and revenue surprises of +1.08% and +1.03%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "pub": "2026-08-27T21:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-q2-earnings-211502034.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "This Under-the-Radar AI Stock Could Be the Next Big Semiconductor Winner",
-          "summary": "Credo Technology exploded from double digits to over $300 in a single year, but the setup heading into fiscal 2027 is a fundamentally different bet, and the math behind our price target reveals exactly where the risk-reward gets interesting again.",
-          "pub": "2026-08-27T15:32",
+          "title": "Broadcom Built Something Nearly Perfect So I Keep Buying",
+          "summary": "Hock Tan engineered a semiconductor company that profits whether hyperscalers bet on GPUs or custom silicon, and the demand already booked stretches years into the future. Here is why that structure keeps pulling me back to the buy button.",
+          "pub": "2026-08-28T11:11",
           "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/27/this-under-the-radar-ai-stock-could-be-the-next-big-semiconductor-winner/",
+          "url": "https://247wallst.com/investing/2026/08/28/broadcom-built-something-nearly-perfect-so-i-keep-buying/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Credo Technology Group Holding (CRDO), Why Is It Getting Fresh Attention Now?",
-          "summary": "Credo Technology Group Holding (CRDO) has drawn investor attention after recent share price moves, prompting a closer look at how its semiconductor connectivity business and financial profile line up with current market expectations. See our latest analysis for Credo Technology Group Holding. The re",
-          "pub": "2026-08-25T23:07",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-crdo-230759202.html",
+          "title": "3 Under-the-Radar AI Stocks Wall Street Is Missing",
+          "summary": "While Wall Street piles into the usual semiconductor giants, three mid-cap names buried deeper in the AI stack are quietly booking orders into 2027 and posting triple-digit revenue growth that most investors have not noticed yet.",
+          "pub": "2026-08-28T11:01",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/28/3-under-the-radar-ai-stocks-wall-street-is-missing/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Semtech (SMTC) Q2 Earnings and Revenues Top Estimates",
-          "summary": "Semtech (SMTC) delivered earnings and revenue surprises of +14.52% and +4.12%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "pub": "2026-08-25T21:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/semtech-smtc-q2-earnings-revenues-211502936.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "ALAB Rides on Strong Scorpio Demand: Can It Outpace MRVL and CRDO?",
-          "summary": "Astera Labs rides on surging Scorpio X-Series demand, record revenues, and a rapid production increase as it battles Marvell and Credo in AI connectivity.",
-          "pub": "2026-08-25T15:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/alab-rides-strong-scorpio-demand-151500340.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "BMY",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 26,
-      "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 65.4,
-      "confirm": 50.3,
-      "signal": 74.3,
-      "mom": {
-        "ret5": 0.0226,
-        "vol_surge": 0.57
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Is Merck Stock Reaching A Valuation Ceiling At 6x Sales?",
-          "summary": "The oncology franchise that still carries about half of Merck is decelerating while the stock trades near its high.",
-          "pub": "2026-08-27T17:01",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/613355/is-merck-stock-reaching-a-valuation-ceiling-at-6x-sales/2026-08-27",
+          "title": "3 Semiconductor Stocks to Buy Heading Into September",
+          "summary": "Broadcom reports in days, Micron follows at month's end, and NVIDIA just printed numbers that rewrote expectations for the entire AI hardware trade. Three stocks sit at the center of a supply crunch that management teams say runs well past 2027.",
+          "pub": "2026-08-28T11:01",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/28/3-semiconductor-stocks-to-buy-heading-into-september/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "RVMD Secures FDA Win, Gets Nod for Rasonque in Pancreatic Cancer",
-          "summary": "Rasonque wins FDA approval for pancreatic cancer, giving Revolution Medicines its first marketed product and a commercial foothold.",
-          "pub": "2026-08-27T17:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/rvmd-secures-fda-win-gets-170000823.html",
+          "title": "Kyndryl, Broadcom deepen partnership to build AI-ready private clouds",
+          "summary": "The companies target secure, AI-ready private cloud solutions as firms seek greater automation and compliance.",
+          "pub": "2026-08-28T10:32",
+          "provider": "Verdict",
+          "url": "https://www.verdict.co.uk/kyndryl-broadcom-deepen-partnership/",
           "dir": 1.0,
           "conf": 1.0,
-          "type": "承認",
-          "why": "+承認 +受注"
+          "type": "契約・提携",
+          "why": "+契約・提携 +受注"
         },
         {
-          "title": "Can Camzyos' Growth Offset Bristol Myers' Patent Pressures?",
-          "summary": "BMY's Camzyos gains momentum as an adolescent expansion nears an FDA decision, while rivals advance competing heart drugs.",
-          "pub": "2026-08-27T14:32",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/camzyos-growth-offset-bristol-myers-143200159.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can Cost Cuts And 2030 Targets Really Save Pfizer Stock?",
-          "summary": "The company now leads with a cost-savings total and a growth rate that does not begin until the end of the decade, which tells a holder far less about whether its medicines are winning.",
-          "pub": "2026-08-27T14:25",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/613286/can-cost-cuts-and-2030-targets-really-save-pfizer-stock/2026-08-27",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Will ZENBEXUS’s First-in-Class CELMoD Approval Based on MRD-Negative CR Change Bristol Myers Squibb’s (BMY) Narrative",
-          "summary": "In August 2026, Bristol-Myers Squibb received accelerated FDA approval for ZENBEXUS (iberdomide) as the first cereblon-modulating protein degrader (CELMoD) therapy for adults with relapsed or refractory multiple myeloma after at least one prior treatment including a proteasome inhibitor and an immun",
-          "pub": "2026-08-27T02:13",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/healthcare/articles/zenbexus-first-class-celmod-approval-021330959.html",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "承認",
-          "why": "+承認"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.8,
-      "confirm": 67.3,
-      "signal": 73.7,
-      "mom": {
-        "ret5": 0.0688,
-        "vol_surge": 0.78
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 13,
-        "hold": 10,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "UBS",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Citigroup",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Neutral→Neutral",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Cantor Fitzgerald",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Piper Sandler",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "DA Davidson",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "title": "Jobs report, Broadcom results pose next hurdles for stock market rally",
+          "summary": "By Lewis Krauskopf NEW YORK, Aug 28 (Reuters) - A fresh look at the U.S. labor market in the coming week along with quarterly results from semiconductor company Broadcom will test a market rally that",
+          "pub": "2026-08-28T10:01",
+          "provider": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jobs-report-broadcom-results-pose-100141778.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
         }
       ]
     },
@@ -332,17 +249,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 20,
+      "today_rank": 19,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 56.1,
-      "confirm": 58.1,
-      "signal": 72.4,
+      "news": 55.4,
+      "confirm": 58.2,
+      "signal": 72.1,
       "mom": {
         "ret5": 0.0509,
-        "vol_surge": 0.52
+        "vol_surge": 0.53
       },
       "earn_days": null,
       "consensus": null,
@@ -357,6 +274,17 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        },
+        {
+          "title": "The Market and UBS Saw Celestica’s $3 Billion Raise Very Differently. Here’s Who I Think Is Right.",
+          "summary": "Celestica's $3 billion raise scared investors, but it funds the AI capacity driving UBS's upgrade, making the selloff look more like an entry point.",
+          "pub": "2026-08-27T20:00",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/4239902/the-market-and-ubs-saw-celesticas-3-billion-raise-very-differently-heres-who-i-think-is-right",
+          "dir": 0.2,
+          "conf": 0.19999999999999996,
+          "type": "格上げ",
+          "why": "+格上げ -急落報道"
         },
         {
           "title": "OpenAI Built an Nvidia-Beating Inference Chip in Nine Months. Broadcom (AVGO) Helped Make It Happen",
@@ -390,17 +318,6 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
-        },
-        {
-          "title": "Celestica (CLS) Down 12.4% Since Last Earnings Report: Can It Rebound?",
-          "summary": "Celestica (CLS) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-          "pub": "2026-08-26T15:30",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-cls-down-12-4-153003094.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -410,7 +327,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 7,
+      "today_rank": 6,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
@@ -422,7 +339,7 @@
         "ret5": 0.0188,
         "vol_surge": 0.6
       },
-      "earn_days": 7,
+      "earn_days": 6,
       "consensus": null,
       "headlines": [
         {
@@ -483,6 +400,123 @@
       ]
     },
     {
+      "ticker": "PLTR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 49.3,
+      "confirm": 67.3,
+      "signal": 71.8,
+      "mom": {
+        "ret5": 0.0688,
+        "vol_surge": 0.78
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 13,
+        "hold": 10,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Piper Sandler",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Mizuho",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Citigroup",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Neutral→Neutral",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 8,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 63.6,
+      "signal": 71.2,
+      "mom": {
+        "ret5": 0.0344,
+        "vol_surge": 1.22
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Will Newmont's Liquidity Strength Unlock Growth and Value?",
+          "summary": "Newmont's strong liquidity, cash flows and debt reduction support growth projects and shareholder returns as expansion plans advance.",
+          "pub": "2026-08-27T11:32",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/newmonts-liquidity-strength-unlock-growth-113200383.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "NEM",
       "tier": "確定",
       "streak": 43,
@@ -493,12 +527,12 @@
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
-      "news": 52.6,
-      "confirm": 61.8,
-      "signal": 71.9,
+      "news": 49.0,
+      "confirm": 62.1,
+      "signal": 70.5,
       "mom": {
         "ret5": 0.0364,
-        "vol_surge": 1.06
+        "vol_surge": 1.08
       },
       "earn_days": null,
       "consensus": null,
@@ -513,18 +547,6 @@
           "conf": 0.5,
           "type": "8-K 5.02",
           "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 重要契約の締結・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-13",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1164727/000110465926095968",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
           "is_edgar": true
         },
         {
@@ -559,114 +581,13 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 19,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.5,
-      "confirm": 56.0,
-      "signal": 71.3,
-      "mom": {
-        "ret5": 0.0206,
-        "vol_surge": 0.99
-      },
-      "earn_days": 6,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Stock Market Today, Aug. 27: Nvidia Surges on Blowout Results and Surprising Guidance",
-          "summary": "On Aug. 27, 2026, the tech giant reported $96.2 billion in quarterly revenue, up 106% year over year, resetting expectations for AI spending power.",
-          "pub": "2026-08-27T21:21",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/08/27/stock-market-today-aug-27-nvidia-surges-on-blowout-results-and-surprising-guidance/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
         },
         {
-          "title": "Cathie Wood’s ARK Just Dumped AMD Stock. What She’s Buying Instead.",
-          "summary": "Advanced Micro Devices stock is being sold by Cathie Wood but the fund manager isn't giving up on the chip sector.",
-          "pub": "2026-08-27T21:19",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/cathie-wood-ark-sells-amd-stock-476a7789?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Marvell Technology Tops Second-Quarter Expectations on Data Center Revenue Surge",
-          "summary": "Marvell Technology's (MRVL) second-quarter results rose above Wall Street's estimates amid a surge i",
-          "pub": "2026-08-27T20:58",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/articles/marvell-technology-tops-second-quarter-205816066.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "NVIDIA Is Now Up 20% in a Month: Take Profits, or Buy More?",
-          "summary": "NVIDIA just handed investors a report that left every semiconductor peer in the dust, and now the stock sits near all-time highs with a market cap that would make most countries nervous. The question of whether to lock in gains or press the bet has never carried higher stakes.",
-          "pub": "2026-08-27T19:36",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/27/nvidia-is-now-up-20-in-a-month-take-profits-or-buy-more/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "8-27-2026: Nvidia Surge, Oil Relief + Jackson Hole in Focus",
-          "summary": "Eric Criscuolo, Market Strategist at the NYSE, recaps a week driven by three highly anticipated catalysts — PCE, Nvidia earnings, and Jackson Hole — following a quiet, range-bound start as markets awaited the key events. A breakthrough in Iran-Strait of Hormuz negotiations pulled oil sharply lower m",
-          "pub": "2026-08-27T19:30",
-          "provider": "NYSE",
-          "url": "https://finance.yahoo.com/video/8-27-2026-nvidia-surge-193002330.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        }
-      ]
-    },
-    {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 9,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 63.0,
-      "signal": 71.1,
-      "mom": {
-        "ret5": 0.0344,
-        "vol_surge": 1.18
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Will Newmont's Liquidity Strength Unlock Growth and Value?",
-          "summary": "Newmont's strong liquidity, cash flows and debt reduction support growth projects and shareholder returns as expansion plans advance.",
-          "pub": "2026-08-27T11:32",
+          "title": "Can Menankoto Permit Accelerate B2Gold's Fekola Regional Growth?",
+          "summary": "BTG's Menankoto permit clears the way for Fekola Regional to ramp up, targeting more than 150,000 ounces annually from 2028.",
+          "pub": "2026-08-26T15:05",
           "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/newmonts-liquidity-strength-unlock-growth-113200383.html",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/menankoto-permit-accelerate-b2golds-fekola-150500662.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -685,9 +606,9 @@
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.9,
+      "news": 50.8,
       "confirm": 57.6,
-      "signal": 70.2,
+      "signal": 70.1,
       "mom": {
         "ret5": 0.0467,
         "vol_surge": 0.57
@@ -695,6 +616,17 @@
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "3 Under-the-Radar AI Stocks Wall Street Is Missing",
+          "summary": "While Wall Street piles into the usual semiconductor giants, three mid-cap names buried deeper in the AI stack are quietly booking orders into 2027 and posting triple-digit revenue growth that most investors have not noticed yet.",
+          "pub": "2026-08-28T11:01",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/28/3-under-the-radar-ai-stocks-wall-street-is-missing/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "This Under-the-Radar AI Stock Could Be the Next Big Semiconductor Winner",
           "summary": "Credo Technology exploded from double digits to over $300 in a single year, but the setup heading into fiscal 2027 is a fundamentally different bet, and the math behind our price target reveals exactly where the risk-reward gets interesting again.",
@@ -738,17 +670,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "MRVL to Post Q2 Earnings: Time to Buy, Sell or Hold the Stock?",
-          "summary": "Marvell Technology heads into fiscal Q2 earnings with AI-driven data center growth in focus, but a rich valuation and fierce competition temper the setup.",
-          "pub": "2026-08-24T15:33",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mrvl-post-q2-earnings-time-153300468.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -758,14 +679,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 2,
+      "today_rank": 1,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.9,
+      "news": 54.1,
       "confirm": 48.5,
-      "signal": 70.0,
+      "signal": 69.3,
       "mom": {
         "ret5": 0.0154,
         "vol_surge": 0.59
@@ -843,7 +764,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 10,
-      "today_rank": 15,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -922,7 +843,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 12,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -995,26 +916,71 @@
       ]
     },
     {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 24,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 44.5,
+      "signal": 66.7,
+      "mom": {
+        "ret5": -0.0027,
+        "vol_surge": 0.69
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "2 Software Stocks Worth Your Attention and 1 That Underwhelm",
+          "summary": "Software is eating the world, and virtually no business is left untouched by it. The undeniable tailwinds fueling the industry have also led to strong returns for SaaS stocks lately as they’ve gained 51.5% over the past six months, outpacing the S&P 500’s 12.7% rise.",
+          "pub": "2026-08-21T15:47",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-software-stocks-worth-attention-154747633.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CNQ",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 24,
+      "today_rank": 23,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
       "persist": 100,
       "news": 50.0,
-      "confirm": 39.9,
-      "signal": 65.6,
+      "confirm": 40.3,
+      "signal": 65.7,
       "mom": {
         "ret5": -0.0247,
-        "vol_surge": 0.82
+        "vol_surge": 0.85
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Accenture Stock And 2 Dividend Compounders for Passive Income",
+          "summary": "Central banks across Asia and Europe are moving toward tighter policy as inflation stays on the radar, yet cash in the bank still offers limited income. That gap creates a clear opening for investors who want income that can keep working even as rates shift. This article looks at three stocks from t",
+          "pub": "2026-08-28T04:34",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/accenture-stock-2-dividend-compounders-043428947.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "An Oil Catastrophe Was Averted in 2026. What If It Comes in 2027?",
           "summary": "Two fund managers with a strong track record of contrarian commodity calls think the oil spike is yet to come. Here’s how they’re preparing.",
@@ -1034,19 +1000,19 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 10,
+      "today_rank": 9,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.4,
+      "news": 49.4,
       "confirm": 31.7,
-      "signal": 65.4,
+      "signal": 63.4,
       "mom": {
         "ret5": -0.04,
         "vol_surge": 0.58
       },
-      "earn_days": 34,
+      "earn_days": 33,
       "consensus": null,
       "headlines": [
         {
@@ -1073,33 +1039,33 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Stocks to Watch Thursday Recap: Nvidia, CrowdStrike, Salesforce",
-          "summary": "↗️ Nvidia (NVDA): Shares of the world’s most valuable company jumped nearly 9% after it said it expected 70% revenue growth in its 2028 fiscal year. The stock had its largest percent increase in over a year.",
-          "pub": "2026-08-27T21:36",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-27-2026/card/stocks-to-watch-nvidia-crowdstrike-salesforce-WMjYUzoZiONJEvHqPpyp?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Forget SMH and Its 87% Year: Three Semiconductor Funds Did Much Better",
-          "summary": "SMH delivered a jaw-dropping year, yet three semiconductor funds quietly left it in the dust by betting on corners of the chip market that most investors completely ignored.",
-          "pub": "2026-08-27T21:15",
+          "title": "3 Semiconductor Stocks to Buy Heading Into September",
+          "summary": "Broadcom reports in days, Micron follows at month's end, and NVIDIA just printed numbers that rewrote expectations for the entire AI hardware trade. Three stocks sit at the center of a supply crunch that management teams say runs well past 2027.",
+          "pub": "2026-08-28T11:01",
           "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/27/forget-smh-and-its-87-year-three-semiconductor-funds-did-much-better/",
+          "url": "https://247wallst.com/investing/2026/08/28/3-semiconductor-stocks-to-buy-heading-into-september/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Micron Should Profit from Nvidia’s Memory Price Warning. Its Stock Hasn’t Budged.",
-          "summary": "Nvidia  thinks the price of memory chips is outrageous—and it’s still willing to pay.  Not even a shout out from President Donald Trump could lift shares of the memory-chip maker, which closed mostly flat at $935.39 on Thursday.  In contrast,  SK Hynix  American depositary receipts rose 2.3% and the",
-          "pub": "2026-08-27T21:07",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/micron-stock-price-memory-chips-nvidia-warning-70515f18?siteid=yhoof2&yptr=yahoo",
+          "title": "Jim Cramer Said Micron Technology, Inc. (NASDAQ:MU) Fell Because Of Samsung’s Share Buybacks",
+          "summary": "Memory chip manufacturer Micron Technology, Inc. (NASDAQ:MU)’s shares are up by more than a whopping 700% over the past year. The firm is a key link in the AI supply chain as it provides memory chips that work with AI GPUs inside a data center. Cramer has discussed Micron Technology, Inc. (NASDAQ:MU",
+          "pub": "2026-08-28T09:16",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-micron-technology-091630456.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Meet the Super Semiconductor ETF Obliterating the S&P 500 and the Nasdaq-100 in 2026",
+          "summary": "This fund has one-quarter of its assets parked in Nvidia, Micron Technology, and Advanced Micro Devices.",
+          "pub": "2026-08-28T08:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/28/meet-semiconductor-etf-sp-500-nasdaq-100-in-2026/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -1110,17 +1076,129 @@
   ],
   "alert_summary": {
     "5": {
-      "n": 536,
-      "hit_rate": 0.52,
-      "avg_excess": 0.0116
+      "n": 549,
+      "hit_rate": 0.53,
+      "avg_excess": 0.0117
     },
     "20": {
-      "n": 213,
+      "n": 228,
       "hit_rate": 0.65,
-      "avg_excess": 0.052
+      "avg_excess": 0.0564
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-08-28",
+      "ticker": "CRDO",
+      "signal": 73.7,
+      "price": 240.24,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "NVDA",
+      "signal": 73.5,
+      "price": 227.98,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "AVGO",
+      "signal": 72.7,
+      "price": 371.54,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "CLS",
+      "signal": 72.1,
+      "price": 317.38,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "CIEN",
+      "signal": 72.0,
+      "price": 399.85,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "PLTR",
+      "signal": 71.8,
+      "price": 185.93,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "KGC",
+      "signal": 71.2,
+      "price": 32.51,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "NEM",
+      "signal": 70.5,
+      "price": 132.29,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "ALAB",
+      "signal": 70.1,
+      "price": 304.09,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "AMD",
+      "signal": 69.3,
+      "price": 476.67,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "ADI",
+      "signal": 68.9,
+      "price": 374.52,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "AA",
+      "signal": 68.1,
+      "price": 51.19,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "FLYW",
+      "signal": 66.7,
+      "price": 18.7,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "CNQ",
+      "signal": 65.7,
+      "price": 49.77,
+      "spy": 771.0999755859375,
+      "grades": {}
+    },
     {
       "date": "2026-08-27",
       "ticker": "KGC",
@@ -1168,137 +1246,25 @@
       "price": 307.32,
       "spy": 766.0800170898438,
       "grades": {}
-    },
-    {
-      "date": "2026-08-27",
-      "ticker": "BMY",
-      "signal": 69.1,
-      "price": 67.57,
-      "spy": 766.0800170898438,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-27",
-      "ticker": "NVDA",
-      "signal": 68.2,
-      "price": 209.66,
-      "spy": 766.0800170898438,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-27",
-      "ticker": "AVGO",
-      "signal": 67.7,
-      "price": 355.59,
-      "spy": 766.0800170898438,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-27",
-      "ticker": "ALAB",
-      "signal": 67.6,
-      "price": 290.3,
-      "spy": 766.0800170898438,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-27",
-      "ticker": "ADI",
-      "signal": 67.6,
-      "price": 371.8,
-      "spy": 766.0800170898438,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-27",
-      "ticker": "CNQ",
-      "signal": 67.6,
-      "price": 49.64,
-      "spy": 766.0800170898438,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-27",
-      "ticker": "CRDO",
-      "signal": 66.5,
-      "price": 226.49,
-      "spy": 766.0800170898438,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-27",
-      "ticker": "MU",
-      "signal": 66.0,
-      "price": 938.4,
-      "spy": 766.0800170898438,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-27",
-      "ticker": "AA",
-      "signal": 68.1,
-      "price": 51.19,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "KGC",
-      "signal": 76.7,
-      "price": 33.48,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "FLYW",
-      "signal": 70.6,
-      "price": 19.21,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "BMY",
-      "signal": 69.2,
-      "price": 67.92,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "AA",
-      "signal": 69.0,
-      "price": 51.28,
-      "spy": 765.9099731445312,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-26",
-      "ticker": "ADI",
-      "signal": 68.5,
-      "price": 373.66,
-      "spy": 765.9099731445312,
-      "grades": {}
     }
   ],
   "composition": {
     "composition": {
       "persist": 0.359,
       "news": 0.404,
-      "confirm": 0.238
+      "confirm": 0.237
     },
     "ic": {
       "persist": 0.121,
       "news": -0.002,
-      "confirm": -0.145
+      "confirm": -0.146
     },
     "multipliers": {
       "persist": 1.181,
       "news": 0.997,
-      "confirm": 0.783
+      "confirm": 0.781
     },
-    "graded_samples": 975,
+    "graded_samples": 1005,
     "active": true,
     "min_samples": 10
   },
