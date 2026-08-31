@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T21:07:11.840084+00:00",
+  "updated": "2026-08-31T05:36:41.500638+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -13,9 +13,9 @@
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.5,
+      "news": 52.2,
       "confirm": 63.1,
-      "signal": 71.4,
+      "signal": 71.3,
       "mom": {
         "ret5": 0.0132,
         "vol_surge": 1.61
@@ -67,7 +67,7 @@
           "title": "アナリストmaintain: Overweight→Overweight",
           "summary": "",
           "pub": "2026-08-24",
-          "provider": "Keybanc",
+          "provider": "Cantor Fitzgerald",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -105,7 +105,7 @@
         "ret5": 0.0095,
         "vol_surge": 0.68
       },
-      "earn_days": 2,
+      "earn_days": 1,
       "consensus": null,
       "headlines": [
         {
@@ -176,9 +176,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.6,
+      "news": 52.2,
       "confirm": 56.1,
-      "signal": 69.8,
+      "signal": 69.6,
       "mom": {
         "ret5": 0.0353,
         "vol_surge": 0.7
@@ -203,6 +203,28 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Piper Sandler",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
           "title": "アナリストmaintain: Outperform→Outperform",
           "summary": "",
           "pub": "2026-08-04",
@@ -218,28 +240,6 @@
           "summary": "",
           "pub": "2026-08-04",
           "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Neutral→Neutral",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Cantor Fitzgerald",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Citigroup",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -327,84 +327,6 @@
       ]
     },
     {
-      "ticker": "ALAB",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 4,
-      "first_seen": "2026-07-08",
-      "name": "Astera Labs, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.1,
-      "confirm": 48.3,
-      "signal": 67.2,
-      "mom": {
-        "ret5": 0.0158,
-        "vol_surge": 0.57
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Should Stronger Analyst Focus On Earnings Power In Astera Labs’ AI Story (ALAB) Require Action From Investors?",
-          "summary": "Earlier this year, Astera Labs, Inc. (ALAB) was highlighted for significantly outperforming its Computer and Technology peers, supported by improved earnings estimate trends and a top Zacks Rank of #1 (Strong Buy). This shift in analyst expectations and sentiment suggests the market is increasingly",
-          "pub": "2026-08-29T20:13",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stronger-analyst-focus-earnings-power-201323308.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Astera Labs (ALAB) Stock May Trade At A Premium Following Its 61% Run",
-          "summary": "Astera Labs stock has surged year to date, while the valuation checks suggest the shares are not a clear bargain and trade at a premium on several metrics. The Discounted Cash Flow (DCF) intrinsic value estimate sits close to the current market price, which contrasts with the more expensive read fro",
-          "pub": "2026-08-29T18:09",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-alab-stock-may-180959953.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "How networking became the critical layer of AI",
-          "summary": "Investing.com -- Networking is replacing raw computing power as the main constraint on artificial intelligence performance as AI systems grow larger and more complex, Citi analysts said following the second day of the Hot Chips conference.",
-          "pub": "2026-08-29T07:16",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/networking-became-critical-layer-ai-071654651.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo to Report Q1 Earnings: Should You Buy, Hold or Sell the Stock?",
-          "summary": "CRDO heads into fiscal Q1 earnings with surging revenues and EPS estimates, strong AI demand and risks from valuation, supply and customer concentration.",
-          "pub": "2026-08-28T15:34",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-report-q1-earnings-buy-153400463.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is Astera Labs, Inc. (ALAB) Stock Outpacing Its Computer and Technology Peers This Year?",
-          "summary": "Here is how Astera Labs, Inc. (ALAB) and Avnet (AVT) have performed compared to their sector so far this year.",
-          "pub": "2026-08-28T13:40",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-inc-alab-stock-134003470.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "AVGO",
       "tier": "確定",
       "streak": 43,
@@ -422,9 +344,20 @@
         "ret5": 0.0009,
         "vol_surge": 0.98
       },
-      "earn_days": 3,
+      "earn_days": 2,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Stock Futures Drift Lower, Oil Rises Ahead of Jobs Data, Tech Earnings",
+          "summary": "This week features earnings from Nvidia rival Broadcom plus reports from Dell and Hewlett Packard Enterprise.",
+          "pub": "2026-08-30T22:13",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/futures-stock-sunday-trading-52f040e8?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Prediction: Broadcom Stock Will Go Parabolic After Sept. 2",
           "summary": "Broadcom has underperformed the semiconductor sector this year, but its fortunes could change following its quarterly report.",
@@ -448,11 +381,11 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Futures Set to Trade Ahead of Jobs Data, Tech Earnings",
-          "summary": "This week features earnings from Nvidia rival Broadcom plus reports from Dell and Hewlett Packard Enterprise.",
-          "pub": "2026-08-30T16:55",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/futures-stock-sunday-trading-52f040e8?siteid=yhoof2&yptr=yahoo",
+          "title": "Interest Rates, Jobs Data and Other Key Things to Watch this Week",
+          "summary": "Markets reacted sharply to Fed Chair Kevin Warsh's hawkish Jackson Hole comments suggesting potential future interest rate hikes.",
+          "pub": "2026-08-30T17:00",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/4345426/interest-rates-jobs-data-and-other-key-things-to-watch-this-week",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -464,17 +397,6 @@
           "pub": "2026-08-30T12:58",
           "provider": "Motley Fool",
           "url": "https://www.fool.com/investing/2026/08/30/hock-tan-guided-broadcom-past-usd100-billion-of-ai-revenue-in-2027-the-stock-is-25-off-its-high/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Broadcom or AMD? Here's Why the Market Is Pricing the Same AI Boom So Differently Across 2 Chip Stocks.",
-          "summary": "Broadcom is a steady AI infrastructure bet, while AMD offers higher-risk, higher-reward potential as it challenges Nvidia in AI chips.",
-          "pub": "2026-08-30T12:40",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/30/broadcom-or-amd-heres-why-the-market-is-pricing/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -562,6 +484,84 @@
       ]
     },
     {
+      "ticker": "ALAB",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 4,
+      "first_seen": "2026-07-08",
+      "name": "Astera Labs, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.6,
+      "confirm": 48.3,
+      "signal": 67.0,
+      "mom": {
+        "ret5": 0.0158,
+        "vol_surge": 0.57
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Astera Labs Stock And 2 AI Data Center Picks From Founder Led Companies",
+          "summary": "With long term government bond yields rising on inflation concerns, investors are being reminded that easy money is no longer the norm. Higher yields can reward patience in cash, yet they also punish companies that rely heavily on cheap debt. Founder led businesses that run lean and keep capital eff",
+          "pub": "2026-08-31T04:31",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-stock-2-ai-043127920.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Should Stronger Analyst Focus On Earnings Power In Astera Labs’ AI Story (ALAB) Require Action From Investors?",
+          "summary": "Earlier this year, Astera Labs, Inc. (ALAB) was highlighted for significantly outperforming its Computer and Technology peers, supported by improved earnings estimate trends and a top Zacks Rank of #1 (Strong Buy). This shift in analyst expectations and sentiment suggests the market is increasingly",
+          "pub": "2026-08-29T20:13",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stronger-analyst-focus-earnings-power-201323308.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Astera Labs (ALAB) Stock May Trade At A Premium Following Its 61% Run",
+          "summary": "Astera Labs stock has surged year to date, while the valuation checks suggest the shares are not a clear bargain and trade at a premium on several metrics. The Discounted Cash Flow (DCF) intrinsic value estimate sits close to the current market price, which contrasts with the more expensive read fro",
+          "pub": "2026-08-29T18:09",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-alab-stock-may-180959953.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "How networking became the critical layer of AI",
+          "summary": "Investing.com -- Networking is replacing raw computing power as the main constraint on artificial intelligence performance as AI systems grow larger and more complex, Citi analysts said following the second day of the Hot Chips conference.",
+          "pub": "2026-08-29T07:16",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/networking-became-critical-layer-ai-071654651.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Credo to Report Q1 Earnings: Should You Buy, Hold or Sell the Stock?",
+          "summary": "CRDO heads into fiscal Q1 earnings with surging revenues and EPS estimates, strong AI demand and risks from valuation, supply and customer concentration.",
+          "pub": "2026-08-28T15:34",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-report-q1-earnings-buy-153400463.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
@@ -579,7 +579,7 @@
         "ret5": -0.0438,
         "vol_surge": 0.63
       },
-      "earn_days": 4,
+      "earn_days": 3,
       "consensus": null,
       "headlines": [
         {
@@ -650,9 +650,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.7,
+      "news": 51.0,
       "confirm": 39.4,
-      "signal": 64.9,
+      "signal": 65.0,
       "mom": {
         "ret5": -0.0162,
         "vol_surge": 0.62
@@ -866,7 +866,7 @@
         "ret5": -0.0295,
         "vol_surge": 0.72
       },
-      "earn_days": null,
+      "earn_days": 45,
       "consensus": null,
       "headlines": [
         {
@@ -983,85 +983,6 @@
       ]
     },
     {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 10,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.0,
-      "confirm": 33.6,
-      "signal": 63.6,
-      "mom": {
-        "ret5": -0.0351,
-        "vol_surge": 0.61
-      },
-      "earn_days": 31,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-08-26",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Prediction: Micron Stock Will Go Parabolic After Sept. 30",
-          "summary": "Micron stock looks cheap heading into its Q4 earnings report.",
-          "pub": "2026-08-30T17:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/30/prediction-micron-will-go-parabolic-after-sept-30/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron vs. Sandisk: 1 Artificial Intelligence (AI) Memory Stock Is Clearly the Better Buy Today",
-          "summary": "Micron's diverse business gives it an edge over Sandisk.",
-          "pub": "2026-08-30T10:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/30/micron-vs-sandisk-1-artificial-intelligence-ai-mem/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "AI’s memory stack: What investors need to know",
-          "summary": "Investing.com -- Artificial intelligence is creating a growing memory bottleneck, with Bernstein analysts saying demand is spreading beyond high-bandwidth memory into conventional DRAM, NAND flash and storage.",
-          "pub": "2026-08-29T23:46",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ai-memory-stack-investors-know-234641961.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Memory Now Accounts for 50% of Global Semiconductor Revenue — But There’s a Catch",
-          "summary": "AI has transformed memory from a boom-and-bust commodity into critical infrastructure, sending forecasts to levels that would have seemed absurd a few years ago. But a ghost from 2018 is lurking in the data, and it raises an uncomfortable question about where all this new capacity leads.",
-          "pub": "2026-08-29T16:06",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/29/memory-now-accounts-for-50-of-global-semiconductor-revenue-but-theres-a-catch/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "FLYW",
       "tier": "確定",
       "streak": 43,
@@ -1082,6 +1003,85 @@
       "earn_days": null,
       "consensus": null,
       "headlines": []
+    },
+    {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 10,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 48.5,
+      "confirm": 33.6,
+      "signal": 62.6,
+      "mom": {
+        "ret5": -0.0351,
+        "vol_surge": 0.61
+      },
+      "earn_days": 30,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-08-26",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
+          "summary": "This exchange-traded fund invests exclusively in companies developing artificial intelligence hardware and software.",
+          "pub": "2026-08-31T05:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/31/1-no-brainer-artificial-intelligence-ai-etf-to-buy/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Michael Burry Bought Beaten-Down Stocks And Shorted AI Favorites — Here’s How His August Bets Fared",
+          "summary": "The AI rally put Burry’s bearish stance under pressure as Palantir, CoreWeave, Oracle, Micron, Tesla, Nebius and Nvidia all climbed during August.",
+          "pub": "2026-08-31T04:30",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-beaten-down-shorted-ai-how-august-bets-fared/cZYyK0uRJro",
+          "dir": -0.1,
+          "conf": 0.10000000000000003,
+          "type": "急騰報道",
+          "why": "+急騰報道 -空売り・過大評価"
+        },
+        {
+          "title": "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme",
+          "summary": "Nine of the decade's best-performing S&P 500 stocks trace their gains to AI chips, networking, and data center demand.",
+          "pub": "2026-08-31T02:13",
+          "provider": "BeInCrypto",
+          "url": "https://beincrypto.com/top-10-sp-500-ai-stocks-decade/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "The Sudden Unraveling of Wall Street’s Momentum Trade",
+          "summary": "The “self-fulfilling prophecy” of betting on rising winners has suddenly turned into a losing game for investors who banked on its success.",
+          "pub": "2026-08-31T01:00",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/finance/stocks/the-sudden-unraveling-of-wall-streets-momentum-trade-fe79b4fa?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
     }
   ],
   "alert_summary": {
@@ -1097,6 +1097,78 @@
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-08-31",
+      "ticker": "NVDA",
+      "signal": 71.3,
+      "price": 217.55,
+      "spy": 769.3499755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-31",
+      "ticker": "CRDO",
+      "signal": 70.5,
+      "price": 232.75,
+      "spy": 769.3499755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-31",
+      "ticker": "PLTR",
+      "signal": 69.6,
+      "price": 186.29,
+      "spy": 769.3499755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-31",
+      "ticker": "CLS",
+      "signal": 68.0,
+      "price": 298.7,
+      "spy": 769.3499755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-31",
+      "ticker": "AVGO",
+      "signal": 67.2,
+      "price": 368.79,
+      "spy": 769.3499755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-31",
+      "ticker": "NEM",
+      "signal": 67.1,
+      "price": 127.98,
+      "spy": 769.3499755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-31",
+      "ticker": "ALAB",
+      "signal": 67.0,
+      "price": 289.47,
+      "spy": 769.3499755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-31",
+      "ticker": "CIEN",
+      "signal": 66.0,
+      "price": 378.44,
+      "spy": 769.3499755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-08-31",
+      "ticker": "AMD",
+      "signal": 65.0,
+      "price": 465.58,
+      "spy": 769.3499755859375,
+      "grades": {}
+    },
     {
       "date": "2026-08-30",
       "ticker": "NVDA",
@@ -1182,78 +1254,6 @@
       "ticker": "CRDO",
       "signal": 73.2,
       "price": 232.75,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-29",
-      "ticker": "PLTR",
-      "signal": 73.0,
-      "price": 186.29,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-29",
-      "ticker": "AVGO",
-      "signal": 73.0,
-      "price": 368.79,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-29",
-      "ticker": "NEM",
-      "signal": 72.4,
-      "price": 127.98,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-29",
-      "ticker": "CIEN",
-      "signal": 72.1,
-      "price": 378.44,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-29",
-      "ticker": "CLS",
-      "signal": 72.1,
-      "price": 298.7,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-29",
-      "ticker": "KGC",
-      "signal": 70.9,
-      "price": 31.27,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-29",
-      "ticker": "ALAB",
-      "signal": 70.0,
-      "price": 289.47,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-29",
-      "ticker": "AMD",
-      "signal": 68.7,
-      "price": 465.58,
-      "spy": 771.0999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-29",
-      "ticker": "ADI",
-      "signal": 68.4,
-      "price": 361.78,
       "spy": 771.0999755859375,
       "grades": {}
     }
