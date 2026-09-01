@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T22:51:41.536275+00:00",
+  "updated": "2026-09-01T05:10:14.793682+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -13,12 +13,12 @@
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.7,
-      "confirm": 76.1,
-      "signal": 74.7,
+      "news": 50.5,
+      "confirm": 76.2,
+      "signal": 73.8,
       "mom": {
         "ret5": 0.059,
-        "vol_surge": 1.56
+        "vol_surge": 1.57
       },
       "earn_days": null,
       "consensus": {
@@ -41,18 +41,6 @@
           "is_edgar": true
         },
         {
-          "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務・Reg FD開示",
-          "summary": "",
-          "pub": "2026-08-17",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
           "title": "アナリストmaintain: Strong Buy→Strong Buy",
           "summary": "",
           "pub": "2026-08-25",
@@ -67,7 +55,7 @@
           "title": "アナリストmaintain: Overweight→Overweight",
           "summary": "",
           "pub": "2026-08-24",
-          "provider": "Cantor Fitzgerald",
+          "provider": "Keybanc",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -84,6 +72,17 @@
           "conf": 0.15,
           "type": "格付",
           "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-24",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -93,71 +92,71 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 13,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 56.2,
+      "news": 54.5,
       "confirm": 59.7,
-      "signal": 72.1,
+      "signal": 71.4,
       "mom": {
         "ret5": 0.0323,
         "vol_surge": 1.0
       },
-      "earn_days": 2,
+      "earn_days": 1,
       "consensus": null,
       "headlines": [
         {
-          "title": "Broadcom's Next Earnings Report on September 2 Could Send the Stock Soaring. Here's Why.",
-          "summary": "The semiconductor specialist has been weighed down by uncertainty around AI. That paradigm is shifting.",
-          "pub": "2026-08-31T22:05",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/31/broadcoms-next-earnings-report-on-september-2-could-send-the-stock-soaring-heres-why/",
+          "title": "Broadcom (AVGO) Reports Earnings Tomorrow: What To Expect",
+          "summary": "Fabless chip and software maker Broadcom (NASDAQ:AVGO) will be reporting results this Wednesday after the bell. Here’s what to look for.",
+          "pub": "2026-09-01T03:16",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-reports-earnings-tomorrow-031657411.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "The Biggest Risk To Cerebras Systems Stock Is Sitting Inside Its Backlog",
-          "summary": "The order book that makes Cerebras look de-risked came from a single deal, and the hyperscaler partnerships meant to broaden it are not yet producing revenue.",
-          "pub": "2026-08-31T20:58",
+          "title": "Cathie Wood Drops $124 Million on AI Stocks, Dumps AMD",
+          "summary": "Ark is getting more selective inside the AI trade",
+          "pub": "2026-09-01T01:46",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-drops-124-million-014651640.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "NVDA Stock: Where Compounding Could Take The Price",
+          "summary": "This is no longer just a chip company; it is becoming the central bank for the AI revolution. NVIDIA is helping establish financing platforms to raise over $500 billion of third-party capital for its customers. It has also directly invested nearly $50 billion in the Frontier AI labs, effectively und",
+          "pub": "2026-09-01T00:25",
           "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/613716/the-biggest-risk-to-cerebras-systems-stock-is-sitting-inside-its-backlog/2026-08-31",
+          "url": "https://www.trefis.com/articles/613689/nvda-stock-where-compounding-could-take-the-price-2/2026-08-31",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Marvell's Hyperscaler Deal Lands In A Fiscal Year Management Will Not Size Yet",
+          "summary": "The programs the deal covers in the near term were already inside the targets management had published, and it is connectivity rather than custom silicon that management points to for the raise that did arrive.",
+          "pub": "2026-08-31T23:53",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/613731/marvells-hyperscaler-deal-lands-in-a-fiscal-year-management-will-not-size-yet/2026-08-31",
           "dir": 0.6,
           "conf": 0.6,
           "type": "契約・提携",
           "why": "+契約・提携"
         },
         {
-          "title": "Tech, Media & Telecom Roundup: Market Talk",
-          "summary": "Find insight on Broadcom, IMAX and more in the latest Market Talks covering Technology, Media and Telecom.",
-          "pub": "2026-08-31T20:56",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-78769fa5?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is Broadcom (AVGO) Stock a Buy Before Its Q3 Earnings?",
-          "summary": "Broadcom is scheduled to report results for its fiscal third quarter after-market hours on Wednesday, September 2, with Wall Street looking for another quarter of exceptional growth.",
-          "pub": "2026-08-31T20:39",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-stock-buy-q3-203900190.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Update: Equities Fall as US-Iran Conflict Flares Up; Wall Street Logs Gains for August",
-          "summary": "(Updates with market moves at the end of the day, and other changes, if any.) Stocks on Wall Stre",
-          "pub": "2026-08-31T20:36",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/equities-fall-us-iran-conflict-203640906.html",
+          "title": "Broadcom's Next Earnings Report on September 2 Could Send the Stock Soaring. Here's Why.",
+          "summary": "The semiconductor specialist has been weighed down by uncertainty around AI. That paradigm is shifting.",
+          "pub": "2026-08-31T22:05",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/31/broadcoms-next-earnings-report-on-september-2-could-send-the-stock-soaring-heres-why/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -176,9 +175,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.3,
+      "news": 52.0,
       "confirm": 62.6,
-      "signal": 71.2,
+      "signal": 71.1,
       "mom": {
         "ret5": 0.0596,
         "vol_surge": 0.65
@@ -195,18 +194,7 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-08-04",
-          "provider": "UBS",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-04",
-          "provider": "Piper Sandler",
+          "provider": "Citigroup",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -236,10 +224,21 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-04",
+          "provider": "Piper Sandler",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-08-04",
-          "provider": "Rosenblatt",
+          "provider": "UBS",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -254,7 +253,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 3,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
@@ -327,6 +326,169 @@
       ]
     },
     {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 54.2,
+      "confirm": 53.0,
+      "signal": 69.7,
+      "mom": {
+        "ret5": 0.0306,
+        "vol_surge": 0.59
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-08-19",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストupgrade: Outperform→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-25",
+          "provider": "Raymond James",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-21",
+          "provider": "BMO Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-06",
+          "provider": "Argus Research",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-08-06",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 12,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 49.4,
+      "confirm": 59.5,
+      "signal": 69.3,
+      "mom": {
+        "ret5": 0.0531,
+        "vol_surge": 0.57
+      },
+      "earn_days": 29,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-08-26",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "MU And SNDK's Nascent Rebound Faces A New Test — China's CXMT Reportedly Makes Major Breakthrough With New AI Memory Chip",
+          "summary": "China’s memory push is emerging as a fresh challenge to the global AI chip supply chain.",
+          "pub": "2026-09-01T04:14",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/mu-and-sndk-s-nascent-rebound-faces-a-new-test-china-s-cxmt-reportedly-makes-major-breakthrough-with-new-ai-memory-chip/cZso4JERJtO",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "The Nasdaq Has Fallen in 48% of Septembers Since 1971. Here's What That Means for Nvidia and Micron.",
+          "summary": "Historically, September is the weakest month in the stock market.",
+          "pub": "2026-09-01T03:05",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/31/the-nasdaq-has-fallen-in-48-of-septembers-since-19/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Dow Jones Futures: Trump's Iran Warning Sparks Stock Market Losses; Elon Musk-Led SpaceX, Tesla Rally",
+          "summary": "Dow Jones Futures: President Trump's Iran warning sparked stock market losses Monday. Elon Musk-led SpaceX and Tesla rallied.",
+          "pub": "2026-09-01T00:12",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-trump-iran-warning-elon-musk-spacex-tesla/?src=A00220&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "The Ceiling SanDisk Wrote Into Its Own Contracts",
+          "summary": "A rising share of the company's output is already sold under multiyear agreements whose pricing carries an upper bound, at a moment it says demand is outrunning its supply.",
+          "pub": "2026-08-31T23:35",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/613722/the-ceiling-sandisk-wrote-into-its-own-contracts/2026-08-31",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 43,
@@ -338,13 +500,13 @@
       "sector": "Technology",
       "persist": 100,
       "news": 58.0,
-      "confirm": 50.0,
-      "signal": 70.5,
+      "confirm": 39.9,
+      "signal": 68.1,
       "mom": {
-        "ret5": 0.0161,
-        "vol_surge": 0.68
+        "ret5": -0.019,
+        "vol_surge": 0.71
       },
-      "earn_days": 1,
+      "earn_days": 0,
       "consensus": null,
       "headlines": [
         {
@@ -405,186 +567,22 @@
       ]
     },
     {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.8,
-      "confirm": 53.0,
-      "signal": 69.9,
-      "mom": {
-        "ret5": 0.0306,
-        "vol_surge": 0.59
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-08-19",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 重要契約の締結・債務・オフバランス義務",
-          "summary": "",
-          "pub": "2026-08-17",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストupgrade: Outperform→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-25",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-21",
-          "provider": "BMO Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-06",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 10,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 49.4,
-      "confirm": 59.5,
-      "signal": 69.3,
-      "mom": {
-        "ret5": 0.0531,
-        "vol_surge": 0.57
-      },
-      "earn_days": 30,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-08-26",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Dow Jones Futures: Trump's Iran Warning Sparks Stock Market Losses; Elon Musk-Led SpaceX, Tesla Rally",
-          "summary": "Dow Jones Futures: President Trump's Iran warning sparked stock market losses Monday. Elon Musk-led SpaceX and Tesla rallied.",
-          "pub": "2026-08-31T22:19",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-trump-iran-warning-elon-musk-spacex-tesla/?src=A00220&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "VGT’s $58 Billion AI Chip Concentration Could Derail Your 2027 Returns",
-          "summary": "VGT carries 324 holdings, but a closer look at its semiconductor sleeve reveals a fund that behaves nothing like the diversified tech vehicle most investors think they own, and the stakes heading into 2027 are far higher than the label suggests.",
-          "pub": "2026-08-31T20:25",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/08/31/vgts-58-billion-ai-chip-concentration-could-derail-your-2027-returns/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "How to Play the Micron vs. CXMT Memory-Chip War",
-          "summary": "Micron stock was shrugging off CXMT's claimed advance in smartphone memory but investors might want to spread their bets.",
-          "pub": "2026-08-31T20:19",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/micron-stock-cxmt-chinese-memory-chip-dram-etf-d2b135a2?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Not Nvidia, Not AMD. Micron Could Be September's Biggest AI Winner or Loser.",
-          "summary": "Micron Technology will report its quarterly results in September, and recent results from AI chipmakers suggest it could easily exceed expectations.",
-          "pub": "2026-08-31T19:43",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/31/not-nvidia-not-amd-micron-could-be-septembers-bigg/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "CLS",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 14,
+      "today_rank": 15,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 54.8,
-      "confirm": 47.7,
-      "signal": 68.6,
+      "confirm": 45.5,
+      "signal": 68.1,
       "mom": {
-        "ret5": 0.0164,
-        "vol_surge": 0.52
+        "ret5": 0.0096,
+        "vol_surge": 0.51
       },
       "earn_days": null,
       "consensus": null,
@@ -647,178 +645,22 @@
       ]
     },
     {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 5,
-      "today_rank": 5,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.6,
-      "confirm": 53.4,
-      "signal": 68.3,
-      "mom": {
-        "ret5": 0.0292,
-        "vol_surge": 0.64
-      },
-      "earn_days": 3,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Morgan Stanley sees key catalyst in vital tech stock before earnings",
-          "summary": "The game-changer could boost a little-known tech company that’s critical to internet infrastructure.",
-          "pub": "2026-08-31T21:03",
-          "provider": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/cien-ciena-earnings-preview-morgan-stanley-august-2026-expects-backlog-growth",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Contrarian Signal Flashing for Ciena Stock",
-          "summary": "Ciena has taken a breather since its recent 25-year peak",
-          "pub": "2026-08-31T18:44",
-          "provider": "Schaeffer's Investment Research",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/contrarian-signal-flashing-ciena-stock-184424335.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Ahead of Ciena (CIEN) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
-          "summary": "Looking beyond Wall Street's top-and-bottom-line estimate forecasts for Ciena (CIEN), delve into some of its key metrics to gain a deeper insight into the company's potential performance for the quarter ended July 2026.",
-          "pub": "2026-08-31T13:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-ciena-cien-q3-earnings-131503142.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why the Tech Stocks Rally is Under Threat From Surging Rate-Hike Odds",
-          "summary": "Technology stocks face a test from the prospect of higher interest rates after Fed Chairman Kevin Warsh issued a warning about inflation.",
-          "pub": "2026-08-31T12:09",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/fed-rate-hike-odds-tech-stock-rally-1246ddf3?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Oil Outlook Weighs on Wall Street Pre-Bell; Asia Mixed, Europe Off",
-          "summary": "Wall Street futures pointed modestly lower pre-bell Monday, as traders weighed fresh hostilities in",
-          "pub": "2026-08-31T11:11",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/articles/oil-outlook-weighs-wall-street-111127924.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 7,
-      "today_rank": 8,
-      "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 51.1,
-      "confirm": 47.8,
-      "signal": 67.1,
-      "mom": {
-        "ret5": 0.0113,
-        "vol_surge": 0.63
-      },
-      "earn_days": 45,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "South32 H2 Earnings Call Highlights",
-          "summary": "South32 (LON:S32) reported stronger FY26 earnings and cash flow as its base metals business benefited from operating performance, commodity-price tailwinds and cost management, while the company outlined plans to reshape its portfolio around copper, zinc and other base metals. Chief Executive Offic",
-          "pub": "2026-08-27T20:02",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/transcript-south32-h2-earnings-call-highlights-2026-08-27/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Agilent Technologies Q3 Earnings Call Highlights",
-          "summary": "Agilent Technologies (NYSE:A) reported third-quarter fiscal 2026 revenue of $1.88 billion, with core revenue growth of 7.3%, exceeding the high end of its guidance range. The company said earnings per share were $1.56 excluding tariff-refund benefits, up 14% from a year earlier and $0.06 above the t",
-          "pub": "2026-08-26T23:04",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/transcript-agilent-technologies-q3-earnings-call-highlights-2026-08-26/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": -0.5,
-          "conf": 0.5,
-          "type": "規制・関税",
-          "why": "-規制・関税"
-        },
-        {
-          "title": "Alcoa’s Gallium Project Opens a New Door Beyond Aluminum",
-          "summary": "Alcoa is extracting gallium at its Wagerup refinery to supply tech and defense markets, backed by government funding and a Sojitz off-take deal, while its core aluminum business funds the pivot.",
-          "pub": "2026-08-26T18:35",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/articles/alcoas-gallium-project-opens-a-new-door-beyond-aluminum/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Alcoa Stock Price Prediction: Middle East Energy Outlook Pushes AA to $68",
-          "summary": "Wells Fargo just raised its Alcoa price target well above what the rest of Wall Street believes the stock is worth, and the reasoning traces back to a single CFO conversation about Middle East energy risk that changed everything.",
-          "pub": "2026-08-26T13:00",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/26/alcoa-stock-price-prediction-middle-east-energy-outlook-pushes-aa-to-68/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Alcoa starts construction on gallium plant at Wagerup refinery",
-          "summary": "The groundbreaking ceremony for the project was attended by officials from Alcoa and the governments of Australia, Japan and the US.",
-          "pub": "2026-08-25T08:39",
-          "provider": "Mining Technology",
-          "url": "https://www.mining-technology.com/news/alcoa-construction-gallium-plant-wagerup-refinery/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "NEM",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 17,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 54.8,
-      "confirm": 41.4,
-      "signal": 67.1,
+      "confirm": 41.0,
+      "signal": 67.0,
       "mom": {
-        "ret5": -0.0438,
-        "vol_surge": 1.3
+        "ret5": -0.042,
+        "vol_surge": 1.24
       },
       "earn_days": null,
       "consensus": null,
@@ -887,7 +729,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 10,
-      "today_rank": 12,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -961,26 +803,249 @@
       ]
     },
     {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 54.5,
+      "confirm": 34.6,
+      "signal": 65.3,
+      "mom": {
+        "ret5": -0.0333,
+        "vol_surge": 0.64
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Flywire (FLYW) Stock Looks Reasonable On Fair Value But Stretched On Earnings",
+          "summary": "Flywire stock has delivered strong gains over the past year yet longer term holders are still facing large declines, while current valuation checks suggest the shares lean expensive despite an intrinsic value estimate that sits only modestly above the market price. For investors looking at Flywire t",
+          "pub": "2026-09-01T03:09",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-stock-looks-reasonable-030915079.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Travelling The Fairways Partnership Deepens Flywire’s (FLYW) High-End Travel Ambitions But How Strategic Is It?",
+          "summary": "In August 2026, Travelling The Fairways International Ltd. announced it had chosen Flywire as its exclusive payments partner across its UK and Ireland golf tour businesses, using Flywire’s platform to handle multi-currency, cross-border guest payments and improve pricing clarity for international go",
+          "pub": "2026-09-01T01:07",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/travelling-fairways-partnership-deepens-flywire-010740057.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "Finance and HR Software Stocks Q2 In Review: Flywire (NASDAQ:FLYW) Vs Peers",
+          "summary": "Quarterly earnings results are a good time to check in on a company’s progress, especially compared to its peers in the same sector. Today we are looking at Flywire (NASDAQ:FLYW) and the best and worst performers in the finance and hr software industry.",
+          "pub": "2026-08-31T21:40",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/finance-hr-software-stocks-q2-214040863.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 7,
+      "today_rank": 9,
+      "first_seen": "2026-07-08",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 51.1,
+      "confirm": 35.3,
+      "signal": 64.1,
+      "mom": {
+        "ret5": -0.0366,
+        "vol_surge": 0.75
+      },
+      "earn_days": 44,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "South32 H2 Earnings Call Highlights",
+          "summary": "South32 (LON:S32) reported stronger FY26 earnings and cash flow as its base metals business benefited from operating performance, commodity-price tailwinds and cost management, while the company outlined plans to reshape its portfolio around copper, zinc and other base metals. Chief Executive Offic",
+          "pub": "2026-08-27T20:02",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-south32-h2-earnings-call-highlights-2026-08-27/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Agilent Technologies Q3 Earnings Call Highlights",
+          "summary": "Agilent Technologies (NYSE:A) reported third-quarter fiscal 2026 revenue of $1.88 billion, with core revenue growth of 7.3%, exceeding the high end of its guidance range. The company said earnings per share were $1.56 excluding tariff-refund benefits, up 14% from a year earlier and $0.06 above the t",
+          "pub": "2026-08-26T23:04",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-agilent-technologies-q3-earnings-call-highlights-2026-08-26/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": -0.5,
+          "conf": 0.5,
+          "type": "規制・関税",
+          "why": "-規制・関税"
+        },
+        {
+          "title": "Alcoa’s Gallium Project Opens a New Door Beyond Aluminum",
+          "summary": "Alcoa is extracting gallium at its Wagerup refinery to supply tech and defense markets, backed by government funding and a Sojitz off-take deal, while its core aluminum business funds the pivot.",
+          "pub": "2026-08-26T18:35",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/articles/alcoas-gallium-project-opens-a-new-door-beyond-aluminum/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "Alcoa Stock Price Prediction: Middle East Energy Outlook Pushes AA to $68",
+          "summary": "Wells Fargo just raised its Alcoa price target well above what the rest of Wall Street believes the stock is worth, and the reasoning traces back to a single CFO conversation about Middle East energy risk that changed everything.",
+          "pub": "2026-08-26T13:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/26/alcoa-stock-price-prediction-middle-east-energy-outlook-pushes-aa-to-68/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Alcoa starts construction on gallium plant at Wagerup refinery",
+          "summary": "The groundbreaking ceremony for the project was attended by officials from Alcoa and the governments of Australia, Japan and the US.",
+          "pub": "2026-08-25T08:39",
+          "provider": "Mining Technology",
+          "url": "https://www.mining-technology.com/news/alcoa-construction-gallium-plant-wagerup-refinery/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 5,
+      "today_rank": 5,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.6,
+      "confirm": 35.4,
+      "signal": 63.9,
+      "mom": {
+        "ret5": -0.0328,
+        "vol_surge": 0.68
+      },
+      "earn_days": 2,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Morgan Stanley sees key catalyst in vital tech stock before earnings",
+          "summary": "The game-changer could boost a little-known tech company that’s critical to internet infrastructure.",
+          "pub": "2026-08-31T21:03",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/cien-ciena-earnings-preview-morgan-stanley-august-2026-expects-backlog-growth",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Contrarian Signal Flashing for Ciena Stock",
+          "summary": "Ciena has taken a breather since its recent 25-year peak",
+          "pub": "2026-08-31T18:44",
+          "provider": "Schaeffer's Investment Research",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/contrarian-signal-flashing-ciena-stock-184424335.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Ahead of Ciena (CIEN) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+          "summary": "Looking beyond Wall Street's top-and-bottom-line estimate forecasts for Ciena (CIEN), delve into some of its key metrics to gain a deeper insight into the company's potential performance for the quarter ended July 2026.",
+          "pub": "2026-08-31T13:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-ciena-cien-q3-earnings-131503142.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why the Tech Stocks Rally is Under Threat From Surging Rate-Hike Odds",
+          "summary": "Technology stocks face a test from the prospect of higher interest rates after Fed Chairman Kevin Warsh issued a warning about inflation.",
+          "pub": "2026-08-31T12:09",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/fed-rate-hike-odds-tech-stock-rally-1246ddf3?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Oil Outlook Weighs on Wall Street Pre-Bell; Asia Mixed, Europe Off",
+          "summary": "Wall Street futures pointed modestly lower pre-bell Monday, as traders weighed fresh hostilities in",
+          "pub": "2026-08-31T11:11",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/articles/oil-outlook-weighs-wall-street-111127924.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "BMY",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 21,
+      "today_rank": 22,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
-      "news": 51.4,
-      "confirm": 42.8,
-      "signal": 66.0,
+      "news": 45.2,
+      "confirm": 44.3,
+      "signal": 63.8,
       "mom": {
-        "ret5": -0.007,
-        "vol_surge": 0.66
+        "ret5": -0.003,
+        "vol_surge": 0.68
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Novartis Pauses Autoimmune Cell Therapy Studies After Deaths",
+          "summary": "Novartis paused eight clinical trials of an experimental therapy targeting autoimmune and neurological disorders in late August, after three patients died.",
+          "pub": "2026-09-01T04:14",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/health/pharma/novartis-pauses-autoimmune-cell-therapy-studies-after-deaths-62113d35?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "This Popular Healthcare ETF Is Diluting Your Dividend Income",
           "summary": "XLV bundles the entire healthcare sector into one tidy package, but its cap-weighted structure quietly siphons off the income that dividend investors came for. Three stocks already inside the fund tell a very different yield story.",
@@ -1024,51 +1089,6 @@
           "conf": 0.8,
           "type": "決算ミス",
           "why": "-決算ミス"
-        },
-        {
-          "title": "Jefferies starts biopharma firm Braveheart at Buy after IPO",
-          "summary": "Investing.com -- Jefferies initiated coverage of Braveheart Bio with a Buy rating and a $48 price target, implying roughly 75% upside from the stock’s prior closing price. The move comes after the company priced its initial public offering (IPO) at $18 per share earlier this month, raising $382.5 mi",
-          "pub": "2026-08-31T11:00",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/healthcare/articles/jefferies-starts-biopharma-firm-braveheart-110019166.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
-        }
-      ]
-    },
-    {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 36.3,
-      "signal": 63.9,
-      "mom": {
-        "ret5": -0.0273,
-        "vol_surge": 0.63
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Finance and HR Software Stocks Q2 In Review: Flywire (NASDAQ:FLYW) Vs Peers",
-          "summary": "Quarterly earnings results are a good time to check in on a company’s progress, especially compared to its peers in the same sector. Today we are looking at Flywire (NASDAQ:FLYW) and the best and worst performers in the finance and hr software industry.",
-          "pub": "2026-08-31T21:40",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/finance-hr-software-stocks-q2-214040863.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -1078,16 +1098,16 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 9,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 30.0,
-      "signal": 62.3,
+      "confirm": 31.9,
+      "signal": 62.8,
       "mom": {
-        "ret5": -0.0697,
+        "ret5": -0.0635,
         "vol_surge": 1.06
       },
       "earn_days": null,
@@ -1120,17 +1140,105 @@
   ],
   "alert_summary": {
     "5": {
-      "n": 579,
-      "hit_rate": 0.52,
-      "avg_excess": 0.0101
+      "n": 592,
+      "hit_rate": 0.51,
+      "avg_excess": 0.0098
     },
     "20": {
-      "n": 274,
+      "n": 291,
       "hit_rate": 0.64,
-      "avg_excess": 0.0626
+      "avg_excess": 0.0635
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-09-01",
+      "ticker": "NVDA",
+      "signal": 73.8,
+      "price": 220.78,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "AVGO",
+      "signal": 71.4,
+      "price": 370.34,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "PLTR",
+      "signal": 71.1,
+      "price": 186.38,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "ALAB",
+      "signal": 70.8,
+      "price": 296.98,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "AMD",
+      "signal": 69.7,
+      "price": 470.72,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "MU",
+      "signal": 69.3,
+      "price": 958.73,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "CRDO",
+      "signal": 68.1,
+      "price": 226.19,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "CLS",
+      "signal": 68.1,
+      "price": 299.4,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "NEM",
+      "signal": 67.0,
+      "price": 126.06,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "ADI",
+      "signal": 66.0,
+      "price": 362.14,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "FLYW",
+      "signal": 65.3,
+      "price": 18.89,
+      "spy": 767.0499877929688,
+      "grades": {}
+    },
     {
       "date": "2026-08-31",
       "ticker": "NVDA",
@@ -1202,113 +1310,25 @@
       "price": 465.58,
       "spy": 769.3499755859375,
       "grades": {}
-    },
-    {
-      "date": "2026-08-31",
-      "ticker": "MU",
-      "signal": 67.6,
-      "price": 941.52,
-      "spy": 765.9349975585938,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-31",
-      "ticker": "AA",
-      "signal": 67.0,
-      "price": 50.76,
-      "spy": 765.9349975585938,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-31",
-      "ticker": "CNQ",
-      "signal": 66.1,
-      "price": 50.465,
-      "spy": 765.9349975585938,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-31",
-      "ticker": "ADI",
-      "signal": 66.0,
-      "price": 362.14,
-      "spy": 767.0499877929688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-31",
-      "ticker": "BMY",
-      "signal": 66.0,
-      "price": 66.81,
-      "spy": 767.0499877929688,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-30",
-      "ticker": "NVDA",
-      "signal": 71.4,
-      "price": 217.55,
-      "spy": 769.3499755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-30",
-      "ticker": "AVGO",
-      "signal": 71.0,
-      "price": 368.79,
-      "spy": 769.3499755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-30",
-      "ticker": "CRDO",
-      "signal": 70.5,
-      "price": 232.75,
-      "spy": 769.3499755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-30",
-      "ticker": "PLTR",
-      "signal": 69.9,
-      "price": 186.29,
-      "spy": 769.3499755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-30",
-      "ticker": "CLS",
-      "signal": 68.0,
-      "price": 298.7,
-      "spy": 769.3499755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-30",
-      "ticker": "ALAB",
-      "signal": 67.2,
-      "price": 289.47,
-      "spy": 769.3499755859375,
-      "grades": {}
     }
   ],
   "composition": {
     "composition": {
-      "persist": 0.344,
-      "news": 0.413,
+      "persist": 0.342,
+      "news": 0.415,
       "confirm": 0.243
     },
     "ic": {
-      "persist": 0.074,
-      "news": -0.001,
+      "persist": 0.071,
+      "news": 0.004,
       "confirm": -0.143
     },
     "multipliers": {
-      "persist": 1.111,
-      "news": 0.999,
+      "persist": 1.107,
+      "news": 1.006,
       "confirm": 0.786
     },
-    "graded_samples": 1095,
+    "graded_samples": 1125,
     "active": true,
     "min_samples": 10
   },
