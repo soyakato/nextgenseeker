@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T16:41:04.047103+00:00",
+  "updated": "2026-09-01T21:02:59.247856+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -13,12 +13,12 @@
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.7,
-      "confirm": 65.1,
-      "signal": 71.9,
+      "news": 52.4,
+      "confirm": 64.1,
+      "signal": 71.5,
       "mom": {
-        "ret5": 0.0283,
-        "vol_surge": 1.44
+        "ret5": 0.0206,
+        "vol_surge": 1.53
       },
       "earn_days": null,
       "consensus": {
@@ -87,6 +87,84 @@
       ]
     },
     {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 15,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.1,
+      "confirm": 61.0,
+      "signal": 70.7,
+      "mom": {
+        "ret5": 0.0363,
+        "vol_surge": 1.01
+      },
+      "earn_days": 1,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Broadcom Faces Crucial Earnings Test After AI Chip Sales Surge 143%",
+          "summary": "The company expects $16 billion in third-quarter AI semiconductor revenue as investors assess whether its powerful growth can continue.",
+          "pub": "2026-09-01T19:52",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-faces-crucial-earnings-test-195219708.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Broadcom Boosts VMware AI Push to Challenge Nutanix & Microsoft",
+          "summary": "AVGO's VMware AI push gains traction with VCF 9.1, while NTNX and MSFT intensify competition across enterprise AI and hybrid cloud.",
+          "pub": "2026-09-01T17:59",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-boosts-vmware-ai-push-175900642.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "There's a 750% Reason You Should Check Which S&P 500 ETF You're Invested In",
+          "summary": "Disruptive innovation has made stocks a winning asset class over time, and a top-heavy index has helped accelerate long-term wealth creation for investors.",
+          "pub": "2026-09-01T17:28",
+          "provider": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/etfs/rsp-vs-spy-why-these-sp-500-etfs-have-such-different-20-year-returns",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Broadcom (AVGO) Launches Private AI Cloud Tools, Is It Still Below Fair Value?",
+          "summary": "Broadcom (AVGO) has launched VMware Private AI Cloud, VMware AI Factory and the AgentMinder governance stack, giving enterprises tools to run AI models and autonomous agents close to their own data inside private clouds. Broadcom shares have been through a choppy few months, with the 90 day share pr",
+          "pub": "2026-09-01T16:16",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-launches-private-ai-161611518.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Morgan Stanley delivers bold pre-earnings verdict on Broadcom",
+          "summary": "Morgan Stanley sees massive AI growth ahead for the chip giant",
+          "pub": "2026-09-01T15:12",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-morgan-stanley-maintains-overweight-ahead-of-fiscal-q3-2026-earnings",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 43,
@@ -97,12 +175,12 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.3,
-      "confirm": 60.7,
-      "signal": 69.8,
+      "news": 53.5,
+      "confirm": 57.2,
+      "signal": 70.3,
       "mom": {
-        "ret5": 0.0556,
-        "vol_surge": 0.6
+        "ret5": 0.0416,
+        "vol_surge": 0.65
       },
       "earn_days": null,
       "consensus": {
@@ -170,84 +248,6 @@
       ]
     },
     {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 15,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.6,
-      "confirm": 58.4,
-      "signal": 69.8,
-      "mom": {
-        "ret5": 0.0325,
-        "vol_surge": 0.91
-      },
-      "earn_days": 1,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Broadcom (AVGO) Launches Private AI Cloud Tools, Is It Still Below Fair Value?",
-          "summary": "Broadcom (AVGO) has launched VMware Private AI Cloud, VMware AI Factory and the AgentMinder governance stack, giving enterprises tools to run AI models and autonomous agents close to their own data inside private clouds. Broadcom shares have been through a choppy few months, with the 90 day share pr",
-          "pub": "2026-09-01T16:16",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-launches-private-ai-161611518.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "Morgan Stanley delivers bold pre-earnings verdict on Broadcom",
-          "summary": "Morgan Stanley sees massive AI growth ahead for the chip giant",
-          "pub": "2026-09-01T15:12",
-          "provider": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-morgan-stanley-maintains-overweight-ahead-of-fiscal-q3-2026-earnings",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Broadcom Set to Report Q3 Earnings: Buy, Sell or Hold the Stock?",
-          "summary": "AVGO Q3 earnings are likely to benefit from surging AI chip demand and software growth, but margin pressure and a stretched valuation raise caution.",
-          "pub": "2026-09-01T15:02",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-set-report-q3-earnings-150200149.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "I Keep Buying Marvell Technology Because Its Type Historically Wins",
-          "summary": "Every time the hyperscalers write a check to build out AI, one mid-cap chip company's name keeps appearing on the invoice, and the pattern behind that is exactly why this stock stays in the buy column.",
-          "pub": "2026-09-01T13:49",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/01/i-keep-buying-marvell-technology-because-its-type-historically-wins/",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "Semiconductor Stocks Slide as Global Bond Selloff Lifts Yields: Intel Drops 3%, NVIDIA and AMD Slip",
-          "summary": "A global bond selloff sent long-term yields surging to levels not seen in over a year, and the chips sector is bearing the brunt as traders reprice the market's most ambitious AI growth bets.",
-          "pub": "2026-09-01T13:15",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/01/semiconductor-stocks-slide-as-global-bond-selloff-lifts-yields-intel-drops-3-nvidia-and-amd-slip/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        }
-      ]
-    },
-    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 43,
@@ -259,11 +259,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 51.1,
-      "confirm": 44.3,
-      "signal": 66.2,
+      "confirm": 54.5,
+      "signal": 68.7,
       "mom": {
-        "ret5": 0.0041,
-        "vol_surge": 0.54
+        "ret5": 0.0306,
+        "vol_surge": 0.69
       },
       "earn_days": 44,
       "consensus": null,
@@ -326,22 +326,100 @@
       ]
     },
     {
+      "ticker": "CLS",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 8,
+      "today_rank": 17,
+      "first_seen": "2026-07-15",
+      "name": "Celestica, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 54.8,
+      "confirm": 40.3,
+      "signal": 66.7,
+      "mom": {
+        "ret5": -0.0067,
+        "vol_surge": 0.49
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Is It Worth Investing in Celestica (CLS) Based on Wall Street's Bullish Views?",
+          "summary": "According to the average brokerage recommendation (ABR), one should invest in Celestica (CLS). It is debatable whether this highly sought-after metric is effective because Wall Street analysts' recommendations tend to be overly optimistic. Would it be worth investing in the stock?",
+          "pub": "2026-08-31T13:30",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-celestica-cls-based-133004982.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Celestica Stock Leads 3 Cash Flow Picks In AI Infrastructure",
+          "summary": "Central banks across the US, UK and euro area are still talking tough on inflation, and markets are pricing in a path of rate moves that keeps borrowing costs elevated. That kind of backdrop often punishes sentiment more than it does the underlying cash generation of solid companies. The Undervalued",
+          "pub": "2026-08-30T08:16",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-stock-leads-3-cash-081622371.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Cameco Stock And 2 AI Infrastructure Picks With High Growth Potential",
+          "summary": "ECB and Eurozone inflation pressures are back in focus, with a potential September rate hike on the table. Higher rates can reward companies that grow earnings under tighter financial conditions, since capital often becomes more selective. High growth potential stocks that analysts expect to lift ea",
+          "pub": "2026-08-29T22:11",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cameco-stock-2-ai-infrastructure-221155206.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Generative \"AI\" Macro Data Shows U.S. Impacts",
+          "summary": "There are solid gains to knowledge workers. But smaller ones outside it.",
+          "pub": "2026-08-27T20:54",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/generative-ai-macro-data-shows-205400328.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "The Market and UBS Saw Celestica’s $3 Billion Raise Very Differently. Here’s Who I Think Is Right.",
+          "summary": "Celestica's $3 billion raise scared investors, but it funds the AI capacity driving UBS's upgrade, making the selloff look more like an entry point.",
+          "pub": "2026-08-27T20:00",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/4239902/the-market-and-ubs-saw-celesticas-3-billion-raise-very-differently-heres-who-i-think-is-right",
+          "dir": 0.2,
+          "conf": 0.19999999999999996,
+          "type": "格上げ",
+          "why": "+格上げ -急落報道"
+        }
+      ]
+    },
+    {
       "ticker": "MU",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 12,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 47.6,
-      "confirm": 45.5,
-      "signal": 65.0,
+      "news": 51.4,
+      "confirm": 44.8,
+      "signal": 66.4,
       "mom": {
-        "ret5": 0.0065,
-        "vol_surge": 0.57
+        "ret5": 0.0005,
+        "vol_surge": 0.64
       },
       "earn_days": 29,
       "consensus": null,
@@ -359,31 +437,9 @@
           "is_edgar": true
         },
         {
-          "title": "Micron’s Insane Productivity Explosion: Revenue Per Employee Doubled to $1.7 Million in Just 9 Months",
-          "summary": "Micron just posted a productivity figure so extreme that analysts are scrambling to explain whether it reflects a structural shift in the memory business or a cycle that could turn just as violently as it spiked.",
-          "pub": "2026-09-01T16:17",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/01/microns-insane-productivity-explosion-revenue-per-employee-doubled-to-1-7-million-in-just-9-months/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Nvidia Just Gave a $267 Billion Warning That Micron Stock Could Crash Before 2029 Is Over",
-          "summary": "Nvidia plans to spend $267 billion on supply and capacity through fiscal 2029.",
-          "pub": "2026-09-01T15:32",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/01/nvidia-just-gave-a-267-billion-warning-that-micron/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq Sinks As Crude Prices Climb; These Oil Names Break Out (Live Coverage)",
-          "summary": "Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump. Nvidia and Micron are morning losers.",
-          "pub": "2026-09-01T15:19",
+          "title": "Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red",
+          "summary": "Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump around 5% on news of new U.S. military attacks on Iran.",
+          "pub": "2026-09-01T20:46",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-micron-stock/?src=A00220&yptr=yahoo",
           "dir": -0.1,
@@ -392,11 +448,33 @@
           "why": "+急騰報道 -急落報道"
         },
         {
-          "title": "Micron’s Largest Production Base Faces Strike Over 83 Months’ Pay",
-          "summary": "Micron Technology Inc. (NASDAQ:MU) workers in Taiwan are threatening a strike after the AI memory boom sent the chipmaker’s profits soaring, with unions saying their proposed one-time bonus would equal about 83 months of salary. Two unions representing nearly 10,000...",
-          "pub": "2026-09-01T14:55",
-          "provider": "Benzinga Prediction Markets",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61551297/micron-taiwan-strike-83-months-pay?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
+          "title": "Micron Stock Drops as Nearly 10,000 Taiwan Workers Push for Strike",
+          "summary": "Micron Stock Falls as Taiwan Unions Demand Bigger Bonuses and Profit Share",
+          "pub": "2026-09-01T20:25",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-drops-nearly-10-202521384.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Prediction: This Could Be Micron's Stock Price by the End of 2027 (Hint: It's Above $2,000)",
+          "summary": "If you're applying normalized earnings ratios, Micron could be one of the most valuable stocks in the world in a few years.",
+          "pub": "2026-09-01T20:23",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/01/microns-stock-price-by-the-end-of-2027/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Micron's AI Memory Boom Just Ran Into a Labor Risk",
+          "summary": "Unions want bigger bonuses and profit sharing",
+          "pub": "2026-09-01T19:41",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microns-ai-memory-boom-just-194130919.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -405,65 +483,76 @@
       ]
     },
     {
-      "ticker": "FLYW",
+      "ticker": "BMY",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 20,
+      "best_rank": 14,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
       "persist": 100,
-      "news": 57.6,
-      "confirm": 27.9,
-      "signal": 64.9,
+      "news": 49.2,
+      "confirm": 43.7,
+      "signal": 65.2,
       "mom": {
-        "ret5": -0.0513,
-        "vol_surge": 0.55
+        "ret5": -0.0054,
+        "vol_surge": 0.69
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "Flywire (FLYW) Just Gave Investors Something To Think About",
-          "summary": "Flywire (FLYW) is back in focus after Q2 revenue topped analyst expectations and management raised full year guidance. Investors are also reacting to a new travel client win with Travelling The Fairways International. Those earnings and client wins sit against a share price of $18.89, with a 30 day",
-          "pub": "2026-09-01T09:09",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-just-gave-investors-090908806.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "Flywire (FLYW) Stock Looks Reasonable On Fair Value But Stretched On Earnings",
-          "summary": "Flywire stock has delivered strong gains over the past year yet longer term holders are still facing large declines, while current valuation checks suggest the shares lean expensive despite an intrinsic value estimate that sits only modestly above the market price. For investors looking at Flywire t",
-          "pub": "2026-09-01T03:09",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-stock-looks-reasonable-030915079.html",
+          "title": "Branded Pharmaceuticals Stocks Q2 Teardown: Bristol-Myers Squibb (NYSE:BMY) Vs The Rest",
+          "summary": "The end of the earnings season is always a good time to take a step back and see who shined (and who didn’t). Let’s take a look at how branded pharmaceuticals stocks fared in Q2, starting with Bristol-Myers Squibb (NYSE:BMY).",
+          "pub": "2026-09-01T19:22",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/healthcare/articles/branded-pharmaceuticals-stocks-q2-teardown-192220421.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Travelling The Fairways Partnership Deepens Flywire’s (FLYW) High-End Travel Ambitions But How Strategic Is It?",
-          "summary": "In August 2026, Travelling The Fairways International Ltd. announced it had chosen Flywire as its exclusive payments partner across its UK and Ireland golf tour businesses, using Flywire’s platform to handle multi-currency, cross-border guest payments and improve pricing clarity for international go",
-          "pub": "2026-09-01T01:07",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/travelling-fairways-partnership-deepens-flywire-010740057.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
+          "title": "Novartis Reports 3 Patient Deaths. Why the Stock Is Heading for Its Best Day Since 2023.",
+          "summary": "Novartis says it has paused clinical trials for rap-cel in patients with autoimmune disease, while reporting positive data for a different potential blockbuster.",
+          "pub": "2026-09-01T17:44",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/novartis-stock-multiple-sclerosis-pill-38da89f3?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Finance and HR Software Stocks Q2 In Review: Flywire (NASDAQ:FLYW) Vs Peers",
-          "summary": "Quarterly earnings results are a good time to check in on a company’s progress, especially compared to its peers in the same sector. Today we are looking at Flywire (NASDAQ:FLYW) and the best and worst performers in the finance and hr software industry.",
-          "pub": "2026-08-31T21:40",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/finance-hr-software-stocks-q2-214040863.html",
+          "title": "Eli Lilly to Buy Immunology Biotech Merida Biosciences in $2.9B Deal",
+          "summary": "LLY's $2.9B Merida deal adds immunology assets and expands its pipeline beyond obesity and diabetes into new growth areas.",
+          "pub": "2026-09-01T17:10",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-buy-immunology-biotech-171000061.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "契約・提携",
+          "why": "+契約・提携 +拡大・新製品"
+        },
+        {
+          "title": "Healthcare ETFs to Watch Post Merck-Moderna Cancer Vaccine Breakthrough",
+          "summary": "Merck-Moderna's melanoma vaccine success could boost immunotherapy growth, putting healthcare ETFs in the spotlight.",
+          "pub": "2026-09-01T14:27",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/healthcare/articles/healthcare-etfs-watch-post-merck-142700952.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "This Popular Healthcare ETF Is Diluting Your Dividend Income",
+          "summary": "XLV bundles the entire healthcare sector into one tidy package, but its cap-weighted structure quietly siphons off the income that dividend investors came for. Three stocks already inside the fund tell a very different yield story.",
+          "pub": "2026-08-31T18:02",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/31/this-popular-healthcare-etf-is-diluting-your-dividend-income/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -477,17 +566,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.6,
-      "confirm": 39.0,
-      "signal": 64.7,
+      "confirm": 40.9,
+      "signal": 65.1,
       "mom": {
-        "ret5": -0.0123,
-        "vol_surge": 0.51
+        "ret5": -0.0097,
+        "vol_surge": 0.59
       },
       "earn_days": null,
       "consensus": null,
@@ -560,16 +649,50 @@
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.6,
-      "confirm": 30.5,
+      "news": 56.8,
+      "confirm": 26.8,
       "signal": 64.3,
       "mom": {
-        "ret5": -0.0499,
-        "vol_surge": 0.7
+        "ret5": -0.0718,
+        "vol_surge": 0.89
       },
       "earn_days": 0,
       "consensus": null,
       "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-09-01",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red",
+          "summary": "Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump around 5% on news of new U.S. military attacks on Iran.",
+          "pub": "2026-09-01T20:46",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-micron-stock/?src=A00220&yptr=yahoo",
+          "dir": -0.1,
+          "conf": 0.10000000000000003,
+          "type": "急騰報道",
+          "why": "+急騰報道 -急落報道"
+        },
+        {
+          "title": "Credo Technology Stock Falls Despite Beating Fiscal Q1 Targets",
+          "summary": "Credo Technology late Tuesday beat estimates for its fiscal first quarter and with its sales outlook. But Credo stock fell in extended trading.",
+          "pub": "2026-09-01T20:30",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/credo-stock-crdo-fiscal-q1-2027-earnings/?src=A00220&yptr=yahoo",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
         {
           "title": "Wall Street Analysts Believe Credo Technology Group (CRDO) Could Rally 28.17%: Here's is How to Trade",
           "summary": "The consensus price target hints at a 28.2% upside potential for Credo Technology Group (CRDO). While empirical research shows that this sought-after metric is hardly effective, an upward trend in earnings estimate revisions could mean that the stock will witness an upside in the near term.",
@@ -591,35 +714,69 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 20,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 57.6,
+      "confirm": 25.5,
+      "signal": 64.3,
+      "mom": {
+        "ret5": -0.0636,
+        "vol_surge": 0.64
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Flywire (FLYW) Just Gave Investors Something To Think About",
+          "summary": "Flywire (FLYW) is back in focus after Q2 revenue topped analyst expectations and management raised full year guidance. Investors are also reacting to a new travel client win with Travelling The Fairways International. Those earnings and client wins sit against a share price of $18.89, with a 30 day",
+          "pub": "2026-09-01T09:09",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-just-gave-investors-090908806.html",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
         },
         {
-          "title": "Prediction: Marvell Stock Could Be on the Verge of Another Big Move",
-          "summary": "Marvell has already handed investors a 188% gain this year, but with a pivotal earnings report looming and custom silicon bookings at an inflection point, the next move could be even bigger or erase a significant chunk of those gains.",
-          "pub": "2026-08-31T12:30",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/31/prediction-marvell-stock-could-be-on-the-verge-of-another-big-move/",
+          "title": "Flywire (FLYW) Stock Looks Reasonable On Fair Value But Stretched On Earnings",
+          "summary": "Flywire stock has delivered strong gains over the past year yet longer term holders are still facing large declines, while current valuation checks suggest the shares lean expensive despite an intrinsic value estimate that sits only modestly above the market price. For investors looking at Flywire t",
+          "pub": "2026-09-01T03:09",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-stock-looks-reasonable-030915079.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Credo to Report Q1 Earnings: Should You Buy, Hold or Sell the Stock?",
-          "summary": "CRDO heads into fiscal Q1 earnings with surging revenues and EPS estimates, strong AI demand and risks from valuation, supply and customer concentration.",
-          "pub": "2026-08-28T15:34",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-report-q1-earnings-buy-153400463.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Travelling The Fairways Partnership Deepens Flywire’s (FLYW) High-End Travel Ambitions But How Strategic Is It?",
+          "summary": "In August 2026, Travelling The Fairways International Ltd. announced it had chosen Flywire as its exclusive payments partner across its UK and Ireland golf tour businesses, using Flywire’s platform to handle multi-currency, cross-border guest payments and improve pricing clarity for international go",
+          "pub": "2026-09-01T01:07",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/travelling-fairways-partnership-deepens-flywire-010740057.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
         },
         {
-          "title": "3 Under-the-Radar AI Stocks Wall Street Is Missing",
-          "summary": "While Wall Street piles into the usual semiconductor giants, three mid-cap names buried deeper in the AI stack are quietly booking orders into 2027 and posting triple-digit revenue growth that most investors have not noticed yet.",
-          "pub": "2026-08-28T11:01",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/28/3-under-the-radar-ai-stocks-wall-street-is-missing/",
+          "title": "Finance and HR Software Stocks Q2 In Review: Flywire (NASDAQ:FLYW) Vs Peers",
+          "summary": "Quarterly earnings results are a good time to check in on a company’s progress, especially compared to its peers in the same sector. Today we are looking at Flywire (NASDAQ:FLYW) and the best and worst performers in the finance and hr software industry.",
+          "pub": "2026-08-31T21:40",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/finance-hr-software-stocks-q2-214040863.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -628,80 +785,80 @@
       ]
     },
     {
-      "ticker": "CLS",
+      "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 8,
-      "today_rank": 16,
-      "first_seen": "2026-07-15",
-      "name": "Celestica, Inc.",
+      "best_rank": 5,
+      "today_rank": 5,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.8,
-      "confirm": 27.4,
-      "signal": 63.6,
+      "news": 50.6,
+      "confirm": 36.4,
+      "signal": 64.1,
       "mom": {
-        "ret5": -0.0489,
-        "vol_surge": 0.47
+        "ret5": -0.0312,
+        "vol_surge": 0.72
       },
-      "earn_days": null,
+      "earn_days": 2,
       "consensus": null,
       "headlines": [
         {
-          "title": "Is It Worth Investing in Celestica (CLS) Based on Wall Street's Bullish Views?",
-          "summary": "According to the average brokerage recommendation (ABR), one should invest in Celestica (CLS). It is debatable whether this highly sought-after metric is effective because Wall Street analysts' recommendations tend to be overly optimistic. Would it be worth investing in the stock?",
-          "pub": "2026-08-31T13:30",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-celestica-cls-based-133004982.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Celestica Stock Leads 3 Cash Flow Picks In AI Infrastructure",
-          "summary": "Central banks across the US, UK and euro area are still talking tough on inflation, and markets are pricing in a path of rate moves that keeps borrowing costs elevated. That kind of backdrop often punishes sentiment more than it does the underlying cash generation of solid companies. The Undervalued",
-          "pub": "2026-08-30T08:16",
+          "title": "Ciena (CIEN) Stock Trades Below Fair Value Even After Its Big Run",
+          "summary": "Ciena stock has delivered a very large gain over the past few years, while the main valuation checks send mixed signals about where value now sits. The Discounted Cash Flow (DCF) intrinsic value estimate screens the shares as undervalued, yet broader checks and market multiples suggest Ciena is not",
+          "pub": "2026-09-01T16:16",
           "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-stock-leads-3-cash-081622371.html",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-cien-stock-trades-below-161627901.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Cameco Stock And 2 AI Infrastructure Picks With High Growth Potential",
-          "summary": "ECB and Eurozone inflation pressures are back in focus, with a potential September rate hike on the table. Higher rates can reward companies that grow earnings under tighter financial conditions, since capital often becomes more selective. High growth potential stocks that analysts expect to lift ea",
-          "pub": "2026-08-29T22:11",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cameco-stock-2-ai-infrastructure-221155206.html",
+          "title": "Ciena's Next Earnings Report on September 3 Could Send the Stock Soaring. Here's Why.",
+          "summary": "Expectations are quite high for the optical networking hardware specialist.",
+          "pub": "2026-09-01T13:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/01/cienas-next-earnings-report-on-september-3-could-send-the-stock-soaring-heres-why/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Generative \"AI\" Macro Data Shows U.S. Impacts",
-          "summary": "There are solid gains to knowledge workers. But smaller ones outside it.",
-          "pub": "2026-08-27T20:54",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/generative-ai-macro-data-shows-205400328.html",
+          "title": "New Apple CEO, Jobs Data: What to Watch This Week",
+          "summary": "Today  Executive Moves: John Ternus takes the helm at Apple, succeeding Tim Cook   Fed speaker: Fed governor Michael Barr, 9:05 a.m. ET   Earnings (a.m.): Medtronic, Alimentation Couche-Tard   Earnings (p.",
+          "pub": "2026-09-01T07:42",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-01-2026/card/new-apple-ceo-jobs-data-what-to-watch-this-week-eE6fqNlZz4SOAVE3Cf1t?siteid=yhoof2&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "The Market and UBS Saw Celestica’s $3 Billion Raise Very Differently. Here’s Who I Think Is Right.",
-          "summary": "Celestica's $3 billion raise scared investors, but it funds the AI capacity driving UBS's upgrade, making the selloff look more like an entry point.",
-          "pub": "2026-08-27T20:00",
-          "provider": "Barchart",
-          "url": "https://www.barchart.com/story/news/4239902/the-market-and-ubs-saw-celesticas-3-billion-raise-very-differently-heres-who-i-think-is-right",
-          "dir": 0.2,
-          "conf": 0.19999999999999996,
-          "type": "格上げ",
-          "why": "+格上げ -急落報道"
+          "title": "Morgan Stanley sees key catalyst in vital tech stock before earnings",
+          "summary": "The game-changer could boost a little-known tech company that’s critical to internet infrastructure.",
+          "pub": "2026-08-31T21:03",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/cien-ciena-earnings-preview-morgan-stanley-august-2026-expects-backlog-growth",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Contrarian Signal Flashing for Ciena Stock",
+          "summary": "Ciena has taken a breather since its recent 25-year peak",
+          "pub": "2026-08-31T18:44",
+          "provider": "Schaeffer's Investment Research",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/contrarian-signal-flashing-ciena-stock-184424335.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -716,12 +873,12 @@
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.2,
-      "confirm": 28.6,
-      "signal": 63.2,
+      "news": 53.6,
+      "confirm": 30.9,
+      "signal": 64.0,
       "mom": {
-        "ret5": -0.0542,
-        "vol_surge": 0.66
+        "ret5": -0.0512,
+        "vol_surge": 0.75
       },
       "earn_days": null,
       "consensus": null,
@@ -795,12 +952,12 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.3,
-      "confirm": 28.5,
-      "signal": 62.4,
+      "news": 53.0,
+      "confirm": 31.5,
+      "signal": 63.8,
       "mom": {
-        "ret5": -0.0476,
-        "vol_surge": 0.52
+        "ret5": -0.0408,
+        "vol_surge": 0.58
       },
       "earn_days": null,
       "consensus": {
@@ -869,100 +1026,22 @@
       ]
     },
     {
-      "ticker": "BMY",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 22,
-      "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 45.2,
-      "confirm": 38.7,
-      "signal": 62.4,
-      "mom": {
-        "ret5": -0.0161,
-        "vol_surge": 0.57
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Novartis Reports 3 Patient Deaths. Why the Stock Is Heading for Its Best Day Since 2023.",
-          "summary": "Novartis says it has paused clinical trials for rap-cel in patients with autoimmune disease, while reporting positive data for a different potential blockbuster.",
-          "pub": "2026-09-01T15:07",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/novartis-stock-multiple-sclerosis-pill-38da89f3?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Healthcare ETFs to Watch Post Merck-Moderna Cancer Vaccine Breakthrough",
-          "summary": "Merck-Moderna's melanoma vaccine success could boost immunotherapy growth, putting healthcare ETFs in the spotlight.",
-          "pub": "2026-09-01T14:27",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/healthcare-etfs-watch-post-merck-142700952.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "This Popular Healthcare ETF Is Diluting Your Dividend Income",
-          "summary": "XLV bundles the entire healthcare sector into one tidy package, but its cap-weighted structure quietly siphons off the income that dividend investors came for. Three stocks already inside the fund tell a very different yield story.",
-          "pub": "2026-08-31T18:02",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/31/this-popular-healthcare-etf-is-diluting-your-dividend-income/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Novartis, Bristol Myers pause autoimmune CAR-T trials due to safety concerns",
-          "summary": "The deaths of three study participants led Novartis to halt development of rap-cel in multiple indications, while “transient” side effects pushed Bristol Myers to voluntarily pause its zola-cel program.",
-          "pub": "2026-08-31T17:38",
-          "provider": "BioPharma Dive",
-          "url": "https://www.biopharmadive.com/news/novartis-bristol-myers-autoimmune-cell-therapy-trial-halt/829218/",
-          "dir": -0.7,
-          "conf": 0.7,
-          "type": "リコール・停止",
-          "why": "-リコール・停止"
-        },
-        {
-          "title": "3 Reasons to Sell BMY and 1 Stock to Buy Instead",
-          "summary": "Even though Bristol-Myers Squibb (currently trading at $66.44 per share) has gained 6.6% over the last six months, it has lagged the S&P 500’s 12.3% return during that period. This might have investors contemplating their next move.",
-          "pub": "2026-08-31T16:54",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-bmy-1-165424421.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "NEM",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 21,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 49.8,
-      "confirm": 29.1,
-      "signal": 61.9,
+      "confirm": 33.4,
+      "signal": 63.0,
       "mom": {
-        "ret5": -0.0806,
-        "vol_surge": 1.22
+        "ret5": -0.0699,
+        "vol_surge": 1.29
       },
       "earn_days": null,
       "consensus": null,
@@ -1026,84 +1105,6 @@
       ]
     },
     {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 5,
-      "today_rank": 5,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.6,
-      "confirm": 21.6,
-      "signal": 60.5,
-      "mom": {
-        "ret5": -0.075,
-        "vol_surge": 0.61
-      },
-      "earn_days": 2,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Ciena (CIEN) Stock Trades Below Fair Value Even After Its Big Run",
-          "summary": "Ciena stock has delivered a very large gain over the past few years, while the main valuation checks send mixed signals about where value now sits. The Discounted Cash Flow (DCF) intrinsic value estimate screens the shares as undervalued, yet broader checks and market multiples suggest Ciena is not",
-          "pub": "2026-09-01T16:16",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-cien-stock-trades-below-161627901.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Ciena's Next Earnings Report on September 3 Could Send the Stock Soaring. Here's Why.",
-          "summary": "Expectations are quite high for the optical networking hardware specialist.",
-          "pub": "2026-09-01T13:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/01/cienas-next-earnings-report-on-september-3-could-send-the-stock-soaring-heres-why/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "New Apple CEO, Jobs Data: What to Watch This Week",
-          "summary": "Today  Executive Moves: John Ternus takes the helm at Apple, succeeding Tim Cook   Fed speaker: Fed governor Michael Barr, 9:05 a.m. ET   Earnings (a.m.): Medtronic, Alimentation Couche-Tard   Earnings (p.",
-          "pub": "2026-09-01T07:42",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-01-2026/card/new-apple-ceo-jobs-data-what-to-watch-this-week-eE6fqNlZz4SOAVE3Cf1t?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Morgan Stanley sees key catalyst in vital tech stock before earnings",
-          "summary": "The game-changer could boost a little-known tech company that’s critical to internet infrastructure.",
-          "pub": "2026-08-31T21:03",
-          "provider": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/cien-ciena-earnings-preview-morgan-stanley-august-2026-expects-backlog-growth",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Contrarian Signal Flashing for Ciena Stock",
-          "summary": "Ciena has taken a breather since its recent 25-year peak",
-          "pub": "2026-08-31T18:44",
-          "provider": "Schaeffer's Investment Research",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/contrarian-signal-flashing-ciena-stock-184424335.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 43,
@@ -1115,11 +1116,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 19.1,
-      "signal": 59.6,
+      "confirm": 19.9,
+      "signal": 59.8,
       "mom": {
-        "ret5": -0.1017,
-        "vol_surge": 0.94
+        "ret5": -0.1076,
+        "vol_surge": 0.99
       },
       "earn_days": null,
       "consensus": null,
@@ -1281,6 +1282,14 @@
       "grades": {}
     },
     {
+      "date": "2026-09-01",
+      "ticker": "BMY",
+      "signal": 65.2,
+      "price": 66.92,
+      "spy": 761.780029296875,
+      "grades": {}
+    },
+    {
       "date": "2026-08-31",
       "ticker": "NVDA",
       "signal": 71.3,
@@ -1333,14 +1342,6 @@
       "ticker": "ALAB",
       "signal": 67.0,
       "price": 289.47,
-      "spy": 769.3499755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-08-31",
-      "ticker": "CIEN",
-      "signal": 66.0,
-      "price": 378.44,
       "spy": 769.3499755859375,
       "grades": {}
     }
