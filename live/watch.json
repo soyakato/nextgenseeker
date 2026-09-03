@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T04:34:45.864337+00:00",
+  "updated": "2026-09-03T11:16:00.973867+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,14 +8,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 15,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.3,
+      "news": 50.3,
       "confirm": 78.3,
-      "signal": 75.2,
+      "signal": 73.8,
       "mom": {
         "ret5": 0.0704,
         "vol_surge": 1.48
@@ -92,14 +92,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 17,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.9,
+      "news": 54.1,
       "confirm": 62.8,
-      "signal": 72.0,
+      "signal": 71.6,
       "mom": {
         "ret5": 0.0328,
         "vol_surge": 1.2
@@ -120,6 +120,17 @@
           "is_edgar": true
         },
         {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as investors shrug off Middle East tensions",
+          "summary": "Markets searched for gains after three days of declines and as investors looked ahead to Friday's labor market report.",
+          "pub": "2026-09-03T08:15",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-3-dow-sp-500-nasdaq-futures-081525933.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy",
           "summary": "Broadcom (AVGO) reported third quarter earnings results that modestly beat Wall Street's estimates. StoneX Financial equity research analyst Cody Acree shares his thoughts on the earnings print.",
           "pub": "2026-09-02T20:49",
@@ -131,37 +142,26 @@
           "why": "+決算ビート"
         },
         {
-          "title": "Dow, S&P 500, Nasdaq Futures Rise As Investors Look Past Iran Tensions, Focus On Earnings: AVGO, SNOW, DELL, HPE Stocks In Focus",
-          "summary": "While Broadcom and Hewlett Packard Enterprise posted disappointing results, sending shares lower overnight, Dell shares surged after blockbuster results.",
-          "pub": "2026-09-03T03:52",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-rise-as-investors-look-past-iran-tensions-focus-on-earnings-avgo-snow-dell-hpe-stocks-in-focus/cZsMkUsRJHV",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Billionaire Dan Loeb Exited Nvidia and Broadcom. Is He Calling the Top in AI Chips?",
-          "summary": "Dan Loeb’s Third Point exited its remaining Nvidia and Broadcom common-share positions during Q2, according to the firm’s August 14 Form 13F. The prior positions, approximately 190,000 Nvidia shares and 50,000 Broadcom shares, were eliminated by June 30. That makes for a striking AI-chip headline, b",
-          "pub": "2026-09-03T03:23",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-dan-loeb-exited-nvidia-032353901.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Dow Jones Futures: Snowflake, Broadcom, HPE Are Big Earnings Movers; Tesla Cybercab Event Due",
+          "title": "Dow Jones Futures: Snowflake, Victoria's Secret Lead Big Earnings Movers; Tesla Cybercab Event Due",
           "summary": "The stock market rose modestly Wednesday. Snowflake surged late on earnings while Broadcom and HPE fell. A Tesla Cybercab event looms.",
-          "pub": "2026-09-03T03:09",
+          "pub": "2026-09-03T11:07",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-snowflake-broadcom-hpe-earnings-tesla-cybercab-event/?src=A00220&yptr=yahoo",
           "dir": 0.3,
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
+        },
+        {
+          "title": "Broadcom Inc (AVGO) (Q3 2026) Earnings Call Highlights: Record Revenue and AI Growth Fuel ...",
+          "summary": "Broadcom Inc (AVGO) reports record Q3 FY2026 results with AI semiconductor revenue surging 221% year-over-year, raising fiscal 2026 AI revenue guidance to $58 billion.",
+          "pub": "2026-09-03T11:00",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-inc-avgo-q3-2026-110030403.html",
+          "dir": 0.7,
+          "conf": 0.7,
+          "type": "記録更新",
+          "why": "+記録更新"
         }
       ]
     },
@@ -171,14 +171,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 14,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
       "news": 57.6,
       "confirm": 45.5,
-      "signal": 68.9,
+      "signal": 68.7,
       "mom": {
         "ret5": -0.0005,
         "vol_surge": 0.71
@@ -233,71 +233,48 @@
       ]
     },
     {
-      "ticker": "AA",
+      "ticker": "BMY",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 7,
-      "today_rank": 9,
+      "best_rank": 14,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
       "persist": 100,
-      "news": 50.0,
-      "confirm": 53.5,
-      "signal": 67.7,
+      "news": 54.8,
+      "confirm": 44.2,
+      "signal": 67.2,
       "mom": {
-        "ret5": 0.0267,
-        "vol_surge": 0.7
+        "ret5": -0.0038,
+        "vol_surge": 0.69
       },
-      "earn_days": 42,
+      "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "New Strong Sell Stocks for September 1st",
-          "summary": "AA, AROC and EFXT have been added to the Zacks Rank #5 (Strong Sell) List on September 1, 2026.",
-          "pub": "2026-09-01T10:26",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-september-1st-102600043.html",
+          "title": "Revisiting Stock Picks Dexcom, Bristol Myers Squibb, Quanta Services",
+          "summary": "Reviewing prior stock picks is how investors turn experience into valuable feedback.  A recommendation is only a thesis until the market tests it.  Watch Doug discuss recent stock picks, provide input on the current market environment—and take your questions.",
+          "pub": "2026-09-03T05:51",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/revisiting-stock-picks-dexcom-bristol-myers-quanta-services-charts-8ca397e2?siteid=yhoof2&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "South32 H2 Earnings Call Highlights",
-          "summary": "South32 (LON:S32) reported stronger FY26 earnings and cash flow as its base metals business benefited from operating performance, commodity-price tailwinds and cost management, while the company outlined plans to reshape its portfolio around copper, zinc and other base metals. Chief Executive Offic",
-          "pub": "2026-08-27T20:02",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/transcript-south32-h2-earnings-call-highlights-2026-08-27/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "title": "What Does Bristol Myers Squibb (BMY) Trial Pause Mean For Its Pipeline?",
+          "summary": "Bristol Myers Squibb (NYSE:BMY) has paused enrollment in its zola-cel cell therapy trials for autoimmune conditions following emerging safety concerns. The voluntary pause comes after inflammatory side effects were detected during ongoing safety surveillance in the program. The move raises fresh que",
+          "pub": "2026-09-03T04:31",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/healthcare/articles/does-bristol-myers-squibb-bmy-043119770.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "BMY",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 16,
-      "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 54.8,
-      "confirm": 45.1,
-      "signal": 67.7,
-      "mom": {
-        "ret5": 0.0013,
-        "vol_surge": 0.65
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
+        },
         {
           "title": "Amgen Stock Signals Its Confidence. The Market Agrees.",
           "summary": "The real bet is on what lies beyond this year's performance: a pipeline that could change everything.",
@@ -330,28 +307,6 @@
           "conf": 0.5,
           "type": "受注",
           "why": "+受注"
-        },
-        {
-          "title": "How Did Merck Stock Beat The Market With Slowing Sales?",
-          "summary": "Before the eighty-five percent surge, the company's pipeline story was getting louder just as its revenue trajectory was getting quieter.",
-          "pub": "2026-09-02T17:16",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/613937/how-did-merck-stock-beat-the-market-with-slowing-sales/2026-09-02",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "決算ビート",
-          "why": "+決算ビート +急騰報道"
-        },
-        {
-          "title": "Bristol Myers Squibb (BMY) Gains On Camzyos Data, Is The Upside Already Priced In?",
-          "summary": "Bristol-Myers Squibb (BMY) is back in focus after presenting long term Camzyos data from the EXPLORER-LTE cohort at the 2026 European Society of Cardiology Congress in Munich. Against this backdrop, Bristol-Myers Squibb’s share price has moved to US$66.92, with a 90 day share price return of 22.3% a",
-          "pub": "2026-09-02T15:07",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bristol-myers-squibb-bmy-gains-150703555.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -361,14 +316,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 12,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.0,
+      "news": 49.3,
       "confirm": 50.5,
-      "signal": 66.6,
+      "signal": 66.5,
       "mom": {
         "ret5": 0.0188,
         "vol_surge": 0.66
@@ -389,48 +344,48 @@
           "is_edgar": true
         },
         {
-          "title": "Soros Fund Management Increased Micron Nearly Eightfold. Is AI Memory Still One of the Best Chip Trades?",
-          "summary": "Soros Fund Management made a dramatic percentage increase in Micron during Q2. The firm reported 22,422 shares at June 30, up from 2,824 shares one quarter earlier, an increase of about 694%. The position’s reported value rose from roughly $954,000 to $25.9 million as both the share count and Micron",
-          "pub": "2026-09-03T03:25",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/soros-fund-management-increased-micron-032555590.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Leopold Aschenbrenner’s AI Fund Was Forced to Sell. Were Micron and SanDisk Wrong—or Just the Leverage?",
-          "summary": "Leopold Aschenbrenner’s Situational Awareness fund disclosed an extraordinary concentration in AI infrastructure by June 30, according to a Form 13F filed on August 14. Then,it reportedly sold its public-equity portfolio to Citadel after severe July losses and margin pressure. Axios attributed the s",
-          "pub": "2026-09-03T03:17",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/leopold-aschenbrenner-ai-fund-forced-031732397.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron's Taiwan Unions Are Asking for a Bonus Worth 83 Months of Pay. A Strike Vote Could Come This Month.",
-          "summary": "The demand sounds enormous. A walkout could cost the memory maker far more.",
-          "pub": "2026-09-03T01:13",
+          "title": "A Once-in-a-Lifetime Investment Opportunity: The 3 Best Stocks to Take Advantage of the AI Build-Out",
+          "summary": "The AI build-out is still going strong, and these three stocks are a great way to cash in.",
+          "pub": "2026-09-03T10:50",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/02/micron-s-taiwan-unions-are-asking-for-a-bonus-worth-83-months-of-pay-a-strike-vote-could-come-this-month/",
+          "url": "https://www.fool.com/investing/2026/09/03/a-once-in-a-lifetime-investment-opportunity-the-3/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "NLST Clocks Worst Day In 10 Months After Appeals Court Backs Micron On Five Patents — Roth Capital Continues To See Near 200% Upside",
-          "summary": "A U.S. appeals court on Wednesday backed Micron, leaving in place Patent Office rulings that invalidated five Netlist memory patents.",
-          "pub": "2026-09-03T00:08",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/nlst-clocks-worst-day-in-10-months-after-appeals-court-backs-micron-on-five-patents-roth-capital-continues-to-see-near-200-upside/cZsMWC1RJHW",
+          "title": "Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Thursday; Snowflake to Advance, Broadcom to Decline",
+          "summary": "The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Thursday'",
+          "pub": "2026-09-03T10:35",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mixed-103552041.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Micron Technology Stock Has Stumbled, but Here's Why I'm Not Buying the Dip",
+          "summary": "The artificial intelligence infrastructure spending boom has run into some turbulence.",
+          "pub": "2026-09-03T09:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/03/micron-technology-stock-plummeting-not-buying-dip/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Micron, Samsung, SK Hynix Suffer Drop In DRAM Market Share As China’s CXMT Pulls Ahead",
+          "summary": "China’s memory-chip ambitions are gaining momentum as CXMT expands in DRAM and YMTC prepares for IPO.",
+          "pub": "2026-09-03T07:59",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/micron-samsung-sk-hynix-suffer-drop-in-dram-market-share-as-china-s-cxmt-pulls-ahead/cZsMpSiRJHy",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
         }
       ]
     },
@@ -445,9 +400,9 @@
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.8,
+      "news": 57.3,
       "confirm": 35.6,
-      "signal": 65.3,
+      "signal": 66.1,
       "mom": {
         "ret5": -0.0404,
         "vol_surge": 0.85
@@ -513,6 +468,51 @@
       ]
     },
     {
+      "ticker": "AA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 7,
+      "today_rank": 8,
+      "first_seen": "2026-07-08",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 44.4,
+      "signal": 65.3,
+      "mom": {
+        "ret5": -0.0045,
+        "vol_surge": 0.72
+      },
+      "earn_days": 42,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "New Strong Sell Stocks for September 1st",
+          "summary": "AA, AROC and EFXT have been added to the Zacks Rank #5 (Strong Sell) List on September 1, 2026.",
+          "pub": "2026-09-01T10:26",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-september-1st-102600043.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "South32 H2 Earnings Call Highlights",
+          "summary": "South32 (LON:S32) reported stronger FY26 earnings and cash flow as its base metals business benefited from operating performance, commodity-price tailwinds and cost management, while the company outlined plans to reshape its portfolio around copper, zinc and other base metals. Chief Executive Offic",
+          "pub": "2026-08-27T20:02",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-south32-h2-earnings-call-highlights-2026-08-27/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AMD",
       "tier": "確定",
       "streak": 43,
@@ -523,9 +523,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 57.8,
+      "news": 56.8,
       "confirm": 28.7,
-      "signal": 64.9,
+      "signal": 64.2,
       "mom": {
         "ret5": -0.0496,
         "vol_surge": 0.57
@@ -601,17 +601,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 8,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
       "news": 52.0,
-      "confirm": 37.2,
-      "signal": 64.6,
+      "confirm": 36.0,
+      "signal": 64.0,
       "mom": {
-        "ret5": -0.2705,
-        "vol_surge": 2.15
+        "ret5": -0.2706,
+        "vol_surge": 2.07
       },
       "earn_days": null,
       "consensus": null,
@@ -629,9 +629,9 @@
           "is_edgar": true
         },
         {
-          "title": "Dow Jones Futures: Snowflake, Broadcom, HPE Are Big Earnings Movers; Tesla Cybercab Event Due",
+          "title": "Dow Jones Futures: Snowflake, Victoria's Secret Lead Big Earnings Movers; Tesla Cybercab Event Due",
           "summary": "The stock market rose modestly Wednesday. Snowflake surged late on earnings while Broadcom and HPE fell. A Tesla Cybercab event looms.",
-          "pub": "2026-09-03T03:09",
+          "pub": "2026-09-03T11:07",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-snowflake-broadcom-hpe-earnings-tesla-cybercab-event/?src=A00220&yptr=yahoo",
           "dir": 0.3,
@@ -640,112 +640,33 @@
           "why": "+急騰報道"
         },
         {
+          "title": "CRDO Stock Stares At Worst Week In 2 Years As Analysts Across Wall Street Wonder If Credo’s Optical Growth Can Keep Pace",
+          "summary": "Wall Street tempered its optimism on Credo as several firms lowered targets, while Rosenblatt took a more constructive view.",
+          "pub": "2026-09-03T08:20",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/crdo-stock-stares-at-worst-week-in-2-years-as-analysts-across-wall-street-wonder-if-credo-s-optical-growth-can-keep-pace/cZsMA2vRJHC",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "US Stock Market Today: S&P 500 Futures Edge Lower As Investors Eye Jobs Data",
+          "summary": "The Morning Bull - US Market Morning Update Thursday, Sep, 3 2026 US stock futures are slightly weaker this morning, as investors weigh stubbornly high borrowing costs and the health of the real economy. The 10 year US government bond yield is trading near 4.8%, which means mortgages, car loans and",
+          "pub": "2026-09-03T08:17",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081707803.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Stock Market Today: Dow Rises Nearly 300 Points; Dell Retakes A Breakout Point (Live Coverage)",
           "summary": "The Dow Jones Industrial Average and other major stock indexes held on to moderate gains Wednesday, even as oil continued to rise.  The Dow industrials rose more than 295 points, or 0.6%, to close a hair below 53,062.  In Wednesday's session, the Dow lagged a 1.1% rebound by the small-cap Russell 20",
           "pub": "2026-09-02T20:41",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-data-ai-stock-credo-earnings/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Credo Technology Stock Plunged 20% Today",
-          "summary": "Credo Technology crushed its earnings estimates. So why did the stock drop 20%?",
-          "pub": "2026-09-02T20:39",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/02/why-credo-technology-stock-plunged-20-today/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Credo, Dell, Palo Alto, PG&E, Uber, MongoDB, and More Stocks That Explain Today’s Market",
-          "summary": "Dell’s second-quarter earnings top expectations thanks to the AI boom, but Palo Alto Networks tumbles as investors take profits.",
-          "pub": "2026-09-02T20:21",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/stock-movers-4fed2750?siteid=yhoof2&yptr=yahoo",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        }
-      ]
-    },
-    {
-      "ticker": "NEM",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Newmont Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.2,
-      "confirm": 38.6,
-      "signal": 64.1,
-      "mom": {
-        "ret5": -0.0489,
-        "vol_surge": 1.22
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-08-20",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1164727/000110465926099237",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "3 Gold Mining Stocks To Own In September 2026",
-          "summary": "Global 10 year government bond yields have been moving higher, which raises the appeal of assets that can respond directly to inflation pressure. Gold sits at the center of that discussion because many investors view it as a store of value when real returns feel harder to secure. This article looks",
-          "pub": "2026-09-03T02:15",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/3-gold-mining-stocks-own-021505850.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "Miners And More Lead Slew Of Stocks To Watch — With This Line In Focus",
-          "summary": "Miners like Southern Copper and Newmont lead this screen of stocks to watch in or near buy range alongside UBS, Garmin and more.",
-          "pub": "2026-09-02T20:00",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/breakout-stocks-technical-analysis/stocks-to-watch-breakout-buy-points-markets-investing/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Newmont Stock Jumps 34.5% in August, and Gold's Rally Could Take It Higher",
-          "summary": "The rising price of gold wasn't the only reason for the stock's performance in August.",
-          "pub": "2026-09-02T16:28",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/02/newmont-stock-jumps-345-in-august-and-golds-rally/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Is AngloGold Ashanti Set for Strong EBITDA Growth in H2'26?",
-          "summary": "AU's higher gold prices and stronger H2 production outlook could drive EBITDA growth in 2026.",
-          "pub": "2026-09-02T14:10",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/anglogold-ashanti-set-strong-ebitda-141000103.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -764,9 +685,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.5,
+      "news": 50.5,
       "confirm": 32.1,
-      "signal": 62.2,
+      "signal": 62.4,
       "mom": {
         "ret5": -0.0453,
         "vol_surge": 0.71
@@ -837,22 +758,258 @@
       ]
     },
     {
+      "ticker": "NEM",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "Newmont Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.2,
+      "confirm": 32.1,
+      "signal": 62.3,
+      "mom": {
+        "ret5": -0.0738,
+        "vol_surge": 1.28
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-08-20",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1164727/000110465926099237",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "3 Gold Mining Stocks To Own In September 2026",
+          "summary": "Global 10 year government bond yields have been moving higher, which raises the appeal of assets that can respond directly to inflation pressure. Gold sits at the center of that discussion because many investors view it as a store of value when real returns feel harder to secure. This article looks",
+          "pub": "2026-09-03T02:15",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/3-gold-mining-stocks-own-021505850.html",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
+        },
+        {
+          "title": "Miners And More Lead Slew Of Stocks To Watch — With This Line In Focus",
+          "summary": "Miners like Southern Copper and Newmont lead this screen of stocks to watch in or near buy range alongside UBS, Garmin and more.",
+          "pub": "2026-09-02T20:00",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/breakout-stocks-technical-analysis/stocks-to-watch-breakout-buy-points-markets-investing/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Newmont Stock Jumps 34.5% in August, and Gold's Rally Could Take It Higher",
+          "summary": "The rising price of gold wasn't the only reason for the stock's performance in August.",
+          "pub": "2026-09-02T16:28",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/02/newmont-stock-jumps-345-in-august-and-golds-rally/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Is AngloGold Ashanti Set for Strong EBITDA Growth in H2'26?",
+          "summary": "AU's higher gold prices and stronger H2 production outlook could drive EBITDA growth in 2026.",
+          "pub": "2026-09-02T14:10",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anglogold-ashanti-set-strong-ebitda-141000103.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "ALAB",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 3,
+      "first_seen": "2026-07-08",
+      "name": "Astera Labs, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.6,
+      "confirm": 27.9,
+      "signal": 61.4,
+      "mom": {
+        "ret5": -0.0557,
+        "vol_surge": 0.64
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "3 Millionaire-Maker Artificial Intelligence (AI) Stocks to Buy Now",
+          "summary": "Three AI infrastructure stocks -- Astera Labs, Credo Technology, and Vertiv -- are tackling the bottlenecks driving the AI boom and could offer million-dollar upside.",
+          "pub": "2026-09-03T08:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/03/millionaire-artificial-intelligence-ai-stock-buy/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Better Artificial Intelligence Stock: Astera Labs vs. NVIDIA",
+          "summary": "One specializes in connectivity, the other dominates the full stack, but their valuations tell starkly different stories for 2026.",
+          "pub": "2026-09-02T18:17",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/coverage/better-buy/2026/09/02/better-artificial-intelligence-stock-astera-labs-vs-nvidia/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Credo Technology Reports Q1 Results: Should Investors Hold or Fold?",
+          "summary": "CRDO's strong Q1 growth and AI demand face a key test as optical ramps, customer concentration and valuation raise risks.",
+          "pub": "2026-09-02T15:07",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-reports-q1-results-150700193.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Bloom Energy and 7 More Stocks That Could Join the S&P 500 This Month",
+          "summary": "Bloom Energy Corp. Astera Labs Cheniere Energy  and  Everpure  top a list of companies that could be added to the S&P 500 as part of the index’s quarterly rebalancing that will occur later this month.  Any changes to the benchmark index likely will be announced Friday after the close of trading, and",
+          "pub": "2026-09-02T14:56",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/bloom-energy-s-p-500-stock-index-9e4bf0dc?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Credo's Optical Bet: Is a $600M+ Revenue Opportunity Taking Shape?",
+          "summary": "CRDO's AI-driven connectivity boom is accelerating, with optical growth and new silicon photonics products poised to fuel a major fiscal 2027 revenue inflection.",
+          "pub": "2026-09-02T12:40",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/articles/credos-optical-bet-600m-revenue-124000281.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 5,
+      "today_rank": 5,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 53.2,
+      "confirm": 22.6,
+      "signal": 61.2,
+      "mom": {
+        "ret5": -0.0864,
+        "vol_surge": 0.9
+      },
+      "earn_days": 0,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-09-03",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Fed Speakers, Jobs Report: What’s Ahead the Rest of the Week",
+          "summary": "Today Fed speakers: Fed governor Christopher Waller is due to speak at 8:30 a.m. ET. Cleveland Fed President Beth Hammack and Chicago Fed President Austan Goolsbee are also making public appearances. Earnings (a.",
+          "pub": "2026-09-03T07:44",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-03-2026/card/fed-speakers-jobs-report-what-s-ahead-the-rest-of-the-week-uG2cRsX0M93mco2oJ2et?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "ANET Has Left Its Peers Behind. Or Has It?",
+          "summary": "This networking leader's fundamentals are near the top of its class, but its stock performance has been left behind, forcing investors to ask if the market is right to be so cautious.",
+          "pub": "2026-09-02T21:12",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/613958/anet-has-left-its-peers-behind-or-has-it/2026-09-02",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "GitLab Q2 Earnings Beat on Revenue Growth and Sales Productivity",
+          "summary": "GTLB's fiscal Q2 revenues increase 21.3% as customer expansion, sales productivity, and AI product traction support growth.",
+          "pub": "2026-09-02T17:27",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gitlab-q2-earnings-beat-revenue-172700924.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "Jobs Report, Broadcom Earnings: What to Watch the Rest of the Week",
+          "summary": "Today  Earnings (a.m.): Brown-Forman, Ollie’s Bargain Outlet   Earnings (p.m.): Broadcom, Hewlett Packard Enterprise, Snowflake, Five Below   Economic data: ADP national employment report (August), July durable-goods and factory orders, Federal Reserve Beige Book, EIA weekly petroleum status report",
+          "pub": "2026-09-02T07:18",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026/card/jobs-report-broadcom-earnings-what-to-watch-the-rest-of-the-week-K1oAdO70TRKaYdFDp00M?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 11,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 30.9,
-      "signal": 62.2,
+      "confirm": 20.2,
+      "signal": 59.3,
       "mom": {
-        "ret5": -0.0637,
-        "vol_surge": 1.0
+        "ret5": -0.0962,
+        "vol_surge": 0.94
       },
       "earn_days": null,
       "consensus": null,
@@ -904,162 +1061,6 @@
       ]
     },
     {
-      "ticker": "ALAB",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 3,
-      "first_seen": "2026-07-08",
-      "name": "Astera Labs, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.6,
-      "confirm": 27.9,
-      "signal": 61.7,
-      "mom": {
-        "ret5": -0.0557,
-        "vol_surge": 0.64
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Better Artificial Intelligence Stock: Astera Labs vs. NVIDIA",
-          "summary": "One specializes in connectivity, the other dominates the full stack, but their valuations tell starkly different stories for 2026.",
-          "pub": "2026-09-02T18:17",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/better-buy/2026/09/02/better-artificial-intelligence-stock-astera-labs-vs-nvidia/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo Technology Reports Q1 Results: Should Investors Hold or Fold?",
-          "summary": "CRDO's strong Q1 growth and AI demand face a key test as optical ramps, customer concentration and valuation raise risks.",
-          "pub": "2026-09-02T15:07",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-reports-q1-results-150700193.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Bloom Energy and 7 More Stocks That Could Join the S&P 500 This Month",
-          "summary": "Bloom Energy Corp. Astera Labs Cheniere Energy  and  Everpure  top a list of companies that could be added to the S&P 500 as part of the index’s quarterly rebalancing that will occur later this month.  Any changes to the benchmark index likely will be announced Friday after the close of trading, and",
-          "pub": "2026-09-02T14:56",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/bloom-energy-s-p-500-stock-index-9e4bf0dc?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo's Optical Bet: Is a $600M+ Revenue Opportunity Taking Shape?",
-          "summary": "CRDO's AI-driven connectivity boom is accelerating, with optical growth and new silicon photonics products poised to fuel a major fiscal 2027 revenue inflection.",
-          "pub": "2026-09-02T12:40",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/credos-optical-bet-600m-revenue-124000281.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Astera Labs Stock And 2 AI Data Center Picks From Founder Led Companies",
-          "summary": "With long term government bond yields rising on inflation concerns, investors are being reminded that easy money is no longer the norm. Higher yields can reward patience in cash, yet they also punish companies that rely heavily on cheap debt. Founder led businesses that run lean and keep capital eff",
-          "pub": "2026-08-31T04:31",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-stock-2-ai-043127920.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 5,
-      "today_rank": 6,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.0,
-      "confirm": 18.8,
-      "signal": 60.9,
-      "mom": {
-        "ret5": -0.1234,
-        "vol_surge": 0.92
-      },
-      "earn_days": 0,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "ANET Has Left Its Peers Behind. Or Has It?",
-          "summary": "This networking leader's fundamentals are near the top of its class, but its stock performance has been left behind, forcing investors to ask if the market is right to be so cautious.",
-          "pub": "2026-09-02T21:12",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/613958/anet-has-left-its-peers-behind-or-has-it/2026-09-02",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "GitLab Q2 Earnings Beat on Revenue Growth and Sales Productivity",
-          "summary": "GTLB's fiscal Q2 revenues increase 21.3% as customer expansion, sales productivity, and AI product traction support growth.",
-          "pub": "2026-09-02T17:27",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/gitlab-q2-earnings-beat-revenue-172700924.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "Jobs Report, Broadcom Earnings: What to Watch the Rest of the Week",
-          "summary": "Today  Earnings (a.m.): Brown-Forman, Ollie’s Bargain Outlet   Earnings (p.m.): Broadcom, Hewlett Packard Enterprise, Snowflake, Five Below   Economic data: ADP national employment report (August), July durable-goods and factory orders, Federal Reserve Beige Book, EIA weekly petroleum status report",
-          "pub": "2026-09-02T07:18",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026/card/jobs-report-broadcom-earnings-what-to-watch-the-rest-of-the-week-K1oAdO70TRKaYdFDp00M?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Ciena (CIEN) Stock Trades Below Fair Value Even After Its Big Run",
-          "summary": "Ciena stock has delivered a very large gain over the past few years, while the main valuation checks send mixed signals about where value now sits. The Discounted Cash Flow (DCF) intrinsic value estimate screens the shares as undervalued, yet broader checks and market multiples suggest Ciena is not",
-          "pub": "2026-09-01T16:16",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-cien-stock-trades-below-161627901.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Ciena's Next Earnings Report on September 3 Could Send the Stock Soaring. Here's Why.",
-          "summary": "Expectations are quite high for the optical networking hardware specialist.",
-          "pub": "2026-09-01T13:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/01/cienas-next-earnings-report-on-september-3-could-send-the-stock-soaring-heres-why/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "CLS",
       "tier": "確定",
       "streak": 43,
@@ -1071,11 +1072,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 15.4,
-      "signal": 58.4,
+      "confirm": 15.6,
+      "signal": 58.1,
       "mom": {
-        "ret5": -0.0962,
-        "vol_surge": 0.62
+        "ret5": -0.0948,
+        "vol_surge": 0.6
       },
       "earn_days": null,
       "consensus": null,
