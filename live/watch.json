@@ -1,92 +1,7 @@
 {
-  "updated": "2026-09-05T04:31:08.570514+00:00",
+  "updated": "2026-09-05T10:36:31.560418+00:00",
   "judge_source": "rule-based",
   "signals": [
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 10,
-      "today_rank": 25,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.2,
-      "confirm": 67.8,
-      "signal": 72.3,
-      "mom": {
-        "ret5": 0.0589,
-        "vol_surge": 1.01
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-08-26",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Needham",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "Evercore ISI Group",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
     {
       "ticker": "MU",
       "tier": "確定",
@@ -121,6 +36,17 @@
           "is_edgar": true
         },
         {
+          "title": "China's Biggest Memory Chip Stock Is Almost as Good as Micron",
+          "summary": "Micron's fat profit margin is CXMT's opportunity -- and China is coming for it.",
+          "pub": "2026-09-05T10:26",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/05/chinas-memory-chip-stock-almost-as-good-as-micron/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Micron and Western Digital Shares Skyrocket, What You Need To Know",
           "summary": "A number of stocks jumped in the afternoon session after investors shrugged off interest rate hike expectations following the August jobs report and unwound defensive positioning in beaten-down chip designers, according to Bloomberg. The U.S. Bureau of Labor Statistics reported that employers added",
           "pub": "2026-09-05T02:22",
@@ -148,17 +74,6 @@
           "pub": "2026-09-04T22:41",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron Stock Closes Above $1,000. Why It’s Not What It Seems.",
-          "summary": "Investors on Friday pushed shares of  Micron Technology  to close above $1,000 for the first time since mid-August, following the release of OpenAI’s latest artificial-intelligence model and as the AI-trade picked up momentum.  Micron stock advanced 6.1% to $1,016.59 on Friday, marking the first tim",
-          "pub": "2026-09-04T22:36",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/micron-stock-price-today-27b238bd?siteid=yhoof2&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -245,19 +160,104 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 10,
+      "today_rank": 25,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 49.7,
+      "confirm": 67.8,
+      "signal": 70.9,
+      "mom": {
+        "ret5": 0.0589,
+        "vol_surge": 1.01
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: その他の重要イベント",
+          "summary": "",
+          "pub": "2026-09-03",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-08-26",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-04",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-04",
+          "provider": "Needham",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-27",
+          "provider": "Evercore ISI Group",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
       "ticker": "AVGO",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 21,
+      "today_rank": 24,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 56.0,
       "confirm": 52.5,
-      "signal": 69.7,
+      "signal": 69.6,
       "mom": {
         "ret5": -0.0295,
         "vol_surge": 1.76
@@ -289,6 +289,17 @@
           "why": "特定イベント検出なし"
         },
         {
+          "title": "Broadcom And 2 Other Undervalued Stocks To Own",
+          "summary": "Resilient US services activity and solid composite PMI data keep attention on cash flow, since companies that keep money moving through the business can often ride out mixed macro signals better than those that cannot. When some investors focus on headline growth stories, stocks with strong cash gen",
+          "pub": "2026-09-05T06:14",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-2-other-undervalued-stocks-061453375.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Why Broadcom CEO Hock Tan Called Anthropic and OpenAI 'Two Geniuses in the Middle of Mongolia'",
           "summary": "Broadcom Inc. CEO Hock Tan has an unusual way of explaining why the company is helping finance Anthropic‘s and OpenAI‘s AI infrastructure buildout: he compares them to two geniuses stranded in the middle of Mongolia who need help getting to...",
           "pub": "2026-09-05T00:30",
@@ -309,17 +320,6 @@
           "conf": 0.8,
           "type": "決算ビート",
           "why": "+決算ビート"
-        },
-        {
-          "title": "Broadcom (AVGO) Stock Is Down After Q3 Earnings: Is It Too Soon to Buy the Dip?",
-          "summary": "Despite posting strong quarterly results this week, Broadcom stock is down almost 15% over the last month and more than 25% below its all-time high reached in June.",
-          "pub": "2026-09-04T22:20",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-stock-down-q3-222000523.html",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "記録更新",
-          "why": "+記録更新"
         }
       ]
     },
@@ -329,14 +329,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 24,
+      "today_rank": 22,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.6,
       "confirm": 60.4,
-      "signal": 69.4,
+      "signal": 69.3,
       "mom": {
         "ret5": 0.0457,
         "vol_surge": 0.78
@@ -492,7 +492,7 @@
       "persist": 100,
       "news": 53.9,
       "confirm": 51.9,
-      "signal": 68.6,
+      "signal": 68.5,
       "mom": {
         "ret5": 0.0258,
         "vol_surge": 0.61
@@ -568,14 +568,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 22,
+      "today_rank": 23,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 55.2,
       "confirm": 49.2,
-      "signal": 68.5,
+      "signal": 68.4,
       "mom": {
         "ret5": 0.0043,
         "vol_surge": 0.86
@@ -653,7 +653,7 @@
       "persist": 100,
       "news": 59.4,
       "confirm": 41.5,
-      "signal": 68.3,
+      "signal": 68.1,
       "mom": {
         "ret5": -0.0128,
         "vol_surge": 0.69
@@ -731,7 +731,7 @@
       "persist": 100,
       "news": 50.9,
       "confirm": 46.4,
-      "signal": 66.0,
+      "signal": 65.9,
       "mom": {
         "ret5": 0.0036,
         "vol_surge": 0.69
@@ -797,6 +797,84 @@
       ]
     },
     {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 13,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 44.2,
+      "signal": 64.9,
+      "mom": {
+        "ret5": -0.0128,
+        "vol_surge": 0.87
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "These Gold Stocks Pay You While You Hedge",
+          "summary": "Bullion pays nothing, but the miners extracting it are funneling billions back to shareholders right now. Five precious-metals producers combine gold's defensive appeal with real dividends and buybacks built on free cash flow that dwarfs their payout obligations.",
+          "pub": "2026-09-04T13:45",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/04/these-gold-stocks-pay-you-while-you-hedge/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Kinross Gold (TSX:K) Stock Looks Cheap Even After A 7x Run",
+          "summary": "Kinross Gold stock has delivered a very large 3 year gain, yet the latest valuation checks point to a mixed picture rather than a clear bargain or clear overvaluation at the current price. Over the past 3 years, Kinross Gold has returned roughly 7 times an initial investment. This puts extra attenti",
+          "pub": "2026-09-04T10:15",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-stock-101552728.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Kinross Gold (TSX:K) Looks Cheap If Gold Strength Keeps Supporting The Story",
+          "summary": "Kinross Gold Stock Performance Snapshot Kinross Gold (TSX:K) has drawn fresh attention after a sharp move over the past month, with the stock returning 31.19% in that period and 19.26% over the past 3 months. Despite a recent 7 day share price return that fell 3.46%, Kinross Gold has seen momentum b",
+          "pub": "2026-09-04T04:37",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-looks-043757733.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Barrick Mining Trading at a Discount: Should You Buy the Stock Now?",
+          "summary": "Barrick's discounted valuation and strong cash flow present a favorable setup, but rising costs and a soft production outlook could limit the stock's upside.",
+          "pub": "2026-09-03T12:54",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/barrick-mining-trading-discount-buy-125400210.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can AEM's Debt-Light Balance Sheet Create Room for Further Growth?",
+          "summary": "AEM's ultra-low debt, surging free cash flow and higher gold prices boost its growth potential and shareholder returns.",
+          "pub": "2026-09-01T12:45",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aems-debt-light-balance-sheet-124500746.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 43,
@@ -809,7 +887,7 @@
       "persist": 100,
       "news": 52.4,
       "confirm": 40.0,
-      "signal": 65.0,
+      "signal": 64.8,
       "mom": {
         "ret5": -0.2672,
         "vol_surge": 2.92
@@ -876,97 +954,19 @@
       ]
     },
     {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 13,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 44.2,
-      "signal": 65.0,
-      "mom": {
-        "ret5": -0.0128,
-        "vol_surge": 0.87
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "These Gold Stocks Pay You While You Hedge",
-          "summary": "Bullion pays nothing, but the miners extracting it are funneling billions back to shareholders right now. Five precious-metals producers combine gold's defensive appeal with real dividends and buybacks built on free cash flow that dwarfs their payout obligations.",
-          "pub": "2026-09-04T13:45",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/04/these-gold-stocks-pay-you-while-you-hedge/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Kinross Gold (TSX:K) Stock Looks Cheap Even After A 7x Run",
-          "summary": "Kinross Gold stock has delivered a very large 3 year gain, yet the latest valuation checks point to a mixed picture rather than a clear bargain or clear overvaluation at the current price. Over the past 3 years, Kinross Gold has returned roughly 7 times an initial investment. This puts extra attenti",
-          "pub": "2026-09-04T10:15",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-stock-101552728.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Kinross Gold (TSX:K) Looks Cheap If Gold Strength Keeps Supporting The Story",
-          "summary": "Kinross Gold Stock Performance Snapshot Kinross Gold (TSX:K) has drawn fresh attention after a sharp move over the past month, with the stock returning 31.19% in that period and 19.26% over the past 3 months. Despite a recent 7 day share price return that fell 3.46%, Kinross Gold has seen momentum b",
-          "pub": "2026-09-04T04:37",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-looks-043757733.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Barrick Mining Trading at a Discount: Should You Buy the Stock Now?",
-          "summary": "Barrick's discounted valuation and strong cash flow present a favorable setup, but rising costs and a soft production outlook could limit the stock's upside.",
-          "pub": "2026-09-03T12:54",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/barrick-mining-trading-discount-buy-125400210.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can AEM's Debt-Light Balance Sheet Create Room for Further Growth?",
-          "summary": "AEM's ultra-low debt, surging free cash flow and higher gold prices boost its growth potential and shareholder returns.",
-          "pub": "2026-09-01T12:45",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/aems-debt-light-balance-sheet-124500746.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 15,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
       "confirm": 43.0,
-      "signal": 64.7,
+      "signal": 64.6,
       "mom": {
         "ret5": -0.007,
         "vol_surge": 0.67
@@ -1000,7 +1000,7 @@
       "persist": 100,
       "news": 55.0,
       "confirm": 31.4,
-      "signal": 63.9,
+      "signal": 63.7,
       "mom": {
         "ret5": -0.1518,
         "vol_surge": 1.76
@@ -1079,7 +1079,7 @@
       "persist": 100,
       "news": 55.1,
       "confirm": 26.4,
-      "signal": 62.7,
+      "signal": 62.4,
       "mom": {
         "ret5": -0.0642,
         "vol_surge": 0.71
@@ -1092,6 +1092,28 @@
         "consensus": "Buy"
       },
       "headlines": [
+        {
+          "title": "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.",
+          "summary": "Thiel is known for his ability to spot a future winner.",
+          "pub": "2026-09-05T10:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/05/palantir-billionaire-peter-thiel-just-bought-shares-of-this-ai-stock-that-s-climbed-200-000-since-its-ipo-and-it-s-his-top-position/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Palantir Won a $127 Million Army Production Order and Still Fell 6%. Is the Valuation Finally Catching Up?",
+          "summary": "The U.S. Army moved its Tactical Intelligence Targeting Access Node, or TITAN, into production on September 1. Palantir received a $127 million delivery order, while Anduril received $65 million. The eight initial systems are scheduled over 18 months, and the Army anticipates another order in fiscal",
+          "pub": "2026-09-05T05:52",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-won-127-million-army-055204061.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Inside Zeta's Transformation From Hopeful Do-Over To Surging AI Marketing Stock",
           "summary": "This AI marketing player is flashing bullish signs, with partners like Palantir and a bot named after a Greek goddess.",
@@ -1120,28 +1142,6 @@
           "pub": "2026-09-04T20:06",
           "provider": "StockStory",
           "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-pltr-explosive-upside-200610011.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Palantir just won the Army and lost Michael Burry",
-          "summary": "A wholly owned subsidiary just landed eight TITAN systems. Burry says none of it justifies the price.",
-          "pub": "2026-09-04T18:33",
-          "provider": "TheStreet",
-          "url": "https://www.thestreet.com/investing/palantir-army-contract-michael-burry-warning",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined. Is That Why Growth Investors Are Falling Behind?",
-          "summary": "SCHG markets itself as a diversified large-cap growth fund, but a closer look at its holdings reveals a much narrower bet, and that structural quirk may explain why growth investors keep watching SPY and QQQ pull ahead.",
-          "pub": "2026-09-04T15:37",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/09/04/schg-owns-more-apple-than-tesla-meta-and-palantir-combined-is-that-why-growth-investors-are-falling-behind/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",

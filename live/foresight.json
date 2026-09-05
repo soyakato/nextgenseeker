@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T04:31:08.570514+00:00",
+  "updated": "2026-09-05T10:36:31.560418+00:00",
   "weights": {
     "operating_leverage": 17.6,
     "cost_stickiness": 9.44,
@@ -15,14 +15,14 @@
     "AMD": {
       "factors": {
         "operating_leverage": 100.0,
-        "cost_stickiness": 75.2,
-        "survival_dd": 75.1,
-        "rnd_intensity": 92.4,
-        "contrarian_inflection": 54.0,
-        "capital_momentum": 78.5,
-        "holding_trend": 97.1,
-        "earnings_drift": 25.8,
-        "value_yield": 37.4
+        "cost_stickiness": 75.1,
+        "survival_dd": 75.4,
+        "rnd_intensity": 92.3,
+        "contrarian_inflection": 54.2,
+        "capital_momentum": 77.9,
+        "holding_trend": 96.9,
+        "earnings_drift": 26.6,
+        "value_yield": 36.2
       },
       "raw": {
         "operating_leverage": 12.0,
@@ -55,70 +55,22 @@
         "hp_days": 93.3,
         "src": "tiingo"
       },
-      "composite": 72.0,
+      "composite": 71.9,
       "sector": "Technology",
       "price": 477.57,
       "discovered": false
     },
-    "ALAB": {
-      "factors": {
-        "operating_leverage": 29.5,
-        "cost_stickiness": 50.0,
-        "survival_dd": 82.3,
-        "rnd_intensity": 95.4,
-        "contrarian_inflection": 88.9,
-        "capital_momentum": 98.0,
-        "holding_trend": 89.3,
-        "earnings_drift": 60.0,
-        "value_yield": 26.6
-      },
-      "raw": {
-        "operating_leverage": 1.162,
-        "cost_stickiness": null,
-        "survival_dd": 9.775,
-        "rnd_intensity": 35.659,
-        "contrarian_inflection": 52.997,
-        "capital_momentum": 103.408,
-        "holding_trend": 72.535,
-        "earnings_drift": 10.07,
-        "value_yield": 0.17
-      },
-      "diag": {
-        "beta": 5.53,
-        "beta_trend": 1.609,
-        "vol": 0.98,
-        "debt": 4146000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-08-04",
-          "pct": 15.6,
-          "next": "2026-11-03"
-        },
-        "inst_pct": 0.75905997,
-        "inst_count": 1301,
-        "flow_13f": 0.117,
-        "flow_date": "2026-06-30",
-        "ad60": -0.036,
-        "hp_days": 51.1,
-        "src": "tiingo"
-      },
-      "composite": 67.9,
-      "sector": "Technology",
-      "price": 310.4,
-      "discovered": false
-    },
     "PLTR": {
       "factors": {
-        "operating_leverage": 89.1,
+        "operating_leverage": 88.7,
         "cost_stickiness": 50.0,
-        "survival_dd": 93.1,
-        "rnd_intensity": 77.0,
-        "contrarian_inflection": 56.9,
-        "capital_momentum": 91.8,
-        "holding_trend": 91.9,
-        "earnings_drift": 61.5,
-        "value_yield": 28.4
+        "survival_dd": 92.8,
+        "rnd_intensity": 77.5,
+        "contrarian_inflection": 58.0,
+        "capital_momentum": 92.1,
+        "holding_trend": 91.1,
+        "earnings_drift": 61.8,
+        "value_yield": 27.4
       },
       "raw": {
         "operating_leverage": 5.921,
@@ -158,15 +110,15 @@
     },
     "KGC": {
       "factors": {
-        "operating_leverage": 81.5,
+        "operating_leverage": 81.6,
         "cost_stickiness": 50.0,
-        "survival_dd": 72.3,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 45.8,
-        "capital_momentum": 13.9,
-        "holding_trend": 92.8,
-        "earnings_drift": 44.0,
-        "value_yield": 84.9
+        "survival_dd": 72.5,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 46.4,
+        "capital_momentum": 13.0,
+        "holding_trend": 93.1,
+        "earnings_drift": 44.8,
+        "value_yield": 85.5
       },
       "raw": {
         "operating_leverage": 3.676,
@@ -199,22 +151,70 @@
         "hp_days": 140.3,
         "src": "tiingo"
       },
-      "composite": 59.3,
+      "composite": 59.5,
       "sector": "Basic Materials",
       "price": 30.87,
       "discovered": false
     },
+    "ALAB": {
+      "factors": {
+        "operating_leverage": 28.1,
+        "cost_stickiness": 50.0,
+        "survival_dd": 82.0,
+        "rnd_intensity": 95.3,
+        "contrarian_inflection": 89.2,
+        "capital_momentum": 98.2,
+        "holding_trend": 88.9,
+        "earnings_drift": 60.3,
+        "value_yield": 25.6
+      },
+      "raw": {
+        "operating_leverage": 1.162,
+        "cost_stickiness": null,
+        "survival_dd": 9.775,
+        "rnd_intensity": 35.659,
+        "contrarian_inflection": 52.997,
+        "capital_momentum": 103.408,
+        "holding_trend": 72.535,
+        "earnings_drift": 10.07,
+        "value_yield": 0.17
+      },
+      "diag": {
+        "beta": 5.53,
+        "beta_trend": 1.609,
+        "vol": 0.98,
+        "debt": 4146000.0
+      },
+      "own": {
+        "surprise": {
+          "date": "2026-08-04",
+          "pct": 15.6,
+          "next": "2026-11-03"
+        },
+        "inst_pct": 0.75905997,
+        "inst_count": 1301,
+        "flow_13f": 0.117,
+        "flow_date": "2026-06-30",
+        "ad60": -0.036,
+        "hp_days": 51.1,
+        "src": "tiingo"
+      },
+      "composite": 67.6,
+      "sector": "Technology",
+      "price": 310.4,
+      "discovered": false
+    },
     "FLYW": {
       "factors": {
-        "operating_leverage": 66.5,
+        "operating_leverage": 66.6,
         "cost_stickiness": 50.0,
-        "survival_dd": 97.2,
-        "rnd_intensity": 75.5,
-        "contrarian_inflection": 16.8,
-        "capital_momentum": 50.5,
-        "holding_trend": 78.8,
-        "earnings_drift": 13.0,
-        "value_yield": 81.8
+        "survival_dd": 97.1,
+        "rnd_intensity": 76.0,
+        "contrarian_inflection": 17.5,
+        "capital_momentum": 50.2,
+        "holding_trend": 82.0,
+        "earnings_drift": 11.8,
+        "value_yield": 82.2
       },
       "raw": {
         "operating_leverage": 2.774,
@@ -247,22 +247,22 @@
         "hp_days": 82.8,
         "src": "tiingo"
       },
-      "composite": 60.3,
+      "composite": 60.6,
       "sector": "Technology",
       "price": 18.55,
       "discovered": false
     },
     "NEM": {
       "factors": {
-        "operating_leverage": 85.7,
+        "operating_leverage": 85.3,
         "cost_stickiness": 50.0,
-        "survival_dd": 69.7,
-        "rnd_intensity": 47.8,
-        "contrarian_inflection": 12.4,
-        "capital_momentum": 53.6,
-        "holding_trend": 71.5,
-        "earnings_drift": 36.9,
-        "value_yield": 73.2
+        "survival_dd": 70.5,
+        "rnd_intensity": 47.3,
+        "contrarian_inflection": 13.0,
+        "capital_momentum": 53.3,
+        "holding_trend": 75.1,
+        "earnings_drift": 36.6,
+        "value_yield": 73.5
       },
       "raw": {
         "operating_leverage": 4.054,
@@ -295,22 +295,22 @@
         "hp_days": 129.4,
         "src": "tiingo"
       },
-      "composite": 56.7,
+      "composite": 57.1,
       "sector": "Basic Materials",
       "price": 128.09,
       "discovered": false
     },
     "CORZ": {
       "factors": {
-        "operating_leverage": 93.8,
-        "cost_stickiness": 18.9,
-        "survival_dd": 31.6,
-        "rnd_intensity": 60.2,
-        "contrarian_inflection": 89.7,
-        "capital_momentum": 30.7,
-        "holding_trend": 41.5,
-        "earnings_drift": 64.8,
-        "value_yield": 83.7
+        "operating_leverage": 93.5,
+        "cost_stickiness": 20.1,
+        "survival_dd": 31.7,
+        "rnd_intensity": 59.8,
+        "contrarian_inflection": 90.3,
+        "capital_momentum": 29.8,
+        "holding_trend": 42.9,
+        "earnings_drift": 64.2,
+        "value_yield": 84.0
       },
       "raw": {
         "operating_leverage": 8.373,
@@ -335,7 +335,7 @@
           "pct": 27.2,
           "next": "2026-10-23"
         },
-        "inst_pct": 1.19668,
+        "inst_pct": 1.19763,
         "inst_count": 549,
         "flow_13f": 0.0837,
         "flow_date": "2026-06-30",
@@ -343,33 +343,33 @@
         "hp_days": 27.8,
         "src": "tiingo"
       },
-      "composite": 60.2,
+      "composite": 60.3,
       "sector": "Technology",
       "price": 17.89,
       "discovered": false
     },
     "COUR": {
       "factors": {
-        "operating_leverage": 45.5,
+        "operating_leverage": 45.2,
         "cost_stickiness": 50.0,
-        "survival_dd": 89.1,
+        "survival_dd": 88.5,
         "rnd_intensity": 81.2,
-        "contrarian_inflection": 93.2,
-        "capital_momentum": 17.4,
+        "contrarian_inflection": 93.6,
+        "capital_momentum": 16.3,
         "holding_trend": 14.8,
-        "earnings_drift": 76.2,
-        "value_yield": 96.1
+        "earnings_drift": 75.2,
+        "value_yield": 96.3
       },
       "raw": {
         "operating_leverage": 1.62,
         "cost_stickiness": null,
-        "survival_dd": 10.793,
+        "survival_dd": 10.93,
         "rnd_intensity": 16.053,
         "contrarian_inflection": 60.649,
         "capital_momentum": 34.483,
         "holding_trend": -42.937,
         "earnings_drift": 31.52,
-        "value_yield": 23.88
+        "value_yield": 22.05
       },
       "diag": {
         "beta": -0.09,
@@ -383,41 +383,41 @@
           "pct": 54.5,
           "next": "2026-10-29"
         },
-        "inst_pct": 0.92593,
-        "inst_count": 339,
+        "inst_pct": 0.92612,
+        "inst_count": 338,
         "flow_13f": 0.4028,
         "flow_date": "2026-06-30",
         "ad60": 0.029,
-        "hp_days": 62.5,
+        "hp_days": 67.7,
         "src": "tiingo"
       },
-      "composite": 65.1,
+      "composite": 64.9,
       "sector": "Consumer Defensive",
       "price": 5.8,
       "discovered": false
     },
     "CIEN": {
       "factors": {
-        "operating_leverage": 87.5,
-        "cost_stickiness": 54.8,
-        "survival_dd": 53.5,
-        "rnd_intensity": 85.4,
-        "contrarian_inflection": 86.7,
-        "capital_momentum": 31.6,
-        "holding_trend": 69.2,
-        "earnings_drift": 71.2,
-        "value_yield": 43.4
+        "operating_leverage": 87.1,
+        "cost_stickiness": 54.2,
+        "survival_dd": 54.0,
+        "rnd_intensity": 85.7,
+        "contrarian_inflection": 86.6,
+        "capital_momentum": 31.0,
+        "holding_trend": 68.2,
+        "earnings_drift": 70.5,
+        "value_yield": 41.9
       },
       "raw": {
         "operating_leverage": 4.609,
         "cost_stickiness": 0.254,
         "survival_dd": 6.553,
         "rnd_intensity": 17.787,
-        "contrarian_inflection": 46.917,
-        "capital_momentum": 42.103,
+        "contrarian_inflection": 45.676,
+        "capital_momentum": 41.973,
         "holding_trend": 37.238,
         "earnings_drift": 21.65,
-        "value_yield": 1.54
+        "value_yield": 1.39
       },
       "diag": {
         "beta": 2.32,
@@ -431,30 +431,30 @@
           "pct": 22.1,
           "next": "2026-12-10"
         },
-        "inst_pct": 0.95975995,
-        "inst_count": 1647,
+        "inst_pct": 0.9604,
+        "inst_count": 1648,
         "flow_13f": -0.0176,
         "flow_date": "2026-06-30",
         "ad60": -0.054,
         "hp_days": 59.7,
         "src": "tiingo"
       },
-      "composite": 67.1,
+      "composite": 66.7,
       "sector": "Technology",
       "price": 321.0,
       "discovered": false
     },
     "CRDO": {
       "factors": {
-        "operating_leverage": 55.7,
+        "operating_leverage": 55.4,
         "cost_stickiness": 50.0,
-        "survival_dd": 63.0,
-        "rnd_intensity": 90.8,
-        "contrarian_inflection": 95.3,
-        "capital_momentum": 84.1,
-        "holding_trend": 32.9,
-        "earnings_drift": 32.2,
-        "value_yield": 41.9
+        "survival_dd": 63.3,
+        "rnd_intensity": 90.7,
+        "contrarian_inflection": 95.4,
+        "capital_momentum": 84.4,
+        "holding_trend": 32.8,
+        "earnings_drift": 32.0,
+        "value_yield": 37.6
       },
       "raw": {
         "operating_leverage": 1.942,
@@ -487,22 +487,22 @@
         "hp_days": 29.0,
         "src": "tiingo"
       },
-      "composite": 61.7,
+      "composite": 61.3,
       "sector": "Technology",
       "price": 170.57,
       "discovered": false
     },
     "MU": {
       "factors": {
-        "operating_leverage": 83.1,
+        "operating_leverage": 83.2,
         "cost_stickiness": 50.0,
-        "survival_dd": 58.0,
-        "rnd_intensity": 72.5,
+        "survival_dd": 58.5,
+        "rnd_intensity": 73.0,
         "contrarian_inflection": 63.5,
-        "capital_momentum": 83.8,
-        "holding_trend": 23.0,
-        "earnings_drift": 42.6,
-        "value_yield": 30.2
+        "capital_momentum": 83.5,
+        "holding_trend": 23.8,
+        "earnings_drift": 42.5,
+        "value_yield": 29.1
       },
       "raw": {
         "operating_leverage": 3.686,
@@ -527,15 +527,15 @@
           "pct": 21.4,
           "next": "2026-09-30"
         },
-        "inst_pct": 0.79906,
-        "inst_count": 4944,
+        "inst_pct": 0.79963994,
+        "inst_count": 4948,
         "flow_13f": 0.0004,
         "flow_date": "2026-06-30",
         "ad60": 0.03,
         "hp_days": 40.8,
         "src": "tiingo"
       },
-      "composite": 57.9,
+      "composite": 58.0,
       "sector": "Technology",
       "price": 1016.59,
       "discovered": false
@@ -543,14 +543,14 @@
     "AA": {
       "factors": {
         "operating_leverage": 98.3,
-        "cost_stickiness": 66.4,
-        "survival_dd": 44.3,
-        "rnd_intensity": 46.2,
-        "contrarian_inflection": 70.3,
-        "capital_momentum": 29.4,
-        "holding_trend": 52.4,
-        "earnings_drift": 14.4,
-        "value_yield": 80.1
+        "cost_stickiness": 65.3,
+        "survival_dd": 44.1,
+        "rnd_intensity": 45.8,
+        "contrarian_inflection": 70.8,
+        "capital_momentum": 27.6,
+        "holding_trend": 53.2,
+        "earnings_drift": 14.0,
+        "value_yield": 80.4
       },
       "raw": {
         "operating_leverage": 9.835,
@@ -583,22 +583,22 @@
         "hp_days": 56.6,
         "src": "tiingo"
       },
-      "composite": 58.7,
+      "composite": 58.6,
       "sector": "Basic Materials",
       "price": 49.97,
       "discovered": false
     },
     "CLS": {
       "factors": {
-        "operating_leverage": 57.2,
+        "operating_leverage": 57.0,
         "cost_stickiness": 50.0,
-        "survival_dd": 48.5,
-        "rnd_intensity": 49.2,
-        "contrarian_inflection": 78.0,
-        "capital_momentum": 48.0,
-        "holding_trend": 72.3,
-        "earnings_drift": 50.1,
-        "value_yield": 46.9
+        "survival_dd": 47.8,
+        "rnd_intensity": 48.8,
+        "contrarian_inflection": 79.2,
+        "capital_momentum": 48.2,
+        "holding_trend": 73.0,
+        "earnings_drift": 50.8,
+        "value_yield": 45.4
       },
       "raw": {
         "operating_leverage": 2.158,
@@ -623,8 +623,8 @@
           "pct": 10.0,
           "next": "2026-10-26"
         },
-        "inst_pct": 0.67679,
-        "inst_count": 1267,
+        "inst_pct": 0.6768,
+        "inst_count": 1268,
         "flow_13f": 0.0354,
         "flow_date": "2026-06-30",
         "ad60": 0.016,
@@ -638,15 +638,15 @@
     },
     "DDOG": {
       "factors": {
-        "operating_leverage": 58.8,
+        "operating_leverage": 58.5,
         "cost_stickiness": 50.0,
-        "survival_dd": 61.8,
+        "survival_dd": 62.0,
         "rnd_intensity": 97.0,
         "contrarian_inflection": 60.5,
         "capital_momentum": 56.0,
-        "holding_trend": 42.9,
-        "earnings_drift": 55.2,
-        "value_yield": 40.5
+        "holding_trend": 46.0,
+        "earnings_drift": 56.4,
+        "value_yield": 39.5
       },
       "raw": {
         "operating_leverage": 2.413,
@@ -679,57 +679,9 @@
         "hp_days": 80.3,
         "src": "tiingo"
       },
-      "composite": 58.6,
+      "composite": 58.9,
       "sector": "Technology",
       "price": 212.93,
-      "discovered": false
-    },
-    "NVDA": {
-      "factors": {
-        "operating_leverage": 39.4,
-        "cost_stickiness": 50.0,
-        "survival_dd": 97.2,
-        "rnd_intensity": 68.1,
-        "contrarian_inflection": 11.8,
-        "capital_momentum": 73.8,
-        "holding_trend": 81.6,
-        "earnings_drift": 48.5,
-        "value_yield": 33.3
-      },
-      "raw": {
-        "operating_leverage": 1.509,
-        "cost_stickiness": null,
-        "survival_dd": 15,
-        "rnd_intensity": 8.566,
-        "contrarian_inflection": 3.658,
-        "capital_momentum": 66.209,
-        "holding_trend": 50.228,
-        "earnings_drift": 5.48,
-        "value_yield": 0.75
-      },
-      "diag": {
-        "beta": 1.98,
-        "beta_trend": 0.072,
-        "vol": 0.38,
-        "debt": 11040000000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-08-26",
-          "pct": 6.2,
-          "next": "2026-11-17"
-        },
-        "inst_pct": 0.71487,
-        "inst_count": 7724,
-        "flow_13f": 0.0121,
-        "flow_date": "2026-06-30",
-        "ad60": 0.0,
-        "hp_days": 187.3,
-        "src": "tiingo"
-      },
-      "composite": 55.3,
-      "sector": "Technology",
-      "price": 230.36,
       "discovered": false
     },
     "WDC": {
@@ -737,12 +689,12 @@
         "operating_leverage": 63.2,
         "cost_stickiness": 50.0,
         "survival_dd": 50.0,
-        "rnd_intensity": 69.5,
-        "contrarian_inflection": 81.8,
-        "capital_momentum": 76.7,
-        "holding_trend": 63.2,
-        "earnings_drift": 47.0,
-        "value_yield": 39.2
+        "rnd_intensity": 69.9,
+        "contrarian_inflection": 82.5,
+        "capital_momentum": 76.2,
+        "holding_trend": 66.1,
+        "earnings_drift": 47.8,
+        "value_yield": 38.0
       },
       "raw": {
         "operating_leverage": 2.543,
@@ -767,30 +719,78 @@
           "pct": 7.9,
           "next": "2026-11-05"
         },
-        "inst_pct": 0.91890997,
-        "inst_count": 2451,
+        "inst_pct": 0.9196,
+        "inst_count": 2452,
         "flow_13f": -0.0089,
         "flow_date": "2026-06-30",
         "ad60": -0.084,
         "hp_days": 55.7,
         "src": "tiingo"
       },
-      "composite": 60.5,
+      "composite": 60.8,
       "sector": "Technology",
       "price": 467.46,
       "discovered": false
     },
+    "NVDA": {
+      "factors": {
+        "operating_leverage": 38.8,
+        "cost_stickiness": 50.0,
+        "survival_dd": 97.1,
+        "rnd_intensity": 68.4,
+        "contrarian_inflection": 11.9,
+        "capital_momentum": 73.2,
+        "holding_trend": 82.6,
+        "earnings_drift": 49.2,
+        "value_yield": 32.5
+      },
+      "raw": {
+        "operating_leverage": 1.509,
+        "cost_stickiness": null,
+        "survival_dd": 15,
+        "rnd_intensity": 8.566,
+        "contrarian_inflection": 3.658,
+        "capital_momentum": 66.209,
+        "holding_trend": 50.228,
+        "earnings_drift": 5.48,
+        "value_yield": 0.75
+      },
+      "diag": {
+        "beta": 1.98,
+        "beta_trend": 0.072,
+        "vol": 0.38,
+        "debt": 11040000000.0
+      },
+      "own": {
+        "surprise": {
+          "date": "2026-08-26",
+          "pct": 6.2,
+          "next": "2026-11-17"
+        },
+        "inst_pct": 0.71545,
+        "inst_count": 7725,
+        "flow_13f": 0.0121,
+        "flow_date": "2026-06-30",
+        "ad60": 0.0,
+        "hp_days": 187.3,
+        "src": "tiingo"
+      },
+      "composite": 55.3,
+      "sector": "Technology",
+      "price": 230.36,
+      "discovered": false
+    },
     "ADI": {
       "factors": {
-        "operating_leverage": 64.9,
-        "cost_stickiness": 12.4,
-        "survival_dd": 91.6,
+        "operating_leverage": 65.0,
+        "cost_stickiness": 13.4,
+        "survival_dd": 91.2,
         "rnd_intensity": 79.7,
-        "contrarian_inflection": 46.3,
-        "capital_momentum": 71.8,
-        "holding_trend": 29.7,
-        "earnings_drift": 34.0,
-        "value_yield": 53.2
+        "contrarian_inflection": 45.9,
+        "capital_momentum": 71.5,
+        "holding_trend": 29.6,
+        "earnings_drift": 33.6,
+        "value_yield": 52.0
       },
       "raw": {
         "operating_leverage": 2.699,
@@ -815,30 +815,30 @@
           "pct": 3.3,
           "next": "2026-11-24"
         },
-        "inst_pct": 0.93884003,
-        "inst_count": 2994,
+        "inst_pct": 0.93938005,
+        "inst_count": 2996,
         "flow_13f": 0.0183,
         "flow_date": "2026-06-30",
         "ad60": -0.121,
         "hp_days": 134.6,
         "src": "tiingo"
       },
-      "composite": 56.5,
+      "composite": 56.3,
       "sector": "Technology",
       "price": 362.25,
       "discovered": false
     },
     "BKR": {
       "factors": {
-        "operating_leverage": 24.7,
-        "cost_stickiness": 24.9,
-        "survival_dd": 86.2,
-        "rnd_intensity": 52.5,
-        "contrarian_inflection": 19.6,
-        "capital_momentum": 36.8,
-        "holding_trend": 30.1,
-        "earnings_drift": 67.8,
-        "value_yield": 76.2
+        "operating_leverage": 23.2,
+        "cost_stickiness": 26.8,
+        "survival_dd": 85.5,
+        "rnd_intensity": 52.0,
+        "contrarian_inflection": 20.4,
+        "capital_momentum": 35.8,
+        "holding_trend": 30.6,
+        "earnings_drift": 67.2,
+        "value_yield": 76.7
       },
       "raw": {
         "operating_leverage": 1.02,
@@ -871,70 +871,22 @@
         "hp_days": 159.8,
         "src": "tiingo"
       },
-      "composite": 46.7,
+      "composite": 46.5,
       "sector": "Energy",
       "price": 63.5,
       "discovered": false
     },
-    "AR": {
-      "factors": {
-        "operating_leverage": 95.3,
-        "cost_stickiness": 81.8,
-        "survival_dd": 59.5,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 28.2,
-        "capital_momentum": 46.7,
-        "holding_trend": 59.1,
-        "earnings_drift": 9.6,
-        "value_yield": 56.5
-      },
-      "raw": {
-        "operating_leverage": 9.762,
-        "cost_stickiness": 0.901,
-        "survival_dd": 7.199,
-        "rnd_intensity": 0.0,
-        "contrarian_inflection": 9.368,
-        "capital_momentum": 49.638,
-        "holding_trend": 30.681,
-        "earnings_drift": -6.04,
-        "value_yield": 3.23
-      },
-      "diag": {
-        "beta": -0.97,
-        "beta_trend": -0.125,
-        "vol": 0.37,
-        "debt": 3526520000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-07-29",
-          "pct": -10.5,
-          "next": "2026-10-28"
-        },
-        "inst_pct": 0.91542,
-        "inst_count": 810,
-        "flow_13f": 0.0166,
-        "flow_date": "2026-06-30",
-        "ad60": -0.005,
-        "hp_days": 88.3,
-        "src": "tiingo"
-      },
-      "composite": 53.1,
-      "sector": "Energy",
-      "price": 39.41,
-      "discovered": false
-    },
     "AVGO": {
       "factors": {
-        "operating_leverage": 54.0,
+        "operating_leverage": 53.6,
         "cost_stickiness": 50.0,
-        "survival_dd": 68.0,
-        "rnd_intensity": 83.9,
-        "contrarian_inflection": 74.8,
-        "capital_momentum": 25.7,
+        "survival_dd": 68.8,
+        "rnd_intensity": 84.2,
+        "contrarian_inflection": 76.0,
+        "capital_momentum": 24.9,
         "holding_trend": 60.8,
-        "earnings_drift": 26.6,
-        "value_yield": 45.1
+        "earnings_drift": 22.8,
+        "value_yield": 43.6
       },
       "raw": {
         "operating_leverage": 1.773,
@@ -944,7 +896,7 @@
         "contrarian_inflection": 38.777,
         "capital_momentum": 38.844,
         "holding_trend": 29.757,
-        "earnings_drift": 2.45,
+        "earnings_drift": 0.0,
         "value_yield": 1.79
       },
       "diag": {
@@ -955,34 +907,34 @@
       },
       "own": {
         "surprise": {
-          "date": "2026-09-02",
-          "pct": 2.5,
+          "date": "2026-06-03",
+          "pct": 1.7,
           "next": "2026-12-09"
         },
-        "inst_pct": 0.80130994,
-        "inst_count": 6308,
+        "inst_pct": 0.80184996,
+        "inst_count": 6309,
         "flow_13f": 0.0285,
         "flow_date": "2026-06-30",
         "ad60": -0.023,
         "hp_days": 202.8,
         "src": "tiingo"
       },
-      "composite": 56.6,
+      "composite": 56.3,
       "sector": "Technology",
       "price": 357.895,
       "discovered": false
     },
     "CNQ": {
       "factors": {
-        "operating_leverage": 48.4,
+        "operating_leverage": 48.3,
         "cost_stickiness": 78.5,
-        "survival_dd": 89.8,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 14.8,
-        "capital_momentum": 66.5,
-        "holding_trend": 54.7,
-        "earnings_drift": 45.5,
-        "value_yield": 77.9
+        "survival_dd": 89.6,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 15.8,
+        "capital_momentum": 65.8,
+        "holding_trend": 55.2,
+        "earnings_drift": 46.2,
+        "value_yield": 78.4
       },
       "raw": {
         "operating_leverage": 1.658,
@@ -1015,22 +967,22 @@
         "hp_days": 335.7,
         "src": "tiingo"
       },
-      "composite": 54.8,
+      "composite": 54.9,
       "sector": "Energy",
       "price": 50.46,
       "discovered": false
     },
     "HBM": {
       "factors": {
-        "operating_leverage": 60.5,
+        "operating_leverage": 60.2,
         "cost_stickiness": 50.0,
-        "survival_dd": 46.0,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 30.9,
-        "capital_momentum": 32.2,
-        "holding_trend": 50.5,
-        "earnings_drift": 57.4,
-        "value_yield": 59.9
+        "survival_dd": 45.8,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 30.6,
+        "capital_momentum": 32.0,
+        "holding_trend": 54.0,
+        "earnings_drift": 58.2,
+        "value_yield": 59.8
       },
       "raw": {
         "operating_leverage": 2.464,
@@ -1063,21 +1015,21 @@
         "hp_days": 102.2,
         "src": "tiingo"
       },
-      "composite": 46.0,
+      "composite": 46.2,
       "sector": "Basic Materials",
       "price": 27.43,
       "discovered": false
     },
     "BMY": {
       "factors": {
-        "operating_leverage": 28.0,
+        "operating_leverage": 26.5,
         "cost_stickiness": 89.2,
         "survival_dd": 78.8,
-        "rnd_intensity": 89.3,
-        "contrarian_inflection": 1.2,
-        "capital_momentum": 65.3,
-        "holding_trend": 69.5,
-        "earnings_drift": 66.4,
+        "rnd_intensity": 89.2,
+        "contrarian_inflection": 1.4,
+        "capital_momentum": 64.5,
+        "holding_trend": 70.0,
+        "earnings_drift": 65.8,
         "value_yield": 66.7
       },
       "raw": {
@@ -1111,22 +1063,214 @@
         "hp_days": 251.3,
         "src": "tiingo"
       },
-      "composite": 57.7,
+      "composite": 57.4,
       "sector": "Healthcare",
       "price": 66.82,
+      "discovered": false
+    },
+    "UMC": {
+      "factors": {
+        "operating_leverage": 11.6,
+        "cost_stickiness": 96.2,
+        "survival_dd": 25.7,
+        "rnd_intensity": 65.4,
+        "contrarian_inflection": 56.0,
+        "capital_momentum": 86.6,
+        "holding_trend": 8.6,
+        "earnings_drift": 94.2,
+        "value_yield": 99.2
+      },
+      "raw": {
+        "operating_leverage": -0.131,
+        "cost_stickiness": 1.734,
+        "survival_dd": 3.59,
+        "rnd_intensity": 7.461,
+        "contrarian_inflection": 20.362,
+        "capital_momentum": 77.722,
+        "holding_trend": -55.918,
+        "earnings_drift": 57.78,
+        "value_yield": 60.0
+      },
+      "diag": {
+        "beta": 3.25,
+        "beta_trend": 0.741,
+        "vol": 0.62,
+        "debt": 59781672000.0
+      },
+      "own": {
+        "surprise": {
+          "date": "2026-07-29",
+          "pct": 228.6,
+          "next": "2026-10-28"
+        },
+        "inst_pct": 0.07403,
+        "inst_count": 458,
+        "flow_13f": 0.1626,
+        "flow_date": "2026-06-30",
+        "ad60": -0.041,
+        "hp_days": 238.1,
+        "src": "tiingo"
+      },
+      "composite": 54.2,
+      "sector": "Technology",
+      "price": 20.77,
+      "discovered": false
+    },
+    "AR": {
+      "factors": {
+        "operating_leverage": 95.2,
+        "cost_stickiness": 81.9,
+        "survival_dd": 60.0,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 27.8,
+        "capital_momentum": 46.1,
+        "holding_trend": 60.7,
+        "earnings_drift": 8.6,
+        "value_yield": 56.3
+      },
+      "raw": {
+        "operating_leverage": 9.762,
+        "cost_stickiness": 0.901,
+        "survival_dd": 7.199,
+        "rnd_intensity": 0.0,
+        "contrarian_inflection": 9.368,
+        "capital_momentum": 49.638,
+        "holding_trend": 30.681,
+        "earnings_drift": -6.04,
+        "value_yield": 3.23
+      },
+      "diag": {
+        "beta": -0.97,
+        "beta_trend": -0.125,
+        "vol": 0.37,
+        "debt": 3526520000.0
+      },
+      "own": {
+        "surprise": {
+          "date": "2026-07-29",
+          "pct": -10.5,
+          "next": "2026-10-28"
+        },
+        "inst_pct": 0.91553,
+        "inst_count": 810,
+        "flow_13f": 0.0166,
+        "flow_date": "2026-06-30",
+        "ad60": -0.005,
+        "hp_days": 88.3,
+        "src": "tiingo"
+      },
+      "composite": 53.1,
+      "sector": "Energy",
+      "price": 39.41,
+      "discovered": false
+    },
+    "OXY": {
+      "factors": {
+        "operating_leverage": 52.0,
+        "cost_stickiness": 9.8,
+        "survival_dd": 55.5,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 33.5,
+        "capital_momentum": 68.6,
+        "holding_trend": 49.8,
+        "earnings_drift": 68.8,
+        "value_yield": 71.8
+      },
+      "raw": {
+        "operating_leverage": 1.773,
+        "cost_stickiness": -0.894,
+        "survival_dd": 6.621,
+        "rnd_intensity": 0.0,
+        "contrarian_inflection": 11.909,
+        "capital_momentum": 62.105,
+        "holding_trend": 17.039,
+        "earnings_drift": 19.54,
+        "value_yield": 6.31
+      },
+      "diag": {
+        "beta": -1.12,
+        "beta_trend": 0.132,
+        "vol": 0.35,
+        "debt": 23351000000.0
+      },
+      "own": {
+        "surprise": {
+          "date": "2026-08-05",
+          "pct": 29.8,
+          "next": "2026-11-09"
+        },
+        "inst_pct": 0.58041,
+        "inst_count": 1651,
+        "flow_13f": 0.0367,
+        "flow_date": "2026-06-30",
+        "ad60": -0.01,
+        "hp_days": 140.2,
+        "src": "tiingo"
+      },
+      "composite": 48.1,
+      "sector": "Energy",
+      "price": 60.04,
+      "discovered": false
+    },
+    "SMCI": {
+      "factors": {
+        "operating_leverage": 24.8,
+        "cost_stickiness": 50.0,
+        "survival_dd": 11.4,
+        "rnd_intensity": 50.5,
+        "contrarian_inflection": 86.8,
+        "capital_momentum": 3.1,
+        "holding_trend": 11.4,
+        "earnings_drift": 91.5,
+        "value_yield": 2.8
+      },
+      "raw": {
+        "operating_leverage": 1.046,
+        "cost_stickiness": null,
+        "survival_dd": 1.763,
+        "rnd_intensity": 1.974,
+        "contrarian_inflection": 45.706,
+        "capital_momentum": 5.189,
+        "holding_trend": -51.919,
+        "earnings_drift": 56.01,
+        "value_yield": -31.71
+      },
+      "diag": {
+        "beta": 2.98,
+        "beta_trend": -1.362,
+        "vol": 0.91,
+        "debt": 8760913000.0
+      },
+      "own": {
+        "surprise": {
+          "date": "2026-08-11",
+          "pct": 77.5,
+          "next": "2026-11-03"
+        },
+        "inst_pct": 0.69521004,
+        "inst_count": 1106,
+        "flow_13f": 0.2152,
+        "flow_date": "2026-06-30",
+        "ad60": 0.006,
+        "hp_days": 12.0,
+        "src": "tiingo"
+      },
+      "composite": 37.0,
+      "sector": "Technology",
+      "price": 39.59,
       "discovered": false
     },
     "CDE": {
       "factors": {
         "operating_leverage": 76.7,
         "cost_stickiness": 50.0,
-        "survival_dd": 56.5,
-        "rnd_intensity": 57.0,
-        "contrarian_inflection": 67.0,
-        "capital_momentum": 39.7,
-        "holding_trend": 9.0,
-        "earnings_drift": 4.4,
-        "value_yield": 58.1
+        "survival_dd": 57.0,
+        "rnd_intensity": 56.6,
+        "contrarian_inflection": 67.6,
+        "capital_momentum": 38.8,
+        "holding_trend": 9.4,
+        "earnings_drift": 3.7,
+        "value_yield": 58.0
       },
       "raw": {
         "operating_leverage": 3.43,
@@ -1164,124 +1308,28 @@
       "price": 21.24,
       "discovered": false
     },
-    "UMC": {
-      "factors": {
-        "operating_leverage": 13.2,
-        "cost_stickiness": 96.0,
-        "survival_dd": 25.6,
-        "rnd_intensity": 65.2,
-        "contrarian_inflection": 55.8,
-        "capital_momentum": 86.8,
-        "holding_trend": 8.9,
-        "earnings_drift": 93.8,
-        "value_yield": 99.3
-      },
-      "raw": {
-        "operating_leverage": -0.131,
-        "cost_stickiness": 1.734,
-        "survival_dd": 3.59,
-        "rnd_intensity": 7.461,
-        "contrarian_inflection": 20.362,
-        "capital_momentum": 77.722,
-        "holding_trend": -55.918,
-        "earnings_drift": 57.78,
-        "value_yield": 60.0
-      },
-      "diag": {
-        "beta": 3.25,
-        "beta_trend": 0.741,
-        "vol": 0.62,
-        "debt": 59781672000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-07-29",
-          "pct": 228.6,
-          "next": "2026-10-28"
-        },
-        "inst_pct": 0.07403,
-        "inst_count": 457,
-        "flow_13f": 0.1626,
-        "flow_date": "2026-06-30",
-        "ad60": -0.041,
-        "hp_days": 238.1,
-        "src": "tiingo"
-      },
-      "composite": 54.4,
-      "sector": "Technology",
-      "price": 20.77,
-      "discovered": false
-    },
-    "SMCI": {
-      "factors": {
-        "operating_leverage": 26.3,
-        "cost_stickiness": 50.0,
-        "survival_dd": 10.8,
-        "rnd_intensity": 51.0,
-        "contrarian_inflection": 85.7,
-        "capital_momentum": 4.7,
-        "holding_trend": 11.3,
-        "earnings_drift": 90.5,
-        "value_yield": 2.1
-      },
-      "raw": {
-        "operating_leverage": 1.046,
-        "cost_stickiness": null,
-        "survival_dd": 1.751,
-        "rnd_intensity": 1.974,
-        "contrarian_inflection": 45.706,
-        "capital_momentum": 5.19,
-        "holding_trend": -51.919,
-        "earnings_drift": 56.01,
-        "value_yield": -32.21
-      },
-      "diag": {
-        "beta": 2.98,
-        "beta_trend": -1.362,
-        "vol": 0.91,
-        "debt": 8760913000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-08-11",
-          "pct": 77.5,
-          "next": "2026-11-03"
-        },
-        "inst_pct": 0.69521004,
-        "inst_count": 1106,
-        "flow_13f": 0.2152,
-        "flow_date": "2026-06-30",
-        "ad60": 0.006,
-        "hp_days": 11.8,
-        "src": "tiingo"
-      },
-      "composite": 37.0,
-      "sector": "Technology",
-      "price": 39.59,
-      "discovered": false
-    },
     "FIS": {
       "factors": {
-        "operating_leverage": 22.6,
+        "operating_leverage": 21.3,
         "cost_stickiness": 50.0,
-        "survival_dd": 20.5,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 68.7,
-        "capital_momentum": 11.6,
-        "holding_trend": 26.5,
+        "survival_dd": 20.1,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 69.2,
+        "capital_momentum": 11.1,
+        "holding_trend": 27.2,
         "earnings_drift": 22.8,
-        "value_yield": 90.2
+        "value_yield": 90.7
       },
       "raw": {
         "operating_leverage": 0.834,
         "cost_stickiness": null,
-        "survival_dd": 3.169,
+        "survival_dd": 3.164,
         "rnd_intensity": 0.0,
         "contrarian_inflection": 33.966,
         "capital_momentum": 32.149,
         "holding_trend": -14.96,
         "earnings_drift": 0.35,
-        "value_yield": 12.25
+        "value_yield": 12.28
       },
       "diag": {
         "beta": -0.17,
@@ -1300,10 +1348,10 @@
         "flow_13f": -0.0035,
         "flow_date": "2026-06-30",
         "ad60": 0.013,
-        "hp_days": 98.8,
+        "hp_days": 98.6,
         "src": "tiingo"
       },
-      "composite": 37.0,
+      "composite": 36.9,
       "sector": "Technology",
       "price": 41.89,
       "discovered": false
@@ -1312,12 +1360,12 @@
       "factors": {
         "operating_leverage": 50.0,
         "cost_stickiness": 50.0,
-        "survival_dd": 97.2,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 21.4,
-        "capital_momentum": 14.8,
-        "holding_trend": 76.5,
-        "earnings_drift": 27.3,
+        "survival_dd": 97.1,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 22.0,
+        "capital_momentum": 14.2,
+        "holding_trend": 76.8,
+        "earnings_drift": 28.1,
         "value_yield": 50.0
       },
       "raw": {
@@ -1351,22 +1399,22 @@
         "hp_days": 81.3,
         "src": "tiingo"
       },
-      "composite": 48.3,
+      "composite": 48.4,
       "sector": "Real Estate",
       "price": 10.65,
       "discovered": false
     },
     "CVE": {
       "factors": {
-        "operating_leverage": 36.1,
-        "cost_stickiness": 46.8,
-        "survival_dd": 76.7,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 8.8,
-        "capital_momentum": 70.0,
-        "holding_trend": 98.8,
-        "earnings_drift": 15.9,
-        "value_yield": 86.8
+        "operating_leverage": 35.5,
+        "cost_stickiness": 46.6,
+        "survival_dd": 77.0,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 9.7,
+        "capital_momentum": 69.8,
+        "holding_trend": 98.6,
+        "earnings_drift": 15.6,
+        "value_yield": 87.2
       },
       "raw": {
         "operating_leverage": 1.504,
@@ -1406,15 +1454,15 @@
     },
     "HST": {
       "factors": {
-        "operating_leverage": 21.0,
+        "operating_leverage": 19.6,
         "cost_stickiness": 50.0,
-        "survival_dd": 79.7,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 25.4,
-        "capital_momentum": 36.0,
-        "holding_trend": 48.6,
-        "earnings_drift": 35.5,
-        "value_yield": 88.5
+        "survival_dd": 80.0,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 25.6,
+        "capital_momentum": 34.6,
+        "holding_trend": 50.5,
+        "earnings_drift": 35.1,
+        "value_yield": 89.0
       },
       "raw": {
         "operating_leverage": 0.821,
@@ -1447,22 +1495,22 @@
         "hp_days": 81.9,
         "src": "tiingo"
       },
-      "composite": 45.0,
+      "composite": 44.9,
       "sector": "Real Estate",
       "price": 22.05,
       "discovered": false
     },
     "IREN": {
       "factors": {
-        "operating_leverage": 19.1,
+        "operating_leverage": 17.9,
         "cost_stickiness": 50.0,
-        "survival_dd": 24.6,
-        "rnd_intensity": 22.8,
-        "contrarian_inflection": 44.2,
-        "capital_momentum": 54.4,
-        "holding_trend": 21.1,
-        "earnings_drift": 17.4,
-        "value_yield": 4.2
+        "survival_dd": 24.4,
+        "rnd_intensity": 22.4,
+        "contrarian_inflection": 43.3,
+        "capital_momentum": 54.5,
+        "holding_trend": 21.2,
+        "earnings_drift": 18.1,
+        "value_yield": 4.8
       },
       "raw": {
         "operating_leverage": 0.559,
@@ -1495,7 +1543,7 @@
         "hp_days": 8.6,
         "src": "tiingo"
       },
-      "composite": 27.8,
+      "composite": 27.6,
       "sector": "Financial Services",
       "price": 44.68,
       "discovered": false
@@ -1504,11 +1552,11 @@
       "factors": {
         "operating_leverage": 50.0,
         "cost_stickiness": 50.0,
-        "survival_dd": 49.3,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 30.4,
-        "capital_momentum": 39.1,
-        "holding_trend": 70.3,
+        "survival_dd": 48.9,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 29.6,
+        "capital_momentum": 39.2,
+        "holding_trend": 71.2,
         "earnings_drift": 30.4,
         "value_yield": 50.0
       },
@@ -1543,69 +1591,21 @@
         "hp_days": 129.4,
         "src": "tiingo"
       },
-      "composite": 43.8,
+      "composite": 43.7,
       "sector": "Real Estate",
       "price": 22.81,
       "discovered": false
     },
-    "OXY": {
-      "factors": {
-        "operating_leverage": 52.4,
-        "cost_stickiness": 8.8,
-        "survival_dd": 55.0,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 33.6,
-        "capital_momentum": 69.0,
-        "holding_trend": 48.8,
-        "earnings_drift": 69.5,
-        "value_yield": 71.6
-      },
-      "raw": {
-        "operating_leverage": 1.773,
-        "cost_stickiness": -0.894,
-        "survival_dd": 6.621,
-        "rnd_intensity": 0.0,
-        "contrarian_inflection": 11.909,
-        "capital_momentum": 62.105,
-        "holding_trend": 17.039,
-        "earnings_drift": 19.0,
-        "value_yield": 6.31
-      },
-      "diag": {
-        "beta": -1.12,
-        "beta_trend": 0.132,
-        "vol": 0.35,
-        "debt": 23351000000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-08-05",
-          "pct": 29.0,
-          "next": "2026-11-09"
-        },
-        "inst_pct": 0.58041,
-        "inst_count": 1651,
-        "flow_13f": 0.0367,
-        "flow_date": "2026-06-30",
-        "ad60": -0.01,
-        "hp_days": 140.2,
-        "src": "tiingo"
-      },
-      "composite": 48.0,
-      "sector": "Energy",
-      "price": 60.04,
-      "discovered": false
-    },
     "SKHY": {
       "factors": {
-        "operating_leverage": 71.4,
-        "cost_stickiness": 72.5,
-        "survival_dd": 2.1,
+        "operating_leverage": 71.6,
+        "cost_stickiness": 72.0,
+        "survival_dd": 1.8,
         "rnd_intensity": 64.2,
-        "contrarian_inflection": 37.0,
-        "capital_momentum": 81.9,
+        "contrarian_inflection": 36.7,
+        "capital_momentum": 81.8,
         "holding_trend": 50.0,
-        "earnings_drift": 91.3,
+        "earnings_drift": 87.3,
         "value_yield": 99.2
       },
       "raw": {
@@ -1616,7 +1616,7 @@
         "contrarian_inflection": 12.793,
         "capital_momentum": 74.571,
         "holding_trend": null,
-        "earnings_drift": 56.67,
+        "earnings_drift": 48.77,
         "value_yield": 60.0
       },
       "diag": {
@@ -1628,7 +1628,7 @@
       "own": {
         "surprise": {
           "date": "2026-07-28",
-          "pct": 1760.7,
+          "pct": 86.1,
           "next": "2026-10-27"
         },
         "inst_pct": 0.00068000006,
@@ -1639,22 +1639,22 @@
         "hp_days": 388.0,
         "src": "yfinance"
       },
-      "composite": 58.7,
+      "composite": 58.3,
       "sector": "Technology",
       "price": 177.0,
       "discovered": false
     },
     "VG": {
       "factors": {
-        "operating_leverage": 32.8,
+        "operating_leverage": 31.4,
         "cost_stickiness": 85.8,
-        "survival_dd": 9.8,
-        "rnd_intensity": 55.5,
-        "contrarian_inflection": 48.1,
-        "capital_momentum": 89.1,
-        "holding_trend": 17.2,
-        "earnings_drift": 38.4,
-        "value_yield": 6.4
+        "survival_dd": 10.2,
+        "rnd_intensity": 55.1,
+        "contrarian_inflection": 48.3,
+        "capital_momentum": 89.2,
+        "holding_trend": 17.6,
+        "earnings_drift": 38.1,
+        "value_yield": 6.7
       },
       "raw": {
         "operating_leverage": 1.354,
@@ -1679,15 +1679,15 @@
           "pct": 4.5,
           "next": "2026-11-09"
         },
-        "inst_pct": 0.88175005,
-        "inst_count": 466,
+        "inst_pct": 0.88174003,
+        "inst_count": 468,
         "flow_13f": -0.0364,
         "flow_date": "2026-06-30",
         "ad60": 0.005,
         "hp_days": 39.3,
         "src": "tiingo"
       },
-      "composite": 39.0,
+      "composite": 38.9,
       "sector": "Energy",
       "price": 14.42,
       "discovered": false
@@ -1696,13 +1696,13 @@
       "factors": {
         "operating_leverage": 1.6,
         "cost_stickiness": 50.0,
-        "survival_dd": 6.2,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 57.4,
-        "capital_momentum": 43.0,
-        "holding_trend": 76.7,
-        "earnings_drift": 83.9,
-        "value_yield": 68.6
+        "survival_dd": 6.9,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 57.5,
+        "capital_momentum": 42.0,
+        "holding_trend": 76.1,
+        "earnings_drift": 84.3,
+        "value_yield": 68.5
       },
       "raw": {
         "operating_leverage": -3.729,
@@ -1742,15 +1742,15 @@
     },
     "AAPL": {
       "factors": {
-        "operating_leverage": 42.3,
-        "cost_stickiness": 16.8,
+        "operating_leverage": 42.0,
+        "cost_stickiness": 17.4,
         "survival_dd": 97.0,
-        "rnd_intensity": 66.0,
-        "contrarian_inflection": 18.6,
-        "capital_momentum": 51.2,
-        "holding_trend": 78.8,
-        "earnings_drift": 39.5,
-        "value_yield": 51.5
+        "rnd_intensity": 66.6,
+        "contrarian_inflection": 19.1,
+        "capital_momentum": 51.4,
+        "holding_trend": 80.4,
+        "earnings_drift": 40.2,
+        "value_yield": 50.3
       },
       "raw": {
         "operating_leverage": 1.58,
@@ -1783,22 +1783,22 @@
         "hp_days": 368.0,
         "src": "tiingo"
       },
-      "composite": 52.5,
+      "composite": 52.8,
       "sector": "Technology",
       "price": 319.97,
       "discovered": false
     },
     "ACMR": {
       "factors": {
-        "operating_leverage": 34.2,
+        "operating_leverage": 33.0,
         "cost_stickiness": 50.0,
-        "survival_dd": 35.5,
-        "rnd_intensity": 82.2,
-        "contrarian_inflection": 74.3,
-        "capital_momentum": 87.2,
-        "holding_trend": 94.1,
-        "earnings_drift": 87.2,
-        "value_yield": 14.9
+        "survival_dd": 36.0,
+        "rnd_intensity": 82.5,
+        "contrarian_inflection": 75.0,
+        "capital_momentum": 87.6,
+        "holding_trend": 92.9,
+        "earnings_drift": 88.3,
+        "value_yield": 14.4
       },
       "raw": {
         "operating_leverage": 1.433,
@@ -1838,15 +1838,15 @@
     },
     "AEG": {
       "factors": {
-        "operating_leverage": 11.1,
+        "operating_leverage": 8.9,
         "cost_stickiness": 0.0,
-        "survival_dd": 87.0,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 8.7,
-        "capital_momentum": 36.2,
-        "holding_trend": 34.4,
-        "earnings_drift": 17.4,
-        "value_yield": 3.3
+        "survival_dd": 86.7,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 8.9,
+        "capital_momentum": 36.3,
+        "holding_trend": 36.8,
+        "earnings_drift": 18.1,
+        "value_yield": 2.5
       },
       "raw": {
         "operating_leverage": -0.758,
@@ -1879,7 +1879,7 @@
         "hp_days": 345.4,
         "src": "tiingo"
       },
-      "composite": 26.7,
+      "composite": 26.5,
       "sector": "Financial Services",
       "price": 9.14,
       "discovered": false
@@ -1887,14 +1887,14 @@
     "AEHR": {
       "factors": {
         "operating_leverage": 96.8,
-        "cost_stickiness": 93.6,
-        "survival_dd": 39.9,
-        "rnd_intensity": 94.0,
-        "contrarian_inflection": 72.9,
-        "capital_momentum": 41.8,
-        "holding_trend": 24.0,
-        "earnings_drift": 78.4,
-        "value_yield": 22.6
+        "cost_stickiness": 93.2,
+        "survival_dd": 39.6,
+        "rnd_intensity": 93.9,
+        "contrarian_inflection": 73.6,
+        "capital_momentum": 42.1,
+        "holding_trend": 23.5,
+        "earnings_drift": 77.8,
+        "value_yield": 21.9
       },
       "raw": {
         "operating_leverage": 9.814,
@@ -1927,22 +1927,22 @@
         "hp_days": 12.0,
         "src": "tiingo"
       },
-      "composite": 63.7,
+      "composite": 63.6,
       "sector": "Technology",
       "price": 86.26,
       "discovered": false
     },
     "AEO": {
       "factors": {
-        "operating_leverage": 4.8,
+        "operating_leverage": 4.9,
         "cost_stickiness": 50.0,
-        "survival_dd": 34.8,
-        "rnd_intensity": 22.8,
-        "contrarian_inflection": 62.3,
-        "capital_momentum": 28.2,
+        "survival_dd": 34.0,
+        "rnd_intensity": 22.4,
+        "contrarian_inflection": 62.2,
+        "capital_momentum": 27.8,
         "holding_trend": 100.0,
-        "earnings_drift": 17.4,
-        "value_yield": 62.7
+        "earnings_drift": 18.1,
+        "value_yield": 63.0
       },
       "raw": {
         "operating_leverage": -1.807,
@@ -1975,7 +1975,7 @@
         "hp_days": 35.1,
         "src": "tiingo"
       },
-      "composite": 41.0,
+      "composite": 40.9,
       "sector": "Consumer Cyclical",
       "price": 17.39,
       "discovered": false
@@ -1984,21 +1984,21 @@
       "factors": {
         "operating_leverage": 46.8,
         "cost_stickiness": 50.0,
-        "survival_dd": 17.4,
-        "rnd_intensity": 22.8,
-        "contrarian_inflection": 54.4,
-        "capital_momentum": 46.4,
-        "holding_trend": 94.5,
+        "survival_dd": 17.8,
+        "rnd_intensity": 22.4,
+        "contrarian_inflection": 53.7,
+        "capital_momentum": 46.7,
+        "holding_trend": 94.8,
         "earnings_drift": 100.0,
-        "value_yield": 49.1
+        "value_yield": 48.2
       },
       "raw": {
         "operating_leverage": 1.632,
         "cost_stickiness": null,
         "survival_dd": 3.055,
         "rnd_intensity": 0.0,
-        "contrarian_inflection": 19.687,
-        "capital_momentum": 50.139,
+        "contrarian_inflection": 19.214,
+        "capital_momentum": 50.389,
         "holding_trend": 101.453,
         "earnings_drift": 90.0,
         "value_yield": 1.96
@@ -2023,70 +2023,22 @@
         "hp_days": 55.1,
         "src": "tiingo"
       },
-      "composite": 51.1,
+      "composite": 51.0,
       "sector": "Financial Services",
       "price": 72.35,
       "discovered": false
     },
-    "AIG": {
-      "factors": {
-        "operating_leverage": 8.6,
-        "cost_stickiness": 50.0,
-        "survival_dd": 80.3,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 22.6,
-        "capital_momentum": 9.5,
-        "holding_trend": 85.8,
-        "earnings_drift": 29.8,
-        "value_yield": 93.6
-      },
-      "raw": {
-        "operating_leverage": -0.832,
-        "cost_stickiness": null,
-        "survival_dd": 9.614,
-        "rnd_intensity": 0.0,
-        "contrarian_inflection": 7.045,
-        "capital_momentum": 29.995,
-        "holding_trend": 63.987,
-        "earnings_drift": 2.49,
-        "value_yield": 18.48
-      },
-      "diag": {
-        "beta": -0.25,
-        "beta_trend": -0.285,
-        "vol": 0.24,
-        "debt": 9191000000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-08-06",
-          "pct": 3.7,
-          "next": "2026-11-04"
-        },
-        "inst_pct": 1.0035399,
-        "inst_count": 1557,
-        "flow_13f": 0.0327,
-        "flow_date": "2026-06-30",
-        "ad60": -0.125,
-        "hp_days": 166.1,
-        "src": "tiingo"
-      },
-      "composite": 44.3,
-      "sector": "Financial Services",
-      "price": 76.21,
-      "discovered": false
-    },
     "AMC": {
       "factors": {
-        "operating_leverage": 90.8,
-        "cost_stickiness": 23.2,
-        "survival_dd": 3.6,
-        "rnd_intensity": 22.0,
-        "contrarian_inflection": 32.5,
+        "operating_leverage": 90.4,
+        "cost_stickiness": 24.1,
+        "survival_dd": 4.0,
+        "rnd_intensity": 21.9,
+        "contrarian_inflection": 32.1,
         "capital_momentum": 3.0,
-        "holding_trend": 18.4,
-        "earnings_drift": 80.8,
-        "value_yield": 68.9
+        "holding_trend": 17.4,
+        "earnings_drift": 80.5,
+        "value_yield": 69.6
       },
       "raw": {
         "operating_leverage": 7.386,
@@ -2126,26 +2078,26 @@
     },
     "AMKR": {
       "factors": {
-        "operating_leverage": 79.9,
-        "cost_stickiness": 58.0,
-        "survival_dd": 35.0,
-        "rnd_intensity": 54.0,
-        "contrarian_inflection": 79.8,
-        "capital_momentum": 66.5,
-        "holding_trend": 13.3,
-        "earnings_drift": 73.2,
-        "value_yield": 18.5
+        "operating_leverage": 80.0,
+        "cost_stickiness": 57.5,
+        "survival_dd": 34.9,
+        "rnd_intensity": 53.5,
+        "contrarian_inflection": 80.8,
+        "capital_momentum": 66.6,
+        "holding_trend": 13.2,
+        "earnings_drift": 72.2,
+        "value_yield": 18.0
       },
       "raw": {
         "operating_leverage": 3.481,
         "cost_stickiness": 0.278,
-        "survival_dd": 4.39,
+        "survival_dd": 4.392,
         "rnd_intensity": 2.486,
         "contrarian_inflection": 40.775,
         "capital_momentum": 62.041,
         "holding_trend": -43.307,
         "earnings_drift": 25.22,
-        "value_yield": -3.2
+        "value_yield": -3.19
       },
       "diag": {
         "beta": 4.24,
@@ -2159,30 +2111,30 @@
           "pct": 45.4,
           "next": "2026-10-26"
         },
-        "inst_pct": 0.48837003,
-        "inst_count": 840,
+        "inst_pct": 0.48911,
+        "inst_count": 841,
         "flow_13f": 0.0036,
         "flow_date": "2026-06-30",
         "ad60": -0.183,
-        "hp_days": 58.8,
+        "hp_days": 59.0,
         "src": "tiingo"
       },
-      "composite": 54.4,
+      "composite": 54.3,
       "sector": "Technology",
       "price": 47.77,
       "discovered": false
     },
     "APA": {
       "factors": {
-        "operating_leverage": 37.8,
-        "cost_stickiness": 3.1,
-        "survival_dd": 52.0,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 12.8,
-        "capital_momentum": 81.0,
-        "holding_trend": 61.4,
-        "earnings_drift": 24.4,
-        "value_yield": 92.0
+        "operating_leverage": 37.2,
+        "cost_stickiness": 3.4,
+        "survival_dd": 52.5,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 14.0,
+        "capital_momentum": 80.7,
+        "holding_trend": 62.6,
+        "earnings_drift": 25.1,
+        "value_yield": 92.5
       },
       "raw": {
         "operating_leverage": 1.508,
@@ -2207,30 +2159,30 @@
           "pct": 1.0,
           "next": "2026-11-04"
         },
-        "inst_pct": 1.09814,
-        "inst_count": 1087,
+        "inst_pct": 1.09902,
+        "inst_count": 1088,
         "flow_13f": 0.0214,
         "flow_date": "2026-06-30",
         "ad60": 0.084,
         "hp_days": 66.8,
         "src": "tiingo"
       },
-      "composite": 41.9,
+      "composite": 42.3,
       "sector": "Energy",
       "price": 42.77,
       "discovered": false
     },
     "APH": {
       "factors": {
-        "operating_leverage": 31.1,
+        "operating_leverage": 29.7,
         "cost_stickiness": 50.0,
-        "survival_dd": 53.4,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 24.6,
-        "capital_momentum": 60.4,
-        "holding_trend": 87.5,
-        "earnings_drift": 55.2,
-        "value_yield": 48.5
+        "survival_dd": 60.8,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 24.4,
+        "capital_momentum": 59.0,
+        "holding_trend": 87.2,
+        "earnings_drift": 55.7,
+        "value_yield": 47.0
       },
       "raw": {
         "operating_leverage": 1.349,
@@ -2263,22 +2215,22 @@
         "hp_days": 221.5,
         "src": "tiingo"
       },
-      "composite": 46.2,
+      "composite": 46.8,
       "sector": "Technology",
       "price": 82.78,
       "discovered": false
     },
     "ASTS": {
       "factors": {
-        "operating_leverage": 14.9,
-        "cost_stickiness": 69.6,
+        "operating_leverage": 13.3,
+        "cost_stickiness": 68.8,
         "survival_dd": 16.6,
-        "rnd_intensity": 99.8,
-        "contrarian_inflection": 96.9,
-        "capital_momentum": 42.9,
-        "holding_trend": 35.6,
+        "rnd_intensity": 99.9,
+        "contrarian_inflection": 97.0,
+        "capital_momentum": 43.4,
+        "holding_trend": 38.3,
         "earnings_drift": 0.1,
-        "value_yield": 13.2
+        "value_yield": 12.8
       },
       "raw": {
         "operating_leverage": -0.012,
@@ -2319,13 +2271,13 @@
     "ASX": {
       "factors": {
         "operating_leverage": 78.3,
-        "cost_stickiness": 61.2,
+        "cost_stickiness": 61.0,
         "survival_dd": 30.4,
-        "rnd_intensity": 62.6,
-        "contrarian_inflection": 38.1,
-        "capital_momentum": 94.5,
-        "holding_trend": 43.6,
-        "earnings_drift": 74.8,
+        "rnd_intensity": 61.8,
+        "contrarian_inflection": 38.0,
+        "capital_momentum": 95.0,
+        "holding_trend": 44.8,
+        "earnings_drift": 73.8,
         "value_yield": 0.1
       },
       "raw": {
@@ -2352,7 +2304,7 @@
           "next": "2026-10-29"
         },
         "inst_pct": 0.07335,
-        "inst_count": 613,
+        "inst_count": 614,
         "flow_13f": 0.1129,
         "flow_date": "2026-06-30",
         "ad60": -0.018,
@@ -2366,15 +2318,15 @@
     },
     "AXTI": {
       "factors": {
-        "operating_leverage": 75.4,
-        "cost_stickiness": 29.6,
-        "survival_dd": 14.2,
-        "rnd_intensity": 73.5,
+        "operating_leverage": 75.2,
+        "cost_stickiness": 30.9,
+        "survival_dd": 14.7,
+        "rnd_intensity": 74.2,
         "contrarian_inflection": 98.5,
         "capital_momentum": 100.0,
-        "holding_trend": 2.3,
-        "earnings_drift": 95.7,
-        "value_yield": 20.4
+        "holding_trend": 2.4,
+        "earnings_drift": 96.3,
+        "value_yield": 19.9
       },
       "raw": {
         "operating_leverage": 3.263,
@@ -2399,7 +2351,7 @@
           "pct": 163.9,
           "next": "2026-10-29"
         },
-        "inst_pct": 0.73252,
+        "inst_pct": 0.73233,
         "inst_count": 332,
         "flow_13f": 0.4576,
         "flow_date": "2026-06-30",
@@ -2407,7 +2359,7 @@
         "hp_days": 6.8,
         "src": "tiingo"
       },
-      "composite": 56.5,
+      "composite": 56.7,
       "sector": "Technology",
       "price": 61.64,
       "discovered": false
@@ -2416,12 +2368,12 @@
       "factors": {
         "operating_leverage": 50.0,
         "cost_stickiness": 50.0,
-        "survival_dd": 9.3,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 35.2,
-        "capital_momentum": 5.7,
-        "holding_trend": 63.6,
-        "earnings_drift": 11.1,
+        "survival_dd": 9.2,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 35.0,
+        "capital_momentum": 7.4,
+        "holding_trend": 61.3,
+        "earnings_drift": 10.1,
         "value_yield": 50.0
       },
       "raw": {
@@ -2447,30 +2399,30 @@
           "pct": -5.7,
           "next": "2026-11-04"
         },
-        "inst_pct": 0.24461001,
-        "inst_count": 407,
+        "inst_pct": 0.24465,
+        "inst_count": 408,
         "flow_13f": 0.0835,
         "flow_date": "2026-06-30",
         "ad60": -0.089,
         "hp_days": 355.4,
         "src": "tiingo"
       },
-      "composite": 33.2,
+      "composite": 32.9,
       "sector": "Financial Services",
       "price": 3.47,
       "discovered": false
     },
     "BBY": {
       "factors": {
-        "operating_leverage": 74.6,
+        "operating_leverage": 73.9,
         "cost_stickiness": 50.0,
-        "survival_dd": 65.2,
-        "rnd_intensity": 22.4,
+        "survival_dd": 66.0,
+        "rnd_intensity": 22.1,
         "contrarian_inflection": 0.0,
-        "capital_momentum": 78.3,
-        "holding_trend": 32.8,
-        "earnings_drift": 50.7,
-        "value_yield": 75.0
+        "capital_momentum": 78.5,
+        "holding_trend": 34.5,
+        "earnings_drift": 51.9,
+        "value_yield": 75.2
       },
       "raw": {
         "operating_leverage": 3.24,
@@ -2495,30 +2447,30 @@
           "pct": 6.5,
           "next": "2026-11-24"
         },
-        "inst_pct": 0.96758,
-        "inst_count": 1267,
+        "inst_pct": 0.97296995,
+        "inst_count": 1268,
         "flow_13f": -0.0012,
         "flow_date": "2026-06-30",
         "ad60": 0.087,
         "hp_days": 51.9,
         "src": "tiingo"
       },
-      "composite": 49.7,
+      "composite": 50.0,
       "sector": "Consumer Cyclical",
       "price": 90.27,
       "discovered": false
     },
     "BE": {
       "factors": {
-        "operating_leverage": 92.1,
+        "operating_leverage": 91.9,
         "cost_stickiness": 50.0,
-        "survival_dd": 29.7,
-        "rnd_intensity": 71.6,
-        "contrarian_inflection": 78.2,
-        "capital_momentum": 90.6,
-        "holding_trend": 61.0,
-        "earnings_drift": 85.5,
-        "value_yield": 30.5
+        "survival_dd": 29.2,
+        "rnd_intensity": 71.8,
+        "contrarian_inflection": 78.5,
+        "capital_momentum": 90.8,
+        "holding_trend": 49.4,
+        "earnings_drift": 86.7,
+        "value_yield": 30.1
       },
       "raw": {
         "operating_leverage": 8.187,
@@ -2526,8 +2478,8 @@
         "survival_dd": 3.697,
         "rnd_intensity": 9.189,
         "contrarian_inflection": 39.221,
-        "capital_momentum": 81.062,
-        "holding_trend": 31.196,
+        "capital_momentum": 81.079,
+        "holding_trend": -0.846,
         "earnings_drift": 52.04,
         "value_yield": 0.71
       },
@@ -2549,9 +2501,9 @@
         "flow_date": "2026-06-30",
         "ad60": -0.12,
         "hp_days": 24.6,
-        "src": "yfinance"
+        "src": "tiingo"
       },
-      "composite": 65.3,
+      "composite": 64.2,
       "sector": "Industrials",
       "price": 252.87,
       "discovered": false
@@ -2562,10 +2514,10 @@
         "cost_stickiness": 50.0,
         "survival_dd": 97.0,
         "rnd_intensity": 50.0,
-        "contrarian_inflection": 8.5,
-        "capital_momentum": 56.8,
-        "holding_trend": 6.2,
-        "earnings_drift": 52.0,
+        "contrarian_inflection": 7.3,
+        "capital_momentum": 58.0,
+        "holding_trend": 6.4,
+        "earnings_drift": 53.2,
         "value_yield": 50.0
       },
       "raw": {
@@ -2606,15 +2558,15 @@
     },
     "BMNR": {
       "factors": {
-        "operating_leverage": 11.6,
+        "operating_leverage": 9.9,
         "cost_stickiness": 50.0,
-        "survival_dd": 73.1,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 99.8,
-        "capital_momentum": 17.2,
-        "holding_trend": 46.5,
-        "earnings_drift": 2.8,
-        "value_yield": 17.0
+        "survival_dd": 73.7,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 99.9,
+        "capital_momentum": 17.7,
+        "holding_trend": 47.0,
+        "earnings_drift": 2.1,
+        "value_yield": 16.4
       },
       "raw": {
         "operating_leverage": -0.402,
@@ -2647,21 +2599,21 @@
         "hp_days": 13.9,
         "src": "yfinance"
       },
-      "composite": 41.1,
+      "composite": 40.8,
       "sector": "Financial Services",
       "price": 24.97,
       "discovered": false
     },
     "BOBS": {
       "factors": {
-        "operating_leverage": 61.9,
-        "cost_stickiness": 4.8,
-        "survival_dd": 23.1,
-        "rnd_intensity": 22.8,
-        "contrarian_inflection": 42.8,
-        "capital_momentum": 21.0,
+        "operating_leverage": 61.8,
+        "cost_stickiness": 5.9,
+        "survival_dd": 22.9,
+        "rnd_intensity": 22.4,
+        "contrarian_inflection": 41.8,
+        "capital_momentum": 20.4,
         "holding_trend": 50.0,
-        "earnings_drift": 20.3,
+        "earnings_drift": 22.2,
         "value_yield": 50.0
       },
       "raw": {
@@ -2672,7 +2624,7 @@
         "contrarian_inflection": 15.889,
         "capital_momentum": 35.733,
         "holding_trend": null,
-        "earnings_drift": 0.15,
+        "earnings_drift": 0.45,
         "value_yield": null
       },
       "diag": {
@@ -2684,7 +2636,7 @@
       "own": {
         "surprise": {
           "date": "2026-08-06",
-          "pct": 0.2,
+          "pct": 0.7,
           "next": "2026-11-11"
         },
         "inst_pct": 0.98581004,
@@ -2704,12 +2656,12 @@
       "factors": {
         "operating_leverage": 50.0,
         "cost_stickiness": 50.0,
-        "survival_dd": 41.6,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 40.5,
-        "capital_momentum": 17.1,
-        "holding_trend": 2.3,
-        "earnings_drift": 7.5,
+        "survival_dd": 41.2,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 40.0,
+        "capital_momentum": 16.9,
+        "holding_trend": 2.4,
+        "earnings_drift": 6.8,
         "value_yield": 50.0
       },
       "raw": {
@@ -2743,22 +2695,22 @@
         "hp_days": 1479.5,
         "src": "yfinance"
       },
-      "composite": 33.4,
+      "composite": 33.2,
       "sector": "Financial Services",
       "price": 5.96,
       "discovered": false
     },
     "CAPR": {
       "factors": {
-        "operating_leverage": 41.0,
-        "cost_stickiness": 99.2,
+        "operating_leverage": 40.5,
+        "cost_stickiness": 99.6,
         "survival_dd": 0.1,
         "rnd_intensity": 50.0,
-        "contrarian_inflection": 82.7,
+        "contrarian_inflection": 83.8,
         "capital_momentum": 0.0,
-        "holding_trend": 2.3,
-        "earnings_drift": 6.0,
-        "value_yield": 9.8
+        "holding_trend": 2.4,
+        "earnings_drift": 5.2,
+        "value_yield": 10.2
       },
       "raw": {
         "operating_leverage": 1.541,
@@ -2791,21 +2743,21 @@
         "hp_days": 5.0,
         "src": "yfinance"
       },
-      "composite": 32.9,
+      "composite": 33.0,
       "sector": "Healthcare",
       "price": 9.4,
       "discovered": false
     },
     "CBRS": {
       "factors": {
-        "operating_leverage": 16.1,
+        "operating_leverage": 14.7,
         "cost_stickiness": 50.0,
-        "survival_dd": 26.7,
+        "survival_dd": 27.0,
         "rnd_intensity": 98.5,
-        "contrarian_inflection": 91.9,
-        "capital_momentum": 23.0,
+        "contrarian_inflection": 92.2,
+        "capital_momentum": 22.9,
         "holding_trend": 50.0,
-        "earnings_drift": 88.7,
+        "earnings_drift": 89.8,
         "value_yield": 50.0
       },
       "raw": {
@@ -2839,22 +2791,22 @@
         "hp_days": 13.1,
         "src": "yfinance"
       },
-      "composite": 53.1,
+      "composite": 53.0,
       "sector": "Technology",
       "price": 210.05,
       "discovered": false
     },
     "CCL": {
       "factors": {
-        "operating_leverage": 69.7,
+        "operating_leverage": 69.8,
         "cost_stickiness": 50.0,
-        "survival_dd": 13.3,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 49.6,
-        "capital_momentum": 4.2,
-        "holding_trend": 66.3,
-        "earnings_drift": 39.9,
-        "value_yield": 65.2
+        "survival_dd": 13.4,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 49.8,
+        "capital_momentum": 5.2,
+        "holding_trend": 65.9,
+        "earnings_drift": 39.6,
+        "value_yield": 65.1
       },
       "raw": {
         "operating_leverage": 2.923,
@@ -2896,12 +2848,12 @@
       "factors": {
         "operating_leverage": 50.0,
         "cost_stickiness": 50.0,
-        "survival_dd": 64.8,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 3.9,
-        "capital_momentum": 63.1,
-        "holding_trend": 2.3,
-        "earnings_drift": 93.8,
+        "survival_dd": 65.0,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 4.2,
+        "capital_momentum": 62.6,
+        "holding_trend": 2.4,
+        "earnings_drift": 94.2,
         "value_yield": 50.0
       },
       "raw": {
@@ -2935,7 +2887,7 @@
         "hp_days": 24.5,
         "src": "yfinance"
       },
-      "composite": 43.6,
+      "composite": 43.7,
       "sector": "Financial Services",
       "price": 11.7,
       "discovered": false
@@ -2943,14 +2895,14 @@
     "COHU": {
       "factors": {
         "operating_leverage": 68.2,
-        "cost_stickiness": 40.0,
+        "cost_stickiness": 41.5,
         "survival_dd": 42.5,
-        "rnd_intensity": 87.9,
-        "contrarian_inflection": 64.1,
-        "capital_momentum": 95.6,
-        "holding_trend": 38.9,
-        "earnings_drift": 84.7,
-        "value_yield": 54.9
+        "rnd_intensity": 87.7,
+        "contrarian_inflection": 65.4,
+        "capital_momentum": 96.3,
+        "holding_trend": 40.8,
+        "earnings_drift": 85.6,
+        "value_yield": 53.8
       },
       "raw": {
         "operating_leverage": 2.834,
@@ -2983,22 +2935,70 @@
         "hp_days": 50.1,
         "src": "yfinance"
       },
-      "composite": 62.8,
+      "composite": 63.3,
       "sector": "Technology",
       "price": 50.72,
+      "discovered": false
+    },
+    "CRH": {
+      "factors": {
+        "operating_leverage": 33.3,
+        "cost_stickiness": 50.0,
+        "survival_dd": 51.5,
+        "rnd_intensity": 21.9,
+        "contrarian_inflection": 43.9,
+        "capital_momentum": 7.6,
+        "holding_trend": 34.4,
+        "earnings_drift": 12.1,
+        "value_yield": 54.4
+      },
+      "raw": {
+        "operating_leverage": 1.455,
+        "cost_stickiness": null,
+        "survival_dd": 6.251,
+        "rnd_intensity": 0.0,
+        "contrarian_inflection": 17.178,
+        "capital_momentum": 21.574,
+        "holding_trend": -2.211,
+        "earnings_drift": -2.47,
+        "value_yield": 3.22
+      },
+      "diag": {
+        "beta": 0.93,
+        "beta_trend": -0.303,
+        "vol": 0.32,
+        "debt": 19705000000.0
+      },
+      "own": {
+        "surprise": {
+          "date": "2026-07-30",
+          "pct": -4.2,
+          "next": "2026-10-29"
+        },
+        "inst_pct": 0.89527,
+        "inst_count": 1639,
+        "flow_13f": 0.0431,
+        "flow_date": "2026-06-30",
+        "ad60": -0.148,
+        "hp_days": 156.2,
+        "src": "yfinance"
+      },
+      "composite": 36.0,
+      "sector": "Basic Materials",
+      "price": 94.26,
       "discovered": false
     },
     "DELL": {
       "factors": {
         "operating_leverage": 50.0,
-        "cost_stickiness": 30.9,
-        "survival_dd": 38.3,
-        "rnd_intensity": 58.5,
-        "contrarian_inflection": 8.0,
-        "capital_momentum": 93.3,
-        "holding_trend": 25.3,
-        "earnings_drift": 64.2,
-        "value_yield": 24.0
+        "cost_stickiness": 33.3,
+        "survival_dd": 38.1,
+        "rnd_intensity": 58.1,
+        "contrarian_inflection": 7.8,
+        "capital_momentum": 93.6,
+        "holding_trend": 25.8,
+        "earnings_drift": 71.5,
+        "value_yield": 23.4
       },
       "raw": {
         "operating_leverage": 1.76,
@@ -3031,7 +3031,7 @@
         "hp_days": 39.1,
         "src": "yfinance"
       },
-      "composite": 41.5,
+      "composite": 42.3,
       "sector": "Technology",
       "price": 524.14,
       "discovered": false
@@ -3040,12 +3040,12 @@
       "factors": {
         "operating_leverage": 0.0,
         "cost_stickiness": 50.0,
-        "survival_dd": 21.8,
-        "rnd_intensity": 22.8,
+        "survival_dd": 21.5,
+        "rnd_intensity": 22.4,
         "contrarian_inflection": 51.5,
-        "capital_momentum": 22.4,
+        "capital_momentum": 21.8,
         "holding_trend": 50.0,
-        "earnings_drift": 80.8,
+        "earnings_drift": 81.3,
         "value_yield": 50.0
       },
       "raw": {
@@ -3079,22 +3079,70 @@
         "hp_days": 148.5,
         "src": "yfinance"
       },
-      "composite": 36.0,
+      "composite": 35.9,
       "sector": "Industrials",
       "price": 44.88,
       "discovered": false
     },
+    "ENOV": {
+      "factors": {
+        "operating_leverage": 3.3,
+        "cost_stickiness": 50.0,
+        "survival_dd": 3.0,
+        "rnd_intensity": 62.5,
+        "contrarian_inflection": 65.2,
+        "capital_momentum": 4.5,
+        "holding_trend": 19.7,
+        "earnings_drift": 43.9,
+        "value_yield": 94.7
+      },
+      "raw": {
+        "operating_leverage": -2.083,
+        "cost_stickiness": null,
+        "survival_dd": 0.921,
+        "rnd_intensity": 5.353,
+        "contrarian_inflection": 26.689,
+        "capital_momentum": 11.72,
+        "holding_trend": -27.659,
+        "earnings_drift": 4.23,
+        "value_yield": 17.34
+      },
+      "diag": {
+        "beta": 0.67,
+        "beta_trend": -0.616,
+        "vol": 0.63,
+        "debt": 1379535000.0
+      },
+      "own": {
+        "surprise": {
+          "date": "2026-08-06",
+          "pct": 6.3,
+          "next": "2026-11-04"
+        },
+        "inst_pct": 1.25,
+        "inst_count": 353,
+        "flow_13f": 0.1615,
+        "flow_date": "2026-06-30",
+        "ad60": -0.035,
+        "hp_days": 48.4,
+        "src": "yfinance"
+      },
+      "composite": 35.9,
+      "sector": "Healthcare",
+      "price": 18.56,
+      "discovered": false
+    },
     "EQPT": {
       "factors": {
-        "operating_leverage": 44.0,
+        "operating_leverage": 43.6,
         "cost_stickiness": 50.0,
-        "survival_dd": 4.3,
-        "rnd_intensity": 22.0,
-        "contrarian_inflection": 71.4,
-        "capital_momentum": 74.7,
+        "survival_dd": 5.2,
+        "rnd_intensity": 21.9,
+        "contrarian_inflection": 72.1,
+        "capital_momentum": 74.5,
         "holding_trend": 50.0,
-        "earnings_drift": 98.9,
-        "value_yield": 7.7
+        "earnings_drift": 98.7,
+        "value_yield": 8.2
       },
       "raw": {
         "operating_leverage": 1.603,
@@ -3127,22 +3175,22 @@
         "hp_days": 92.0,
         "src": "yfinance"
       },
-      "composite": 44.7,
+      "composite": 44.9,
       "sector": "Industrials",
       "price": 19.55,
       "discovered": false
     },
     "ET": {
       "factors": {
-        "operating_leverage": 17.8,
-        "cost_stickiness": 33.9,
-        "survival_dd": 84.7,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 3.7,
-        "capital_momentum": 60.1,
-        "holding_trend": 79.3,
-        "earnings_drift": 77.7,
-        "value_yield": 61.8
+        "operating_leverage": 16.4,
+        "cost_stickiness": 36.6,
+        "survival_dd": 84.0,
+        "rnd_intensity": 22.1,
+        "contrarian_inflection": 3.4,
+        "capital_momentum": 60.4,
+        "holding_trend": 79.8,
+        "earnings_drift": 76.8,
+        "value_yield": 61.6
       },
       "raw": {
         "operating_leverage": 0.174,
@@ -3167,7 +3215,7 @@
           "pct": 60.4,
           "next": "2026-11-04"
         },
-        "inst_pct": 0.32512,
+        "inst_pct": 0.32513002,
         "inst_count": 1426,
         "flow_13f": 0.0228,
         "flow_date": "2026-06-30",
@@ -3175,201 +3223,9 @@
         "hp_days": 429.5,
         "src": "yfinance"
       },
-      "composite": 47.2,
+      "composite": 47.0,
       "sector": "Energy",
       "price": 21.5,
-      "discovered": false
-    },
-    "EVH": {
-      "factors": {
-        "operating_leverage": 6.3,
-        "cost_stickiness": 46.9,
-        "survival_dd": 1.4,
-        "rnd_intensity": 22.4,
-        "contrarian_inflection": 91.3,
-        "capital_momentum": 13.0,
-        "holding_trend": 42.2,
-        "earnings_drift": 97.1,
-        "value_yield": 96.7
-      },
-      "raw": {
-        "operating_leverage": -1.783,
-        "cost_stickiness": 0.022,
-        "survival_dd": 0.079,
-        "rnd_intensity": 0.0,
-        "contrarian_inflection": 58.229,
-        "capital_momentum": 33.801,
-        "holding_trend": 11.058,
-        "earnings_drift": 66.67,
-        "value_yield": 37.73
-      },
-      "diag": {
-        "beta": 0.69,
-        "beta_trend": -0.245,
-        "vol": 0.81,
-        "debt": 989698000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-08-06",
-          "pct": 229.9,
-          "next": "2026-11-05"
-        },
-        "inst_pct": 1.01897,
-        "inst_count": 270,
-        "flow_13f": 0.097,
-        "flow_date": "2026-06-30",
-        "ad60": -0.019,
-        "hp_days": 40.9,
-        "src": "yfinance"
-      },
-      "composite": 43.6,
-      "sector": "Healthcare",
-      "price": 4.32,
-      "discovered": false
-    },
-    "F": {
-      "factors": {
-        "operating_leverage": 7.1,
-        "cost_stickiness": 40.3,
-        "survival_dd": 18.9,
-        "rnd_intensity": 22.8,
-        "contrarian_inflection": 26.8,
-        "capital_momentum": 7.2,
-        "holding_trend": 83.6,
-        "earnings_drift": 60.9,
-        "value_yield": 11.0
-      },
-      "raw": {
-        "operating_leverage": -1.136,
-        "cost_stickiness": -0.004,
-        "survival_dd": 3.087,
-        "rnd_intensity": 0.0,
-        "contrarian_inflection": 9.1,
-        "capital_momentum": 23.89,
-        "holding_trend": 54.905,
-        "earnings_drift": 12.05,
-        "value_yield": -13.62
-      },
-      "diag": {
-        "beta": 0.54,
-        "beta_trend": -0.722,
-        "vol": 0.38,
-        "debt": 165738000000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-07-28",
-          "pct": 21.3,
-          "next": "2026-10-22"
-        },
-        "inst_pct": 0.67947,
-        "inst_count": 2214,
-        "flow_13f": 0.0392,
-        "flow_date": "2026-06-30",
-        "ad60": -0.088,
-        "hp_days": 96.8,
-        "src": "yfinance"
-      },
-      "composite": 28.9,
-      "sector": "Consumer Cyclical",
-      "price": 14.62,
-      "discovered": false
-    },
-    "FLNC": {
-      "factors": {
-        "operating_leverage": 73.0,
-        "cost_stickiness": 65.6,
-        "survival_dd": 8.7,
-        "rnd_intensity": 61.2,
-        "contrarian_inflection": 84.1,
-        "capital_momentum": 60.9,
-        "holding_trend": 62.5,
-        "earnings_drift": 1.4,
-        "value_yield": 25.0
-      },
-      "raw": {
-        "operating_leverage": 3.208,
-        "cost_stickiness": 0.381,
-        "survival_dd": 1.639,
-        "rnd_intensity": 3.81,
-        "contrarian_inflection": 43.473,
-        "capital_momentum": 59.11,
-        "holding_trend": 34.345,
-        "earnings_drift": -65.56,
-        "value_yield": 0.13
-      },
-      "diag": {
-        "beta": 4.66,
-        "beta_trend": 0.831,
-        "vol": 1.27,
-        "debt": 390804000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-08-05",
-          "pct": -1997.7,
-          "next": "2026-11-23"
-        },
-        "inst_pct": 0.84982,
-        "inst_count": 429,
-        "flow_13f": -0.0063,
-        "flow_date": "2026-06-30",
-        "ad60": -0.197,
-        "hp_days": 25.7,
-        "src": "yfinance"
-      },
-      "composite": 49.6,
-      "sector": "Utilities",
-      "price": 10.35,
-      "discovered": false
-    },
-    "FORM": {
-      "factors": {
-        "operating_leverage": 3.2,
-        "cost_stickiness": 43.8,
-        "survival_dd": 71.0,
-        "rnd_intensity": 79.1,
-        "contrarian_inflection": 65.2,
-        "capital_momentum": 98.6,
-        "holding_trend": 28.1,
-        "earnings_drift": 68.1,
-        "value_yield": 41.7
-      },
-      "raw": {
-        "operating_leverage": -2.841,
-        "cost_stickiness": 0.021,
-        "survival_dd": 8.816,
-        "rnd_intensity": 14.737,
-        "contrarian_inflection": 30.564,
-        "capital_momentum": 104.84,
-        "holding_trend": -13.323,
-        "earnings_drift": 19.89,
-        "value_yield": 1.42
-      },
-      "diag": {
-        "beta": 5.71,
-        "beta_trend": 1.688,
-        "vol": 0.86,
-        "debt": 32358000.0
-      },
-      "own": {
-        "surprise": {
-          "date": "2026-07-29",
-          "pct": 34.4,
-          "next": "2026-10-28"
-        },
-        "inst_pct": 0.94466,
-        "inst_count": 678,
-        "flow_13f": -0.1097,
-        "flow_date": "2026-06-30",
-        "ad60": -0.113,
-        "hp_days": 73.2,
-        "src": "yfinance"
-      },
-      "composite": 52.9,
-      "sector": "Technology",
-      "price": 103.9,
       "discovered": false
     }
   },
@@ -3383,9 +3239,9 @@
   },
   "discovered": [
     "AMD",
-    "ALAB",
     "PLTR",
     "KGC",
+    "ALAB",
     "FLYW",
     "NEM",
     "CORZ",
@@ -3396,25 +3252,25 @@
     "AA",
     "CLS",
     "DDOG",
-    "NVDA",
     "WDC",
+    "NVDA",
     "ADI",
     "BKR",
-    "AR",
     "AVGO",
     "CNQ",
     "HBM",
     "BMY",
-    "CDE",
     "UMC",
+    "AR",
+    "OXY",
     "SMCI",
+    "CDE",
     "FIS",
     "AGNC",
     "CVE",
     "HST",
     "IREN",
     "NLY",
-    "OXY",
     "SKHY",
     "VG",
     "AAL",
@@ -3424,7 +3280,6 @@
     "AEHR",
     "AEO",
     "AFRM",
-    "AIG",
     "AMC",
     "AMKR",
     "APA",
@@ -3444,25 +3299,23 @@
     "CCL",
     "CLBK",
     "COHU",
+    "CRH",
     "DELL",
     "DPC",
+    "ENOV",
     "EQPT",
-    "ET",
-    "EVH",
-    "F",
-    "FLNC",
-    "FORM"
+    "ET"
   ],
   "coverage": {
-    "operating_leverage": 64,
-    "cost_stickiness": 33,
-    "survival_dd": 70,
-    "rnd_intensity": 68,
-    "contrarian_inflection": 70,
-    "capital_momentum": 70,
-    "holding_trend": 65,
-    "earnings_drift": 70,
-    "value_yield": 61,
-    "_total": 70
+    "operating_leverage": 61,
+    "cost_stickiness": 29,
+    "survival_dd": 67,
+    "rnd_intensity": 65,
+    "contrarian_inflection": 67,
+    "capital_momentum": 67,
+    "holding_trend": 62,
+    "earnings_drift": 67,
+    "value_yield": 58,
+    "_total": 67
   }
 }
