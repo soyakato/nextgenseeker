@@ -1,14 +1,92 @@
 {
-  "updated": "2026-09-06T15:28:46.095849+00:00",
+  "updated": "2026-09-06T20:25:09.781641+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "CNQ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 26,
+      "first_seen": "2026-07-08",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 59.2,
+      "confirm": 60.1,
+      "signal": 72.8,
+      "mom": {
+        "ret5": 0.03,
+        "vol_surge": 1.07
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Which TSX stocks investors will be watching next week?",
+          "summary": "Investing.com -- Canadian energy stocks are set to command attention on the TSX this week as analyst upgrades and tariff-related headlines drive trading activity, while major banks draw scrutiny over buybacks, earnings prospects and strategic moves.",
+          "pub": "2026-09-06T11:52",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tsx-stocks-investors-watching-next-115208497.html",
+          "dir": 0.1,
+          "conf": 0.09999999999999998,
+          "type": "格上げ",
+          "why": "+格上げ -規制・関税"
+        },
+        {
+          "title": "Dow Jones Futures Rise As Oil Prices Fall; Dell, Credo, Palo Alto Are Earnings Movers",
+          "summary": "The Dow Jones and Nasdaq 100 fell below their 50-day lines as oil prices jumped. Dell, Palo Alto and Credo were earnings movers late.",
+          "pub": "2026-09-02T12:11",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Oil Stocks Hit New Highs After U.S. Resumes Strikes in Strait of Hormuz",
+          "summary": "Renewed U.S. strikes in the Strait of Hormuz sent shares of major oil companies higher Tuesday, with several on track for record highs.  “The United States is, as we speak, striking Iranian Targets near the Strait of Hormuz,” President Donald Trump said in a post on Truth Social Tuesday afternoon.",
+          "pub": "2026-09-01T21:17",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/oil-stocks-jump-strikes-strait-of-hormuz-d440f751?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Canadian Oil Stock Edges Into Buy Zone After 200% Earnings Growth",
+          "summary": "Canadian Natural Resources rose 2.5% on Tuesday. The stock is inching toward a handle buy point of 51.48.",
+          "pub": "2026-09-01T18:07",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/ibd-stock-of-the-day/oil-prices-canadian-natural-resources-valero-marathon-petroleum-natural-gas-canada/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Here's Why a Hold Strategy Is Apt for Canadian Natural Stock Now",
+          "summary": "CNQ's record production, low-cost oil sands assets and growth initiatives support its outlook, but commodity risks and a Horizon turnaround warrant caution.",
+          "pub": "2026-09-01T16:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-strategy-apt-161500477.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
     {
       "ticker": "MU",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 17,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
@@ -36,11 +114,22 @@
           "is_edgar": true
         },
         {
-          "title": "Dow Jones Futures Loom After U.S.-Iran Attacks; Nvidia, Micron, Sandisk Flash Buy Signals",
+          "title": "Dow Jones Futures Due With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
           "summary": "Dow Jones futures: The U.S. and Iran exchanged attacks. Nvidia, Micron, Sandisk are buys, but for how long? Apple, inflation data loom.",
-          "pub": "2026-09-06T14:54",
+          "pub": "2026-09-06T20:06",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
+          "summary": "One wave of AI spending pays all five of these companies. Why do their discounts run from 2.6% to 32%?",
+          "pub": "2026-09-06T17:34",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/06/nvidia-is-near-its-high-while-its-biggest-chip-peers-sit-18-to-32-below-theirs-these-are-the-chip-stocks-to-buy/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -58,22 +147,11 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Broadcom And 2 Top Growth Stocks To Watch",
-          "summary": "Strong US jobs data has kept the prospect of further Federal Reserve rate hikes firmly on the table, which keeps pressure on companies that rely too heavily on cheap borrowing. That is exactly why investors are paying closer attention to businesses that combine solid balance sheets with strong earni",
-          "pub": "2026-09-06T12:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-2-top-growth-stocks-121016991.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "3 Great Quality Stocks To Own In September 2026",
-          "summary": "With inflation data guiding expectations for future central bank moves, many investors are looking for companies that can hold their own if borrowing costs stay high for longer than hoped. Solid profitability, strong returns on shareholder equity and sensible use of debt can help cushion portfolio s",
-          "pub": "2026-09-05T20:14",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-great-quality-stocks-own-201414086.html",
+          "title": "Micron Stock More Than Tripled in 2026. Now Taiwan Strike Threat Could Shake the AI Boom.",
+          "summary": "Wall Street remains bullish on Micron, although a prolonged labor dispute could disrupt production and put pressure on the company’s AI growth story.",
+          "pub": "2026-09-06T13:00",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/4467449/micron-stock-more-than-tripled-in-2026-now-taiwan-strike-threat-could-shake-the-ai-boom",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -156,91 +234,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 10,
-      "today_rank": 26,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.2,
-      "confirm": 67.8,
-      "signal": 71.5,
-      "mom": {
-        "ret5": 0.0589,
-        "vol_surge": 1.01
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-08-26",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Needham",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "Bernstein",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -328,7 +321,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 18,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
@@ -406,7 +399,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 24,
+      "today_rank": 23,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
@@ -445,6 +438,17 @@
           "why": "特定イベント検出なし"
         },
         {
+          "title": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
+          "summary": "One wave of AI spending pays all five of these companies. Why do their discounts run from 2.6% to 32%?",
+          "pub": "2026-09-06T17:34",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/06/nvidia-is-near-its-high-while-its-biggest-chip-peers-sit-18-to-32-below-theirs-these-are-the-chip-stocks-to-buy/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Broadcom And 2 Top Growth Stocks To Watch",
           "summary": "Strong US jobs data has kept the prospect of further Federal Reserve rate hikes firmly on the table, which keeps pressure on companies that rely too heavily on cheap borrowing. That is exactly why investors are paying closer attention to businesses that combine solid balance sheets with strong earni",
           "pub": "2026-09-06T12:10",
@@ -465,17 +469,6 @@
           "conf": 0.6,
           "type": "契約・提携",
           "why": "+契約・提携"
-        },
-        {
-          "title": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
-          "summary": "Both companies are delivering impressive revenue growth.",
-          "pub": "2026-09-05T19:05",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/05/broadcom-vs-nvidia-1-critical-metric-shows-which-a/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -528,6 +521,17 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
+          "summary": "One wave of AI spending pays all five of these companies. Why do their discounts run from 2.6% to 32%?",
+          "pub": "2026-09-06T17:34",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/06/nvidia-is-near-its-high-while-its-biggest-chip-peers-sit-18-to-32-below-theirs-these-are-the-chip-stocks-to-buy/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "China Is Still Chasing Nvidia’s 3-Year-Old Chip — While Nvidia Has Moved Generations Ahead",
           "summary": "Huawei's best AI chip cannot keep pace with Nvidia hardware that is already three generations old, and the gap is widening faster than most investors realize.",
           "pub": "2026-09-06T14:35",
@@ -544,17 +548,6 @@
           "pub": "2026-09-05T22:03",
           "provider": "Motley Fool",
           "url": "https://www.fool.com/investing/2026/09/05/amd-committed-up-to-usd5-billion-to-anthropic-and-anthropic-s-ipo-prospectus-is-reportedly-days-away/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
-          "summary": "Both companies are delivering impressive revenue growth.",
-          "pub": "2026-09-05T19:05",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/05/broadcom-vs-nvidia-1-critical-metric-shows-which-a/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -646,7 +639,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 23,
+      "today_rank": 25,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
@@ -959,7 +952,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 16,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
