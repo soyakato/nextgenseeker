@@ -1,14 +1,92 @@
 {
-  "updated": "2026-09-06T04:40:43.476902+00:00",
+  "updated": "2026-09-06T10:58:19.980351+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "CNQ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 26,
+      "first_seen": "2026-07-08",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 60.9,
+      "confirm": 60.1,
+      "signal": 73.5,
+      "mom": {
+        "ret5": 0.03,
+        "vol_surge": 1.07
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Dow Jones Futures Rise As Oil Prices Fall; Dell, Credo, Palo Alto Are Earnings Movers",
+          "summary": "The Dow Jones and Nasdaq 100 fell below their 50-day lines as oil prices jumped. Dell, Palo Alto and Credo were earnings movers late.",
+          "pub": "2026-09-02T12:11",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Oil Stocks Hit New Highs After U.S. Resumes Strikes in Strait of Hormuz",
+          "summary": "Renewed U.S. strikes in the Strait of Hormuz sent shares of major oil companies higher Tuesday, with several on track for record highs.  “The United States is, as we speak, striking Iranian Targets near the Strait of Hormuz,” President Donald Trump said in a post on Truth Social Tuesday afternoon.",
+          "pub": "2026-09-01T21:17",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/oil-stocks-jump-strikes-strait-of-hormuz-d440f751?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Canadian Oil Stock Edges Into Buy Zone After 200% Earnings Growth",
+          "summary": "Canadian Natural Resources rose 2.5% on Tuesday. The stock is inching toward a handle buy point of 51.48.",
+          "pub": "2026-09-01T18:07",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/ibd-stock-of-the-day/oil-prices-canadian-natural-resources-valero-marathon-petroleum-natural-gas-canada/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Here's Why a Hold Strategy Is Apt for Canadian Natural Stock Now",
+          "summary": "CNQ's record production, low-cost oil sands assets and growth initiatives support its outlook, but commodity risks and a Horizon turnaround warrant caution.",
+          "pub": "2026-09-01T16:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-strategy-apt-161500477.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "The Winners and Losers From Trump’s Venezuelan Oil Deal",
+          "summary": "Valero Energy and Halliburton are oil services firms that could win more business in Venezuela. Suncor and other companies that compete against Venezuelan resources could be hurt.",
+          "pub": "2026-08-31T19:44",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/valero-energy-stock-halliburton-venezuela-oil-ab2fd190?siteid=yhoof2&yptr=yahoo",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "契約・提携",
+          "why": "+契約・提携 +受注"
+        }
+      ]
+    },
     {
       "ticker": "MU",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 17,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
@@ -156,91 +234,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 10,
-      "today_rank": 25,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 67.8,
-      "signal": 71.0,
-      "mom": {
-        "ret5": 0.0589,
-        "vol_surge": 1.01
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-08-26",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Needham",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "Bernstein",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -407,7 +400,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 19,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
@@ -559,6 +552,84 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "BMY",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 14,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
+      "persist": 100,
+      "news": 57.2,
+      "confirm": 46.4,
+      "signal": 68.5,
+      "mom": {
+        "ret5": 0.0036,
+        "vol_surge": 0.69
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Wall Street Money Is Leaving Just As Atrium’s (RNA) Pipeline Turns Real",
+          "summary": "On August 13, Atrium Therapeutics (NASDAQ:RNA) reported second-quarter 2026 results that mixed real clinical progress with a familiar biotech question: how long the cash lasts. The company disclosed FDA clearance of its IND application for ATR 1072 and the launch of Corventis, its first Phase 1/2 tr",
+          "pub": "2026-09-06T10:44",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/healthcare/articles/wall-street-money-leaving-just-104402645.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "承認",
+          "why": "+承認 +拡大・新製品"
+        },
+        {
+          "title": "Why Bristol Myers Squibb (BMY) Dipped More Than Broader Market Today",
+          "summary": "In the most recent trading session, Bristol Myers Squibb (BMY) closed at $66.82, indicating a -1.87% shift from the previous trading day.",
+          "pub": "2026-09-04T21:45",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-bristol-myers-squibb-bmy-214503995.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
+          "summary": "Healthcare stocks were lower late Friday afternoon, with the NYSE Healthcare Index falling 1.2% and",
+          "pub": "2026-09-04T19:48",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Sector Update: Healthcare Stocks Decline Friday Afternoon",
+          "summary": "Healthcare stocks were lower Friday afternoon, with the NYSE Healthcare Index and the State Street H",
+          "pub": "2026-09-04T17:41",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-174105757.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Drugmakers Halt Autoimmune Trials After Deaths, Life-Threatening Side Effects",
+          "summary": "Trial freezes by Novartis and Bristol Myers have triggered a race to understand why a promising autoimmune treatment turned risky.",
+          "pub": "2026-09-04T13:42",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/health/pharma/drugmakers-halt-autoimmune-trials-after-deaths-life-threatening-side-effects-14e786fd?siteid=yhoof2&yptr=yahoo",
+          "dir": -0.7,
+          "conf": 0.7,
+          "type": "リコール・停止",
+          "why": "-リコール・停止"
         }
       ]
     },
@@ -798,90 +869,12 @@
       ]
     },
     {
-      "ticker": "BMY",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 21,
-      "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 50.9,
-      "confirm": 46.4,
-      "signal": 65.9,
-      "mom": {
-        "ret5": 0.0036,
-        "vol_surge": 0.69
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Why Bristol Myers Squibb (BMY) Dipped More Than Broader Market Today",
-          "summary": "In the most recent trading session, Bristol Myers Squibb (BMY) closed at $66.82, indicating a -1.87% shift from the previous trading day.",
-          "pub": "2026-09-04T21:45",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-bristol-myers-squibb-bmy-214503995.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
-          "summary": "Healthcare stocks were lower late Friday afternoon, with the NYSE Healthcare Index falling 1.2% and",
-          "pub": "2026-09-04T19:48",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-194843740.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Sector Update: Healthcare Stocks Decline Friday Afternoon",
-          "summary": "Healthcare stocks were lower Friday afternoon, with the NYSE Healthcare Index and the State Street H",
-          "pub": "2026-09-04T17:41",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-174105757.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Drugmakers Halt Autoimmune Trials After Deaths, Life-Threatening Side Effects",
-          "summary": "Trial freezes by Novartis and Bristol Myers have triggered a race to understand why a promising autoimmune treatment turned risky.",
-          "pub": "2026-09-04T13:42",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/health/pharma/drugmakers-halt-autoimmune-trials-after-deaths-life-threatening-side-effects-14e786fd?siteid=yhoof2&yptr=yahoo",
-          "dir": -0.7,
-          "conf": 0.7,
-          "type": "リコール・停止",
-          "why": "-リコール・停止"
-        },
-        {
-          "title": "Market Chatter: Bristol Myers Squibb Paused Zola-Cel Trials Over Safety Concerns",
-          "summary": "Bristol Myers Squibb (BMY) has told regulators, researchers and patient groups in early June that it",
-          "pub": "2026-09-04T09:10",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/market-chatter-bristol-myers-squibb-091029806.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 13,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
@@ -1252,6 +1245,14 @@
       "grades": {}
     },
     {
+      "date": "2026-09-06",
+      "ticker": "CNQ",
+      "signal": 73.5,
+      "price": 50.46,
+      "spy": 770.1900024414062,
+      "grades": {}
+    },
+    {
       "date": "2026-09-05",
       "ticker": "NVDA",
       "signal": 72.3,
@@ -1312,14 +1313,6 @@
       "ticker": "ADI",
       "signal": 68.5,
       "price": 362.25,
-      "spy": 770.1900024414062,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-05",
-      "ticker": "FLYW",
-      "signal": 68.3,
-      "price": 18.55,
       "spy": 770.1900024414062,
       "grades": {}
     }
