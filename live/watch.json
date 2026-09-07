@@ -1,85 +1,7 @@
 {
-  "updated": "2026-09-07T04:43:30.782116+00:00",
+  "updated": "2026-09-07T12:34:39.598934+00:00",
   "judge_source": "rule-based",
   "signals": [
-    {
-      "ticker": "CNQ",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 26,
-      "first_seen": "2026-07-08",
-      "name": "Canadian Natural Resources Limi",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 59.2,
-      "confirm": 60.1,
-      "signal": 72.8,
-      "mom": {
-        "ret5": 0.03,
-        "vol_surge": 1.07
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Which TSX stocks investors will be watching next week?",
-          "summary": "Investing.com -- Canadian energy stocks are set to command attention on the TSX this week as analyst upgrades and tariff-related headlines drive trading activity, while major banks draw scrutiny over buybacks, earnings prospects and strategic moves.",
-          "pub": "2026-09-06T11:52",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsx-stocks-investors-watching-next-115208497.html",
-          "dir": 0.1,
-          "conf": 0.09999999999999998,
-          "type": "格上げ",
-          "why": "+格上げ -規制・関税"
-        },
-        {
-          "title": "Dow Jones Futures Rise As Oil Prices Fall; Dell, Credo, Palo Alto Are Earnings Movers",
-          "summary": "The Dow Jones and Nasdaq 100 fell below their 50-day lines as oil prices jumped. Dell, Palo Alto and Credo were earnings movers late.",
-          "pub": "2026-09-02T12:11",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Oil Stocks Hit New Highs After U.S. Resumes Strikes in Strait of Hormuz",
-          "summary": "Renewed U.S. strikes in the Strait of Hormuz sent shares of major oil companies higher Tuesday, with several on track for record highs.  “The United States is, as we speak, striking Iranian Targets near the Strait of Hormuz,” President Donald Trump said in a post on Truth Social Tuesday afternoon.",
-          "pub": "2026-09-01T21:17",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/oil-stocks-jump-strikes-strait-of-hormuz-d440f751?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Canadian Oil Stock Edges Into Buy Zone After 200% Earnings Growth",
-          "summary": "Canadian Natural Resources rose 2.5% on Tuesday. The stock is inching toward a handle buy point of 51.48.",
-          "pub": "2026-09-01T18:07",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/ibd-stock-of-the-day/oil-prices-canadian-natural-resources-valero-marathon-petroleum-natural-gas-canada/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Here's Why a Hold Strategy Is Apt for Canadian Natural Stock Now",
-          "summary": "CNQ's record production, low-cost oil sands assets and growth initiatives support its outlook, but commodity risks and a Horizon turnaround warrant caution.",
-          "pub": "2026-09-01T16:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-strategy-apt-161500477.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
     {
       "ticker": "MU",
       "tier": "確定",
@@ -91,9 +13,9 @@
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.0,
+      "news": 49.4,
       "confirm": 72.7,
-      "signal": 71.9,
+      "signal": 72.0,
       "mom": {
         "ret5": 0.0898,
         "vol_surge": 0.72
@@ -114,6 +36,28 @@
           "is_edgar": true
         },
         {
+          "title": "Sandisk Jumps 12% as AI Storage Trade Keeps Running",
+          "summary": "The stock closed at $1,739.02 as investors piled back into memory and storage names.",
+          "pub": "2026-09-07T12:10",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-jumps-12-ai-storage-121051569.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Micron Jumps 6% as AI Memory Trade Keeps Running",
+          "summary": "Shares closed at $1,016.59 as chip stocks rallied and investors continued to bet on tight AI-memory supply",
+          "pub": "2026-09-07T12:09",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/micron-jumps-6-ai-memory-120948403.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
           "title": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
           "summary": "Dow Jones futures: The U.S. and Iran exchanged attacks. Nvidia, Micron, Sandisk are buys, but for how long? Apple, inflation data loom.",
           "pub": "2026-09-07T03:06",
@@ -130,28 +74,6 @@
           "pub": "2026-09-06T17:34",
           "provider": "Motley Fool",
           "url": "https://www.fool.com/investing/2026/09/06/nvidia-is-near-its-high-while-its-biggest-chip-peers-sit-18-to-32-below-theirs-these-are-the-chip-stocks-to-buy/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Prediction: Micron Stock Will Skyrocket After Sept. 30",
-          "summary": "Micron's earnings report is the catalyst the stock needs to kick-start its rise.",
-          "pub": "2026-09-06T13:32",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/06/prediction-micron-stock-will-skyrocket-after-septe/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron Stock More Than Tripled in 2026. Now Taiwan Strike Threat Could Shake the AI Boom.",
-          "summary": "Wall Street remains bullish on Micron, although a prolonged labor dispute could disrupt production and put pressure on the company’s AI growth story.",
-          "pub": "2026-09-06T13:00",
-          "provider": "Barchart",
-          "url": "https://www.barchart.com/story/news/4467449/micron-stock-more-than-tripled-in-2026-now-taiwan-strike-threat-could-shake-the-ai-boom",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -321,7 +243,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 19,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
@@ -427,22 +349,22 @@
           "is_edgar": true
         },
         {
-          "title": "These AI numbers are getting crazy",
-          "summary": "The past two weeks have been bonkers for the AI investment thesis, and any talk about peak AI needs to be tossed aside.",
-          "pub": "2026-09-06T12:30",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/these-ai-numbers-are-getting-crazy-123000121.html",
+          "title": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
+          "summary": "One wave of AI spending pays all five of these companies. Why do their discounts run from 2.6% to 32%?",
+          "pub": "2026-09-06T17:34",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/06/nvidia-is-near-its-high-while-its-biggest-chip-peers-sit-18-to-32-below-theirs-these-are-the-chip-stocks-to-buy/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
-          "summary": "One wave of AI spending pays all five of these companies. Why do their discounts run from 2.6% to 32%?",
-          "pub": "2026-09-06T17:34",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/06/nvidia-is-near-its-high-while-its-biggest-chip-peers-sit-18-to-32-below-theirs-these-are-the-chip-stocks-to-buy/",
+          "title": "These AI numbers are getting crazy",
+          "summary": "The past two weeks have been bonkers for the AI investment thesis, and any talk about peak AI needs to be tossed aside.",
+          "pub": "2026-09-06T12:30",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/these-ai-numbers-are-getting-crazy-123000121.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -629,6 +551,89 @@
       ]
     },
     {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 53.0,
+      "confirm": 51.9,
+      "signal": 68.1,
+      "mom": {
+        "ret5": 0.0258,
+        "vol_surge": 0.61
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストupgrade: Outperform→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-25",
+          "provider": "Raymond James",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-21",
+          "provider": "BMO Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Micron Jumps 6% as AI Memory Trade Keeps Running",
+          "summary": "Shares closed at $1,016.59 as chip stocks rallied and investors continued to bet on tight AI-memory supply",
+          "pub": "2026-09-07T12:09",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/micron-jumps-6-ai-memory-120948403.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Nvidia just sent a strong signal to AMD and Intel investors",
+          "summary": "Nvidia’s earnings report had a number buried inside that AMD and Intel investors needed to see.",
+          "pub": "2026-09-07T11:03",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/nvidia-vera-cpu-strong-signal-to-amd-intel-investors",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "AMD and Intel Soared as Nvidia Lagged: Has the AI Trade Changed?",
+          "summary": "AMD gained 4.7% and Intel rose 4.5% on September 4, while Nvidia added only 0.8%. The one-session gap is consistent with investors widening the AI trade beyond Nvidia, but it cannot identify buyer motive or prove a lasting rotation. Advanced Micro Devices, Inc. (NASDAQ:AMD) and Intel Corporation (NA",
+          "pub": "2026-09-07T08:25",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amd-intel-soared-nvidia-lagged-082539405.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        }
+      ]
+    },
+    {
       "ticker": "FLYW",
       "tier": "確定",
       "streak": 43,
@@ -703,89 +708,6 @@
           "conf": 0.6,
           "type": "契約・提携",
           "why": "+契約・提携"
-        }
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 52.1,
-      "confirm": 51.9,
-      "signal": 67.8,
-      "mom": {
-        "ret5": 0.0258,
-        "vol_surge": 0.61
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストupgrade: Outperform→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-25",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-21",
-          "provider": "BMO Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Prediction: Data Center Passes 70% of AMD's Revenue in 2027, Before the Helios Ramp Is Finished",
-          "summary": "One segment doubled last quarter while everything else combined grew 8%. If rates anywhere close to those hold, 70% arrives before the ramp is done.",
-          "pub": "2026-09-07T02:46",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/06/prediction-data-center-passes-70-of-amd-s-revenue-in-2027-before-the-helios-ramp-is-finished/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Did Nvidia Just Say Checkmate to AMD and Intel?",
-          "summary": "Nvidia is making a $12 billion move.",
-          "pub": "2026-09-06T22:30",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/06/did-nvidia-just-say-checkmate-to-amd-and-intel/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
-          "summary": "One wave of AI spending pays all five of these companies. Why do their discounts run from 2.6% to 32%?",
-          "pub": "2026-09-06T17:34",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/06/nvidia-is-near-its-high-while-its-biggest-chip-peers-sit-18-to-32-below-theirs-these-are-the-chip-stocks-to-buy/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -869,12 +791,90 @@
       ]
     },
     {
+      "ticker": "AMKR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 17,
+      "today_rank": 26,
+      "first_seen": "2026-07-08",
+      "name": "Amkor Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.9,
+      "confirm": 45.2,
+      "signal": 65.5,
+      "mom": {
+        "ret5": -0.0005,
+        "vol_surge": 0.69
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Zacks.com featured highlights include Par Pacific, Amkor Technology, Kohl's, Avnet and Ecovyst",
+          "summary": "Five bargain stocks stand out for attractive EV-to-EBITDA ratios, strong earnings growth expectations and upwardly revised estimates.",
+          "pub": "2026-09-03T13:37",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-par-133700995.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Pick These 5 Bargain Stocks With Exciting EV-to-EBITDA Ratios",
+          "summary": "PARR, AMKR, KSS, AVT and ECVT stand out with attractive EV-to-EBITDA ratios and strong earnings outlook.",
+          "pub": "2026-09-02T13:04",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pick-5-bargain-stocks-exciting-130400219.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Zacks.com featured highlights include Match Group, Amkor Technology and HF Sinclair",
+          "summary": "Match Group, Amkor Technology and HF Sinclair offer value as rising yields, oil prices and rate uncertainty fuel market volatility.",
+          "pub": "2026-09-02T12:56",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-match-125600428.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Lam Research, Monolithic Power Systems, Texas Instruments, FormFactor, and Amkor Shares Are Falling, What You Need To Know",
+          "summary": "A number of stocks fell in the afternoon session after surging crude oil prices and a jump in benchmark Treasury yields stoked renewed concerns over inflation and prolonged corporate borrowing costs.",
+          "pub": "2026-09-01T22:10",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-monolithic-power-systems-221020561.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "AMKR vs. NVMI: Which Stock Is the Better Value Option?",
+          "summary": "AMKR vs. NVMI: Which Stock Is the Better Value Option?",
+          "pub": "2026-08-31T15:40",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkr-vs-nvmi-stock-better-154002312.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 13,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
@@ -1086,6 +1086,17 @@
       },
       "headlines": [
         {
+          "title": "Down Nearly 50% in 2026, Is BigBear.ai Stock Cheap Enough to Finally Buy?",
+          "summary": "The tech stock has fallen considerably from a high of more than $9 that it hit last year.",
+          "pub": "2026-09-07T12:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/07/down-nearly-50-in-2026-is-bigbear-ai-cheap-enough-to-finally-buy/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'",
           "summary": "Companies have long worried about artificial intelligence exposing sensitive data. Palantir Technologies Inc. CEO Alex Karp says they’re focused on the wrong threat. Speaking at the G20 Innovation Ministerial, Karp argued that the real strategic risk isn’t losing data —...",
           "pub": "2026-09-07T01:30",
@@ -1128,17 +1139,6 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
-        },
-        {
-          "title": "3 Great Quality Stocks To Own In September 2026",
-          "summary": "With inflation data guiding expectations for future central bank moves, many investors are looking for companies that can hold their own if borrowing costs stay high for longer than hoped. Solid profitability, strong returns on shareholder equity and sensible use of debt can help cushion portfolio s",
-          "pub": "2026-09-05T20:14",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-great-quality-stocks-own-201414086.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     }
@@ -1245,6 +1245,14 @@
       "grades": {}
     },
     {
+      "date": "2026-09-07",
+      "ticker": "AMKR",
+      "signal": 65.5,
+      "price": 47.77,
+      "spy": 770.1900024414062,
+      "grades": {}
+    },
+    {
       "date": "2026-09-06",
       "ticker": "MU",
       "signal": 73.1,
@@ -1305,14 +1313,6 @@
       "ticker": "ADI",
       "signal": 68.4,
       "price": 362.25,
-      "spy": 770.1900024414062,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-06",
-      "ticker": "FLYW",
-      "signal": 68.1,
-      "price": 18.55,
       "spy": 770.1900024414062,
       "grades": {}
     }
