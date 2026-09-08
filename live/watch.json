@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T04:38:03.293856+00:00",
+  "updated": "2026-09-08T11:20:57.373786+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -15,7 +15,7 @@
       "persist": 100,
       "news": 52.6,
       "confirm": 72.7,
-      "signal": 73.3,
+      "signal": 73.2,
       "mom": {
         "ret5": 0.0898,
         "vol_surge": 0.72
@@ -34,6 +34,17 @@
           "type": "8-K 5.02",
           "why": "役員の退任・選任（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "AI Memory Crunch Is About to Hit ‘10 Out of 10’ Craziness",
+          "summary": "The memory-chip industry remains in focus as booming artificial intelligence demand tightens supply, drives prices sharply higher and reshapes competition among major producers, including Samsung Electronics Co. Ltd., SK Hynix Inc., Micron Technology Inc., Yangtze Memory Technologies Corp. and Chang",
+          "pub": "2026-09-08T09:45",
+          "provider": "Benzinga",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-memory-crunch-hit-10-094513798.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Dow, S&P 500 Futures Decline Amid Rising Oil Prices As Iran War Escalates: MU, ORCL, INTC, BE Stocks In Focus",
@@ -67,17 +78,6 @@
           "conf": 0.8,
           "type": "決算ビート",
           "why": "+決算ビート"
-        },
-        {
-          "title": "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
-          "summary": "AI servers are absorbing premium memory capacity while Apple tries to protect hardware margins.",
-          "pub": "2026-09-07T21:56",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/apples-54-billion-iphone-engine-215612819.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -94,7 +94,7 @@
       "persist": 100,
       "news": 51.1,
       "confirm": 69.1,
-      "signal": 71.8,
+      "signal": 71.7,
       "mom": {
         "ret5": 0.0723,
         "vol_surge": 0.83
@@ -160,84 +160,6 @@
       ]
     },
     {
-      "ticker": "CNQ",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 26,
-      "first_seen": "2026-07-08",
-      "name": "Canadian Natural Resources Limi",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 51.0,
-      "confirm": 60.1,
-      "signal": 69.4,
-      "mom": {
-        "ret5": 0.03,
-        "vol_surge": 1.07
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Which TSX stocks investors will be watching next week?",
-          "summary": "Investing.com -- Canadian energy stocks are set to command attention on the TSX this week as analyst upgrades and tariff-related headlines drive trading activity, while major banks draw scrutiny over buybacks, earnings prospects and strategic moves.",
-          "pub": "2026-09-06T11:52",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsx-stocks-investors-watching-next-115208497.html",
-          "dir": 0.1,
-          "conf": 0.09999999999999998,
-          "type": "格上げ",
-          "why": "+格上げ -規制・関税"
-        },
-        {
-          "title": "Dow Jones Futures Rise As Oil Prices Fall; Dell, Credo, Palo Alto Are Earnings Movers",
-          "summary": "The Dow Jones and Nasdaq 100 fell below their 50-day lines as oil prices jumped. Dell, Palo Alto and Credo were earnings movers late.",
-          "pub": "2026-09-02T12:11",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Oil Stocks Hit New Highs After U.S. Resumes Strikes in Strait of Hormuz",
-          "summary": "Renewed U.S. strikes in the Strait of Hormuz sent shares of major oil companies higher Tuesday, with several on track for record highs.  “The United States is, as we speak, striking Iranian Targets near the Strait of Hormuz,” President Donald Trump said in a post on Truth Social Tuesday afternoon.",
-          "pub": "2026-09-01T21:17",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/oil-stocks-jump-strikes-strait-of-hormuz-d440f751?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Canadian Oil Stock Edges Into Buy Zone After 200% Earnings Growth",
-          "summary": "Canadian Natural Resources rose 2.5% on Tuesday. The stock is inching toward a handle buy point of 51.48.",
-          "pub": "2026-09-01T18:07",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/ibd-stock-of-the-day/oil-prices-canadian-natural-resources-valero-marathon-petroleum-natural-gas-canada/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Here's Why a Hold Strategy Is Apt for Canadian Natural Stock Now",
-          "summary": "CNQ's record production, low-cost oil sands assets and growth initiatives support its outlook, but commodity risks and a Horizon turnaround warrant caution.",
-          "pub": "2026-09-01T16:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-strategy-apt-161500477.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "CLS",
       "tier": "確定",
       "streak": 43,
@@ -250,7 +172,7 @@
       "persist": 100,
       "news": 50.6,
       "confirm": 60.4,
-      "signal": 69.3,
+      "signal": 69.2,
       "mom": {
         "ret5": 0.0457,
         "vol_surge": 0.78
@@ -316,81 +238,76 @@
       ]
     },
     {
-      "ticker": "AMD",
+      "ticker": "CNQ",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
+      "best_rank": 13,
+      "today_rank": 26,
       "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
       "persist": 100,
-      "news": 54.4,
-      "confirm": 51.9,
-      "signal": 68.7,
+      "news": 51.0,
+      "confirm": 60.1,
+      "signal": 69.2,
       "mom": {
-        "ret5": 0.0258,
-        "vol_surge": 0.61
+        "ret5": 0.03,
+        "vol_surge": 1.07
       },
       "earn_days": null,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
+      "consensus": null,
       "headlines": [
         {
-          "title": "アナリストupgrade: Outperform→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-25",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
+          "title": "Which TSX stocks investors will be watching next week?",
+          "summary": "Investing.com -- Canadian energy stocks are set to command attention on the TSX this week as analyst upgrades and tariff-related headlines drive trading activity, while major banks draw scrutiny over buybacks, earnings prospects and strategic moves.",
+          "pub": "2026-09-06T11:52",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tsx-stocks-investors-watching-next-115208497.html",
+          "dir": 0.1,
+          "conf": 0.09999999999999998,
+          "type": "格上げ",
+          "why": "+格上げ -規制・関税"
         },
         {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-21",
-          "provider": "BMO Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027",
-          "summary": "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027",
-          "pub": "2026-09-07T21:36",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/amd-stock-jumps-unveiling-100-213621532.html",
+          "title": "Dow Jones Futures Rise As Oil Prices Fall; Dell, Credo, Palo Alto Are Earnings Movers",
+          "summary": "The Dow Jones and Nasdaq 100 fell below their 50-day lines as oil prices jumped. Dell, Palo Alto and Credo were earnings movers late.",
+          "pub": "2026-09-02T12:11",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo",
           "dir": 0.3,
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
         },
         {
-          "title": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
-          "summary": "An unprecedented construction wave could reshape AI's biggest stock-market winners",
-          "pub": "2026-09-07T19:26",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-microsoft-center-7-trillion-192652924.html",
+          "title": "Oil Stocks Hit New Highs After U.S. Resumes Strikes in Strait of Hormuz",
+          "summary": "Renewed U.S. strikes in the Strait of Hormuz sent shares of major oil companies higher Tuesday, with several on track for record highs.  “The United States is, as we speak, striking Iranian Targets near the Strait of Hormuz,” President Donald Trump said in a post on Truth Social Tuesday afternoon.",
+          "pub": "2026-09-01T21:17",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/oil-stocks-jump-strikes-strait-of-hormuz-d440f751?siteid=yhoof2&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Cathie Wood Is Moving Money From Palantir Into Rocket Lab and Fintech",
-          "summary": "ARK's latest trades show a shift toward space and financial technology while trimming several of its high-profile AI holdings.",
-          "pub": "2026-09-07T19:21",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-moving-money-palantir-192133259.html",
+          "title": "Canadian Oil Stock Edges Into Buy Zone After 200% Earnings Growth",
+          "summary": "Canadian Natural Resources rose 2.5% on Tuesday. The stock is inching toward a handle buy point of 51.48.",
+          "pub": "2026-09-01T18:07",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/ibd-stock-of-the-day/oil-prices-canadian-natural-resources-valero-marathon-petroleum-natural-gas-canada/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Here's Why a Hold Strategy Is Apt for Canadian Natural Stock Now",
+          "summary": "CNQ's record production, low-cost oil sands assets and growth initiatives support its outlook, but commodity risks and a Horizon turnaround warrant caution.",
+          "pub": "2026-09-01T16:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-strategy-apt-161500477.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -404,14 +321,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 20,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 52.8,
       "confirm": 53.6,
-      "signal": 68.5,
+      "signal": 68.3,
       "mom": {
         "ret5": 0.0029,
         "vol_surge": 1.18
@@ -477,75 +394,19 @@
       ]
     },
     {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 11,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 59.6,
-      "confirm": 41.5,
-      "signal": 68.2,
-      "mom": {
-        "ret5": -0.0128,
-        "vol_surge": 0.69
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "2 Small-Cap Stocks to Keep an Eye On and 1 That Underwhelm",
-          "summary": "Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and their stock prices) often stay small because their subscale operations make it harder to expand their competitive moats.",
-          "pub": "2026-09-04T12:54",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-small-cap-stocks-keep-125410262.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "Flywire (FLYW) Bets On Open Banking To Widen Its Payment Moat",
-          "summary": "On August 12, Flywire (NASDAQ:FLYW) expanded its partnership with Trustly, bringing “Pay by Bank” open banking payments to customers across the US and Canada. The expansion lets payers authorize ACH and Pre-Authorized Debit transfers straight from their bank login, skipping the routing and account n",
-          "pub": "2026-09-03T14:55",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-bets-open-banking-145555831.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Flywire (FLYW) Just Gave Investors Something To Think About",
-          "summary": "Flywire (FLYW) is back in focus after Q2 revenue topped analyst expectations and management raised full year guidance. Investors are also reacting to a new travel client win with Travelling The Fairways International. Those earnings and client wins sit against a share price of $18.89, with a 30 day",
-          "pub": "2026-09-01T09:09",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-just-gave-investors-090908806.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        }
-      ]
-    },
-    {
       "ticker": "AVGO",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 23,
+      "today_rank": 24,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 51.5,
       "confirm": 52.5,
-      "signal": 67.7,
+      "signal": 67.5,
       "mom": {
         "ret5": -0.0295,
         "vol_surge": 1.76
@@ -612,6 +473,89 @@
       ]
     },
     {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.8,
+      "confirm": 51.9,
+      "signal": 67.4,
+      "mom": {
+        "ret5": 0.0258,
+        "vol_surge": 0.61
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストupgrade: Outperform→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-25",
+          "provider": "Raymond James",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-21",
+          "provider": "BMO Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Nvidia’s $12.9 Billion Hugging Face Bet Comes With One Huge Risk",
+          "summary": "Nvidia just paid nearly $13 billion to own the platform where the open-source AI community lives, works, and distributes its models. The question is whether that community will stay or walk.",
+          "pub": "2026-09-08T11:05",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/08/nvidias-12-9-billion-hugging-face-bet-comes-with-one-huge-risk/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Intel, Amgen, Novartis, Bloom Energy, and More Stocks That Explain Today’s Market",
+          "summary": "AI stocks rise despite the market’s inflation worries, but Amgen falls following Swiss drugmaker Novartis’ disappointing trial data.",
+          "pub": "2026-09-08T11:05",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/stock-movers-3b5dab07?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "After an 18% summer selloff in chip stocks, Citi asks what comes next",
+          "summary": "Investing.com -- Citi told clients in a note Tuesday that it expects semiconductor stocks to rebound after a summer slump, arguing that a heavy conference schedule and resilient data center demand should support a sector that had run ahead of expectations.",
+          "pub": "2026-09-08T10:54",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/articles/18-summer-selloff-chip-stocks-105437359.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        }
+      ]
+    },
+    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 43,
@@ -624,7 +568,7 @@
       "persist": 100,
       "news": 58.2,
       "confirm": 40.0,
-      "signal": 67.2,
+      "signal": 67.0,
       "mom": {
         "ret5": -0.2672,
         "vol_surge": 2.92
@@ -691,6 +635,51 @@
       ]
     },
     {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 12,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 56.5,
+      "confirm": 41.5,
+      "signal": 66.7,
+      "mom": {
+        "ret5": -0.0128,
+        "vol_surge": 0.69
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "2 Small-Cap Stocks to Keep an Eye On and 1 That Underwhelm",
+          "summary": "Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and their stock prices) often stay small because their subscale operations make it harder to expand their competitive moats.",
+          "pub": "2026-09-04T12:54",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-small-cap-stocks-keep-125410262.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Flywire (FLYW) Bets On Open Banking To Widen Its Payment Moat",
+          "summary": "On August 12, Flywire (NASDAQ:FLYW) expanded its partnership with Trustly, bringing “Pay by Bank” open banking payments to customers across the US and Canada. The expansion lets payers authorize ACH and Pre-Authorized Debit transfers straight from their bank login, skipping the routing and account n",
+          "pub": "2026-09-03T14:55",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-bets-open-banking-145555831.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        }
+      ]
+    },
+    {
       "ticker": "BMY",
       "tier": "確定",
       "streak": 43,
@@ -703,7 +692,7 @@
       "persist": 100,
       "news": 53.2,
       "confirm": 46.4,
-      "signal": 66.8,
+      "signal": 66.6,
       "mom": {
         "ret5": 0.0036,
         "vol_surge": 0.69
@@ -781,7 +770,7 @@
       "persist": 100,
       "news": 50.8,
       "confirm": 49.2,
-      "signal": 66.5,
+      "signal": 66.3,
       "mom": {
         "ret5": 0.0043,
         "vol_surge": 0.86
@@ -859,7 +848,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 44.2,
-      "signal": 64.9,
+      "signal": 64.7,
       "mom": {
         "ret5": -0.0128,
         "vol_surge": 0.87
@@ -930,33 +919,21 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
       "confirm": 43.0,
-      "signal": 64.6,
+      "signal": 64.4,
       "mom": {
         "ret5": -0.007,
         "vol_surge": 0.67
       },
       "earn_days": 37,
       "consensus": null,
-      "headlines": [
-        {
-          "title": "New Strong Sell Stocks for September 1st",
-          "summary": "AA, AROC and EFXT have been added to the Zacks Rank #5 (Strong Sell) List on September 1, 2026.",
-          "pub": "2026-09-01T10:26",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-september-1st-102600043.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
+      "headlines": []
     },
     {
       "ticker": "CIEN",
@@ -971,7 +948,7 @@
       "persist": 100,
       "news": 54.2,
       "confirm": 31.4,
-      "signal": 63.3,
+      "signal": 63.1,
       "mom": {
         "ret5": -0.1518,
         "vol_surge": 1.76
@@ -1050,7 +1027,7 @@
       "persist": 100,
       "news": 50.7,
       "confirm": 26.4,
-      "signal": 60.6,
+      "signal": 60.3,
       "mom": {
         "ret5": -0.0642,
         "vol_surge": 0.71
@@ -1063,6 +1040,17 @@
         "consensus": "Buy"
       },
       "headlines": [
+        {
+          "title": "Nvidia, Palantir, and Meta Platforms Are Rattling Wall Street With This $18.6 Billion Warning",
+          "summary": "The people who know Nvidia, Palantir, and Meta best are sending all the wrong signals to investors.",
+          "pub": "2026-09-08T09:26",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/08/nvidia-palantir-meta-platforms-rattling-wall-street-with-18-billion-warning/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
           "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps",
@@ -1106,17 +1094,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Palantir Surged 51% in August. The Rest of Tech Wasn't Even Close",
-          "summary": "Strong earnings and a bigger full-year outlook pushed Palantir far ahead of the broader technology sector.",
-          "pub": "2026-09-07T17:20",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-surged-51-august-rest-172023418.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
         }
       ]
     }
