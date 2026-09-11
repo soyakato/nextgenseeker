@@ -1,7 +1,86 @@
 {
-  "updated": "2026-09-11T11:22:41.924304+00:00",
+  "updated": "2026-09-11T16:29:27.134912+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 5,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.5,
+      "confirm": 81.3,
+      "signal": 75.4,
+      "mom": {
+        "ret5": 0.1074,
+        "vol_surge": 1.09
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-09-03",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "CIEN Falls 15.2% in a Week as AI Growth Faces Persistent Supply Risks",
+          "summary": "Ciena's 15.2% weekly slide contrasts with surging earnings and AI demand as supply, concentration and valuation risks put execution in focus.",
+          "pub": "2026-09-11T16:13",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cien-falls-15-2-week-161300468.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Ciena's 2027 Growth Guide Raises the Stakes for AI Optical Demand",
+          "summary": "Ciena targets at least 30% fiscal 2027 revenue growth as AI networking demand builds, with backlog topping $10B expected despite supply constraints.",
+          "pub": "2026-09-11T16:12",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/cienas-2027-growth-guide-raises-161200564.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Is Ciena a Buy as 30% Growth Meets Its Premium Forward Valuation?",
+          "summary": "Ciena targets at least 30% fiscal 2027 revenue growth as AI demand rises, but its premium valuation, supply risks and cloud concentration raise the stakes.",
+          "pub": "2026-09-11T16:06",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-buy-30-growth-meets-160600027.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Ciena Sustain Its Strong Growth Amid Rising Optical Demand?",
+          "summary": "CIEN's record results, surging optical demand and $8.5B backlog fuel growth. Supply constraints remain a key hurdle.",
+          "pub": "2026-09-11T13:31",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/articles/ciena-sustain-strong-growth-amid-133100894.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
     {
       "ticker": "AMD",
       "tier": "確定",
@@ -13,11 +92,11 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.5,
+      "news": 51.3,
       "confirm": 78.7,
-      "signal": 74.7,
+      "signal": 74.2,
       "mom": {
-        "ret5": 0.1018,
+        "ret5": 0.1249,
         "vol_surge": 0.91
       },
       "earn_days": null,
@@ -51,33 +130,33 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Qualcomm Stock Looks Cheap, But Is The Discount Deserved?",
-          "summary": "Qualcomm (QCOM) trades at about $176 a share, down about 14% over the past three months and up 12.4% over the past twelve. At 20.1 times earnings against an S&P 500 median of 22.9, a profitable chip designer sits below the market. The question is whether that is a good business on sale or a fair pri",
-          "pub": "2026-09-10T19:57",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/614901/qualcomm-stock-looks-cheap-but-is-the-discount-deserved/2026-09-10",
+          "title": "AMD, BE, CRWV In Focus: Situational Awareness Has Been Reportedly Buying Options Tied To These Stocks",
+          "summary": "According to a CNBC report on Friday, Situational Awareness was also active in names like SK Hynix, SanDisk and the Roundhill Memory ETF.",
+          "pub": "2026-09-11T15:48",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/amd-be-crwv-in-focus-situational-awareness-has-been-reportedly-buying-options-tied-to-these-stocks/cZtXVIiRBbT",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-          "summary": "Tech stocks were lower late Thursday afternoon, with the State Street Technology Select Sector SPDR",
-          "pub": "2026-09-10T19:55",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-195545130.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Advanced Micro Devices vs. Marvell Technology: Which Semiconductor Stock Is a Better Buy in 2026?",
-          "summary": "Both companies are winning in the AI chip race, but they are doing it with very different business models and profit profiles.",
-          "pub": "2026-09-10T19:08",
+          "title": "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+          "summary": "AMD's data center momentum clashes with Qualcomm's valuation discount, but customer concentration and geopolitical risks complicate both bets.",
+          "pub": "2026-09-11T15:17",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/better-buy/2026/09/10/advanced-micro-devices-vs-marvell-technology-which-semiconductor-stock-is-a-better-buy-in-2026/",
+          "url": "https://www.fool.com/coverage/better-buy/2026/09/11/advanced-micro-devices-vs-qualcomm-which-technology-stock-is-a-better-buy-in-2026/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "3 Semiconductor Stocks with Competitive Advantages",
+          "summary": "Semiconductors are the silicon backbone of the digital revolution. Compute-intensive AI workloads are also priming them for the next wave of secular growth, so it’s no wonder the industry has outperformed the market over the past six months, delivering returns of 46.2% compared to 12.7% for the S&P",
+          "pub": "2026-09-11T15:07",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-semiconductor-stocks-competitive-advantages-150705576.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -96,12 +175,12 @@
       "name": "Celestica, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.8,
-      "confirm": 80.0,
-      "signal": 74.4,
+      "news": 50.9,
+      "confirm": 76.6,
+      "signal": 73.5,
       "mom": {
-        "ret5": 0.1708,
-        "vol_surge": 1.0
+        "ret5": 0.0983,
+        "vol_surge": 0.81
       },
       "earn_days": 45,
       "consensus": null,
@@ -174,12 +253,12 @@
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 61.8,
-      "confirm": 62.1,
-      "signal": 74.1,
+      "news": 63.6,
+      "confirm": 56.9,
+      "signal": 73.4,
       "mom": {
-        "ret5": 0.0379,
-        "vol_surge": 1.05
+        "ret5": 0.0234,
+        "vol_surge": 0.99
       },
       "earn_days": null,
       "consensus": null,
@@ -227,17 +306,6 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
-        },
-        {
-          "title": "Bloom Energy, Astera Rally On Hopes They Will Join S&P Friday; Who Else Could Be Added",
-          "summary": "Bloom Energy Corp. Astera Labs Cheniere Energy  and  Everpure  top a list of companies that could be added to the S&P 500 as part of the index’s quarterly rebalancing that will occur later this month.  Any changes to the benchmark index likely will be announced Friday after the close of trading, and",
-          "pub": "2026-09-04T16:01",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/sp-500-index-additions-bloom-energy-9e4bf0dc?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
         }
       ]
     },
@@ -247,17 +315,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 17,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
       "news": 59.8,
-      "confirm": 51.7,
+      "confirm": 51.9,
       "signal": 70.5,
       "mom": {
-        "ret5": -0.0297,
-        "vol_surge": 1.71
+        "ret5": -0.0072,
+        "vol_surge": 1.27
       },
       "earn_days": null,
       "consensus": null,
@@ -321,22 +389,101 @@
       ]
     },
     {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.1,
+      "confirm": 57.7,
+      "signal": 68.9,
+      "mom": {
+        "ret5": 0.0208,
+        "vol_surge": 1.1
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表・その他の重要イベント",
+          "summary": "",
+          "pub": "2026-09-02",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "The Next Growth Cycle Could Take Qualcomm to New Highs",
+          "summary": "Qualcomm's handset business is shrinking while its automotive and data center ambitions are scaling fast, and the tension between those two forces will determine whether the stock revisits its highs or stalls out entirely.",
+          "pub": "2026-09-11T16:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/11/the-next-growth-cycle-could-take-qualcomm-to-new-highs/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "TSMC Price Prediction: One Number Could Define the Stock’s Next Move",
+          "summary": "TSMC is up over 66% in the past year, AI customers are booking capacity years out, and the only foundry rival is hemorrhaging billions. So why does one critical number still cast doubt on how high this stock can actually go?",
+          "pub": "2026-09-11T15:30",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/11/tsmc-price-prediction-one-number-could-define-the-stocks-next-move/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "3 Semiconductor Stocks with Competitive Advantages",
+          "summary": "Semiconductors are the silicon backbone of the digital revolution. Compute-intensive AI workloads are also priming them for the next wave of secular growth, so it’s no wonder the industry has outperformed the market over the past six months, delivering returns of 46.2% compared to 12.7% for the S&P",
+          "pub": "2026-09-11T15:07",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-semiconductor-stocks-competitive-advantages-150705576.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Forget AMD. Here's Who Nvidia Really Needs to Be Worried About.",
+          "summary": "Broadcom's custom AI chips are becoming more popular with AI hyperscalers.",
+          "pub": "2026-09-11T15:05",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/11/forget-amd-heres-who-nvidia-needs-to-be-worried/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CORZ",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 12,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 52.5,
-      "confirm": 58.2,
-      "signal": 69.2,
+      "confirm": 50.8,
+      "signal": 67.2,
       "mom": {
-        "ret5": 0.0333,
-        "vol_surge": 0.88
+        "ret5": 0.0145,
+        "vol_surge": 0.76
       },
       "earn_days": 42,
       "consensus": null,
@@ -352,6 +499,17 @@
           "type": "8-K 7.01",
           "why": "Reg FD開示（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Can APLD Turn Power-Advantaged Sites Into an AI Data Center Edge?",
+          "summary": "Applied Digital is turning power-advantaged sites into AI capacity, with 1.4 GW of contracted critical IT load tied to about $36 billion in lease revenue.",
+          "pub": "2026-09-11T13:54",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/apld-turn-power-advantaged-sites-135400872.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Here are all of the former BTC miners who received Batch Zero classifications",
@@ -385,175 +543,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Core Scientific Receives Conditional ERCOT Approvals for Texas Power Capacity",
-          "summary": "Core Scientific, Inc. (NASDAQ:CORZ) said it received conditional approvals from the Electric Reliability Council of Texas for electrical power capacity across its data centre sites in Denton, Pecos and Hunt, Texas.",
-          "pub": "2026-09-10T14:12",
-          "provider": "InvestorsHub",
-          "url": "https://investorshub.advfn.com/market-news/article/36049/core-scientific-receives-conditional-ercot-approvals-for-texas-power-capacity",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 5,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 58.3,
-      "confirm": 46.5,
-      "signal": 68.5,
-      "mom": {
-        "ret5": -0.0553,
-        "vol_surge": 1.87
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-09-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Two Top Oversold Optoelectronics Stocks",
-          "summary": "The AI trade right now is keying in on one piece of the puzzle – optoelectronics. And two great optoelectronics companies are oversold right now.",
-          "pub": "2026-09-10T18:34",
-          "provider": "FX Empire",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/two-top-oversold-optoelectronics-stocks-183416616.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can Ciena Convert Its $8.5B Backlog Despite Supply Constraints?",
-          "summary": "CIEN's $8.5B backlog is set to top $10B by fiscal 2026-end, but supply constraints will dictate how fast orders convert into revenue.",
-          "pub": "2026-09-10T15:22",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-convert-8-5b-backlog-152200638.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "How Far Can Arista Networks Stock Move On You In A Year?",
-          "summary": "Arista Networks (ANET) trades near $195, and its option chain prices a range for the coming twelve months running from a floor near $112.90 to a ceiling of $336.68. That spread is wide enough to change what a sensible position looks like. The options market is pricing this move at almost exactly wha",
-          "pub": "2026-09-10T00:57",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/614696/how-far-can-arista-networks-stock-move-on-you-in-a-year/2026-09-09",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Ciena (CIEN) Q3 2026 Earnings Call Transcript",
-          "summary": "AI-driven network demand propels record revenue and backlog growth.",
-          "pub": "2026-09-09T21:59",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/09/09/ciena-cien-q3-2026-earnings-call-transcript/",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "記録更新",
-          "why": "+記録更新"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 52.1,
-      "confirm": 55.1,
-      "signal": 68.2,
-      "mom": {
-        "ret5": -0.0175,
-        "vol_surge": 1.69
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表・その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-02",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Prediction: Broadcom and Nvidia Will Be 2027's Best Performing AI Stocks",
-          "summary": "Both Nvidia and Broadcom forecast huge growth next year.",
-          "pub": "2026-09-11T10:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/11/prediction-broadcom-and-nvidia-will-be-2027s-best/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Andy Jassy Just Made a Move That Should Excite Micron and Broadcom Investors",
-          "summary": "The Amazon CEO has a keen understanding of what's next in the artificial intelligence space.",
-          "pub": "2026-09-11T08:23",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/11/andy-jassy-just-made-a-move-that-should-excite-mic/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Prediction: This Unstoppable Stock Will Rejoin the $2 Trillion Club by 2027",
-          "summary": "Broadcom has become a leading supplier of data center chips and components to the artificial intelligence industry.",
-          "pub": "2026-09-11T02:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/10/prediction-this-stock-will-rejoin-2-trillion-2027/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "3 Growth Stocks to Add to Your Roster",
-          "summary": "Growth boosts valuation multiples, but it doesn’t always last forever. Companies that cannot maintain it are often penalized with large declines in market value, a lesson ingrained in investors who lost money in tech stocks during 2022.",
-          "pub": "2026-09-11T00:09",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-add-roster-000904957.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -563,158 +552,75 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 14,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.1,
-      "confirm": 54.4,
-      "signal": 68.1,
+      "news": 50.6,
+      "confirm": 52.0,
+      "signal": 66.8,
       "mom": {
-        "ret5": 0.0223,
-        "vol_surge": 0.85
+        "ret5": 0.0158,
+        "vol_surge": 0.82
       },
       "earn_days": 19,
       "consensus": null,
       "headlines": [
         {
-          "title": "Social Buzz: Wallstreetbets Stocks Mixed Premarket Friday; Oracle to Rise, Adobe to Fall",
-          "summary": "The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Friday's",
-          "pub": "2026-09-11T10:38",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mixed-103802922.html",
+          "title": "Micron’s Powerful Economics 101 Lesson Keeps Me Buying",
+          "summary": "Three companies control the world's DRAM supply, AI is burning through memory faster than fabs can build it, and one of those three just signed contracts that could permanently rewire what a chip cycle looks like.",
+          "pub": "2026-09-11T15:59",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/11/microns-powerful-economics-101-lesson-keeps-me-buying/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "These 2 Hardware Leaders Will Cash In on the Next Data Center Memory Crunch",
-          "summary": "The memory chip crunch is far from over.",
-          "pub": "2026-09-11T09:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/11/these-2-hardware-leaders-will-cash-in-on-the-next/",
+          "title": "Micron Just Made a $32,000 Move as Taiwan Labor Pressure Builds",
+          "summary": "Record profits are giving Micron's engineers more leverage over what they get paid.",
+          "pub": "2026-09-11T15:03",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-just-made-32-000-150349231.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Nasdaq, Dow, S&P 500 Futures Rise After 4-Day Market Slide As CPI Looms Large: ORCL, ADBE, MU, TSLA, RKLB, IBRX, HOOD, GME In Focus",
-          "summary": "Retail sentiment on Stocktwits turned bearish on SPY and QQQ ahead of August CPI.",
-          "pub": "2026-09-11T08:33",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-sp500-futures-rise-after-4-day-market-slide-as-cpi-looms-large-orcl-adbe-mu-tsla-rklb-ibrx-hood-gme-in-focus/cZtXONwRBGW",
+          "title": "Prediction: This AI Stock Could Be the Next One to Shock Wall Street",
+          "summary": "Micron has already stunned Wall Street with a historic surge, but a fresh competitive threat just knocked shares down and reignited the debate over whether the AI memory trade still has legs or has finally run out of road.",
+          "pub": "2026-09-11T15:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/11/prediction-this-ai-stock-could-be-the-next-one-to-shock-wall-street/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Why Micron Stock Is on Pace for a Weekly Decline",
+          "summary": "The question for investors is how Micron stock will perform in the runup to fiscal fourth-quarter earnings on Sept. 30.",
+          "pub": "2026-09-11T14:44",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/micron-stock-oracle-ai-242830db?siteid=yhoof2&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Andy Jassy Just Made a Move That Should Excite Micron and Broadcom Investors",
-          "summary": "The Amazon CEO has a keen understanding of what's next in the artificial intelligence space.",
-          "pub": "2026-09-11T08:23",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/11/andy-jassy-just-made-a-move-that-should-excite-mic/",
+          "title": "How Far Could Intel Stock Fall After More Than Quadrupling In A Year?",
+          "summary": "Intel (INTC) stock fell 5.6% on September 10 and trades near $100, about 29% below its 52-week high. Even so, it has returned 310.5% over the past year. The question is how much of that a market shock could take back, and on average Intel has fallen harder than the S&P 500 when shocks hit.",
+          "pub": "2026-09-11T13:44",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615060/how-far-could-intel-stock-fall-after-more-than-quadrupling-in-a-year/2026-09-11",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "SK Hynix, Samsung Shares Dip In Korea After DeepSeek Debuts AI Tech That Uses Less Memory – Micron, SanDisk Hold Up",
-          "summary": "DeepSeek’s memory-saving approach raises fresh questions over AI-driven chip demand.",
-          "pub": "2026-09-11T07:18",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/sk-hynix-samsung-shares-dip-in-korea-after-deep-seek-debuts-ai-tech-that-uses-less-memory-micron-san-disk-hold-up/cZtXBNqRBGe",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 62.7,
-      "confirm": 37.8,
-      "signal": 68.0,
-      "mom": {
-        "ret5": -0.0212,
-        "vol_surge": 0.61
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 13,
-        "hold": 10,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "Relatively unknown cloud provider gets Nvidia's stamp of approval",
-          "summary": "Nvidia just backed a smaller cloud’s bet that regulated buyers care less about scale and more about who owns the outcome.",
-          "pub": "2026-09-11T11:03",
-          "provider": "TheStreet",
-          "url": "https://www.thestreet.com/technology/rackspace-rxt-nvidia-cloud-partner-sovereign-ai",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "承認",
-          "why": "+承認"
-        },
-        {
-          "title": "Alex Karp Set Palantir a 134% Growth Target for the Whole Company. Here's What It Would Take to Hit It.",
-          "summary": "The CEO tied the whole business to its hottest segment's pace for the next 18 months. Here's what that implies in dollars.",
-          "pub": "2026-09-11T07:29",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/11/alex-karp-set-palantir-a-134-growth-target-for-the-whole-company-here-s-what-it-would-take-to-hit-it/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "PLTR Stock Wins Whether We’re In An AI Bubble Or Not? Wall Street Analyst Explains Why",
-          "summary": "Palantir’s real-world AI exposure could help it weather both continued AI spending and a potential slowdown, according to D. A. Davidson’s Gil Luria.",
-          "pub": "2026-09-11T06:11",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/pltr-stock-wins-whether-we-re-in-an-ai-bubble-or-not-wall-street-analyst-explains-why/cZtXeu2RBGd",
-          "dir": 0.1,
-          "conf": 0.09999999999999998,
-          "type": "受注",
-          "why": "+受注 -空売り・過大評価"
-        },
-        {
-          "title": "Dan Ives Says Software Stocks Just Got Their Clearest Buy Signal Yet",
-          "summary": "Dan Ives says Oracle's earnings and a string of AI-fueled beats give software stocks their clearest signal yet.",
-          "pub": "2026-09-11T01:22",
-          "provider": "BeInCrypto",
-          "url": "https://beincrypto.com/dan-ives-software-stocks-buy-signal/",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "Palantir Technologies Showcases Sovereign AI Wins With NVIDIA, Cisco and FAA",
-          "summary": "Palantir Technologies (NASDAQ:PLTR) used its AIPCon event to highlight customer deployments of its Foundry, Ontology and Artificial Intelligence Platform products across supply chains, aviation safety, defense manufacturing, insurance, media, pharmaceuticals and industrial operations. Speakers repea",
-          "pub": "2026-09-10T23:03",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/event-palantir-technologies-showcases-sovereign-ai-wins-with-nvidia-cisco-and-faa-2026-09-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
         }
       ]
     },
@@ -724,21 +630,32 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 16,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 52.1,
-      "confirm": 51.5,
-      "signal": 67.3,
+      "confirm": 37.6,
+      "signal": 63.5,
       "mom": {
-        "ret5": 0.0099,
-        "vol_surge": 0.9
+        "ret5": -0.0299,
+        "vol_surge": 0.77
       },
       "earn_days": 41,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Company News for Sep 11, 2026",
+          "summary": "Companies in The News Are: AAPL, LEN, T, NEM",
+          "pub": "2026-09-11T13:25",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-11-2026-132500285.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Newmont Corporation (NEM) Dips More Than Broader Market: What You Should Know",
           "summary": "The latest trading day saw Newmont Corporation (NEM) settling at $126.14, representing a -2% change from its previous close.",
@@ -782,17 +699,40 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 5,
+      "today_rank": 9,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.0,
+      "confirm": 31.9,
+      "signal": 62.0,
+      "mom": {
+        "ret5": -0.0385,
+        "vol_surge": 0.56
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
         {
-          "title": "Kinross Gold Stock Up 13% in a Month: What Should Investors Do Now?",
-          "summary": "KGC's 13% gain reflects stronger gold prices and earnings, but rising costs and falling estimates cloud its outlook.",
-          "pub": "2026-09-08T12:30",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-stock-13-month-123000576.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Airbnb Eyes Hotels, AI and $1B Ad Revenue as It Expands Beyond Home Rentals",
+          "summary": "Airbnb (NASDAQ:ABNB) CEO Brian Chesky said the company is expanding beyond its core short-term home rental business, outlining ambitions in hotels, services, experiences, longer-term housing and eventually products focused on human connection. Speaking at an investor conference, Chesky said Airbnb",
+          "pub": "2026-09-09T09:02",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/event-airbnb-eyes-hotels-ai-and-1b-ad-revenue-as-it-expands-beyond-home-rentals-2026-09-09/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
         }
       ]
     },
@@ -802,17 +742,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 15,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.3,
-      "confirm": 40.7,
-      "signal": 64.9,
+      "news": 49.2,
+      "confirm": 34.5,
+      "signal": 61.5,
       "mom": {
-        "ret5": -0.0259,
-        "vol_surge": 0.9
+        "ret5": -0.0402,
+        "vol_surge": 0.77
       },
       "earn_days": null,
       "consensus": {
@@ -881,127 +821,48 @@
       ]
     },
     {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 10,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 33.5,
-      "signal": 61.6,
-      "mom": {
-        "ret5": -0.044,
-        "vol_surge": 0.78
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "AEM Trading at a Premium Valuation: Here's How to Play the Stock",
-          "summary": "AEM's strong projects and cash flow support growth, but higher costs, production risks and a premium valuation could limit upside.",
-          "pub": "2026-09-10T12:15",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/aem-trading-premium-valuation-heres-121500501.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Kinross Gold Stock Up 13% in a Month: What Should Investors Do Now?",
-          "summary": "KGC's 13% gain reflects stronger gold prices and earnings, but rising costs and falling estimates cloud its outlook.",
-          "pub": "2026-09-08T12:30",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-stock-13-month-123000576.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "These Gold Stocks Pay You While You Hedge",
-          "summary": "Bullion pays nothing, but the miners extracting it are funneling billions back to shareholders right now. Five precious-metals producers combine gold's defensive appeal with real dividends and buybacks built on free cash flow that dwarfs their payout obligations.",
-          "pub": "2026-09-04T13:45",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/04/these-gold-stocks-pay-you-while-you-hedge/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 5,
-      "today_rank": 8,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.0,
-      "confirm": 27.2,
-      "signal": 61.5,
-      "mom": {
-        "ret5": -0.0574,
-        "vol_surge": 0.63
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Airbnb Eyes Hotels, AI and $1B Ad Revenue as It Expands Beyond Home Rentals",
-          "summary": "Airbnb (NASDAQ:ABNB) CEO Brian Chesky said the company is expanding beyond its core short-term home rental business, outlining ambitions in hotels, services, experiences, longer-term housing and eventually products focused on human connection. Speaking at an investor conference, Chesky said Airbnb",
-          "pub": "2026-09-09T09:02",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/event-airbnb-eyes-hotels-ai-and-1b-ad-revenue-as-it-expands-beyond-home-rentals-2026-09-09/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "2 Small-Cap Stocks to Keep an Eye On and 1 That Underwhelm",
-          "summary": "Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and their stock prices) often stay small because their subscale operations make it harder to expand their competitive moats.",
-          "pub": "2026-09-04T12:54",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-small-cap-stocks-keep-125410262.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        }
-      ]
-    },
-    {
       "ticker": "BMY",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 9,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
-      "news": 53.1,
-      "confirm": 27.0,
+      "news": 55.6,
+      "confirm": 23.1,
       "signal": 61.1,
       "mom": {
-        "ret5": -0.0578,
-        "vol_surge": 0.62
+        "ret5": -0.068,
+        "vol_surge": 0.57
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "MRK Banks on Growing Pipeline & New Drugs to Offset Keytruda LOE",
+          "summary": "Merck is expanding its pipeline and newer drug portfolio to offset Keytruda's 2028 LOE and drive long-term growth.",
+          "pub": "2026-09-11T15:17",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/healthcare/articles/mrk-banks-growing-pipeline-drugs-151700275.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Bristol Myers’ Cancer Therapy Win Strengthens its Oncology Pipeline",
+          "summary": "Bristol-Myers Squibb Company (NYSE:BMY) said its experimental CAR-T cell therapy, arlocabtagene autoleucel (arlo-cel), met the main goal of a mid-stage trial in patients with advanced multiple myeloma who had already gone through four major classes of standard treatments. The therapy produced a stat",
+          "pub": "2026-09-11T15:16",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/healthcare/articles/bristol-myers-cancer-therapy-win-151642064.html",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
+        },
         {
           "title": "Bristol Myers Squibb (BMY) Declines More Than Market: Some Information for Investors",
           "summary": "Bristol Myers Squibb (BMY) reached $63.75 at the closing of the latest trading day, reflecting a -1.02% change compared to its last close.",
@@ -1034,28 +895,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Cytokinetics Has Advantage in Bristol-Myers Squibb Patent Dispute, RBC Says",
-          "summary": "Cytokinetics (CYTK) likely has the upper hand in its patent dispute with Bristol-Myers Squibb (BMY)",
-          "pub": "2026-09-10T16:08",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/cytokinetics-advantage-bristol-myers-squibb-160837576.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Has AbbVie Gone Quiet About Humira?",
-          "summary": "AbbVie (ABBV) has returned 23.3% over the past year, ahead of the S&P 500's (SPY) 18.5%, and the business behind that return has changed shape. Humira, the drug whose decline management once explained, took one sentence on the July 2026 earnings call. What that sentence no longer contains is the par",
-          "pub": "2026-09-10T15:05",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/614935/why-has-abbvie-gone-quiet-about-humira/2026-09-10",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -1065,21 +904,33 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
-      "news": 48.7,
-      "confirm": 28.4,
-      "signal": 59.7,
+      "news": 49.6,
+      "confirm": 29.4,
+      "signal": 60.3,
       "mom": {
-        "ret5": -0.0539,
-        "vol_surge": 0.64
+        "ret5": -0.0486,
+        "vol_surge": 0.6
       },
       "earn_days": 34,
       "consensus": null,
       "headlines": [
+        {
+          "title": "SEC 8-K提出: その他の重要イベント",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526388649",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
         {
           "title": "SEC 8-K提出: その他の重要イベント",
           "summary": "",
@@ -1105,6 +956,17 @@
           "is_edgar": true
         },
         {
+          "title": "Do Options Traders Know Something About Alcoa Stock We Don't?",
+          "summary": "Investors need to pay close attention to AA stock based on the movements in the options market lately.",
+          "pub": "2026-09-11T12:54",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/options/articles/options-traders-know-something-alcoa-125400150.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Cutting Canada tariffs alone won't flatten US aluminum premium, Alcoa says",
           "summary": "Sept 10 (Reuters) - The steep premium paid for aluminum in the U.S. will not drop significantly even if Washington halves the tariffs on metal from neighboring Canada, because imports from other",
           "pub": "2026-09-10T17:05",
@@ -1114,6 +976,134 @@
           "conf": 0.5,
           "type": "規制・関税",
           "why": "-規制・関税"
+        }
+      ]
+    },
+    {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 11,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 21.0,
+      "signal": 58.2,
+      "mom": {
+        "ret5": -0.0793,
+        "vol_surge": 0.65
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "AEM Trading at a Premium Valuation: Here's How to Play the Stock",
+          "summary": "AEM's strong projects and cash flow support growth, but higher costs, production risks and a premium valuation could limit upside.",
+          "pub": "2026-09-10T12:15",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aem-trading-premium-valuation-heres-121500501.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Kinross Gold Stock Up 13% in a Month: What Should Investors Do Now?",
+          "summary": "KGC's 13% gain reflects stronger gold prices and earnings, but rising costs and falling estimates cloud its outlook.",
+          "pub": "2026-09-08T12:30",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-stock-13-month-123000576.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 49.1,
+      "confirm": 15.7,
+      "signal": 56.4,
+      "mom": {
+        "ret5": -0.0873,
+        "vol_surge": 0.46
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 13,
+        "hold": 10,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "Can Snowflake Stock Keep Climbing On The Work Its AI Tools Bring In?",
+          "summary": "Snowflake (SNOW) stock has returned about 37% over the past three months, against 4.8% for the S&P 500, and trades about 8% below its 52-week high. The stock has gained more than 30% in under two months on 10 occasions since 2020, most recently in 2026, and six of those gains topped 50%. The case fo",
+          "pub": "2026-09-11T15:00",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615050/can-snowflake-stock-keep-climbing-on-the-work-its-ai-tools-bring-in/2026-09-11",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Palantir Puts Its Momentum on Display. Can It Move the Stock?",
+          "summary": "Palantir used its 11th customer forum on Thursday to showcase how it’s moving its AI development into production. It made an impression.",
+          "pub": "2026-09-11T14:54",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/palantir-stock-price-software-ai-f1af2eaa?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Inovio Nears FDA Decision on INO-3107 as Oct. 30 PDUFA Date Looms",
+          "summary": "Inovio Pharmaceuticals (NASDAQ:INO) said its biologics license application for INO-3107, an investigational DNA medicine for recurrent respiratory papillomatosis, or RRP, remains under U.S. Food and Drug Administration review, with a target action date of Oct. 30. President and CEO Jacqueline Shea",
+          "pub": "2026-09-11T13:02",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/event-inovio-nears-fda-decision-on-ino-3107-as-oct-30-pdufa-date-looms-2026-09-11/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": -0.8,
+          "conf": 0.8,
+          "type": "訴訟・調査",
+          "why": "-訴訟・調査"
+        },
+        {
+          "title": "Palantir Technologies Inc. (PLTR) is Attracting Investor Attention: Here is What You Should Know",
+          "summary": "Zacks.com users have recently been watching Palantir Technologies (PLTR) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+          "pub": "2026-09-11T13:00",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-attracting-130003502.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Top Funds Aren't Fooling Around. Witness Massive Bets On CrowdStrike And Beyond.",
+          "summary": "As the best mutual funds poured CrowdStrike and Marvell, Palantir also returned to this monthly screen for the first time this year.",
+          "pub": "2026-09-11T12:00",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/etfs-and-funds/mutual-funds/best-mutual-funds-bet-big-on-crowdstrike-marvell-and-more-palantir-stock-returns-to-list/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     }
