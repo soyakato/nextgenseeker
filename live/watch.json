@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T04:49:25.459620+00:00",
+  "updated": "2026-09-13T11:54:17.951905+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -13,9 +13,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.1,
+      "news": 56.5,
       "confirm": 79.8,
-      "signal": 75.9,
+      "signal": 76.4,
       "mom": {
         "ret5": 0.1315,
         "vol_surge": 0.99
@@ -51,6 +51,17 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "Wall Street Analyst Sees Between 19% to 37% Upside in These 5 AI Chip Stocks",
+          "summary": "Piper Sandler initiated coverage of Nvidia, Broadcom, AMD, Arm, and Marvell, all with \"overweight\" ratings.",
+          "pub": "2026-09-13T10:05",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/13/wall-street-analyst-upside-ai-chip-stocks/",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "格上げ",
+          "why": "+格上げ"
+        },
+        {
           "title": "Advanced Micro Devices, Inc. (AMD)’s Halo Station Could Strengthen Its AI Position, but Near-Term Revenue Impact May Be Limited",
           "summary": "Advanced Micro Devices, Inc (NASDAQ:AMD) has set its sights on capitalizing on the growing demand for workstations capable of running large artificial intelligence models. On September 4, the company unveiled the Threadripper Halo Station, expanding its AI strategy beyond data centers and into high-",
           "pub": "2026-09-12T23:54",
@@ -67,17 +78,6 @@
           "pub": "2026-09-12T21:20",
           "provider": "Motley Fool",
           "url": "https://www.fool.com/investing/2026/09/12/nvidia-vs-amd-elon-musk-picked-a-side-on-the-space/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Cramer Asked Who Was Buying Gigantic Bloom Energy Calls. A Pelosi Filing Named Two of the Same Stocks Weeks Earlier.",
-          "summary": "Jim Cramer spotted gigantic flex-call buying across a basket of tech and energy names on live television and openly asked who was behind it. A House disclosure filed weeks earlier quietly named two of those same stocks.",
-          "pub": "2026-09-12T14:50",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/12/cramer-asked-who-was-buying-gigantic-bloom-energy-calls-a-pelosi-filing-named-two-of-the-same-stocks-weeks-earlier/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -249,7 +249,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 10,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
       "sector": "Technology",
@@ -406,7 +406,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 16,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
@@ -563,7 +563,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 14,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
@@ -632,6 +632,90 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 14,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.9,
+      "confirm": 34.4,
+      "signal": 62.2,
+      "mom": {
+        "ret5": -0.0434,
+        "vol_surge": 0.83
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: その他の重要イベント",
+          "summary": "",
+          "pub": "2026-09-03",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-04",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-04",
+          "provider": "Needham",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Strong Buy→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-27",
+          "provider": "Raymond James",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-27",
+          "provider": "Evercore ISI Group",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -744,90 +828,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 15,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 49.7,
-      "confirm": 34.4,
-      "signal": 61.2,
-      "mom": {
-        "ret5": -0.0434,
-        "vol_surge": 0.83
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Needham",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Strong Buy→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "Evercore ISI Group",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -1084,6 +1084,17 @@
           "why": "+急騰報道"
         },
         {
+          "title": "MarketBeat Week in Review – 09/07 - 09/11",
+          "summary": "Stocks fell this week on oil prices and Fed rate-hike expectations, though Oracle's earnings underscored AI infrastructure strength. MarketBeat analysts recap top stories on earnings, defense, AI, and other stock opportunities.",
+          "pub": "2026-09-12T11:00",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/articles/marketbeat-week-in-review-09-07-09-11/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Palantir and Nvidia Are Building a Sovereign AI Stack. Who Captures More of the Economics?",
           "summary": "Palantir Technologies Inc. (NASDAQ:PLTR) and NVIDIA Corporation (NASDAQ:NVDA) are pushing their partnership deeper into one of the most important emerging enterprise AI themes: keeping proprietary data and operational intelligence under customer control. On September 10, Palantir and Nvidia announce",
           "pub": "2026-09-12T08:52",
@@ -1093,17 +1104,6 @@
           "conf": 0.6,
           "type": "契約・提携",
           "why": "+契約・提携"
-        },
-        {
-          "title": "Michael Burry Is Staying Short Nvidia, Palantir, and Tesla, Warning of a Possible \"1987-Type Fall\" for AI Stocks. Should Investors Take the Bet Seriously?",
-          "summary": "Burry continues to short growth stocks, but it hasn't always been a winning formula.",
-          "pub": "2026-09-12T05:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/12/michael-burry-is-staying-short-nvidia-palantir-and/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     }
