@@ -1,90 +1,7 @@
 {
-  "updated": "2026-09-14T04:58:02.375354+00:00",
+  "updated": "2026-09-14T12:49:35.957264+00:00",
   "judge_source": "rule-based",
   "signals": [
-    {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.4,
-      "confirm": 79.8,
-      "signal": 75.6,
-      "mom": {
-        "ret5": 0.1315,
-        "vol_surge": 0.99
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストupgrade: Outperform→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-25",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-21",
-          "provider": "BMO Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Viral AI Doomer Tweet: Engineered Panic?",
-          "summary": "Potentially orchestrated headlines and regulatory capture attempts are clouding AI investor sentiment.",
-          "pub": "2026-09-14T03:35",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/viral-ai-doomer-tweet-engineered-033500828.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "MU, SNDK, INTC, AMD: Chip Stocks Slide After Anthropic Calls For AI Industry Slowdown",
-          "summary": "AI safety push sparks fresh debate even as investors weigh its potential impact on the massive infrastructure spending cycle.",
-          "pub": "2026-09-14T02:20",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-intc-amd-chip-stocks-slide-after-anthropic-calls-for-ai-industry-slowdown/cZtlF2pRBRT",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Cathie Wood Sees an Economic Boom Wall Street Isn’t Pricing In",
-          "summary": "Cathie Wood is invoking the Industrial Revolution to argue Wall Street is anchored to a growth trend that artificial intelligence and converging technologies are about to shatter. The gap between what the consensus expects and what she sees coming is exactly where the portfolio opportunity lives.",
-          "pub": "2026-09-13T21:10",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/13/cathie-wood-sees-an-economic-boom-wall-street-isnt-pricing-in/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
     {
       "ticker": "CIEN",
       "tier": "確定",
@@ -244,19 +161,102 @@
       ]
     },
     {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.5,
+      "confirm": 79.8,
+      "signal": 74.8,
+      "mom": {
+        "ret5": 0.1315,
+        "vol_surge": 0.99
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストupgrade: Outperform→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-25",
+          "provider": "Raymond James",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-21",
+          "provider": "BMO Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800-word warning",
+          "summary": "AI stocks get hit as public debate erupts on the powerful technology.",
+          "pub": "2026-09-14T09:36",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/ai-stocks-get-drilled-because-of-anthropic-ceo-dario-amodeis-3800-word-warning-093637548.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Stocks Fall Pre-Bell Amid AI Safety Warnings; Investors Await Fed Rate Decision",
+          "summary": "The benchmark US stock measures were tracking in the red before the opening bell Monday as traders a",
+          "pub": "2026-09-14T12:25",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-fall-pre-bell-amid-122514971.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "AMD Shares Fall 5.6% as AI Development Debate Weighs on Semiconductor Stocks",
+          "summary": "Advanced Micro Devices (NASDAQ:AMD) shares fell 5. 6% in pre-market trading on Monday to $487.",
+          "pub": "2026-09-14T12:02",
+          "provider": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/market-news/article/36195/amd-shares-fall-5-6-as-ai-development-debate-weighs-on-semiconductor-stocks",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CLS",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 10,
-      "today_rank": 16,
+      "today_rank": 15,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 48.5,
+      "news": 48.7,
       "confirm": 78.3,
-      "signal": 72.7,
+      "signal": 72.8,
       "mom": {
         "ret5": 0.1185,
         "vol_surge": 0.89
@@ -275,6 +275,17 @@
           "type": "8-K 5.02",
           "why": "役員の退任・選任（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Arista's Cash Flow Momentum Builds: How Sustainable is it?",
+          "summary": "ANET's cash flow is surging on strong growth and upfront customer payments, but deferred revenue and inventory swings could add volatility.",
+          "pub": "2026-09-14T12:40",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aristas-cash-flow-momentum-builds-124000207.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Celestica vs. Corning: Which AI Infrastructure Stock is a Better Buy?",
@@ -308,17 +319,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Sanmina's Cash Flow Gains Momentum: Can the Trend Continue?",
-          "summary": "SANM's cash flow surged in fiscal 2026, fueled by AI infrastructure demand, but rising investments could test free cash flow growth.",
-          "pub": "2026-09-09T15:54",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sanminas-cash-flow-gains-momentum-155400621.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
         }
       ]
     },
@@ -406,14 +406,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.7,
+      "news": 49.9,
       "confirm": 53.5,
-      "signal": 67.3,
+      "signal": 66.5,
       "mom": {
         "ret5": 0.0178,
         "vol_surge": 0.88
@@ -422,55 +422,55 @@
       "consensus": null,
       "headlines": [
         {
-          "title": "Nvidia's Latest Signal Points to Serious Downside Risk for Micron Before 2029 Is Over",
-          "summary": "Micron's near-term outlook remains strong, but Nvidia's push to use cheaper memory, rising competition, and Micron's aggressive capacity expansion could create longer-term risks for the stock.",
-          "pub": "2026-09-14T02:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/13/nvidias-latest-signal-points-to-serious-downside-r/",
+          "title": "AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800-word warning",
+          "summary": "AI stocks get hit as public debate erupts on the powerful technology.",
+          "pub": "2026-09-14T09:36",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/ai-stocks-get-drilled-because-of-anthropic-ceo-dario-amodeis-3800-word-warning-093637548.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "MU, SNDK, INTC, AMD: Chip Stocks Slide After Anthropic Calls For AI Industry Slowdown",
-          "summary": "AI safety push sparks fresh debate even as investors weigh its potential impact on the massive infrastructure spending cycle.",
-          "pub": "2026-09-14T02:20",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-intc-amd-chip-stocks-slide-after-anthropic-calls-for-ai-industry-slowdown/cZtlF2pRBRT",
+          "title": "Stocks Fall Pre-Bell Amid AI Safety Warnings; Investors Await Fed Rate Decision",
+          "summary": "The benchmark US stock measures were tracking in the red before the opening bell Monday as traders a",
+          "pub": "2026-09-14T12:25",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-fall-pre-bell-amid-122514971.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Will Micron Technology Stock Soar to $1,500 After Sept. 30?",
-          "summary": "Micron is expected to report another blockbuster set of quarterly financial results later this month.",
-          "pub": "2026-09-13T16:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/13/will-micron-technology-stock-soar-to-1500-sept-30/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "title": "Micron Technology Shares Fall 5.2% as Semiconductor Stocks Decline",
+          "summary": "Micron Technology (NASDAQ:MU) shares fell 5. 2% in pre-market trading on Monday to $924.",
+          "pub": "2026-09-14T11:59",
+          "provider": "InvestorsHub",
+          "url": "https://investorshub.advfn.com/market-news/article/36191/micron-technology-shares-fall-5-2-as-semiconductor-stocks-decline",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Prediction: This Memory Stock Could Surge 233% Over the Next 3 Years (Hint: It's not Micron or Sandisk)",
-          "summary": "Analysts are underestimating SK Hynix's growth potential, setting the stock up for a big jump.",
-          "pub": "2026-09-13T16:31",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/13/prediction-this-memory-stock-could-surge-233-over/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "title": "Major Tech Stocks Fall as AI Leaders Warn of Risks From Rapid Advances",
+          "summary": "Shares of major technology companies fell early Monday after leading artificial intelligence executi",
+          "pub": "2026-09-14T11:49",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/major-tech-stocks-fall-ai-114933012.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Prediction: 2 AI Semiconductor Stocks That Will Join Micron and Broadcom in the $1 Trillion Club by 2028",
-          "summary": "Strong earnings acceleration will push both of these companies into 13-figure territory.",
-          "pub": "2026-09-13T15:15",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/13/predict-ai-semiconductor-stocks-micron-broadcom/",
+          "title": "AI stocks fall after Amodei, Altman, and Musk back AI slowdown",
+          "summary": "Nvidia, Intel, ASML, SK Hynix, and SoftBank were among the hardest-hit names as investors weighed the implications of a deliberate cap on AI progress",
+          "pub": "2026-09-14T11:23",
+          "provider": "Quartz",
+          "url": "https://qz.com/ai-stocks-sink-amodei-altman-musk-slowdown-091426",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -563,7 +563,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 14,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
@@ -641,7 +641,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 15,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
@@ -775,6 +775,17 @@
       "consensus": null,
       "headlines": [
         {
+          "title": "Big Pharma Is Pouring Billions Into China’s Biotechs",
+          "summary": "Big Pharma firms have cut license deals worth tens of billions of dollars for cancer drugs invented in China.",
+          "pub": "2026-09-14T07:59",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/pharma-china-biotech-britol-meyers-eli-lilly-67c4828f?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Should You Buy Bristol Myers Squibb Stock Right Now for the Yield Alone?",
           "summary": "As management tackles key issues head-on, Bristol Myers Squibb stock offers a steady 4% yield, with further upside potential.",
           "pub": "2026-09-13T19:53",
@@ -817,17 +828,89 @@
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 57.5,
+      "confirm": 17.4,
+      "signal": 59.9,
+      "mom": {
+        "ret5": -0.0838,
+        "vol_surge": 0.5
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 13,
+        "hold": 10,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Bristol Myers’ Cancer Therapy Win Strengthens its Oncology Pipeline",
-          "summary": "Bristol-Myers Squibb Company (NYSE:BMY) said its experimental CAR-T cell therapy, arlocabtagene autoleucel (arlo-cel), met the main goal of a mid-stage trial in patients with advanced multiple myeloma who had already gone through four major classes of standard treatments. The therapy produced a stat",
-          "pub": "2026-09-11T15:16",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/healthcare/articles/bristol-myers-cancer-therapy-win-151642064.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "There Is No Off Switch for AI Capability Growth. Here Is Who Benefits Most From That.",
+          "summary": "NVIDIA and Palantir both raised guidance and both accelerated, but they are capturing AI dollars at completely different layers of the stack. Which position actually earns the next trillion matters more than which stock looks cheaper.",
+          "pub": "2026-09-14T12:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/14/there-is-no-off-switch-for-ai-capability-growth-here-is-who-benefits-most-from-that/",
+          "dir": 0.9,
+          "conf": 0.9,
+          "type": "ガイダンス引上げ",
+          "why": "+ガイダンス引上げ"
+        },
+        {
+          "title": "4 Simple ETFs Built for Long-Term Buy-and-Hold Investors",
+          "summary": "These ETFs each offer a distinct strategy for creating long-term wealth.",
+          "pub": "2026-09-14T10:35",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/14/4-simple-etfs-built-long-term-buy-hold-investors/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Palantir's Growth Has Kept Accelerating, but Can the Rally Continue?",
+          "summary": "The AI data analytics giant could run up against a wall in the near future.",
+          "pub": "2026-09-12T15:55",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/12/palantirs-growth-has-kept-accelerating-but-can-the/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
         }
       ]
     },
@@ -1010,89 +1093,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.5,
-      "confirm": 17.4,
-      "signal": 58.2,
-      "mom": {
-        "ret5": -0.0838,
-        "vol_surge": 0.5
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 13,
-        "hold": 10,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "DA Davidson",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Palantir's Growth Has Kept Accelerating, but Can the Rally Continue?",
-          "summary": "The AI data analytics giant could run up against a wall in the near future.",
-          "pub": "2026-09-12T15:55",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/12/palantirs-growth-has-kept-accelerating-but-can-the/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "MarketBeat Week in Review – 09/07 - 09/11",
-          "summary": "Stocks fell this week on oil prices and Fed rate-hike expectations, though Oracle's earnings underscored AI infrastructure strength. MarketBeat analysts recap top stories on earnings, defense, AI, and other stock opportunities.",
-          "pub": "2026-09-12T11:00",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/articles/marketbeat-week-in-review-09-07-09-11/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Palantir and Nvidia Are Building a Sovereign AI Stack. Who Captures More of the Economics?",
-          "summary": "Palantir Technologies Inc. (NASDAQ:PLTR) and NVIDIA Corporation (NASDAQ:NVDA) are pushing their partnership deeper into one of the most important emerging enterprise AI themes: keeping proprietary data and operational intelligence under customer control. On September 10, Palantir and Nvidia announce",
-          "pub": "2026-09-12T08:52",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-building-sovereign-ai-085205506.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
         }
       ]
     }
