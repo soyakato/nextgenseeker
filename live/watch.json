@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T04:50:29.377727+00:00",
+  "updated": "2026-09-16T11:35:48.073896+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -15,7 +15,7 @@
       "persist": 100,
       "news": 59.0,
       "confirm": 46.4,
-      "signal": 68.1,
+      "signal": 67.8,
       "mom": {
         "ret5": -0.0051,
         "vol_surge": 0.86
@@ -34,6 +34,17 @@
           "type": "8-K 7.01",
           "why": "Reg FD開示（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "2 of Wall Street’s Favorite Stocks to Target This Week and 1 Facing Challenges",
+          "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it’s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly optimistic forecasts.",
+          "pub": "2026-09-16T07:08",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-070837895.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Smartphone Chip Stocks Rally While Large-Cap Technology Slips: Skyworks Jumps 11%, Qorvo Rises 7%, Qualcomm Climbs 4%",
@@ -67,13 +78,85 @@
           "conf": 0.6,
           "type": "契約・提携",
           "why": "+契約・提携"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.5,
+      "confirm": 48.2,
+      "signal": 64.7,
+      "mom": {
+        "ret5": -0.003,
+        "vol_surge": 0.94
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストupgrade: Outperform→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-25",
+          "provider": "Raymond James",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Texas Instruments Is Up 55% in 2026: This Is the Secret Tech Stock You’re Missing Out On",
-          "summary": "While Wall Street obsesses over AI compute chips, one analog giant has quietly outpaced the S&P 500 by a factor of five this year, and the reason has nothing to do with artificial intelligence.",
-          "pub": "2026-09-14T19:08",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/14/texas-instruments-is-up-55-in-2026-this-is-the-secret-tech-stock-youre-missing-out-on/",
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-21",
+          "provider": "BMO Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "2 S&P 500 Stocks for Long-Term Investors and 1 Facing Challenges",
+          "summary": "The S&P 500 (^GSPC) is often seen as a benchmark for strong businesses, but that doesn’t mean every stock is worth owning. Some companies face significant challenges, whether it’s stagnating growth, heavy debt, or disruptive new competitors.",
+          "pub": "2026-09-16T07:24",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-long-072437037.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Bank of America makes bold chip call after AI sell-off",
+          "summary": "The bank sees memory, AI servers, and chip equipment supporting another leg of semiconductor growth.",
+          "pub": "2026-09-16T03:07",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/bank-of-america-makes-bold-chip-call-after-ai-sell-off",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Should You Buy Intel Stock For The Chips It Cannot Yet Make Enough Of?",
+          "summary": "Intel (INTC) stock has returned about 295% over the past year, but it has given back 22% over the past three months. It trades roughly 31% below its 52-week high. The question now is what powers the next leg, and the answer is what Intel can build, not what it can sell.",
+          "pub": "2026-09-16T01:11",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615351/should-you-buy-intel-stock-for-the-chips-it-cannot-yet-make-enough-of/2026-09-15",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -92,9 +175,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.2,
+      "news": 49.7,
       "confirm": 47.4,
-      "signal": 66.0,
+      "signal": 64.2,
       "mom": {
         "ret5": 0.0133,
         "vol_surge": 0.56
@@ -141,109 +224,26 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "September Effect: 3 AI Stocks to Buy on a Potential Market Pullback",
-          "summary": "Palantir, Marvell, and Snowflake could be good buys on a pullback.",
-          "pub": "2026-09-16T01:37",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/15/september-effect-3-ai-stocks-to-buy/",
+          "title": "Death of software 'greatly overstated' as sector flips the script on chip stocks: Chart of the Day",
+          "summary": "Software stocks have outperformed over the past three months as the sector.",
+          "pub": "2026-09-16T10:00",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/death-of-software-greatly-overstated-as-sector-flips-the-script-on-chip-stocks-chart-of-the-day-100000695.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Palantir and Nvidia Are Restricting Anthropic’s AI. Microsoft Could Win the Enterprise Trust War",
-          "summary": "Palantir and Nvidia have reportedly tightened restrictions around Anthropic’s advanced AI models over data-retention concerns. Palantir has demanded irrevocable zero-data-retention guarantees before making the models available through its software, while Nvidia limits Claude to less-sensitive intern",
-          "pub": "2026-09-15T21:55",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-restricting-anthropic-ai-215533551.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        }
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.5,
-      "confirm": 48.2,
-      "signal": 65.1,
-      "mom": {
-        "ret5": -0.003,
-        "vol_surge": 0.94
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストupgrade: Outperform→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-25",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-21",
-          "provider": "BMO Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Bank of America makes bold chip call after AI sell-off",
-          "summary": "The bank sees memory, AI servers, and chip equipment supporting another leg of semiconductor growth.",
-          "pub": "2026-09-16T03:07",
-          "provider": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/bank-of-america-makes-bold-chip-call-after-ai-sell-off",
+          "title": "The Big Short’s Michael Burry Predicts a Possible 1987-Style Drop and is Betting Against AI Giants Nvidia and Palantir. Should You Follow?",
+          "summary": "Burry gained fame after predicting the subprime market crash.",
+          "pub": "2026-09-16T09:30",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/16/the-big-short-s-michael-burry-predicts-a-possible-1987-style-drop-and-is-betting-against-ai-giants-nvidia-and-palantir-should-you-follow/",
           "dir": -0.4,
           "conf": 0.4,
           "type": "急落報道",
           "why": "-急落報道"
-        },
-        {
-          "title": "Should You Buy Intel Stock For The Chips It Cannot Yet Make Enough Of?",
-          "summary": "Intel (INTC) stock has returned about 295% over the past year, but it has given back 22% over the past three months. It trades roughly 31% below its 52-week high. The question now is what powers the next leg, and the answer is what Intel can build, not what it can sell.",
-          "pub": "2026-09-16T01:11",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/615351/should-you-buy-intel-stock-for-the-chips-it-cannot-yet-make-enough-of/2026-09-15",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is AMD Stock Already Priced For A 2027 Doubling It Has Yet To Deliver?",
-          "summary": "Advanced Micro Devices (AMD) has returned more than 200% over the past year. The number that should worry a holder is 19.5: the price-to-sales multiple, against a ten-year high of 23.0, in the top decile of the stock's own decade. That multiple sits in the top decile of the stock's own decade, and t",
-          "pub": "2026-09-16T00:53",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/615362/is-amd-stock-already-priced-for-a-2027-doubling-it-has-yet-to-deliver/2026-09-15",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -260,7 +260,7 @@
       "persist": 100,
       "news": 51.0,
       "confirm": 42.9,
-      "signal": 63.8,
+      "signal": 63.5,
       "mom": {
         "ret5": -0.0148,
         "vol_surge": 0.82
@@ -326,40 +326,6 @@
       ]
     },
     {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 14,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 52.0,
-      "confirm": 40.5,
-      "signal": 63.6,
-      "mom": {
-        "ret5": -0.0122,
-        "vol_surge": 0.61
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Airbnb Eyes Hotels, AI and $1B Ad Revenue as It Expands Beyond Home Rentals",
-          "summary": "Airbnb (NASDAQ:ABNB) CEO Brian Chesky said the company is expanding beyond its core short-term home rental business, outlining ambitions in hotels, services, experiences, longer-term housing and eventually products focused on human connection. Speaking at an investor conference, Chesky said Airbnb",
-          "pub": "2026-09-09T09:02",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/event-airbnb-eyes-hotels-ai-and-1b-ad-revenue-as-it-expands-beyond-home-rentals-2026-09-09/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        }
-      ]
-    },
-    {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
@@ -372,7 +338,7 @@
       "persist": 100,
       "news": 49.3,
       "confirm": 43.6,
-      "signal": 63.3,
+      "signal": 62.9,
       "mom": {
         "ret5": -0.0204,
         "vol_surge": 0.98
@@ -439,19 +405,41 @@
       ]
     },
     {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 15,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 40.5,
+      "signal": 62.4,
+      "mom": {
+        "ret5": -0.0122,
+        "vol_surge": 0.61
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": []
+    },
+    {
       "ticker": "NEM",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 18,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 49.6,
       "confirm": 39.9,
-      "signal": 62.4,
+      "signal": 62.1,
       "mom": {
         "ret5": -0.0228,
         "vol_surge": 0.78
@@ -517,6 +505,85 @@
       ]
     },
     {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 55.3,
+      "confirm": 27.9,
+      "signal": 61.2,
+      "mom": {
+        "ret5": -0.0795,
+        "vol_surge": 1.12
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表・その他の重要イベント",
+          "summary": "",
+          "pub": "2026-09-02",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "3 Semiconductor Stocks to Buy Before AI Demand Explodes in September",
+          "summary": "Hyperscalers keep pulling forward orders for custom silicon, high-bandwidth memory, and networking chips, and three semiconductor names just raised guidance into the surge. One of them already sees a $230 billion revenue trajectory taking shape, and another reports before the month ends.",
+          "pub": "2026-09-16T10:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/16/3-semiconductor-stocks-to-buy-before-ai-demand-explodes-in-september/",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "ガイダンス引上げ",
+          "why": "+ガイダンス引上げ +急騰報道"
+        },
+        {
+          "title": "Blackstone Sees Earnings Boom Fueling AI, Infrastructure and Fundraising Growth",
+          "summary": "Blackstone (NYSE:BX) CFO Michael Chae said the firm sees a constructive backdrop for corporate profits, investment deployment and fundraising, citing accelerating earnings growth, expanding margins and demand for capital across infrastructure, private credit and private wealth markets. Speaking at",
+          "pub": "2026-09-16T02:02",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/event-blackstone-sees-earnings-boom-fueling-ai-infrastructure-and-fundraising-growth-2026-09-15/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Should You Buy Intel Stock For The Chips It Cannot Yet Make Enough Of?",
+          "summary": "Intel (INTC) stock has returned about 295% over the past year, but it has given back 22% over the past three months. It trades roughly 31% below its 52-week high. The question now is what powers the next leg, and the answer is what Intel can build, not what it can sell.",
+          "pub": "2026-09-16T01:11",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615351/should-you-buy-intel-stock-for-the-chips-it-cannot-yet-make-enough-of/2026-09-15",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Is AMD Stock Already Priced For A 2027 Doubling It Has Yet To Deliver?",
+          "summary": "Advanced Micro Devices (AMD) has returned more than 200% over the past year. The number that should worry a holder is 19.5: the price-to-sales multiple, against a ten-year high of 23.0, in the top decile of the stock's own decade. That multiple sits in the top decile of the stock's own decade, and t",
+          "pub": "2026-09-16T00:53",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615362/is-amd-stock-already-priced-for-a-2027-doubling-it-has-yet-to-deliver/2026-09-15",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "COUR",
       "tier": "確定",
       "streak": 43,
@@ -529,7 +596,7 @@
       "persist": 100,
       "news": 50.5,
       "confirm": 34.8,
-      "signal": 61.4,
+      "signal": 61.1,
       "mom": {
         "ret5": -0.0521,
         "vol_surge": 1.03
@@ -563,7 +630,7 @@
       "persist": 100,
       "news": 50.3,
       "confirm": 35.2,
-      "signal": 61.4,
+      "signal": 61.1,
       "mom": {
         "ret5": -0.0399,
         "vol_surge": 0.81
@@ -635,14 +702,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 19,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.8,
+      "news": 52.3,
       "confirm": 28.8,
-      "signal": 60.3,
+      "signal": 60.2,
       "mom": {
         "ret5": -0.059,
         "vol_surge": 0.77
@@ -714,98 +781,19 @@
       ]
     },
     {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 21,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.5,
-      "confirm": 27.9,
-      "signal": 60.0,
-      "mom": {
-        "ret5": -0.0795,
-        "vol_surge": 1.12
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表・その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-02",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Blackstone Sees Earnings Boom Fueling AI, Infrastructure and Fundraising Growth",
-          "summary": "Blackstone (NYSE:BX) CFO Michael Chae said the firm sees a constructive backdrop for corporate profits, investment deployment and fundraising, citing accelerating earnings growth, expanding margins and demand for capital across infrastructure, private credit and private wealth markets. Speaking at",
-          "pub": "2026-09-16T02:02",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/event-blackstone-sees-earnings-boom-fueling-ai-infrastructure-and-fundraising-growth-2026-09-15/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "Should You Buy Intel Stock For The Chips It Cannot Yet Make Enough Of?",
-          "summary": "Intel (INTC) stock has returned about 295% over the past year, but it has given back 22% over the past three months. It trades roughly 31% below its 52-week high. The question now is what powers the next leg, and the answer is what Intel can build, not what it can sell.",
-          "pub": "2026-09-16T01:11",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/615351/should-you-buy-intel-stock-for-the-chips-it-cannot-yet-make-enough-of/2026-09-15",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is AMD Stock Already Priced For A 2027 Doubling It Has Yet To Deliver?",
-          "summary": "Advanced Micro Devices (AMD) has returned more than 200% over the past year. The number that should worry a holder is 19.5: the price-to-sales multiple, against a ten-year high of 23.0, in the top decile of the stock's own decade. That multiple sits in the top decile of the stock's own decade, and t",
-          "pub": "2026-09-16T00:53",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/615362/is-amd-stock-already-priced-for-a-2027-doubling-it-has-yet-to-deliver/2026-09-15",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo (CRDO) vs. Marvell (MRVL): Which AI Chip Stock Is the Better Buy?",
-          "summary": "Outside of Nvidia (NVDA) and Broadcom (AVGO), Credo Technology (CRDO) and Marvell Technology (MRVL) are two of the most searched-for chip stocks on Zacks.com.",
-          "pub": "2026-09-15T22:11",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/credo-crdo-vs-marvell-mrvl-221100887.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "KGC",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 10,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 51.1,
       "confirm": 25.4,
-      "signal": 59.1,
+      "signal": 58.7,
       "mom": {
         "ret5": -0.07,
         "vol_surge": 0.76
@@ -843,14 +831,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 11,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 54.9,
       "confirm": 17.9,
-      "signal": 58.6,
+      "signal": 58.3,
       "mom": {
         "ret5": -0.1436,
         "vol_surge": 0.86
@@ -929,7 +917,7 @@
       "persist": 100,
       "news": 51.1,
       "confirm": 18.5,
-      "signal": 57.2,
+      "signal": 56.8,
       "mom": {
         "ret5": -0.1257,
         "vol_surge": 0.9
@@ -1007,7 +995,7 @@
       "persist": 100,
       "news": 48.2,
       "confirm": 16.1,
-      "signal": 55.3,
+      "signal": 54.9,
       "mom": {
         "ret5": -0.1009,
         "vol_surge": 0.74
