@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T17:00:44.831737+00:00",
+  "updated": "2026-09-17T21:23:36.117806+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,17 +8,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 59.7,
-      "confirm": 78.3,
-      "signal": 76.8,
+      "news": 51.8,
+      "confirm": 77.6,
+      "signal": 73.2,
       "mom": {
-        "ret5": 0.0903,
-        "vol_surge": 1.08
+        "ret5": 0.0824,
+        "vol_surge": 1.19
       },
       "earn_days": null,
       "consensus": {
@@ -51,37 +51,37 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash Buy Signals",
+          "summary": "The S&P 500 and Nasdaq regain their 50-day lines and Treasury yields fall in a bullish day two Fed reaction. SpaceX, AMD, Moderna are buys.",
+          "pub": "2026-09-17T20:48",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Stocks Rally, Shaking Off Fed’s Rate Hike",
+          "summary": "Major stock-market indexes rallied, reversing the declines that followed the Federal Reserve’s interest-rate hike Wednesday.  The PHLX Semiconductor Index rose 3.1% after comments from Intel Chief Executive  Lip-Bu Tan  about soaring memory prices.  The Securities and Exchange Commission cleared a p",
+          "pub": "2026-09-17T20:36",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/finance/stocks/stocks-rally-shaking-off-feds-rate-hike-aebb2c0b?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
           "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
           "summary": "The Philadelphia semiconductor index, known as SOX, rose for the third straight session Thursday. AMD stock was among the big gainers.",
-          "pub": "2026-09-17T16:41",
+          "pub": "2026-09-17T20:21",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/news/technology/amd-stock-leads-chip-stocks-sox-index-higher-amid-sector-rebound/?src=A00220&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Qualcomm Faces Margin Pressure From Rising Costs: Can it Recover?",
-          "summary": "QCOM faces margin pressure from rising semiconductor costs, weaker handset demand and product mix, while Apple revenue is set to decline.",
-          "pub": "2026-09-17T15:40",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-faces-margin-pressure-rising-154000528.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Cerebras Drops 19% in 3 Months: Buy, Sell or Hold the Stock?",
-          "summary": "CBRS faces margin pressure and customer concentration, but strong RPO, expanding capacity and liquidity support its long-term growth outlook.",
-          "pub": "2026-09-17T15:30",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-drops-19-3-months-153000113.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
         }
       ]
     },
@@ -91,17 +91,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 16,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
       "persist": 100,
       "news": 57.1,
-      "confirm": 64.5,
-      "signal": 71.8,
+      "confirm": 68.8,
+      "signal": 73.0,
       "mom": {
-        "ret5": 0.0422,
-        "vol_surge": 1.12
+        "ret5": 0.0495,
+        "vol_surge": 1.26
       },
       "earn_days": null,
       "consensus": null,
@@ -164,168 +164,6 @@
       ]
     },
     {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 5,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 52.0,
-      "confirm": 69.3,
-      "signal": 71.0,
-      "mom": {
-        "ret5": 0.0587,
-        "vol_surge": 1.11
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-09-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "CIEN Draws Slew Of Target Hikes Post Financial Targets Forecast – Stock's 10% Surge Takes It Near 200-DMA",
-          "summary": "The company had announced its three-year financial targets at its Investor Forum on Wednesday, including around 30% revenue growth from fiscal 2026 through fiscal 2029.",
-          "pub": "2026-09-17T15:37",
-          "provider": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/cien-draws-slew-of-target-hikes-post-financial-targets-forecast-stock-s-10-surge-takes-it-near-200-dma/cZtrstjRBdf",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Corning Rides on Expanding Partner Base: Will it Boost Prospects?",
-          "summary": "GLW expands AI and telecom partnerships with Meta, Amazon, NVIDIA and Verizon, boosting connectivity opportunities as AI data-center demand grows.",
-          "pub": "2026-09-17T15:28",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/corning-rides-expanding-partner-boost-152800958.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "Ciena Expects Continued Market Share Gains Driven by Technology Lead, Morgan Stanley Says",
-          "summary": "Ciena (CIEN) expects to continue gaining market share as indicated by its updated targets, including",
-          "pub": "2026-09-17T15:09",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/articles/ciena-expects-continued-market-share-150941260.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Ciena Stock Rises as These Numbers Leave Wall Street Pleasantly Surprised",
-          "summary": "It’s been a difficult week for the performance of shares of optical networking companies as existential artificial-intelligence fears hit the stock market.  Ciena stock rose 8.7% to $370.80 on Thursday and was one of the best-performing components in the  for the trading session.  Fellow optical net",
-          "pub": "2026-09-17T14:12",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/ciena-stock-ai-earnings-guidance-0e17c876?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.3,
-      "confirm": 61.4,
-      "signal": 69.4,
-      "mom": {
-        "ret5": 0.056,
-        "vol_surge": 0.64
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 13,
-        "hold": 10,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-15",
-          "provider": "UBS",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "DA Davidson",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Michael Burry Disclosed Put Options Worth an Estimated $1.1 Billion Against Nvidia and Palantir Before Closing His Hedge Fund. Was That Bearish Bet Ahead of Its Time?",
-          "summary": "Burry could have another \"big short\" in his portfolio.",
-          "pub": "2026-09-17T15:10",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/17/michael-burry-disclosed-put-options-worth-an-estim/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "The Palantir Question Nobody Can Answer Yet: How Big Can This Get?",
-          "summary": "Palantir is posting growth numbers that make every enterprise software peer look slow, yet the stock has gone nowhere for a year. Understanding why reveals something uncomfortable about what fair value actually means for a company this unusual.",
-          "pub": "2026-09-17T15:00",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/17/the-palantir-question-nobody-can-answer-yet-how-big-can-this-get/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "ALAB",
       "tier": "確定",
       "streak": 43,
@@ -337,15 +175,26 @@
       "sector": "Technology",
       "persist": 100,
       "news": 59.6,
-      "confirm": 50.2,
-      "signal": 69.0,
+      "confirm": 61.2,
+      "signal": 72.0,
       "mom": {
-        "ret5": 0.0017,
-        "vol_surge": 0.98
+        "ret5": 0.0317,
+        "vol_surge": 1.11
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
+          "summary": "The Philadelphia semiconductor index, known as SOX, rose for the third straight session Thursday. AMD stock was among the big gainers.",
+          "pub": "2026-09-17T20:21",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/amd-stock-leads-chip-stocks-sox-index-higher-amid-sector-rebound/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Why Is Astera Labs (ALAB) Expanding Leo Memory Controllers For AI And Cloud?",
           "summary": "Astera Labs (NasdaqGS:ALAB) unveiled new Leo Smart Memory Controller solutions, including the Leo X-Series and Leo 2 E & P-Series, targeting AI and cloud workloads. The expanded Leo lineup is built for large-scale AI uses such as KV-cache and agentic AI, aiming to improve memory efficiency for hyper",
@@ -389,17 +238,168 @@
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
+        }
+      ]
+    },
+    {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 4,
+      "today_rank": 4,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.9,
+      "confirm": 62.6,
+      "signal": 69.5,
+      "mom": {
+        "ret5": 0.029,
+        "vol_surge": 1.26
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-09-03",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "Credo Powers AI Networks With New 1.6T ZeroFlap Optics Launch",
-          "summary": "CRDO's new 1.6T ZeroFlap optical transceivers combine 224G DSPs and SiPho PICs to target faster, denser AI networks.",
-          "pub": "2026-09-16T14:08",
+          "title": "Ciena Stock Rises as These Numbers Leave Wall Street Pleasantly Surprised",
+          "summary": "It’s been a difficult week for the performance of shares of optical networking companies as existential artificial-intelligence fears hit the stock market.  Ciena stock rose 3% to $350.85 on Thursday.  Ciena was at least partially responsible for the stock performances on Thursday as the company’s f",
+          "pub": "2026-09-17T18:23",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/ciena-stock-ai-earnings-guidance-0e17c876?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "CIEN Draws Slew Of Target Hikes Post Financial Targets Forecast – Stock's 10% Surge Takes It Near 200-DMA",
+          "summary": "The company had announced its three-year financial targets at its Investor Forum on Wednesday, including around 30% revenue growth from fiscal 2026 through fiscal 2029.",
+          "pub": "2026-09-17T15:37",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/cien-draws-slew-of-target-hikes-post-financial-targets-forecast-stock-s-10-surge-takes-it-near-200-dma/cZtrstjRBdf",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Corning Rides on Expanding Partner Base: Will it Boost Prospects?",
+          "summary": "GLW expands AI and telecom partnerships with Meta, Amazon, NVIDIA and Verizon, boosting connectivity opportunities as AI data-center demand grows.",
+          "pub": "2026-09-17T15:28",
           "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/credo-powers-ai-networks-1-140800797.html",
+          "url": "https://finance.yahoo.com/technology/articles/corning-rides-expanding-partner-boost-152800958.html",
           "dir": 0.4,
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
+        },
+        {
+          "title": "Ciena Expects Continued Market Share Gains Driven by Technology Lead, Morgan Stanley Says",
+          "summary": "Ciena (CIEN) expects to continue gaining market share as indicated by its updated targets, including",
+          "pub": "2026-09-17T15:09",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/articles/ciena-expects-continued-market-share-150941260.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 64.3,
+      "signal": 68.7,
+      "mom": {
+        "ret5": 0.0626,
+        "vol_surge": 0.7
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 13,
+        "hold": 10,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-15",
+          "provider": "UBS",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Tech, Media & Telecom Roundup: Market Talk",
+          "summary": "Find insight on Palantir, Infineon Technologies, LG Display and more in the latest Market Talks covering Technology, Media and Telecom.",
+          "pub": "2026-09-17T20:53",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-8dfe699f?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why Is Chipotle Now Working With the CIA-Funded Palantir?",
+          "summary": "Chipotle is piloting a Palantir-built food safety dashboard after a summer of outbreaks, putting employee data in the hands of a company seeded by the CIA's venture arm.",
+          "pub": "2026-09-17T20:46",
+          "provider": "decrypt",
+          "url": "https://decrypt.co/378553/why-chipotle-working-with-palantir",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -409,17 +409,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 11,
+      "today_rank": 9,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 58.3,
-      "confirm": 50.6,
-      "signal": 68.5,
+      "confirm": 45.4,
+      "signal": 67.1,
       "mom": {
-        "ret5": 0.0089,
-        "vol_surge": 0.86
+        "ret5": -0.0132,
+        "vol_surge": 0.96
       },
       "earn_days": 36,
       "consensus": null,
@@ -435,6 +435,28 @@
           "type": "8-K 7.01",
           "why": "Reg FD開示（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "How Far Can Cipher Digital Stock Fall While It Waits For Rent?",
+          "summary": "Cipher Digital (CIFR) stock fell 36.2% over the past three months. Over twelve months it is still up 54.1%, against 15.5% for the S&P 500. The company is moving from bitcoin mining to leasing data centers to hyperscale tenants. In past market shocks, the stock fell hard and bounced back fast.",
+          "pub": "2026-09-17T20:28",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615703/how-far-can-cipher-digital-stock-fall-while-it-waits-for-rent/2026-09-17",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Applied Digital Stock Recover On Leases It Has Already Signed?",
+          "summary": "Applied Digital (APLD) stock has fallen about 47% over the trailing three months. The business moved the other way. Contracted lease value more than doubled between its fiscal Q3 2026 and fiscal Q4 2026 reports. The upside case here is simple, but not quick: capacity the company has already sold sti",
+          "pub": "2026-09-17T19:41",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615734/can-applied-digital-stock-recover-on-leases-it-has-already-signed/2026-09-17",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "CORZ Stock Gets AMD Boost, While HUT, CIFR, WULF Shares Win Tenant Nod As Wells Fargo Backs Bitcoin Miners’ AI Pivot",
@@ -457,28 +479,6 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
-        },
-        {
-          "title": "Cipher Digital Surges 9% on Conditional ERCOT Status for 3.2 GW of Texas Capacity; Core Scientific Rises 4%, IREN Nudges Higher",
-          "summary": "A Texas grid operator quietly disclosed something about Cipher Mining that sent the stock surging 9% before the company said a word, and the ripple moved two of its rivals in the same direction.",
-          "pub": "2026-09-16T14:00",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/16/cipher-digital-surges-9-on-conditional-ercot-status-for-3-2-gw-of-texas-capacity-core-scientific-rises-4-iren-nudges-higher/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Applied Digital Falls 4% and Turns Negative for the Year as the AI Buildout Trade Bleeds Out; Core Scientific Drops 5%, Cipher Mining Sinks 4%",
-          "summary": "Applied Digital just crossed into negative territory for 2026 while the broader data center ETF barely blinked, and that gap between the small hosting names and the wider infrastructure basket is telling investors something important about where this trade goes next.",
-          "pub": "2026-09-15T17:55",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/15/applied-digital-falls-4-and-turns-negative-for-the-year-as-the-ai-buildout-trade-bleeds-out-core-scientific-drops-5-cipher-mining-sinks-4/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
         }
       ]
     },
@@ -488,17 +488,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 7,
+      "today_rank": 6,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
       "news": 56.5,
-      "confirm": 46.2,
-      "signal": 66.5,
+      "confirm": 47.7,
+      "signal": 66.9,
       "mom": {
-        "ret5": -0.0093,
-        "vol_surge": 0.93
+        "ret5": -0.0143,
+        "vol_surge": 1.13
       },
       "earn_days": 42,
       "consensus": null,
@@ -561,85 +561,6 @@
       ]
     },
     {
-      "ticker": "CLS",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 10,
-      "today_rank": 15,
-      "first_seen": "2026-07-15",
-      "name": "Celestica, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.4,
-      "confirm": 53.2,
-      "signal": 65.9,
-      "mom": {
-        "ret5": 0.0243,
-        "vol_surge": 0.73
-      },
-      "earn_days": 39,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1030894/000110465926107079",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Celestica (TSX:CLS) Following Its CFO Change, Is The Undervalued View Still Intact?",
-          "summary": "Why Celestica’s CFO Transition Matters For Investors Celestica (TSX:CLS) is reshaping its leadership chart, with long-time finance chief Mandeep Chawla moving to a new Group President, Global Markets role and Todd Ankenmann stepping in as CFO. Recent price action has been choppy. The share price fel",
-          "pub": "2026-09-15T16:14",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-tsx-cls-following-cfo-161424844.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Ulta Beauty, Etsy upgraded: Wall Street's top analyst calls",
-          "summary": "Ulta Beauty, Etsy upgraded: Wall Street's top analyst calls",
-          "pub": "2026-09-15T13:35",
-          "provider": "The Fly",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-downgraded-ulta-beauty-upgraded-133354484.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
-        },
-        {
-          "title": "Investors Heavily Search Celestica, Inc. (CLS): Here is What You Need to Know",
-          "summary": "Zacks.com users have recently been watching Celestica (CLS) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
-          "pub": "2026-09-15T13:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-celestica-inc-130002964.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can Celestica's Next-Generation HealthTech Portfolio Lift Its Shares?",
-          "summary": "CLS supports growing HealthTech demand with advanced manufacturing, supply chain and engineering solutions for medical devices.",
-          "pub": "2026-09-14T15:17",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/celesticas-next-generation-healthtech-portfolio-151700369.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "NVDA",
       "tier": "確定",
       "streak": 43,
@@ -651,11 +572,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 54.5,
-      "confirm": 46.8,
-      "signal": 65.8,
+      "confirm": 48.4,
+      "signal": 66.3,
       "mom": {
-        "ret5": 0.0028,
-        "vol_surge": 0.73
+        "ret5": 0.0045,
+        "vol_surge": 0.8
       },
       "earn_days": null,
       "consensus": {
@@ -724,22 +645,179 @@
       ]
     },
     {
+      "ticker": "CLS",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 10,
+      "today_rank": 13,
+      "first_seen": "2026-07-15",
+      "name": "Celestica, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.4,
+      "confirm": 51.2,
+      "signal": 65.3,
+      "mom": {
+        "ret5": 0.0145,
+        "vol_surge": 0.79
+      },
+      "earn_days": 39,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1030894/000110465926107079",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Celestica (TSX:CLS) Following Its CFO Change, Is The Undervalued View Still Intact?",
+          "summary": "Why Celestica’s CFO Transition Matters For Investors Celestica (TSX:CLS) is reshaping its leadership chart, with long-time finance chief Mandeep Chawla moving to a new Group President, Global Markets role and Todd Ankenmann stepping in as CFO. Recent price action has been choppy. The share price fel",
+          "pub": "2026-09-15T16:14",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-tsx-cls-following-cfo-161424844.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Ulta Beauty, Etsy upgraded: Wall Street's top analyst calls",
+          "summary": "Ulta Beauty, Etsy upgraded: Wall Street's top analyst calls",
+          "pub": "2026-09-15T13:35",
+          "provider": "The Fly",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-downgraded-ulta-beauty-upgraded-133354484.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "格上げ",
+          "why": "+格上げ"
+        },
+        {
+          "title": "Investors Heavily Search Celestica, Inc. (CLS): Here is What You Need to Know",
+          "summary": "Zacks.com users have recently been watching Celestica (CLS) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+          "pub": "2026-09-15T13:00",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-celestica-inc-130002964.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Celestica's Next-Generation HealthTech Portfolio Lift Its Shares?",
+          "summary": "CLS supports growing HealthTech demand with advanced manufacturing, supply chain and engineering solutions for medical devices.",
+          "pub": "2026-09-14T15:17",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/healthcare/articles/celesticas-next-generation-healthtech-portfolio-151700369.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 7,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.2,
+      "confirm": 46.9,
+      "signal": 64.9,
+      "mom": {
+        "ret5": 0.0001,
+        "vol_surge": 0.79
+      },
+      "earn_days": 13,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Micron, Qualcomm, Nova, Lattice Semiconductor, and Workday Shares Are Soaring, What You Need To Know",
+          "summary": "A number of stocks jumped in the afternoon session after Treasury yields retreated below 5% and oil prices declined, sparking a recovery across growth-oriented equities following the Federal Reserve's interest rate increase.",
+          "pub": "2026-09-17T21:14",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-qualcomm-nova-lattice-semiconductor-211417375.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Stocks Rally, Shaking Off Fed’s Rate Hike",
+          "summary": "Major stock-market indexes rallied, reversing the declines that followed the Federal Reserve’s interest-rate hike Wednesday.  The PHLX Semiconductor Index rose 3.1% after comments from Intel Chief Executive  Lip-Bu Tan  about soaring memory prices.  The Securities and Exchange Commission cleared a p",
+          "pub": "2026-09-17T20:36",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/finance/stocks/stocks-rally-shaking-off-feds-rate-hike-aebb2c0b?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
+          "summary": "The Philadelphia semiconductor index, known as SOX, rose for the third straight session Thursday. AMD stock was among the big gainers.",
+          "pub": "2026-09-17T20:21",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/amd-stock-leads-chip-stocks-sox-index-higher-amid-sector-rebound/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why Micron Stock Is Jumping as Intel CEO Warns on Memory Chips",
+          "summary": "Micron Technology  stock was back on the rise early Thursday.  A warning from the head of  Intel  about soaring memory prices looks to be reminding shareholders of the company’s profit potential.  Micron shares were up 5.3% at $975.86 in Thursday afternoon trading.",
+          "pub": "2026-09-17T19:08",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/micron-stock-price-intel-memory-chips-b0eca0f2?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "If QQQ Repeats Its Last Decade, $100,000 at 40 Could Hit $1 Million by 52",
+          "summary": "QQQ turned $100,000 into a million dollars faster than most retirement plans dare to model, but the math depends entirely on which decade you believe comes next.",
+          "pub": "2026-09-17T19:05",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/17/if-qqq-repeats-its-last-decade-100000-at-40-could-hit-1-million-by-52/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "COUR",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 6,
+      "today_rank": 5,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
       "persist": 100,
       "news": 50.0,
-      "confirm": 47.5,
-      "signal": 64.1,
+      "confirm": 46.9,
+      "signal": 63.9,
       "mom": {
-        "ret5": -0.0067,
-        "vol_surge": 0.97
+        "ret5": -0.0153,
+        "vol_surge": 1.1
       },
       "earn_days": 42,
       "consensus": null,
@@ -758,90 +836,12 @@
       ]
     },
     {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 7,
-      "today_rank": 19,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.1,
-      "confirm": 45.4,
-      "signal": 64.0,
-      "mom": {
-        "ret5": -0.0022,
-        "vol_surge": 0.74
-      },
-      "earn_days": 13,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
-          "summary": "The Philadelphia semiconductor index, known as SOX, rose for the third straight session Thursday. AMD stock was among the big gainers.",
-          "pub": "2026-09-17T16:41",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/amd-stock-leads-chip-stocks-sox-index-higher-amid-sector-rebound/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron Jumps 5% as Intel CEO Says Memory Prices Have Surged Over 500%",
-          "summary": "Micron Technology Inc. (NASDAQ:MU) jumped more than 5% Thursday as memory stocks rallied, two days after Intel Corp. (NASDAQ:INTC) CEO Lip-Bu Tan warned that the memory shortage could worsen next year. Barron’s reported that Tan’s comments helped drive the move....",
-          "pub": "2026-09-17T15:38",
-          "provider": "Benzinga Prediction Markets",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61848172/micron-stock-memory-prices-intel-ai-shortage?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "The Overlooked Semiconductor Stock Poised to Lead in the AI Race",
-          "summary": "Camtek stock has averaged a 48% annualized return over the past 10 years.",
-          "pub": "2026-09-17T15:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/17/the-overlooked-semiconductor-stock-poised-to-lead/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron Sends Fresh Signal to AI Chip Investors",
-          "summary": "New capacity could strengthen Micron's next phase of growth",
-          "pub": "2026-09-17T15:23",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/micron-sends-fresh-signal-ai-152353276.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Prediction: This AI Infrastructure Stock Will Go Parabolic After Sept. 30 (Hint: It’s Not Micron)",
-          "summary": "The booming demand for AI servers will supercharge Jabil's growth.",
-          "pub": "2026-09-17T15:03",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/17/prediction-this-ai-infrastructure-stock-will-go-parabolic-after-sept-30-hint-it-s-not-micron/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "FLYW",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 14,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -850,12 +850,57 @@
       "confirm": 46.5,
       "signal": 63.8,
       "mom": {
-        "ret5": 0.0028,
-        "vol_surge": 0.71
+        "ret5": -0.0011,
+        "vol_surge": 0.79
       },
       "earn_days": null,
       "consensus": null,
       "headlines": []
+    },
+    {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 3,
+      "today_rank": 10,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 52.2,
+      "confirm": 42.4,
+      "signal": 63.7,
+      "mom": {
+        "ret5": -0.0152,
+        "vol_surge": 0.8
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Gold miners rally as bullion rebounds on softer dollar, easing oil prices",
+          "summary": "Investing.com -- U.S.-listed shares of gold miners rose in premarket trading Thursday, tracking a rebound in bullion prices after gold touched a near-six-week low a day earlier.",
+          "pub": "2026-09-17T11:32",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-rally-bullion-rebounds-113229854.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Should You Buy Newmont Stock After a 60% Rally in a Year?",
+          "summary": "Newmont's 60% rally reflects strong earnings and cash flow, but lower production, higher costs and falling estimates cloud its outlook.",
+          "pub": "2026-09-14T12:54",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-newmont-stock-60-rally-125400713.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        }
+      ]
     },
     {
       "ticker": "NEM",
@@ -863,17 +908,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 18,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 52.8,
-      "confirm": 41.0,
-      "signal": 63.5,
+      "confirm": 41.8,
+      "signal": 63.7,
       "mom": {
-        "ret5": -0.0129,
-        "vol_surge": 0.66
+        "ret5": -0.0139,
+        "vol_surge": 0.73
       },
       "earn_days": 35,
       "consensus": null,
@@ -936,67 +981,22 @@
       ]
     },
     {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 3,
-      "today_rank": 12,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 52.2,
-      "confirm": 41.3,
-      "signal": 63.3,
-      "mom": {
-        "ret5": -0.0166,
-        "vol_surge": 0.75
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Gold miners rally as bullion rebounds on softer dollar, easing oil prices",
-          "summary": "Investing.com -- U.S.-listed shares of gold miners rose in premarket trading Thursday, tracking a rebound in bullion prices after gold touched a near-six-week low a day earlier.",
-          "pub": "2026-09-17T11:32",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-rally-bullion-rebounds-113229854.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Should You Buy Newmont Stock After a 60% Rally in a Year?",
-          "summary": "Newmont's 60% rally reflects strong earnings and cash flow, but lower production, higher costs and falling estimates cloud its outlook.",
-          "pub": "2026-09-14T12:54",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-newmont-stock-60-rally-125400713.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        }
-      ]
-    },
-    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 9,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
-      "news": 48.4,
-      "confirm": 37.2,
-      "signal": 60.6,
+      "news": 49.6,
+      "confirm": 37.7,
+      "signal": 61.2,
       "mom": {
-        "ret5": -0.0263,
-        "vol_surge": 0.67
+        "ret5": -0.0275,
+        "vol_surge": 0.73
       },
       "earn_days": 28,
       "consensus": null,
