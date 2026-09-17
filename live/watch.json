@@ -1,7 +1,90 @@
 {
-  "updated": "2026-09-16T21:19:36.682743+00:00",
+  "updated": "2026-09-17T04:54:22.589373+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "PLTR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.6,
+      "confirm": 53.4,
+      "signal": 66.6,
+      "mom": {
+        "ret5": 0.0284,
+        "vol_surge": 0.66
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 13,
+        "hold": 10,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-15",
+          "provider": "UBS",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Death of software 'greatly overstated' as sector flips the script on chip stocks: Chart of the Day",
+          "summary": "Software stocks have outperformed over the past three months as the sector.",
+          "pub": "2026-09-16T10:00",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/death-of-software-greatly-overstated-as-sector-flips-the-script-on-chip-stocks-chart-of-the-day-100000695.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "CMG Stock Ticks Up On AI Food Safety Bet With Palantir: Retail Bullish On ‘Ontological Burritos'",
+          "summary": "Chipotle is adding AI-driven analytics to food safety as outbreaks, supply chain risks pressure industry.",
+          "pub": "2026-09-17T03:40",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/cmg-stock-ticks-up-on-ai-food-safety-bet-with-palantir-retail-bullish-on-ontological-burritos/cZtr9FuRB5E",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
     {
       "ticker": "CIEN",
       "tier": "確定",
@@ -36,6 +119,17 @@
           "is_edgar": true
         },
         {
+          "title": "Is Ciena's Pricing Power Real, Or Just A Parts Shortage?",
+          "summary": "Ciena (CIEN) trades near $334, a little over half its 52-week high, and the easy read on an AI networking supplier down that far is that it has gone on sale. It is still up more than 150% over the past year, and the company has just guided fiscal 2027 to record profitability. The risk here is not de",
+          "pub": "2026-09-16T23:38",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615529/is-cienas-pricing-power-real-or-just-a-parts-shortage/2026-09-16",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "CIEN Targets 30% Revenue Growth Through 2029 — Peers COHR, GLW And AAOI Rally After Guidance",
           "summary": "The networking company also expects adjusted operating margins of 32% to 35% and free cash flow margins of about 20% by fiscal 2029.",
           "pub": "2026-09-16T19:17",
@@ -67,17 +161,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Was Arista Networks Stock's Surge Visible Before It Happened?",
-          "summary": "Arista Networks (ANET) stock rose 40.6% between mid-March and mid-September 2026, against 15.5% for the S&P 500. Arista sells the Ethernet switches, its Etherlink line among them, that tie AI accelerators together inside a data center, largely for its biggest customers, the cloud and AI titans. The",
-          "pub": "2026-09-15T21:18",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/615355/was-arista-networks-stocks-surge-visible-before-it-happened/2026-09-15",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
         }
       ]
     },
@@ -99,7 +182,7 @@
         "ret5": -0.0126,
         "vol_surge": 0.95
       },
-      "earn_days": 43,
+      "earn_days": 42,
       "consensus": null,
       "headlines": [
         {
@@ -160,95 +243,12 @@
       ]
     },
     {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.7,
-      "confirm": 53.4,
-      "signal": 66.2,
-      "mom": {
-        "ret5": 0.0284,
-        "vol_surge": 0.66
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 13,
-        "hold": 10,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-15",
-          "provider": "UBS",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "DA Davidson",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Death of software 'greatly overstated' as sector flips the script on chip stocks: Chart of the Day",
-          "summary": "Software stocks have outperformed over the past three months as the sector.",
-          "pub": "2026-09-16T10:00",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/death-of-software-greatly-overstated-as-sector-flips-the-script-on-chip-stocks-chart-of-the-day-100000695.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Veteran Analyst Doubles Down on Massive Palantir Stock Call",
-          "summary": "Hypergrowth could support the thesis, but valuation remains demanding",
-          "pub": "2026-09-16T21:03",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/veteran-analyst-doubles-down-massive-210310892.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 16,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -331,9 +331,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.4,
+      "news": 52.5,
       "confirm": 44.9,
-      "signal": 65.1,
+      "signal": 64.7,
       "mom": {
         "ret5": -0.0165,
         "vol_surge": 0.99
@@ -369,9 +369,9 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Dow Jones Futures: S&P 500 Falls After Fed Rate Hike, Hawkish Warsh; Trump Fumes As AMD, Bloom Energy Lead Stocks To Watch",
+          "title": "Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points",
           "summary": "The S&P 500 fell on the Fed rate hike and hawkish Warsh comments, But AMD, Bloom Energy flirted with buy signals.",
-          "pub": "2026-09-16T21:05",
+          "pub": "2026-09-17T03:04",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo",
           "dir": 0.0,
@@ -380,22 +380,22 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Advanced Micro Devices (AMD) Shares Climbed, So What Is Drawing Attention Now?",
-          "summary": "Advanced Micro Devices (AMD) is back in focus after a fresh run of AI hardware announcements and conference appearances, giving investors new information on how the chip designer is positioning itself across fast growing compute markets. Recent trading has been choppy for Advanced Micro Devices. A 2",
-          "pub": "2026-09-16T20:11",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-shares-201140650.html",
+          "title": "Is It Too Early To Buy Marvell Stock After Its Three-Month Fall?",
+          "summary": "Marvell Technology (MRVL) has more than tripled over the past year. It has also fallen about 28% in three months and trades about 30% below its 52-week high. If you are wondering whether the growth story broke, it did not. Marvell raised its revenue guidance on August 27, 2026, and the stock fell an",
+          "pub": "2026-09-17T00:51",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615545/is-it-too-early-to-buy-marvell-stock-after-its-three-month-fall/2026-09-16",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Should You Buy Qualcomm Stock For The Cash As Apple Leaves?",
-          "summary": "Qualcomm (QCOM) throws off free cash worth 5.2% of its market value each year, against 4.4% for the median S&P 500 company. A yield above the median means one of two things: a bargain or a business the market expects to shrink. Here it is mostly the second: the cash comes from smartphone chips, and",
-          "pub": "2026-09-16T19:30",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/615530/should-you-buy-qualcomm-stock-for-the-cash-as-apple-leaves/2026-09-16",
+          "title": "AMD, IBD Stock Of The Day, Gains As Heavyweights Dismiss AI Slowdown",
+          "summary": "AMD is the IBD Stock Of The Day as the chipmaker rises on renewed hopes for continued heavy spending on AI data centers.",
+          "pub": "2026-09-16T21:49",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/ibd-stock-of-the-day/amd-stock-rises-pundits-dismiss-ai-slowdown/?src=A00220&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -421,7 +421,7 @@
         "ret5": -0.0113,
         "vol_surge": 1.12
       },
-      "earn_days": 43,
+      "earn_days": 42,
       "consensus": null,
       "headlines": []
     },
@@ -431,7 +431,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 14,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -448,12 +448,96 @@
       "headlines": []
     },
     {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 16,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.4,
+      "confirm": 34.4,
+      "signal": 61.7,
+      "mom": {
+        "ret5": -0.0426,
+        "vol_surge": 0.81
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: その他の重要イベント",
+          "summary": "",
+          "pub": "2026-09-03",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-04",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-04",
+          "provider": "Needham",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Outperform→Outperform",
+          "summary": "",
+          "pub": "2026-08-27",
+          "provider": "RBC Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-08-27",
+          "provider": "JP Morgan",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
       "ticker": "CLS",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 10,
-      "today_rank": 15,
+      "today_rank": 14,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
       "sector": "Technology",
@@ -465,7 +549,7 @@
         "ret5": -0.0293,
         "vol_surge": 0.72
       },
-      "earn_days": 40,
+      "earn_days": 39,
       "consensus": null,
       "headlines": [
         {
@@ -527,108 +611,24 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 17,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.5,
-      "confirm": 34.4,
-      "signal": 60.9,
-      "mom": {
-        "ret5": -0.0426,
-        "vol_surge": 0.81
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Needham",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "RBC Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
       "ticker": "CORZ",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 12,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 53.3,
-      "confirm": 28.6,
-      "signal": 60.5,
+      "confirm": 28.7,
+      "signal": 60.6,
       "mom": {
         "ret5": -0.0669,
-        "vol_surge": 0.91
+        "vol_surge": 0.92
       },
-      "earn_days": 37,
+      "earn_days": 36,
       "consensus": null,
       "headlines": [
         {
@@ -768,80 +768,80 @@
       ]
     },
     {
-      "ticker": "NEM",
+      "ticker": "AVGO",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 4,
-      "today_rank": 19,
+      "best_rank": 13,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
-      "name": "Newmont Corporation",
-      "sector": "Basic Materials",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
       "persist": 100,
-      "news": 49.6,
-      "confirm": 29.9,
-      "signal": 59.3,
+      "news": 50.0,
+      "confirm": 31.0,
+      "signal": 59.8,
       "mom": {
-        "ret5": -0.054,
-        "vol_surge": 0.74
+        "ret5": -0.0683,
+        "vol_surge": 1.1
       },
-      "earn_days": 36,
+      "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "Newmont's Fourmile Overhang Removed, Market Underappreciates Impact, UBS Says",
-          "summary": "Newmont (NEM) has removed the key Fourmile overhang with Barrick Mining (B), which the market may be",
-          "pub": "2026-09-16T15:55",
-          "provider": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/newmont-apos-fourmile-overhang-removed-155532841.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is This Gold Stock Polishing — Or Losing — Its Luster? Watch These Lines",
-          "summary": "On the latest list of new buys by top funds alongside seven other gold stocks, Eldorado Gold looks to shore up a new breakout.",
-          "pub": "2026-09-14T20:00",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/how-to-find-the-best-stocks-to-buy/gold-stock-eldorado-ego-markets-polishing-losing-luster-watch-these-lines/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Here is What to Know Beyond Why Newmont Corporation (NEM) is a Trending Stock",
-          "summary": "Zacks.com users have recently been watching Newmont (NEM) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
-          "pub": "2026-09-14T13:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-newmont-corporation-130004296.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Should You Buy Newmont Stock After a 60% Rally in a Year?",
-          "summary": "Newmont's 60% rally reflects strong earnings and cash flow, but lower production, higher costs and falling estimates cloud its outlook.",
-          "pub": "2026-09-14T12:54",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-newmont-stock-60-rally-125400713.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Why Did Freeport-McMoRan Stock Drop On Doubts Over A Tariff It Would Gain From?",
-          "summary": "Freeport-McMoRan (FCX) stock fell 6.6% on Thursday to close at $71.21, while the S&P 500 slipped 0.6%. Copper sold off on surging yields and on reports that the White House has yet to decide on copper tariffs, raising concern the plan could be dropped over worries about higher manufacturing costs. T",
-          "pub": "2026-09-11T21:25",
+          "title": "Is It Too Early To Buy Marvell Stock After Its Three-Month Fall?",
+          "summary": "Marvell Technology (MRVL) has more than tripled over the past year. It has also fallen about 28% in three months and trades about 30% below its 52-week high. If you are wondering whether the growth story broke, it did not. Marvell raised its revenue guidance on August 27, 2026, and the stock fell an",
+          "pub": "2026-09-17T00:51",
           "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/615048/why-did-freeport-mcmoran-stock-drop-on-doubts-over-a-tariff-it-would-gain-from/2026-09-11",
-          "dir": -0.5,
-          "conf": 0.5,
-          "type": "規制・関税",
-          "why": "-規制・関税"
+          "url": "https://www.trefis.com/articles/615545/is-it-too-early-to-buy-marvell-stock-after-its-three-month-fall/2026-09-16",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Is Ciena's Pricing Power Real, Or Just A Parts Shortage?",
+          "summary": "Ciena (CIEN) trades near $334, a little over half its 52-week high, and the easy read on an AI networking supplier down that far is that it has gone on sale. It is still up more than 150% over the past year, and the company has just guided fiscal 2027 to record profitability. The risk here is not de",
+          "pub": "2026-09-16T23:38",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615529/is-cienas-pricing-power-real-or-just-a-parts-shortage/2026-09-16",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Investors Don’t Have 9 Lives, So Stop Chasing Dead-Count Bounces in Hot Stocks Like Broadcom",
+          "summary": "I just don’t see the bull market returning in force for a while… and maybe a long, long while.",
+          "pub": "2026-09-16T19:58",
+          "provider": "Barchart",
+          "url": "https://www.barchart.com/story/news/4642466/investors-dont-have-9-lives-so-stop-chasing-dead-count-bounces-in-hot-stocks-like-broadcom",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Jim Cramer Says the AI Slowdown Is Fake. Dell Is His Evidence.",
+          "summary": "Jim Cramer built his case that AI spending fears are overblown on three stocks, but two of them moved in the exact wrong direction on the day he made the call.",
+          "pub": "2026-09-16T19:45",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/16/jim-cramer-says-the-ai-slowdown-is-fake-dell-is-his-evidence/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Should You Buy Qualcomm Stock For The Cash As Apple Leaves?",
+          "summary": "Qualcomm (QCOM) throws off free cash worth 5.2% of its market value each year, against 4.4% for the median S&P 500 company. A yield above the median means one of two things: a bargain or a business the market expects to shrink. Here it is mostly the second: the cash comes from smartphone chips, and",
+          "pub": "2026-09-16T19:30",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615530/should-you-buy-qualcomm-stock-for-the-cash-as-apple-leaves/2026-09-16",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -850,7 +850,7 @@
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 2,
+      "best_rank": 3,
       "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
@@ -896,19 +896,19 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 9,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
-      "news": 48.2,
-      "confirm": 20.3,
-      "signal": 56.1,
+      "news": 48.4,
+      "confirm": 20.4,
+      "signal": 56.2,
       "mom": {
         "ret5": -0.0881,
-        "vol_surge": 0.78
+        "vol_surge": 0.79
       },
-      "earn_days": 29,
+      "earn_days": 28,
       "consensus": null,
       "headlines": [
         {
@@ -948,6 +948,17 @@
           "is_edgar": true
         },
         {
+          "title": "Alcoa (AA) Priced $2.6 Billion of Acquisition Notes. Can the Assets Cover $175 Million in Interest?",
+          "summary": "Alcoa Corporation (NYSE:AA) priced $2.6 billion of acquisition financing on September 9, 2026, through two wholly owned subsidiaries. Alumina Pty Ltd will issue $1.5 billion of 6.625% notes due 2034, while Alcoa Nederland Holding B.V. will issue $1.1 billion of 6.875% notes due 2036. Alcoa Corporati",
+          "pub": "2026-09-16T22:31",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-aa-priced-2-6-223109134.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Alcoa Sees Aluminum Deficit, Strong Demand and Tariff Upside at Jefferies Conference",
           "summary": "Alcoa (NYSE:AA) CFO Molly Beerman said the aluminum producer is carrying momentum from the second quarter into the third quarter, supported by strong production, pricing realization and demand from customers in North America and Europe. Speaking at the Jefferies Global Industrials Conference 2026,",
           "pub": "2026-09-12T05:02",
@@ -957,17 +968,6 @@
           "conf": 0.5,
           "type": "規制・関税",
           "why": "-規制・関税"
-        },
-        {
-          "title": "Do Options Traders Know Something About Alcoa Stock We Don't?",
-          "summary": "Investors need to pay close attention to AA stock based on the movements in the options market lately.",
-          "pub": "2026-09-11T12:54",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/options/articles/options-traders-know-something-alcoa-125400150.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -977,21 +977,43 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 18,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.0,
+      "news": 50.2,
       "confirm": 17.6,
-      "signal": 56.1,
+      "signal": 56.2,
       "mom": {
         "ret5": -0.0985,
         "vol_surge": 0.81
       },
-      "earn_days": 14,
+      "earn_days": 13,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Micron vs. Sandisk: Which AI Memory Stock Benefits More From Nvidia's $279 Billion Warning?",
+          "summary": "Memory has become a binding constraint for artificial intelligence (AI) data center build-outs.",
+          "pub": "2026-09-17T01:41",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/16/micron-vs-sandisk-which-ai-memory-stock-benefits/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Michael Burry reveals his verdict on the ongoing AI bubble",
+          "summary": "A rare moment of agreement among AI’s biggest names has caught Burry’s attention, and his interpretation of what is happening is striking.",
+          "pub": "2026-09-16T22:17",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/michael-burry-has-a-strong-verdict-on-the-ongoing-ai-bubble-anthropic-openai-elon-musk-sam-altman-dario-amodei",
+          "dir": 0.2,
+          "conf": 0.19999999999999996,
+          "type": "契約・提携",
+          "why": "+契約・提携 -空売り・過大評価"
+        },
         {
           "title": "A Broad-Based Earnings Growth Picture as Revisions Stay Positive",
           "summary": "14 of the 16 Zacks sectors are currently expected to produce positive earnings growth in Q3, with six expected to see double-digit gains. This reflects the most broad-based earnings growth performance in recent times.",
@@ -1024,45 +1046,55 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron Gains as Memory Scarcity Threatens Its Customers",
-          "summary": "Tight supply supports exceptional margins while making affordable phones and computers harder to manufacture.",
-          "pub": "2026-09-16T19:25",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-gains-memory-scarcity-threatens-192509592.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is Micron Stock Cheap, Or Are Its Profits Borrowed?",
-          "summary": "Micron Technology (MU) ranks first in its peer group on revenue growth, operating margin and twelve-month stock return. It still trades at 20.7 times earnings, below a peer's 26.6. The gap is not an oversight. The market is paying Micron for what it earns now and refusing to pay for what it earns ne",
-          "pub": "2026-09-16T19:02",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/615528/is-micron-stock-cheap-or-are-its-profits-borrowed/2026-09-16",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     }
   ],
   "alert_summary": {
     "5": {
-      "n": 786,
+      "n": 800,
       "hit_rate": 0.48,
-      "avg_excess": 0.0024
+      "avg_excess": 0.0017
     },
     "20": {
-      "n": 522,
+      "n": 536,
       "hit_rate": 0.58,
-      "avg_excess": 0.0313
+      "avg_excess": 0.0307
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-09-17",
+      "ticker": "PLTR",
+      "signal": 66.6,
+      "price": 174.34,
+      "spy": 754.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-17",
+      "ticker": "CIEN",
+      "signal": 66.5,
+      "price": 340.5,
+      "spy": 754.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-17",
+      "ticker": "BMY",
+      "signal": 66.5,
+      "price": 63.6,
+      "spy": 754.0499877929688,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-17",
+      "ticker": "CRDO",
+      "signal": 65.4,
+      "price": 161.49,
+      "spy": 754.0499877929688,
+      "grades": {}
+    },
     {
       "date": "2026-09-16",
       "ticker": "ADI",
@@ -1190,57 +1222,25 @@
       "price": 291.22,
       "spy": 764.2899780273438,
       "grades": {}
-    },
-    {
-      "date": "2026-09-14",
-      "ticker": "MU",
-      "signal": 67.3,
-      "price": 975.26,
-      "spy": 764.2899780273438,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-14",
-      "ticker": "CORZ",
-      "signal": 66.1,
-      "price": 17.94,
-      "spy": 764.2899780273438,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-13",
-      "ticker": "AMD",
-      "signal": 75.9,
-      "price": 516.13,
-      "spy": 764.2899780273438,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-13",
-      "ticker": "CIEN",
-      "signal": 75.2,
-      "price": 349.54,
-      "spy": 764.2899780273438,
-      "grades": {}
     }
   ],
   "composition": {
     "composition": {
-      "persist": 0.3,
-      "news": 0.426,
-      "confirm": 0.274
+      "persist": 0.296,
+      "news": 0.428,
+      "confirm": 0.276
     },
     "ic": {
-      "persist": -0.07,
-      "news": -0.031,
-      "confirm": -0.121
+      "persist": -0.083,
+      "news": -0.033,
+      "confirm": -0.123
     },
     "multipliers": {
-      "persist": 0.896,
-      "news": 0.953,
-      "confirm": 0.819
+      "persist": 0.875,
+      "news": 0.95,
+      "confirm": 0.816
     },
-    "graded_samples": 1575,
+    "graded_samples": 1605,
     "active": true,
     "min_samples": 10
   },
