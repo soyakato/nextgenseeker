@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T21:23:36.117806+00:00",
+  "updated": "2026-09-18T04:45:01.446798+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -13,9 +13,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.8,
+      "news": 57.1,
       "confirm": 77.6,
-      "signal": 73.2,
+      "signal": 75.4,
       "mom": {
         "ret5": 0.0824,
         "vol_surge": 1.19
@@ -53,7 +53,7 @@
         {
           "title": "Dow Jones Futures: S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash Buy Signals",
           "summary": "The S&P 500 and Nasdaq regain their 50-day lines and Treasury yields fall in a bullish day two Fed reaction. SpaceX, AMD, Moderna are buys.",
-          "pub": "2026-09-17T20:48",
+          "pub": "2026-09-18T03:09",
           "provider": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/?src=A00220&yptr=yahoo",
           "dir": 0.0,
@@ -62,26 +62,26 @@
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Stocks Rally, Shaking Off Fed’s Rate Hike",
-          "summary": "Major stock-market indexes rallied, reversing the declines that followed the Federal Reserve’s interest-rate hike Wednesday.  The PHLX Semiconductor Index rose 3.1% after comments from Intel Chief Executive  Lip-Bu Tan  about soaring memory prices.  The Securities and Exchange Commission cleared a p",
-          "pub": "2026-09-17T20:36",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/finance/stocks/stocks-rally-shaking-off-feds-rate-hike-aebb2c0b?siteid=yhoof2&yptr=yahoo",
+          "title": "INTC, AMD, MU, NVDA: Chip Stocks Rally As Investors Look Past AI Concerns",
+          "summary": "Investors move past worries that AI firms’ calls for a slowdown in development risk the AI infrastructure trade.",
+          "pub": "2026-09-18T02:17",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/intc-amd-mu-nvda-chip-stocks-rally-as-investors-look-past-ai-concerns/cZtuLZsRBdw",
           "dir": 0.3,
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
         },
         {
-          "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
-          "summary": "The Philadelphia semiconductor index, known as SOX, rose for the third straight session Thursday. AMD stock was among the big gainers.",
-          "pub": "2026-09-17T20:21",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/amd-stock-leads-chip-stocks-sox-index-higher-amid-sector-rebound/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "Why AMD Stock Jumped Today",
+          "summary": "Nebius' coming cloud-computing price increase gave investors another sign that AI demand remains strong, including for AMD's data-center chips.",
+          "pub": "2026-09-17T23:35",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/17/why-amd-stock-jumped-63-today/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
         }
       ]
     },
@@ -97,11 +97,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 57.1,
-      "confirm": 68.8,
-      "signal": 73.0,
+      "confirm": 68.9,
+      "signal": 73.1,
       "mom": {
         "ret5": 0.0495,
-        "vol_surge": 1.26
+        "vol_surge": 1.27
       },
       "earn_days": null,
       "consensus": null,
@@ -242,6 +242,89 @@
       ]
     },
     {
+      "ticker": "PLTR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 53.3,
+      "confirm": 64.4,
+      "signal": 70.2,
+      "mom": {
+        "ret5": 0.0626,
+        "vol_surge": 0.71
+      },
+      "earn_days": 45,
+      "consensus": {
+        "buy": 13,
+        "hold": 10,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-15",
+          "provider": "UBS",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Palantir CEO Alex Karp Says Anthropic Wants AI Nationalization to Simply Dodge Lawsuits",
+          "summary": "Palantir CEO Alex Karp says AI labs like Anthropic are pushing nationalization to dodge liability, not for safety.",
+          "pub": "2026-09-18T01:24",
+          "provider": "BeInCrypto",
+          "url": "https://beincrypto.com/alex-karp-ai-nationalization-liability/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Palantir Technologies (PLTR) AI Deal Rush Meets A Fair Value Debate",
+          "summary": "Palantir Technologies (PLTR) is back in focus after a cluster of AI focused partnerships with Method Security, NVIDIA and Nebius, raising fresh questions about how these deals might influence the stock’s long term narrative. Recent trading reflects that story taking hold. Palantir Technologies has a",
+          "pub": "2026-09-18T00:14",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-pltr-ai-deal-001448200.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        }
+      ]
+    },
+    {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
@@ -252,9 +335,9 @@
       "name": "Ciena Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.9,
+      "news": 53.6,
       "confirm": 62.6,
-      "signal": 69.5,
+      "signal": 69.8,
       "mom": {
         "ret5": 0.029,
         "vol_surge": 1.26
@@ -262,18 +345,6 @@
       "earn_days": null,
       "consensus": null,
       "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-09-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
         {
           "title": "Ciena Stock Rises as These Numbers Leave Wall Street Pleasantly Surprised",
           "summary": "It’s been a difficult week for the performance of shares of optical networking companies as existential artificial-intelligence fears hit the stock market.  Ciena stock rose 3% to $350.85 on Thursday.  Ciena was at least partially responsible for the stock performances on Thursday as the company’s f",
@@ -317,85 +388,13 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 64.3,
-      "signal": 68.7,
-      "mom": {
-        "ret5": 0.0626,
-        "vol_surge": 0.7
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 13,
-        "hold": 10,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-15",
-          "provider": "UBS",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "DA Davidson",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Tech, Media & Telecom Roundup: Market Talk",
-          "summary": "Find insight on Palantir, Infineon Technologies, LG Display and more in the latest Market Talks covering Technology, Media and Telecom.",
-          "pub": "2026-09-17T20:53",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-8dfe699f?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Is Chipotle Now Working With the CIA-Funded Palantir?",
-          "summary": "Chipotle is piloting a Palantir-built food safety dashboard after a summer of outbreaks, putting employee data in the hands of a company seeded by the CIA's venture arm.",
-          "pub": "2026-09-17T20:46",
-          "provider": "decrypt",
-          "url": "https://decrypt.co/378553/why-chipotle-working-with-palantir",
+          "title": "Ciena Stock Climbs On Three-Year, 30% Revenue Growth Outlook",
+          "summary": "Ciena stock climbed after the optical gear maker announced new financial targets, including 30% sales growth, at an investor briefing.",
+          "pub": "2026-09-17T14:06",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/ciena-stock-investor-day-financial-targets-supply-constraints/?src=A00220&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -414,28 +413,16 @@
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 58.3,
-      "confirm": 45.4,
-      "signal": 67.1,
+      "news": 60.4,
+      "confirm": 46.8,
+      "signal": 68.4,
       "mom": {
         "ret5": -0.0132,
-        "vol_surge": 0.96
+        "vol_surge": 1.05
       },
-      "earn_days": 36,
+      "earn_days": 35,
       "consensus": null,
       "headlines": [
-        {
-          "title": "SEC 8-K提出: Reg FD開示",
-          "summary": "",
-          "pub": "2026-09-10",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000023",
-          "dir": 0.0,
-          "conf": 0.2,
-          "type": "8-K 7.01",
-          "why": "Reg FD開示（一次情報・機械判定）",
-          "is_edgar": true
-        },
         {
           "title": "How Far Can Cipher Digital Stock Fall While It Waits For Rent?",
           "summary": "Cipher Digital (CIFR) stock fell 36.2% over the past three months. Over twelve months it is still up 54.1%, against 15.5% for the S&P 500. The company is moving from bitcoin mining to leasing data centers to hyperscale tenants. In past market shocks, the stock fell hard and bounced back fast.",
@@ -479,6 +466,17 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
+        },
+        {
+          "title": "Cipher Digital Surges 9% on Conditional ERCOT Status for 3.2 GW of Texas Capacity; Core Scientific Rises 4%, IREN Nudges Higher",
+          "summary": "A Texas grid operator quietly disclosed something about Cipher Mining that sent the stock surging 9% before the company said a word, and the ripple moved two of its rivals in the same direction.",
+          "pub": "2026-09-16T14:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/16/cipher-digital-surges-9-on-conditional-ercot-status-for-3-2-gw-of-texas-capacity-core-scientific-rises-4-iren-nudges-higher/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
         }
       ]
     },
@@ -493,16 +491,27 @@
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
-      "news": 56.5,
+      "news": 54.5,
       "confirm": 47.7,
-      "signal": 66.9,
+      "signal": 66.1,
       "mom": {
         "ret5": -0.0143,
         "vol_surge": 1.13
       },
-      "earn_days": 42,
+      "earn_days": 41,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Bristol Myers Squibb (BMY) Stock Sinks As Market Gains: What You Should Know",
+          "summary": "Bristol Myers Squibb (BMY) closed the most recent trading day at $62.84, moving 1.19% from the previous trading session.",
+          "pub": "2026-09-17T21:45",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bristol-myers-squibb-bmy-stock-214507343.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
         {
           "title": "Improve Your Retirement Income with These 3 Top-Ranked Dividend Stocks",
           "summary": "The traditional ways to plan for your retirement may mean income can no longer cover expenses post-employment. But what if there was another option that could provide a steady, reliable source of income in your nest egg years?",
@@ -546,101 +555,6 @@
           "conf": 0.6,
           "type": "契約・提携",
           "why": "+契約・提携"
-        },
-        {
-          "title": "AstraZeneca shares oversold after trial flops and merger talk, says UBS",
-          "summary": "UBS has told investors that the recent slide in AstraZeneca PLC (LSE:AZN, NASDAQ:AZN) shares has gone too far, keeping its buy rating on the FTSE 100 drugmaker even after two clinical setbacks and speculation about a mega-merger. The stock has fallen roughly 15% since early July, when two...",
-          "pub": "2026-09-16T14:37",
-          "provider": "Proactive",
-          "url": "https://www.proactiveinvestors.com/companies/news/1098628/astrazeneca-shares-oversold-after-trial-flops-and-merger-talk-says-ubs-1098628.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 17,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.5,
-      "confirm": 48.4,
-      "signal": 66.3,
-      "mom": {
-        "ret5": 0.0045,
-        "vol_surge": 0.8
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Needham",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "RBC Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "JP Morgan",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -649,7 +563,7 @@
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 10,
+      "best_rank": 11,
       "today_rank": 13,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
@@ -662,7 +576,7 @@
         "ret5": 0.0145,
         "vol_surge": 0.79
       },
-      "earn_days": 39,
+      "earn_days": 38,
       "consensus": null,
       "headlines": [
         {
@@ -734,16 +648,49 @@
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.2,
-      "confirm": 46.9,
-      "signal": 64.9,
+      "news": 51.7,
+      "confirm": 47.0,
+      "signal": 64.7,
       "mom": {
         "ret5": 0.0001,
-        "vol_surge": 0.79
+        "vol_surge": 0.8
       },
-      "earn_days": 13,
+      "earn_days": 12,
       "consensus": null,
       "headlines": [
+        {
+          "title": "INTC, AMD, MU, NVDA: Chip Stocks Rally As Investors Look Past AI Concerns",
+          "summary": "Investors move past worries that AI firms’ calls for a slowdown in development risk the AI infrastructure trade.",
+          "pub": "2026-09-18T02:17",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/intc-amd-mu-nvda-chip-stocks-rally-as-investors-look-past-ai-concerns/cZtuLZsRBdw",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Why Was Micron Technology Stock Up Today?",
+          "summary": "Intel's warning that the memory shortage could worsen next year reminded investors why Micron's pricing power has been so extraordinary.",
+          "pub": "2026-09-17T23:00",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/17/why-was-micron-technology-stock-up-today/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Prediction: A $5,000 Investment Split Between Micron and Sandisk Will Triple Before 2028",
+          "summary": "Sandisk and Micron are undervalued relative to their expected growth.",
+          "pub": "2026-09-17T22:31",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/17/prediction-a-5000-investment-split-between-micron/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Micron, Qualcomm, Nova, Lattice Semiconductor, and Workday Shares Are Soaring, What You Need To Know",
           "summary": "A number of stocks jumped in the afternoon session after Treasury yields retreated below 5% and oil prices declined, sparking a recovery across growth-oriented equities following the Federal Reserve's interest rate increase.",
@@ -765,39 +712,6 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
-        },
-        {
-          "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
-          "summary": "The Philadelphia semiconductor index, known as SOX, rose for the third straight session Thursday. AMD stock was among the big gainers.",
-          "pub": "2026-09-17T20:21",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/amd-stock-leads-chip-stocks-sox-index-higher-amid-sector-rebound/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Micron Stock Is Jumping as Intel CEO Warns on Memory Chips",
-          "summary": "Micron Technology  stock was back on the rise early Thursday.  A warning from the head of  Intel  about soaring memory prices looks to be reminding shareholders of the company’s profit potential.  Micron shares were up 5.3% at $975.86 in Thursday afternoon trading.",
-          "pub": "2026-09-17T19:08",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/micron-stock-price-intel-memory-chips-b0eca0f2?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "If QQQ Repeats Its Last Decade, $100,000 at 40 Could Hit $1 Million by 52",
-          "summary": "QQQ turned $100,000 into a million dollars faster than most retirement plans dare to model, but the math depends entirely on which decade you believe comes next.",
-          "pub": "2026-09-17T19:05",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/09/17/if-qqq-repeats-its-last-decade-100000-at-40-could-hit-1-million-by-52/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -813,13 +727,13 @@
       "sector": "Consumer Defensive",
       "persist": 100,
       "news": 50.0,
-      "confirm": 46.9,
-      "signal": 63.9,
+      "confirm": 47.2,
+      "signal": 64.0,
       "mom": {
         "ret5": -0.0153,
-        "vol_surge": 1.1
+        "vol_surge": 1.12
       },
-      "earn_days": 42,
+      "earn_days": 41,
       "consensus": null,
       "headlines": [
         {
@@ -869,11 +783,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 52.2,
-      "confirm": 42.4,
+      "confirm": 42.7,
       "signal": 63.7,
       "mom": {
         "ret5": -0.0152,
-        "vol_surge": 0.8
+        "vol_surge": 0.82
       },
       "earn_days": null,
       "consensus": null,
@@ -920,7 +834,7 @@
         "ret5": -0.0139,
         "vol_surge": 0.73
       },
-      "earn_days": 35,
+      "earn_days": 34,
       "consensus": null,
       "headlines": [
         {
@@ -981,6 +895,84 @@
       ]
     },
     {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 15,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 52.1,
+      "confirm": 40.1,
+      "signal": 63.0,
+      "mom": {
+        "ret5": -0.0375,
+        "vol_surge": 1.09
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Salesforce CEO warns AI companies not to repeat this costly mistake",
+          "summary": "Salesforce CEO Marc Benioff joins a growing group of tech leaders warning about AI risks and potential slowdown.",
+          "pub": "2026-09-17T22:17",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/crm-salesforce-ceo-marc-benioff-warns-ai-companies-not-to-repeat-social-medias-mistakes",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "$500,000 Split Between VOO and QQQ Owns the Same Seven Stocks Twice, and Nobody Adds Up the Overlap",
+          "summary": "Splitting a half-million dollars between two popular ETFs feels like textbook diversification, but a quiet look under the hood reveals something most investors never bother to check before their next contribution.",
+          "pub": "2026-09-17T22:15",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/17/500000-split-between-voo-and-qqq-owns-the-same-seven-stocks-twice-and-nobody-adds-up-the-overlap/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Jim Cramer on Broadcom (AVGO): “The Stock May Be Too Cheap to Ignore”",
+          "summary": "During the September 14 episode of Mad Money, Jim Cramer addressed the broader tech sector pullback and mentioned Broadcom Inc. (NASDAQ:AVGO) as an attractive option for investors looking past short-term volatility. He stated: Well, it’s a tough time to come out to San Francisco, a day when the whol",
+          "pub": "2026-09-17T21:42",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-broadcom-avgo-stock-214237143.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Even With $262,000 in VYM, You Wouldn’t Get a $500 Check Every Month",
+          "summary": "Retirees chasing a simple $500 monthly check from VYM run straight into a gap between how yields are calculated and how cash actually lands in your account, and the math gets uncomfortable fast.",
+          "pub": "2026-09-17T20:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/17/even-with-262000-in-vym-you-wouldnt-get-a-500-check-every-month/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Jim Cramer Presses OpenAI CFO on AI Spending. 6 Stocks Are Riding on What Happens Next",
+          "summary": "Jim Cramer put OpenAI's CFO on the spot about whether a safety-driven slowdown could pull the rug out from under billions in AI infrastructure spending, and her answer has direct consequences for six companies already banking on that money.",
+          "pub": "2026-09-17T19:17",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/17/jim-cramer-presses-openai-cfo-on-ai-spending-6-stocks-are-riding-on-what-happens-next/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 43,
@@ -992,13 +984,13 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 49.6,
-      "confirm": 37.7,
-      "signal": 61.2,
+      "confirm": 37.9,
+      "signal": 61.3,
       "mom": {
         "ret5": -0.0275,
-        "vol_surge": 0.73
+        "vol_surge": 0.74
       },
-      "earn_days": 28,
+      "earn_days": 27,
       "consensus": null,
       "headlines": [
         {
@@ -1064,17 +1056,81 @@
   ],
   "alert_summary": {
     "5": {
-      "n": 800,
+      "n": 811,
       "hit_rate": 0.48,
-      "avg_excess": 0.0017
+      "avg_excess": 0.0019
     },
     "20": {
-      "n": 536,
+      "n": 549,
       "hit_rate": 0.58,
-      "avg_excess": 0.0307
+      "avg_excess": 0.0303
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-09-18",
+      "ticker": "AMD",
+      "signal": 75.4,
+      "price": 545.09,
+      "spy": 762.5999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-18",
+      "ticker": "CRDO",
+      "signal": 73.1,
+      "price": 168.25,
+      "spy": 762.5999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-18",
+      "ticker": "ALAB",
+      "signal": 72.0,
+      "price": 293.56,
+      "spy": 762.5999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-18",
+      "ticker": "PLTR",
+      "signal": 70.2,
+      "price": 176.24,
+      "spy": 762.5999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-18",
+      "ticker": "CIEN",
+      "signal": 69.8,
+      "price": 344.25,
+      "spy": 762.5999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-18",
+      "ticker": "CORZ",
+      "signal": 68.4,
+      "price": 17.14,
+      "spy": 762.5999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-18",
+      "ticker": "BMY",
+      "signal": 66.1,
+      "price": 62.84,
+      "spy": 762.5999755859375,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-18",
+      "ticker": "CLS",
+      "signal": 65.3,
+      "price": 329.94,
+      "spy": 762.5999755859375,
+      "grades": {}
+    },
     {
       "date": "2026-09-17",
       "ticker": "PLTR",
@@ -1170,89 +1226,25 @@
       "price": 504.2,
       "spy": 757.3900146484375,
       "grades": {}
-    },
-    {
-      "date": "2026-09-16",
-      "ticker": "CRDO",
-      "signal": 65.1,
-      "price": 161.1,
-      "spy": 759.9000244140625,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-16",
-      "ticker": "CIEN",
-      "signal": 66.5,
-      "price": 340.5,
-      "spy": 754.0499877929688,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-16",
-      "ticker": "BMY",
-      "signal": 66.5,
-      "price": 63.6,
-      "spy": 754.0499877929688,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-15",
-      "ticker": "AMD",
-      "signal": 69.1,
-      "price": 493.41,
-      "spy": 760.8800048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-15",
-      "ticker": "ADI",
-      "signal": 68.4,
-      "price": 361.02,
-      "spy": 760.8800048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-15",
-      "ticker": "CIEN",
-      "signal": 65.8,
-      "price": 319.64,
-      "spy": 760.8800048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-15",
-      "ticker": "CLS",
-      "signal": 65.7,
-      "price": 316.08,
-      "spy": 760.8800048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-15",
-      "ticker": "PLTR",
-      "signal": 65.7,
-      "price": 175.2483,
-      "spy": 757.739013671875,
-      "grades": {}
     }
   ],
   "composition": {
     "composition": {
-      "persist": 0.296,
-      "news": 0.428,
-      "confirm": 0.276
+      "persist": 0.294,
+      "news": 0.43,
+      "confirm": 0.277
     },
     "ic": {
-      "persist": -0.083,
-      "news": -0.033,
-      "confirm": -0.123
+      "persist": -0.087,
+      "news": -0.031,
+      "confirm": -0.121
     },
     "multipliers": {
-      "persist": 0.875,
-      "news": 0.95,
-      "confirm": 0.816
+      "persist": 0.869,
+      "news": 0.954,
+      "confirm": 0.819
     },
-    "graded_samples": 1605,
+    "graded_samples": 1635,
     "active": true,
     "min_samples": 10
   },
