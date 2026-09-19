@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T04:38:50.277554+00:00",
+  "updated": "2026-09-19T11:00:48.460003+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -15,7 +15,7 @@
       "persist": 100,
       "news": 57.1,
       "confirm": 81.0,
-      "signal": 76.4,
+      "signal": 76.0,
       "mom": {
         "ret5": 0.0794,
         "vol_surge": 1.48
@@ -93,7 +93,7 @@
       "persist": 100,
       "news": 53.8,
       "confirm": 80.6,
-      "signal": 74.9,
+      "signal": 74.5,
       "mom": {
         "ret5": 0.0846,
         "vol_surge": 1.35
@@ -176,7 +176,7 @@
       "persist": 100,
       "news": 59.6,
       "confirm": 68.7,
-      "signal": 74.1,
+      "signal": 73.7,
       "mom": {
         "ret5": 0.0413,
         "vol_surge": 1.42
@@ -254,7 +254,7 @@
       "persist": 100,
       "news": 60.0,
       "confirm": 59.3,
-      "signal": 71.6,
+      "signal": 71.3,
       "mom": {
         "ret5": 0.0394,
         "vol_surge": 0.83
@@ -320,6 +320,84 @@
       ]
     },
     {
+      "ticker": "BMY",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 11,
+      "first_seen": "2026-07-08",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
+      "persist": 100,
+      "news": 55.1,
+      "confirm": 60.6,
+      "signal": 69.5,
+      "mom": {
+        "ret5": -0.0091,
+        "vol_surge": 1.89
+      },
+      "earn_days": 40,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Did VOXZOGO’s Hypochondroplasia Win and New R&D Hire Just Reframe BioMarin’s (BMRN) Investment Narrative?",
+          "summary": "BioMarin Pharmaceutical recently reported positive Phase 3 CANOPY-HCH-3 results for VOXZOGO in children with hypochondroplasia and submitted a supplemental FDA application to expand the drug’s use, while also adding Bristol Myers Squibb research leader Robert Plenge, M.D., Ph.D., to its Board and Sc",
+          "pub": "2026-09-19T08:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/healthcare/articles/did-voxzogo-hypochondroplasia-win-r-081025959.html",
+          "dir": 0.9,
+          "conf": 0.9,
+          "type": "受注",
+          "why": "+受注 +拡大・新製品"
+        },
+        {
+          "title": "Can Sotyktu's Long-Term PsA Data Boost Bristol Myers' Prospects?",
+          "summary": "Bristol Myers' Sotyktu delivers durable PsA responses for two years, supporting its growth strategy as competition intensifies.",
+          "pub": "2026-09-18T19:17",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/healthcare/articles/sotyktus-long-term-psa-data-191700359.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Merck Stock Nearly Doubled Without A Change In Its Revenue Growth",
+          "summary": "Merck (MRK) stock returned about 87% over the past twelve months, climbing from roughly $79 to about $147. Nothing in the year's results looks like that. The medicines Merck sells today grew at their usual pace. Investors spent the year repricing what comes next.",
+          "pub": "2026-09-18T18:09",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/615855/merck-stock-nearly-doubled-without-a-change-in-its-revenue-growth/2026-09-18",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "BMY vs. ARGX: Which Stock Is the Better Value Option?",
+          "summary": "BMY vs. ARGX: Which Stock Is the Better Value Option?",
+          "pub": "2026-09-18T15:40",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bmy-vs-argx-stock-better-154003829.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Pfizer’s Dividend Yield Is Enormous. But Is the Payout Still Growing?",
+          "summary": "Pfizer has raised its dividend every year for over a decade, then something changed. Before you count on that 6% yield, find out what the payout's own behavior is quietly signaling about the company's financial confidence.",
+          "pub": "2026-09-18T15:06",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/18/pfizers-dividend-yield-is-enormous-but-is-the-payout-still-growing/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 43,
@@ -332,7 +410,7 @@
       "persist": 100,
       "news": 50.4,
       "confirm": 66.9,
-      "signal": 69.6,
+      "signal": 69.2,
       "mom": {
         "ret5": 0.0622,
         "vol_surge": 0.88
@@ -415,7 +493,7 @@
       "persist": 100,
       "news": 58.3,
       "confirm": 52.8,
-      "signal": 69.1,
+      "signal": 68.7,
       "mom": {
         "ret5": 0.0028,
         "vol_surge": 1.13
@@ -482,85 +560,80 @@
       ]
     },
     {
-      "ticker": "NVDA",
+      "ticker": "MU",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 20,
+      "best_rank": 7,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
+      "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.2,
-      "confirm": 55.0,
-      "signal": 67.9,
+      "news": 50.6,
+      "confirm": 61.1,
+      "signal": 67.7,
       "mom": {
-        "ret5": 0.0182,
-        "vol_surge": 0.97
+        "ret5": 0.0416,
+        "vol_surge": 0.91
       },
-      "earn_days": null,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
+      "earn_days": 11,
+      "consensus": null,
       "headlines": [
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Needham",
-          "url": "",
+          "title": "Semiconductor Stocks to Buy and Hold Through 2030",
+          "summary": "These chipmakers trade anywhere from 6 to 33 times their expected earnings for this fiscal year or next -- and the cheapest one is the one I'd be most careful buying.",
+          "pub": "2026-09-19T09:37",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/19/semiconductor-stocks-to-buy-and-hold-through-2030/",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Rosenblatt",
-          "url": "",
+          "title": "UBS now expects AI capex to reach nearly $1tn this year and around $1.4tn by 2027",
+          "summary": "Investing.com -- UBS now expects artificial intelligence capital expenditure to reach nearly $1 trillion in 2026 before climbing to around $1.4 trillion in 2027, with surging memory costs accounting for most of the increase.",
+          "pub": "2026-09-19T04:45",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ubs-now-expects-ai-capex-044549899.html",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "Wedbush",
-          "url": "",
+          "title": "Nvidia, SK Hynix send strong signal to Micron investors",
+          "summary": "With Micron’s earnings report looming, competitors have weighed in on the same pressure they’re all feeling.",
+          "pub": "2026-09-19T01:17",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/nvidia-sk-hynix-warning-memory-prices-micron-investors",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "Morgan Stanley",
-          "url": "",
+          "title": "What Does Micron Technology (MU) Warning Of Shortages Through 2027 Mean?",
+          "summary": "Micron Technology (NasdaqGS: MU) and Intel CEOs cautioned that memory chip shortages and higher prices could persist through 2027. Micron's leadership indicated on a recent call that supply constraints may only start to ease meaningfully from 2028 onward. Intel's CEO echoed the outlook for extended",
+          "pub": "2026-09-19T00:19",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/does-micron-technology-mu-warning-001915512.html",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-08-27",
-          "provider": "UBS",
-          "url": "",
+          "title": "Q3 Earnings Season Preview: What Can Investors Expect?",
+          "summary": "S&P 500 earnings in Q3 are expected to increase by +24% from the same period last year, reflecting the 8th consecutive quarter of double-digit earnings growth for the index. Earnings revisions have been positive, sustaining the favorable trend in place for almost a year now.",
+          "pub": "2026-09-18T22:37",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-season-preview-investors-223700771.html",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -577,7 +650,7 @@
       "persist": 100,
       "news": 52.6,
       "confirm": 56.7,
-      "signal": 67.7,
+      "signal": 67.3,
       "mom": {
         "ret5": -0.0021,
         "vol_surge": 1.49
@@ -643,97 +716,19 @@
       ]
     },
     {
-      "ticker": "BMY",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 11,
-      "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 60.6,
-      "signal": 67.7,
-      "mom": {
-        "ret5": -0.0091,
-        "vol_surge": 1.89
-      },
-      "earn_days": 40,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Can Sotyktu's Long-Term PsA Data Boost Bristol Myers' Prospects?",
-          "summary": "Bristol Myers' Sotyktu delivers durable PsA responses for two years, supporting its growth strategy as competition intensifies.",
-          "pub": "2026-09-18T19:17",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/sotyktus-long-term-psa-data-191700359.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Merck Stock Nearly Doubled Without A Change In Its Revenue Growth",
-          "summary": "Merck (MRK) stock returned about 87% over the past twelve months, climbing from roughly $79 to about $147. Nothing in the year's results looks like that. The medicines Merck sells today grew at their usual pace. Investors spent the year repricing what comes next.",
-          "pub": "2026-09-18T18:09",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/615855/merck-stock-nearly-doubled-without-a-change-in-its-revenue-growth/2026-09-18",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "BMY vs. ARGX: Which Stock Is the Better Value Option?",
-          "summary": "BMY vs. ARGX: Which Stock Is the Better Value Option?",
-          "pub": "2026-09-18T15:40",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bmy-vs-argx-stock-better-154003829.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Pfizer’s Dividend Yield Is Enormous. But Is the Payout Still Growing?",
-          "summary": "Pfizer has raised its dividend every year for over a decade, then something changed. Before you count on that 6% yield, find out what the payout's own behavior is quietly signaling about the company's financial confidence.",
-          "pub": "2026-09-18T15:06",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/18/pfizers-dividend-yield-is-enormous-but-is-the-payout-still-growing/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Should Value Investors Buy Bristol Myers Squibb (BMY) Stock?",
-          "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
-          "pub": "2026-09-18T13:40",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-bristol-myers-134003192.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "NEM",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 19,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 52.8,
       "confirm": 44.1,
-      "signal": 64.3,
+      "signal": 63.9,
       "mom": {
         "ret5": -0.0268,
         "vol_surge": 1.14
@@ -811,7 +806,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 43.4,
-      "signal": 62.9,
+      "signal": 62.5,
       "mom": {
         "ret5": -0.0345,
         "vol_surge": 1.25
@@ -856,7 +851,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 39.3,
-      "signal": 61.8,
+      "signal": 61.4,
       "mom": {
         "ret5": -0.0297,
         "vol_surge": 0.88
@@ -878,7 +873,7 @@
       "persist": 100,
       "news": 52.2,
       "confirm": 35.6,
-      "signal": 61.7,
+      "signal": 61.3,
       "mom": {
         "ret5": -0.036,
         "vol_surge": 0.76
@@ -934,7 +929,7 @@
       "persist": 100,
       "news": 50.4,
       "confirm": 35.4,
-      "signal": 60.9,
+      "signal": 60.5,
       "mom": {
         "ret5": -0.0402,
         "vol_surge": 0.83
@@ -1011,9 +1006,9 @@
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
-      "news": 49.6,
+      "news": 51.3,
       "confirm": 27.5,
-      "signal": 58.4,
+      "signal": 58.7,
       "mom": {
         "ret5": -0.0794,
         "vol_surge": 1.09
@@ -1067,17 +1062,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Alcoa Sees Aluminum Deficit, Strong Demand and Tariff Upside at Jefferies Conference",
-          "summary": "Alcoa (NYSE:AA) CFO Molly Beerman said the aluminum producer is carrying momentum from the second quarter into the third quarter, supported by strong production, pricing realization and demand from customers in North America and Europe. Speaking at the Jefferies Global Industrials Conference 2026,",
-          "pub": "2026-09-12T05:02",
-          "provider": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/event-alcoa-sees-aluminum-deficit-strong-demand-and-tariff-upside-at-jefferies-conference-2026-09-12/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "dir": -0.5,
-          "conf": 0.5,
-          "type": "規制・関税",
-          "why": "-規制・関税"
         }
       ]
     }
@@ -1168,6 +1152,14 @@
       "grades": {}
     },
     {
+      "date": "2026-09-19",
+      "ticker": "MU",
+      "signal": 67.7,
+      "price": 1015.8,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
       "date": "2026-09-18",
       "ticker": "AMD",
       "signal": 75.4,
@@ -1245,14 +1237,6 @@
       "signal": 66.0,
       "price": 357.61,
       "spy": 761.6900024414062,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-17",
-      "ticker": "PLTR",
-      "signal": 66.6,
-      "price": 174.34,
-      "spy": 754.0499877929688,
       "grades": {}
     }
   ],
