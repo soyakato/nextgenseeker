@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T20:41:42.890537+00:00",
+  "updated": "2026-09-20T04:55:00.501344+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -98,7 +98,7 @@
         "ret5": 0.0846,
         "vol_surge": 1.35
       },
-      "earn_days": 45,
+      "earn_days": 44,
       "consensus": {
         "buy": 50,
         "hold": 20,
@@ -129,6 +129,28 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "Jim Cramer sends a blunt message to AMD stock investors",
+          "summary": "Jim Cramer has plenty to say about stocks, but his latest comments on AMD took a notably different tone.",
+          "pub": "2026-09-20T03:33",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/jim-cramer-sends-a-blunt-message-to-amd-stock-investors",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Dow Jones Futures: Can The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+          "summary": "The stock market showed choppy, mixed weekly action. But Robinhood, Sandisk, AMD and Moderna rallied into buy areas.",
+          "pub": "2026-09-20T02:41",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
           "title": "Cathie Wood Sold Palantir and AMD, Then Poured $3.35 Million Into Archer Aviation. Is ARK Betting Big on Flying Taxis?",
           "summary": "Cathie Wood just bought more shares of Archer Aviation for her company's flagship ETF.",
           "pub": "2026-09-19T20:25",
@@ -138,28 +160,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market",
-          "summary": "In a major milestone in memory innovation, Micron Technology, Inc. (NASDAQ:MU) on September 15 announced the successful demonstration of a 512GB DDR5 RDIMM memory module for servers. This module is the first of its kind in the world, according to the company. The module can reach speeds of up to 9,2",
-          "pub": "2026-09-19T17:11",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/articles/micron-mu-unveils-breakthrough-memory-171152232.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Dow Jones Futures: Can The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-          "summary": "The stock market showed choppy, mixed weekly action. But Robinhood, Sandisk, AMD and Moderna rallied into buy areas.",
-          "pub": "2026-09-19T16:34",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
         }
       ]
     },
@@ -181,7 +181,7 @@
         "ret5": 0.0413,
         "vol_surge": 1.42
       },
-      "earn_days": 45,
+      "earn_days": 44,
       "consensus": null,
       "headlines": [
         {
@@ -337,7 +337,7 @@
         "ret5": -0.0091,
         "vol_surge": 1.89
       },
-      "earn_days": 40,
+      "earn_days": 39,
       "consensus": null,
       "headlines": [
         {
@@ -415,7 +415,7 @@
         "ret5": 0.0622,
         "vol_surge": 0.88
       },
-      "earn_days": 44,
+      "earn_days": 43,
       "consensus": {
         "buy": 13,
         "hold": 10,
@@ -438,7 +438,7 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-09-11",
-          "provider": "Rosenblatt",
+          "provider": "DA Davidson",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -449,7 +449,7 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-09-11",
-          "provider": "DA Davidson",
+          "provider": "Rosenblatt",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -486,7 +486,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 8,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
@@ -498,7 +498,7 @@
         "ret5": 0.0028,
         "vol_surge": 1.13
       },
-      "earn_days": 34,
+      "earn_days": 33,
       "consensus": null,
       "headlines": [
         {
@@ -565,7 +565,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 19,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
@@ -577,9 +577,20 @@
         "ret5": 0.0416,
         "vol_surge": 0.91
       },
-      "earn_days": 11,
+      "earn_days": 10,
       "consensus": null,
       "headlines": [
+        {
+          "title": "China's CXMT says new memory-chip platform enters mass production",
+          "summary": "By Che Pan and Eduardo Baptista BEIJING, Sept 20 (Reuters) - Chinese DRAM chipmaker CXMT said on Sunday its fifth-generation technology platform had entered mass production, a claimed breakthrough",
+          "pub": "2026-09-20T03:54",
+          "provider": "Reuters",
+          "url": "https://finance.yahoo.com/technology/articles/chinas-cxmt-says-memory-chip-035403310.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market",
           "summary": "In a major milestone in memory innovation, Micron Technology, Inc. (NASDAQ:MU) on September 15 announced the successful demonstration of a 512GB DDR5 RDIMM memory module for servers. This module is the first of its kind in the world, according to the company. The module can reach speeds of up to 9,2",
@@ -619,17 +630,6 @@
           "pub": "2026-09-19T09:37",
           "provider": "Motley Fool",
           "url": "https://www.fool.com/investing/2026/09/19/semiconductor-stocks-to-buy-and-hold-through-2030/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "UBS now expects AI capex to reach nearly $1tn this year and around $1.4tn by 2027",
-          "summary": "Investing.com -- UBS now expects artificial intelligence capital expenditure to reach nearly $1 trillion in 2026 before climbing to around $1.4 trillion in 2027, with surging memory costs accounting for most of the increase.",
-          "pub": "2026-09-19T04:45",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ubs-now-expects-ai-capex-044549899.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -721,7 +721,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 20,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
@@ -736,6 +736,17 @@
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+          "summary": "Washington just put AI and defense infrastructure back under a spotlight, with plans for an \"AI Force\" and an AI tsar signaling fresh attention on chips, cloud capacity and contractors that can plug into federal demand. That shift could reshape where capital flows next and it creates both openings a",
+          "pub": "2026-09-20T02:11",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-2-us-ai-021149518.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Semiconductor Stocks to Buy and Hold Through 2030",
           "summary": "These chipmakers trade anywhere from 6 to 33 times their expected earnings for this fiscal year or next -- and the cheapest one is the one I'd be most careful buying.",
@@ -779,17 +790,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why XLK’s Next Rebalance Won’t Fix Its Massive Concentration Problem",
-          "summary": "XLK markets itself as diversified large-cap tech exposure, but a closer look at the holdings reveals a chip bet so large that even a quarterly rebalance may do nothing to shrink it.",
-          "pub": "2026-09-18T17:25",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/09/18/why-xlks-next-rebalance-wont-fix-its-massive-concentration-problem/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -811,9 +811,20 @@
         "ret5": -0.0345,
         "vol_surge": 1.25
       },
-      "earn_days": 40,
+      "earn_days": 39,
       "consensus": null,
       "headlines": [
+        {
+          "title": "What Could Coursera (COUR) Change With Project Helix?",
+          "summary": "Coursera (NYSE:COUR) previewed its new AI-native skills platform, Project Helix, at the FWD customer event following its merger with Udemy. Project Helix is built to combine AI, skills intelligence, and workforce capability tools for enterprise learning customers. The platform was positioned as a co",
+          "pub": "2026-09-20T03:19",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/could-coursera-cour-change-project-031950692.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Google Brain Co-Founder Pushes Back on AI Doom Warnings",
           "summary": "The bigger question may be who benefits from caution",
@@ -856,7 +867,7 @@
         "ret5": -0.0297,
         "vol_surge": 0.88
       },
-      "earn_days": 45,
+      "earn_days": 44,
       "consensus": null,
       "headlines": []
     },
@@ -927,14 +938,14 @@
       "name": "Celestica, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.4,
+      "news": 48.8,
       "confirm": 35.4,
-      "signal": 60.5,
+      "signal": 59.8,
       "mom": {
         "ret5": -0.0402,
         "vol_surge": 0.83
       },
-      "earn_days": 37,
+      "earn_days": 36,
       "consensus": null,
       "headlines": [
         {
@@ -948,6 +959,17 @@
           "type": "8-K 5.02",
           "why": "役員の退任・選任（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "TSMC Stock And 2 Manufacturers Building Around Tariff Shifts",
+          "summary": "Trade rules are quietly redrawing the global factory map, and the results are starting to show up in earnings calls and capital spending plans. Production is shifting, costs are moving, and some balance sheets may feel the strain while others find fresh demand. For investors evaluating where tomorro",
+          "pub": "2026-09-20T04:20",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-2-manufacturers-building-042001917.html",
+          "dir": -0.5,
+          "conf": 0.5,
+          "type": "規制・関税",
+          "why": "-規制・関税"
         },
         {
           "title": "Celestica (TSX:CLS) Following Its CFO Change, Is The Undervalued View Still Intact?",
@@ -981,17 +1003,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can Celestica's Next-Generation HealthTech Portfolio Lift Its Shares?",
-          "summary": "CLS supports growing HealthTech demand with advanced manufacturing, supply chain and engineering solutions for medical devices.",
-          "pub": "2026-09-14T15:17",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/celesticas-next-generation-healthtech-portfolio-151700369.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -1013,7 +1024,7 @@
         "ret5": -0.0794,
         "vol_surge": 1.09
       },
-      "earn_days": 26,
+      "earn_days": 25,
       "consensus": null,
       "headlines": [
         {
@@ -1079,6 +1090,86 @@
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-09-20",
+      "ticker": "CRDO",
+      "signal": 76.0,
+      "price": 175.89,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-20",
+      "ticker": "AMD",
+      "signal": 74.1,
+      "price": 559.82,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-20",
+      "ticker": "ALAB",
+      "signal": 73.7,
+      "price": 303.25,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-20",
+      "ticker": "DDOG",
+      "signal": 71.3,
+      "price": 229.92,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-20",
+      "ticker": "BMY",
+      "signal": 69.5,
+      "price": 63.06,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-20",
+      "ticker": "PLTR",
+      "signal": 69.2,
+      "price": 177.64,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-20",
+      "ticker": "CORZ",
+      "signal": 68.7,
+      "price": 17.99,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-20",
+      "ticker": "MU",
+      "signal": 67.4,
+      "price": 1015.8,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-20",
+      "ticker": "CIEN",
+      "signal": 67.3,
+      "price": 348.8,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-09-20",
+      "ticker": "AVGO",
+      "signal": 65.2,
+      "price": 357.61,
+      "spy": 761.6900024414062,
+      "grades": {}
+    },
     {
       "date": "2026-09-19",
       "ticker": "CRDO",
@@ -1157,86 +1248,6 @@
       "signal": 67.7,
       "price": 1015.8,
       "spy": 761.6900024414062,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-19",
-      "ticker": "AVGO",
-      "signal": 65.2,
-      "price": 357.61,
-      "spy": 761.6900024414062,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-18",
-      "ticker": "AMD",
-      "signal": 75.4,
-      "price": 545.09,
-      "spy": 762.5999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-18",
-      "ticker": "CRDO",
-      "signal": 73.1,
-      "price": 168.25,
-      "spy": 762.5999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-18",
-      "ticker": "ALAB",
-      "signal": 72.0,
-      "price": 293.56,
-      "spy": 762.5999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-18",
-      "ticker": "PLTR",
-      "signal": 70.2,
-      "price": 176.24,
-      "spy": 762.5999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-18",
-      "ticker": "CIEN",
-      "signal": 69.8,
-      "price": 344.25,
-      "spy": 762.5999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-18",
-      "ticker": "CORZ",
-      "signal": 68.4,
-      "price": 17.14,
-      "spy": 762.5999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-18",
-      "ticker": "BMY",
-      "signal": 66.1,
-      "price": 62.84,
-      "spy": 762.5999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-18",
-      "ticker": "CLS",
-      "signal": 65.3,
-      "price": 329.94,
-      "spy": 762.5999755859375,
-      "grades": {}
-    },
-    {
-      "date": "2026-09-18",
-      "ticker": "NVDA",
-      "signal": 67.1,
-      "price": 219.345,
-      "spy": 758.2000122070312,
       "grades": {}
     }
   ],
