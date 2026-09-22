@@ -1,28 +1,144 @@
 {
-  "updated": "2026-09-22T11:40:09.442858+00:00",
+  "updated": "2026-09-22T16:58:14.234694+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 5,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 60.7,
+      "confirm": 88.4,
+      "signal": 79.7,
+      "mom": {
+        "ret5": 0.2232,
+        "vol_surge": 1.56
+      },
+      "earn_days": 42,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストupgrade: Outperform→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-25",
+          "provider": "Raymond James",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "AMD’s path to $1T market cap: A timeline of CEO Lisa Su’s big wins",
+          "summary": "Yahoo Finance Executive Editor Brian Sozzi looks at the timeline of big wins and the rise of AMD (AMD) CEO Lisa Su as the company's market cap crossed the $1 trillion mark for the first time on Sept. 21.",
+          "pub": "2026-09-22T14:16",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/amd-path-1t-market-cap-141601813.html",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "受注",
+          "why": "+受注"
+        },
+        {
+          "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil  falls",
+          "summary": "Stocks have largely powered through a wall of worry this month, though rising bond yields, geopolitical risk in the Middle East, and AI jitters have given investors reason to pause.",
+          "pub": "2026-09-21T08:02",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Why Gabelli Global Growth Fund Added Advanced Micro Devices (AMD) in Q2",
+          "summary": "Gabelli Investment Management Firm recently released its “Global Growth Fund” second-quarter 2026 investor letter. A copy of the letter can be downloaded here. The Fund returned 12.84% in the second quarter of 2026, compared with 15.2% for the S&P 500 Index and 15.1% for the MSCI All Country World I",
+          "pub": "2026-09-22T16:39",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-gabelli-global-growth-fund-141047976.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Advanced Micro Devices (AMD) Reaches $1 Trillion Market Value",
+          "summary": "Advanced Micro Devices (NasdaqGS:AMD) reached an estimated US$1 trillion market capitalization on 21 September 2026, a first for the stock. The valuation milestone comes as AMD expands AI chip deployments into data center computing and regulated AI infrastructure workloads. Recent use cases for AMD",
+          "pub": "2026-09-22T16:15",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-reaches-161530888.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        }
+      ]
+    },
     {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 7,
+      "today_rank": 6,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 59.0,
-      "confirm": 88.1,
-      "signal": 78.9,
+      "news": 60.8,
+      "confirm": 85.8,
+      "signal": 79.1,
       "mom": {
-        "ret5": 0.1449,
-        "vol_surge": 1.54
+        "ret5": 0.1099,
+        "vol_surge": 1.39
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Here's Why You Should Hold Paychex's Stock in Your Portfolio Now",
+          "summary": "PAYX's AI-powered HCM platform, Paycor acquisition and expansion beyond payroll support growth, while macro and leverage risks remain.",
+          "pub": "2026-09-22T13:50",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-paychexs-stock-135000620.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Ciena Expands Global Subsea Footprint With ACE & ECHO Upgrades",
+          "summary": "CIEN is expanding subsea capacity across key global routes, deploying WL6e technology on ACE and ECHO to boost international connectivity.",
+          "pub": "2026-09-22T13:30",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/articles/ciena-expands-global-subsea-footprint-133000742.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "格上げ",
+          "why": "+格上げ +拡大・新製品"
+        },
+        {
+          "title": "Ciena vs. ADTRAN: Which Optical Networking Stock is the Better Buy?",
+          "summary": "CIEN's surging backlog and optical demand contrast with ADTRAN's supply, margin and timing pressures as AI networking drives opportunities.",
+          "pub": "2026-09-22T13:20",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-vs-adtran-optical-networking-132000736.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Ciena (CIEN) Following Record Q3 Results And 2029 Targets Looks Back In Valuation Focus",
           "summary": "Why Ciena Stock Is Back In Focus After Its Special Call Ciena (CIEN) moved back onto investor watchlists after a recent special call highlighted record third quarter fiscal 2026 results, new financial targets for 2029, and a planned overhaul of its reporting structure. Ciena’s special call came agai",
@@ -44,39 +160,6 @@
           "conf": 0.6,
           "type": "格上げ",
           "why": "+格上げ"
-        },
-        {
-          "title": "Ciena (CIEN): Wall Street Cut Targets After Earnings, Then Raised Them on 2029 Outlook",
-          "summary": "On September 3, 2026, Ciena Corporation (NYSE:CIEN) reported third-quarter fiscal 2026 results for the period ended August 1, 2026. Revenue rose 37% year-over-year to $1.67 billion, adjusted earnings per share more than tripled to $2.11, and backlog grew $800 million in the quarter to $8.5 billion.",
-          "pub": "2026-09-21T18:42",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-cien-wall-street-cut-184230060.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why This AI Bottleneck Means Ciena Stock Has 58% Upside",
-          "summary": "Ciena stock rises after Evercore ISI upgrades shares of the optical networking company to Outperform.",
-          "pub": "2026-09-21T14:18",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/ciena-stock-price-upgrade-ai-154d10aa?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
-        },
-        {
-          "title": "Ciena upgraded, Flutter downgraded: Wall Street's top analyst calls",
-          "summary": "Ciena upgraded, Flutter downgraded: Wall Street's top analyst calls",
-          "pub": "2026-09-21T13:47",
-          "provider": "The Fly",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-upgraded-flutter-downgraded-wall-134710881.html",
-          "dir": 0.0,
-          "conf": 0.0,
-          "type": "格上げ",
-          "why": "+格上げ -格下げ"
         }
       ]
     },
@@ -95,7 +178,7 @@
       "confirm": 85.2,
       "signal": 77.4,
       "mom": {
-        "ret5": 0.3256,
+        "ret5": 0.4519,
         "vol_surge": 1.35
       },
       "earn_days": 42,
@@ -159,183 +242,22 @@
       ]
     },
     {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 6,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.8,
-      "confirm": 88.4,
-      "signal": 76.7,
-      "mom": {
-        "ret5": 0.2475,
-        "vol_surge": 1.56
-      },
-      "earn_days": 42,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストupgrade: Outperform→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-25",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Why AMD's new $1 trillion valuation makes perfect sense",
-          "summary": "AMD CEO Lisu Su has been crushing it at a chip company that almost went bust when she walked in the door as a top executive in 2012.",
-          "pub": "2026-09-22T09:34",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/why-amds-new-1-trillion-valuation-makes-perfect-sense-093453726.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Tech stocks rise, Bitcoin rallies as Treasury yields ease: AlphaCheck",
-          "summary": "Here's a check of the markets in the first few minutes of trading.",
-          "pub": "2026-09-21T13:50",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/tech-stocks-rise-bitcoin-rallies-as-treasury-yields-ease-alphacheck-135033093.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "12 S&P 500 Stocks Hit Trillion-Dollar Club — What Could Go Wrong?",
-          "summary": "It was big news when the value of Apple surpassed $1 trillion. But now a dozen S&P 500 companies have done it.",
-          "pub": "2026-09-22T11:28",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-hit-trillion-dollar-club-what-could-go-wrong/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "AMD Just Joined the $1 Trillion Club. Here's Why Investors Are Betting Big on the Chipmaker.",
-          "summary": "Investors are willing to pay more for AMD's future earnings.",
-          "pub": "2026-09-22T11:25",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/22/amd-just-joined-the-1-trillion-club-heres-why-investors-are-betting-big-on-the-chipmaker/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "CRDO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 5,
-      "today_rank": 18,
-      "first_seen": "2026-07-08",
-      "name": "Credo Technology Group Holding ",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 51.6,
-      "confirm": 86.5,
-      "signal": 75.2,
-      "mom": {
-        "ret5": 0.2477,
-        "vol_surge": 1.43
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Credo Technology (CRDO) Just Cleared a Key PCIe 6.0 Milestone. What Comes Next?",
-          "summary": "Credo Technology Group Holding Ltd (NASDAQ:CRDO) has its Toucan Gen6x16 PCI Express (PCIe) retimer now officially added to the PCI-SIG Integrators List. The listing took place after retimer’s testing completion at the PCI-SIG Compliance Workshop, where it achieved formal PCI-SIG 6.x compliance at 64",
-          "pub": "2026-09-22T11:21",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/credo-technology-crdo-just-cleared-112133583.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "3 AI Infrastructure Stocks Investors Should Watch As Data Center Spending Builds",
-          "summary": "AI and data-center spending now sit at the crossroads of higher rates, fragile growth and jumpy energy markets, which is exactly where big shifts in market leadership are often born. Investors focused only on rate-sensitive sectors risk missing how capital keeps flowing toward the plumbing behind AI",
-          "pub": "2026-09-22T09:18",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-investors-091849195.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Jim Cramer on Credo (CRDO): “I Think You Can Buy the Stock”",
-          "summary": "On September 17, during the lightning round of Mad Money, a caller asked whether to buy, hold, or sell Credo Technology Group Holding Ltd (NASDAQ:CRDO) when looking out over a 12-month horizon. In response, Jim Cramer said: You gave me a 12-month horizon. It’s been a terrible stock in the last 6 mon",
-          "pub": "2026-09-21T19:37",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-credo-crdo-think-193721036.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Credo's New 1.6T Optics Matter to Its $600 Million Optical Push",
-          "summary": "Credo's new 1.6T ZeroFlap optics deepen its optical push as management targets more than $600 million in fiscal 2027 optical revenue.",
-          "pub": "2026-09-21T16:21",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/why-credos-1-6t-optics-162100736.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is CRDO Stock Worth Buying as Growth Outruns Its Premium Valuation?",
-          "summary": "CRDO targets over 85% fiscal 2027 revenue growth as optics expand, but premium valuation and customer concentration keep execution in focus.",
-          "pub": "2026-09-21T15:25",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/crdo-stock-worth-buying-growth-152500711.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        }
-      ]
-    },
-    {
       "ticker": "CORZ",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 8,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 55.8,
-      "confirm": 77.0,
-      "signal": 74.4,
+      "confirm": 81.2,
+      "signal": 75.6,
       "mom": {
-        "ret5": 0.0825,
-        "vol_surge": 1.15
+        "ret5": 0.1574,
+        "vol_surge": 1.08
       },
       "earn_days": 31,
       "consensus": null,
@@ -399,26 +321,115 @@
       ]
     },
     {
+      "ticker": "CRDO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 5,
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "Credo Technology Group Holding ",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.6,
+      "confirm": 85.4,
+      "signal": 74.9,
+      "mom": {
+        "ret5": 0.2752,
+        "vol_surge": 1.36
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Credo Technology (CRDO) Just Cleared a Key PCIe 6.0 Milestone. What Comes Next?",
+          "summary": "Credo Technology Group Holding Ltd (NASDAQ:CRDO) has its Toucan Gen6x16 PCI Express (PCIe) retimer now officially added to the PCI-SIG Integrators List. The listing took place after retimer’s testing completion at the PCI-SIG Compliance Workshop, where it achieved formal PCI-SIG 6.x compliance at 64",
+          "pub": "2026-09-22T11:21",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/credo-technology-crdo-just-cleared-112133583.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "3 AI Infrastructure Stocks Investors Should Watch As Data Center Spending Builds",
+          "summary": "AI and data-center spending now sit at the crossroads of higher rates, fragile growth and jumpy energy markets, which is exactly where big shifts in market leadership are often born. Investors focused only on rate-sensitive sectors risk missing how capital keeps flowing toward the plumbing behind AI",
+          "pub": "2026-09-22T09:18",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-investors-091849195.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Jim Cramer on Credo (CRDO): “I Think You Can Buy the Stock”",
+          "summary": "On September 17, during the lightning round of Mad Money, a caller asked whether to buy, hold, or sell Credo Technology Group Holding Ltd (NASDAQ:CRDO) when looking out over a 12-month horizon. In response, Jim Cramer said: You gave me a 12-month horizon. It’s been a terrible stock in the last 6 mon",
+          "pub": "2026-09-21T19:37",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-credo-crdo-think-193721036.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why Credo's New 1.6T Optics Matter to Its $600 Million Optical Push",
+          "summary": "Credo's new 1.6T ZeroFlap optics deepen its optical push as management targets more than $600 million in fiscal 2027 optical revenue.",
+          "pub": "2026-09-21T16:21",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/articles/why-credos-1-6t-optics-162100736.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Is CRDO Stock Worth Buying as Growth Outruns Its Premium Valuation?",
+          "summary": "CRDO targets over 85% fiscal 2027 revenue growth as optics expand, but premium valuation and customer concentration keep execution in focus.",
+          "pub": "2026-09-21T15:25",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/crdo-stock-worth-buying-growth-152500711.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        }
+      ]
+    },
+    {
       "ticker": "DDOG",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 8,
-      "today_rank": 14,
+      "today_rank": 12,
       "first_seen": "2026-08-08",
       "name": "Datadog, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 58.6,
-      "confirm": 67.8,
-      "signal": 73.1,
+      "confirm": 66.8,
+      "signal": 72.9,
       "mom": {
-        "ret5": 0.0652,
-        "vol_surge": 0.88
+        "ret5": 0.0676,
+        "vol_surge": 0.77
       },
       "earn_days": 44,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Fortinet vs. Datadog: Which Cloud Security Stock Has Better Potential?",
+          "summary": "FTNT pairs faster billings growth, robust cash flow and a lower valuation, while DDOG delivers stronger revenue growth but faces near-term customer pressure.",
+          "pub": "2026-09-22T12:56",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fortinet-vs-datadog-cloud-security-125600728.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Twilio, Datadog, Unity, Zscaler, and Elastic Shares Skyrocket, What You Need To Know",
           "summary": "A number of stocks jumped in the afternoon session after falling Treasury yields eased pressure on software stocks as signs of cooler U.S.–China tensions lifted risk appetite.",
@@ -462,17 +473,162 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "BMY",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 9,
+      "first_seen": "2026-07-08",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
+      "persist": 100,
+      "news": 62.1,
+      "confirm": 55.5,
+      "signal": 71.3,
+      "mom": {
+        "ret5": -0.0166,
+        "vol_surge": 1.7
+      },
+      "earn_days": 37,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Eli Lilly Breaks Ground on $6.5B Generation Park Facility",
+          "summary": "A $6.5B Eli Lilly biomanufacturing facility broke ground at Houston’s Generation Park, Texas’ largest pharmaceutical investment to date.",
+          "pub": "2026-09-22T14:47",
+          "provider": "CRE Daily",
+          "url": "https://www.credaily.com/briefs/eli-lilly-breaks-ground-on-6-5b-generation-park-facility/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Datadog's Enterprise Customer Expansion Accelerates: What's Ahead?",
-          "summary": "DDOG's enterprise customer growth is accelerating as the adoption of AI-driven observability and security expands across large accounts.",
-          "pub": "2026-09-17T17:23",
+          "title": "Could You Have Seen Merck Stock's Pipeline Run Coming?",
+          "summary": "Merck (MRK) stock gained about 89% in the year from mid-September 2025, against a 17.1% price gain for the S&P 500. It also beat Johnson & Johnson (JNJ), up 58%, and Eli Lilly (LLY), up 54%. The signs were public long before the run, in what management kept saying about its drug pipeline. The report",
+          "pub": "2026-09-22T13:50",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/616142/could-you-have-seen-merck-stocks-pipeline-run-coming/2026-09-22",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "BMY vs GILD: Which Biotech Stock Looks More Attractive Now?",
+          "summary": "Bristol Myers' growth portfolio and pipeline advances offer multiple ways to offset legacy-product erosion, while valuation and leverage remain key factors.",
+          "pub": "2026-09-21T15:55",
           "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/datadogs-enterprise-customer-expansion-accelerates-172300945.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
+          "url": "https://finance.yahoo.com/healthcare/articles/bmy-vs-gild-biotech-stock-155500874.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "What Would It Take For Pfizer To Cut Its Dividend?",
+          "summary": "Pfizer (PFE) has returned 23.1% over the past year and trades about 5% below its three-year high. Yet one question keeps coming back on its earnings calls: would it ever cut the dividend? An analyst asked it outright on the August call, and another tied it to a big acquisition in May. So what would",
+          "pub": "2026-09-21T14:17",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/616007/what-would-it-take-for-pfizer-to-cut-its-dividend/2026-09-21",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Wall Street's Bull Case for Bristol Myers Squibb Is Getting Louder",
+          "summary": "The company's strong pipeline and newer approved drugs should be enough to allay patent expiration concerns.",
+          "pub": "2026-09-20T12:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/20/wall-streets-bull-case-for-bristol-myers-squibb-is/",
+          "dir": 0.7,
+          "conf": 0.7,
+          "type": "承認",
+          "why": "+承認"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 72.5,
+      "signal": 70.7,
+      "mom": {
+        "ret5": 0.073,
+        "vol_surge": 1.04
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Price Prediction: Marvell, AMD & Broadcom- Our Bold Price Predictions for 2027",
+          "summary": "Marvell, AMD, and Broadcom are all sitting above Wall Street's consensus targets right now, yet one bold analyst sees each of them with meaningful room left to run before 2027 ends.",
+          "pub": "2026-09-22T16:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/22/price-prediction-marvell-amd-broadcom-our-bold-price-predictions-for-2027/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "AMD Holds Flat After Joining the $1 Trillion Club",
+          "summary": "The valuation milestone prices complete-system execution, not merely a stronger GPU alternative.",
+          "pub": "2026-09-22T15:56",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/articles/amd-holds-flat-joining-1-155600671.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "AI Fears Are Reaching Fever Pitch But I’m Not Slowing Down My Nvidia Accumulation",
+          "summary": "Every AI doom headline that crosses my feed makes me want to buy more Nvidia, not less, and the company's own numbers explain exactly why the fear and the fundamentals are pointing in opposite directions.",
+          "pub": "2026-09-22T15:43",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/22/ai-fears-are-reaching-fever-pitch-but-im-not-slowing-down-my-nvidia-accumulation/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "The More Complicated Chips Become, the More Interesting Synopsys Gets",
+          "summary": "Chip design complexity is hitting levels only a handful of software vendors can handle, and one under-the-radar name keeps collecting a toll on every advanced design that ships. The question is whether Wall Street has already priced in its edge or is still sleeping on it.",
+          "pub": "2026-09-22T15:00",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/22/the-more-complicated-chips-become-the-more-interesting-synopsys-gets/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Nvidia Price Prediction: Wall Street and Our Model Finally Agree",
+          "summary": "For the first time, our proprietary valuation model and Wall Street analysts are pointing at the same stock and the same direction, but the reasons behind that rare consensus reveal something bigger brewing inside Nvidia's next hardware cycle.",
+          "pub": "2026-09-22T14:30",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/22/nvidia-price-prediction-wall-street-and-our-model-finally-agree/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -487,12 +643,12 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.0,
-      "confirm": 65.3,
-      "signal": 70.9,
+      "news": 50.8,
+      "confirm": 67.0,
+      "signal": 69.5,
       "mom": {
-        "ret5": 0.0564,
-        "vol_surge": 0.89
+        "ret5": 0.0675,
+        "vol_surge": 0.78
       },
       "earn_days": 41,
       "consensus": {
@@ -536,100 +692,22 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "A Closer Look at the 'Big 3' Investing Styles",
-          "summary": "Investors typically gravitate toward several market strategies, including income, growth, or value.",
-          "pub": "2026-09-21T23:44",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/closer-look-big-3-investing-234400324.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "AI Leaders Are Standing On a Liability Landmine",
+          "summary": "As AI developers imbue their chatbots with more agent-like abilities—allowing them to do things autonomously on users’ behalf—questions about legal liability are becoming increasingly urgent.  Treasury Secretary Scott Bessent jumped into the debate Monday, saying it was the companies, not the govern",
+          "pub": "2026-09-22T16:00",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/ai-leaders-are-standing-on-a-liability-landmine-736a8060?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
         },
         {
-          "title": "Palantir's Alex Karp says AI's biggest names may never IPO — the play is telling Washington 'nationalize us, please'",
-          "summary": "More government oversight could be better for humanity, but also serves to cover AI companies’ butts.",
-          "pub": "2026-09-21T21:30",
-          "provider": "Moneywise",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantirs-alex-karp-says-ais-213000729.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 52.7,
-      "confirm": 68.9,
-      "signal": 70.9,
-      "mom": {
-        "ret5": 0.054,
-        "vol_surge": 1.18
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "AMD Just Joined the $1 Trillion Club. Here's Why Investors Are Betting Big on the Chipmaker.",
-          "summary": "Investors are willing to pay more for AMD's future earnings.",
-          "pub": "2026-09-22T11:25",
+          "title": "CrowdStrike vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
+          "summary": "Palantir trades at a lower earnings multiple despite higher revenue valuation, while CrowdStrike battles reputational headwinds and profitability challenges.",
+          "pub": "2026-09-22T15:35",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/22/amd-just-joined-the-1-trillion-club-heres-why-investors-are-betting-big-on-the-chipmaker/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "History Says a $1,000 Investment in Broadcom Will Be Worth This Much by 2028",
-          "summary": "Broadcom has incredible upside due to its impressive AI computing unit growth.",
-          "pub": "2026-09-22T06:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/22/history-says-a-1000-investment-in-broadcom-will-be/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "3 Stocks That Pay Dividends and Offer AI Exposure",
-          "summary": "For those interested in getting paid with some AI exposure, Broadcom (AVGO), Vertiv (VRT), and Caterpillar (CAT) all fit the criteria.",
-          "pub": "2026-09-21T23:38",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-pay-dividends-offer-233800366.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "NVIDIA Or Micron: Which Gets Paid More Safely For The AI Shortage?",
-          "summary": "If you own NVIDIA (NVDA) or Micron Technology (MU), you own the same idea: AI data centers want more chips and memory than the industry can supply. The two split from there. NVIDIA is putting its own balance sheet behind some of its biggest buyers. Micron's buyers are posting cash deposits to secure",
-          "pub": "2026-09-21T20:31",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/616017/nvidia-or-micron-which-gets-paid-more-safely-for-the-ai-shortage/2026-09-21",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        },
-        {
-          "title": "Prediction: This Data Center Stock Will Be the AI Supercycle's Biggest Winner -- and It's Not a Household Name",
-          "summary": "The demand for optical networking components is poised to boom, and Lumentum is one of the best ways to capitalize on this lucrative niche.",
-          "pub": "2026-09-21T19:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/21/prediction-this-data-center-stock-will-be-the-ai-s/",
+          "url": "https://www.fool.com/coverage/better-buy/2026/09/22/crowdstrike-vs-palantir-technologies-which-technology-stock-is-a-better-buy-in-2026/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -643,17 +721,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 12,
-      "today_rank": 19,
+      "today_rank": 20,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 48.6,
-      "confirm": 74.0,
-      "signal": 70.5,
+      "news": 43.1,
+      "confirm": 76.4,
+      "signal": 68.7,
       "mom": {
-        "ret5": 0.0896,
-        "vol_surge": 0.81
+        "ret5": 0.1066,
+        "vol_surge": 0.76
       },
       "earn_days": 34,
       "consensus": null,
@@ -691,106 +769,6 @@
           "conf": 0.5,
           "type": "規制・関税",
           "why": "-規制・関税"
-        },
-        {
-          "title": "Celestica (TSX:CLS) Following Its CFO Change, Is The Undervalued View Still Intact?",
-          "summary": "Why Celestica’s CFO Transition Matters For Investors Celestica (TSX:CLS) is reshaping its leadership chart, with long-time finance chief Mandeep Chawla moving to a new Group President, Global Markets role and Todd Ankenmann stepping in as CFO. Recent price action has been choppy. The share price fel",
-          "pub": "2026-09-15T16:14",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-tsx-cls-following-cfo-161424844.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Ulta Beauty, Etsy upgraded: Wall Street's top analyst calls",
-          "summary": "Ulta Beauty, Etsy upgraded: Wall Street's top analyst calls",
-          "pub": "2026-09-15T13:35",
-          "provider": "The Fly",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-downgraded-ulta-beauty-upgraded-133354484.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
-        }
-      ]
-    },
-    {
-      "ticker": "BMY",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 11,
-      "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 58.1,
-      "confirm": 56.4,
-      "signal": 69.8,
-      "mom": {
-        "ret5": -0.0231,
-        "vol_surge": 1.89
-      },
-      "earn_days": 37,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "BMY vs GILD: Which Biotech Stock Looks More Attractive Now?",
-          "summary": "Bristol Myers' growth portfolio and pipeline advances offer multiple ways to offset legacy-product erosion, while valuation and leverage remain key factors.",
-          "pub": "2026-09-21T15:55",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/bmy-vs-gild-biotech-stock-155500874.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What Would It Take For Pfizer To Cut Its Dividend?",
-          "summary": "Pfizer (PFE) has returned 23.1% over the past year and trades about 5% below its three-year high. Yet one question keeps coming back on its earnings calls: would it ever cut the dividend? An analyst asked it outright on the August call, and another tied it to a big acquisition in May. So what would",
-          "pub": "2026-09-21T14:17",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/616007/what-would-it-take-for-pfizer-to-cut-its-dividend/2026-09-21",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Wall Street's Bull Case for Bristol Myers Squibb Is Getting Louder",
-          "summary": "The company's strong pipeline and newer approved drugs should be enough to allay patent expiration concerns.",
-          "pub": "2026-09-20T12:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/20/wall-streets-bull-case-for-bristol-myers-squibb-is/",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "承認",
-          "why": "+承認"
-        },
-        {
-          "title": "Did VOXZOGO’s Hypochondroplasia Win and New R&D Hire Just Reframe BioMarin’s (BMRN) Investment Narrative?",
-          "summary": "BioMarin Pharmaceutical recently reported positive Phase 3 CANOPY-HCH-3 results for VOXZOGO in children with hypochondroplasia and submitted a supplemental FDA application to expand the drug’s use, while also adding Bristol Myers Squibb research leader Robert Plenge, M.D., Ph.D., to its Board and Sc",
-          "pub": "2026-09-19T08:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/healthcare/articles/did-voxzogo-hypochondroplasia-win-r-081025959.html",
-          "dir": 0.9,
-          "conf": 0.9,
-          "type": "受注",
-          "why": "+受注 +拡大・新製品"
-        },
-        {
-          "title": "Can Sotyktu's Long-Term PsA Data Boost Bristol Myers' Prospects?",
-          "summary": "Bristol Myers' Sotyktu delivers durable PsA responses for two years, supporting its growth strategy as competition intensifies.",
-          "pub": "2026-09-18T19:17",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/sotyktus-long-term-psa-data-191700359.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -800,17 +778,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 23,
+      "today_rank": 24,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 54.6,
-      "confirm": 51.9,
-      "signal": 67.0,
+      "confirm": 52.9,
+      "signal": 67.3,
       "mom": {
-        "ret5": -0.0002,
-        "vol_surge": 1.13
+        "ret5": 0.0077,
+        "vol_surge": 1.04
       },
       "earn_days": 30,
       "consensus": null,
@@ -878,17 +856,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 51.1,
-      "confirm": 41.7,
-      "signal": 62.7,
+      "confirm": 48.5,
+      "signal": 64.6,
       "mom": {
-        "ret5": -0.0138,
-        "vol_surge": 0.72
+        "ret5": 0.01,
+        "vol_surge": 0.7
       },
       "earn_days": null,
       "consensus": null,
@@ -918,76 +896,6 @@
       ]
     },
     {
-      "ticker": "AA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 9,
-      "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 51.3,
-      "confirm": 36.4,
-      "signal": 61.4,
-      "mom": {
-        "ret5": -0.0492,
-        "vol_surge": 1.08
-      },
-      "earn_days": 23,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-11",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526388649",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-10",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526386787",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: Reg FD開示・その他の重要イベント",
-          "summary": "",
-          "pub": "2026-09-09",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526385947",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Alcoa (AA) Priced $2.6 Billion of Acquisition Notes. Can the Assets Cover $175 Million in Interest?",
-          "summary": "Alcoa Corporation (NYSE:AA) priced $2.6 billion of acquisition financing on September 9, 2026, through two wholly owned subsidiaries. Alumina Pty Ltd will issue $1.5 billion of 6.625% notes due 2034, while Alcoa Nederland Holding B.V. will issue $1.1 billion of 6.875% notes due 2036. Alcoa Corporati",
-          "pub": "2026-09-16T22:31",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-aa-priced-2-6-223109134.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "COUR",
       "tier": "確定",
       "streak": 43,
@@ -999,11 +907,11 @@
       "sector": "Consumer Defensive",
       "persist": 100,
       "news": 47.5,
-      "confirm": 39.8,
-      "signal": 60.6,
+      "confirm": 50.9,
+      "signal": 63.7,
       "mom": {
-        "ret5": -0.048,
-        "vol_surge": 1.28
+        "ret5": -0.0095,
+        "vol_surge": 1.25
       },
       "earn_days": 37,
       "consensus": null,
@@ -1067,22 +975,92 @@
       ]
     },
     {
+      "ticker": "AA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 8,
+      "first_seen": "2026-07-08",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 51.3,
+      "confirm": 45.0,
+      "signal": 63.7,
+      "mom": {
+        "ret5": -0.0186,
+        "vol_surge": 1.04
+      },
+      "earn_days": 23,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: その他の重要イベント",
+          "summary": "",
+          "pub": "2026-09-11",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526388649",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: その他の重要イベント",
+          "summary": "",
+          "pub": "2026-09-10",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526386787",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: Reg FD開示・その他の重要イベント",
+          "summary": "",
+          "pub": "2026-09-09",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526385947",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Alcoa (AA) Priced $2.6 Billion of Acquisition Notes. Can the Assets Cover $175 Million in Interest?",
+          "summary": "Alcoa Corporation (NYSE:AA) priced $2.6 billion of acquisition financing on September 9, 2026, through two wholly owned subsidiaries. Alumina Pty Ltd will issue $1.5 billion of 6.625% notes due 2034, while Alcoa Nederland Holding B.V. will issue $1.1 billion of 6.875% notes due 2036. Alcoa Corporati",
+          "pub": "2026-09-16T22:31",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-aa-priced-2-6-223109134.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "FLYW",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 15,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 32.8,
-      "signal": 59.8,
+      "confirm": 39.3,
+      "signal": 61.6,
       "mom": {
-        "ret5": -0.0539,
-        "vol_surge": 0.93
+        "ret5": -0.0332,
+        "vol_surge": 0.95
       },
       "earn_days": 42,
       "consensus": null,
