@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T04:46:25.586416+00:00",
+  "updated": "2026-09-23T11:38:44.244854+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,14 +8,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 2,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 61.4,
       "confirm": 87.5,
-      "signal": 79.8,
+      "signal": 79.7,
       "mom": {
         "ret5": 0.3256,
         "vol_surge": 1.5
@@ -81,95 +81,12 @@
       ]
     },
     {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 4,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 57.8,
-      "confirm": 90.5,
-      "signal": 79.0,
-      "mom": {
-        "ret5": 0.2475,
-        "vol_surge": 1.7
-      },
-      "earn_days": 41,
-      "consensus": {
-        "buy": 50,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストupgrade: Outperform→Strong Buy",
-          "summary": "",
-          "pub": "2026-08-25",
-          "provider": "Raymond James",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Should investors play AI bottlenecks over social media stocks?",
-          "summary": "Should investors bet more on the AI infrastructure bottlenecks than on other tech trends, such as social media? Today's Market Hang panel consists of Host Turney Duff, Yahoo Finance Executive Editor Brian Sozzi, Defiance ETFs CIO Sylvia Jablonski, Interactive Brokers chief strategist Steve Sosnick,",
-          "pub": "2026-09-22T17:39",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/investors-play-ai-bottlenecks-over-173922161.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "The return of the AI rally: What's fueling the latest push into tech?",
-          "summary": "Leading AI stocks ripped higher to kick off this trading week as investors pile back into Big Tech. The 8:30 Hosts Julie Hyman, Pras Subramanian, and Jake Conley weigh in on the market breadth of the equities participating in this latest rally.",
-          "pub": "2026-09-22T12:52",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/return-ai-rally-whats-fueling-125206390.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Pat Gelsinger Just Backed a $100 Million Challenge to Nvidia’s AI Networking Moat. AMD Could Benefit",
-          "summary": "Former Intel CEO Pat Gelsinger is backing a startup that thinks AI’s next bottleneck is not the accelerator. It is everything waiting for data to arrive. Delos Data announced on September 15 that it raised more than $100 million to develop networking chips and software for increasingly heterogeneous",
-          "pub": "2026-09-23T04:24",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/pat-gelsinger-just-backed-100-042433352.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Intel (INTC) Could Get a Fresh Valuation for Altera. AMD (AMD) Is the Rival to Watch",
-          "summary": "Intel sold control of Altera last year. Now the programmable-chip company is heading back toward the public market just as AI gives investors a new reason to care about FPGAs. Altera said on September 15 that it confidentially filed for a U.S. IPO. Reuters previously reported that the offering could",
-          "pub": "2026-09-23T04:17",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-could-fresh-valuation-041710849.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 4,
-      "today_rank": 5,
+      "today_rank": 6,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
@@ -234,6 +151,89 @@
           "pub": "2026-09-22T13:20",
           "provider": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-vs-adtran-optical-networking-132000736.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 4,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.9,
+      "confirm": 90.5,
+      "signal": 76.4,
+      "mom": {
+        "ret5": 0.2475,
+        "vol_surge": 1.7
+      },
+      "earn_days": 41,
+      "consensus": {
+        "buy": 50,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストupgrade: Outperform→Strong Buy",
+          "summary": "",
+          "pub": "2026-08-25",
+          "provider": "Raymond James",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "The AI panic, tech concentration, and Nvidia windfalls",
+          "summary": "Gabelli Funds' John Belton and Wells Fargo Advisors' James Taylor break down the viral \"doomer\" warnings rippling through the AI industry, and why slowing down development might actually prevent a massive tech bubble.",
+          "pub": "2026-09-23T10:00",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/ai-panic-tech-concentration-nvidia-100000476.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "空売り・過大評価",
+          "why": "-空売り・過大評価"
+        },
+        {
+          "title": "Cracks are forming in AI data center boom as projects face increased opposition",
+          "summary": "The 8:30 Hosts Julie Hyman, Pras Subramanian, and Jake Conley discuss the growing opposition to AI data centers in US communities.",
+          "pub": "2026-09-22T13:18",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/cracks-forming-ai-data-center-131811568.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "The return of the AI rally: What's fueling the latest push into tech?",
+          "summary": "Leading AI stocks ripped higher to kick off this trading week as investors pile back into Big Tech. The 8:30 Hosts Julie Hyman, Pras Subramanian, and Jake Conley weigh in on the market breadth of the equities participating in this latest rally.",
+          "pub": "2026-09-22T12:52",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/return-ai-rally-whats-fueling-125206390.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Marvell and 2 More Stocks to Play the AI Data-Center Boom",
+          "summary": "Nvidia CEO Jensen Huang was wrong when he predicted Marvell would be the next trillion-dollar chip company.",
+          "pub": "2026-09-23T10:51",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/buy-marvell-stock-on-semi-semtech-ai-data-center-935843a8?siteid=yhoof2&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -487,9 +487,9 @@
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 56.6,
+      "news": 56.1,
       "confirm": 68.2,
-      "signal": 72.4,
+      "signal": 72.2,
       "mom": {
         "ret5": 0.054,
         "vol_surge": 1.13
@@ -498,59 +498,59 @@
       "consensus": null,
       "headlines": [
         {
-          "title": "Broadcom (AVGO) Is Up 7.4% After Massive Buybacks And AI Chip Deals With Hyperscalers - Has The Bull Case Changed?",
-          "summary": "In the past few weeks, Broadcom reported that it completed a multi-year share repurchase program totaling 41,000,000 shares for about US$10.93 billion, alongside launching a fixed-income exchange offer for its US$654.00 million 4.926% Notes due 2037. At the same time, management highlighted that AI",
-          "pub": "2026-09-23T02:13",
+          "title": "Sandisk, Super Micro, IonQ, Six Flags, and More Stocks That Explain Today’s Market",
+          "summary": "Shares of chip and memory companies slip as investors lock in some profit, but AI server makers are having a better time of it.",
+          "pub": "2026-09-23T10:18",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/stock-movers-91bb194a?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "AVGO Stock Falls Premarket: China Reportedly Audits Broadcom’s Grip On State-Backed Data Centers",
+          "summary": "China’s push for domestic semiconductor infrastructure puts Broadcom’s position under scrutiny.",
+          "pub": "2026-09-23T08:23",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/avgo-stock-falls-premarket-china-reportedly-audits-broadcom-s-grip-on-state-backed-data-centers/cZME8P2RB7C",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Top 3 Grid Stocks To Watch In September 2026",
+          "summary": "The Federal Reserve’s latest rate hike has pushed borrowing costs higher, which puts even more pressure on aging energy infrastructure that cannot be upgraded cheaply. Capital is getting pricier while demand for electricity from AI data centers and electrification keeps building. That mix creates a",
+          "pub": "2026-09-23T08:17",
           "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-7-4-massive-021343094.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "株主還元",
-          "why": "+株主還元"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-grid-stocks-watch-081746937.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "格上げ",
+          "why": "+格上げ"
         },
         {
-          "title": "Broadcom Just Named Its Next AI Customer. It Isn’t Google.",
-          "summary": "Anthropic is becoming a central driver of Broadcom’s AI growth story.",
-          "pub": "2026-09-22T22:20",
-          "provider": "Barchart",
-          "url": "https://www.barchart.com/story/news/4743837/broadcom-just-named-its-next-ai-customer-it-isnt-google",
+          "title": "Market Chatter: Anthropic Eyes Up to 1 GW of Data Center Capacity From Apollo-Backed Stream",
+          "summary": "Amazon-backed (AMZN) Anthropic is in early discussions to lease up to 1 gigawatt of data center capa",
+          "pub": "2026-09-23T08:11",
+          "provider": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-eyes-1-081112716.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Should You Sell Your Marvell Stock Now That Higher Forecasts Are Not Enough?",
-          "summary": "Marvell Technology (MRVL) raised its revenue outlook in late August. Yet its stock has fallen 16.4% over the past three months, before dividends. The S&P 500 returned 4.2% with dividends reinvested over the same stretch. After its late-August results, investors worried about when a key AI chip deal",
-          "pub": "2026-09-22T19:44",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/616152/should-you-sell-your-marvell-stock-now-that-higher-forecasts-are-not-enough/2026-09-22",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "AMD Stock Just Sent a Huge AI Signal",
-          "summary": "AI agents are changing where chip spending is flowing.",
-          "pub": "2026-09-22T19:07",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/amd-stock-just-sent-huge-190755384.html",
+          "title": "Elon Musk Is Going All In on Nvidia, but Are These Two Chip Stocks Better Buys?",
+          "summary": "The inference market is expected to grow faster than training, opening the door for AMD and Broadcom to outperform.",
+          "pub": "2026-09-23T05:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/23/elon-musk-is-going-all-in-on-nvidia-but-are-these/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Apple’s New CEO Is Already Being Pressured to Drop the Chinese Chip Deal Tim Cook Fought to Keep",
-          "summary": "John Ternus has barely settled into the CEO chair when Washington starts pressuring him to abandon the memory chip deal Tim Cook spent a year fighting to protect, and the pressure is arriving at the worst possible moment for iPhone pricing.",
-          "pub": "2026-09-22T18:48",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/apples-new-ceo-is-already-being-pressured-to-drop-the-chinese-chip-deal-tim-cook-fought-to-keep/",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
         }
       ]
     },
@@ -560,14 +560,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 10,
+      "today_rank": 9,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
       "news": 62.1,
       "confirm": 57.8,
-      "signal": 71.9,
+      "signal": 72.0,
       "mom": {
         "ret5": -0.0231,
         "vol_surge": 1.98
@@ -643,9 +643,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.1,
+      "news": 50.4,
       "confirm": 64.8,
-      "signal": 68.6,
+      "signal": 68.8,
       "mom": {
         "ret5": 0.0564,
         "vol_surge": 0.86
@@ -692,22 +692,22 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Palantir's Huge Rally Has Wall Street Asking a New Question",
-          "summary": "Palantir's revenue growth remains strong, but its sharp rally has pushed the stock into a valuation debate on Wall Street.",
-          "pub": "2026-09-22T22:28",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantirs-huge-rally-wall-street-222835679.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "title": "Could Palantir Be the Next Stock Added to the Dow Jones?",
+          "summary": "Palantir is up nearly 2,700% from its low and has emerged as a leading SaaS stock.",
+          "pub": "2026-09-23T09:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/23/could-palantir-be-the-next-stock-added-to-the-dow/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Palantir Gains as Karp Puts Liability Before AI Listings",
-          "summary": "His nationalization argument distinguishes frontier laboratories, but Palantir discloses AI liability of its own.",
-          "pub": "2026-09-22T22:15",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-gains-karp-puts-liability-221554558.html",
+          "title": "Should You Forget Palantir and Buy These 3 Quantum Computing Stocks Instead?",
+          "summary": "These quantum computing stocks can appeal to investors in ways that Palantir can't.",
+          "pub": "2026-09-23T07:22",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/23/should-you-forget-palantir-and-buy-these-3-quantum/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -785,7 +785,7 @@
       "persist": 100,
       "news": 51.1,
       "confirm": 42.6,
-      "signal": 62.9,
+      "signal": 63.1,
       "mom": {
         "ret5": -0.0138,
         "vol_surge": 0.78
@@ -830,7 +830,7 @@
       "persist": 100,
       "news": 51.3,
       "confirm": 37.0,
-      "signal": 61.5,
+      "signal": 61.7,
       "mom": {
         "ret5": -0.0492,
         "vol_surge": 1.12
@@ -892,15 +892,15 @@
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 3,
-      "today_rank": 3,
+      "best_rank": 2,
+      "today_rank": 2,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
       "persist": 100,
       "news": 47.5,
       "confirm": 41.9,
-      "signal": 61.2,
+      "signal": 61.3,
       "mom": {
         "ret5": -0.048,
         "vol_surge": 1.42
@@ -972,14 +972,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 15,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
       "confirm": 35.3,
-      "signal": 60.5,
+      "signal": 60.6,
       "mom": {
         "ret5": -0.0539,
         "vol_surge": 1.1
@@ -1013,7 +1013,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 35.1,
-      "signal": 60.4,
+      "signal": 60.6,
       "mom": {
         "ret5": -0.0405,
         "vol_surge": 0.82
