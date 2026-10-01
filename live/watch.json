@@ -1,7 +1,86 @@
 {
-  "updated": "2026-10-01T05:55:55.608695+00:00",
+  "updated": "2026-10-01T13:17:15.652872+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "COUR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 4,
+      "first_seen": "2026-08-01",
+      "name": "Coursera, Inc.",
+      "sector": "Consumer Defensive",
+      "persist": 100,
+      "news": 60.0,
+      "confirm": 60.6,
+      "signal": 71.9,
+      "mom": {
+        "ret5": -0.0312,
+        "vol_surge": 2.4
+      },
+      "earn_days": 28,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任・Reg FD開示",
+          "summary": "",
+          "pub": "2026-09-21",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1651562/000114036126037189",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Acuity (AYI) Beats Q4 Earnings Estimates",
+          "summary": "Acuity (AYI) delivered earnings and revenue surprises of +4.34% and -0.60%, respectively, for the quarter ended August 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "pub": "2026-10-01T10:10",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/acuity-ayi-beats-q4-earnings-101002699.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "Why Coursera (COUR) Stock Is Trading Up Today",
+          "summary": "Shares of online learning platform Coursera (NYSE:COUR) jumped 9.1% in the morning session after Acadeum announced a partnership to put Coursera’s professional certificate catalog on Acadeum’s course-sharing marketplace of more than 600 colleges and universities. According to the company’s press rel",
+          "pub": "2026-09-30T21:49",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-coursera-cour-stock-trading-214913050.html",
+          "dir": 0.9,
+          "conf": 0.8999999999999999,
+          "type": "契約・提携",
+          "why": "+契約・提携 +急騰報道"
+        },
+        {
+          "title": "Duolingo (DUOL) vs Coursera (COUR): Which is a Better Stock to Buy?",
+          "summary": "Duolingo, Inc. (NASDAQ:DUOL) and Coursera, Inc. (NYSE:COUR) have both lost close to 60% of their value over the past twelve months. One reading of the derating is that software that teaches people things is worth less in a world where a chatbot can teach people things. Duolingo closed Monday at $134",
+          "pub": "2026-09-30T06:16",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-duol-vs-coursera-cour-061623424.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "1 Stock Under $10 to Target This Week and 2 We Question",
+          "summary": "Stocks under $10 pique our interest because they have room to grow (as well as the most affordable option contract premiums). That doesn’t mean they’re bargains though, and we urge investors to be careful as many have risky business models.",
+          "pub": "2026-09-29T12:40",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-stock-under-10-target-124002562.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        }
+      ]
+    },
     {
       "ticker": "FLYW",
       "tier": "確定",
@@ -13,9 +92,9 @@
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.9,
+      "news": 54.9,
       "confirm": 66.5,
-      "signal": 71.7,
+      "signal": 71.3,
       "mom": {
         "ret5": 0.038,
         "vol_surge": 1.34
@@ -34,6 +113,17 @@
           "type": "8-K 5.02",
           "why": "役員の退任・選任（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "3 Payment Stocks Tied To Strong Consumer Spending Investors Should Watch",
+          "summary": "Cooling PCE inflation, softer Fed hike odds and resilient consumer spending have put transaction volumes back in focus, just as AI-related investment keeps money flowing through the system. That mix can reward the right exposures and punish the wrong ones, which means sitting on the sidelines carrie",
+          "pub": "2026-10-01T07:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-payment-stocks-tied-strong-071030931.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "2 Reasons to Like FLYW and 1 to Stay Skeptical",
@@ -83,7 +173,7 @@
       "persist": 100,
       "news": 48.0,
       "confirm": 76.8,
-      "signal": 71.1,
+      "signal": 71.2,
       "mom": {
         "ret5": 0.0889,
         "vol_surge": 1.01
@@ -149,159 +239,169 @@
       ]
     },
     {
-      "ticker": "COUR",
+      "ticker": "NVDA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 4,
-      "first_seen": "2026-08-01",
-      "name": "Coursera, Inc.",
-      "sector": "Consumer Defensive",
+      "best_rank": 11,
+      "today_rank": 17,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
       "persist": 100,
-      "news": 56.9,
-      "confirm": 60.6,
-      "signal": 70.5,
+      "news": 60.5,
+      "confirm": 51.4,
+      "signal": 69.5,
       "mom": {
-        "ret5": -0.0312,
-        "vol_surge": 2.4
+        "ret5": 0.0127,
+        "vol_surge": 0.84
       },
-      "earn_days": 28,
-      "consensus": null,
+      "earn_days": null,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
       "headlines": [
         {
-          "title": "SEC 8-K提出: 役員の退任・選任・Reg FD開示",
+          "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
-          "pub": "2026-09-21",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1651562/000114036126037189",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
+          "pub": "2026-09-29",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Why Coursera (COUR) Stock Is Trading Up Today",
-          "summary": "Shares of online learning platform Coursera (NYSE:COUR) jumped 9.1% in the morning session after Acadeum announced a partnership to put Coursera’s professional certificate catalog on Acadeum’s course-sharing marketplace of more than 600 colleges and universities. According to the company’s press rel",
-          "pub": "2026-09-30T21:49",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-coursera-cour-stock-trading-214913050.html",
-          "dir": 0.9,
-          "conf": 0.8999999999999999,
-          "type": "契約・提携",
-          "why": "+契約・提携 +急騰報道"
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-04",
+          "provider": "Needham",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         },
         {
-          "title": "Duolingo (DUOL) vs Coursera (COUR): Which is a Better Stock to Buy?",
-          "summary": "Duolingo, Inc. (NASDAQ:DUOL) and Coursera, Inc. (NYSE:COUR) have both lost close to 60% of their value over the past twelve months. One reading of the derating is that software that teaches people things is worth less in a world where a chatbot can teach people things. Duolingo closed Monday at $134",
-          "pub": "2026-09-30T06:16",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-duol-vs-coursera-cour-061623424.html",
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-04",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Breaking down Jensen Huang's biggest moves of Q3 2026",
+          "summary": "Yahoo Finance Executive Editor Brian Sozzi breaks down Nvidia (NVDA) CEO Jensen Huang's biggest moves of a packed Q3, from acquiring Hugging Face to facetime with President Trump to getting called out by the pope.",
+          "pub": "2026-09-30T14:10",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/breaking-down-jensen-huangs-biggest-141014414.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "1 Stock Under $10 to Target This Week and 2 We Question",
-          "summary": "Stocks under $10 pique our interest because they have room to grow (as well as the most affordable option contract premiums). That doesn’t mean they’re bargains though, and we urge investors to be careful as many have risky business models.",
-          "pub": "2026-09-29T12:40",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/1-stock-under-10-target-124002562.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Yelp, DoorDash, Coursera, LegalZoom, and Pinterest Stocks Trade Down, What You Need To Know",
-          "summary": "A number of stocks fell in the afternoon session after the benchmark U.S. 10-year Treasury yield climbed back above 5% to levels not seen since 2007, lifting discount rates on long-duration growth earnings. According to CNBC, the 10-year yield surged to 5.23% on Friday, its highest level since 2007,",
-          "pub": "2026-09-29T01:02",
-          "provider": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/yelp-doordash-coursera-legalzoom-pinterest-010236314.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
+          "title": "How Micron's earnings results could impact chip ETFs",
+          "summary": "The 8:30 Hosts Julie Hyman, Pras Subramanian, and Jake Conley discuss the health of memory exchange-traded funds (ETFs) and how Micron's (MU) quarterly earnings results will factor in.",
+          "pub": "2026-09-30T13:36",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/microns-earnings-results-could-impact-133632512.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
     {
-      "ticker": "BMY",
+      "ticker": "AMD",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 8,
+      "best_rank": 1,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
       "persist": 100,
-      "news": 55.1,
-      "confirm": 63.0,
-      "signal": 70.4,
+      "news": 60.8,
+      "confirm": 48.2,
+      "signal": 68.7,
       "mom": {
-        "ret5": 0.0204,
-        "vol_surge": 1.46
+        "ret5": -0.0046,
+        "vol_surge": 0.97
       },
-      "earn_days": 28,
-      "consensus": null,
+      "earn_days": 33,
+      "consensus": {
+        "buy": 51,
+        "hold": 20,
+        "sell": 0,
+        "consensus": "Buy"
+      },
       "headlines": [
         {
-          "title": "This Pharma Giant Has The Right Medicine For Income Investors",
-          "summary": "Investors seeking a high yield and stable fundamentals in the healthcare sector need look no further than Bristol Myers Squibb.",
-          "pub": "2026-09-30T17:05",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/the-income-investor/bristol-myers-squibb-bmy-stock-income-investor/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "title": "SEC 8-K提出: 未登録株式の売出",
+          "summary": "",
+          "pub": "2026-09-28",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 3.02",
+          "why": "未登録株式の売出（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "Bristol Myers Squibb’s Dividend Sustainability Hinges on One Critical Cash Flow Metric",
-          "summary": "Bristol Myers Squibb has raised its dividend for 17 straight years, but a looming patent cliff on its biggest cash generator puts that streak on a collision course with reality in 2027.",
-          "pub": "2026-09-30T15:45",
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-29",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-29",
+          "provider": "StoneX",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-25",
+          "provider": "B of A Securities",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "Nvidia’s Latest Move is a Green Light to Keep Loading Up",
+          "summary": "Nvidia just unlocked nearly $100 billion in buyback firepower while demand for its chips outstrips supply through 2028, and the valuation tells a story most investors are reading backwards.",
+          "pub": "2026-10-01T12:45",
           "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/30/bristol-myers-squibbs-dividend-sustainability-hinges-on-one-critical-cash-flow-metric/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Are You Overpaying For Pfizer Stock Versus Its Rivals?",
-          "summary": "Pfizer's shares cost more than Johnson & Johnson's for each dollar of reported profit, even after factoring in a loss quarter over the past year. Investors usually pay more for growth, yet Pfizer (PFE) had the weakest sales growth of the six companies in its peer group. Are you overpaying for Pfizer",
-          "pub": "2026-09-30T15:29",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/617144/are-you-overpaying-for-pfizer-stock-versus-its-rivals/2026-09-30",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What Is Merck Stock's Biggest Opportunity?",
-          "summary": "Merck (MRK) stock returned 96% in the past twelve months, against 16.8% for the S&P 500. With the shares 4.0% below their 52-week high, you need a reason Merck can keep growing. In its fiscal Q2 2026 call, management looked past its best-selling drug to newer ones. So what is Merck stock's biggest o",
-          "pub": "2026-09-30T14:43",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/articles/617160/what-is-merck-stocks-biggest-opportunity/2026-09-30",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Investors Heavily Search Bristol Myers Squibb Company (BMY): Here is What You Need to Know",
-          "summary": "Bristol Myers (BMY) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.",
-          "pub": "2026-09-30T12:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-bristol-myers-120003022.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "url": "https://247wallst.com/investing/2026/10/01/nvidias-latest-move-is-a-green-light-to-keep-loading-up/",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "株主還元",
+          "why": "+株主還元 +承認"
         }
       ]
     },
@@ -385,6 +485,84 @@
       ]
     },
     {
+      "ticker": "BMY",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 8,
+      "first_seen": "2026-07-08",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 63.0,
+      "signal": 68.2,
+      "mom": {
+        "ret5": 0.0204,
+        "vol_surge": 1.46
+      },
+      "earn_days": 28,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "5 High-Yield Dividends With Ex-Dates Days Away: Buy Before the Window Closes",
+          "summary": "Four dividend stocks from Philip Morris to JPMorgan Chase have ex-dates landing within days, and missing the cutoff means the payout goes to the seller. The clock is already running.",
+          "pub": "2026-10-01T12:45",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/01/5-high-yield-dividends-with-ex-dates-days-away-buy-before-the-window-closes/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "This Pharma Giant Has The Right Medicine For Income Investors",
+          "summary": "Investors seeking a high yield and stable fundamentals in the healthcare sector need look no further than Bristol Myers Squibb.",
+          "pub": "2026-09-30T17:05",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/the-income-investor/bristol-myers-squibb-bmy-stock-income-investor/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Bristol Myers Squibb’s Dividend Sustainability Hinges on One Critical Cash Flow Metric",
+          "summary": "Bristol Myers Squibb has raised its dividend for 17 straight years, but a looming patent cliff on its biggest cash generator puts that streak on a collision course with reality in 2027.",
+          "pub": "2026-09-30T15:45",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/30/bristol-myers-squibbs-dividend-sustainability-hinges-on-one-critical-cash-flow-metric/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Are You Overpaying For Pfizer Stock Versus Its Rivals?",
+          "summary": "Pfizer's shares cost more than Johnson & Johnson's for each dollar of reported profit, even after factoring in a loss quarter over the past year. Investors usually pay more for growth, yet Pfizer (PFE) had the weakest sales growth of the six companies in its peer group. Are you overpaying for Pfizer",
+          "pub": "2026-09-30T15:29",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/617144/are-you-overpaying-for-pfizer-stock-versus-its-rivals/2026-09-30",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "What Is Merck Stock's Biggest Opportunity?",
+          "summary": "Merck (MRK) stock returned 96% in the past twelve months, against 16.8% for the S&P 500. With the shares 4.0% below their 52-week high, you need a reason Merck can keep growing. In its fiscal Q2 2026 call, management looked past its best-selling drug to newer ones. So what is Merck stock's biggest o",
+          "pub": "2026-09-30T14:43",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/articles/617160/what-is-merck-stocks-biggest-opportunity/2026-09-30",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
@@ -463,173 +641,6 @@
       ]
     },
     {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 10,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 55.7,
-      "confirm": 48.2,
-      "signal": 66.5,
-      "mom": {
-        "ret5": -0.0046,
-        "vol_surge": 0.97
-      },
-      "earn_days": 33,
-      "consensus": {
-        "buy": 51,
-        "hold": 20,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 未登録株式の売出",
-          "summary": "",
-          "pub": "2026-09-28",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 3.02",
-          "why": "未登録株式の売出（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-29",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-29",
-          "provider": "StoneX",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-25",
-          "provider": "B of A Securities",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "In AI Race, Software Is Now Winning Alongside Chips",
-          "summary": "Services like Meta’s Muse AI just increase demand for chips. But they’re also a big win for software",
-          "pub": "2026-09-30T22:05",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/ai-agents-meta-muse-stocks-chips-cb06386a?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "受注",
-          "why": "+受注"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 17,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 53.6,
-      "confirm": 51.4,
-      "signal": 66.5,
-      "mom": {
-        "ret5": 0.0127,
-        "vol_surge": 0.84
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 60,
-        "hold": 16,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-29",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Needham",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-09-04",
-          "provider": "Rosenblatt",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "Breaking down Jensen Huang's biggest moves of Q3 2026",
-          "summary": "Yahoo Finance Executive Editor Brian Sozzi breaks down Nvidia (NVDA) CEO Jensen Huang's biggest moves of a packed Q3, from acquiring Hugging Face to facetime with President Trump to getting called out by the pope.",
-          "pub": "2026-09-30T14:10",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/breaking-down-jensen-huangs-biggest-141014414.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Meta reportedly calls its AI data centers ‘pilot models’ — its research tax credits jumped from $700M to $3.9B",
-          "summary": "The company appears to have netted the most from that credit among all publicly traded companies.",
-          "pub": "2026-10-01T03:55",
-          "provider": "Moneywise",
-          "url": "https://finance.yahoo.com/technology/ai/articles/meta-reportedly-calls-ai-data-035500665.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        }
-      ]
-    },
-    {
       "ticker": "ALAB",
       "tier": "確定",
       "streak": 43,
@@ -642,7 +653,7 @@
       "persist": 100,
       "news": 54.0,
       "confirm": 44.5,
-      "signal": 64.7,
+      "signal": 64.8,
       "mom": {
         "ret5": -0.0125,
         "vol_surge": 0.88
@@ -713,7 +724,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 11,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -847,11 +858,11 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "OpenAI President Backs Out of Pledged $25 Million Donation to AI Super PAC",
-          "summary": "Greg Brockman has faced backlash from employees who support stronger artificial-intelligence regulations.",
-          "pub": "2026-10-01T00:12",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/tech/ai/openai-president-backs-out-of-pledged-25-million-donation-to-ai-super-pac-efb31fb4?siteid=yhoof2&yptr=yahoo",
+          "title": "Palantir’s CEO Bought 37,000 Acres of Swedish Forestland and Hunting Leases Vanished. Five Years of Rent Can Count as $0 Toward Social Security’s Earnings Test",
+          "summary": "When Palantir's CEO quietly bought 37,000 acres of Swedish forest and shut out local hunters, it revealed something most landowners never consider: a single hunting lease can hit three separate government clocks at once, and the order you get paid changes everything.",
+          "pub": "2026-10-01T08:51",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/personal-finance/social-security/2026/10/01/palantirs-ceo-bought-37000-acres-of-swedish-forestland-and-hunting-leases-vanished-five-years-of-rent-can-count-as-0-toward-social-securitys-earnings-test/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -950,7 +961,7 @@
       "persist": 100,
       "news": 49.8,
       "confirm": 24.6,
-      "signal": 57.4,
+      "signal": 57.5,
       "mom": {
         "ret5": -0.1282,
         "vol_surge": 1.31
