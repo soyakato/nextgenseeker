@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T05:38:48.471344+00:00",
+  "updated": "2026-10-02T12:36:50.167838+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -25,34 +25,12 @@
       "headlines": []
     },
     {
-      "ticker": "CRDO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 5,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Credo Technology Group Holding ",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 72.8,
-      "signal": 70.9,
-      "mom": {
-        "ret5": 0.0725,
-        "vol_surge": 1.07
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": []
-    },
-    {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 3,
+      "today_rank": 4,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
@@ -174,41 +152,6 @@
       ]
     },
     {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 16,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 56.5,
-      "signal": 66.4,
-      "mom": {
-        "ret5": 0.0156,
-        "vol_surge": 1.12
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-09-30",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        }
-      ]
-    },
-    {
       "ticker": "NVDA",
       "tier": "確定",
       "streak": 43,
@@ -221,7 +164,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 56.6,
-      "signal": 66.4,
+      "signal": 66.5,
       "mom": {
         "ret5": 0.028,
         "vol_surge": 0.88
@@ -281,6 +224,41 @@
       ]
     },
     {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 15,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 56.5,
+      "signal": 66.4,
+      "mom": {
+        "ret5": 0.0156,
+        "vol_surge": 1.12
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-09-30",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        }
+      ]
+    },
+    {
       "ticker": "BMY",
       "tier": "確定",
       "streak": 43,
@@ -315,7 +293,7 @@
       "persist": 100,
       "news": 50.0,
       "confirm": 45.4,
-      "signal": 63.3,
+      "signal": 63.4,
       "mom": {
         "ret5": -0.0113,
         "vol_surge": 0.92
@@ -343,6 +321,28 @@
         "vol_surge": 0.95
       },
       "earn_days": 39,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 20,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 40.9,
+      "signal": 62.1,
+      "mom": {
+        "ret5": -0.0192,
+        "vol_surge": 0.78
+      },
+      "earn_days": null,
       "consensus": null,
       "headlines": []
     },
@@ -431,7 +431,7 @@
       "persist": 100,
       "news": 47.0,
       "confirm": 41.8,
-      "signal": 61.0,
+      "signal": 61.1,
       "mom": {
         "ret5": -0.0215,
         "vol_surge": 0.88
@@ -497,14 +497,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 12,
-      "today_rank": 15,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
       "confirm": 28.5,
-      "signal": 58.6,
+      "signal": 58.7,
       "mom": {
         "ret5": -0.0547,
         "vol_surge": 0.66
@@ -519,7 +519,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
