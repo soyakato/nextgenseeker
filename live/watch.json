@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T11:40:54.814755+00:00",
+  "updated": "2026-10-03T16:18:42.895725+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -25,12 +25,34 @@
       "headlines": []
     },
     {
+      "ticker": "CLS",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 21,
+      "first_seen": "2026-07-15",
+      "name": "Celestica, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 70.2,
+      "signal": 70.3,
+      "mom": {
+        "ret5": 0.0599,
+        "vol_surge": 1.15
+      },
+      "earn_days": 23,
+      "consensus": null,
+      "headlines": []
+    },
+    {
       "ticker": "NVDA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 19,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
@@ -102,7 +124,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 20,
+      "today_rank": 22,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -159,7 +181,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
@@ -194,7 +216,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 12,
+      "today_rank": 11,
       "first_seen": "2026-08-08",
       "name": "Datadog, Inc.",
       "sector": "Technology",
@@ -216,7 +238,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 17,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -251,7 +273,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 18,
+      "today_rank": 20,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
@@ -286,7 +308,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 6,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
@@ -453,7 +475,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 3,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
@@ -475,7 +497,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 14,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
@@ -510,28 +532,6 @@
         "vol_surge": 1.03
       },
       "earn_days": 20,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "NEM",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 12,
-      "today_rank": 21,
-      "first_seen": "2026-07-08",
-      "name": "Newmont Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 31.0,
-      "signal": 59.4,
-      "mom": {
-        "ret5": -0.0483,
-        "vol_surge": 0.7
-      },
-      "earn_days": 19,
       "consensus": null,
       "headlines": []
     }
@@ -602,6 +602,14 @@
       "ticker": "FLYW",
       "signal": 65.1,
       "price": 17.58,
+      "spy": 769.6400146484375,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-03",
+      "ticker": "CLS",
+      "signal": 70.3,
+      "price": 387.32,
       "spy": 769.6400146484375,
       "grades": {}
     },
@@ -698,14 +706,6 @@
       "ticker": "COUR",
       "signal": 70.5,
       "price": 4.96,
-      "spy": 762.6300048828125,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-01",
-      "ticker": "BMY",
-      "signal": 70.4,
-      "price": 62.4,
       "spy": 762.6300048828125,
       "grades": {}
     }
