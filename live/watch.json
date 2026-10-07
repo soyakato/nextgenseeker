@@ -1,46 +1,24 @@
 {
-  "updated": "2026-10-07T13:25:53.780065+00:00",
+  "updated": "2026-10-07T23:06:14.212469+00:00",
   "judge_source": "rule-based",
   "signals": [
-    {
-      "ticker": "COUR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 3,
-      "first_seen": "2026-08-01",
-      "name": "Coursera, Inc.",
-      "sector": "Consumer Defensive",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 84.5,
-      "signal": 74.4,
-      "mom": {
-        "ret5": 0.0964,
-        "vol_surge": 1.37
-      },
-      "earn_days": 22,
-      "consensus": null,
-      "headlines": []
-    },
     {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 4,
+      "today_rank": 5,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 84.3,
-      "signal": 74.4,
+      "confirm": 84.8,
+      "signal": 74.5,
       "mom": {
-        "ret5": 0.25,
-        "vol_surge": 1.29
+        "ret5": 0.269,
+        "vol_surge": 1.32
       },
       "earn_days": null,
       "consensus": null,
@@ -58,11 +36,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 79.1,
-      "signal": 72.9,
+      "confirm": 79.2,
+      "signal": 73.0,
       "mom": {
-        "ret5": 0.1481,
-        "vol_surge": 0.94
+        "ret5": 0.1295,
+        "vol_surge": 0.95
       },
       "earn_days": null,
       "consensus": null,
@@ -74,17 +52,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 78.7,
-      "signal": 72.8,
+      "confirm": 75.1,
+      "signal": 71.8,
       "mom": {
-        "ret5": 0.0893,
-        "vol_surge": 1.13
+        "ret5": 0.0738,
+        "vol_surge": 1.2
       },
       "earn_days": 27,
       "consensus": null,
@@ -96,17 +74,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 12,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 60.5,
-      "confirm": 59.6,
-      "signal": 72.0,
+      "confirm": 54.9,
+      "signal": 70.7,
       "mom": {
-        "ret5": 0.0286,
-        "vol_surge": 1.07
+        "ret5": 0.0114,
+        "vol_surge": 1.1
       },
       "earn_days": 8,
       "consensus": null,
@@ -131,17 +109,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 11,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 47.9,
-      "confirm": 68.9,
-      "signal": 69.2,
+      "confirm": 65.2,
+      "signal": 68.2,
       "mom": {
-        "ret5": 0.0689,
-        "vol_surge": 0.88
+        "ret5": 0.0557,
+        "vol_surge": 0.9
       },
       "earn_days": 27,
       "consensus": {
@@ -215,17 +193,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 19,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 64.7,
-      "signal": 68.9,
+      "confirm": 59.8,
+      "signal": 67.6,
       "mom": {
-        "ret5": 0.0529,
-        "vol_surge": 0.92
+        "ret5": 0.0398,
+        "vol_surge": 0.86
       },
       "earn_days": 41,
       "consensus": {
@@ -260,83 +238,61 @@
       ]
     },
     {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 15,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 46.2,
-      "confirm": 65.8,
-      "signal": 67.6,
-      "mom": {
-        "ret5": 0.0511,
-        "vol_surge": 1.03
-      },
-      "earn_days": 27,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任・Reg FD開示",
-          "summary": "",
-          "pub": "2026-09-23",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1580560/000162828026063211",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        }
-      ]
-    },
-    {
-      "ticker": "CORZ",
+      "ticker": "COUR",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 5,
-      "first_seen": "2026-07-08",
-      "name": "Core Scientific, Inc.",
-      "sector": "Technology",
+      "today_rank": 4,
+      "first_seen": "2026-08-01",
+      "name": "Coursera, Inc.",
+      "sector": "Consumer Defensive",
       "persist": 100,
       "news": 50.0,
-      "confirm": 57.7,
-      "signal": 67.0,
+      "confirm": 58.9,
+      "signal": 67.3,
       "mom": {
-        "ret5": 0.0227,
-        "vol_surge": 1.06
+        "ret5": 0.0302,
+        "vol_surge": 0.99
       },
-      "earn_days": 16,
+      "earn_days": 22,
       "consensus": null,
       "headlines": []
     },
     {
-      "ticker": "DDOG",
+      "ticker": "MU",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 10,
-      "first_seen": "2026-08-08",
-      "name": "Datadog, Inc.",
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 55.5,
-      "signal": 66.4,
+      "confirm": 58.7,
+      "signal": 67.3,
       "mom": {
-        "ret5": 0.036,
-        "vol_surge": 0.65
+        "ret5": 0.0215,
+        "vol_surge": 1.15
       },
-      "earn_days": 29,
+      "earn_days": null,
       "consensus": null,
-      "headlines": []
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-09-30",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        }
+      ]
     },
     {
       "ticker": "PLTR",
@@ -344,17 +300,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 1,
+      "today_rank": 2,
       "first_seen": "2026-07-08",
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 53.4,
-      "signal": 65.8,
+      "confirm": 56.4,
+      "signal": 66.6,
       "mom": {
-        "ret5": 0.0273,
-        "vol_surge": 0.68
+        "ret5": 0.0378,
+        "vol_surge": 0.67
       },
       "earn_days": 26,
       "consensus": {
@@ -411,59 +367,59 @@
       ]
     },
     {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 14,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 47.2,
-      "signal": 64.1,
-      "mom": {
-        "ret5": -0.0183,
-        "vol_surge": 1.18
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-09-30",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        }
-      ]
-    },
-    {
-      "ticker": "KGC",
+      "ticker": "FLYW",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
       "today_rank": 17,
       "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 46.2,
+      "confirm": 58.9,
+      "signal": 65.7,
+      "mom": {
+        "ret5": 0.0371,
+        "vol_surge": 0.85
+      },
+      "earn_days": 27,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任・Reg FD開示",
+          "summary": "",
+          "pub": "2026-09-23",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1580560/000162828026063211",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        }
+      ]
+    },
+    {
+      "ticker": "CORZ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 7,
+      "first_seen": "2026-07-08",
+      "name": "Core Scientific, Inc.",
+      "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 43.4,
-      "signal": 63.0,
+      "confirm": 50.0,
+      "signal": 64.8,
       "mom": {
-        "ret5": -0.021,
-        "vol_surge": 0.98
+        "ret5": -0.0025,
+        "vol_surge": 1.05
       },
-      "earn_days": 21,
+      "earn_days": 16,
       "consensus": null,
       "headlines": []
     },
@@ -473,19 +429,63 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 8,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
       "news": 50.0,
+      "confirm": 41.9,
+      "signal": 62.6,
+      "mom": {
+        "ret5": -0.0334,
+        "vol_surge": 1.13
+      },
+      "earn_days": 22,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "DDOG",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 13,
+      "first_seen": "2026-08-08",
+      "name": "Datadog, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
       "confirm": 41.1,
       "signal": 62.4,
       "mom": {
-        "ret5": -0.0422,
-        "vol_surge": 1.25
+        "ret5": -0.0092,
+        "vol_surge": 0.59
       },
-      "earn_days": 22,
+      "earn_days": 29,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 38.9,
+      "signal": 61.8,
+      "mom": {
+        "ret5": -0.0374,
+        "vol_surge": 1.01
+      },
+      "earn_days": 21,
       "consensus": null,
       "headlines": []
     },
@@ -495,17 +495,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 18,
+      "today_rank": 20,
       "first_seen": "2026-07-21",
       "name": "Western Digital Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 36.6,
-      "signal": 61.1,
+      "confirm": 34.4,
+      "signal": 60.5,
       "mom": {
-        "ret5": -0.0936,
-        "vol_surge": 1.98
+        "ret5": -0.1079,
+        "vol_surge": 1.96
       },
       "earn_days": 29,
       "consensus": null,
@@ -614,6 +614,14 @@
       "grades": {}
     },
     {
+      "date": "2026-10-07",
+      "ticker": "MU",
+      "signal": 67.3,
+      "price": 1088.0,
+      "spy": 777.219970703125,
+      "grades": {}
+    },
+    {
       "date": "2026-10-06",
       "ticker": "CIEN",
       "signal": 72.7,
@@ -675,14 +683,6 @@
       "signal": 65.0,
       "price": 58.81,
       "spy": 769.6400146484375,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-06",
-      "ticker": "FLYW",
-      "signal": 67.8,
-      "price": 18.17,
-      "spy": 774.8300170898438,
       "grades": {}
     }
   ],
