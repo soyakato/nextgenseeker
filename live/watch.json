@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T23:21:46.452617+00:00",
+  "updated": "2026-10-09T06:10:28.191088+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -25,50 +25,6 @@
       "headlines": []
     },
     {
-      "ticker": "FLYW",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 16,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 63.0,
-      "signal": 68.5,
-      "mom": {
-        "ret5": 0.0495,
-        "vol_surge": 0.88
-      },
-      "earn_days": 26,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "COUR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 2,
-      "first_seen": "2026-08-01",
-      "name": "Coursera, Inc.",
-      "sector": "Consumer Defensive",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 62.0,
-      "signal": 68.2,
-      "mom": {
-        "ret5": 0.0374,
-        "vol_surge": 1.05
-      },
-      "earn_days": 21,
-      "consensus": null,
-      "headlines": []
-    },
-    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 43,
@@ -79,21 +35,32 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.0,
+      "news": 54.2,
       "confirm": 61.8,
-      "signal": 68.1,
+      "signal": 69.9,
       "mom": {
         "ret5": 0.046,
         "vol_surge": 0.87
       },
-      "earn_days": 25,
+      "earn_days": 24,
       "consensus": {
-        "buy": 13,
-        "hold": 10,
+        "buy": 14,
+        "hold": 9,
         "sell": 3,
         "consensus": "Buy"
       },
       "headlines": [
+        {
+          "title": "アナリストupgrade: Neutral→Buy",
+          "summary": "",
+          "pub": "2026-10-08",
+          "provider": "Goldman Sachs",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
         {
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
@@ -120,7 +87,7 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-09-11",
-          "provider": "Rosenblatt",
+          "provider": "DA Davidson",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -131,7 +98,7 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-09-11",
-          "provider": "DA Davidson",
+          "provider": "Rosenblatt",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -139,6 +106,72 @@
           "why": "格付イベント（機械判定）"
         }
       ]
+    },
+    {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 17,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 63.0,
+      "signal": 68.5,
+      "mom": {
+        "ret5": 0.0495,
+        "vol_surge": 0.88
+      },
+      "earn_days": 25,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 63.4,
+      "signal": 68.5,
+      "mom": {
+        "ret5": 0.048,
+        "vol_surge": 0.93
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "COUR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 2,
+      "first_seen": "2026-08-01",
+      "name": "Coursera, Inc.",
+      "sector": "Consumer Defensive",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 62.0,
+      "signal": 68.2,
+      "mom": {
+        "ret5": 0.0374,
+        "vol_surge": 1.05
+      },
+      "earn_days": 20,
+      "consensus": null,
+      "headlines": []
     },
     {
       "ticker": "AA",
@@ -158,7 +191,7 @@
         "ret5": 0.0183,
         "vol_surge": 1.05
       },
-      "earn_days": 7,
+      "earn_days": 6,
       "consensus": null,
       "headlines": []
     },
@@ -168,7 +201,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 5,
-      "today_rank": 14,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -202,7 +235,7 @@
         "ret5": 0.008,
         "vol_surge": 0.96
       },
-      "earn_days": 26,
+      "earn_days": 25,
       "consensus": {
         "buy": 51,
         "hold": 20,
@@ -259,7 +292,7 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-09-29",
-          "provider": "Rosenblatt",
+          "provider": "StoneX",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -286,7 +319,7 @@
         "ret5": -0.0016,
         "vol_surge": 0.91
       },
-      "earn_days": 40,
+      "earn_days": 39,
       "consensus": {
         "buy": 60,
         "hold": 16,
@@ -324,7 +357,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 6,
+      "today_rank": 5,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
@@ -336,29 +369,7 @@
         "ret5": -0.0263,
         "vol_surge": 1.3
       },
-      "earn_days": 26,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "NEM",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 19,
-      "first_seen": "2026-07-08",
-      "name": "Newmont Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 46.6,
-      "signal": 63.9,
-      "mom": {
-        "ret5": 0.0077,
-        "vol_surge": 0.62
-      },
-      "earn_days": 14,
+      "earn_days": 25,
       "consensus": null,
       "headlines": []
     },
@@ -380,7 +391,7 @@
         "ret5": -0.0205,
         "vol_surge": 1.15
       },
-      "earn_days": 21,
+      "earn_days": 20,
       "consensus": null,
       "headlines": []
     },
@@ -396,13 +407,13 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 41.3,
-      "signal": 62.4,
+      "confirm": 41.5,
+      "signal": 62.5,
       "mom": {
         "ret5": -0.0299,
-        "vol_surge": 1.02
+        "vol_surge": 1.03
       },
-      "earn_days": 20,
+      "earn_days": 19,
       "consensus": null,
       "headlines": []
     },
@@ -424,7 +435,7 @@
         "ret5": -0.0096,
         "vol_surge": 0.59
       },
-      "earn_days": 28,
+      "earn_days": 27,
       "consensus": null,
       "headlines": []
     },
@@ -434,7 +445,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
@@ -469,7 +480,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 5,
+      "today_rank": 6,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
@@ -481,24 +492,80 @@
         "ret5": -0.0606,
         "vol_surge": 1.02
       },
-      "earn_days": 15,
+      "earn_days": 14,
       "consensus": null,
       "headlines": []
     }
   ],
   "alert_summary": {
     "5": {
-      "n": 1003,
+      "n": 1012,
       "hit_rate": 0.51,
-      "avg_excess": 0.0079
+      "avg_excess": 0.0078
     },
     "20": {
-      "n": 800,
+      "n": 811,
       "hit_rate": 0.56,
-      "avg_excess": 0.0294
+      "avg_excess": 0.0302
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-10-09",
+      "ticker": "CIEN",
+      "signal": 74.7,
+      "price": 425.93,
+      "spy": 773.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "PLTR",
+      "signal": 69.9,
+      "price": 198.78,
+      "spy": 773.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "FLYW",
+      "signal": 68.5,
+      "price": 18.43,
+      "spy": 773.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "AVGO",
+      "signal": 68.5,
+      "price": 360.14,
+      "spy": 773.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "COUR",
+      "signal": 68.2,
+      "price": 5.27,
+      "spy": 773.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "AA",
+      "signal": 66.6,
+      "price": 42.83,
+      "spy": 773.9299926757812,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "CRDO",
+      "signal": 65.2,
+      "price": 211.86,
+      "spy": 773.9299926757812,
+      "grades": {}
+    },
     {
       "date": "2026-10-08",
       "ticker": "CIEN",
@@ -602,81 +669,25 @@
       "price": 220.83,
       "spy": 779.0900268554688,
       "grades": {}
-    },
-    {
-      "date": "2026-10-07",
-      "ticker": "ALAB",
-      "signal": 72.7,
-      "price": 389.8,
-      "spy": 779.0900268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-07",
-      "ticker": "AA",
-      "signal": 71.9,
-      "price": 43.17,
-      "spy": 779.0900268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-07",
-      "ticker": "AMD",
-      "signal": 69.1,
-      "price": 649.42,
-      "spy": 779.0900268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-07",
-      "ticker": "NVDA",
-      "signal": 68.8,
-      "price": 239.24,
-      "spy": 779.0900268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-07",
-      "ticker": "FLYW",
-      "signal": 67.5,
-      "price": 18.215,
-      "spy": 779.0900268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-07",
-      "ticker": "CORZ",
-      "signal": 66.9,
-      "price": 16.68,
-      "spy": 779.0900268554688,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-07",
-      "ticker": "DDOG",
-      "signal": 66.3,
-      "price": 278.24,
-      "spy": 779.0900268554688,
-      "grades": {}
     }
   ],
   "composition": {
     "composition": {
-      "persist": 0.297,
-      "news": 0.426,
-      "confirm": 0.277
+      "persist": 0.295,
+      "news": 0.427,
+      "confirm": 0.278
     },
     "ic": {
-      "persist": -0.037,
-      "news": 0.009,
-      "confirm": -0.081
+      "persist": -0.038,
+      "news": 0.016,
+      "confirm": -0.075
     },
     "multipliers": {
-      "persist": 0.944,
-      "news": 1.014,
-      "confirm": 0.879
+      "persist": 0.943,
+      "news": 1.024,
+      "confirm": 0.887
     },
-    "graded_samples": 2235,
+    "graded_samples": 2265,
     "active": true,
     "min_samples": 10
   },
