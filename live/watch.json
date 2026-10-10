@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T12:33:39.801578+00:00",
+  "updated": "2026-10-10T21:45:56.679622+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -201,7 +201,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 13,
-      "today_rank": 16,
+      "today_rank": 17,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
@@ -262,26 +262,54 @@
       "headlines": []
     },
     {
-      "ticker": "CRDO",
+      "ticker": "NVDA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 5,
+      "best_rank": 11,
       "today_rank": 18,
       "first_seen": "2026-07-08",
-      "name": "Credo Technology Group Holding ",
+      "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 44.1,
-      "signal": 62.8,
+      "confirm": 42.2,
+      "signal": 62.2,
       "mom": {
-        "ret5": -0.0096,
-        "vol_surge": 0.8
+        "ret5": -0.02,
+        "vol_surge": 0.88
       },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": []
+      "earn_days": 38,
+      "consensus": {
+        "buy": 60,
+        "hold": 16,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-10-01",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-09-29",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
     },
     {
       "ticker": "BMY",
@@ -311,7 +339,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Analog Devices, Inc.",
       "sector": "Technology",
