@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T05:59:47.013026+00:00",
+  "updated": "2026-10-12T15:27:38.220500+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -14,11 +14,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 55.2,
-      "confirm": 80.9,
-      "signal": 75.4,
+      "confirm": 79.9,
+      "signal": 75.1,
       "mom": {
-        "ret5": 0.1075,
-        "vol_surge": 1.06
+        "ret5": 0.0983,
+        "vol_surge": 1.03
       },
       "earn_days": 21,
       "consensus": {
@@ -69,19 +69,41 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 3,
+      "today_rank": 4,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 86.6,
-      "signal": 74.8,
+      "confirm": 68.3,
+      "signal": 69.6,
       "mom": {
-        "ret5": 0.1493,
-        "vol_surge": 1.44
+        "ret5": 0.044,
+        "vol_surge": 1.34
       },
       "earn_days": null,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "DDOG",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 9,
+      "first_seen": "2026-08-08",
+      "name": "Datadog, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 58.7,
+      "signal": 66.9,
+      "mom": {
+        "ret5": 0.0481,
+        "vol_surge": 0.62
+      },
+      "earn_days": 24,
       "consensus": null,
       "headlines": []
     },
@@ -97,35 +119,57 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 67.4,
-      "signal": 69.4,
+      "confirm": 52.5,
+      "signal": 65.1,
       "mom": {
-        "ret5": 0.0671,
-        "vol_surge": 0.82
+        "ret5": 0.0242,
+        "vol_surge": 0.68
       },
       "earn_days": 22,
       "consensus": null,
       "headlines": []
     },
     {
-      "ticker": "DDOG",
+      "ticker": "NEM",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 10,
-      "first_seen": "2026-08-08",
-      "name": "Datadog, Inc.",
-      "sector": "Technology",
+      "best_rank": 13,
+      "today_rank": 16,
+      "first_seen": "2026-07-08",
+      "name": "Newmont Corporation",
+      "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 62.9,
-      "signal": 68.1,
+      "confirm": 48.3,
+      "signal": 64.0,
       "mom": {
-        "ret5": 0.0579,
-        "vol_surge": 0.7
+        "ret5": 0.0154,
+        "vol_surge": 0.58
       },
-      "earn_days": 24,
+      "earn_days": 10,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 13,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 45.7,
+      "signal": 63.2,
+      "mom": {
+        "ret5": -0.0028,
+        "vol_surge": 0.77
+      },
+      "earn_days": 16,
       "consensus": null,
       "headlines": []
     },
@@ -141,11 +185,33 @@
       "sector": "Consumer Defensive",
       "persist": 100,
       "news": 50.0,
-      "confirm": 59.1,
-      "signal": 67.0,
+      "confirm": 42.4,
+      "signal": 62.3,
       "mom": {
-        "ret5": 0.0279,
-        "vol_surge": 1.05
+        "ret5": -0.0203,
+        "vol_surge": 0.9
+      },
+      "earn_days": 17,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "BMY",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 7,
+      "first_seen": "2026-07-08",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 40.3,
+      "signal": 61.7,
+      "mom": {
+        "ret5": -0.0264,
+        "vol_surge": 0.88
       },
       "earn_days": 17,
       "consensus": null,
@@ -157,85 +223,41 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 11,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 52.9,
-      "signal": 65.3,
+      "confirm": 36.1,
+      "signal": 60.5,
       "mom": {
-        "ret5": 0.006,
-        "vol_surge": 1.07
+        "ret5": -0.0384,
+        "vol_surge": 0.84
       },
       "earn_days": 3,
       "consensus": null,
       "headlines": []
     },
     {
-      "ticker": "NEM",
+      "ticker": "ADI",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 17,
+      "best_rank": 11,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
-      "name": "Newmont Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 50.7,
-      "signal": 64.6,
-      "mom": {
-        "ret5": 0.0197,
-        "vol_surge": 0.65
-      },
-      "earn_days": 10,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "ALAB",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 5,
-      "first_seen": "2026-07-08",
-      "name": "Astera Labs, Inc.",
+      "name": "Analog Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 47.2,
-      "signal": 63.7,
+      "confirm": 35.5,
+      "signal": 60.3,
       "mom": {
-        "ret5": -0.0232,
-        "vol_surge": 1.28
+        "ret5": -0.0325,
+        "vol_surge": 0.68
       },
-      "earn_days": 22,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "KGC",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 16,
-      "first_seen": "2026-07-08",
-      "name": "Kinross Gold Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 46.2,
-      "signal": 63.4,
-      "mom": {
-        "ret5": -0.0133,
-        "vol_surge": 1.01
-      },
-      "earn_days": 16,
+      "earn_days": 43,
       "consensus": null,
       "headlines": []
     },
@@ -245,17 +267,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 18,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 42.2,
-      "signal": 62.2,
+      "confirm": 29.3,
+      "signal": 58.6,
       "mom": {
-        "ret5": -0.02,
-        "vol_surge": 0.88
+        "ret5": -0.0554,
+        "vol_surge": 0.73
       },
       "earn_days": 36,
       "consensus": {
@@ -290,66 +312,22 @@
       ]
     },
     {
-      "ticker": "BMY",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 8,
-      "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 41.8,
-      "signal": 62.1,
-      "mom": {
-        "ret5": -0.0332,
-        "vol_surge": 1.12
-      },
-      "earn_days": 17,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "ADI",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 15,
-      "first_seen": "2026-07-08",
-      "name": "Analog Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 38.7,
-      "signal": 61.2,
-      "mom": {
-        "ret5": -0.0263,
-        "vol_surge": 0.77
-      },
-      "earn_days": 43,
-      "consensus": null,
-      "headlines": []
-    },
-    {
       "ticker": "MU",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 10,
-      "today_rank": 13,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 36.1,
-      "signal": 60.5,
+      "confirm": 27.1,
+      "signal": 58.0,
       "mom": {
-        "ret5": -0.0427,
-        "vol_surge": 0.93
+        "ret5": -0.0709,
+        "vol_surge": 0.89
       },
       "earn_days": null,
       "consensus": null,
@@ -369,22 +347,44 @@
       ]
     },
     {
+      "ticker": "ALAB",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 6,
+      "first_seen": "2026-07-08",
+      "name": "Astera Labs, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 23.5,
+      "signal": 57.0,
+      "mom": {
+        "ret5": -0.0963,
+        "vol_surge": 1.16
+      },
+      "earn_days": 22,
+      "consensus": null,
+      "headlines": []
+    },
+    {
       "ticker": "AMD",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 9,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 47.9,
-      "confirm": 36.1,
-      "signal": 59.6,
+      "confirm": 26.2,
+      "signal": 56.8,
       "mom": {
-        "ret5": -0.0407,
-        "vol_surge": 0.89
+        "ret5": -0.0707,
+        "vol_surge": 0.83
       },
       "earn_days": 22,
       "consensus": {
@@ -458,17 +458,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 30.7,
-      "signal": 59.0,
+      "confirm": 18.5,
+      "signal": 55.5,
       "mom": {
-        "ret5": -0.0632,
-        "vol_surge": 0.98
+        "ret5": -0.092,
+        "vol_surge": 0.74
       },
       "earn_days": 11,
       "consensus": null,
