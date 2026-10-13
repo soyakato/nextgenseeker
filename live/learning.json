@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-12T15:27:38.220500+00:00",
+  "updated": "2026-10-13T00:41:26.641623+00:00",
   "weights": {
-    "operating_leverage": 16.93,
+    "operating_leverage": 16.91,
     "cost_stickiness": 8.31,
-    "survival_dd": 16.57,
-    "rnd_intensity": 12.43,
-    "contrarian_inflection": 13.89,
-    "capital_momentum": 11.81,
-    "holding_trend": 11.15,
-    "earnings_drift": 11.51,
-    "value_yield": 8.45
+    "survival_dd": 16.63,
+    "rnd_intensity": 12.5,
+    "contrarian_inflection": 13.86,
+    "capital_momentum": 11.86,
+    "holding_trend": 11.13,
+    "earnings_drift": 11.64,
+    "value_yield": 8.42
   },
   "default_weights": {
     "operating_leverage": 15,
@@ -24,28 +24,28 @@
   },
   "multipliers": {
     "operating_leverage": 1.128,
-    "cost_stickiness": 1.039,
-    "survival_dd": 1.105,
-    "rnd_intensity": 1.13,
-    "contrarian_inflection": 1.263,
-    "capital_momentum": 1.073,
-    "holding_trend": 1.115,
-    "earnings_drift": 1.047,
-    "value_yield": 1.056
+    "cost_stickiness": 1.038,
+    "survival_dd": 1.109,
+    "rnd_intensity": 1.136,
+    "contrarian_inflection": 1.26,
+    "capital_momentum": 1.078,
+    "holding_trend": 1.113,
+    "earnings_drift": 1.058,
+    "value_yield": 1.052
   },
   "ic": {
-    "operating_leverage": 0.086,
+    "operating_leverage": 0.085,
     "cost_stickiness": 0.026,
-    "survival_dd": 0.07,
-    "rnd_intensity": 0.087,
-    "contrarian_inflection": 0.175,
-    "capital_momentum": 0.049,
-    "holding_trend": 0.076,
-    "earnings_drift": 0.031,
-    "value_yield": 0.037
+    "survival_dd": 0.073,
+    "rnd_intensity": 0.091,
+    "contrarian_inflection": 0.173,
+    "capital_momentum": 0.052,
+    "holding_trend": 0.075,
+    "earnings_drift": 0.038,
+    "value_yield": 0.035
   },
-  "composite_ic": 0.198,
-  "graded_samples": 5333,
+  "composite_ic": 0.201,
+  "graded_samples": 5465,
   "active": true,
   "min_samples": 12,
   "horizons": [
@@ -53,7 +53,7 @@
     60
   ],
   "forget_days": 180,
-  "cohorts_tracked": 97,
+  "cohorts_tracked": 98,
   "note": "学習作動中（採点結果で重みを調整）",
   "concentration": {
     "warn": true,
@@ -63,6 +63,6 @@
     "top_n": 8,
     "note": "⚠ 上位8銘柄中5が「Technology」に集中（62%）— 過剰適応/テーマ偏りの兆候。一緒に上げ下げする点に注意。"
   },
-  "recorded_today": false,
-  "graded_events": 0
+  "recorded_today": true,
+  "graded_events": 2
 }
