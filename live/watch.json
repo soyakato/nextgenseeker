@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T17:08:18.583124+00:00",
+  "updated": "2026-10-20T21:38:07.659223+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -14,11 +14,11 @@
       "sector": "Healthcare",
       "persist": 100,
       "news": 50.0,
-      "confirm": 74.1,
-      "signal": 70.0,
+      "confirm": 76.4,
+      "signal": 70.6,
       "mom": {
-        "ret5": 0.0857,
-        "vol_surge": 0.89
+        "ret5": 0.0884,
+        "vol_surge": 0.99
       },
       "earn_days": 9,
       "consensus": null,
@@ -30,17 +30,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 8,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 56.7,
-      "signal": 65.0,
+      "confirm": 59.5,
+      "signal": 65.8,
       "mom": {
-        "ret5": -0.0183,
-        "vol_surge": 1.81
+        "ret5": -0.0169,
+        "vol_surge": 1.97
       },
       "earn_days": null,
       "consensus": null,
@@ -71,11 +71,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 55.0,
-      "signal": 64.5,
+      "confirm": 56.8,
+      "signal": 65.0,
       "mom": {
-        "ret5": 0.0241,
-        "vol_surge": 0.85
+        "ret5": 0.0208,
+        "vol_surge": 1.04
       },
       "earn_days": 14,
       "consensus": null,
@@ -87,17 +87,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
       "persist": 100,
       "news": 50.0,
-      "confirm": 53.3,
-      "signal": 64.0,
+      "confirm": 53.9,
+      "signal": 64.2,
       "mom": {
-        "ret5": 0.0219,
-        "vol_surge": 0.78
+        "ret5": 0.0201,
+        "vol_surge": 0.86
       },
       "earn_days": 9,
       "consensus": null,
@@ -115,13 +115,35 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 53.1,
-      "signal": 64.0,
+      "confirm": 53.8,
+      "signal": 64.1,
       "mom": {
-        "ret5": 0.012,
-        "vol_surge": 0.97
+        "ret5": 0.0106,
+        "vol_surge": 1.04
       },
       "earn_days": 2,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "CORZ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Core Scientific, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 36.5,
+      "signal": 59.2,
+      "mom": {
+        "ret5": -0.1063,
+        "vol_surge": 2.1
+      },
+      "earn_days": 16,
       "consensus": null,
       "headlines": []
     },
@@ -137,11 +159,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 55.2,
-      "confirm": 29.4,
-      "signal": 59.5,
+      "confirm": 27.5,
+      "signal": 58.9,
       "mom": {
-        "ret5": -0.0675,
-        "vol_surge": 0.98
+        "ret5": -0.077,
+        "vol_surge": 1.04
       },
       "earn_days": 13,
       "consensus": {
@@ -187,50 +209,6 @@
       ]
     },
     {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 16,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 37.6,
-      "signal": 59.5,
-      "mom": {
-        "ret5": -0.0443,
-        "vol_surge": 1.06
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "CORZ",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Core Scientific, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 36.3,
-      "signal": 59.1,
-      "mom": {
-        "ret5": -0.0927,
-        "vol_surge": 1.94
-      },
-      "earn_days": 16,
-      "consensus": null,
-      "headlines": []
-    },
-    {
       "ticker": "NVDA",
       "tier": "確定",
       "streak": 43,
@@ -242,11 +220,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 34.5,
-      "signal": 58.6,
+      "confirm": 34.8,
+      "signal": 58.7,
       "mom": {
-        "ret5": -0.0507,
-        "vol_surge": 0.98
+        "ret5": -0.0527,
+        "vol_surge": 1.04
       },
       "earn_days": 28,
       "consensus": {
@@ -281,6 +259,28 @@
       ]
     },
     {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 16,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 33.7,
+      "signal": 58.4,
+      "mom": {
+        "ret5": -0.0598,
+        "vol_surge": 1.11
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": []
+    },
+    {
       "ticker": "DELL",
       "tier": "確定",
       "streak": 43,
@@ -292,35 +292,13 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 23.4,
-      "signal": 55.4,
+      "confirm": 24.4,
+      "signal": 55.7,
       "mom": {
-        "ret5": -0.1895,
-        "vol_surge": 1.23
+        "ret5": -0.1937,
+        "vol_surge": 1.29
       },
       "earn_days": 38,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 4,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 19.7,
-      "signal": 54.3,
-      "mom": {
-        "ret5": -0.1455,
-        "vol_surge": 0.98
-      },
-      "earn_days": null,
       "consensus": null,
       "headlines": []
     },
@@ -330,19 +308,41 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 10,
+      "today_rank": 11,
       "first_seen": "2026-08-08",
       "name": "Datadog, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 19.6,
-      "signal": 54.3,
+      "confirm": 21.1,
+      "signal": 54.7,
       "mom": {
-        "ret5": -0.0954,
-        "vol_surge": 0.88
+        "ret5": -0.095,
+        "vol_surge": 0.97
       },
       "earn_days": 15,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 5,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 20.8,
+      "signal": 54.6,
+      "mom": {
+        "ret5": -0.146,
+        "vol_surge": 1.05
+      },
+      "earn_days": null,
       "consensus": null,
       "headlines": []
     },
@@ -352,17 +352,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 5,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 19.4,
-      "signal": 54.2,
+      "confirm": 20.3,
+      "signal": 54.5,
       "mom": {
-        "ret5": -0.108,
-        "vol_surge": 0.96
+        "ret5": -0.1169,
+        "vol_surge": 1.02
       },
       "earn_days": 14,
       "consensus": {
@@ -441,11 +441,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 19.1,
-      "signal": 54.2,
+      "confirm": 20.1,
+      "signal": 54.5,
       "mom": {
-        "ret5": -0.123,
-        "vol_surge": 0.94
+        "ret5": -0.1351,
+        "vol_surge": 1.01
       },
       "earn_days": 41,
       "consensus": null,
@@ -476,11 +476,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 17.0,
-      "signal": 53.5,
+      "confirm": 17.8,
+      "signal": 53.8,
       "mom": {
-        "ret5": -0.1148,
-        "vol_surge": 0.8
+        "ret5": -0.1248,
+        "vol_surge": 0.85
       },
       "earn_days": 14,
       "consensus": null,
@@ -514,6 +514,14 @@
       "signal": 65.5,
       "price": 58.83,
       "spy": 766.47998046875,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-20",
+      "ticker": "FLYW",
+      "signal": 65.0,
+      "price": 18.64,
+      "spy": 769.0499877929688,
       "grades": {}
     },
     {
@@ -656,16 +664,6 @@
       "spy": 778.0999755859375,
       "grades": {
         "5": 0.0014
-      }
-    },
-    {
-      "date": "2026-10-13",
-      "ticker": "DDOG",
-      "signal": 68.2,
-      "price": 287.29,
-      "spy": 778.0999755859375,
-      "grades": {
-        "5": -0.0788
       }
     }
   ],
