@@ -1,83 +1,26 @@
 {
-  "updated": "2026-10-22T11:54:23.834220+00:00",
+  "updated": "2026-10-22T17:11:48.665167+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
-      "ticker": "CORZ",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 3,
-      "first_seen": "2026-07-08",
-      "name": "Core Scientific, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 76.9,
-      "signal": 70.8,
-      "mom": {
-        "ret5": 0.0548,
-        "vol_surge": 1.7
-      },
-      "earn_days": 14,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "AA",
+      "ticker": "BMY",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 8,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
       "persist": 100,
       "news": 50.0,
-      "confirm": 66.9,
-      "signal": 67.9,
+      "confirm": 56.7,
+      "signal": 64.9,
       "mom": {
-        "ret5": 0.0162,
-        "vol_surge": 1.8
+        "ret5": 0.0352,
+        "vol_surge": 0.74
       },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-10-15",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526422891",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        }
-      ]
-    },
-    {
-      "ticker": "NEM",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 13,
-      "today_rank": 20,
-      "first_seen": "2026-07-08",
-      "name": "Newmont Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 65.3,
-      "signal": 67.4,
-      "mom": {
-        "ret5": 0.0504,
-        "vol_surge": 1.01
-      },
-      "earn_days": 0,
+      "earn_days": 7,
       "consensus": null,
       "headlines": []
     },
@@ -93,11 +36,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 55.2,
-      "confirm": 51.3,
-      "signal": 65.7,
+      "confirm": 43.9,
+      "signal": 63.6,
       "mom": {
-        "ret5": 0.0037,
-        "vol_surge": 1.01
+        "ret5": -0.015,
+        "vol_surge": 0.89
       },
       "earn_days": 11,
       "consensus": {
@@ -143,48 +86,61 @@
       ]
     },
     {
-      "ticker": "FLYW",
+      "ticker": "DDOG",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 14,
-      "first_seen": "2026-07-08",
-      "name": "Flywire Corporation - Voting",
+      "best_rank": 9,
+      "today_rank": 12,
+      "first_seen": "2026-08-08",
+      "name": "Datadog, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 58.3,
-      "signal": 65.4,
+      "confirm": 45.0,
+      "signal": 61.6,
       "mom": {
-        "ret5": 0.0316,
-        "vol_surge": 0.92
+        "ret5": -0.0106,
+        "vol_surge": 0.88
       },
-      "earn_days": 12,
+      "earn_days": 13,
       "consensus": null,
       "headlines": []
     },
     {
-      "ticker": "BMY",
+      "ticker": "AA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
       "today_rank": 10,
       "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 57.8,
-      "signal": 65.2,
+      "confirm": 44.5,
+      "signal": 61.4,
       "mom": {
-        "ret5": 0.031,
-        "vol_surge": 0.9
+        "ret5": -0.043,
+        "vol_surge": 1.49
       },
-      "earn_days": 7,
+      "earn_days": null,
       "consensus": null,
-      "headlines": []
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-10-15",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526422891",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        }
+      ]
     },
     {
       "ticker": "COUR",
@@ -192,120 +148,19 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
       "persist": 100,
       "news": 50.0,
-      "confirm": 54.3,
-      "signal": 64.2,
+      "confirm": 41.7,
+      "signal": 60.6,
       "mom": {
-        "ret5": 0.0269,
-        "vol_surge": 0.75
+        "ret5": -0.0118,
+        "vol_surge": 0.68
       },
       "earn_days": 7,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "DDOG",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 11,
-      "first_seen": "2026-08-08",
-      "name": "Datadog, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 54.1,
-      "signal": 64.2,
-      "mom": {
-        "ret5": 0.014,
-        "vol_surge": 0.99
-      },
-      "earn_days": 13,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "CRDO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 12,
-      "today_rank": 15,
-      "first_seen": "2026-07-08",
-      "name": "Credo Technology Group Holding ",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 53.1,
-      "signal": 63.9,
-      "mom": {
-        "ret5": 0.017,
-        "vol_surge": 0.87
-      },
-      "earn_days": 39,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 株主総会結果",
-          "summary": "",
-          "pub": "2026-10-16",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026066139",
-          "dir": 0.0,
-          "conf": 0.2,
-          "type": "8-K 5.07",
-          "why": "株主総会結果（一次情報・機械判定）",
-          "is_edgar": true
-        }
-      ]
-    },
-    {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 4,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 51.4,
-      "signal": 63.4,
-      "mom": {
-        "ret5": 0.0048,
-        "vol_surge": 1.0
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 18,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 50.8,
-      "signal": 63.2,
-      "mom": {
-        "ret5": -0.0005,
-        "vol_surge": 1.06
-      },
-      "earn_days": null,
       "consensus": null,
       "headlines": []
     },
@@ -315,17 +170,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 12,
-      "today_rank": 13,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 50.4,
-      "signal": 63.1,
+      "confirm": 41.3,
+      "signal": 60.5,
       "mom": {
-        "ret5": 0.003,
-        "vol_surge": 0.97
+        "ret5": -0.021,
+        "vol_surge": 0.84
       },
       "earn_days": 26,
       "consensus": {
@@ -360,6 +215,50 @@
       ]
     },
     {
+      "ticker": "FLYW",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 15,
+      "first_seen": "2026-07-08",
+      "name": "Flywire Corporation - Voting",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 38.8,
+      "signal": 59.8,
+      "mom": {
+        "ret5": -0.023,
+        "vol_surge": 0.71
+      },
+      "earn_days": 12,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "NEM",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 13,
+      "today_rank": 18,
+      "first_seen": "2026-07-08",
+      "name": "Newmont Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 38.5,
+      "signal": 59.7,
+      "mom": {
+        "ret5": -0.0345,
+        "vol_surge": 0.92
+      },
+      "earn_days": 0,
+      "consensus": null,
+      "headlines": []
+    },
+    {
       "ticker": "AVGO",
       "tier": "確定",
       "streak": 43,
@@ -371,11 +270,77 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 41.6,
-      "signal": 60.6,
+      "confirm": 29.8,
+      "signal": 57.2,
       "mom": {
-        "ret5": -0.0244,
-        "vol_surge": 0.93
+        "ret5": -0.0563,
+        "vol_surge": 0.78
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "CORZ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 6,
+      "first_seen": "2026-07-08",
+      "name": "Core Scientific, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 26.5,
+      "signal": 56.2,
+      "mom": {
+        "ret5": -0.0847,
+        "vol_surge": 1.13
+      },
+      "earn_days": 14,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 20,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 24.9,
+      "signal": 55.8,
+      "mom": {
+        "ret5": -0.0772,
+        "vol_surge": 0.87
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 7,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 23.7,
+      "signal": 55.4,
+      "mom": {
+        "ret5": -0.0831,
+        "vol_surge": 0.91
       },
       "earn_days": null,
       "consensus": null,
@@ -387,17 +352,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 6,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 40.2,
-      "signal": 60.2,
+      "confirm": 19.9,
+      "signal": 54.3,
       "mom": {
-        "ret5": -0.0317,
-        "vol_surge": 0.98
+        "ret5": -0.0919,
+        "vol_surge": 0.83
       },
       "earn_days": 12,
       "consensus": {
@@ -465,22 +430,57 @@
       ]
     },
     {
+      "ticker": "CRDO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 12,
+      "today_rank": 16,
+      "first_seen": "2026-07-08",
+      "name": "Credo Technology Group Holding ",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 19.4,
+      "signal": 54.2,
+      "mom": {
+        "ret5": -0.0874,
+        "vol_surge": 0.71
+      },
+      "earn_days": 39,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 株主総会結果",
+          "summary": "",
+          "pub": "2026-10-16",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026066139",
+          "dir": 0.0,
+          "conf": 0.2,
+          "type": "8-K 5.07",
+          "why": "株主総会結果（一次情報・機械判定）",
+          "is_edgar": true
+        }
+      ]
+    },
+    {
       "ticker": "ALAB",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 2,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 35.8,
-      "signal": 58.9,
+      "confirm": 14.3,
+      "signal": 52.7,
       "mom": {
-        "ret5": -0.034,
-        "vol_surge": 0.73
+        "ret5": -0.1444,
+        "vol_surge": 0.62
       },
       "earn_days": 12,
       "consensus": null,
