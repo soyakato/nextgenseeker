@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T17:08:29.738472+00:00",
+  "updated": "2026-10-23T21:25:13.238705+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -7,18 +7,18 @@
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 9,
+      "best_rank": 8,
+      "today_rank": 8,
       "first_seen": "2026-08-08",
       "name": "Datadog, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 77.4,
-      "signal": 70.8,
+      "confirm": 76.3,
+      "signal": 70.5,
       "mom": {
-        "ret5": 0.0987,
-        "vol_surge": 0.85
+        "ret5": 0.0912,
+        "vol_surge": 0.93
       },
       "earn_days": 12,
       "consensus": null,
@@ -36,11 +36,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 55.2,
-      "confirm": 62.6,
-      "signal": 68.9,
+      "confirm": 64.6,
+      "signal": 69.4,
       "mom": {
-        "ret5": 0.0535,
-        "vol_surge": 0.77
+        "ret5": 0.0576,
+        "vol_surge": 0.82
       },
       "earn_days": 10,
       "consensus": {
@@ -86,22 +86,57 @@
       ]
     },
     {
+      "ticker": "WDC",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 8,
+      "today_rank": 21,
+      "first_seen": "2026-07-21",
+      "name": "Western Digital Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 63.3,
+      "signal": 66.7,
+      "mom": {
+        "ret5": 0.0352,
+        "vol_surge": 1.18
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-10-22",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066882",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        }
+      ]
+    },
+    {
       "ticker": "FLYW",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 7,
-      "today_rank": 17,
+      "today_rank": 16,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 57.4,
-      "signal": 65.0,
+      "confirm": 61.7,
+      "signal": 66.2,
       "mom": {
-        "ret5": 0.0422,
-        "vol_surge": 0.65
+        "ret5": 0.0504,
+        "vol_surge": 0.77
       },
       "earn_days": 11,
       "consensus": null,
@@ -113,17 +148,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 15,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Bristol-Myers Squibb Company",
       "sector": "Healthcare",
       "persist": 100,
       "news": 50.0,
-      "confirm": 55.4,
-      "signal": 64.4,
+      "confirm": 56.0,
+      "signal": 64.6,
       "mom": {
-        "ret5": 0.0315,
-        "vol_surge": 0.73
+        "ret5": 0.029,
+        "vol_surge": 0.82
       },
       "earn_days": 6,
       "consensus": null,
@@ -135,41 +170,19 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
       "persist": 100,
       "news": 50.0,
-      "confirm": 51.9,
-      "signal": 63.4,
+      "confirm": 54.7,
+      "signal": 64.2,
       "mom": {
-        "ret5": 0.0223,
-        "vol_surge": 0.68
+        "ret5": 0.0283,
+        "vol_surge": 0.75
       },
       "earn_days": 6,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 21,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 49.9,
-      "signal": 62.8,
-      "mom": {
-        "ret5": 0.0072,
-        "vol_surge": 0.85
-      },
-      "earn_days": null,
       "consensus": null,
       "headlines": []
     },
@@ -179,17 +192,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 12,
-      "today_rank": 16,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 43.5,
+      "confirm": 43.6,
       "signal": 61.0,
       "mom": {
-        "ret5": -0.0115,
-        "vol_surge": 0.8
+        "ret5": -0.0148,
+        "vol_surge": 0.87
       },
       "earn_days": 25,
       "consensus": {
@@ -240,7 +253,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 12,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
@@ -249,32 +262,10 @@
       "confirm": 42.3,
       "signal": 60.6,
       "mom": {
-        "ret5": -0.0237,
-        "vol_surge": 0.96
+        "ret5": -0.0282,
+        "vol_surge": 1.05
       },
       "earn_days": 13,
-      "consensus": null,
-      "headlines": []
-    },
-    {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 7,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 40.6,
-      "signal": 60.1,
-      "mom": {
-        "ret5": -0.0249,
-        "vol_surge": 0.87
-      },
-      "earn_days": null,
       "consensus": null,
       "headlines": []
     },
@@ -284,17 +275,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 2,
+      "today_rank": 4,
       "first_seen": "2026-07-08",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 39.6,
-      "signal": 59.8,
+      "confirm": 41.4,
+      "signal": 60.4,
       "mom": {
-        "ret5": -0.0256,
-        "vol_surge": 0.82
+        "ret5": -0.0226,
+        "vol_surge": 0.88
       },
       "earn_days": 11,
       "consensus": {
@@ -362,22 +353,44 @@
       ]
     },
     {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 7,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 37.5,
+      "signal": 59.2,
+      "mom": {
+        "ret5": -0.0375,
+        "vol_surge": 0.92
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": []
+    },
+    {
       "ticker": "NEM",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 11,
+      "best_rank": 10,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 27.5,
-      "signal": 56.3,
+      "confirm": 26.8,
+      "signal": 56.1,
       "mom": {
-        "ret5": -0.0734,
-        "vol_surge": 0.97
+        "ret5": -0.082,
+        "vol_surge": 1.09
       },
       "earn_days": null,
       "consensus": null,
@@ -408,11 +421,11 @@
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 26.2,
-      "signal": 56.0,
+      "confirm": 25.0,
+      "signal": 55.6,
       "mom": {
-        "ret5": -0.0767,
-        "vol_surge": 0.95
+        "ret5": -0.0854,
+        "vol_surge": 1.04
       },
       "earn_days": null,
       "consensus": null,
@@ -437,17 +450,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 9,
-      "today_rank": 20,
+      "today_rank": 22,
       "first_seen": "2026-07-08",
       "name": "Kinross Gold Corporation",
       "sector": "Basic Materials",
       "persist": 100,
       "news": 50.0,
-      "confirm": 23.9,
-      "signal": 55.3,
+      "confirm": 24.8,
+      "signal": 55.6,
       "mom": {
-        "ret5": -0.0701,
-        "vol_surge": 0.66
+        "ret5": -0.0699,
+        "vol_surge": 0.72
       },
       "earn_days": 5,
       "consensus": null,
@@ -465,11 +478,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 18.6,
-      "signal": 53.8,
+      "confirm": 19.9,
+      "signal": 54.1,
       "mom": {
-        "ret5": -0.1253,
-        "vol_surge": 0.91
+        "ret5": -0.1321,
+        "vol_surge": 0.99
       },
       "earn_days": 38,
       "consensus": null,
@@ -494,17 +507,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 8,
+      "today_rank": 9,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 18.3,
-      "signal": 53.6,
+      "confirm": 15.9,
+      "signal": 53.0,
       "mom": {
-        "ret5": -0.0893,
-        "vol_surge": 0.67
+        "ret5": -0.1003,
+        "vol_surge": 0.73
       },
       "earn_days": 11,
       "consensus": null,
@@ -554,6 +567,14 @@
       "signal": 65.0,
       "price": 19.27,
       "spy": 760.72998046875,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-23",
+      "ticker": "WDC",
+      "signal": 66.7,
+      "price": 343.67,
+      "spy": 759.969970703125,
       "grades": {}
     },
     {
@@ -674,14 +695,6 @@
       "signal": 65.5,
       "price": 58.83,
       "spy": 766.47998046875,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "FLYW",
-      "signal": 65.0,
-      "price": 18.64,
-      "spy": 769.0499877929688,
       "grades": {}
     }
   ],
