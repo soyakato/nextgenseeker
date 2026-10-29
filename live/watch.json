@@ -1,49 +1,14 @@
 {
-  "updated": "2026-10-28T22:35:54.688663+00:00",
+  "updated": "2026-10-29T05:49:33.753755+00:00",
   "judge_source": "rule-based",
   "signals": [
-    {
-      "ticker": "WDC",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 8,
-      "today_rank": 18,
-      "first_seen": "2026-07-21",
-      "name": "Western Digital Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 67.0,
-      "signal": 67.6,
-      "mom": {
-        "ret5": 0.0473,
-        "vol_surge": 1.19
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-10-22",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066882",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        }
-      ]
-    },
     {
       "ticker": "CLS",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 13,
+      "today_rank": 14,
       "first_seen": "2026-07-15",
       "name": "Celestica, Inc.",
       "sector": "Technology",
@@ -90,7 +55,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 14,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
@@ -102,7 +67,7 @@
         "ret5": 0.0526,
         "vol_surge": 0.95
       },
-      "earn_days": 8,
+      "earn_days": 7,
       "consensus": null,
       "headlines": []
     },
@@ -124,7 +89,7 @@
         "ret5": 0.0465,
         "vol_surge": 0.92
       },
-      "earn_days": 6,
+      "earn_days": 5,
       "consensus": {
         "buy": 51,
         "hold": 20,
@@ -132,6 +97,17 @@
         "consensus": "Buy"
       },
       "headlines": [
+        {
+          "title": "アナリストmaintain: Positive→Positive",
+          "summary": "",
+          "pub": "2026-10-28",
+          "provider": "Susquehanna",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
         {
           "title": "アナリストmaintain: Positive→Positive",
           "summary": "",
@@ -155,17 +131,6 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Outperform→Outperform",
-          "summary": "",
-          "pub": "2026-10-06",
-          "provider": "Mizuho",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-10-06",
@@ -177,10 +142,10 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
+          "title": "アナリストmaintain: Outperform→Outperform",
           "summary": "",
-          "pub": "2026-10-05",
-          "provider": "Stifel",
+          "pub": "2026-10-06",
+          "provider": "Mizuho",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -201,13 +166,13 @@
       "sector": "Technology",
       "persist": 100,
       "news": 50.0,
-      "confirm": 56.5,
+      "confirm": 56.6,
       "signal": 64.5,
       "mom": {
         "ret5": 0.0246,
-        "vol_surge": 0.94
+        "vol_surge": 0.95
       },
-      "earn_days": 6,
+      "earn_days": 5,
       "consensus": null,
       "headlines": []
     },
@@ -229,7 +194,7 @@
         "ret5": 0.0195,
         "vol_surge": 0.94
       },
-      "earn_days": 7,
+      "earn_days": 6,
       "consensus": null,
       "headlines": []
     },
@@ -251,7 +216,7 @@
         "ret5": 0.0161,
         "vol_surge": 0.74
       },
-      "earn_days": 6,
+      "earn_days": 5,
       "consensus": null,
       "headlines": []
     },
@@ -261,7 +226,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 5,
+      "today_rank": 3,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
@@ -278,6 +243,41 @@
       "headlines": []
     },
     {
+      "ticker": "AA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 8,
+      "first_seen": "2026-07-08",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 46.8,
+      "signal": 61.7,
+      "mom": {
+        "ret5": -0.0102,
+        "vol_surge": 0.99
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-10-15",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526422891",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        }
+      ]
+    },
+    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 43,
@@ -288,14 +288,14 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.2,
+      "news": 54.2,
       "confirm": 40.2,
-      "signal": 62.1,
+      "signal": 61.6,
       "mom": {
         "ret5": -0.0243,
         "vol_surge": 0.83
       },
-      "earn_days": 5,
+      "earn_days": 4,
       "consensus": {
         "buy": 14,
         "hold": 9,
@@ -303,6 +303,17 @@
         "consensus": "Buy"
       },
       "headlines": [
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-10-27",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
         {
           "title": "アナリストmaintain: Overweight→Overweight",
           "summary": "",
@@ -346,41 +357,6 @@
           "conf": 0.7,
           "type": "格付↑",
           "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
-      "ticker": "AA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 8,
-      "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 46.8,
-      "signal": 61.7,
-      "mom": {
-        "ret5": -0.0102,
-        "vol_surge": 0.99
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-10-15",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1675149/000119312526422891",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
         }
       ]
     },
@@ -437,7 +413,7 @@
         "ret5": -0.009,
         "vol_surge": 0.68
       },
-      "earn_days": 1,
+      "earn_days": 0,
       "consensus": null,
       "headlines": []
     },
@@ -447,7 +423,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 12,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
@@ -459,7 +435,7 @@
         "ret5": -0.0297,
         "vol_surge": 0.89
       },
-      "earn_days": 20,
+      "earn_days": 19,
       "consensus": {
         "buy": 60,
         "hold": 16,
@@ -503,12 +479,34 @@
       ]
     },
     {
+      "ticker": "KGC",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 16,
+      "first_seen": "2026-07-08",
+      "name": "Kinross Gold Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 38.4,
+      "signal": 59.2,
+      "mom": {
+        "ret5": -0.0353,
+        "vol_surge": 0.93
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": []
+    },
+    {
       "ticker": "CRDO",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 12,
-      "today_rank": 16,
+      "today_rank": 18,
       "first_seen": "2026-07-08",
       "name": "Credo Technology Group Holding ",
       "sector": "Technology",
@@ -520,7 +518,7 @@
         "ret5": -0.0471,
         "vol_surge": 0.98
       },
-      "earn_days": 33,
+      "earn_days": 32,
       "consensus": null,
       "headlines": [
         {
@@ -555,24 +553,48 @@
         "ret5": -0.0543,
         "vol_surge": 0.82
       },
-      "earn_days": 1,
+      "earn_days": 0,
       "consensus": null,
       "headlines": []
     }
   ],
   "alert_summary": {
     "5": {
-      "n": 1131,
+      "n": 1137,
       "hit_rate": 0.49,
       "avg_excess": 0.0031
     },
     "20": {
-      "n": 992,
+      "n": 1003,
       "hit_rate": 0.53,
-      "avg_excess": 0.018
+      "avg_excess": 0.0173
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-10-29",
+      "ticker": "CLS",
+      "signal": 67.1,
+      "price": 299.8,
+      "spy": 772.3099975585938,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CORZ",
+      "signal": 67.0,
+      "price": 15.0,
+      "spy": 772.3099975585938,
+      "grades": {}
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AMD",
+      "signal": 66.3,
+      "price": 578.44,
+      "spy": 772.3099975585938,
+      "grades": {}
+    },
     {
       "date": "2026-10-28",
       "ticker": "DDOG",
@@ -708,30 +730,6 @@
       "price": 19.4,
       "spy": 759.969970703125,
       "grades": {}
-    },
-    {
-      "date": "2026-10-26",
-      "ticker": "ADI",
-      "signal": 66.3,
-      "price": 407.93,
-      "spy": 765.3699951171875,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-26",
-      "ticker": "BMY",
-      "signal": 65.8,
-      "price": 61.61,
-      "spy": 765.3699951171875,
-      "grades": {}
-    },
-    {
-      "date": "2026-10-25",
-      "ticker": "DDOG",
-      "signal": 70.4,
-      "price": 269.65,
-      "spy": 759.969970703125,
-      "grades": {}
     }
   ],
   "composition": {
@@ -741,16 +739,16 @@
       "confirm": 0.294
     },
     "ic": {
-      "persist": -0.143,
-      "news": 0.042,
-      "confirm": -0.056
+      "persist": -0.142,
+      "news": 0.041,
+      "confirm": -0.055
     },
     "multipliers": {
-      "persist": 0.785,
-      "news": 1.063,
-      "confirm": 0.916
+      "persist": 0.787,
+      "news": 1.061,
+      "confirm": 0.918
     },
-    "graded_samples": 2835,
+    "graded_samples": 2865,
     "active": true,
     "min_samples": 10
   },
