@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T14:16:23.118362+00:00",
+  "updated": "2026-11-03T23:24:29.254791+00:00",
   "weights": {
     "operating_leverage": 16.44,
     "cost_stickiness": 8.02,
@@ -56,12 +56,12 @@
   "cohorts_tracked": 119,
   "note": "学習作動中（採点結果で重みを調整）",
   "concentration": {
-    "warn": false,
+    "warn": true,
     "dominant_sector": "Technology",
-    "dominant_ratio": 0.38,
-    "hhi": 0.219,
+    "dominant_ratio": 0.5,
+    "hhi": 0.312,
     "top_n": 8,
-    "note": "分散は健全（最大セクターTechnology 38%, HHI 0.22）"
+    "note": "⚠ 上位8銘柄中4が「Technology」に集中（50%）— 過剰適応/テーマ偏りの兆候。一緒に上げ下げする点に注意。"
   },
   "recorded_today": false,
   "graded_events": 0
