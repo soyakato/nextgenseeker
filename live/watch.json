@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T13:26:27.595400+00:00",
+  "updated": "2026-11-08T22:06:28.071949+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -608,9 +608,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.0,
+      "news": 49.2,
       "confirm": 40.0,
-      "signal": 58.1,
+      "signal": 57.8,
       "mom": {
         "ret5": -0.1105,
         "vol_surge": 2.34
@@ -682,6 +682,86 @@
       ]
     },
     {
+      "ticker": "ALAB",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 12,
+      "first_seen": "2026-07-08",
+      "name": "Astera Labs, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.9,
+      "confirm": 33.5,
+      "signal": 56.7,
+      "mom": {
+        "ret5": -0.2628,
+        "vol_surge": 1.9
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-11-04",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1736297/000162828026070258",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000044",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Astera Labs Stock Drops 26% in a Week Despite Strong Earnings. Is It a Buy Now?",
+          "summary": "Key TakeawaysAstera Labs (ALAB) fell 26% over five trading sessions, closing at $191 on November 6 despite record third-quarter revenue and strong guidance. Marvell Technology (MRVL) announced a $115 billion acquisition agreement, while Intel (INTC) reported 78% Data Center and AI revenue growth and",
+          "pub": "2026-11-08T11:24",
+          "provider": "TIKR",
+          "url": "https://www.tikr.com/blog/astera-labs-stock-drops-26-in-a-week-despite-strong-earnings-is-it-a-buy-now?ref=yahoofinance&tlnk=yf-261108-6cgjc9hg",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "Credo Just Dropped 32% in a Week. Is It Time to Sell, or Load Up?",
+          "summary": "Key TakeawaysCredo shares fell 32% in the week through Nov. 5 in an AI hardware selloff, and Astera Labs and Marvell fell even further.",
+          "pub": "2026-11-08T04:02",
+          "provider": "TIKR",
+          "url": "https://www.tikr.com/blog/credo-just-dropped-32-in-a-week-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261108-67q8fgqr",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Astera Labs Just Crushed Earnings—So Why Are Analysts Cutting Price Targets?",
+          "summary": "Astera Labs posted Q3 revenue up 153.6% and strong EPS growth, beating estimates, while analysts trimmed price targets but kept bullish ratings amid the stock's recent pullback.",
+          "pub": "2026-11-07T15:15",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/articles/astera-labs-just-crushed-earnings-so-why-are-analysts-cutting-price-targets/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        }
+      ]
+    },
+    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 43,
@@ -692,9 +772,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.5,
+      "news": 51.0,
       "confirm": 32.3,
-      "signal": 56.7,
+      "signal": 56.4,
       "mom": {
         "ret5": -0.1289,
         "vol_surge": 1.82
@@ -844,86 +924,6 @@
       ]
     },
     {
-      "ticker": "ALAB",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 12,
-      "first_seen": "2026-07-08",
-      "name": "Astera Labs, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 47.5,
-      "confirm": 33.5,
-      "signal": 55.0,
-      "mom": {
-        "ret5": -0.2628,
-        "vol_surge": 1.9
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-11-04",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1736297/000162828026070258",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000044",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Astera Labs Stock Drops 26% in a Week Despite Strong Earnings. Is It a Buy Now?",
-          "summary": "Key TakeawaysAstera Labs (ALAB) fell 26% over five trading sessions, closing at $191 on November 6 despite record third-quarter revenue and strong guidance. Marvell Technology (MRVL) announced a $115 billion acquisition agreement, while Intel (INTC) reported 78% Data Center and AI revenue growth and",
-          "pub": "2026-11-08T11:24",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/astera-labs-stock-drops-26-in-a-week-despite-strong-earnings-is-it-a-buy-now?ref=yahoofinance&tlnk=yf-261108-6cgjc9hg",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Credo Just Dropped 32% in a Week. Is It Time to Sell, or Load Up?",
-          "summary": "Key TakeawaysCredo shares fell 32% in the week through Nov. 5 in an AI hardware selloff, and Astera Labs and Marvell fell even further.",
-          "pub": "2026-11-08T04:02",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/credo-just-dropped-32-in-a-week-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261108-67q8fgqr",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "The Stocks That Got Hit Hardest This Week",
-          "summary": "Tech stocks wrapped up the week with gains, but it has still been a very tough five days.",
-          "pub": "2026-11-06T21:34",
-          "provider": "The Wall Street Journal",
-          "url": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026/card/the-stocks-that-got-hit-hardest-this-week-DLRF5wdD4jAoGBT46rER?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "CIEN",
       "tier": "確定",
       "streak": 43,
@@ -1035,48 +1035,48 @@
           "is_edgar": true
         },
         {
-          "title": "3 AI Chip Stocks to Buy in November After the October Sell-Off",
-          "summary": "AI stocks are trading at some attractive price tags right now.",
-          "pub": "2026-11-08T11:05",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/08/3-ai-chip-stocks-to-buy-in-november-after-the-octo/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Congressman Swaps One Chip Stock for Another: Here Are the Moves",
-          "summary": "The trading activity of members of Congress continues to be closely followed by investors. A recent trade saw a congressman sell shares of one semiconductor-related stock for another one in the same sector. Here are the trades. Congressman Swaps Chip...",
-          "pub": "2026-11-08T10:45",
-          "provider": "Benzinga",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/congressman-swaps-one-chip-stock-104507987.html",
+          "title": "Dow Jones Futures Loom For Damaged Market; Nvidia Probes Huang Spying Case",
+          "summary": "The stock market is damaged but Apple, Amazon and Microsoft are holding up. Nvidia is probing CEO Jensen Huang's spy case.",
+          "pub": "2026-11-08T20:59",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-broken-apple-amazon-microsoft-strong-berkshire-earnings/?src=A00220&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Is Micron Stock a Buy Right Now?",
-          "summary": "Micron shares are down 34% from their high, yet its memory chips are sold out years ahead, and its profits keep climbing.",
-          "pub": "2026-11-08T08:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/08/is-micron-stock-a-buy-right-now/",
+          "title": "What Does Micron Technology (MU) Taiwan Plant Halt Mean For Its Capacity Plans?",
+          "summary": "Micron Technology (NasdaqGS:MU) has halted construction of a new memory chip plant in Taiwan due to an escalating labor dispute. The pause is linked to unresolved contract negotiations with a local union representing construction and on site technical workers. The stoppage comes as chip stocks face",
+          "pub": "2026-11-08T19:06",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/articles/does-micron-technology-mu-taiwan-190626047.html",
+          "dir": -0.1,
+          "conf": 0.09999999999999998,
+          "type": "契約・提携",
+          "why": "+契約・提携 -リコール・停止"
+        },
+        {
+          "title": "America’s AI Spending Boom Just Crossed a Staggering $1 Trillion Milestone",
+          "summary": "Record shipments of AI hardware are pouring into American data centers, yet NVIDIA's stock has dropped more than 21% in a month. What does the import data reveal that the share price refuses to show, and who else profits?",
+          "pub": "2026-11-08T16:15",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/08/americas-ai-spending-boom-just-crossed-a-staggering-1-trillion-milestone/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Sandisk Lost 51% in a Month. Bernstein Sees 259% Upside From Here",
-          "summary": "Key TakeawaysSandisk stock is down 51% in a month, including a 22% crash on Nov. 5, despite a record quarter.",
-          "pub": "2026-11-08T08:13",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/sandisk-lost-51-in-a-month-bernstein-sees-259-upside-from-here?ref=yahoofinance&tlnk=yf-261108-x7rrjp34",
-          "dir": 0.3,
-          "conf": 0.29999999999999993,
-          "type": "記録更新",
-          "why": "+記録更新 -急落報道"
+          "title": "Prediction: This Will Be the Best-Performing AI Stock of 2027",
+          "summary": "Micron is well positioned to be a top 2027 stock.",
+          "pub": "2026-11-08T13:25",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/08/prediction-this-will-be-the-best-performing-ai-sto/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
