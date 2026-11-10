@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T22:22:50.163178+00:00",
+  "updated": "2026-11-10T07:19:31.367524+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -92,17 +92,17 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.6,
+      "news": 55.1,
       "confirm": 96.8,
-      "signal": 75.8,
+      "signal": 77.1,
       "mom": {
         "ret5": 0.0894,
         "vol_surge": 2.48
       },
       "earn_days": null,
       "consensus": {
-        "buy": 51,
-        "hold": 20,
+        "buy": 52,
+        "hold": 19,
         "sell": 0,
         "consensus": "Buy"
       },
@@ -120,10 +120,21 @@
           "is_edgar": true
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
+          "title": "アナリストupgrade: Perform→Outperform",
+          "summary": "",
+          "pub": "2026-11-09",
+          "provider": "Oppenheimer",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
           "summary": "",
           "pub": "2026-11-04",
-          "provider": "StoneX",
+          "provider": "Wells Fargo",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -131,10 +142,10 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Equal Weight→Equal Weight",
+          "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-04",
-          "provider": "Morgan Stanley",
+          "provider": "Stifel",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -145,18 +156,7 @@
           "title": "アナリストmaintain: Overweight→Overweight",
           "summary": "",
           "pub": "2026-11-04",
-          "provider": "Keybanc",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-04",
-          "provider": "Rosenblatt",
+          "provider": "Cantor Fitzgerald",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -244,85 +244,6 @@
       ]
     },
     {
-      "ticker": "CORZ",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 19,
-      "first_seen": "2026-07-08",
-      "name": "Core Scientific, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 60.0,
-      "confirm": 65.1,
-      "signal": 70.2,
-      "mom": {
-        "ret5": 0.0172,
-        "vol_surge": 1.66
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
-          "summary": "",
-          "pub": "2026-11-05",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000028",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "These Former Bitcoin Miners Embraced AI. Was That the Right Move?",
-          "summary": "Former Bitcoin miners are ready to cash in on data centers, but a blue wave adds several conditions they must navigate first, Needham says.",
-          "pub": "2026-11-09T20:17",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/bitcoin-miners-stock-ai-b92f5e21?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Core Scientific: 3 Key Takeaways for Long-Term Investors",
-          "summary": "Industrywide capital strain may leave Core Scientific with cheaper powered sites, but the company's own acquisition pipeline remains unproven.",
-          "pub": "2026-11-09T13:41",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/earnings/takeaways/2026/11/09/core-scientific-3-key-takeaways-for-long-term-investors/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is America’s AI Data Center Boom About to Hit a Brick Wall?",
-          "summary": "AI demand keeps surging, yet former Bitcoin miners are losing nearly half their value in a month. Money is tightening, Texas politicians are circling, and two December dates could decide which data center builders survive.",
-          "pub": "2026-11-08T16:34",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/08/is-americas-ai-data-center-boom-about-to-hit-a-brick-wall/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Core Scientific Is Quitting Bitcoin Mining as It Now Makes About 92% of Its Revenue Renting to AI Customers",
-          "summary": "Core Scientific has put a year-end date on abandoning the business that made its name, and its stock keeps sliding anyway. Behind the pivot sit one dominant tenant, a mountain of debt, and two milestones that could decide everything.",
-          "pub": "2026-11-07T19:52",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/07/core-scientific-is-quitting-bitcoin-mining-as-it-now-makes-about-92-of-its-revenue-renting-to-ai-customers/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "GENI",
       "tier": "確定",
       "streak": 43,
@@ -401,12 +322,91 @@
       ]
     },
     {
+      "ticker": "CORZ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 24,
+      "first_seen": "2026-07-08",
+      "name": "Core Scientific, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 55.0,
+      "confirm": 65.2,
+      "signal": 67.8,
+      "mom": {
+        "ret5": 0.0172,
+        "vol_surge": 1.67
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-11-05",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000028",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Cipher Digital Rises 4%, Riot Up 6% as Morgan Stanley Calls Powered Shell Stocks a Buying Opportunity",
+          "summary": "Key TakeawaysCipher Digital rose 4% after Morgan Stanley cut its price target to $27. 50 from $51.",
+          "pub": "2026-11-09T22:18",
+          "provider": "TIKR",
+          "url": "https://www.tikr.com/blog/cipher-digital-rises-4-riot-up-6-as-morgan-stanley-calls-powered-shell-stocks-a-buying-opportunity?ref=yahoofinance&tlnk=yf-261109-998ccc76",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "These Former Bitcoin Miners Embraced AI. Was That the Right Move?",
+          "summary": "Former Bitcoin miners are ready to cash in on data centers, but a blue wave adds several conditions they must navigate first, Needham says.",
+          "pub": "2026-11-09T20:17",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/bitcoin-miners-stock-ai-b92f5e21?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Core Scientific: 3 Key Takeaways for Long-Term Investors",
+          "summary": "Industrywide capital strain may leave Core Scientific with cheaper powered sites, but the company's own acquisition pipeline remains unproven.",
+          "pub": "2026-11-09T13:41",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/earnings/takeaways/2026/11/09/core-scientific-3-key-takeaways-for-long-term-investors/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Is America’s AI Data Center Boom About to Hit a Brick Wall?",
+          "summary": "AI demand keeps surging, yet former Bitcoin miners are losing nearly half their value in a month. Money is tightening, Texas politicians are circling, and two December dates could decide which data center builders survive.",
+          "pub": "2026-11-08T16:34",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/08/is-americas-ai-data-center-boom-about-to-hit-a-brick-wall/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 13,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -531,17 +531,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 12,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
       "news": 53.8,
-      "confirm": 47.5,
-      "signal": 62.0,
+      "confirm": 47.7,
+      "signal": 62.1,
       "mom": {
         "ret5": -0.0557,
-        "vol_surge": 1.95
+        "vol_surge": 1.96
       },
       "earn_days": null,
       "consensus": null,
@@ -571,6 +571,17 @@
           "is_edgar": true
         },
         {
+          "title": "3 US AI Chip Stocks Beyond Nvidia Stock Key Person Risk",
+          "summary": "Nvidia’s sudden governance storm, from Jensen Huang’s admitted relationship with an alleged Chinese spy to talk of federal scrutiny, has put a harsh spotlight on what happens when too much rides on one leader. Investors are now hunting for large-cap chip stocks tied to AI demand where the story is l",
+          "pub": "2026-11-10T04:32",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/3-us-ai-chip-stocks-043225535.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
           "title": "Seagate Soars 10% in AI Rebound as Morgan Stanley Sees “Strong Fundamentals and Weak Sentiment”",
           "summary": "Key TakeawaysSeagate shares jumped 10% today as AI hardware stocks, including Coherent, bounced back from last week’s selloff. Morgan Stanley kept Seagate as a top pick with a $1,148 price target, citing its strong fundamentals and weak sentiment.",
           "pub": "2026-11-09T18:55",
@@ -591,17 +602,85 @@
           "conf": 0.5,
           "type": "急騰報道",
           "why": "+急騰報道 -訴訟・調査"
+        }
+      ]
+    },
+    {
+      "ticker": "BMY",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
+      "persist": 100,
+      "news": 52.4,
+      "confirm": 42.9,
+      "signal": 60.0,
+      "mom": {
+        "ret5": -0.014,
+        "vol_surge": 0.81
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
+          "summary": "",
+          "pub": "2026-10-29",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000022",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
         },
         {
-          "title": "Credo Stock Has a Powerful Growth Story, but Is It Already Priced In?",
-          "summary": "Credo just posted triple-digit revenue growth and its eighth straight earnings beat, yet the stock lost a third of its value in a month. Two big customers and one valuation gap might explain why the market and our model disagree.",
-          "pub": "2026-11-09T15:33",
+          "title": "Xenon Pharmaceuticals Q3 Earnings Call Highlights",
+          "summary": "Xenon Pharmaceuticals (NASDAQ:XENE) expects pivotal depression study results in December, earlier than previously projected, while preparing for a potential U.S. launch of its lead epilepsy drug and advancing two pain treatments into midstage testing. On its third-quarter 2026 earnings call, the co",
+          "pub": "2026-11-10T03:14",
+          "provider": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-xenon-pharmaceuticals-q3-earnings-call-highlights-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Trump’s Plan to Lower Drug Prices in U.S. Is Leading to Fewer New Drugs in Europe",
+          "summary": "An analysis shows that 27% fewer drugs launched in Europe since President Trump’s international drug-pricing policy began.",
+          "pub": "2026-11-10T01:30",
+          "provider": "The Wall Street Journal",
+          "url": "https://www.wsj.com/health/pharma/trumps-plan-to-lower-drug-prices-in-u-s-is-leading-to-fewer-new-drugs-in-europe-2b3d8d9d?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Bristol Myers Squibb (BMY) Reports 56 Week Pediatric Phase 3 Camzyos Data",
+          "summary": "Bristol-Myers Squibb (NYSE:BMY) reported new 56-week Phase 3 data for Camzyos in pediatric obstructive hypertrophic cardiomyopathy. The updated results show sustained efficacy over 56 weeks in children with symptomatic oHCM who were previously treated in shorter-term studies. Safety findings from th",
+          "pub": "2026-11-09T17:18",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/healthcare/articles/bristol-myers-squibb-bmy-reports-171806179.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "5 Defensive Dividend Stocks Yielding Up to 8.7% for Retirement Income",
+          "summary": "Recessions punish shaky payouts, but some companies keep collecting cash anyway. From power lines to pipelines to pill bottles, five low-beta names promise income, yet one of them runs coverage tighter than the rest. Which one deserves your trust?",
+          "pub": "2026-11-09T13:37",
           "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/09/credo-stock-has-a-powerful-growth-story-but-is-it-already-priced-in/",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
+          "url": "https://247wallst.com/investing/2026/11/09/5-defensive-dividend-stocks-yielding-up-to-8-7-for-retirement-income/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -611,7 +690,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 4,
+      "today_rank": 3,
       "first_seen": "2026-07-08",
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
@@ -666,10 +745,10 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Equal Weight→Equal Weight",
+          "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "Morgan Stanley",
+          "provider": "Truist Securities",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -677,172 +756,15 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Neutral→Neutral",
+          "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "Cantor Fitzgerald",
+          "provider": "DA Davidson",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
           "type": "格付",
           "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
-      "ticker": "BMY",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 50.8,
-      "confirm": 42.9,
-      "signal": 59.2,
-      "mom": {
-        "ret5": -0.014,
-        "vol_surge": 0.81
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表・Reg FD開示",
-          "summary": "",
-          "pub": "2026-10-29",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000022",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Bristol Myers Squibb (BMY) Reports 56 Week Pediatric Phase 3 Camzyos Data",
-          "summary": "Bristol-Myers Squibb (NYSE:BMY) reported new 56-week Phase 3 data for Camzyos in pediatric obstructive hypertrophic cardiomyopathy. The updated results show sustained efficacy over 56 weeks in children with symptomatic oHCM who were previously treated in shorter-term studies. Safety findings from th",
-          "pub": "2026-11-09T17:18",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/healthcare/articles/bristol-myers-squibb-bmy-reports-171806179.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "5 Defensive Dividend Stocks Yielding Up to 8.7% for Retirement Income",
-          "summary": "Recessions punish shaky payouts, but some companies keep collecting cash anyway. From power lines to pipelines to pill bottles, five low-beta names promise income, yet one of them runs coverage tighter than the rest. Which one deserves your trust?",
-          "pub": "2026-11-09T13:37",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/09/5-defensive-dividend-stocks-yielding-up-to-8-7-for-retirement-income/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Will Bristol Myers' Growth Brands Offset Eliquis Headwinds?",
-          "summary": "Bristol Myers' Growth Portfolio drives 57% of revenues, with key brands gaining traction to offset legacy drug declines and support growth.",
-          "pub": "2026-11-09T12:51",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/bristol-myers-growth-brands-offset-125100787.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "MRK's 2027 Outlook Challenging, Long-Term Prospects Promising",
-          "summary": "Merck's 2027 growth faces generic pressures, vaccine weakness and Keytruda slowdown, but its expanding pipeline offers promising long-term potential.",
-          "pub": "2026-11-09T12:48",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/mrks-2027-outlook-challenging-long-124800780.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        }
-      ]
-    },
-    {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 11,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 52.6,
-      "confirm": 39.1,
-      "signal": 59.0,
-      "mom": {
-        "ret5": -0.0528,
-        "vol_surge": 1.33
-      },
-      "earn_days": 31,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Coherent Jumps 13% as Optical Stocks Extend AI Rebound; Lumentum Surges 11%, Applied Optoelectronics Rises 4%",
-          "summary": "Optical stocks are bouncing back from last week's AI selloff, but the gains are far from equal. Cash burn, a pending Marvell deal, and a stark analyst split explain why one name pulls ahead while another lags.",
-          "pub": "2026-11-09T15:58",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/09/coherent-jumps-13-as-optical-stocks-extend-ai-rebound-lumentum-surges-11-applied-optoelectronics-rises-4/",
-          "dir": 0.5,
-          "conf": 0.4999999999999999,
-          "type": "契約・提携",
-          "why": "+契約・提携 +急騰報道 -急落報道"
-        },
-        {
-          "title": "Ciena’s Growth Rides on the Same Cloud Buyers as Arista. Arista Just Reported.",
-          "summary": "Key TakeawaysArista Networks’s (ANET:NYSE) Q3 revenue rose 58. 5% to $3.",
-          "pub": "2026-11-09T14:06",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/ciena-stock-arista-earnings-cloud-spending-outlook?ref=yahoofinance&tlnk=yf-261109-jf98x529",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What Is Behind The Move In Arista Stock?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-07T12:49",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/anet/articles/623737/what-is-behind-the-move-in-arista-stock/2026-11-07",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What Changed In Arista's Story?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-06T17:57",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/anet/articles/623302/what-changed-in-aristas-story/2026-11-06",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why Is Arista Stock Falling?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-06T16:35",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/anet/articles/623355/why-is-arista-stock-falling/2026-11-06",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -852,17 +774,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 18,
-      "today_rank": 18,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
       "persist": 100,
       "news": 56.8,
-      "confirm": 30.9,
-      "signal": 58.7,
+      "confirm": 31.9,
+      "signal": 58.9,
       "mom": {
         "ret5": -0.1044,
-        "vol_surge": 1.73
+        "vol_surge": 1.79
       },
       "earn_days": null,
       "consensus": null,
@@ -930,7 +852,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 3,
+      "today_rank": 4,
       "first_seen": "2026-08-08",
       "name": "Datadog, Inc.",
       "sector": "Technology",
@@ -1004,19 +926,97 @@
       ]
     },
     {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 9,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.6,
+      "confirm": 39.1,
+      "signal": 58.5,
+      "mom": {
+        "ret5": -0.0528,
+        "vol_surge": 1.33
+      },
+      "earn_days": 30,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Nvidia, AMD, CoreWeave, Coherent, First Solar, Trade Desk, and More Stocks That Explain Today’s Market",
+          "summary": "Nvidia falls after the chip maker’s board launches an investigation into reports that CEO Jensen Huang was targeted by a suspected Chinese spy.",
+          "pub": "2026-11-09T21:25",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/stock-movers-d80c8da0?siteid=yhoof2&yptr=yahoo",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品 -訴訟・調査"
+        },
+        {
+          "title": "Coherent Jumps 13% as Optical Stocks Extend AI Rebound; Lumentum Surges 11%, Applied Optoelectronics Rises 4%",
+          "summary": "Optical stocks are bouncing back from last week's AI selloff, but the gains are far from equal. Cash burn, a pending Marvell deal, and a stark analyst split explain why one name pulls ahead while another lags.",
+          "pub": "2026-11-09T15:58",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/09/coherent-jumps-13-as-optical-stocks-extend-ai-rebound-lumentum-surges-11-applied-optoelectronics-rises-4/",
+          "dir": 0.5,
+          "conf": 0.4999999999999999,
+          "type": "契約・提携",
+          "why": "+契約・提携 +急騰報道 -急落報道"
+        },
+        {
+          "title": "Ciena’s Growth Rides on the Same Cloud Buyers as Arista. Arista Just Reported.",
+          "summary": "Key TakeawaysArista Networks’s (ANET:NYSE) Q3 revenue rose 58. 5% to $3.",
+          "pub": "2026-11-09T14:06",
+          "provider": "TIKR",
+          "url": "https://www.tikr.com/blog/ciena-stock-arista-earnings-cloud-spending-outlook?ref=yahoofinance&tlnk=yf-261109-jf98x529",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "What Is Behind The Move In Arista Stock?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "pub": "2026-11-07T12:49",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/stock/anet/articles/623737/what-is-behind-the-move-in-arista-stock/2026-11-07",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "What Changed In Arista's Story?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "pub": "2026-11-06T17:57",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/stock/anet/articles/623302/what-changed-in-aristas-story/2026-11-06",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "WDC",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 14,
+      "today_rank": 17,
       "first_seen": "2026-07-21",
       "name": "Western Digital Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 55.1,
+      "news": 54.1,
       "confirm": 21.2,
-      "signal": 55.0,
+      "signal": 54.5,
       "mom": {
         "ret5": -0.1442,
         "vol_surge": 1.08
@@ -1024,6 +1024,28 @@
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Review & Preview: Dip Buyers Unite",
+          "summary": "Indexes popped as investors bought the dip, fueling a rebound rally on Wall Street.",
+          "pub": "2026-11-10T00:55",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/stocks-today-indexes-rise-investors-buy-tech-ai-dip-73965a23?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Western Digital or Micron? Jim Cramer Says “I Think Micron’s a Better Company.” Here’s the Test",
+          "summary": "Key TakeawaysWestern Digital (WDC) stock fell approximately 28% in the five trading sessions ended November 6 before rebounding 9. 9% to $289.",
+          "pub": "2026-11-10T00:32",
+          "provider": "TIKR",
+          "url": "https://www.tikr.com/blog/western-digital-or-micron-jim-cramer-says-i-think-microns-a-better-company-heres-the-test?ref=yahoofinance&tlnk=yf-261109-x6xcjv7g",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Arista Networks & 2 Momentum Stocks to Buy for Big Gains",
           "summary": "Arista Networks, Western Digital and Quanta Services stand out as top Driehaus momentum picks, backed by earnings surprises and strong growth projections.",
@@ -1056,28 +1078,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron Has Lost Over 40% Since June. Where Does Its Price Target Stand Now?",
-          "summary": "Micron just guided to the biggest quarter in its history, yet the market is treating the memory boom like it already peaked. Does one brutal chip selloff reveal a real warning, or a rare mismatch between fear and fundamentals?",
-          "pub": "2026-11-09T13:47",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/09/micron-has-lost-over-40-since-june-where-does-its-price-target-stand-now/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Is Western Digital Emerging as a Big Winner in the AI Storage Boom?",
-          "summary": "WDC is capitalizing on AI-driven storage demand, with surging cloud revenue, higher-capacity HDD adoption and strong fiscal 2027 growth prospects.",
-          "pub": "2026-11-09T12:16",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/western-digital-emerging-big-winner-121600337.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -1087,19 +1087,19 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 16,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 48.1,
+      "news": 40.5,
       "confirm": 28.6,
-      "signal": 53.7,
+      "signal": 50.0,
       "mom": {
         "ret5": -0.1205,
         "vol_surge": 1.57
       },
-      "earn_days": 44,
+      "earn_days": 43,
       "consensus": null,
       "headlines": [
         {
@@ -1115,44 +1115,44 @@
           "is_edgar": true
         },
         {
-          "title": "Nvidia stock sinks 4% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-          "summary": "Nvidia sank on Monday, while the rest of the chip sector rallied.",
-          "pub": "2026-11-09T13:03",
-          "provider": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-as-chipmaker-investigates-ceo-jensen-huangs-relationship-with-alleged-chinese-spy-130346548.html",
-          "dir": -0.9,
-          "conf": 0.9,
-          "type": "急騰報道",
-          "why": "+急騰報道 -訴訟・調査 -急落報道"
-        },
-        {
-          "title": "Is Micron a Millionaire-Maker Stock?",
-          "summary": "It's a smart move to buy Micron's shares after their recent pullback.",
-          "pub": "2026-11-09T19:50",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/09/is-micron-a-millionaire-maker-stock/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron Soars 5% as TSMC Sticks to the “Global Logic IC” Industry, Not Memory",
-          "summary": "Key TakeawaysMicron shares jumped 5% today after TSMC said it remains focused on logic chips, as Applied Materials and other chip stocks rebounded. TSMC staying out of memory removes Micron’s newest supply worry, though China’s CXMT is still pushing into server memory.",
-          "pub": "2026-11-09T19:35",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/micron-soars-5-as-tsmc-sticks-to-the-global-logic-ic-industry-not-memory?ref=yahoofinance&tlnk=yf-261109-346xjcj3",
+          "title": "Micron, FormFactor, Amkor, Teradyne, and Nvidia shares skyrocket, what you need to know",
+          "summary": "A number of stocks jumped in the morning session after dip-buyers moved into beaten-down semiconductor and hardware names following the sector's steepest one-day rout in 19 months.",
+          "pub": "2026-11-10T02:45",
+          "provider": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-formfactor-amkor-teradyne-nvidia-024536276.html",
           "dir": 0.3,
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
         },
         {
-          "title": "Micron Stock Gets Some Relief as This Big Threat Got Kicked Into the Long Grass",
-          "summary": "Micron stock has struggled, but fears of memory-chip competition might be exaggerated.",
-          "pub": "2026-11-09T18:10",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/micron-stock-price-threat-memory-e04a2bf1?siteid=yhoof2&yptr=yahoo",
+          "title": "Western Digital or Micron? Jim Cramer Says “I Think Micron’s a Better Company.” Here’s the Test",
+          "summary": "Key TakeawaysWestern Digital (WDC) stock fell approximately 28% in the five trading sessions ended November 6 before rebounding 9. 9% to $289.",
+          "pub": "2026-11-10T00:32",
+          "provider": "TIKR",
+          "url": "https://www.tikr.com/blog/western-digital-or-micron-jim-cramer-says-i-think-microns-a-better-company-heres-the-test?ref=yahoofinance&tlnk=yf-261109-x6xcjv7g",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why Micron Technology Stock Gained On Monday",
+          "summary": "Micron stock is bouncing back as chip stocks recover from last week's midterm-driven sell-off, but I think the drop showed how much of the share price rests on perception. With data center opposition growing, especially at the local level, I think there's a good chance construction slows enough to m",
+          "pub": "2026-11-09T23:07",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/09/why-micron-technology-stock-gained-on-monday/",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Micron Technology: Is the Stock a No-Brainer Buy at Less Than $740?",
+          "summary": "The memory stock is trading at levels it hasn't been at in months.",
+          "pub": "2026-11-09T22:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/09/micron-technology-is-the-stock-a-no-brainer-buy-at-less-than-740/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -1163,17 +1163,73 @@
   ],
   "alert_summary": {
     "5": {
-      "n": 1170,
+      "n": 1165,
       "hit_rate": 0.49,
-      "avg_excess": -0.0005
+      "avg_excess": 0.0001
     },
     "20": {
-      "n": 1078,
+      "n": 1074,
       "hit_rate": 0.49,
-      "avg_excess": 0.0017
+      "avg_excess": 0.0012
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-11-10",
+      "ticker": "FLYW",
+      "signal": 77.2,
+      "price": 22.13,
+      "spy": 752.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-10",
+      "ticker": "AMD",
+      "signal": 77.1,
+      "price": 508.58,
+      "spy": 752.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-10",
+      "ticker": "NEM",
+      "signal": 70.6,
+      "price": 125.16,
+      "spy": 752.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-10",
+      "ticker": "GENI",
+      "signal": 69.3,
+      "price": 6.2,
+      "spy": 752.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-10",
+      "ticker": "CORZ",
+      "signal": 67.8,
+      "price": 12.72,
+      "spy": 752.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-10",
+      "ticker": "AA",
+      "signal": 65.3,
+      "price": 41.82,
+      "spy": 752.6900024414062,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-10",
+      "ticker": "COUR",
+      "signal": 65.0,
+      "price": 3.75,
+      "spy": 752.6900024414062,
+      "grades": {}
+    },
     {
       "date": "2026-11-09",
       "ticker": "FLYW",
@@ -1277,79 +1333,23 @@
       "price": 21.57,
       "spy": 735.2899780273438,
       "grades": {}
-    },
-    {
-      "date": "2026-11-07",
-      "ticker": "KGC",
-      "signal": 76.6,
-      "price": 22.24,
-      "spy": 735.2899780273438,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-07",
-      "ticker": "NEM",
-      "signal": 75.1,
-      "price": 120.91,
-      "spy": 735.2899780273438,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-07",
-      "ticker": "COUR",
-      "signal": 73.0,
-      "price": 3.74,
-      "spy": 735.2899780273438,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-07",
-      "ticker": "GENI",
-      "signal": 66.2,
-      "price": 5.97,
-      "spy": 735.2899780273438,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-07",
-      "ticker": "BMY",
-      "signal": 65.6,
-      "price": 62.14,
-      "spy": 735.2899780273438,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-06",
-      "ticker": "FLYW",
-      "signal": 77.9,
-      "price": 21.26,
-      "spy": 733.0,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-06",
-      "ticker": "NEM",
-      "signal": 75.6,
-      "price": 119.71,
-      "spy": 733.0,
-      "grades": {}
     }
   ],
   "composition": {
     "composition": {
-      "persist": 0.219,
-      "news": 0.488,
-      "confirm": 0.292
+      "persist": 0.215,
+      "news": 0.49,
+      "confirm": 0.295
     },
     "ic": {
-      "persist": -0.227,
-      "news": 0.067,
-      "confirm": -0.081
+      "persist": -0.237,
+      "news": 0.068,
+      "confirm": -0.078
     },
     "multipliers": {
-      "persist": 0.659,
+      "persist": 0.645,
       "news": 1.101,
-      "confirm": 0.878
+      "confirm": 0.884
     },
     "graded_samples": 3105,
     "active": true,
