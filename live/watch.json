@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T06:47:39.784114+00:00",
+  "updated": "2026-11-13T19:43:21.202563+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -13,12 +13,12 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.2,
-      "confirm": 94.7,
-      "signal": 74.5,
+      "news": 50.1,
+      "confirm": 92.6,
+      "signal": 73.3,
       "mom": {
-        "ret5": 0.4473,
-        "vol_surge": 1.98
+        "ret5": 0.1805,
+        "vol_surge": 1.84
       },
       "earn_days": null,
       "consensus": {
@@ -92,17 +92,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 22,
+      "today_rank": 24,
       "first_seen": "2026-07-08",
       "name": "Core Scientific, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 57.7,
-      "confirm": 84.2,
-      "signal": 74.5,
+      "news": 56.9,
+      "confirm": 80.2,
+      "signal": 72.9,
       "mom": {
-        "ret5": 0.2636,
-        "vol_surge": 1.28
+        "ret5": 0.213,
+        "vol_surge": 1.01
       },
       "earn_days": null,
       "consensus": null,
@@ -118,6 +118,17 @@
           "type": "8-K 2.02",
           "why": "決算発表（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Wall St slides as Nvidia overhang weighs on tech",
+          "summary": "By Niket Nishant and Utkarsh Hathi Nov 13 (Reuters) - The major US stock indexes fell on Friday as fresh concerns about Nvidia reignited a selloff in technology shares, while softer October producer",
+          "pub": "2026-11-13T16:49",
+          "provider": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-dip-nvidia-tumult-103901600.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
         },
         {
           "title": "Surging Earnings Estimates Signal Upside for Core Scientific, Inc. (CORZ) Stock",
@@ -151,96 +162,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Cipher Digital Eyes 5.9 GW Pipeline: Can It Unlock Growth?",
-          "summary": "CIFR expands its 5.9 GW HPC pipeline with hyperscaler agreements and on-site power capabilities to capitalize on rising AI infrastructure demand.",
-          "pub": "2026-11-12T13:23",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/cipher-digital-eyes-5-9-132300628.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 24,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.2,
-      "confirm": 82.8,
-      "signal": 72.4,
-      "mom": {
-        "ret5": 0.2164,
-        "vol_surge": 1.19
-      },
-      "earn_days": 40,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-11-05",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926123389",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "5 Best Growth Stocks for the Next 5 Years",
-          "summary": "Technology stocks went from celebration to rout within two sessions this month. On Wednesday, November 4, equities rallied after Democrats swept Congress in the midterm elections. By Thursday, the S&P 500 had fallen 4.36% and the Dow had lost 3.44%, while the Nasdaq Composite closed 5.52% lower, its",
-          "pub": "2026-11-12T23:11",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-growth-stocks-next-231119066.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "5 Unrivaled Stocks to Buy for the Next Decade",
-          "summary": "Wall Street had its worst day since April 2025 last Thursday. The Nasdaq Composite fell 5.5%, the S&P 500 dropped 4.4%, and the Philadelphia Semiconductor Index plunged 12.2%. Two worries drove the selling. Investors doubt that heavy spending on artificial intelligence will pay off, and candidates w",
-          "pub": "2026-11-12T22:33",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-unrivaled-stocks-buy-next-223321955.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Micron, Other Memory Chip Stocks Fall on Nvidia Shakeup. Why They’re at Risk.",
-          "summary": "Shares of Micron, SK Hynix, and Sandisk were all down.",
-          "pub": "2026-11-12T22:24",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/micron-memory-chip-stocks-nvidia-shakeup-adf6b711?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Applied Materials’ Beat Gets a Lukewarm Reception as Nvidia Fallout Lingers",
-          "summary": "Sometimes even exceeding expectations doesn’t do the trick.",
-          "pub": "2026-11-12T22:21",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/applied-materials-earnings-stock-price-66c09c50?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
         }
       ]
     },
@@ -250,17 +171,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 8,
+      "today_rank": 7,
       "first_seen": "2026-09-10",
       "name": "Genius Sports Limited",
       "sector": "Communication Services",
       "persist": 100,
       "news": 66.4,
-      "confirm": 58.2,
-      "signal": 71.1,
+      "confirm": 61.7,
+      "signal": 72.1,
       "mom": {
-        "ret5": 0.0304,
-        "vol_surge": 0.94
+        "ret5": 0.0494,
+        "vol_surge": 0.79
       },
       "earn_days": null,
       "consensus": null,
@@ -333,12 +254,12 @@
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.6,
-      "confirm": 81.3,
-      "signal": 70.2,
+      "news": 49.9,
+      "confirm": 78.2,
+      "signal": 68.9,
       "mom": {
-        "ret5": 0.2692,
-        "vol_surge": 1.09
+        "ret5": 0.1601,
+        "vol_surge": 0.88
       },
       "earn_days": null,
       "consensus": null,
@@ -368,6 +289,17 @@
           "is_edgar": true
         },
         {
+          "title": "Credo Technology owns 93% of its AI cable niche—so why did it plunge 30%?",
+          "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+          "pub": "2026-11-13T12:42",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/credo-technology-owns-93-ai-124230415.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
           "title": "ALAB Benefits From Strong PCIe Demand: Can It Beat MRVL & CRDO?",
           "summary": "Astera Labs rides on strong PCIe demand and AI infrastructure growth, with Aries and Scorpio driving momentum amid rising competition from Marvell and Credo.",
           "pub": "2026-11-12T17:10",
@@ -388,17 +320,6 @@
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
-        },
-        {
-          "title": "Nvidia Sinks 11% on Report Board Will Oust Jensen Huang; Bernstein Downgrades: “We’ve Had Enough”",
-          "summary": "Key TakeawaysNVIDIA stock fell 11% on a report that its board is preparing to oust CEO Jensen Huang, and Bernstein, Evercore ISI and William Blair downgraded it. Super Micro Computer, Dell, Sandisk and Astera Labs fell with it, though the news says nothing about AI demand.",
-          "pub": "2026-11-12T14:06",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/nvidia-sinks-11-on-report-board-will-oust-jensen-huang-bernstein-downgrades-weve-had-enough?ref=yahoofinance&tlnk=yf-261112-mw4r43fw",
-          "dir": -1.0,
-          "conf": 1.0,
-          "type": "格下げ",
-          "why": "-格下げ -急落報道"
         }
       ]
     },
@@ -408,71 +329,385 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 18,
+      "today_rank": 21,
       "first_seen": "2026-07-21",
       "name": "Western Digital Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.6,
-      "confirm": 77.2,
-      "signal": 69.4,
+      "news": 49.0,
+      "confirm": 74.9,
+      "signal": 67.5,
       "mom": {
-        "ret5": 0.1628,
-        "vol_surge": 0.81
+        "ret5": 0.1147,
+        "vol_surge": 0.66
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "Sandisk, Micron, and SK Hynix Slide 3% as NVIDIA Shake-Up Hits Memory Stocks",
-          "summary": "When the AI industry's biggest name loses its chief executive, the chips that feed it feel the tremor first. Memory makers are sliding while tech climbs, and one of them has a surprisingly low multiple that cuts both ways.",
-          "pub": "2026-11-12T16:56",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/12/sandisk-micron-and-sk-hynix-slide-3-as-nvidia-shake-up-hits-memory-stocks/",
+          "title": "Chart of the Day: Sandisk Stock Looks Ready to Bounce Back",
+          "summary": "Sandisk stock has faced considerable selling pressure and is trading 64% below its 52-week high.",
+          "pub": "2026-11-13T19:33",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/sandisk-stock-ai-data-centers-3ea38c06?siteid=yhoof2&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Wall Street Bulls Look Optimistic About Western Digital (WDC): Should You Buy?",
-          "summary": "The average brokerage recommendation (ABR) for Western Digital (WDC) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?",
-          "pub": "2026-11-12T13:30",
+          "title": "Micron Is Down 20% in a Month. What Will It Take to Get MU Stock Back to $1,000?",
+          "summary": "Micron posted record results and still watched its shares tumble, while SanDisk and Western Digital fell even harder. Two forces, one in memory pricing and one in market mood, will decide whether the rebound ever comes.",
+          "pub": "2026-11-13T17:52",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/13/micron-is-down-20-in-a-month-what-will-it-take-to-get-mu-stock-back-to-1000/",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Here is Why Growth Investors Should Buy Western Digital (WDC) Now",
+          "summary": "Western Digital (WDC) is well positioned to outperform the market, as it exhibits above-average growth in financials.",
+          "pub": "2026-11-13T16:45",
           "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bulls-look-optimistic-133003573.html",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-growth-investors-buy-western-164502328.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Applied Materials Stock At $395: Can It Do What CoreWeave Did?",
+          "title": "SanDisk Stock At $937: Why So Cheap?",
           "summary": "More on the AI trade: our AI storyline page collects our pieces on AI stocks.",
-          "pub": "2026-11-12T09:42",
+          "pub": "2026-11-13T14:56",
           "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/amat/articles/624491/applied-materials-stock-at-395-can-it-do-what-coreweave-did/2026-11-12",
+          "url": "https://www.trefis.com/stock/sndk/articles/624470/sandisk-stock-at-937-why-so-cheap/2026-11-13",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Every December the Nasdaq-100 Reshuffles. QQQ Holders Feel It Even If They Never Trade",
-          "summary": "Every December, the Nasdaq-100 reshuffles. When the index changes its lineup, your fund's holdings change that week whether you do anything or not.",
-          "pub": "2026-11-11T23:03",
+          "title": "What Capital Group Global Growth (CGGO) Bought: Ciena Leads on Wednesday",
+          "summary": "The fund bought $42.5 million of Ciena and $39.6 million of Western Digital while selling $62.2 million of Nvidia.",
+          "pub": "2026-11-13T11:03",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/capital-group-global-growth-cggo-110359582.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CNQ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 14,
+      "today_rank": 15,
+      "first_seen": "2026-07-08",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 61.1,
+      "confirm": 52.7,
+      "signal": 66.8,
+      "mom": {
+        "ret5": 0.0174,
+        "vol_surge": 0.83
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Cenovus' Oil Sands Strength and Cost Discipline Support Growth",
+          "summary": "CVE's expanding oil sands portfolio, declining operating costs and strategic growth projects strengthen its production outlook and long-term profitability.",
+          "pub": "2026-11-13T17:14",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/cenovus-oil-sands-strength-cost-171400902.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "Chevron Eyes Biodiesel Growth With Iowa Facility Restart",
+          "summary": "CVX is moving to restart its Iowa biodiesel facility after a 2024 shutdown, as improving market conditions and a Landus deal support its U.S. fuel strategy.",
+          "pub": "2026-11-13T15:19",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/chevron-eyes-biodiesel-growth-iowa-151900022.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "Petrobras Lifts 2026 Cash Flow Forecast on Higher Oil Production",
+          "summary": "PBR raises its 2026 cash flow forecast to $45-$50 billion as higher oil production, faster offshore project execution and efficiency gains boost its outlook.",
+          "pub": "2026-11-12T15:25",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/petrobras-lifts-2026-cash-flow-152500177.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "3 Top Dividend Stocks to Maximize Your Retirement Income",
+          "summary": "The traditional ways to plan for your retirement may mean income can no longer cover expenses post-employment. But what if there was another option that could provide a steady, reliable source of income in your nest egg years?",
+          "pub": "2026-11-12T13:10",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-top-dividend-stocks-maximize-131003449.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Patterson-UTI Expects Higher Rig Demand as 2027 Outlook Improves",
+          "summary": "PTEN expects higher U.S. rig activity, rising dayrates and stronger demand for advanced drilling equipment to fuel growth into 2027.",
+          "pub": "2026-11-12T12:24",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/patterson-uti-expects-higher-rig-122400146.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 3,
+      "today_rank": 9,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 45.2,
+      "confirm": 76.1,
+      "signal": 66.0,
+      "mom": {
+        "ret5": 0.1489,
+        "vol_surge": 0.74
+      },
+      "earn_days": 27,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Is Nokia Attractive as AI Growth Meets Valuation and Execution Risks?",
+          "summary": "NOK's AI and Cloud growth prospects strengthen its outlook, but restructuring costs, weak cash conversion and mixed valuation warrant investor caution.",
+          "pub": "2026-11-13T17:57",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nokia-attractive-ai-growth-meets-175700285.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "リストラ",
+          "why": "-リストラ"
+        },
+        {
+          "title": "Nokia Falls 3.4% in a Week as AI Growth Collides With Cash Flow Risks",
+          "summary": "NOK shares fall 3.4% in a week despite surging AI demand, as weak cash conversion, restructuring costs and uneven telecom spending cloud its 2027 growth outlook.",
+          "pub": "2026-11-13T17:52",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nokia-falls-3-4-week-175200635.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "リストラ",
+          "why": "-リストラ"
+        },
+        {
+          "title": "VIAV's Q1 Beat and Q2 Outlook Highlight Data Center Momentum Ahead",
+          "summary": "VIAV's strong Q1 2027 earnings beat, upbeat Q2 2027 outlook and expanding data-center opportunities signal growth momentum, backed by rising optical-testing demand and margins.",
+          "pub": "2026-11-13T15:46",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viavs-q1-beat-q2-outlook-154600928.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "決算ビート",
+          "why": "+決算ビート +拡大・新製品"
+        },
+        {
+          "title": "Is VIAV a Buy Now as Growth Accelerates but Valuation Risks Persist?",
+          "summary": "VIAV's surging revenues, earnings and margins, rising estimates and strong data-center demand bolster its growth case, while valuation and execution risks persist.",
+          "pub": "2026-11-13T15:44",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viav-buy-now-growth-accelerates-154400677.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "VIAV Falls 11.6% in the Past Month: Is the Sell-Off an Opportunity?",
+          "summary": "VIAV shares fell 11.6% in a month despite surging revenues and earnings, as strong data-center demand, rising estimates and valuation shape its investment appeal.",
+          "pub": "2026-11-13T15:41",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viav-falls-11-6-past-154100871.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 20,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 41.8,
+      "confirm": 79.8,
+      "signal": 65.4,
+      "mom": {
+        "ret5": 0.1114,
+        "vol_surge": 0.99
+      },
+      "earn_days": 40,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-11-05",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926123389",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Chart of the Day: Sandisk Stock Looks Ready to Bounce Back",
+          "summary": "Sandisk stock has faced considerable selling pressure and is trading 64% below its 52-week high.",
+          "pub": "2026-11-13T19:33",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/sandisk-stock-ai-data-centers-3ea38c06?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Micron Stocks Fall 3.96% as Nvidia CEO Exit Drags Memory Shares Lower",
+          "summary": "The memory giant slid with the chip sector even though its latest guide called for about $61.5 billion in quarterly revenue.",
+          "pub": "2026-11-13T17:59",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-3-96-175931806.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Micron Is Down 20% in a Month. What Will It Take to Get MU Stock Back to $1,000?",
+          "summary": "Micron posted record results and still watched its shares tumble, while SanDisk and Western Digital fell even harder. Two forces, one in memory pricing and one in market mood, will decide whether the rebound ever comes.",
+          "pub": "2026-11-13T17:52",
           "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/11/11/every-december-the-nasdaq-100-reshuffles-qqq-holders-feel-it-even-if-they-never-trade/",
+          "url": "https://247wallst.com/investing/2026/11/13/micron-is-down-20-in-a-month-what-will-it-take-to-get-mu-stock-back-to-1000/",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "What Micron Stock Needs to Mount a Serious Rally",
+          "summary": "Micron stock is up 16% in the past five trading sessions. Watch these factors for what happens next.",
+          "pub": "2026-11-13T17:49",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/micron-stock-price-rally-memory-chips-cb346d83?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        }
+      ]
+    },
+    {
+      "ticker": "DDOG",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 2,
+      "first_seen": "2026-08-08",
+      "name": "Datadog, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 55.3,
+      "confirm": 55.2,
+      "signal": 64.7,
+      "mom": {
+        "ret5": 0.0265,
+        "vol_surge": 0.82
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-11-04",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026069792",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "PLTR's Rule of 40 Hits 158%: Can This Momentum Continue?",
+          "summary": "Palantir's Rule of 40 surges to 158% in Q3 2026, fueled by accelerating AI adoption, 96% revenue growth and expanding margins. Can the momentum last?",
+          "pub": "2026-11-13T17:40",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pltrs-rule-40-hits-158-174000798.html",
+          "dir": 0.7,
+          "conf": 0.7,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品 +急騰報道"
+        },
+        {
+          "title": "CoreWeave’s Demand is There, $41.6B of Corporate Debt Remains: What This Means for Nebius and CoreWeave",
+          "summary": "Both AI cloud providers say customers want more compute than they can deliver, yet the market punished one far harder after earnings. The gap in how each pays for growth may explain who holds up when the cheap money runs out.",
+          "pub": "2026-11-13T12:15",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/13/coreweaves-demand-is-there-41-6b-of-corporate-debt-remains-what-this-means-for-nebius-and-coreweave/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Micron, Sandisk Soar as CoreWeave CEO Says AI Demand Outpaces World's Capacity",
-          "summary": "Memory and storage stocks surged Wednesday after CoreWeave (NASDAQ:CRWV) reported blockbuster earnings, with CEO Michael Intrator dismissing fears that the artificial intelligence infrastructure boom was slowing. Sandisk (NASDAQ:SNDK) jumped nearly 17%, while Micron Technology (NASDAQ:MU) gained alm",
-          "pub": "2026-11-11T21:25",
-          "provider": "Benzinga Prediction Markets",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63169587/ai-memory-stocks?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
+          "title": "Why Did Rocket Stock Fall?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "pub": "2026-11-13T12:12",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/stock/rkt/articles/624918/why-did-rocket-stock-fall/2026-11-13",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Nebius Sustain 571% Revenue Growth Beyond Its Q3 AI Cloud Boom?",
+          "summary": "NBIS' Q3 revenues surged 571% on robust AI infrastructure demand, while rising customer commitments and aggressive capacity expansion fuel its growth outlook.",
+          "pub": "2026-11-13T11:54",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nebius-sustain-571-revenue-growth-115400245.html",
           "dir": 0.3,
           "conf": 0.3,
           "type": "急騰報道",
@@ -491,12 +726,12 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.8,
-      "confirm": 76.1,
-      "signal": 68.2,
+      "news": 50.4,
+      "confirm": 60.2,
+      "signal": 63.8,
       "mom": {
-        "ret5": 0.107,
-        "vol_surge": 0.74
+        "ret5": 0.0529,
+        "vol_surge": 0.62
       },
       "earn_days": null,
       "consensus": {
@@ -565,364 +800,6 @@
       ]
     },
     {
-      "ticker": "DDOG",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 3,
-      "first_seen": "2026-08-08",
-      "name": "Datadog, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.2,
-      "confirm": 67.9,
-      "signal": 67.9,
-      "mom": {
-        "ret5": 0.0565,
-        "vol_surge": 1.06
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-11-04",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026069792",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Palantir’s Growth Story Could Be Just Getting Started",
-          "summary": "Palantir just posted the fastest growth in its public history, yet shares dropped over 20% in a week. Behind the selloff sit a puzzling bookings number, rising dilution, and a valuation that leaves no room for error.",
-          "pub": "2026-11-12T16:33",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/12/palantirs-growth-story-could-be-just-getting-started/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Palo Alto Networks Heads 3 Top Cybersecurity Stocks To Watch",
-          "summary": "Cybersecurity quietly became front-page business news when AI firms started hiring former intelligence officers to guard against espionage and data theft. That shift highlights how protecting critical information is moving from a technical concern to a boardroom priority. For investors, this raises",
-          "pub": "2026-11-12T15:11",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/articles/palo-alto-networks-heads-3-151123464.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Palantir Grew Revenue 96%. Its Stock Fell 7% Because Bookings Rose Just 6%",
-          "summary": "Key TakeawaysPalantir’s third-quarter revenue rose 96% to $2. 313 billion, beating the $2.",
-          "pub": "2026-11-12T04:33",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/palantir-grew-revenue-96-its-stock-fell-7-because-bookings-rose-just-6?ref=yahoofinance&tlnk=yf-261112-h664ccgf",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "What Are Datadog Investors Betting On?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-12T00:26",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/ddog/articles/624343/what-are-datadog-investors-betting-on/2026-11-11",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "CNQ",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 14,
-      "first_seen": "2026-07-08",
-      "name": "Canadian Natural Resources Limi",
-      "sector": "Energy",
-      "persist": 100,
-      "news": 64.1,
-      "confirm": 50.9,
-      "signal": 67.7,
-      "mom": {
-        "ret5": 0.0039,
-        "vol_surge": 0.98
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Petrobras Lifts 2026 Cash Flow Forecast on Higher Oil Production",
-          "summary": "PBR raises its 2026 cash flow forecast to $45-$50 billion as higher oil production, faster offshore project execution and efficiency gains boost its outlook.",
-          "pub": "2026-11-12T15:25",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/petrobras-lifts-2026-cash-flow-152500177.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "3 Top Dividend Stocks to Maximize Your Retirement Income",
-          "summary": "The traditional ways to plan for your retirement may mean income can no longer cover expenses post-employment. But what if there was another option that could provide a steady, reliable source of income in your nest egg years?",
-          "pub": "2026-11-12T13:10",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-top-dividend-stocks-maximize-131003449.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Patterson-UTI Expects Higher Rig Demand as 2027 Outlook Improves",
-          "summary": "PTEN expects higher U.S. rig activity, rising dayrates and stronger demand for advanced drilling equipment to fuel growth into 2027.",
-          "pub": "2026-11-12T12:24",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/patterson-uti-expects-higher-rig-122400146.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Halliburton Expands Geothermal Footprint With Sage Geosystems Deal",
-          "summary": "HAL expands its geothermal footprint through Sage Geosystems' Project Vector, bringing its well construction and stimulation expertise to advanced energy.",
-          "pub": "2026-11-12T12:22",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/halliburton-expands-geothermal-footprint-sage-122200542.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +拡大・新製品"
-        },
-        {
-          "title": "How Earnings And Buybacks Will Impact Canadian Natural Resources Stock Investors",
-          "summary": "Canadian Natural Resources reported third quarter 2026 revenue of C$12,793 million and net income of C$2,997 million, affirmed a quarterly dividend of C$0.625 per share payable on January 5, 2027, and continued a sizable share repurchase program completed at C$3,555 million to date. The combination",
-          "pub": "2026-11-11T19:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-buybacks-impact-canadian-natural-191056075.html",
-          "dir": 0.5,
-          "conf": 0.5,
-          "type": "株主還元",
-          "why": "+株主還元"
-        }
-      ]
-    },
-    {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 3,
-      "today_rank": 9,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 46.0,
-      "confirm": 79.4,
-      "signal": 67.3,
-      "mom": {
-        "ret5": 0.2737,
-        "vol_surge": 0.96
-      },
-      "earn_days": 27,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Knightscope, Inc. (KSCP) Reports Q3 Loss, Misses Revenue Estimates",
-          "summary": "Knightscope (KSCP) delivered earnings and revenue surprises of +9.09% and -3.33%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "pub": "2026-11-12T22:05",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/knightscope-inc-kscp-reports-q3-220504771.html",
-          "dir": -0.8,
-          "conf": 0.8,
-          "type": "決算ミス",
-          "why": "-決算ミス"
-        },
-        {
-          "title": "The Open Question Under Arista Networks Stock's Price",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-12T15:26",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/anet/articles/624676/the-open-question-under-arista-networks-stocks-price/2026-11-12",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Nvidia Export Curbs Could Shift AI Demand Toward These Data Center Stocks",
-          "summary": "US scrutiny of Nvidia’s AI chips and tighter export control talk has put a spotlight on where future AI hardware demand might actually land. Policy noise can shift capital quickly by creating mispricing as traders react to headlines before the full business impact is clear. This article unpacks that",
-          "pub": "2026-11-12T00:20",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-export-curbs-could-shift-002027068.html",
-          "dir": -0.5,
-          "conf": 0.5,
-          "type": "規制・関税",
-          "why": "-規制・関税"
-        },
-        {
-          "title": "Ciena's $116M Free Cash Flow: Can Cash Generation Improve in FY27?",
-          "summary": "CIEN generates $116M in Q3 free cash flow despite rising working capital needs. Can strong revenue growth and expanding margins boost future cash generation?",
-          "pub": "2026-11-11T17:29",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cienas-116m-free-cash-flow-172900157.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
-        },
-        {
-          "title": "Who Is Paying For AOI's Cash Burn?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-10T13:11",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/aaoi/articles/624048/who-is-paying-for-aois-cash-burn/2026-11-10",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 13,
-      "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 63.6,
-      "signal": 64.6,
-      "mom": {
-        "ret5": 0.0528,
-        "vol_surge": 0.85
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Here’s a Cheap Stock Play on the Aluminum Market",
-          "summary": "The aluminum producer may not be what it once was, but there’s plenty of upside for investors.",
-          "pub": "2026-11-07T11:46",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/buy-alcoa-stock-price-pick-e64e30c8?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "DFSV Buys $7.4 Million More Cleveland-Cliffs on Wednesday",
-          "summary": "The fund sold a net $130.9 million of stock on Wednesday, Nov. 4, adding to 179 positions and trimming 246.",
-          "pub": "2026-11-06T11:05",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/dfsv-buys-7-4-million-110540177.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "BMY",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
-      "first_seen": "2026-07-08",
-      "name": "Bristol-Myers Squibb Company",
-      "sector": "Healthcare",
-      "persist": 100,
-      "news": 56.8,
-      "confirm": 41.2,
-      "signal": 61.3,
-      "mom": {
-        "ret5": -0.0128,
-        "vol_surge": 0.67
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "BioNTech May Be the Next Moderna. Even if it Isn’t, the Stock Is a Buy.",
-          "summary": "BioNTech has multiple catalysts that could generate a rally of 35% for the stock.",
-          "pub": "2026-11-13T01:02",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/buy-biontech-stock-price-pick-a64ac494?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Bristol Myers Squibb (BMY) Stock Looks Below Fair Value Following A 41% Run",
-          "summary": "Bristol-Myers Squibb has quietly turned in a strong share price run over the past few years, helped by fresh data for key therapies and a solid pipeline story. With the stock around US$62.91 at the last close, the real question for you is whether that level is backed up by the cash the business can",
-          "pub": "2026-11-12T22:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bristol-myers-squibb-bmy-stock-221050575.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Is Amgen Stock Priced Right Against Its Peers?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-12T19:15",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/amgn/articles/624559/is-amgen-stock-priced-right-against-its-peers/2026-11-12",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "BP or Bristol Myers Squibb: Only One Gets My Dividend Dollars for the Next 20 Years",
-          "summary": "Key TakeawaysBP yields 4. 7% and Bristol Myers Squibb yields 4.",
-          "pub": "2026-11-12T16:53",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/bp-or-bristol-myers-squibb-only-one-gets-my-dividend-dollars-for-the-next-20-years?ref=yahoofinancedividend&tlnk=yf-261112-m5739h5g",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Bristol Myers research chief to depart in ‘evolution’ of company’s structure",
-          "summary": "Robert Plenge is leaving as part of a shift that will see the company merge together its R&D department in a bid to speed development and capitalize on new technologies.",
-          "pub": "2026-11-12T16:03",
-          "provider": "BioPharma Dive",
-          "url": "https://www.biopharmadive.com/news/bristol-myers-robert-plenge-cristian-massacesi-research-transition/874476/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "FLYW",
       "tier": "確定",
       "streak": 43,
@@ -933,12 +810,12 @@
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
       "persist": 100,
-      "news": 46.2,
-      "confirm": 56.7,
-      "signal": 60.7,
+      "news": 44.2,
+      "confirm": 63.6,
+      "signal": 61.8,
       "mom": {
-        "ret5": 0.0099,
-        "vol_surge": 1.25
+        "ret5": 0.0394,
+        "vol_surge": 1.12
       },
       "earn_days": null,
       "consensus": null,
@@ -956,6 +833,17 @@
           "is_edgar": true
         },
         {
+          "title": "Stock Market Today: Nasdaq In Red As Nvidia Wipes Out $650 Billion; Applied Materials Sinks (Live Coverage)",
+          "summary": "The Dow Jones index fell Friday despite cooler-than-expected inflation data. AI giant Nvidia continued to fall.",
+          "pub": "2026-11-13T18:10",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ppi-inflation-data-cerebras-earnings/?src=A00220&yptr=yahoo",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
           "title": "Flywire (FLYW) Stock Still Offers Value After A 59% Run",
           "summary": "Flywire has ridden a strong run over the past year, which puts a spotlight on whether the business is now priced appropriately for the returns it earns on its capital. With expectations building after recent updates, the key issue is how much of those potential returns the current share price alread",
           "pub": "2026-11-07T11:09",
@@ -965,13 +853,114 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 6,
+      "today_rank": 14,
+      "first_seen": "2026-07-08",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 50.0,
+      "confirm": 47.8,
+      "signal": 59.9,
+      "mom": {
+        "ret5": 0.007,
+        "vol_surge": 0.71
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Here’s a Cheap Stock Play on the Aluminum Market",
+          "summary": "The aluminum producer may not be what it once was, but there’s plenty of upside for investors.",
+          "pub": "2026-11-07T11:46",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/buy-alcoa-stock-price-pick-e64e30c8?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "BMY",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 3,
+      "first_seen": "2026-07-08",
+      "name": "Bristol-Myers Squibb Company",
+      "sector": "Healthcare",
+      "persist": 100,
+      "news": 46.6,
+      "confirm": 51.2,
+      "signal": 59.2,
+      "mom": {
+        "ret5": 0.0249,
+        "vol_surge": 0.58
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "What Will Decide Merck Stock Over The Next Six Months?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "pub": "2026-11-13T16:35",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/stock/mrk/articles/625024/what-will-decide-merck-stock-over-the-next-six-months/2026-11-13",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "What Flywire (FLYW)'s Raised Full Year Guidance Means For Shareholders",
-          "summary": "Flywire reported third quarter 2026 sales of US$250.3 million and net income of US$74.54 million, raised full year 2026 FX neutral revenue less ancillary services growth guidance to 25% to 27%, and issued fourth quarter guidance for 14% to 20% FX neutral growth. The business continues to shift beyon",
-          "pub": "2026-11-06T18:14",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-raised-full-guidance-181448648.html",
+          "title": "BioNTech May Be the Next Moderna. Even if it Isn’t, the Stock Is a Buy.",
+          "summary": "The firm has multiple catalysts that could generate a rally of 35% for the stock.",
+          "pub": "2026-11-13T16:17",
+          "provider": "Barrons.com",
+          "url": "https://www.barrons.com/articles/buy-biontech-stock-price-pick-a64ac494?siteid=yhoof2&yptr=yahoo",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "How to Use the Years Between 62 and 75 to Turn a $1.05 Million IRA Into $5,100 a Month Tax-Free",
+          "summary": "When the paychecks stop at 62 and Social Security can wait, a short stretch of near-zero income opens a tax window most retirees never notice. Miss it, and the IRS decides how much you withdraw at 75.",
+          "pub": "2026-11-13T15:04",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/personal-finance/2026/11/13/how-to-use-the-years-between-62-and-75-to-turn-a-1-05-million-ira-into-5100-a-month-tax-free/",
+          "dir": -0.8,
+          "conf": 0.8,
+          "type": "決算ミス",
+          "why": "-決算ミス"
+        },
+        {
+          "title": "A Record-High Dividend Yield Can Be a Warning Sign. Just Ask Pfizer",
+          "summary": "A huge yield looks like a bargain until the payout gets cut. Six dividend stocks just hit record yields against their own history, and only some of them can afford what they pay shareholders.",
+          "pub": "2026-11-13T14:17",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/13/a-record-high-dividend-yield-can-be-a-warning-sign-just-ask-pfizer/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "BMS sets unified research and development structure for 2027",
+          "summary": "The new structure will unify the company's scientific and clinical expertise, covering both discovery and development.",
+          "pub": "2026-11-13T10:31",
+          "provider": "Pharmaceutical Technology",
+          "url": "https://www.pharmaceutical-technology.com/news/bms-unified-research-and-development-structure-2027/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -985,17 +974,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 7,
+      "today_rank": 6,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
       "persist": 100,
       "news": 55.8,
-      "confirm": 34.9,
-      "signal": 58.9,
+      "confirm": 34.6,
+      "signal": 58.8,
       "mom": {
-        "ret5": -0.0507,
-        "vol_surge": 1.01
+        "ret5": -0.0468,
+        "vol_surge": 0.91
       },
       "earn_days": null,
       "consensus": null,
@@ -1054,21 +1043,32 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 11,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
       "persist": 100,
-      "news": 50.0,
-      "confirm": 34.4,
-      "signal": 55.9,
+      "news": 51.0,
+      "confirm": 28.5,
+      "signal": 54.6,
       "mom": {
-        "ret5": -0.0591,
-        "vol_surge": 1.14
+        "ret5": -0.0681,
+        "vol_surge": 0.93
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Zacks Industry Outlook Highlights Fury Gold, Gold Royalty, Newmont Mining and B2Gold",
+          "summary": "FURY, GROY, NEM and BTG navigate gold mining headwinds through expanding projects, rising production and improving earnings estimates despite industry pressures.",
+          "pub": "2026-11-13T06:07",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/zacks-industry-outlook-highlights-fury-060700812.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
         {
           "title": "What Could Lift Iamgold Stock?",
           "summary": "For questions about this article or underlying research, email help@trefis.com.",
@@ -1108,17 +1108,6 @@
           "pub": "2026-11-12T11:04",
           "provider": "GuruFocus.com",
           "url": "https://finance.yahoo.com/markets/stocks/articles/avantis-u-large-cap-value-110454905.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What Is Driving Kinross Gold Stock?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-11T21:04",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/kgc/articles/624395/what-is-driving-kinross-gold-stock/2026-11-11",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
