@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-12T19:55:14.744303+00:00",
+  "updated": "2026-11-13T06:47:39.784114+00:00",
   "weights": {
-    "operating_leverage": 16.12,
-    "cost_stickiness": 8.04,
-    "survival_dd": 17.55,
+    "operating_leverage": 16.11,
+    "cost_stickiness": 8.02,
+    "survival_dd": 17.53,
     "rnd_intensity": 10.69,
-    "contrarian_inflection": 11.06,
+    "contrarian_inflection": 10.97,
     "capital_momentum": 11.16,
-    "holding_trend": 11.07,
-    "earnings_drift": 10.64,
+    "holding_trend": 11.05,
+    "earnings_drift": 10.63,
     "value_yield": 9.87
   },
   "default_weights": {
@@ -23,29 +23,29 @@
     "value_yield": 8
   },
   "multipliers": {
-    "operating_leverage": 1.075,
-    "cost_stickiness": 1.004,
-    "survival_dd": 1.17,
+    "operating_leverage": 1.074,
+    "cost_stickiness": 1.002,
+    "survival_dd": 1.169,
     "rnd_intensity": 0.972,
-    "contrarian_inflection": 1.006,
-    "capital_momentum": 1.014,
-    "holding_trend": 1.107,
-    "earnings_drift": 0.968,
-    "value_yield": 1.233
+    "contrarian_inflection": 0.998,
+    "capital_momentum": 1.015,
+    "holding_trend": 1.105,
+    "earnings_drift": 0.966,
+    "value_yield": 1.234
   },
   "ic": {
     "operating_leverage": 0.05,
-    "cost_stickiness": 0.003,
+    "cost_stickiness": 0.001,
     "survival_dd": 0.113,
     "rnd_intensity": -0.019,
-    "contrarian_inflection": 0.004,
+    "contrarian_inflection": -0.002,
     "capital_momentum": 0.01,
-    "holding_trend": 0.071,
-    "earnings_drift": -0.022,
+    "holding_trend": 0.07,
+    "earnings_drift": -0.023,
     "value_yield": 0.156
   },
-  "composite_ic": 0.107,
-  "graded_samples": 9520,
+  "composite_ic": 0.104,
+  "graded_samples": 9660,
   "active": true,
   "min_samples": 12,
   "horizons": [
@@ -53,7 +53,7 @@
     60
   ],
   "forget_days": 180,
-  "cohorts_tracked": 128,
+  "cohorts_tracked": 129,
   "note": "学習作動中（採点結果で重みを調整）",
   "concentration": {
     "warn": true,
@@ -63,6 +63,6 @@
     "top_n": 8,
     "note": "⚠ 上位8銘柄中5が「Technology」に集中（62%）— 過剰適応/テーマ偏りの兆候。一緒に上げ下げする点に注意。"
   },
-  "recorded_today": false,
-  "graded_events": 0
+  "recorded_today": true,
+  "graded_events": 2
 }
