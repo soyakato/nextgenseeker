@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T18:52:14.696341+00:00",
+  "updated": "2026-11-16T06:31:32.682302+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -13,9 +13,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.3,
+      "news": 55.2,
       "confirm": 94.0,
-      "signal": 75.0,
+      "signal": 76.4,
       "mom": {
         "ret5": 0.1893,
         "vol_surge": 1.93
@@ -41,10 +41,10 @@
           "is_edgar": true
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
+          "title": "アナリストmaintain: Sector Perform→Sector Perform",
           "summary": "",
           "pub": "2026-11-12",
-          "provider": "B of A Securities",
+          "provider": "RBC Capital",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -63,10 +63,10 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Sector Perform→Sector Perform",
+          "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-12",
-          "provider": "RBC Capital",
+          "provider": "B of A Securities",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -183,7 +183,7 @@
         "ret5": 0.1526,
         "vol_surge": 0.79
       },
-      "earn_days": 25,
+      "earn_days": 24,
       "consensus": null,
       "headlines": [
         {
@@ -244,6 +244,85 @@
       ]
     },
     {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 17,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.2,
+      "confirm": 80.6,
+      "signal": 70.0,
+      "mom": {
+        "ret5": 0.128,
+        "vol_surge": 1.04
+      },
+      "earn_days": 37,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-11-05",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926123389",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Why Micron Stock Is a Screaming Buy Before Year-End",
+          "summary": "Micron recently announced an expansion to its share buyback program.",
+          "pub": "2026-11-16T01:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/15/why-micron-stock-is-a-screaming-buy-before-year-end/",
+          "dir": 0.5,
+          "conf": 0.5,
+          "type": "株主還元",
+          "why": "+株主還元"
+        },
+        {
+          "title": "Popular fund manager switches Nvidia shares for Micron amid Huang drama",
+          "summary": "Hightower Advisors’ Stephanie Link gives reasons every investor should see for choosing Micron over Nvidia.",
+          "pub": "2026-11-15T21:07",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/popular-fund-manager-switches-nvidia-shares-for-micron-amid-huang-drama",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Prediction: This Will Be Micron's Stock Price by Late 2027 (Hint: Wall Street Expects 106% Upside)",
+          "summary": "Wall Street thinks Micron stock is deeply undervalued; the median analyst expects more than 100% upside in the next year.",
+          "pub": "2026-11-15T20:50",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/15/this-will-be-microns-stock-price-late-2027/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "3 Beaten-Down Stocks Under $10 to Buy in November",
+          "summary": "These three beaten-down growth stocks could be hiding the market's biggest opportunities.",
+          "pub": "2026-11-15T17:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/15/3-stocks-under-10-to-buy-in-november/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "WDC",
       "tier": "確定",
       "streak": 43,
@@ -254,9 +333,9 @@
       "name": "Western Digital Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 53.0,
+      "news": 52.0,
       "confirm": 75.5,
-      "signal": 69.8,
+      "signal": 69.3,
       "mom": {
         "ret5": 0.1208,
         "vol_surge": 0.7
@@ -264,6 +343,17 @@
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Western Digital Corp. (WDC) Faces Growing AI Spending Concerns After 17% Selloff",
+          "summary": "We just published our list, 10 Worst AI Infrastructure and Data Center Stocks to Buy According to Short Sellers, and Western Digital Corp. ranked 10th on this list. A steep selloff is unfolding around AI infrastructure and data center stocks, reflecting growing investor concerns about the sustainabi",
+          "pub": "2026-11-16T03:02",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/western-digital-corp-wdc-faces-030248231.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
         {
           "title": "5 AI Infrastructure Stocks to Watch After CoreWeave’s Earnings",
           "summary": "Why Are AI Infrastructure Stocks Under Pressure? AI infrastructure stocks have faced considerable selling pressure in recent weeks, as concerns over data center expansion, rising borrowing costs, and regulatory uncertainty have weighed on investor sentiment. According to Bloomberg, hedge funds sold",
@@ -307,96 +397,6 @@
           "conf": 0.8,
           "type": "決算ビート",
           "why": "+決算ビート"
-        },
-        {
-          "title": "Chart of the Day: Sandisk Stock Looks Ready to Bounce Back",
-          "summary": "Sandisk stock has faced considerable selling pressure and is trading 64% below its 52-week high.",
-          "pub": "2026-11-13T19:33",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/sandisk-stock-ai-data-centers-3ea38c06?siteid=yhoof2&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 17,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 49.0,
-      "confirm": 80.6,
-      "signal": 69.4,
-      "mom": {
-        "ret5": 0.128,
-        "vol_surge": 1.04
-      },
-      "earn_days": 38,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-11-05",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926123389",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "3 Beaten-Down Stocks Under $10 to Buy in November",
-          "summary": "These three beaten-down growth stocks could be hiding the market's biggest opportunities.",
-          "pub": "2026-11-15T17:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/15/3-stocks-under-10-to-buy-in-november/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "DRAM Just Got More Expensive Than AI Memory. Here’s Why Micron Could Soar in 2027",
-          "summary": "Every HBM stack built for an AI accelerator devours wafer capacity that ordinary memory once claimed, and Micron's own management admits it cannot see when the squeeze ends. Why that shortage could reward patient investors is the real story.",
-          "pub": "2026-11-15T17:02",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/15/dram-just-got-more-expensive-than-ai-memory-heres-why-micron-could-soar-in-2027/",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Traders Turn to Kalshi Stock ‘Perps’ on Nvidia and SpaceX as Leverage Fears Grow",
-          "summary": "A new way for traders to place leveraged bets on stock prices is growing in popularity as questions around the outlook for AI following the US midterm elections spur demand for hedging.",
-          "pub": "2026-11-15T15:00",
-          "provider": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/options/articles/traders-turn-kalshi-stock-perps-150000698.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron, Amazon, and IBM: My 3 Favorite Stocks to Buy and Hold Through 2030",
-          "summary": "Why would a cheap chip stock, a massive AI spender, and a business that has paid dividends since 1916 make a good team?",
-          "pub": "2026-11-15T10:37",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/15/micron-amazon-and-ibm-my-3-favorite-stocks-to-buy-and-hold-through-2030/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -486,7 +486,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 14,
+      "today_rank": 15,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
@@ -724,7 +724,7 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "Citigroup",
+          "provider": "Rosenblatt",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -732,10 +732,10 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Overweight→Overweight",
+          "title": "アナリストmaintain: Neutral→Neutral",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "Piper Sandler",
+          "provider": "Cantor Fitzgerald",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -874,7 +874,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 15,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -954,7 +954,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 12,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Newmont Corporation",
       "sector": "Basic Materials",
@@ -1029,17 +1029,73 @@
   ],
   "alert_summary": {
     "5": {
-      "n": 1152,
+      "n": 1151,
       "hit_rate": 0.5,
       "avg_excess": 0.0009
     },
     "20": {
-      "n": 1041,
+      "n": 1040,
       "hit_rate": 0.48,
-      "avg_excess": -0.0001
+      "avg_excess": -0.0004
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-11-16",
+      "ticker": "AMD",
+      "signal": 76.4,
+      "price": 534.06,
+      "spy": 754.3699951171875,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "CORZ",
+      "signal": 72.4,
+      "price": 14.52,
+      "spy": 754.3699951171875,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "CIEN",
+      "signal": 70.3,
+      "price": 280.54,
+      "spy": 754.3699951171875,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "MU",
+      "signal": 70.0,
+      "price": 778.31,
+      "spy": 754.3699951171875,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "WDC",
+      "signal": 69.3,
+      "price": 295.65,
+      "spy": 754.3699951171875,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "ALAB",
+      "signal": 68.8,
+      "price": 221.83,
+      "spy": 754.3699951171875,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "CNQ",
+      "signal": 67.8,
+      "price": 49.75,
+      "spy": 754.3699951171875,
+      "grades": {}
+    },
     {
       "date": "2026-11-15",
       "ticker": "AMD",
@@ -1143,81 +1199,25 @@
       "price": 49.75,
       "spy": 754.3699951171875,
       "grades": {}
-    },
-    {
-      "date": "2026-11-14",
-      "ticker": "ALAB",
-      "signal": 66.9,
-      "price": 221.83,
-      "spy": 754.3699951171875,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-14",
-      "ticker": "CIEN",
-      "signal": 66.2,
-      "price": 280.54,
-      "spy": 754.3699951171875,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-13",
-      "ticker": "AMD",
-      "signal": 74.5,
-      "price": 585.3,
-      "spy": 757.1199951171875,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-13",
-      "ticker": "CORZ",
-      "signal": 74.5,
-      "price": 14.38,
-      "spy": 757.1199951171875,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-13",
-      "ticker": "MU",
-      "signal": 72.4,
-      "price": 798.44,
-      "spy": 757.1199951171875,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-13",
-      "ticker": "GENI",
-      "signal": 71.1,
-      "price": 6.1,
-      "spy": 757.1199951171875,
-      "grades": {}
-    },
-    {
-      "date": "2026-11-13",
-      "ticker": "ALAB",
-      "signal": 70.2,
-      "price": 227.79,
-      "spy": 757.1199951171875,
-      "grades": {}
     }
   ],
   "composition": {
     "composition": {
-      "persist": 0.214,
-      "news": 0.486,
-      "confirm": 0.3
+      "persist": 0.215,
+      "news": 0.485,
+      "confirm": 0.301
     },
     "ic": {
-      "persist": -0.237,
-      "news": 0.066,
-      "confirm": -0.063
+      "persist": -0.231,
+      "news": 0.07,
+      "confirm": -0.057
     },
     "multipliers": {
-      "persist": 0.645,
-      "news": 1.099,
-      "confirm": 0.906
+      "persist": 0.653,
+      "news": 1.106,
+      "confirm": 0.915
     },
-    "graded_samples": 3135,
+    "graded_samples": 3105,
     "active": true,
     "min_samples": 10
   },
