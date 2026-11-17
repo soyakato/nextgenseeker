@@ -1,39 +1,33 @@
 {
-  "updated": "2026-11-17T07:55:57.957800+00:00",
+  "updated": "2026-11-17T20:56:13.700517+00:00",
   "data": {
     "regime": {
-      "label": "中立",
-      "desc": "強い方向感なし。標準の重み付けで",
-      "bench": 740.0,
-      "ma50": 763.5,
-      "ma200": 729.6,
-      "r20": -0.0346,
-      "vix": 22.9
+      "label": "リスクオフ",
+      "desc": "50日線割れ＋変動率上昇。モメンタム系の統計的傾きが反転しやすい局面 — 生存力・バリュー寄りの重みと小さいサイズを検討",
+      "bench": 730.1,
+      "ma50": 762.8,
+      "ma200": 729.8,
+      "r20": -0.0506,
+      "vix": 25.8
     },
     "sector_temp": [
       {
+        "sector": "Communication Services",
+        "avg": 59.5,
+        "n": 4,
+        "top": "GENI"
+      },
+      {
         "sector": "Consumer Defensive",
-        "avg": 58.0,
+        "avg": 58.2,
         "n": 2,
         "top": "COUR"
       },
       {
-        "sector": "Healthcare",
-        "avg": 53.1,
-        "n": 6,
-        "top": "BMY"
-      },
-      {
-        "sector": "Technology",
-        "avg": 52.3,
-        "n": 31,
-        "top": "AMD"
-      },
-      {
         "sector": "Basic Materials",
-        "avg": 51.6,
-        "n": 6,
-        "top": "NEM"
+        "avg": 54.9,
+        "n": 5,
+        "top": "AA"
       },
       {
         "sector": "Energy",
@@ -42,34 +36,40 @@
         "top": "CNQ"
       },
       {
-        "sector": "Communication Services",
-        "avg": 49.9,
-        "n": 3,
-        "top": "GENI"
+        "sector": "Technology",
+        "avg": 51.3,
+        "n": 32,
+        "top": "AMD"
       },
       {
         "sector": "Real Estate",
-        "avg": 47.5,
+        "avg": 48.3,
         "n": 2,
         "top": "HST"
       },
       {
+        "sector": "Industrials",
+        "avg": 46.6,
+        "n": 6,
+        "top": "ESLT"
+      },
+      {
+        "sector": "Healthcare",
+        "avg": 45.6,
+        "n": 4,
+        "top": "BMY"
+      },
+      {
         "sector": "Consumer Cyclical",
-        "avg": 45.3,
+        "avg": 45.6,
         "n": 5,
-        "top": "ASO"
+        "top": "AS"
       },
       {
         "sector": "Financial Services",
-        "avg": 36.5,
+        "avg": 36.4,
         "n": 5,
         "top": "AFRM"
-      },
-      {
-        "sector": "Industrials",
-        "avg": 36.5,
-        "n": 2,
-        "top": "FLNC"
       }
     ]
   }
