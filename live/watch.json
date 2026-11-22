@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T19:17:07.461461+00:00",
+  "updated": "2026-11-22T06:50:02.323967+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -86,7 +86,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 8,
+      "today_rank": 7,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
@@ -206,97 +206,12 @@
       ]
     },
     {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 28.4,
-      "signal": 53.4,
-      "mom": {
-        "ret5": -0.2054,
-        "vol_surge": 1.56
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 53,
-        "hold": 19,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 定款変更",
-          "summary": "",
-          "pub": "2026-11-20",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000218",
-          "dir": 0.0,
-          "conf": 0.2,
-          "type": "8-K 5.03",
-          "why": "定款変更（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 未登録株式の売出",
-          "summary": "",
-          "pub": "2026-11-16",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526462340",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 3.02",
-          "why": "未登録株式の売出（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-12",
-          "provider": "B of A Securities",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストupgrade: Market Perform→Outperform",
-          "summary": "",
-          "pub": "2026-11-12",
-          "provider": "William Blair",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Sector Perform→Sector Perform",
-          "summary": "",
-          "pub": "2026-11-12",
-          "provider": "RBC Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
       "ticker": "ALAB",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 10,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
@@ -365,6 +280,171 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 49.0,
+      "confirm": 28.4,
+      "signal": 52.9,
+      "mom": {
+        "ret5": -0.2054,
+        "vol_surge": 1.56
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 53,
+        "hold": 19,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 定款変更",
+          "summary": "",
+          "pub": "2026-11-20",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000218",
+          "dir": 0.0,
+          "conf": 0.2,
+          "type": "8-K 5.03",
+          "why": "定款変更（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 未登録株式の売出",
+          "summary": "",
+          "pub": "2026-11-16",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526462340",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 3.02",
+          "why": "未登録株式の売出（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストupgrade: Market Perform→Outperform",
+          "summary": "",
+          "pub": "2026-11-12",
+          "provider": "William Blair",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Sector Perform→Sector Perform",
+          "summary": "",
+          "pub": "2026-11-12",
+          "provider": "RBC Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-11-12",
+          "provider": "B of A Securities",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
+      "ticker": "WDC",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 14,
+      "today_rank": 19,
+      "first_seen": "2026-07-21",
+      "name": "Western Digital Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 55.7,
+      "confirm": 17.4,
+      "signal": 52.8,
+      "mom": {
+        "ret5": -0.1168,
+        "vol_surge": 0.83
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 株主総会結果",
+          "summary": "",
+          "pub": "2026-11-20",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026075289",
+          "dir": 0.0,
+          "conf": 0.2,
+          "type": "8-K 5.07",
+          "why": "株主総会結果（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 重要契約の締結",
+          "summary": "",
+          "pub": "2026-11-16",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526463554",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "8-K 1.01",
+          "why": "重要契約の締結（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Renaissance Technologies Grew Its SanDisk Stake More Than 55-Fold to $481 Million",
+          "summary": "A quant fund that never explains its trades just bet big on memory chips, right before the stock cratered. Before copying a filing that is weeks old, see what a 13F hides and which signals matter more.",
+          "pub": "2026-11-21T21:43",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/21/renaissance-technologies-grew-its-sandisk-stake-more-than-55-fold-to-481-million/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Stanley Druckenmiller and 11 Other Big Funds Bought Western Digital Last Quarter. Ken Fisher and 13 Others Sold. Who’s Right?",
+          "summary": "Key TakeawaysOf 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 12 bought Western Digital, Stanley Druckenmiller’s Duquesne Family Office among them, and 14 sold, Ken Fisher’s Fisher Investments among them.",
+          "pub": "2026-11-21T10:54",
+          "provider": "TIKR",
+          "url": "https://www.tikr.com/blog/stanley-druckenmiller-and-11-other-big-funds-bought-western-digital-last-quarter-ken-fisher-and-13-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261121-gp4hj6j2",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Western Digital (WDC) Secures A US$1.5b Credit Facility, Is The Pullback A Buying Opportunity?",
+          "summary": "Western Digital (WDC) just locked in a new five-year, US$1.5 billion senior unsecured revolving credit facility, replacing its prior loan agreement and paying off all amounts outstanding under that structure. The revolving facility lands as Western Digital’s share price has come under pressure, fall",
+          "pub": "2026-11-21T10:07",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-secures-us-100718526.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "契約・提携",
+          "why": "+契約・提携 +受注"
         }
       ]
     },
@@ -439,164 +519,6 @@
           "pub": "2026-11-20T11:09",
           "provider": "Reuters",
           "url": "https://finance.yahoo.com/healthcare/articles/big-pharma-eye-anthropic-says-110145414.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "WDC",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 20,
-      "first_seen": "2026-07-21",
-      "name": "Western Digital Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 55.0,
-      "confirm": 17.4,
-      "signal": 52.5,
-      "mom": {
-        "ret5": -0.1168,
-        "vol_surge": 0.83
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 株主総会結果",
-          "summary": "",
-          "pub": "2026-11-20",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026075289",
-          "dir": 0.0,
-          "conf": 0.2,
-          "type": "8-K 5.07",
-          "why": "株主総会結果（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 重要契約の締結",
-          "summary": "",
-          "pub": "2026-11-16",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526463554",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "8-K 1.01",
-          "why": "重要契約の締結（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Stanley Druckenmiller and 11 Other Big Funds Bought Western Digital Last Quarter. Ken Fisher and 13 Others Sold. Who’s Right?",
-          "summary": "Key TakeawaysOf 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 12 bought Western Digital, Stanley Druckenmiller’s Duquesne Family Office among them, and 14 sold, Ken Fisher’s Fisher Investments among them.",
-          "pub": "2026-11-21T10:54",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/stanley-druckenmiller-and-11-other-big-funds-bought-western-digital-last-quarter-ken-fisher-and-13-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261121-gp4hj6j2",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Western Digital (WDC) Secures A US$1.5b Credit Facility, Is The Pullback A Buying Opportunity?",
-          "summary": "Western Digital (WDC) just locked in a new five-year, US$1.5 billion senior unsecured revolving credit facility, replacing its prior loan agreement and paying off all amounts outstanding under that structure. The revolving facility lands as Western Digital’s share price has come under pressure, fall",
-          "pub": "2026-11-21T10:07",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-secures-us-100718526.html",
-          "dir": 1.0,
-          "conf": 1.0,
-          "type": "契約・提携",
-          "why": "+契約・提携 +受注"
-        },
-        {
-          "title": "Credo Technology Group vs. Western Digital: Which Technology Stock Is a Better Buy for 2027?",
-          "summary": "Credo's AI connectivity and Western Digital's storage rebound are very different bets, and the valuation gap between them may tip the scales.",
-          "pub": "2026-11-20T22:17",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/better-buy/2026/11/20/credo-technology-group-vs-western-digital-which-technology-stock-is-a-better-buy-for-2027/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "NEM",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 3,
-      "today_rank": 15,
-      "first_seen": "2026-07-08",
-      "name": "Newmont Corporation",
-      "sector": "Basic Materials",
-      "persist": 100,
-      "news": 49.0,
-      "confirm": 25.2,
-      "signal": 52.0,
-      "mom": {
-        "ret5": -0.1632,
-        "vol_surge": 1.35
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Gold miners near yearly lows as bullion slides below $3,600",
-          "summary": "Investing.com -- Gold keeps falling, and the miners are falling with it. Gold Futures (GC) traded at $3,545.95, down 3.79%, as of Nov 20, 10:21 AM EST. That is below the $3,700–$3,800 level one strategist cited when saying miners still generate \"tons of cash flow\". The same pressures are at work: th",
-          "pub": "2026-11-20T15:52",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-near-yearly-lows-155220307.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Stanley Druckenmiller dumps Google stock in a bid to ‘not lose money’ as the outlook darkens. Here’s what he’s buying",
-          "summary": "“I'm really alert to the fact that the second half of ’27 could be economically disappointing.”",
-          "pub": "2026-11-20T12:15",
-          "provider": "Moneywise",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-dumps-google-stock-121500032.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Will Metals Sell Off Change Newmont (NEM) Stock Narrative",
-          "summary": "Newmont recently filed an August 2026 construction report with the Federal Energy Regulatory Commission for its Blue Lake Penstock Repair Project, confirming ongoing regulatory compliance and progress on critical hydropower infrastructure. At the same time, a sharp pullback in gold and copper prices",
-          "pub": "2026-11-20T08:09",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/metals-sell-off-change-newmont-080945021.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Newmont (NEM) Slides With Metals Sell Off, Is It Trading At A 26% Discount?",
-          "summary": "Recent pressure on Newmont (NEM) has come from outside the company, with a sharp metals sell-off tied to softer gold prices and Federal Reserve rate hike expectations that are weighing on the stock. Newmont’s share price has retreated sharply in the near term, with the stock down 4.29% over one day,",
-          "pub": "2026-11-20T06:10",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/newmont-nem-slides-metals-sell-061018022.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Druckenmiller Retreats From Chip Stocks in Pivot to Gold Miners and SpaceX",
-          "summary": "Duquesne Family Office exited Advanced Micro Devices, Alphabet, and Meta in the third quarter.",
-          "pub": "2026-11-19T16:01",
-          "provider": "Barrons.com",
-          "url": "https://www.barrons.com/articles/druckenmiller-duquesne-family-office-spacex-307fb810?siteid=yhoof2&yptr=yahoo",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -688,7 +610,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-09-10",
       "name": "Genius Sports Limited",
       "sector": "Communication Services",
@@ -702,7 +624,97 @@
       },
       "earn_days": null,
       "consensus": null,
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Genius Sports (GENI) Stock Looks Fully Priced Against Its Sales",
+          "summary": "Genius Sports has seen its share price fall sharply this year, and that slide puts a spotlight on a simple question for investors who still follow the stock. Is the current US$5.18 price tag reasonable when you line it up against the revenue the business generates? The share price has dropped 51.9%",
+          "pub": "2026-11-22T01:11",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/genius-sports-geni-stock-looks-011104935.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "NEM",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 3,
+      "today_rank": 16,
+      "first_seen": "2026-07-08",
+      "name": "Newmont Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 48.0,
+      "confirm": 25.2,
+      "signal": 51.5,
+      "mom": {
+        "ret5": -0.1632,
+        "vol_surge": 1.35
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Tim Seymour Says “This Is the Time to Buy Gold, Not Sell It”",
+          "summary": "Gold has dropped far from its January peak, and Newmont shares are falling even faster. One Fast Money trader says the panic has little to do with gold itself, and he sees something else driving the sell-off. Is he right?",
+          "pub": "2026-11-21T21:07",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/21/tim-seymour-says-this-is-the-time-to-buy-gold-not-sell-it/",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Gold miners near yearly lows as bullion slides below $3,600",
+          "summary": "Investing.com -- Gold keeps falling, and the miners are falling with it. Gold Futures (GC) traded at $3,545.95, down 3.79%, as of Nov 20, 10:21 AM EST. That is below the $3,700–$3,800 level one strategist cited when saying miners still generate \"tons of cash flow\". The same pressures are at work: th",
+          "pub": "2026-11-20T15:52",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-near-yearly-lows-155220307.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Stanley Druckenmiller dumps Google stock in a bid to ‘not lose money’ as the outlook darkens. Here’s what he’s buying",
+          "summary": "“I'm really alert to the fact that the second half of ’27 could be economically disappointing.”",
+          "pub": "2026-11-20T12:15",
+          "provider": "Moneywise",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-dumps-google-stock-121500032.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Will Metals Sell Off Change Newmont (NEM) Stock Narrative",
+          "summary": "Newmont recently filed an August 2026 construction report with the Federal Energy Regulatory Commission for its Blue Lake Penstock Repair Project, confirming ongoing regulatory compliance and progress on critical hydropower infrastructure. At the same time, a sharp pullback in gold and copper prices",
+          "pub": "2026-11-20T08:09",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/metals-sell-off-change-newmont-080945021.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Newmont (NEM) Slides With Metals Sell Off, Is It Trading At A 26% Discount?",
+          "summary": "Recent pressure on Newmont (NEM) has come from outside the company, with a sharp metals sell-off tied to softer gold prices and Federal Reserve rate hike expectations that are weighing on the stock. Newmont’s share price has retreated sharply in the near term, with the stock down 4.29% over one day,",
+          "pub": "2026-11-20T06:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/newmont-nem-slides-metals-sell-061018022.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        }
+      ]
     },
     {
       "ticker": "AA",
@@ -778,9 +790,20 @@
         "ret5": -0.1308,
         "vol_surge": 1.09
       },
-      "earn_days": 3,
+      "earn_days": 2,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Texas Instruments, Analog Devices and Microchip Pay Dividends Through Chip Downturns",
+          "summary": "A brutal week for chip stocks just pushed three dividend payers to higher yields, but only one has raised its payout for 23 straight years. Retirees wanting tech income should check which one is stalling and why.",
+          "pub": "2026-11-21T20:07",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/21/texas-instruments-analog-devices-and-microchip-pay-dividends-through-chip-downturns/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "George Soros and 18 Other Big Funds Sold Texas Instruments Last Quarter, While 14 Bought. Who’s Right?",
           "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 19 sold Texas Instruments and 14 bought it.",
@@ -824,17 +847,6 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Analog Devices (ADI) Stock Moves -1.19%: What You Should Know",
-          "summary": "Analog Devices (ADI) closed at $377.44 in the latest trading session, marking a -1.19% move from the prior day.",
-          "pub": "2026-11-19T22:00",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-moves-220002459.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -856,7 +868,7 @@
         "ret5": -0.1646,
         "vol_surge": 0.89
       },
-      "earn_days": 19,
+      "earn_days": 18,
       "consensus": null,
       "headlines": [
         {
@@ -935,59 +947,59 @@
         "ret5": -0.2362,
         "vol_surge": 1.2
       },
-      "earn_days": 26,
+      "earn_days": 25,
       "consensus": null,
       "headlines": [
         {
-          "title": "I Picked the Wrong Week to Buy the Dip on Micron, and Other Observations From a Miserable Few Days in the Market",
-          "summary": "I bought shares of Micron Technology (NASDAQ:MU) during the session on Friday, Nov. 20, at $653 a share. It looked like a reasonable move: a company coming off record results, marked down hard after a rough stretch. By the closing bell, Micron sat 9% below my purchase price, a paper loss of $59 on e",
-          "pub": "2026-11-21T19:06",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/21/i-picked-the-wrong-week-to-buy-the-dip-on-micron-and-other-observations-from-a-miserable-few-days-in-the-market/",
+          "title": "Billionaire David Tepper Just Made a Massive AI Chip Rotation — Will It Pay Off?",
+          "summary": "Tepper was selling shares of AMD, Broadcom, and Alphabet in Q3, while buying Nvidia and Micron.",
+          "pub": "2026-11-22T03:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/21/billionaire-david-tepper-just-made-a-massive-ai-chip-rotation-will-it-pay-off/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”",
-          "summary": "Key TakeawaysSK hynix’s U. S.",
-          "pub": "2026-11-21T16:50",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/sk-hynix-sinks-21-in-a-week-with-micron-and-sandisk-its-u-s-premium-is-an-extra-special-case?ref=yahoofinance&tlnk=yf-261121-947vrx38",
+          "title": "Should You Forget Nvidia and Buy These 2 AI Memory Stocks Instead?",
+          "summary": "Memory chips may be cyclical, but this cycle has a long way to go before wrapping up.",
+          "pub": "2026-11-22T01:23",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/21/should-you-forget-nvidia-and-buy-these-2-ai-memory-stocks-instead/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Nvidia Stock Has Crashed 48% and Now Trades at 15 Times Earnings, Its Cheapest in More Than a Decade and Cheaper Than Microsoft and Broadcom",
+          "summary": "Nvidia closed 48% below its record on Friday and trades at 15 times its last four quarters of earnings, the lowest since at least 2014 and less than Microsoft or Broadcom. Here is what that price assumes and why the market doubts the earnings.",
+          "pub": "2026-11-22T00:47",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/21/nvidia-stock-has-crashed-48-and-now-trades-at-15-times-earnings-its-cheapest-in-more-than-a-decade-and-cheaper-than-microsoft-and-broadcom/",
           "dir": -0.4,
           "conf": 0.4,
           "type": "急落報道",
           "why": "-急落報道"
         },
         {
-          "title": "Prediction: This Will Be Micron’s Stock Price by the End of 2028",
-          "summary": "Is Micron's low valuation an attractive entry point?",
-          "pub": "2026-11-21T14:35",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/21/prediction-this-will-be-microns-stock-price-by-the-end-of-2028/",
+          "title": "Renaissance Technologies Grew Its SanDisk Stake More Than 55-Fold to $481 Million",
+          "summary": "A quant fund that never explains its trades just bet big on memory chips, right before the stock cratered. Before copying a filing that is weeks old, see what a 13F hides and which signals matter more.",
+          "pub": "2026-11-21T21:43",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/21/renaissance-technologies-grew-its-sandisk-stake-more-than-55-fold-to-481-million/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Micron Stock Fell More Than 40% From Its June Record. History Says What It Did After Its 5 Other Drops This Deep.",
-          "summary": "Will the memory maker's newest drop follow its quick recoveries or its long slumps?",
-          "pub": "2026-11-21T10:37",
+          "title": "Micron Stock Just Hit Its Lowest Price Since May. I'd Buy More Now.",
+          "summary": "With most of this year's output already spoken for, has the memory maker's stock dropped too far?",
+          "pub": "2026-11-21T21:12",
           "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/21/micron-stock-fell-more-than-40-from-its-june-record-history-says-what-it-did-after-its-5-other-drops-this-deep/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Memory Was “a Commodity Even Five Years Ago,” Micron’s President Says. Its Stock Still Trades Like One",
-          "summary": "Key TakeawaysMicron’s president says memory is no longer a commodity, yet the stock trades at about 3. 4x fiscal 2027 consensus earnings.",
-          "pub": "2026-11-21T08:50",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/memory-was-a-commodity-even-five-years-ago-microns-president-says-its-stock-still-trades-like-one?ref=yahoofinance&tlnk=yf-261121-4p44hrjp",
+          "url": "https://www.fool.com/investing/2026/11/21/micron-stock-just-hit-its-lowest-price-since-may-i-d-buy-more-now/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -1033,32 +1045,10 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Overweight→Overweight",
+          "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "Piper Sandler",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Equal Weight→Equal Weight",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "Morgan Stanley",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Neutral→Neutral",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "Cantor Fitzgerald",
+          "provider": "Citigroup",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -1069,7 +1059,29 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "Rosenblatt",
+          "provider": "Truist Securities",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "DA Davidson",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Underperform→Underperform",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "RBC Capital",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -1081,14 +1093,14 @@
   ],
   "alert_summary": {
     "5": {
-      "n": 1191,
+      "n": 1176,
       "hit_rate": 0.49,
-      "avg_excess": -0.0009
+      "avg_excess": -0.0003
     },
     "20": {
-      "n": 1057,
+      "n": 1042,
       "hit_rate": 0.48,
-      "avg_excess": -0.0026
+      "avg_excess": -0.003
     }
   },
   "alerts_recent": [
@@ -1285,21 +1297,21 @@
   ],
   "composition": {
     "composition": {
-      "persist": 0.202,
-      "news": 0.489,
-      "confirm": 0.309
+      "persist": 0.2,
+      "news": 0.49,
+      "confirm": 0.31
     },
     "ic": {
-      "persist": -0.252,
-      "news": 0.088,
-      "confirm": -0.032
+      "persist": -0.256,
+      "news": 0.09,
+      "confirm": -0.029
     },
     "multipliers": {
-      "persist": 0.622,
-      "news": 1.132,
-      "confirm": 0.952
+      "persist": 0.617,
+      "news": 1.135,
+      "confirm": 0.956
     },
-    "graded_samples": 3165,
+    "graded_samples": 3135,
     "active": true,
     "min_samples": 10
   },
