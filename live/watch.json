@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T19:41:52.209422+00:00",
+  "updated": "2026-11-23T07:40:40.236752+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,7 +8,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 7,
+      "today_rank": 6,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
@@ -68,6 +68,84 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
+        }
+      ]
+    },
+    {
+      "ticker": "CORZ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 2,
+      "today_rank": 21,
+      "first_seen": "2026-07-08",
+      "name": "Core Scientific, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 63.1,
+      "confirm": 18.4,
+      "signal": 56.6,
+      "mom": {
+        "ret5": -0.2197,
+        "vol_surge": 0.89
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "5 Most Overvalued AI Stocks According to Short Sellers",
+          "summary": "The U.S. stock market has suffered a broad sell-off heading into year-end, driven by renewed concerns about elevated AI valuations and uncertainty surrounding the profitability of artificial intelligence investments. Short sellers are increasingly piling pressure amid concerns that technology compan",
+          "pub": "2026-11-21T14:50",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-most-overvalued-ai-stocks-145011459.html",
+          "dir": -0.8,
+          "conf": 0.8,
+          "type": "急落報道",
+          "why": "-急落報道 -空売り・過大評価"
+        },
+        {
+          "title": "Applied Digital and Core Scientific Sink 12% as AI Infrastructure Sell-Off Deepens; TeraWulf Tumbles 10%",
+          "summary": "Three former Bitcoin miners now bet their futures on AI data centers, and each carries billions in debt into a market that is turning on risk. Their playbooks differ, and so does how much pain each stock is taking.",
+          "pub": "2026-11-20T15:56",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/20/applied-digital-and-core-scientific-sink-12-as-ai-infrastructure-sell-off-deepens-terawulf-tumbles-10/",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Core Scientific (CORZ) Stock May Trade At A Premium After AI Data Center Filing",
+          "summary": "Core Scientific has shifted its story from Bitcoin mining to AI focused data centers, and the share price has fallen year to date. The question now is whether the current valuation makes sense when you line that price up against its sales. The stock is down 16.4% year to date, which puts more focus",
+          "pub": "2026-11-19T23:19",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/core-scientific-corz-stock-may-231938032.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Core Scientific (CORZ) Beat Estimates, Is The Stock Now Too Expensive?",
+          "summary": "Core Scientific (CORZ) just released a headline third quarter update, reporting revenue of US$232.87 million and net income of US$1.18b, along with sharply higher basic earnings per share from continuing operations. Core Scientific’s stock has been volatile, with a 1-day share price return of 4.00%",
+          "pub": "2026-11-19T17:19",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/core-scientific-corz-beat-estimates-171909843.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        },
+        {
+          "title": "How Investors Are Reacting To Core Scientific (CORZ) Earnings Beat",
+          "summary": "Core Scientific reported third quarter 2026 revenue of US$232.87 million and net income of US$1.18 billion, with basic earnings per share from continuing operations of US$3.42. The jump in earnings included a very large non cash gain on warrants, so the headline profit figure may not reflect underly",
+          "pub": "2026-11-19T16:12",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-core-scientific-corz-161238455.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "決算ビート",
+          "why": "+決算ビート +急騰報道"
         }
       ]
     },
@@ -155,7 +233,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 6,
+      "today_rank": 8,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -200,7 +278,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 11,
+      "today_rank": 10,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
@@ -269,6 +347,91 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 1,
+      "first_seen": "2026-07-08",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 49.0,
+      "confirm": 28.4,
+      "signal": 52.8,
+      "mom": {
+        "ret5": -0.2054,
+        "vol_surge": 1.56
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 53,
+        "hold": 19,
+        "sell": 0,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 定款変更",
+          "summary": "",
+          "pub": "2026-11-20",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000218",
+          "dir": 0.0,
+          "conf": 0.2,
+          "type": "8-K 5.03",
+          "why": "定款変更（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 未登録株式の売出",
+          "summary": "",
+          "pub": "2026-11-16",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526462340",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 3.02",
+          "why": "未登録株式の売出（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストupgrade: Market Perform→Outperform",
+          "summary": "",
+          "pub": "2026-11-12",
+          "provider": "William Blair",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Sector Perform→Sector Perform",
+          "summary": "",
+          "pub": "2026-11-12",
+          "provider": "RBC Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-11-12",
+          "provider": "B of A Securities",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -349,91 +512,6 @@
           "conf": 1.0,
           "type": "契約・提携",
           "why": "+契約・提携 +受注"
-        }
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 1,
-      "first_seen": "2026-07-08",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 48.6,
-      "confirm": 28.4,
-      "signal": 52.6,
-      "mom": {
-        "ret5": -0.2054,
-        "vol_surge": 1.56
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 53,
-        "hold": 19,
-        "sell": 0,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 定款変更",
-          "summary": "",
-          "pub": "2026-11-20",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000218",
-          "dir": 0.0,
-          "conf": 0.2,
-          "type": "8-K 5.03",
-          "why": "定款変更（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 未登録株式の売出",
-          "summary": "",
-          "pub": "2026-11-16",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526462340",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 3.02",
-          "why": "未登録株式の売出（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストupgrade: Market Perform→Outperform",
-          "summary": "",
-          "pub": "2026-11-12",
-          "provider": "William Blair",
-          "url": "",
-          "dir": 0.6,
-          "conf": 0.7,
-          "type": "格付↑",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Sector Perform→Sector Perform",
-          "summary": "",
-          "pub": "2026-11-12",
-          "provider": "RBC Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-12",
-          "provider": "B of A Securities",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -526,16 +604,49 @@
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.1,
+      "news": 51.1,
       "confirm": 23.0,
-      "signal": 51.7,
+      "signal": 52.2,
       "mom": {
         "ret5": -0.2362,
         "vol_surge": 1.2
       },
-      "earn_days": 25,
+      "earn_days": 24,
       "consensus": null,
       "headlines": [
+        {
+          "title": "NVDA, INTC, MU, AMD Chip Stocks Rip Higher: Dan Ives Says ‘Bears Feel Validated,’ But There’s No Stopping The AI Wave",
+          "summary": "Ives said Apple, SpaceX, hyperscalers and cybersecurity firms could emerge as winners.",
+          "pub": "2026-11-23T02:24",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/nvda-intc-mu-amd-chip-stocks-rip-higher-dan-ives-says-bears-feel-validated-but-there-s-no-stopping-the-ai-wave/cNbYZnYR916",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "David Tepper's Micron bet raises a $32 billion question",
+          "summary": "Micron’s long-term customer deals may not protect its record profits.",
+          "pub": "2026-11-23T02:03",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/david-teppers-micron-bet-raises-a-32-billion-question",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Charlie Bilello Flags the Nasdaq 100’s First Bear Market Since April 2025",
+          "summary": "The Nasdaq 100 slipped past a line it hasn't touched in over a year, then barely escaped at the closing bell. If you hold no Nasdaq fund, your retirement account may still be more exposed than you think.",
+          "pub": "2026-11-22T21:17",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/22/charlie-bilello-flags-the-nasdaq-100s-first-bear-market-since-april-2025/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters",
           "summary": "Anthropic's public debut did little to calm the stock market as the AI trade unravels.",
@@ -557,39 +668,6 @@
           "conf": 0.3,
           "type": "急騰報道",
           "why": "+急騰報道"
-        },
-        {
-          "title": "SpaceX Expects to Pass “One Gigawatt a Month” of AI Compute by the End of 2027. That’s Great News for Nvidia",
-          "summary": "Key TakeawaysSpaceX is adding about 500 megawatts of AI compute a month, roughly 220,000 Nvidia GB300 chips, and expects to pass a gigawatt a month by the end of 2027. On Apollo CEO Marc Rowan’s estimate that half a gigawatt’s cost goes to Nvidia, that target means about $300 billion a year headed t",
-          "pub": "2026-11-22T18:40",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/spacex-expects-to-pass-one-gigawatt-a-month-of-ai-compute-by-the-end-of-2027-thats-great-news-for-nvidia?ref=yahoofinance&tlnk=yf-261122-96p3m6c4",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Prediction: Dec. 9 Will Be a Huge Day for the Stock Market",
-          "summary": "Multiple market-moving events are set to converge.",
-          "pub": "2026-11-22T16:53",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/22/prediction-dec-9-will-be-a-huge-day-for-the-stock-market/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Apple’s CEO Calls Memory Pricing “Unprecedented.” Its Purchase Obligations Jumped $33 Billion in a Quarter",
-          "summary": "Key TakeawaysApple CEO John Ternus called memory pricing “unprecedented” and said Apple’s manufacturing purchase obligations rose $33 billion from June to September. Memory costs look set to weigh on Apple’s gross margin into fiscal 2027, and its price increases only partly offset them.",
-          "pub": "2026-11-22T14:44",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/apples-ceo-calls-memory-pricing-unprecedented-its-purchase-obligations-jumped-33-billion-in-a-quarter?ref=yahoofinance&tlnk=yf-261122-5m68j2ch",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
         }
       ]
     },
@@ -599,7 +677,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 8,
+      "today_rank": 7,
       "first_seen": "2026-09-10",
       "name": "Genius Sports Limited",
       "sector": "Communication Services",
@@ -840,84 +918,6 @@
       ]
     },
     {
-      "ticker": "ADI",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 14,
-      "today_rank": 23,
-      "first_seen": "2026-07-08",
-      "name": "Analog Devices, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 21.4,
-      "signal": 51.1,
-      "mom": {
-        "ret5": -0.1308,
-        "vol_surge": 1.09
-      },
-      "earn_days": 2,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Texas Instruments, Analog Devices and Microchip Pay Dividends Through Chip Downturns",
-          "summary": "A brutal week for chip stocks just pushed three dividend payers to higher yields, but only one has raised its payout for 23 straight years. Retirees wanting tech income should check which one is stalling and why.",
-          "pub": "2026-11-21T20:07",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/21/texas-instruments-analog-devices-and-microchip-pay-dividends-through-chip-downturns/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "George Soros and 18 Other Big Funds Sold Texas Instruments Last Quarter, While 14 Bought. Who’s Right?",
-          "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 19 sold Texas Instruments and 14 bought it.",
-          "pub": "2026-11-21T10:58",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/george-soros-and-18-other-big-funds-sold-texas-instruments-last-quarter-while-14-bought-whos-right?ref=yahoofinance&tlnk=yf-261121-j9jp5php",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Could You Have Spotted Monolithic Power Stock's 52% Run?",
-          "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
-          "pub": "2026-11-21T06:32",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/mpwr/articles/627264/could-you-have-spotted-monolithic-power-stocks-52-run/2026-11-20",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Earnings Calendar and Analysis for This Week",
-          "summary": "Check out our earnings calendar for this week, as well as our previews and recaps of the more noteworthy reports.",
-          "pub": "2026-11-20T16:09",
-          "provider": "Kiplinger",
-          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "ADI Set to Report Q4 Earnings: What's in the Cards for the Stock?",
-          "summary": "Analog Devices gears up for Q4 fiscal 2026 earnings, with AI-driven data center demand, industrial strength and improving margins expected to fuel growth.",
-          "pub": "2026-11-20T14:36",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/adi-set-report-q4-earnings-143600086.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "PLTR",
       "tier": "確定",
       "streak": 43,
@@ -958,28 +958,6 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "Citigroup",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "Truist Securities",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-03",
           "provider": "DA Davidson",
           "url": "",
           "dir": 0.0,
@@ -992,6 +970,28 @@
           "summary": "",
           "pub": "2026-11-03",
           "provider": "RBC Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Neutral→Neutral",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "Cantor Fitzgerald",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -1018,7 +1018,7 @@
         "ret5": -0.1646,
         "vol_surge": 0.89
       },
-      "earn_days": 18,
+      "earn_days": 17,
       "consensus": null,
       "headlines": [
         {
@@ -1082,14 +1082,14 @@
   ],
   "alert_summary": {
     "5": {
-      "n": 1176,
+      "n": 1159,
       "hit_rate": 0.49,
-      "avg_excess": -0.0003
+      "avg_excess": -0.0
     },
     "20": {
-      "n": 1042,
-      "hit_rate": 0.48,
-      "avg_excess": -0.003
+      "n": 1025,
+      "hit_rate": 0.47,
+      "avg_excess": -0.0042
     }
   },
   "alerts_recent": [
@@ -1286,21 +1286,21 @@
   ],
   "composition": {
     "composition": {
-      "persist": 0.2,
-      "news": 0.49,
+      "persist": 0.198,
+      "news": 0.492,
       "confirm": 0.31
     },
     "ic": {
-      "persist": -0.256,
-      "news": 0.09,
-      "confirm": -0.029
+      "persist": -0.258,
+      "news": 0.093,
+      "confirm": -0.028
     },
     "multipliers": {
-      "persist": 0.617,
-      "news": 1.135,
-      "confirm": 0.956
+      "persist": 0.613,
+      "news": 1.14,
+      "confirm": 0.958
     },
-    "graded_samples": 3135,
+    "graded_samples": 3105,
     "active": true,
     "min_samples": 10
   },
