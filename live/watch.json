@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T22:27:32.732928+00:00",
+  "updated": "2026-11-25T08:36:21.296190+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -8,7 +8,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 6,
+      "today_rank": 7,
       "first_seen": "2026-07-08",
       "name": "Flywire Corporation - Voting",
       "sector": "Technology",
@@ -53,14 +53,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 20,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 47.8,
+      "news": 48.7,
       "confirm": 69.8,
-      "signal": 65.0,
+      "signal": 65.5,
       "mom": {
         "ret5": -0.0005,
         "vol_surge": 2.34
@@ -144,9 +144,9 @@
       "name": "Palantir Technologies Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.1,
+      "news": 50.7,
       "confirm": 59.3,
-      "signal": 62.9,
+      "signal": 63.2,
       "mom": {
         "ret5": 0.0295,
         "vol_surge": 1.03
@@ -174,7 +174,7 @@
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "DA Davidson",
+          "provider": "Citigroup",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -182,10 +182,10 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Underperform→Underperform",
+          "title": "アナリストmaintain: Overweight→Overweight",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "RBC Capital",
+          "provider": "Piper Sandler",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -193,10 +193,10 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
+          "title": "アナリストmaintain: Equal Weight→Equal Weight",
           "summary": "",
           "pub": "2026-11-03",
-          "provider": "Rosenblatt",
+          "provider": "Morgan Stanley",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -374,12 +374,57 @@
       ]
     },
     {
+      "ticker": "COUR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 8,
+      "first_seen": "2026-08-01",
+      "name": "Coursera, Inc.",
+      "sector": "Consumer Defensive",
+      "persist": 100,
+      "news": 49.1,
+      "confirm": 50.7,
+      "signal": 59.7,
+      "mom": {
+        "ret5": 0.0169,
+        "vol_surge": 0.71
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Bitcoin sell-off versus the tech sell-off, and the SEC finds eight fake crypto trading platforms",
+          "summary": "Scott Melker discusses the differences in how the bitcoin sell-off is discussed vs. the tech sell-off, institutional holdings at a record high in bitcoin ETFs, and the SEC finding that eight entities used fake crypto platforms to steal more than $37 million. \n\n\"The Daily Wolf with Scott Melker\" airs",
+          "pub": "2026-11-20T17:00",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/bitcoin-sell-off-versus-tech-170000138.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Duolingo's 29% User Growth Signals Stronger Subscription Momentum",
+          "summary": "DUOL's 29% surge in daily active users is fueling subscription demand and accelerating bookings growth, signaling stronger engagement and expansion prospects.",
+          "pub": "2026-11-18T17:01",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/duolingos-29-user-growth-signals-170100429.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        }
+      ]
+    },
+    {
       "ticker": "CNQ",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 13,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
       "name": "Canadian Natural Resources Limi",
       "sector": "Energy",
@@ -457,17 +502,17 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 14,
-      "today_rank": 21,
+      "today_rank": 22,
       "first_seen": "2026-07-21",
       "name": "Western Digital Corporation",
       "sector": "Technology",
       "persist": 100,
       "news": 52.2,
-      "confirm": 39.0,
-      "signal": 57.6,
+      "confirm": 39.2,
+      "signal": 57.7,
       "mom": {
         "ret5": -0.0331,
-        "vol_surge": 0.93
+        "vol_surge": 0.94
       },
       "earn_days": null,
       "consensus": null,
@@ -532,63 +577,6 @@
       ]
     },
     {
-      "ticker": "COUR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 5,
-      "first_seen": "2026-08-01",
-      "name": "Coursera, Inc.",
-      "sector": "Consumer Defensive",
-      "persist": 100,
-      "news": 44.1,
-      "confirm": 50.7,
-      "signal": 57.3,
-      "mom": {
-        "ret5": 0.0169,
-        "vol_surge": 0.71
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: リストラ費用",
-          "summary": "",
-          "pub": "2026-11-10",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000075",
-          "dir": -0.4,
-          "conf": 0.5,
-          "type": "8-K 2.05",
-          "why": "リストラ費用（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Bitcoin sell-off versus the tech sell-off, and the SEC finds eight fake crypto trading platforms",
-          "summary": "Scott Melker discusses the differences in how the bitcoin sell-off is discussed vs. the tech sell-off, institutional holdings at a record high in bitcoin ETFs, and the SEC finding that eight entities used fake crypto platforms to steal more than $37 million. \n\n\"The Daily Wolf with Scott Melker\" airs",
-          "pub": "2026-11-20T17:00",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/bitcoin-sell-off-versus-tech-170000138.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Duolingo's 29% User Growth Signals Stronger Subscription Momentum",
-          "summary": "DUOL's 29% surge in daily active users is fueling subscription demand and accelerating bookings growth, signaling stronger engagement and expansion prospects.",
-          "pub": "2026-11-18T17:01",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/duolingos-29-user-growth-signals-170100429.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        }
-      ]
-    },
-    {
       "ticker": "AMD",
       "tier": "確定",
       "streak": 43,
@@ -599,9 +587,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 51.2,
+      "news": 50.0,
       "confirm": 29.6,
-      "signal": 54.2,
+      "signal": 53.6,
       "mom": {
         "ret5": -0.1791,
         "vol_surge": 1.64
@@ -650,17 +638,6 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Sector Perform→Sector Perform",
-          "summary": "",
-          "pub": "2026-11-12",
-          "provider": "RBC Capital",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
           "title": "アナリストupgrade: Market Perform→Outperform",
           "summary": "",
           "pub": "2026-11-12",
@@ -670,6 +647,95 @@
           "conf": 0.7,
           "type": "格付↑",
           "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Sector Perform→Sector Perform",
+          "summary": "",
+          "pub": "2026-11-12",
+          "provider": "RBC Capital",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 20,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.7,
+      "confirm": 25.6,
+      "signal": 53.2,
+      "mom": {
+        "ret5": -0.116,
+        "vol_surge": 1.37
+      },
+      "earn_days": 22,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+          "summary": "In this edition of Sozzi Unleashed: At The Close, Brian Sozzi sorts through \"reality trading\" as Nvidia slides nearly 7% after Monday's 31% surge and Anthropic falls below its $83 IPO price less than a week after the biggest offering in history. GCG Advisory Partners' Bill Gunderson makes the case t",
+          "pub": "2026-11-24T21:45",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "MU, SKHY, SNDK Stocks In Focus After TrendForce Lowers DRAM Pricing Forecast",
+          "summary": "Weak consumer electronics sales and a pullback in orders from Chinese cloud services providers are weighing on demand for certain memory products.",
+          "pub": "2026-11-25T08:27",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/mu-skhy-sndk-stocks-in-focus-after-trend-force-lowers-dram-pricing-forecast/cNbH7VLR9l8",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "South Korea's chipmakers rally on Huang's return",
+          "summary": "IntelliNews summary: • Hyundai Motor rose more than 11% and LG Electronics 15. 8% on Nvidia's decision.",
+          "pub": "2026-11-25T03:21",
+          "provider": "IntelliNews",
+          "url": "http://www.intellinews.com/south-korea-s-chipmakers-rally-on-huang-s-return-488025/",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "TSLA Stock Slips Overnight: Dell And HP See No Quick Relief From The AI-Driven Chip Crunch Behind Tesla’s 25% Memory Cut",
+          "summary": "Dell said AI servers are taking up more chipmaking capacity, leaving less memory for PCs and vehicles.",
+          "pub": "2026-11-25T02:26",
+          "provider": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-dell-hp-no-quick-relief-ai-chip-crunch-tesla-memory-cut/cNbuC6fR9ld",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
+          "summary": "Forget the red-hot headline grabbers for a minute. We're dedicating space to high-quality sleeper stocks that have already delivered and could keep climbing.",
+          "pub": "2026-11-25T00:52",
+          "provider": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -679,14 +745,14 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 9,
+      "today_rank": 11,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.3,
+      "news": 50.9,
       "confirm": 26.5,
-      "signal": 52.8,
+      "signal": 53.1,
       "mom": {
         "ret5": -0.0959,
         "vol_surge": 1.35
@@ -694,6 +760,17 @@
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "What Just Went Wrong With Astera Labs (ALAB)?",
+          "summary": "Astera Labs Inc. (NASDAQ:ALAB) is one of the 10 Stocks Investors Are Dumping. Astera Labs dropped its share price by 13.88 percent on Tuesday to end at $191.30 apiece, as investors took advantage of the previous day’s stunning rally to pocket gains. On Monday, Astera Labs Inc. (NASDAQ:ALAB) saw its",
+          "pub": "2026-11-25T05:28",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/just-went-wrong-astera-labs-052852331.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
         {
           "title": "Marvell Sinks 8%, Intel Down 6% as Chip Stocks Give Back Nvidia’s Record Huang Rally",
           "summary": "Key TakeawaysMarvell Technology fell 8% today as Intel, Astera Labs and other chip stocks gave back Monday’s Jensen Huang rally. Marvell pays a fixed 4.",
@@ -737,17 +814,6 @@
           "conf": 0.8,
           "type": "訴訟・調査",
           "why": "-訴訟・調査"
-        },
-        {
-          "title": "150% Upside for Credo Technology? Stifel Thinks So, and Here’s How",
-          "summary": "Key TakeawaysStifel cut its Credo Technology price target to $250 from $310 on Nov. 20 but kept its Buy rating, and the new target is 150% above Friday’s close.",
-          "pub": "2026-11-22T10:09",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/150-upside-for-credo-technology-stifel-thinks-so-and-heres-how?ref=yahoofinance&tlnk=yf-261122-7jhw3mjq",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "格上げ",
-          "why": "+格上げ"
         }
       ]
     },
@@ -757,7 +823,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 6,
-      "today_rank": 11,
+      "today_rank": 13,
       "first_seen": "2026-07-08",
       "name": "Alcoa Corporation",
       "sector": "Basic Materials",
@@ -819,90 +885,12 @@
       ]
     },
     {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 18,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 50.6,
-      "confirm": 25.6,
-      "signal": 52.6,
-      "mom": {
-        "ret5": -0.116,
-        "vol_surge": 1.37
-      },
-      "earn_days": 23,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Anthropic falls below IPO price as Nvidia gives back gains",
-          "summary": "In this edition of Sozzi Unleashed: At The Close, Brian Sozzi sorts through \"reality trading\" as Nvidia slides nearly 7% after Monday's 31% surge and Anthropic falls below its $83 IPO price less than a week after the biggest offering in history. GCG Advisory Partners' Bill Gunderson makes the case t",
-          "pub": "2026-11-24T21:45",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Stocks give back gains as Anthropic dips below IPO price",
-          "summary": "Hosts Julie Hyman and Jake Conley, joined on the couch by Barron's markets reporter Jacob Sonenshine, tackle the top stories of the day. Including futures sliding after Monday's biggest rally since April 2025, Anthropic briefly trading below its $83 IPO price, a Wall Street Journal report that the U",
-          "pub": "2026-11-24T15:44",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Morning Movers: Dick’s Sporting and Dollar Tree gain following quarterly reports",
-          "summary": "Stock futures are lower as investors take profits following Monday’s powerful technology-led rebound. The retreat follows a historic rally in which the S&P 500 gained 4.7%, the Nasdaq jumped 6.5% and the Dow advanced 3%, ending a seven-session losing streak for the S&P 500. Nvidia is back under pres",
-          "pub": "2026-11-24T22:00",
-          "provider": "TipRanks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/morning-movers-dick-sporting-dollar-220046732.html",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Nvidia, Chip Stocks Fall As Data Center Spending Fears Return",
-          "summary": "Chip stocks fell Tuesday on renewed fears about a slowdown in spending on data centers for artificial intelligence.",
-          "pub": "2026-11-24T21:58",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/chip-stocks-fall-data-center-spending-fears/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "5 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027",
-          "summary": "Coatue Management’s November 16 regulatory filing puts billionaire Philippe Laffont’s positioning back in focus as investors look toward 2027. Its ten largest disclosed stock holdings represented 55.9% of a $54.5 billion reported portfolio at September 30, with chipmakers and equipment suppliers car",
-          "pub": "2026-11-24T21:23",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-high-conviction-stocks-billionaire-212307906.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
       "ticker": "GENI",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 7,
+      "today_rank": 9,
       "first_seen": "2026-09-10",
       "name": "Genius Sports Limited",
       "sector": "Communication Services",
@@ -936,7 +924,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 10,
+      "today_rank": 15,
       "first_seen": "2026-07-09",
       "name": "Ciena Corporation",
       "sector": "Technology",
@@ -948,7 +936,7 @@
         "ret5": -0.0965,
         "vol_surge": 0.95
       },
-      "earn_days": 16,
+      "earn_days": 15,
       "consensus": null,
       "headlines": [
         {
@@ -1090,17 +1078,33 @@
   ],
   "alert_summary": {
     "5": {
-      "n": 1145,
+      "n": 1132,
       "hit_rate": 0.49,
-      "avg_excess": -0.0001
+      "avg_excess": -0.0002
     },
     "20": {
-      "n": 1016,
+      "n": 1006,
       "hit_rate": 0.47,
-      "avg_excess": -0.0062
+      "avg_excess": -0.0089
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-11-25",
+      "ticker": "FLYW",
+      "signal": 67.4,
+      "price": 22.32,
+      "spy": 718.780029296875,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "NVDA",
+      "signal": 65.5,
+      "price": 155.38,
+      "spy": 718.780029296875,
+      "grades": {}
+    },
     {
       "date": "2026-11-24",
       "ticker": "NVDA",
@@ -1155,7 +1159,9 @@
       "signal": 76.1,
       "price": 341.6,
       "spy": 732.4400024414062,
-      "grades": {}
+      "grades": {
+        "5": -0.1
+      }
     },
     {
       "date": "2026-11-18",
@@ -1163,7 +1169,9 @@
       "signal": 68.2,
       "price": 47.74,
       "spy": 732.4400024414062,
-      "grades": {}
+      "grades": {
+        "5": -0.0434
+      }
     },
     {
       "date": "2026-11-18",
@@ -1171,7 +1179,9 @@
       "signal": 65.7,
       "price": 503.41,
       "spy": 732.4400024414062,
-      "grades": {}
+      "grades": {
+        "5": -0.1604
+      }
     },
     {
       "date": "2026-11-17",
@@ -1262,43 +1272,23 @@
       "grades": {
         "5": -0.0224
       }
-    },
-    {
-      "date": "2026-11-15",
-      "ticker": "AMD",
-      "signal": 77.2,
-      "price": 534.06,
-      "spy": 754.3699951171875,
-      "grades": {
-        "5": -0.1198
-      }
-    },
-    {
-      "date": "2026-11-15",
-      "ticker": "CORZ",
-      "signal": 72.4,
-      "price": 14.52,
-      "spy": 754.3699951171875,
-      "grades": {
-        "5": -0.1341
-      }
     }
   ],
   "composition": {
     "composition": {
-      "persist": 0.198,
-      "news": 0.492,
+      "persist": 0.195,
+      "news": 0.494,
       "confirm": 0.311
     },
     "ic": {
-      "persist": -0.259,
-      "news": 0.094,
-      "confirm": -0.026
+      "persist": -0.265,
+      "news": 0.097,
+      "confirm": -0.027
     },
     "multipliers": {
-      "persist": 0.611,
-      "news": 1.141,
-      "confirm": 0.961
+      "persist": 0.603,
+      "news": 1.145,
+      "confirm": 0.96
     },
     "graded_samples": 3105,
     "active": true,
