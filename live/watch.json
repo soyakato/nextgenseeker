@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T21:32:59.674188+00:00",
+  "updated": "2026-11-27T08:35:29.561982+00:00",
   "judge_source": "rule-based",
   "signals": [
     {
@@ -44,6 +44,91 @@
           "conf": 0.4,
           "type": "拡大・新製品",
           "why": "+拡大・新製品"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 11,
+      "today_rank": 17,
+      "first_seen": "2026-07-08",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.9,
+      "confirm": 65.6,
+      "signal": 64.9,
+      "mom": {
+        "ret5": -0.011,
+        "vol_surge": 2.26
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 55,
+        "hold": 24,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: 役員の退任・選任",
+          "summary": "",
+          "pub": "2026-11-23",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090",
+          "dir": -0.3,
+          "conf": 0.5,
+          "type": "8-K 5.02",
+          "why": "役員の退任・選任（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "SEC 8-K提出: 決算発表",
+          "summary": "",
+          "pub": "2026-11-17",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088",
+          "dir": 0.0,
+          "conf": 0.3,
+          "type": "8-K 2.02",
+          "why": "決算発表（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-11-24",
+          "provider": "Rosenblatt",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストupgrade: Hold→Buy",
+          "summary": "",
+          "pub": "2026-11-24",
+          "provider": "StoneX",
+          "url": "",
+          "dir": 0.6,
+          "conf": 0.7,
+          "type": "格付↑",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-11-23",
+          "provider": "Needham",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -253,118 +338,32 @@
           "why": "格付イベント（機械判定）"
         },
         {
+          "title": "アナリストmaintain: Neutral→Neutral",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Equal Weight→Equal Weight",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "Morgan Stanley",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
           "title": "アナリストmaintain: Buy→Buy",
           "summary": "",
           "pub": "2026-11-03",
           "provider": "Citigroup",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "Truist Securities",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "DA Davidson",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 11,
-      "today_rank": 17,
-      "first_seen": "2026-07-08",
-      "name": "NVIDIA Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 46.8,
-      "confirm": 65.6,
-      "signal": 62.9,
-      "mom": {
-        "ret5": -0.011,
-        "vol_surge": 2.26
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 54,
-        "hold": 25,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-11-23",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 決算発表",
-          "summary": "",
-          "pub": "2026-11-17",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088",
-          "dir": 0.0,
-          "conf": 0.3,
-          "type": "8-K 2.02",
-          "why": "決算発表（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "SEC 8-K提出: 役員の退任・選任",
-          "summary": "",
-          "pub": "2026-11-12",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082",
-          "dir": -0.3,
-          "conf": 0.5,
-          "type": "8-K 5.02",
-          "why": "役員の退任・選任（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "アナリストmaintain: Neutral→Neutral",
-          "summary": "",
-          "pub": "2026-11-23",
-          "provider": "Baird",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-23",
-          "provider": "Needham",
           "url": "",
           "dir": 0.0,
           "conf": 0.15,
@@ -379,7 +378,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 1,
-      "today_rank": 8,
+      "today_rank": 7,
       "first_seen": "2026-08-01",
       "name": "Coursera, Inc.",
       "sector": "Consumer Defensive",
@@ -608,9 +607,9 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 54.1,
+      "news": 52.6,
       "confirm": 30.8,
-      "signal": 55.7,
+      "signal": 55.0,
       "mom": {
         "ret5": -0.2341,
         "vol_surge": 1.72
@@ -659,17 +658,6 @@
           "why": "格付イベント（機械判定）"
         },
         {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-12",
-          "provider": "B of A Securities",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
           "title": "アナリストupgrade: Market Perform→Outperform",
           "summary": "",
           "pub": "2026-11-12",
@@ -679,84 +667,17 @@
           "conf": 0.7,
           "type": "格付↑",
           "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 15,
-      "today_rank": 16,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 54.6,
-      "confirm": 28.1,
-      "signal": 55.1,
-      "mom": {
-        "ret5": -0.1475,
-        "vol_surge": 1.54
-      },
-      "earn_days": 21,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Why It’s Hard to Write Off Micron (MU) Even with a Memory Peak in Sight",
-          "summary": "Micron Technology (MU) is hard to write off, even with a memory cycle peak in sight. I remain Bullish on the stock. Let me explain why. The global provider of semiconductor memory has lost nearly half its market value since June as fears of an approaching memory cycle peak gain traction. The funny t",
-          "pub": "2026-11-26T21:00",
-          "provider": "TipRanks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-hard-write-off-micron-210000375.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         },
         {
-          "title": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
-          "summary": "The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullbacks reflect heightened profit-taking and valuation concerns. They have also been exacerbated by shifting investor sentiment after the US mid",
-          "pub": "2026-11-26T19:47",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-most-oversold-semiconductor-stocks-194738573.html",
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-11-12",
+          "provider": "B of A Securities",
+          "url": "",
           "dir": 0.0,
           "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
-          "summary": "Futures are rising with U.S. markets shut after a wild session in which the Nasdaq rallied off lows while the Dow Jones and Anthropic reversed higher.",
-          "pub": "2026-11-26T18:11",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-wild-ride-nasdaq-nvidia-slash-losses-anthropic-higher/?src=A00220&yptr=yahoo",
-          "dir": 0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道"
-        },
-        {
-          "title": "Micron Stock Faces Surprising New Threat From Huawei",
-          "summary": "One of Wall Street's hottest chip markets faces uncertainty.",
-          "pub": "2026-11-26T18:03",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-faces-surprising-threat-180348513.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts",
-          "summary": "Chinese cloud providers are trimming 2027 orders, pushing NAND into a downward pricing cycle while DRAM stays tight.",
-          "pub": "2026-11-26T17:26",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-4-53-172600974.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
         }
       ]
     },
@@ -844,7 +765,7 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 7,
+      "today_rank": 8,
       "first_seen": "2026-09-10",
       "name": "Genius Sports Limited",
       "sector": "Communication Services",
@@ -884,26 +805,137 @@
       ]
     },
     {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 15,
+      "today_rank": 16,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 49.0,
+      "confirm": 28.1,
+      "signal": 52.4,
+      "mom": {
+        "ret5": -0.1475,
+        "vol_surge": 1.54
+      },
+      "earn_days": 20,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Elon Musk Offers Samsung Long-Term Chip Deals and Factory Funding, Gets Brushed Off: 'Everyone Else Was Offering That'",
+          "summary": "Samsung Electronics Co. Ltd. (OTC:SSNLF) was reportedly unmoved by offers from Tesla Inc. CEO Elon Musk (NASDAQ:TSLA) for long-term chip purchase commitments and guarantees to fund new factories. Capital Group Recalls Musk’s Samsung Talks Musk offered Samsung a long-term chip purchase commitment, bu",
+          "pub": "2026-11-27T06:44",
+          "provider": "Benzinga",
+          "url": "https://finance.yahoo.com/technology/articles/elon-musk-offers-samsung-long-064455133.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
+          "summary": "Futures rose on Thanksgiving after a wild market session, with the Nasdaq rallying off lows and Anthropic reversing higher.",
+          "pub": "2026-11-27T04:23",
+          "provider": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-wild-ride-nasdaq-nvidia-slash-losses-anthropic-higher/?src=A00220&yptr=yahoo",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Micron (MU) Has Secured $32 Billion in Customer Commitments. Here’s Why That Matters",
+          "summary": "We just published the list of the 10 Best Tech Stocks to Buy for 2027 According to Hedge Funds, and Micron Technology, Inc. (NASDAQ:MU) ranked 8th on this list. Tech stocks aren’t lacking in growth stories for 2027. The problem is that smart money is increasingly selective about which companies it’s",
+          "pub": "2026-11-27T03:12",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-secured-32-billion-031249719.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Semiconductor Stock Through 2030, This Would Be It.",
+          "summary": "Taiwan Semiconductor offers a compelling way to capitalize on the artificial intelligence (AI) chip revolution without having to pick a winner among competing chip designers.",
+          "pub": "2026-11-26T23:14",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/26/not-nvidia-not-micron-if-i-could-buy-and-hold-only-1-artificial-intelligence-ai-semiconductor-stock-through-2030-this-would-be-it/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Why It’s Hard to Write Off Micron (MU) Even with a Memory Peak in Sight",
+          "summary": "Micron Technology (MU) is hard to write off, even with a memory cycle peak in sight. I remain Bullish on the stock. Let me explain why. The global provider of semiconductor memory has lost nearly half its market value since June as fears of an approaching memory cycle peak gain traction. The funny t",
+          "pub": "2026-11-26T21:00",
+          "provider": "TipRanks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-hard-write-off-micron-210000375.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "AVGO",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 16,
-      "today_rank": 20,
+      "today_rank": 19,
       "first_seen": "2026-07-08",
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 49.0,
+      "news": 48.4,
       "confirm": 26.4,
-      "signal": 51.9,
+      "signal": 51.6,
       "mom": {
         "ret5": -0.1502,
         "vol_surge": 1.43
       },
-      "earn_days": 13,
+      "earn_days": 12,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Why Redburn Downgraded Broadcom (AVGO) Despite Surging AI Revenue",
+          "summary": "Broadcom Inc. (NASDAQ:AVGO) appears at No. 8 in 10 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027, with customer financing drawing scrutiny as AI sales surge. Coatue Management’s November 16 regulatory filing puts billionaire Philippe Laffont’s positioning back in focus a",
+          "pub": "2026-11-27T03:50",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-redburn-downgraded-broadcom-avgo-035057918.html",
+          "dir": -0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道 -格下げ"
+        },
+        {
+          "title": "Broadcom (AVGO) Could Be the Biggest Winner From the Shift to Custom AI Chips",
+          "summary": "We just published the list of the 10 Best Tech Stocks to Buy for 2027 According to Hedge Funds, and Broadcom Inc. (NASDAQ:AVGO) ranked 9th on this list. Tech stocks aren’t lacking in growth stories for 2027. The problem is that smart money is increasingly selective about which companies it’s willing",
+          "pub": "2026-11-27T03:15",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-could-biggest-winner-031533044.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next.",
+          "summary": "Nvidia and Broadcom shares have pulled back sharply even as AI demand holds up. Past sell-offs offer clues for long-term investors.",
+          "pub": "2026-11-27T00:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
         {
           "title": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
           "summary": "The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullbacks reflect heightened profit-taking and valuation concerns. They have also been exacerbated by shifting investor sentiment after the US mid",
@@ -921,39 +953,6 @@
           "pub": "2026-11-26T19:33",
           "provider": "TheStreet",
           "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-stock-goldman-sachs-resets-avgo-stock-12-month-price-target-before-earnings",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
-          "summary": "Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Google and Anthropic exposure stays in focus.",
-          "pub": "2026-11-26T18:30",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-edge-lower-rebounding-183041028.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First?",
-          "summary": "A CEO resignation, a credit rating on watch, and export rules scrambling China-bound GPUs have rattled the AI trade's biggest name. Two very different futures now compete for NVIDIA shares, and the next catalysts could tip the balance.",
-          "pub": "2026-11-26T16:06",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/26/nvidia-just-dropped-31-in-a-month-will-nvda-stock-hit-125-or-200-first/",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "経営陣退任",
-          "why": "-経営陣退任"
-        },
-        {
-          "title": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
-          "summary": "NVIDIA lost its CEO, drew a credit warning, and watched its stock slide nearly a third in a month. So why does one investor keep buying more every week, and which three numbers convinced him the real story lies elsewhere?",
-          "pub": "2026-11-26T15:45",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -979,7 +978,7 @@
         "ret5": -0.0892,
         "vol_surge": 1.03
       },
-      "earn_days": 14,
+      "earn_days": 13,
       "consensus": null,
       "headlines": [
         {
@@ -993,6 +992,17 @@
           "type": "8-K 8.01",
           "why": "その他の重要イベント（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Morgan Stanley’s 8 Best Networking & Optical Communications Stocks to Buy for 2027",
+          "summary": "Cloud operators sharply increased purchases of optical transport equipment in the third quarter of 2026. In its recent market update, Dell’Oro Group reported that vendors grew revenue from large North American cloud providers by 75% year over year. The overall optical transport market expanded 24%,",
+          "pub": "2026-11-27T04:02",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/articles/morgan-stanley-8-best-networking-040254483.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Can Optical Circuit Switching Become Fabrinet's Next Growth Driver?",
@@ -1026,34 +1036,31 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can Arista Networks Stock Hit $270?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-24T17:17",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/anet/articles/628275/can-arista-networks-stock-hit-270/2026-11-24",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
         }
       ]
     }
   ],
   "alert_summary": {
     "5": {
-      "n": 1115,
+      "n": 1099,
       "hit_rate": 0.49,
-      "avg_excess": -0.0001
+      "avg_excess": -0.0014
     },
     "20": {
-      "n": 997,
-      "hit_rate": 0.46,
-      "avg_excess": -0.0118
+      "n": 989,
+      "hit_rate": 0.45,
+      "avg_excess": -0.0154
     }
   },
   "alerts_recent": [
+    {
+      "date": "2026-11-27",
+      "ticker": "FLYW",
+      "signal": 69.5,
+      "price": 23.26,
+      "spy": 716.7000122070312,
+      "grades": {}
+    },
     {
       "date": "2026-11-26",
       "ticker": "FLYW",
@@ -1225,33 +1232,23 @@
       "grades": {
         "5": -0.0312
       }
-    },
-    {
-      "date": "2026-11-16",
-      "ticker": "ALAB",
-      "signal": 68.8,
-      "price": 221.83,
-      "spy": 754.3699951171875,
-      "grades": {
-        "5": -0.1014
-      }
     }
   ],
   "composition": {
     "composition": {
-      "persist": 0.193,
-      "news": 0.497,
-      "confirm": 0.31
+      "persist": 0.195,
+      "news": 0.496,
+      "confirm": 0.309
     },
     "ic": {
-      "persist": -0.269,
-      "news": 0.104,
-      "confirm": -0.026
+      "persist": -0.26,
+      "news": 0.111,
+      "confirm": -0.021
     },
     "multipliers": {
-      "persist": 0.597,
-      "news": 1.155,
-      "confirm": 0.96
+      "persist": 0.609,
+      "news": 1.166,
+      "confirm": 0.968
     },
     "graded_samples": 3105,
     "active": true,
