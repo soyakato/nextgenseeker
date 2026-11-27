@@ -1,7 +1,90 @@
 {
-  "updated": "2026-11-27T08:35:29.561982+00:00",
+  "updated": "2026-11-27T21:18:18.892817+00:00",
   "judge_source": "rule-based",
   "signals": [
+    {
+      "ticker": "PLTR",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 1,
+      "today_rank": 2,
+      "first_seen": "2026-07-08",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 55.5,
+      "confirm": 80.8,
+      "signal": 72.0,
+      "mom": {
+        "ret5": 0.1203,
+        "vol_surge": 1.05
+      },
+      "earn_days": null,
+      "consensus": {
+        "buy": 17,
+        "hold": 9,
+        "sell": 3,
+        "consensus": "Buy"
+      },
+      "headlines": [
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-11-04",
+          "provider": "Barclays",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Overweight→Overweight",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "Piper Sandler",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Neutral→Neutral",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "Cantor Fitzgerald",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Equal Weight→Equal Weight",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "Morgan Stanley",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        },
+        {
+          "title": "アナリストmaintain: Buy→Buy",
+          "summary": "",
+          "pub": "2026-11-03",
+          "provider": "Citigroup",
+          "url": "",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "格付",
+          "why": "格付イベント（機械判定）"
+        }
+      ]
+    },
     {
       "ticker": "FLYW",
       "tier": "確定",
@@ -14,11 +97,11 @@
       "sector": "Technology",
       "persist": 100,
       "news": 52.0,
-      "confirm": 78.6,
-      "signal": 69.5,
+      "confirm": 85.2,
+      "signal": 71.6,
       "mom": {
-        "ret5": 0.0689,
-        "vol_surge": 1.53
+        "ret5": 0.1093,
+        "vol_surge": 1.35
       },
       "earn_days": null,
       "consensus": null,
@@ -48,22 +131,100 @@
       ]
     },
     {
+      "ticker": "CNQ",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 9,
+      "today_rank": 9,
+      "first_seen": "2026-07-08",
+      "name": "Canadian Natural Resources Limi",
+      "sector": "Energy",
+      "persist": 100,
+      "news": 60.5,
+      "confirm": 63.5,
+      "signal": 69.1,
+      "mom": {
+        "ret5": 0.0329,
+        "vol_surge": 1.24
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "How Cenovus' Low-Cost Assets and Integrated Model Support Resilience",
+          "summary": "CVE's low-cost oil sands assets, integrated refining operations and expanding pipeline access strengthen its resilience and support long-term profitability.",
+          "pub": "2026-11-27T17:18",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/cenovus-low-cost-assets-integrated-171800825.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
+        {
+          "title": "TC Energy Expands Indigenous Ownership in Coastal GasLink Pipeline",
+          "summary": "TRP expands Indigenous ownership in Coastal GasLink as a second deal brings 12 more First Nations into the pipeline's economic benefits.",
+          "pub": "2026-11-27T12:19",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/tc-energy-expands-indigenous-ownership-121900365.html",
+          "dir": 1.0,
+          "conf": 1.0,
+          "type": "契約・提携",
+          "why": "+契約・提携 +拡大・新製品"
+        },
+        {
+          "title": "Petrobras Eyes Corn Ethanol Expansion: Can It Unlock New Value?",
+          "summary": "PBR eyes more corn ethanol investments in Brazil after its Neomille stake deal, seeking to diversify revenues and strengthen the renewable fuels business.",
+          "pub": "2026-11-25T17:51",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/petrobras-eyes-corn-ethanol-expansion-175100168.html",
+          "dir": 0.6,
+          "conf": 0.6,
+          "type": "契約・提携",
+          "why": "+契約・提携"
+        },
+        {
+          "title": "Improve Your Retirement Income with These 3 Top-Ranked Dividend Stocks",
+          "summary": "The traditional retirement planning approaches no longer cover all expenses in nest egg years. So what can retirees do? Thankfully, there are alternative investments that provide steady, higher-rate income streams to replace dwindling bond yields.",
+          "pub": "2026-11-24T13:10",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/improve-retirement-income-3-top-131004756.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Rising Natural Gas Demand Fuel USA Compression's Growth?",
+          "summary": "USAC's $500 million order book, tight equipment supply and rising natural gas demand strengthen its growth prospects, but cost pressures remain a concern.",
+          "pub": "2026-11-24T12:49",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/rising-natural-gas-demand-fuel-124900737.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
       "ticker": "NVDA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 11,
-      "today_rank": 17,
+      "today_rank": 21,
       "first_seen": "2026-07-08",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "persist": 100,
-      "news": 50.9,
-      "confirm": 65.6,
-      "signal": 64.9,
+      "news": 50.6,
+      "confirm": 75.2,
+      "signal": 67.8,
       "mom": {
-        "ret5": -0.011,
-        "vol_surge": 2.26
+        "ret5": 0.0309,
+        "vol_surge": 2.06
       },
       "earn_days": null,
       "consensus": {
@@ -133,76 +294,98 @@
       ]
     },
     {
-      "ticker": "CNQ",
+      "ticker": "COUR",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 9,
-      "today_rank": 9,
-      "first_seen": "2026-07-08",
-      "name": "Canadian Natural Resources Limi",
-      "sector": "Energy",
+      "best_rank": 1,
+      "today_rank": 7,
+      "first_seen": "2026-08-01",
+      "name": "Coursera, Inc.",
+      "sector": "Consumer Defensive",
       "persist": 100,
-      "news": 55.5,
-      "confirm": 55.8,
-      "signal": 64.2,
+      "news": 50.0,
+      "confirm": 74.8,
+      "signal": 67.4,
       "mom": {
-        "ret5": 0.0007,
-        "vol_surge": 1.37
+        "ret5": 0.1014,
+        "vol_surge": 0.65
+      },
+      "earn_days": null,
+      "consensus": null,
+      "headlines": []
+    },
+    {
+      "ticker": "NEM",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 3,
+      "today_rank": 13,
+      "first_seen": "2026-07-08",
+      "name": "Newmont Corporation",
+      "sector": "Basic Materials",
+      "persist": 100,
+      "news": 46.0,
+      "confirm": 74.1,
+      "signal": 65.2,
+      "mom": {
+        "ret5": 0.071,
+        "vol_surge": 1.19
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "Petrobras Eyes Corn Ethanol Expansion: Can It Unlock New Value?",
-          "summary": "PBR eyes more corn ethanol investments in Brazil after its Neomille stake deal, seeking to diversify revenues and strengthen the renewable fuels business.",
-          "pub": "2026-11-25T17:51",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/petrobras-eyes-corn-ethanol-expansion-175100168.html",
-          "dir": 0.6,
-          "conf": 0.6,
-          "type": "契約・提携",
-          "why": "+契約・提携"
-        },
-        {
-          "title": "Improve Your Retirement Income with These 3 Top-Ranked Dividend Stocks",
-          "summary": "The traditional retirement planning approaches no longer cover all expenses in nest egg years. So what can retirees do? Thankfully, there are alternative investments that provide steady, higher-rate income streams to replace dwindling bond yields.",
-          "pub": "2026-11-24T13:10",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/improve-retirement-income-3-top-131004756.html",
+          "title": "How Firm Is Newmont Stock's Floor As Costs Rise?",
+          "summary": "Today's big story: Anthropic Broke Its $83 IPO Price. What Did Facebook Do Next.",
+          "pub": "2026-11-27T20:31",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/stock/nem/articles/629351/how-firm-is-newmont-stock-s-floor-as-costs-rise/2026-11-27",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Can Rising Natural Gas Demand Fuel USA Compression's Growth?",
-          "summary": "USAC's $500 million order book, tight equipment supply and rising natural gas demand strengthen its growth prospects, but cost pressures remain a concern.",
-          "pub": "2026-11-24T12:49",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/rising-natural-gas-demand-fuel-124900737.html",
+          "title": "Gold Doesn’t Pay Dividends, but These 3 Gold Mining Stocks Do",
+          "summary": "Record bullion prices have turned gold miners into cash machines, yet two of these three payers have cut income for shareholders before. Each runs a different payout policy, and one pays a bonus you should never budget around.",
+          "pub": "2026-11-27T13:47",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/27/gold-doesnt-pay-dividends-but-these-3-gold-mining-stocks-do/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Chevron Expands Greek Offshore Exploration With Seismic Surveys",
-          "summary": "CVX's Greek offshore exploration spans four blocks across about 47,000 square kilometers, as seismic surveys assess prospects for long-term upstream growth.",
-          "pub": "2026-11-23T15:18",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/chevron-expands-greek-offshore-exploration-151800754.html",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "拡大・新製品",
-          "why": "+拡大・新製品"
+          "title": "Agnico Eagle Bets on Massive Gold Expansion Despite Rising Mining Costs",
+          "summary": "Agnico Eagle Mines (NYSE: AEM) is targeting a 20%–30% increase in annual gold production into the 2030s, backed by four major projects that could add between 1.3 million and 1.5 million ounces of annual output.",
+          "pub": "2026-11-26T19:02",
+          "provider": "Oilprice.com",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/agnico-eagle-bets-massive-gold-190217024.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
-          "title": "Are Oils-Energy Stocks Lagging  Canadian Natural Resources Limited (CNQ) This Year?",
-          "summary": "Here is how Canadian Natural Resources (CNQ) and EOG Resources (EOG) have performed compared to their sector so far this year.",
-          "pub": "2026-11-23T13:40",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/oils-energy-stocks-lagging-canadian-134003657.html",
+          "title": "Stanley Druckenmiller and 10 Other Big Funds Bought Newmont Last Quarter. Ken Fisher and 5 Others Sold. Who’s Right?",
+          "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the third quarter, 11 bought Newmont and 6 sold, with Stanley Druckenmiller’s Duquesne Family Office opening new stakes in Newmont, Agnico Eagle and Barrick. Most of the sellers trimmed.",
+          "pub": "2026-11-26T18:15",
+          "provider": "TIKR",
+          "url": "https://www.tikr.com/blog/stanley-druckenmiller-and-10-other-big-funds-bought-newmont-last-quarter-ken-fisher-and-5-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-5xvcrmf7",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "What State Street Materials Select Sector SPDR (XLB) Sold: Linde Leads on Tuesday",
+          "summary": "The $7.97 billion fund sold $210.7 million across all 24 positions, with Linde's $28.7 million reduction the largest.",
+          "pub": "2026-11-26T11:05",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-materials-select-sector-110528054.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -222,11 +405,11 @@
       "sector": "Healthcare",
       "persist": 100,
       "news": 51.0,
-      "confirm": 61.3,
-      "signal": 63.6,
+      "confirm": 64.0,
+      "signal": 64.6,
       "mom": {
-        "ret5": 0.0336,
-        "vol_surge": 1.08
+        "ret5": 0.0477,
+        "vol_surge": 0.98
       },
       "earn_days": null,
       "consensus": null,
@@ -242,6 +425,17 @@
           "type": "8-K 5.02",
           "why": "役員の退任・選任（一次情報・機械判定）",
           "is_edgar": true
+        },
+        {
+          "title": "Pfizer and Bristol Myers Are Up About 20% This Year, but Their Dividends Face a Major Test",
+          "summary": "One drugmaker pays a fatter yield, the other has paid dividends for 94 straight years, and both are staring down patent expirations that can wipe out a blockbuster's sales in a single quarter. Which payout can retirees actually trust?",
+          "pub": "2026-11-27T12:47",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/27/pfizer-and-bristol-myers-are-up-about-20-this-year-but-their-dividends-face-a-major-test/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         },
         {
           "title": "Bristol Myers' Sotyktu Delivers Mixed Phase III Lupus Study Results",
@@ -275,134 +469,40 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head",
-          "summary": "It’s the second big change to Bristol Myers’ executive ranks this month. Elsewhere, Cogent secured a cancer drug approval while Arcus Biosciences and Belite Bio hit setbacks.",
-          "pub": "2026-11-25T16:24",
-          "provider": "BioPharma Dive",
-          "url": "https://www.biopharmadive.com/news/arcus-quemliclustat-belite-amgen-opdivo-biosimilar/875512/",
-          "dir": 0.7,
-          "conf": 0.7,
-          "type": "承認",
-          "why": "+承認"
         }
       ]
     },
     {
-      "ticker": "PLTR",
+      "ticker": "AA",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 2,
+      "best_rank": 6,
+      "today_rank": 12,
       "first_seen": "2026-07-08",
-      "name": "Palantir Technologies Inc.",
-      "sector": "Technology",
+      "name": "Alcoa Corporation",
+      "sector": "Basic Materials",
       "persist": 100,
-      "news": 48.2,
-      "confirm": 64.8,
-      "signal": 63.3,
+      "news": 50.0,
+      "confirm": 57.9,
+      "signal": 62.2,
       "mom": {
-        "ret5": 0.0442,
-        "vol_surge": 1.1
-      },
-      "earn_days": null,
-      "consensus": {
-        "buy": 17,
-        "hold": 9,
-        "sell": 3,
-        "consensus": "Buy"
-      },
-      "headlines": [
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-11-04",
-          "provider": "Barclays",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Overweight→Overweight",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "Piper Sandler",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Neutral→Neutral",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "Cantor Fitzgerald",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Equal Weight→Equal Weight",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "Morgan Stanley",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        },
-        {
-          "title": "アナリストmaintain: Buy→Buy",
-          "summary": "",
-          "pub": "2026-11-03",
-          "provider": "Citigroup",
-          "url": "",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "格付",
-          "why": "格付イベント（機械判定）"
-        }
-      ]
-    },
-    {
-      "ticker": "COUR",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 1,
-      "today_rank": 7,
-      "first_seen": "2026-08-01",
-      "name": "Coursera, Inc.",
-      "sector": "Consumer Defensive",
-      "persist": 100,
-      "news": 48.0,
-      "confirm": 54.7,
-      "signal": 60.1,
-      "mom": {
-        "ret5": 0.0307,
-        "vol_surge": 0.7
+        "ret5": 0.0289,
+        "vol_surge": 0.95
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "Bitcoin sell-off versus the tech sell-off, and the SEC finds eight fake crypto trading platforms",
-          "summary": "Scott Melker discusses the differences in how the bitcoin sell-off is discussed vs. the tech sell-off, institutional holdings at a record high in bitcoin ETFs, and the SEC finding that eight entities used fake crypto platforms to steal more than $37 million. \n\n\"The Daily Wolf with Scott Melker\" airs",
-          "pub": "2026-11-20T17:00",
-          "provider": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/bitcoin-sell-off-versus-tech-170000138.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
+          "title": "A $3.5 Billion Fund Dumps These 3 Stocks",
+          "summary": "Key TakeawaysA $3. 5 billion fund sold all of its HDFC Bank, News Corp and Aya Gold & Silver shares in the third quarter, its latest 13F shows.",
+          "pub": "2026-11-23T17:08",
+          "provider": "TIKR",
+          "url": "https://www.tikr.com/blog/a-3-5-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261123-ccr26mfr",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
         }
       ]
     },
@@ -412,21 +512,43 @@
       "streak": 43,
       "appearances": 15,
       "best_rank": 2,
-      "today_rank": 12,
+      "today_rank": 14,
       "first_seen": "2026-07-08",
       "name": "Astera Labs, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 59.5,
-      "confirm": 26.1,
-      "signal": 57.0,
+      "news": 54.2,
+      "confirm": 48.2,
+      "signal": 61.3,
       "mom": {
-        "ret5": -0.1218,
-        "vol_surge": 1.41
+        "ret5": -0.0225,
+        "vol_surge": 1.33
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
+        {
+          "title": "Astera Labs is suddenly back in the AI spotlight after rough patch",
+          "summary": "The AI connectivity chipmaker’s stock is making moves that have Wall Street watching.",
+          "pub": "2026-11-27T19:17",
+          "provider": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/astera-labs-is-suddenly-back-in-the-ai-spotlight-after-rough-patch",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "MRVL to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock?",
+          "summary": "Marvell heads into Q3 earnings with strong AI infrastructure demand and expanding hyperscaler opportunities, but competition and premium valuation support a Hold stance.",
+          "pub": "2026-11-27T14:27",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mrvl-post-q3-earnings-time-142700413.html",
+          "dir": 0.4,
+          "conf": 0.4,
+          "type": "拡大・新製品",
+          "why": "+拡大・新製品"
+        },
         {
           "title": "Is Astera Labs, Inc. (ALAB) One of the Best Oversold AI Semiconductor Stocks to Buy?",
           "summary": "We just published our list, 10 Most Oversold Semiconductor Stocks to Buy for 2027, and Arm Holdings plc ranked 10th on this list. The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullbacks reflec",
@@ -459,136 +581,360 @@
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo Technology Ahead of Q2 Earnings: How to Approach the Stock Now?",
-          "summary": "CRDO heads into Q2 earnings with strong AEC demand and growing optical opportunities, but premium valuation and execution risks warrant caution.",
-          "pub": "2026-11-26T14:30",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-ahead-q2-earnings-143000855.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Credo Technology Has Had a Wild Ride to a 25% Decline Year-to-Date: Two Wall Street Teams Target 190% Returns Moving Forward",
-          "summary": "Revenue keeps doubling and earnings keep beating estimates, yet Credo shares have been gutted by a selloff that spared most of its peers. Nineteen of 20 analysts still say buy, so what is the market seeing that they are not?",
-          "pub": "2026-11-26T12:15",
-          "provider": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/11/26/credo-technology-has-had-a-wild-ride-to-a-25-decline-year-to-date-two-wall-street-teams-target-190-returns-moving-forward/",
-          "dir": 0.4,
-          "conf": 0.4,
-          "type": "決算ビート",
-          "why": "+決算ビート -急落報道"
         }
       ]
     },
     {
-      "ticker": "NEM",
+      "ticker": "GENI",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
       "best_rank": 3,
-      "today_rank": 13,
-      "first_seen": "2026-07-08",
-      "name": "Newmont Corporation",
-      "sector": "Basic Materials",
+      "today_rank": 8,
+      "first_seen": "2026-09-10",
+      "name": "Genius Sports Limited",
+      "sector": "Communication Services",
       "persist": 100,
-      "news": 46.0,
-      "confirm": 47.5,
-      "signal": 56.9,
+      "news": 50.0,
+      "confirm": 53.3,
+      "signal": 60.8,
       "mom": {
-        "ret5": -0.027,
-        "vol_surge": 1.37
+        "ret5": 0.0034,
+        "vol_surge": 1.15
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "Agnico Eagle Bets on Massive Gold Expansion Despite Rising Mining Costs",
-          "summary": "Agnico Eagle Mines (NYSE: AEM) is targeting a 20%–30% increase in annual gold production into the 2030s, backed by four major projects that could add between 1.3 million and 1.5 million ounces of annual output.",
-          "pub": "2026-11-26T19:02",
-          "provider": "Oilprice.com",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/agnico-eagle-bets-massive-gold-190217024.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Stanley Druckenmiller and 10 Other Big Funds Bought Newmont Last Quarter. Ken Fisher and 5 Others Sold. Who’s Right?",
-          "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the third quarter, 11 bought Newmont and 6 sold, with Stanley Druckenmiller’s Duquesne Family Office opening new stakes in Newmont, Agnico Eagle and Barrick. Most of the sellers trimmed.",
-          "pub": "2026-11-26T18:15",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/stanley-druckenmiller-and-10-other-big-funds-bought-newmont-last-quarter-ken-fisher-and-5-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261126-5xvcrmf7",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What State Street Materials Select Sector SPDR (XLB) Sold: Linde Leads on Tuesday",
-          "summary": "The $7.97 billion fund sold $210.7 million across all 24 positions, with Linde's $28.7 million reduction the largest.",
-          "pub": "2026-11-26T11:05",
+          "title": "Genius Sports (GENI) Stock Is Up 11.3% Today Without Company News",
+          "summary": "On Wednesday, Nov. 25, the shares rose 11.3% without company-specific news as the broader market fell.",
+          "pub": "2026-11-25T18:45",
           "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-materials-select-sector-110528054.html",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/genius-sports-geni-stock-11-184528347.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
         },
         {
-          "title": "Avantis U.S. Large Cap Value ETF (AVLV) Adds AT&T and Micron on Tuesday",
-          "summary": "The fund bought $227.7 million of stock, lifting 162 positions and selling none, with AT&T and Micron leading the buys.",
-          "pub": "2026-11-26T11:05",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/avantis-u-large-cap-value-110514185.html",
+          "title": "Genius Sports (GENI) Stock Looks Fully Priced Against Its Sales",
+          "summary": "Genius Sports has seen its share price fall sharply this year, and that slide puts a spotlight on a simple question for investors who still follow the stock. Is the current US$5.18 price tag reasonable when you line it up against the revenue the business generates? The share price has dropped 51.9%",
+          "pub": "2026-11-22T01:11",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/genius-sports-geni-stock-looks-011104935.html",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
           "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Holding GLD For Stock Falls? Gold Missed This One",
-          "summary": "SPDR Gold Shares (GLD) rose in 6 of the 9 S&P 500 falls of 10% or more since the fund began in November 2004. This fall, gold did not help. GLD lost 14.3% from the S&P 500's October 6 record through November 25.",
-          "pub": "2026-11-26T11:02",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/gld/articles/629222/holding-gld-for-stock-falls-gold-missed-this-one/2026-11-26",
-          "dir": -0.8,
-          "conf": 0.8,
-          "type": "決算ミス",
-          "why": "-決算ミス"
         }
       ]
     },
     {
-      "ticker": "AA",
+      "ticker": "DDOG",
       "tier": "確定",
       "streak": 43,
       "appearances": 15,
-      "best_rank": 6,
-      "today_rank": 10,
-      "first_seen": "2026-07-08",
-      "name": "Alcoa Corporation",
-      "sector": "Basic Materials",
+      "best_rank": 2,
+      "today_rank": 4,
+      "first_seen": "2026-08-08",
+      "name": "Datadog, Inc.",
+      "sector": "Technology",
       "persist": 100,
-      "news": 50.0,
-      "confirm": 39.0,
-      "signal": 56.2,
+      "news": 46.0,
+      "confirm": 47.2,
+      "signal": 56.9,
       "mom": {
-        "ret5": -0.0357,
-        "vol_surge": 0.98
+        "ret5": -0.0043,
+        "vol_surge": 0.9
       },
       "earn_days": null,
       "consensus": null,
       "headlines": [
         {
-          "title": "A $3.5 Billion Fund Dumps These 3 Stocks",
-          "summary": "Key TakeawaysA $3. 5 billion fund sold all of its HDFC Bank, News Corp and Aya Gold & Silver shares in the third quarter, its latest 13F shows.",
-          "pub": "2026-11-23T17:08",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/a-3-5-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261123-ccr26mfr",
+          "title": "SAP Stock Puts AI Software Leaders On Watch",
+          "summary": "AI is forcing every large software player to rethink how products are built, sold and funded, and SAP’s plan for at least 10,000 job cuts tied to its AI push shows how intense that rethink has become. When a heavyweight like SAP leans into cloud and automation while tightening costs, it can ripple a",
+          "pub": "2026-11-27T19:13",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/sap-stock-puts-ai-software-191301798.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "リストラ",
+          "why": "-リストラ"
+        },
+        {
+          "title": "Why Datadog (DDOG) Stock Is Down Today: Software Selloff on AI Fears",
+          "summary": "On Wednesday, Nov. 25, shares fell 8.5% as a tech selloff over AI fears hit software stocks, without company-specific news",
+          "pub": "2026-11-25T17:15",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-datadog-ddog-stock-down-171521066.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Datadog vs. Monday.com: Which Technology Stock Is a Better Buy for 2027?",
+          "summary": "Datadog's 33% revenue growth comes with a far richer price tag than Monday.com, but the cheaper stock carries risks investors shouldn't ignore.",
+          "pub": "2026-11-24T17:20",
+          "provider": "Motley Fool",
+          "url": "https://www.fool.com/coverage/better-buy/2026/11/24/datadog-vs-monday-com-which-technology-stock-is-a-better-buy-for-2027/",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Did The Sell-Off Punish Salesforce For Slow Growth?",
+          "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.",
+          "pub": "2026-11-24T13:27",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/stock/crm/articles/628298/did-the-sell-off-punish-salesforce-for-slow-growth/2026-11-24",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Datadog beat earnings—then its biggest AI customer hit the brakes",
+          "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+          "pub": "2026-11-24T07:12",
+          "provider": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/datadog-beat-earnings-then-biggest-071230736.html",
+          "dir": 0.8,
+          "conf": 0.8,
+          "type": "決算ビート",
+          "why": "+決算ビート"
+        }
+      ]
+    },
+    {
+      "ticker": "CIEN",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 3,
+      "today_rank": 15,
+      "first_seen": "2026-07-09",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 48.0,
+      "confirm": 43.0,
+      "signal": 56.6,
+      "mom": {
+        "ret5": -0.023,
+        "vol_surge": 0.99
+      },
+      "earn_days": 13,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "SEC 8-K提出: その他の重要イベント",
+          "summary": "",
+          "pub": "2026-11-16",
+          "provider": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026074023",
+          "dir": 0.1,
+          "conf": 0.3,
+          "type": "8-K 8.01",
+          "why": "その他の重要イベント（一次情報・機械判定）",
+          "is_edgar": true
+        },
+        {
+          "title": "Morgan Stanley’s 8 Best Networking & Optical Communications Stocks to Buy for 2027",
+          "summary": "Cloud operators sharply increased purchases of optical transport equipment in the third quarter of 2026. In its recent market update, Dell’Oro Group reported that vendors grew revenue from large North American cloud providers by 75% year over year. The overall optical transport market expanded 24%,",
+          "pub": "2026-11-27T04:02",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/articles/morgan-stanley-8-best-networking-040254483.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Optical Circuit Switching Become Fabrinet's Next Growth Driver?",
+          "summary": "FN sees a multi-hundred-million-dollar opportunity in optical circuit switching as growing customer demand and capacity expansion support its prospects.",
+          "pub": "2026-11-26T12:12",
+          "provider": "Zacks",
+          "url": "https://finance.yahoo.com/technology/articles/optical-circuit-switching-become-fabrinets-121200862.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "What Are Ciena Investors Betting On?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "pub": "2026-11-25T11:12",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/stock/cien/articles/628738/what-are-ciena-investors-betting-on/2026-11-25",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Can Ciena Stock Hit $400?",
+          "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.",
+          "pub": "2026-11-24T17:37",
+          "provider": "Trefis",
+          "url": "https://www.trefis.com/stock/cien/articles/628392/can-ciena-stock-hit-400/2026-11-24",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 15,
+      "today_rank": 19,
+      "first_seen": "2026-07-08",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 50.1,
+      "confirm": 38.5,
+      "signal": 56.2,
+      "mom": {
+        "ret5": -0.063,
+        "vol_surge": 1.49
+      },
+      "earn_days": 20,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Stocks snap from a $6 trillion washout to a $3.5 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+          "summary": "Wall Street is no longer running for the exits as chipmakers pull stocks off Wednesday's lows.",
+          "pub": "2026-11-27T15:12",
+          "provider": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "He was right about AI and still lost $35 billion",
+          "summary": "Leopold Aschenbrenner turned $225 million into a $45 billion fund in under two years by betting on everything AI would need. Then 4x leverage and a brutal July cost him $35 billion from the peak. Host Ejaaz Ahamadeen breaks down the essay, the bets, the margin calls and Citadel's block trade, and wh",
+          "pub": "2026-11-27T12:00",
+          "provider": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/ai-still-lost-35-billion-120000023.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Micron Stocks Climb 4.29% as Chip Rebound Meets Tight 2027 Memory Supply",
+          "summary": "Shares bounce with the sector, backed by 26 take-or-pay deals carrying $32 billion in customer cash and commitments.",
+          "pub": "2026-11-27T19:24",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-climb-4-29-192447627.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Jim Cramer Is Still Bullish On These 5 Tech Stocks Despite AI Bear Market",
+          "summary": "The Nasdaq-100 briefly fell 20% below its October 6 record closing high on November 25 before recovering much of the day’s loss. The sell-off had picked up weeks earlier. On November 5, the Nasdaq Composite fell 5.5% as investors reconsidered how quickly the U.S. could build out AI infrastructure af",
+          "pub": "2026-11-27T18:49",
+          "provider": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/articles/jim-cramer-still-bullish-5-184921596.html",
+          "dir": -0.4,
+          "conf": 0.4,
+          "type": "急落報道",
+          "why": "-急落報道"
+        },
+        {
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "summary": "By Saeed Azhar, Shashwat Chauhan and Avinash P NEW YORK, Nov 27 (Reuters) - Wall Street's main indexes ended higher on Friday and posted weekly gains as investors returned from the Thanksgiving",
+          "pub": "2026-11-27T18:37",
+          "provider": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-surge-investors-073405748.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "tier": "確定",
+      "streak": 43,
+      "appearances": 15,
+      "best_rank": 16,
+      "today_rank": 20,
+      "first_seen": "2026-07-08",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "persist": 100,
+      "news": 51.7,
+      "confirm": 25.8,
+      "signal": 53.1,
+      "mom": {
+        "ret5": -0.099,
+        "vol_surge": 1.37
+      },
+      "earn_days": 12,
+      "consensus": null,
+      "headlines": [
+        {
+          "title": "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains",
+          "summary": "Jensen Huang is back at the helm, and Nvidia’s (NVDA) bull case remains in play. Nvidia shares surged 31.5% on November 23 after news of Jensen Huang’s reinstatement, underscoring how closely investor confidence in the company is tied to its co-founder. While near-term volatility is likely to persis",
+          "pub": "2026-11-27T21:06",
+          "provider": "TipRanks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-back-nvidia-nvda-210600721.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "What Broadcom Stock's Google Chip Order Cut Means For Shareholders",
+          "summary": "Reports in late November indicated that Alphabet plans to trim 2027 shipments of Broadcom designed TPU AI chips by about 20%, which came alongside wider concern about whether heavy AI data center spending will generate adequate returns. The development highlights how Broadcom’s AI semiconductor outl",
+          "pub": "2026-11-27T20:10",
+          "provider": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-google-chip-order-201047235.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Broadcom Stocks Climb 2.19% as $1 Billion Anthropic Stake Turns Positive",
+          "summary": "Broadcom bought into Anthropic's $26 billion placement at $83 a share, and its exposure runs far deeper through a five-year chip lease.",
+          "pub": "2026-11-27T19:46",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-climb-2-19-194642288.html",
+          "dir": 0.0,
+          "conf": 0.15,
+          "type": "一般",
+          "why": "特定イベント検出なし"
+        },
+        {
+          "title": "Skyworks (SWKS) Stock Is Up 6.5% Today Along With Chip Rally",
+          "summary": "On Friday, Nov. 27, Skyworks rose 6.5% as chip stocks rallied, without company-specific news",
+          "pub": "2026-11-27T16:45",
+          "provider": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-stock-6-5-164537166.html",
+          "dir": 0.3,
+          "conf": 0.3,
+          "type": "急騰報道",
+          "why": "+急騰報道"
+        },
+        {
+          "title": "Qualcomm Is Betting Big on a $5 Billion Opportunity. Here’s What It Could Mean for the Stock",
+          "summary": "Handsets are shrinking, the stock just whipsawed double digits, and Wall Street analysts mostly shrug. Yet one fast-growing business, limited by supply instead of demand, may be quietly rewriting Qualcomm's story. Can it outrun the risks hiding in its customer list?",
+          "pub": "2026-11-27T16:33",
+          "provider": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/27/qualcomm-is-betting-big-on-a-5-billion-opportunity-heres-what-it-could-mean-for-the-stock/",
           "dir": 0.0,
           "conf": 0.15,
           "type": "一般",
@@ -607,12 +953,12 @@
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "persist": 100,
-      "news": 52.6,
-      "confirm": 30.8,
-      "signal": 55.0,
+      "news": 50.6,
+      "confirm": 25.4,
+      "signal": 52.4,
       "mom": {
-        "ret5": -0.2341,
-        "vol_surge": 1.72
+        "ret5": -0.1322,
+        "vol_surge": 1.36
       },
       "earn_days": null,
       "consensus": {
@@ -680,364 +1026,6 @@
           "why": "格付イベント（機械判定）"
         }
       ]
-    },
-    {
-      "ticker": "DDOG",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 2,
-      "today_rank": 5,
-      "first_seen": "2026-08-08",
-      "name": "Datadog, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 49.2,
-      "confirm": 35.0,
-      "signal": 54.6,
-      "mom": {
-        "ret5": -0.053,
-        "vol_surge": 1.06
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Why Datadog (DDOG) Stock Is Down Today: Software Selloff on AI Fears",
-          "summary": "On Wednesday, Nov. 25, shares fell 8.5% as a tech selloff over AI fears hit software stocks, without company-specific news",
-          "pub": "2026-11-25T17:15",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-datadog-ddog-stock-down-171521066.html",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Datadog vs. Monday.com: Which Technology Stock Is a Better Buy for 2027?",
-          "summary": "Datadog's 33% revenue growth comes with a far richer price tag than Monday.com, but the cheaper stock carries risks investors shouldn't ignore.",
-          "pub": "2026-11-24T17:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/coverage/better-buy/2026/11/24/datadog-vs-monday-com-which-technology-stock-is-a-better-buy-for-2027/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Did The Sell-Off Punish Salesforce For Slow Growth?",
-          "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.",
-          "pub": "2026-11-24T13:27",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/crm/articles/628298/did-the-sell-off-punish-salesforce-for-slow-growth/2026-11-24",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        },
-        {
-          "title": "Datadog beat earnings—then its biggest AI customer hit the brakes",
-          "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
-          "pub": "2026-11-24T07:12",
-          "provider": "Investing.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/datadog-beat-earnings-then-biggest-071230736.html",
-          "dir": 0.8,
-          "conf": 0.8,
-          "type": "決算ビート",
-          "why": "+決算ビート"
-        },
-        {
-          "title": "Cloudflare Just Dropped 11% in a Month Despite “An Even Higher Gear.” Is It Time to Sell, or Load Up?",
-          "summary": "Key TakeawaysCloudflare stock is down 11% in the past month. An AI and software selloff that also hit Datadog and CrowdStrike pulled it lower, even though Cloudflare just posted its fastest revenue growth in nearly four years.",
-          "pub": "2026-11-24T06:00",
-          "provider": "TIKR",
-          "url": "https://www.tikr.com/blog/cloudflare-just-dropped-11-in-a-month-despite-an-even-higher-gear-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261124-7p6fqmwm",
-          "dir": -0.4,
-          "conf": 0.4,
-          "type": "急落報道",
-          "why": "-急落報道"
-        }
-      ]
-    },
-    {
-      "ticker": "GENI",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 3,
-      "today_rank": 8,
-      "first_seen": "2026-09-10",
-      "name": "Genius Sports Limited",
-      "sector": "Communication Services",
-      "persist": 100,
-      "news": 50.0,
-      "confirm": 32.9,
-      "signal": 54.3,
-      "mom": {
-        "ret5": -0.072,
-        "vol_surge": 1.3
-      },
-      "earn_days": null,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Genius Sports (GENI) Stock Is Up 11.3% Today Without Company News",
-          "summary": "On Wednesday, Nov. 25, the shares rose 11.3% without company-specific news as the broader market fell.",
-          "pub": "2026-11-25T18:45",
-          "provider": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/genius-sports-geni-stock-11-184528347.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Genius Sports (GENI) Stock Looks Fully Priced Against Its Sales",
-          "summary": "Genius Sports has seen its share price fall sharply this year, and that slide puts a spotlight on a simple question for investors who still follow the stock. Is the current US$5.18 price tag reasonable when you line it up against the revenue the business generates? The share price has dropped 51.9%",
-          "pub": "2026-11-22T01:11",
-          "provider": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/genius-sports-geni-stock-looks-011104935.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 15,
-      "today_rank": 16,
-      "first_seen": "2026-07-08",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 49.0,
-      "confirm": 28.1,
-      "signal": 52.4,
-      "mom": {
-        "ret5": -0.1475,
-        "vol_surge": 1.54
-      },
-      "earn_days": 20,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Elon Musk Offers Samsung Long-Term Chip Deals and Factory Funding, Gets Brushed Off: 'Everyone Else Was Offering That'",
-          "summary": "Samsung Electronics Co. Ltd. (OTC:SSNLF) was reportedly unmoved by offers from Tesla Inc. CEO Elon Musk (NASDAQ:TSLA) for long-term chip purchase commitments and guarantees to fund new factories. Capital Group Recalls Musk’s Samsung Talks Musk offered Samsung a long-term chip purchase commitment, bu",
-          "pub": "2026-11-27T06:44",
-          "provider": "Benzinga",
-          "url": "https://finance.yahoo.com/technology/articles/elon-musk-offers-samsung-long-064455133.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-          "summary": "Futures rose on Thanksgiving after a wild market session, with the Nasdaq rallying off lows and Anthropic reversing higher.",
-          "pub": "2026-11-27T04:23",
-          "provider": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-wild-ride-nasdaq-nvidia-slash-losses-anthropic-higher/?src=A00220&yptr=yahoo",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Micron (MU) Has Secured $32 Billion in Customer Commitments. Here’s Why That Matters",
-          "summary": "We just published the list of the 10 Best Tech Stocks to Buy for 2027 According to Hedge Funds, and Micron Technology, Inc. (NASDAQ:MU) ranked 8th on this list. Tech stocks aren’t lacking in growth stories for 2027. The problem is that smart money is increasingly selective about which companies it’s",
-          "pub": "2026-11-27T03:12",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-secured-32-billion-031249719.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Semiconductor Stock Through 2030, This Would Be It.",
-          "summary": "Taiwan Semiconductor offers a compelling way to capitalize on the artificial intelligence (AI) chip revolution without having to pick a winner among competing chip designers.",
-          "pub": "2026-11-26T23:14",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/26/not-nvidia-not-micron-if-i-could-buy-and-hold-only-1-artificial-intelligence-ai-semiconductor-stock-through-2030-this-would-be-it/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Why It’s Hard to Write Off Micron (MU) Even with a Memory Peak in Sight",
-          "summary": "Micron Technology (MU) is hard to write off, even with a memory cycle peak in sight. I remain Bullish on the stock. Let me explain why. The global provider of semiconductor memory has lost nearly half its market value since June as fears of an approaching memory cycle peak gain traction. The funny t",
-          "pub": "2026-11-26T21:00",
-          "provider": "TipRanks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-hard-write-off-micron-210000375.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 16,
-      "today_rank": 19,
-      "first_seen": "2026-07-08",
-      "name": "Broadcom Inc.",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 48.4,
-      "confirm": 26.4,
-      "signal": 51.6,
-      "mom": {
-        "ret5": -0.1502,
-        "vol_surge": 1.43
-      },
-      "earn_days": 12,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "Why Redburn Downgraded Broadcom (AVGO) Despite Surging AI Revenue",
-          "summary": "Broadcom Inc. (NASDAQ:AVGO) appears at No. 8 in 10 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027, with customer financing drawing scrutiny as AI sales surge. Coatue Management’s November 16 regulatory filing puts billionaire Philippe Laffont’s positioning back in focus a",
-          "pub": "2026-11-27T03:50",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-redburn-downgraded-broadcom-avgo-035057918.html",
-          "dir": -0.3,
-          "conf": 0.3,
-          "type": "急騰報道",
-          "why": "+急騰報道 -格下げ"
-        },
-        {
-          "title": "Broadcom (AVGO) Could Be the Biggest Winner From the Shift to Custom AI Chips",
-          "summary": "We just published the list of the 10 Best Tech Stocks to Buy for 2027 According to Hedge Funds, and Broadcom Inc. (NASDAQ:AVGO) ranked 9th on this list. Tech stocks aren’t lacking in growth stories for 2027. The problem is that smart money is increasingly selective about which companies it’s willing",
-          "pub": "2026-11-27T03:15",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-could-biggest-winner-031533044.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next.",
-          "summary": "Nvidia and Broadcom shares have pulled back sharply even as AI demand holds up. Past sell-offs offer clues for long-term investors.",
-          "pub": "2026-11-27T00:20",
-          "provider": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
-          "summary": "The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullbacks reflect heightened profit-taking and valuation concerns. They have also been exacerbated by shifting investor sentiment after the US mid",
-          "pub": "2026-11-26T19:47",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-most-oversold-semiconductor-stocks-194738573.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Goldman Sachs resets Broadcom's 12-month price target before earnings",
-          "summary": "AVGO AI funding and 2028 data center concerns grow.",
-          "pub": "2026-11-26T19:33",
-          "provider": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-stock-goldman-sachs-resets-avgo-stock-12-month-price-target-before-earnings",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
-    },
-    {
-      "ticker": "CIEN",
-      "tier": "確定",
-      "streak": 43,
-      "appearances": 15,
-      "best_rank": 3,
-      "today_rank": 11,
-      "first_seen": "2026-07-09",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "persist": 100,
-      "news": 48.0,
-      "confirm": 23.7,
-      "signal": 50.5,
-      "mom": {
-        "ret5": -0.0892,
-        "vol_surge": 1.03
-      },
-      "earn_days": 13,
-      "consensus": null,
-      "headlines": [
-        {
-          "title": "SEC 8-K提出: その他の重要イベント",
-          "summary": "",
-          "pub": "2026-11-16",
-          "provider": "SEC EDGAR",
-          "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026074023",
-          "dir": 0.1,
-          "conf": 0.3,
-          "type": "8-K 8.01",
-          "why": "その他の重要イベント（一次情報・機械判定）",
-          "is_edgar": true
-        },
-        {
-          "title": "Morgan Stanley’s 8 Best Networking & Optical Communications Stocks to Buy for 2027",
-          "summary": "Cloud operators sharply increased purchases of optical transport equipment in the third quarter of 2026. In its recent market update, Dell’Oro Group reported that vendors grew revenue from large North American cloud providers by 75% year over year. The overall optical transport market expanded 24%,",
-          "pub": "2026-11-27T04:02",
-          "provider": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/articles/morgan-stanley-8-best-networking-040254483.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can Optical Circuit Switching Become Fabrinet's Next Growth Driver?",
-          "summary": "FN sees a multi-hundred-million-dollar opportunity in optical circuit switching as growing customer demand and capacity expansion support its prospects.",
-          "pub": "2026-11-26T12:12",
-          "provider": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/optical-circuit-switching-become-fabrinets-121200862.html",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "What Are Ciena Investors Betting On?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "pub": "2026-11-25T11:12",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/cien/articles/628738/what-are-ciena-investors-betting-on/2026-11-25",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        },
-        {
-          "title": "Can Ciena Stock Hit $400?",
-          "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.",
-          "pub": "2026-11-24T17:37",
-          "provider": "Trefis",
-          "url": "https://www.trefis.com/stock/cien/articles/628392/can-ciena-stock-hit-400/2026-11-24",
-          "dir": 0.0,
-          "conf": 0.15,
-          "type": "一般",
-          "why": "特定イベント検出なし"
-        }
-      ]
     }
   ],
   "alert_summary": {
@@ -1059,6 +1047,46 @@
       "signal": 69.5,
       "price": 23.26,
       "spy": 716.7000122070312,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-27",
+      "ticker": "PLTR",
+      "signal": 72.0,
+      "price": 172.17,
+      "spy": 728.3200073242188,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-27",
+      "ticker": "CNQ",
+      "signal": 69.1,
+      "price": 46.17,
+      "spy": 728.3200073242188,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-27",
+      "ticker": "NVDA",
+      "signal": 67.8,
+      "price": 150.49,
+      "spy": 728.3200073242188,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-27",
+      "ticker": "COUR",
+      "signal": 67.4,
+      "price": 3.8,
+      "spy": 728.3200073242188,
+      "grades": {}
+    },
+    {
+      "date": "2026-11-27",
+      "ticker": "NEM",
+      "signal": 65.2,
+      "price": 106.87,
+      "spy": 728.3200073242188,
       "grades": {}
     },
     {
@@ -1181,56 +1209,6 @@
       "spy": 739.9500122070312,
       "grades": {
         "5": -0.0681
-      }
-    },
-    {
-      "date": "2026-11-16",
-      "ticker": "AMD",
-      "signal": 76.4,
-      "price": 534.06,
-      "spy": 754.3699951171875,
-      "grades": {
-        "5": -0.1198
-      }
-    },
-    {
-      "date": "2026-11-16",
-      "ticker": "CORZ",
-      "signal": 72.4,
-      "price": 14.52,
-      "spy": 754.3699951171875,
-      "grades": {
-        "5": -0.1341
-      }
-    },
-    {
-      "date": "2026-11-16",
-      "ticker": "CIEN",
-      "signal": 70.3,
-      "price": 280.54,
-      "spy": 754.3699951171875,
-      "grades": {
-        "5": -0.079
-      }
-    },
-    {
-      "date": "2026-11-16",
-      "ticker": "MU",
-      "signal": 70.0,
-      "price": 778.31,
-      "spy": 754.3699951171875,
-      "grades": {
-        "5": -0.1506
-      }
-    },
-    {
-      "date": "2026-11-16",
-      "ticker": "WDC",
-      "signal": 69.3,
-      "price": 295.65,
-      "spy": 754.3699951171875,
-      "grades": {
-        "5": -0.0312
       }
     }
   ],
